@@ -1,0 +1,13 @@
+{
+  "showLineNumber": false,
+  "tabSize": 2,
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "1",
+    "downscalePercent": 100
+  },
+  "useTab": false
+}

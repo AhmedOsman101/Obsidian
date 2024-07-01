@@ -72,10 +72,10 @@ $col->nullable(default: true); // declares a column as nullable (accept null val
 
 **Migration naming conventions:**
 
--   adding a column: `add_email_in_users_table`.
--   rename a column: `rename_name_to_username_on_users_table`.
--   dropping a column: `drop_email_from_users_table`.
--   adding a column: `add_email_in_users_table`.
+- adding a column: `add_email_in_users_table`.
+- rename a column: `rename_name_to_username_on_users_table`.
+- dropping a column: `drop_email_from_users_table`.
+- adding a column: `add_email_in_users_table`.
 
 ```php
 $table->softDeletes(); // Adds `deleted_at` timestamp.
@@ -142,6 +142,8 @@ $data->each(function ($item) { // loop over the collection with the callback
 Example:
 ![](code1.png)
 
+### Reading Data:
+
 ```php
 $t = DB::table(table: 'users'); // Specify the table you are working on
 
@@ -170,8 +172,6 @@ $q3->value(column: 'name'); // Returns a single value from the query.
 // Useful when you only need one value from a record.
 
 $q4 = $t->find(id: 1); // searches for a record by its primary key (id). returns an Object.
-
-$q5 =
 ```
 
 The `pluck()` method is used to retrieve a single column's value from the first result of a query. Returns an array.
@@ -183,6 +183,35 @@ The `pluck()` method is used to retrieve a single column's value from the first 
 `pluck('email', 'name')` method output:
 
 ![](code3.png)
+
+## Creating Data:
+
+```php
+$t = DB::table(table: 'users'); // Specify the table you are working on
+$data = [
+  "name"     => "John Doe",
+  "email"    => "JohnDoe@mail.com",
+  "password" => "password"
+]
+$t->insert($data); // Inserts a new record, timestamps are null Returns true on success
+
+$t->insertOrIgnore($data); // returns 1 on success, returns 0 if existed.
+// Allows you to insert data into a database table only if the data doesn't already exist in the table.
+
+$t->upsert($data); // Insert new records or update the existing ones.
+
+$t->insertGetId($data); // Insert new record and grab its id in a single query.
+```
+
+Updating Data:
+
+```php
+$t = DB::table(table: 'users'); // Specify the table you are working on
+
+$t->where('name', 'Jane Doe')->update([
+  "password" => "newPassword"
+]); // Finds the user and updates its password field to `newPassword`.
+```
 
 ---
 

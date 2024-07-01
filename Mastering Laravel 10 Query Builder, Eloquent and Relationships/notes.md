@@ -10,7 +10,9 @@ $col->unique(); // unique column that can't have duplicates
 
 $table->unique(['email', 'username']); // define multiple unique columns at once
 
-$table->id()->from(startingValue: 5000); // changes the starting value of the autoincrement property. Equivalent to `ALTER TABLE tableName AUTO_INCREMENT = 5000;` 
+$table->id()->from(startingValue: 5000); // changes the starting value of 
+// the autoincrement property. 
+// Equivalent to `ALTER TABLE tableName AUTO_INCREMENT = 5000;` 
 
 $table->bigIncrements('user_id'); // Custom primary key
 
@@ -139,7 +141,9 @@ Example:
 ![](code1.png)
 
 ```php
-DB::table(table: 'users'); // specify the table you are working on
+$query = DB::table(table: 'users'); // Specify the table you are working on
+$query->select(columns: ["name", "email"]); // specify which columns to retrive
+// default is ["*"] (all columns).
 ```
 
 ---

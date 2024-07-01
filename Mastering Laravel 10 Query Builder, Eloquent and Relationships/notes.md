@@ -146,7 +146,7 @@ Example:
 $t = DB::table(table: 'users'); // Specify the table you are working on
 
 $q1 = $t->select(columns: ["name", "email"]);
-// Specify which columns to retrive default is ["*"] (all columns).
+// Specify which columns to retrieve default is ["*"] (all columns).
 
 $q1 = $t->get(); // Get the result as an array of rows
 
@@ -182,7 +182,7 @@ The `pluck()` method is used to retrieve a single column's value from the first 
 
 `pluck('email', 'name')` method output:
 
-![](Mastering%20Laravel%2010%20Query%20Builder,%20Eloquent%20and%20Relationships/code3.png)
+![](code3.png)
 
 ---
 

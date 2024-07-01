@@ -141,9 +141,14 @@ Example:
 ![](code1.png)
 
 ```php
-$query = DB::table(table: 'users'); // Specify the table you are working on
-$query->select(columns: ["name", "email"]); // specify which columns to retrive
-// default is ["*"] (all columns).
+$q = DB::table(table: 'users'); // Specify the table you are working on
+
+$q = $q->select(columns: ["name", "email"]); 
+// specify which columns to retrive default is ["*"] (all columns).
+
+$q = $q->get(); // get the result as an array of rows
+
+$q->select('name as username'); // changes the output name of the column
 ```
 
 ---
@@ -172,6 +177,8 @@ $collection->each(function (int $item, int $key) {
 
 `art db:show --database=db_type` => Shows info about specific database, useful when having multiple db connections. db type can be MySQL, SQLite, etc.
 
+`art tinker` => Interact with your application, runs a REPL interface to do database operations.
+
 ```php
 env('key', 'defaultValue'); // Helper function that retrieves the value of an environment variable or returns a default value.
 
@@ -180,5 +187,3 @@ Str::slug(string $title, string $separator = '-'); // Generate a URL friendly "s
 User::insert(); // Doesn't add timestamps automatically.
 User::create(); // Adds timestamps automatically .
 ```
-
-`art tinker` => Interact with your application, runs a REPL interface to do database operations.

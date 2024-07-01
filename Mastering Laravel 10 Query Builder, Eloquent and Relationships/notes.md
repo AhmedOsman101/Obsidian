@@ -23,7 +23,8 @@ $table->foreign('post_id') // creates a foreign key `post_id`
 // If a record in the parent table is deleted, all related records in the child table will also be automatically deleted.
 
 // creating a foreign key (modern way):
-$table->foreignId('post_id', model: Post::class) // model is optional (automatically inferred but provide it when having weird names).
+$table->foreignId('post_id', model: Post::class) 
+// model is optional (automatically inferred but provide it when having weird names).
 // or
 $table->foreignId('post_id')->constrained('posts'); // Constrained by default sets up an `ON DELETE CASCADE` constraint.
 

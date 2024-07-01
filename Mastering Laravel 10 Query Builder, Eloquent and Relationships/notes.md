@@ -1,7 +1,8 @@
 # Mastering Laravel 10 Query Builder, Eloquent and Relationships
 
 ## Migrations:
-### Column modifiers: 
+
+### Column modifiers:
 
 ```php
 $col = $table->string('email');
@@ -10,8 +11,8 @@ $col->unique(); // unique column that can't have duplicates
 
 $table->unique(['email', 'username']); // define multiple unique columns at once
 
-$table->id()->from(startingValue: 5000); // changes the starting value of the autoincrement property. 
-// Equivalent to `ALTER TABLE tableName AUTO_INCREMENT = 5000;` 
+$table->id()->from(startingValue: 5000); // changes the starting value of the autoincrement property.
+// Equivalent to `ALTER TABLE tableName AUTO_INCREMENT = 5000;`
 
 $table->bigIncrements('user_id'); // Custom primary key
 
@@ -19,11 +20,11 @@ $table->bigIncrements('user_id'); // Custom primary key
 $table->unsignedBigInteger('post_id'); // datatype for the foreign key
 $table->foreign('post_id') // creates a foreign key `post_id`
       ->references('id')->on('posts') // refers to posts.id
-      ->cascadeOnDelete(); 
+      ->cascadeOnDelete();
 // If a record in the parent table is deleted, all related records in the child table will also be automatically deleted.
 
 // creating a foreign key (modern way):
-$table->foreignId('post_id', model: Post::class) 
+$table->foreignId('post_id', model: Post::class)
 // model is optional (automatically inferred but provide it when having weird names).
 // or
 $table->foreignId('post_id')->constrained('posts'); // Constrained by default sets up an `ON DELETE CASCADE` constraint.
@@ -69,12 +70,12 @@ $col->nullable(default: true); // declares a column as nullable (accept null val
 
 `art make:migration --table[=TABLE]` => The table to migrate.
 
-**Migration naming conventions:** 
+**Migration naming conventions:**
 
-- adding a column: `add_email_in_users_table`.
-- rename a column: `rename_name_to_username_on_users_table`.
-- dropping a column: `drop_email_from_users_table`.
-- adding a column: `add_email_in_users_table`.
+-   adding a column: `add_email_in_users_table`.
+-   rename a column: `rename_name_to_username_on_users_table`.
+-   dropping a column: `drop_email_from_users_table`.
+-   adding a column: `add_email_in_users_table`.
 
 ```php
 $table->softDeletes(); // Adds `deleted_at` timestamp.
@@ -102,6 +103,7 @@ $this->call([
 ```
 
 **Reading data from JSON files:**
+
 ```php
 // 1. Create a JSON file in `database\json` and name it after the table name e.g. `users.json`.
 
@@ -109,19 +111,19 @@ $this->call([
 $json = File::get('database/json/users.json'); // returns the json text
 
 // 3. convert it, there is two ways:
-// First way: 
+// First way:
 $data = json_decode($json, associative: true); // returns an associative array with the content of the file
 
-// Second way: 
+// Second way:
 $data = collect(json_decode($json)); // convert to collection
 
 // 4. Insert the data:
-// First way: 
+// First way:
 foreach ($data as $item) { // loop over the assoc array
 	User::create($item);
 }
 
-// Second way: 
+// Second way:
 $data->each(function ($item) { // loop over the collection with the callback
     User::create([
         "name" => $item->name,
@@ -143,7 +145,7 @@ Example:
 ```php
 $t = DB::table(table: 'users'); // Specify the table you are working on
 
-$q1 = $t->select(columns: ["name", "email"]); 
+$q1 = $t->select(columns: ["name", "email"]);
 // Specify which columns to retrive default is ["*"] (all columns).
 
 $q1 = $t->get(); // Get the result as an array of rows
@@ -155,7 +157,7 @@ $t->distinct(); // Force the query to only return distinct results.
 // that contains it.
 
 $q2 = $t->select(['name', 'email']);
-$q2->addSelect('password')->get(); 
+$q2->addSelect('password')->get();
 // Adds more columns to your SELECT clause of a query. You MUST add the `get()`
 // method to the last statement.
 
@@ -164,21 +166,21 @@ $q3 = $t->where(column: "id", operator: 2); // where`id` = 2;
 
 $q3->first(); // Get the first column that matches this clause. Returns an object not an array.
 
-$q3->value(column: 'name'); // Returns a single value from the query. 
+$q3->value(column: 'name'); // Returns a single value from the query.
 // Useful when you only need one value from a record.
 
 $q4 = $t->find(id: 1); // searches for a record by its primary key (id). returns an Object.
 
-$q5 = 
+$q5 =
 ```
 
 The `pluck()` method is used to retrieve a single column's value from the first result of a query. Returns an array.
 
-`pluck('name')` method output: 
+`pluck('name')` method output:
 
 ![](code2.png)
 
-`pluck('email', 'name')` method output: 
+`pluck('email', 'name')` method output:
 
 ![](Mastering%20Laravel%2010%20Query%20Builder,%20Eloquent%20and%20Relationships/code3.png)
 
@@ -189,11 +191,13 @@ The `pluck()` method is used to retrieve a single column's value from the first 
 `Collection` class provides a fluent, convenient wrapper for working with arrays of data. the `Collection` class allows you to chain its methods to perform fluent mapping and reducing of the underlying array. In general, collections are immutable, meaning every `Collection` method returns an entirely new `Collection` instance.
 
 the `collect` helper to create a new collection instance from the given data:
+
 ```php
 $collection = collect(['taylor', 'abigail']); // creates a collection instance from the given value.
 ```
 
 The `each` method iterates over the items in the collection and passes each item to a closure:
+
 ```php
 $collection = collect([1, 2, 3, 4]); 
 $collection->each(function (int $item, int $key) {
@@ -202,6 +206,7 @@ $collection->each(function (int $item, int $key) {
 ```
 
 ---
+
 ## Miscellaneous:
 
 `art db:show` => Shows current database information.

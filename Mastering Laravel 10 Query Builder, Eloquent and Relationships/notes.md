@@ -10,8 +10,7 @@ $col->unique(); // unique column that can't have duplicates
 
 $table->unique(['email', 'username']); // define multiple unique columns at once
 
-$table->id()->from(startingValue: 5000); // changes the starting value of 
-// the autoincrement property. 
+$table->id()->from(startingValue: 5000); // changes the starting value of the autoincrement property. 
 // Equivalent to `ALTER TABLE tableName AUTO_INCREMENT = 5000;` 
 
 $table->bigIncrements('user_id'); // Custom primary key

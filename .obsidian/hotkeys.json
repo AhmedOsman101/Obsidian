@@ -1,26 +1,10 @@
 {
-  "editor:insert-codeblock": [
+  "editor:open-search-replace": [
     {
       "modifiers": [
         "Mod"
       ],
-      "key": "J"
-    }
-  ],
-  "editor:swap-line-down": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "ArrowDown"
-    }
-  ],
-  "editor:swap-line-up": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "ArrowUp"
+      "key": "R"
     }
   ],
   "window:reset-zoom": [
@@ -31,12 +15,28 @@
       "key": "Numpad0"
     }
   ],
-  "editor:open-search-replace": [
+  "editor:swap-line-up": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "editor:swap-line-down": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "editor:insert-codeblock": [
     {
       "modifiers": [
         "Mod"
       ],
-      "key": "R"
+      "key": "J"
     }
   ],
   "editor:insert-horizontal-rule": [
@@ -46,5 +46,15 @@
       ],
       "key": "H"
     }
-  ]
+  ],
+  "workspace:close-others": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "W"
+    }
+  ],
+  "workspace:close-window": []
 }

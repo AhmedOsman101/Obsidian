@@ -136,7 +136,7 @@ $data->each(function ($item) { // loop over the collection with the callback
 `art db:table [<table>]` => Display information about the given database table.
 
 Example:
-![[code1.png]]
+![code1.png]
 
 ```php
 DB::table(table: 'users'); // specify the table you are working on

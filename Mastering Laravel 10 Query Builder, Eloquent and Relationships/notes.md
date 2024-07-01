@@ -141,15 +141,46 @@ Example:
 ![](code1.png)
 
 ```php
-$q = DB::table(table: 'users'); // Specify the table you are working on
+$t = DB::table(table: 'users'); // Specify the table you are working on
 
-$q = $q->select(columns: ["name", "email"]); 
-// specify which columns to retrive default is ["*"] (all columns).
+$q1 = $t->select(columns: ["name", "email"]); 
+// Specify which columns to retrive default is ["*"] (all columns).
 
-$q = $q->get(); // get the result as an array of rows
+$q1 = $t->get(); // Get the result as an array of rows
 
-$q->select('name as username'); // changes the output name of the column
+$t->select('name as username'); // Changes the output name of the column.
+
+$t->distinct(); // Force the query to only return distinct results.
+// if a value is repeated more than once, it will take only the first row
+// that contains it.
+
+$q2 = $t->select(['name', 'email']);
+$q2->addSelect('password')->get(); 
+// Adds more columns to your SELECT clause of a query. You MUST add the `get()`
+// method to the last statement.
+
+$q3 = $t->where(column: "id", operator: 2); // where`id` = 2;
+// This will select the user of id `1` only.
+
+$q3->first(); // Get the first column that matches this clause. Returns an object not an array.
+
+$q3->value(column: 'name'); // Returns a single value from the query. 
+// Useful when you only need one value from a record.
+
+$q4 = $t->find(id: 1); // searches for a record by its primary key (id). returns an Object.
+
+$q5 = 
 ```
+
+The `pluck()` method is used to retrieve a single column's value from the first result of a query. Returns an array.
+
+`pluck('name')` method output: 
+
+![](code2.png)
+
+`pluck('email', 'name')` method output: 
+
+![](Mastering%20Laravel%2010%20Query%20Builder,%20Eloquent%20and%20Relationships/code3.png)
 
 ---
 

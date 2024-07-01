@@ -16,13 +16,13 @@ $table->bigIncrements('user_id'); // Custom primary key
 
 // creating a foreign key manually:
 $table->unsignedBigInteger('post_id'); // datatype for the foreign key
-$table->foreign('post_id') // creates a foerign key `post_id`
+$table->foreign('post_id') // creates a foreign key `post_id`
       ->references('id')->on('posts') // refers to posts.id
       ->cascadeOnDelete(); 
 // If a record in the parent table is deleted, all related records in the child table will also be automatically deleted.
 
 // creating a foreign key (modern way):
-$table->foreignId('post_id', model: Post::class) // model is optional (automaically infered but provide it when having weird names).
+$table->foreignId('post_id', model: Post::class) // model is optional (automatically inferred but provide it when having weird names).
 // or
 $table->foreignId('post_id')->constrained('posts'); // Constrained by default sets up an `ON DELETE CASCADE` constraint.
 
@@ -32,7 +32,7 @@ $col->default('any value'); // adds a default value to the column
 
 $col->first(); // change order in the database
 
-$col->nullable(default: true); // decalres a column as nullable (accept null values)
+$col->nullable(default: true); // declares a column as nullable (accept null values)
 ```
 
 `art migrate:status` => Show the status of each migration.
@@ -136,7 +136,7 @@ $data->each(function ($item) { // loop over the collection with the callback
 `art db:table [<table>]` => Display information about the given database table.
 
 Example:
-![[code1.png]]
+![](code1.png)
 
 ```php
 DB::table(table: 'users'); // specify the table you are working on

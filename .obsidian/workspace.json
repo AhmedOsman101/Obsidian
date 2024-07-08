@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e8d121cff97ff288",
+        "id": "568005f06ca2a745",
         "type": "tabs",
         "children": [
           {
-            "id": "393bc1e45fe4acd3",
+            "id": "f273e9767d554ede",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -143,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,17 +156,31 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "79675c7adbc8b037",
+  "active": "f273e9767d554ede",
   "lastOpenFiles": [
+    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/exports/fonts/FiraCodeNerdFontMono-Regular.ttf",
+    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/exports/fonts",
+    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/exports/main.css",
+    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/exports/notes.html",
+    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/exports",
+    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/notes.html",
+    "image.png",
+    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/tex2pdf.-37ba62f459ad3640/input.log",
+    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/tex2pdf.-37ba62f459ad3640/input.tex",
+    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/tex2pdf.-37ba62f459ad3640/code3.png",
+    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/tex2pdf.-37ba62f459ad3640/code2.png",
+    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/tex2pdf.-37ba62f459ad3640/code1.png",
+    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/tex2pdf.-37ba62f459ad3640",
     "Mastering Laravel 10 Query Builder, Eloquent and Relationships/notes.pdf",
     "Mastering Laravel 10 Query Builder, Eloquent and Relationships/notes.md",
-    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/code3.png",
-    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/code3.png",
-    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/code2.png",
-    "Pasted image 20240701160714.png",
+    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/tex2pdf.-895db06674f66e56/input.pdf",
+    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/tex2pdf.-895db06674f66e56/code3.png",
+    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/tex2pdf.-895db06674f66e56/code2.png",
+    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/tex2pdf.-895db06674f66e56/code1.png",
+    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/tex2pdf.-467a59b567178ddf/code3.png",
+    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/tex2pdf.-467a59b567178ddf/code2.png",
+    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/tex2pdf.-467a59b567178ddf/code1.png",
     "notes.md",
-    "Notes/notes.md",
-    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/code1.png",
-    "Mastering Laravel 10 Query Builder, Eloquent and Relationships"
+    "Notes/notes.md"
   ]
 }

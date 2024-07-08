@@ -217,7 +217,7 @@ $t->insertGetId($data); // Insert new record and grab its id in a single query.
 
 ```php
 $t = DB::table(table: 'users'); // Specify the table you are working on
-$q = DB::table('users')->where('id', 2); // Spcific row to operate on.
+$q = DB::table('users')->where('id', 2); // Specific row to operate on.
 
 // Finds the user and updates its password field to `newPassword`.
 $q->update(["password" => "newPassword"]); 
@@ -241,14 +241,14 @@ $t->updateOrInsert(
 
 ```php
 $t = DB::table(table: 'users'); // Specify the table you are working on
-$q = DB::table('users')->where('id', 2); // Spcific row to operate on.
+$q = DB::table('users')->where('id', 2); // Specific row to operate on.
 ```
 
 ## Modifiers:
 
 ```php
 $t = DB::table(table: 'users'); // Specify the table you are working on.
-$q = DB::table('users')->where('id', 2); // Spcific row to operate on.
+$q = DB::table('users')->where('id', 2); // Specific row to operate on.
 
 $t->where(column: "id", value: 2); // where`id` = 2;
 // This will select the user of id `1` only.

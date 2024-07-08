@@ -163,7 +163,7 @@ $q2->addSelect('password')->get();
 // Adds more columns to your SELECT clause of a query. You MUST add the `get()`
 // method to the last statement.
 
-$q3 = $t->where(column: "id", operator: 2); // where`id` = 2;
+$q3 = $t->where(column: "id", value: 2); // where`id` = 2;
 // This will select the user of id `1` only.
 
 $q3->first(); // Get the first column that matches this clause. Returns an object not an array.
@@ -174,7 +174,7 @@ $q3->value(column: 'name'); // Returns a single value from the query.
 $q4 = $t->find(id: 1); // searches for a record by its primary key (id). returns an Object.
 ```
 
-The `pluck()` method is used to retrieve a single column's value from the first result of a query. Returns an array.
+The `pluck()` method is used to retrieve a single column's value from the first result of a query. It takes two arguments the first is the `column` that you want to pluck the second an optional `key` to the values. Returns an array.
 
 `pluck('name')` method output:
 
@@ -192,25 +192,80 @@ $data = [
   "name"     => "John Doe",
   "email"    => "JohnDoe@mail.com",
   "password" => "password"
-]
+];
+
 $t->insert($data); // Inserts a new record, timestamps are null Returns true on success
 
 $t->insertOrIgnore($data); // returns 1 on success, returns 0 if existed.
 // Allows you to insert data into a database table only if the data doesn't already exist in the table.
 
-$t->upsert($data); // Insert new records or update the existing ones.
+$values = [
+  'email'   => 'john.doe@example.com',  
+  'name'    => 'John Doe updated',
+  'revenue' => 1000,  
+];  
+$uniqueBy = 'email';  
+$update = ['name', 'revenue'];  
+  
+$t->upsert($values, $uniqueBy, $update); 
+// Insert new records or update the existing ones. Tries to insert first.
 
 $t->insertGetId($data); // Insert new record and grab its id in a single query.
 ```
 
-Updating Data:
+## Updating Data:
 
 ```php
 $t = DB::table(table: 'users'); // Specify the table you are working on
+$q = DB::table('users')->where('id', 2); // Spcific row to operate on.
 
-$t->where('name', 'Jane Doe')->update([
-  "password" => "newPassword"
-]); // Finds the user and updates its password field to `newPassword`.
+// Finds the user and updates its password field to `newPassword`.
+$q->update(["password" => "newPassword"]); 
+// Returns the number of affected rows (int).
+
+// Insert or update a record matching the attributes, and fill it with values.
+// Tries to update first.
+$t->updateOrInsert(  
+  attributes: ['age' => 67],  
+  values    : [  
+    "name"    => "new user",  
+    "email"   => "newest@email.com",  
+    "revenue" => 5000,  
+  ]  
+); // Searches for a row with the given `attributes` (age of 67).
+// If it exists update it with the `values` array.
+// Else create a new row with the two arrays combined.
+```
+
+## Deleting Data:
+
+```php
+$t = DB::table(table: 'users'); // Specify the table you are working on
+$q = DB::table('users')->where('id', 2); // Spcific row to operate on.
+```
+
+## Modifiers:
+
+```php
+$t = DB::table(table: 'users'); // Specify the table you are working on.
+$q = DB::table('users')->where('id', 2); // Spcific row to operate on.
+
+$t->where(column: "id", value: 2); // where`id` = 2;
+// This will select the user of id `1` only.
+
+$t->where(column: 'type', operator: '!=', value: 'admin');
+// The `where()` method takes three arguments: `column`, optional `operator` with default value of `==` and a value to compare against.
+
+$t->orWhere(column: 'type', value: 'user');
+// Use `orWhere()` method to match multiple records at once. Order matters.
+// Always put where clause at the top of the query.
+
+// The increment() and decrement() methods are used to increment or decrement 
+// the value of a column by a given amount, default 1.
+$t->increment(column: 'age'); // Increments the `age` column by one
+$t->decrement(column: 'revenue', amount: 1000); // Decrements the `revenue` column by 1000.
+
+$q->incrementEach(['age' => 2, 'revenue' => 50]); // Increment the given column's values by the given amounts.
 ```
 
 ---

@@ -140,7 +140,7 @@ $data->each(function ($item) { // loop over the collection with the callback
 `art db:table [<table>]` => Display information about the given database table.
 
 Example:
-![](code1.png)
+![](images/code1.png)
 
 ### Reading Data:
 
@@ -178,11 +178,11 @@ The `pluck()` method is used to retrieve a single column's value from the first 
 
 `pluck('name')` method output:
 
-![](code2.png)
+![](images/code2.png)
 
 `pluck('email', 'name')` method output:
 
-![](code3.png)
+![](images/code3.png)
 
 ## Creating Data:
 

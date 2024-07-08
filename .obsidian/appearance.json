@@ -1,4 +1,5 @@
 {
   "textFontFamily": "FiraCode Nerd Font",
-  "monospaceFontFamily": "FiraCode Nerd Font Mono"
+  "monospaceFontFamily": "FiraCode Nerd Font Mono",
+  "cssTheme": "GitHub Theme"
 }

@@ -8,13 +8,49 @@ const courses = ref([
     description:
       "Throughout the course, you'll be introduced to the basics of databases and Eloquent ORM, and then dive deeper into more advanced topics such as database migrations, relationships, and performance optimization.",
     url: '/Course_1'
+  },
+  {
+    title: 'Mastering Laravel 10 Query Builder, Eloquent and Relationships',
+    description:
+      "Throughout the course, you'll be introduced to the basics of databases and Eloquent ORM, and then dive deeper into more advanced topics such as database migrations, relationships, and performance optimization.",
+    url: '/Course_1'
+  },
+  {
+    title: 'Mastering Laravel 10 Query Builder, Eloquent and Relationships',
+    description:
+      "Throughout the course, you'll be introduced to the basics of databases and Eloquent ORM, and then dive deeper into more advanced topics such as database migrations, relationships, and performance optimization.",
+    url: '/Course_1'
+  },
+  {
+    title: 'Mastering Laravel 10 Query Builder, Eloquent and Relationships',
+    description:
+      "Throughout the course, you'll be introduced to the basics of databases and Eloquent ORM, and then dive deeper into more advanced topics such as database migrations, relationships, and performance optimization.",
+    url: '/Course_1'
+  },
+  {
+    title: 'Mastering Laravel 10 Query Builder, Eloquent and Relationships',
+    description:
+      "Throughout the course, you'll be introduced to the basics of databases and Eloquent ORM, and then dive deeper into more advanced topics such as database migrations, relationships, and performance optimization.",
+    url: '/Course_1'
+  },
+  {
+    title: 'Mastering Laravel 10 Query Builder, Eloquent and Relationships',
+    description:
+      "Throughout the course, you'll be introduced to the basics of databases and Eloquent ORM, and then dive deeper into more advanced topics such as database migrations, relationships, and performance optimization.",
+    url: '/Course_1'
+  },
+  {
+    title: 'Mastering Laravel 10 Query Builder, Eloquent and Relationships',
+    description:
+      "Throughout the course, you'll be introduced to the basics of databases and Eloquent ORM, and then dive deeper into more advanced topics such as database migrations, relationships, and performance optimization.",
+    url: '/Course_1'
   }
 ])
 </script>
 
 <template>
   <h1 class="text-xl text-center font-bold text-white py-7">My Courses</h1>
-  <main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center px-6 gap-6">
+  <main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center px-10 mb-6 gap-10">
     <Card
       :key="course.title"
       v-for="course in courses"

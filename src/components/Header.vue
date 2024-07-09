@@ -44,12 +44,12 @@ const back = () => router.back()
 </script>
 
 <template>
-  <section ref="head" class="px-4 py-3 sticky top-0 shadow-2xl z-50 text-white bg-gray-800">
-    <div class="flex gap-2 items-center w-full">
+  <section ref="head" class="px-4 py-3 sticky top-0 shadow-2xl z-50 text-white">
+    <div class="flex gap-x-3 items-center w-full">
       <button class="w-8 h-8 grid place-items-center rounded-full hover:bg-[#181919]" @click="back">
         <i class="fa-solid fa-arrow-left" />
       </button>
-      <h1 class="text-lg sm:text-xl font-bold" v-text="$props.title" />
+      <h1 class="lg:text-xl md:text-lg sm:text-base text-sm" v-text="$props.title" />
     </div>
   </section>
 </template>

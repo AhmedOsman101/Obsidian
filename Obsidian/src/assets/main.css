@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Fira Code Nerd Font Mono';
+    src: url('fonts/FiraCodeNerdFontMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*:not(i) {
+    font-family: 'Fira Code Nerd Font Mono', monospace !important;
+}

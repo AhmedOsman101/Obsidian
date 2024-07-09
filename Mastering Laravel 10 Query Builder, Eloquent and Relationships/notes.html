@@ -6,7 +6,7 @@
 		</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="../exports/main.css" />
+		<link rel="stylesheet" href="../assets/main.css" />
 
 		<script type="text/javascript">
 			window.MathJax = {
@@ -212,7 +212,7 @@
 				<code>art db:table [&lt;table&gt;]</code> =&gt; Display
 				information about the given database table.
 			</p>
-			<p>Example: <img src="../code1.png" /></p>
+			<p>Example: <img src="images/code1.png" /></p>
 			<h3 id="reading-data">Reading Data:</h3>
 			<pre
 				class="text language-text language-php php"
@@ -252,9 +252,9 @@
 				Returns an array.
 			</p>
 			<p><code>pluck('name')</code> method output:</p>
-			<p><img src="../code2.png" /></p>
+			<p><img src="images/code2.png" /></p>
 			<p><code>pluck('email', 'name')</code> method output:</p>
-			<p><img src="../code3.png" /></p>
+			<p><img src="images/code3.png" /></p>
 			<h2 id="creating-data">Creating Data:</h2>
 			<pre
 				class="text language-text language-php php"
@@ -288,7 +288,7 @@
 				class="text language-text language-php php"
 				data-role="codeBlock"
 				data-info="php"><code><span class="token variable">$t</span> <span class="token operator">=</span> <span class="token scope">DB<span class="token punctuation">::</span></span><span class="token function">table</span><span class="token punctuation">(</span><span class="token argument-name">table</span><span class="token punctuation">:</span> <span class="token string single-quoted-string">'users'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Specify the table you are working on</span>
-<span class="token variable">$q</span> <span class="token operator">=</span> <span class="token scope">DB<span class="token punctuation">::</span></span><span class="token function">table</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'users'</span><span class="token punctuation">)</span><span class="token operator">-&gt;</span><span class="token function">where</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'id'</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Spcific row to operate on.</span>
+<span class="token variable">$q</span> <span class="token operator">=</span> <span class="token scope">DB<span class="token punctuation">::</span></span><span class="token function">table</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'users'</span><span class="token punctuation">)</span><span class="token operator">-&gt;</span><span class="token function">where</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'id'</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// specific row to operate on.</span>
 
 <span class="token comment">// Finds the user and updates its password field to `newPassword`.</span>
 <span class="token variable">$q</span><span class="token operator">-&gt;</span><span class="token function">update</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string double-quoted-string">"password"</span> <span class="token operator">=&gt;</span> <span class="token string double-quoted-string">"newPassword"</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
@@ -311,13 +311,13 @@
 				class="text language-text language-php php"
 				data-role="codeBlock"
 				data-info="php"><code><span class="token variable">$t</span> <span class="token operator">=</span> <span class="token scope">DB<span class="token punctuation">::</span></span><span class="token function">table</span><span class="token punctuation">(</span><span class="token argument-name">table</span><span class="token punctuation">:</span> <span class="token string single-quoted-string">'users'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Specify the table you are working on</span>
-<span class="token variable">$q</span> <span class="token operator">=</span> <span class="token scope">DB<span class="token punctuation">::</span></span><span class="token function">table</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'users'</span><span class="token punctuation">)</span><span class="token operator">-&gt;</span><span class="token function">where</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'id'</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Spcific row to operate on.</span></code></pre>
+<span class="token variable">$q</span> <span class="token operator">=</span> <span class="token scope">DB<span class="token punctuation">::</span></span><span class="token function">table</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'users'</span><span class="token punctuation">)</span><span class="token operator">-&gt;</span><span class="token function">where</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'id'</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// specific row to operate on.</span></code></pre>
 			<h2 id="modifiers">Modifiers:</h2>
 			<pre
 				class="text language-text language-php php"
 				data-role="codeBlock"
 				data-info="php"><code><span class="token variable">$t</span> <span class="token operator">=</span> <span class="token scope">DB<span class="token punctuation">::</span></span><span class="token function">table</span><span class="token punctuation">(</span><span class="token argument-name">table</span><span class="token punctuation">:</span> <span class="token string single-quoted-string">'users'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Specify the table you are working on.</span>
-<span class="token variable">$q</span> <span class="token operator">=</span> <span class="token scope">DB<span class="token punctuation">::</span></span><span class="token function">table</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'users'</span><span class="token punctuation">)</span><span class="token operator">-&gt;</span><span class="token function">where</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'id'</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Spcific row to operate on.</span>
+<span class="token variable">$q</span> <span class="token operator">=</span> <span class="token scope">DB<span class="token punctuation">::</span></span><span class="token function">table</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'users'</span><span class="token punctuation">)</span><span class="token operator">-&gt;</span><span class="token function">where</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'id'</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// specific row to operate on.</span>
 
 <span class="token variable">$t</span><span class="token operator">-&gt;</span><span class="token function">where</span><span class="token punctuation">(</span><span class="token argument-name">column</span><span class="token punctuation">:</span> <span class="token string double-quoted-string">"id"</span><span class="token punctuation">,</span> <span class="token argument-name">value</span><span class="token punctuation">:</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// where`id` = 2;</span>
 <span class="token comment">// This will select the user of id `1` only.</span>

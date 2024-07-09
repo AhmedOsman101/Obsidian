@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
 	font-family: "Fira Code Nerd Font Mono";
 	src: url("fonts/FiraCodeNerdFontMono-Regular.ttf") format("truetype");
@@ -42,7 +46,7 @@ pre[class*="language-"] {
 	padding: 1em;
 	margin: 0.5em 0;
 	overflow: auto;
-  width: 100%;
+	width: 100%;
 	background: #161b22;
 }
 :not(pre) > code[class*="language-"] {
@@ -717,7 +721,7 @@ html
 }
 .mdl-card__actions {
 	display: flex;
-	box-sizing:border-box;
+	box-sizing: border-box;
 	align-items: center;
 }
 .mdl-card__actions > .mdl-button--icon {

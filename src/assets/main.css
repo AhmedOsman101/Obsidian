@@ -7,6 +7,7 @@
     src: url('fonts/FiraCodeNerdFontMono-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 *:not(i) {

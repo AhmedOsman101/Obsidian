@@ -21,22 +21,6 @@ onUnmounted(() => {
     document.head.removeChild(linkElement);
   }
 });
-
-window.MathJax = {
-  tex: {
-    inlineMath: [
-      ["$", "$"],
-      ["\\(", "\\)"],
-    ],
-    displayMath: [
-      ["$$", "$$"],
-      ["\\[", "\\]"],
-    ],
-  },
-  options: {},
-  loader: {},
-};
-
 </script>
 
 <template>

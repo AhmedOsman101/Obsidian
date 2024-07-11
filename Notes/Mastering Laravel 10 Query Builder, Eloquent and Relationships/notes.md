@@ -79,10 +79,15 @@ $col->nullable(default: true); // declares a column as nullable (accept null val
 
 ```php
 $table->softDeletes(); // Adds `deleted_at` timestamp.
+
 $table->renameColumn(oldname: 'name', newname: 'fullName'); // Renames columns
+
 $table->dropColumn('col1'); // Drop one column
+
 $table->dropColumn(['votes', 'avatar', 'location']); // Drop multiple columns by passing an array of column names.
+
 $table->dropSoftDeletes(); // Drop the `deleted_at` column.
+
 $table->dropTimestamps(); // Drop the `created_at` and `updated_at` columns.
 ```
 

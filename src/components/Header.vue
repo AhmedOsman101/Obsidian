@@ -47,7 +47,9 @@ const back = () => router.back();
   <section ref="head" class="px-4 sticky top-0 shadow-2xl z-50 text-white">
     <div class="flex gap-x-3 items-center w-full">
       <button class="w-8 h-8 flex items-center justify-center rounded-full hover:bg-[#181919]" @click="back">
-        <i class="fa-solid fa-arrow-left"/>
+
+        <v-icon name="bi-arrow-left-short "/>
+
       </button>
       <h1 class="lg:text-xl md:text-lg sm:text-base text-sm" v-text="$props.title"/>
     </div>

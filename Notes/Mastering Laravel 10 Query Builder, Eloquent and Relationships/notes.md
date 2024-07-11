@@ -2,40 +2,46 @@
 
 ## Migrations:
 
-### Column modifiers:
+### Column Modifiers:
 
 ```php
 $col = $table->string('email');
 
-$col->unique(); // unique column that can't have duplicates
+$col->unique(); // Unique column that can't have duplicates
 
-$table->unique(['email', 'username']); // define multiple unique columns at once
+$table->unique(['email', 'username']); 
+// Define multiple unique columns at once
 
-$table->id()->from(startingValue: 5000); // changes the starting value of the autoincrement property.
+$table->id()->from(startingValue: 5000); 
+// Changes the starting value of the autoincrement property.
 // Equivalent to `ALTER TABLE tableName AUTO_INCREMENT = 5000;`
 
 $table->bigIncrements('user_id'); // Custom primary key
 
-// creating a foreign key manually:
-$table->unsignedBigInteger('post_id'); // datatype for the foreign key
-$table->foreign('post_id') // creates a foreign key `post_id`
-      ->references('id')->on('posts') // refers to posts.id
+// Creating a foreign key manually:
+$table->unsignedBigInteger('post_id'); // Datatype for the foreign key
+$table->foreign('post_id') // Creates a foreign key `post_id`
+      ->references('id')->on('posts') // Refers to posts.id
       ->cascadeOnDelete();
-// If a record in the parent table is deleted, all related records in the child table will also be automatically deleted.
+// If a record in the parent table is deleted,
+// All related records in the child table will also be automatically deleted.
 
 // creating a foreign key (modern way):
-$table->foreignId('post_id', model: Post::class)
-// model is optional (automatically inferred but provide it when having weird names).
-// or
-$table->foreignId('post_id')->constrained('posts'); // Constrained by default sets up an `ON DELETE CASCADE` constraint.
+$table->foreignId(column: 'post_id', model: Post::class)
+// Model is optional (automatically inferred, use it when having weird names).
+// Or
+$table->foreignId('post_id')->constrained('posts'); 
+// Constrained by default sets up an `ON DELETE CASCADE` constraint.
 
-$col->comment('message'); // adds a comment to your columns (visible on the database view software)
+$col->comment('message'); 
+// Adds a comment to your columns (visible on the database view software).
 
-$col->default('any value'); // adds a default value to the column
+$col->default('any value'); // Adds a default value to the column
 
-$col->first(); // change order in the database
+$col->first(); // Change order in the database
 
-$col->nullable(default: true); // declares a column as nullable (accept null values)
+$col->nullable(default: true); 
+// Declares a column as nullable (accept null values)
 ```
 
 `art migrate:status` => Show the status of each migration.
@@ -80,22 +86,23 @@ $col->nullable(default: true); // declares a column as nullable (accept null val
 ```php
 $table->softDeletes(); // Adds `deleted_at` timestamp.
 
-$table->renameColumn(oldname: 'name', newname: 'fullName'); // Renames columns
+$table->renameColumn(oldname: 'name', newname: 'fullName'); // Rename a column.
 
 $table->dropColumn('col1'); // Drop one column
 
-$table->dropColumn(['votes', 'avatar', 'location']); // Drop multiple columns by passing an array of column names.
+$table->dropColumn(['votes', 'avatar', 'location']); 
+// Drop multiple columns by passing an array of column names.
 
 $table->dropSoftDeletes(); // Drop the `deleted_at` column.
 
 $table->dropTimestamps(); // Drop the `created_at` and `updated_at` columns.
 ```
 
-**Note:** Utilize seeders for crucial and necessary data, whereas factories should be used for generating fake data for testing purposes.
-
 ---
 
 ## Factories & Seeders:
+
+**Note:** Utilize seeders for crucial and necessary data, whereas factories should be used for generating fake data for testing purposes.
 
 ```php
 // inside DatabaseSeeder.php
@@ -110,26 +117,28 @@ $this->call([
 **Reading data from JSON files:**
 
 ```php
-// 1. Create a JSON file in `database\json` and name it after the table name e.g. `users.json`.
+// 1. Create a JSON file in `database\json`.
+// 2. Name it as the table name e.g. `users.json`.
 
-// 2. Read the file content:
-$json = File::get('database/json/users.json'); // returns the json text
+// 3. Read the file content:
+$json = File::get('database/json/users.json'); // Returns the json text
 
-// 3. convert it, there is two ways:
+// 4. Convert it, there are two ways:
 // First way:
-$data = json_decode($json, associative: true); // returns an associative array with the content of the file
+$data = json_decode($json, associative: true); 
+// Returns an associative array with the content of the file
 
 // Second way:
-$data = collect(json_decode($json)); // convert to collection
+$data = collect(json_decode($json)); // Convert to collection
 
-// 4. Insert the data:
+// 5. Insert the data:
 // First way:
-foreach ($data as $item) { // loop over the assoc array
+foreach ($data as $item) { // Loop over the associative array
 	User::create($item);
 }
 
 // Second way:
-$data->each(function ($item) { // loop over the collection with the callback
+$data->each(function ($item) { // Loop over the collection with the callback
     User::create([
         "name" => $item->name,
         "email" => $item->email,
@@ -150,7 +159,7 @@ Example:
 ### Reading Data:
 
 ```php
-$t = DB::table(table: 'users'); // Specify the table you are working on
+$t = DB::table(table: 'users'); // Specify the table you are working on.
 
 $q1 = $t->select(columns: ["name", "email"]);
 // Specify which columns to retrieve default is ["*"] (all columns).
@@ -165,18 +174,20 @@ $t->distinct(); // Force the query to only return distinct results.
 
 $q2 = $t->select(['name', 'email']);
 $q2->addSelect('password')->get();
-// Adds more columns to your SELECT clause of a query. You MUST add the `get()`
-// method to the last statement.
+// Adds more columns to your SELECT clause of a query. 
+// You MUST add the `get()` method to the last statement.
 
 $q3 = $t->where(column: "id", value: 2); // where`id` = 2;
 // This will select the user of id `1` only.
 
-$q3->first(); // Get the first column that matches this clause. Returns an object not an array.
+$q3->first(); // Get the first column that matches this clause. 
+// Returns an object not an array.
 
 $q3->value(column: 'name'); // Returns a single value from the query.
 // Useful when you only need one value from a record.
 
-$q4 = $t->find(id: 1); // searches for a record by its primary key (id). returns an Object.
+$q4 = $t->find(id: 1); // searches for a record by its primary key (id). 
+// Returns an Object.
 ```
 
 The `pluck()` method is used to retrieve a single column's value from the first result of a query. It takes two arguments the first is the `column` that you want to pluck the second an optional `key` to the values. Returns an array.
@@ -199,10 +210,12 @@ $data = [
   "password" => "password"
 ];
 
-$t->insert($data); // Inserts a new record, timestamps are null Returns true on success
+$t->insert($data); 
+// Inserts a new record, timestamps are null. Returns true on success
 
-$t->insertOrIgnore($data); // returns 1 on success, returns 0 if existed.
-// Allows you to insert data into a database table only if the data doesn't already exist in the table.
+$t->insertOrIgnore($data); 
+// Returns the number of affected rows (0 => data exists).
+// Allows you to insert data only if it doesn't already exist in the table.
 
 $values = [
   'email'   => 'john.doe@example.com',  
@@ -215,7 +228,8 @@ $update = ['name', 'revenue'];
 $t->upsert($values, $uniqueBy, $update); 
 // Insert new records or update the existing ones. Tries to insert first.
 
-$t->insertGetId($data); // Insert new record and grab its id in a single query.
+$t->insertGetId($data); 
+// Insert new record and grab its id in a single query.
 ```
 
 ## Updating Data:
@@ -258,19 +272,23 @@ $q = DB::table('users')->where('id', 2); // Specific row to operate on.
 $t->where(column: "id", value: 2); // where`id` = 2;
 // This will select the user of id `1` only.
 
-$t->where(column: 'type', operator: '!=', value: 'admin');
-// The `where()` method takes three arguments: `column`, optional `operator` with default value of `==` and a value to compare against.
+$t->where(column: 'age', operator: '<=', value: '18');
+// The `where()` method takes three arguments: 
+// `column` to match.
+// Optional `operator` with default value of `==`.
+// And a `value` to compare against.
 
-$t->orWhere(column: 'type', value: 'user');
+$t->orWhere(column: 'type', value: 'admin');
 // Use `orWhere()` method to match multiple records at once. Order matters.
 // Always put where clause at the top of the query.
 
 // The increment() and decrement() methods are used to increment or decrement 
-// the value of a column by a given amount, default 1.
+// The value of a column by a given amount, default 1.
 $t->increment(column: 'age'); // Increments the `age` column by one
 $t->decrement(column: 'revenue', amount: 1000); // Decrements the `revenue` column by 1000.
 
-$q->incrementEach(['age' => 2, 'revenue' => 50]); // Increment the given column's values by the given amounts.
+$q->incrementEach(['age' => 2, 'revenue' => 50]); 
+// Increment the given column's values by the given amounts.
 ```
 
 ---
@@ -282,13 +300,15 @@ $q->incrementEach(['age' => 2, 'revenue' => 50]); // Increment the given column'
 the `collect` helper to create a new collection instance from the given data:
 
 ```php
-$collection = collect(['taylor', 'abigail']); // creates a collection instance from the given value.
+$collection = collect(['taylor', 'abigail']); 
+// Creates a collection instance from the given value.
 ```
 
 The `each` method iterates over the items in the collection and passes each item to a closure:
 
 ```php
 $collection = collect([1, 2, 3, 4]); 
+
 $collection->each(function (int $item, int $key) {
 	// actual functionality...
 });
@@ -305,10 +325,11 @@ $collection->each(function (int $item, int $key) {
 `art tinker` => Interact with your application, runs a REPL interface to do database operations.
 
 ```php
-env('key', 'defaultValue'); // Helper function that retrieves the value of an environment variable or returns a default value.
+env(key: 'APP_NAME', default: "Laravel");
+// Helper function that retrieves the value of an environment variable 
+// Or returns a default value if given.
 
-Str::slug(string $title, string $separator = '-'); // Generate a URL friendly "slug" from a given string.
-
-User::insert(); // Doesn't add timestamps automatically.
-User::create(); // Adds timestamps automatically.
+Str::slug(title: "John Doe", separator: '-'); // Returns john-doe.
+// Generate a URL friendly "slug" from a given string.
+// Default `separator` is '-'.
 ```

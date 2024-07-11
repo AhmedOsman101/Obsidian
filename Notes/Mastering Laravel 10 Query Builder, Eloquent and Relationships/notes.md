@@ -310,5 +310,5 @@ env('key', 'defaultValue'); // Helper function that retrieves the value of an en
 Str::slug(string $title, string $separator = '-'); // Generate a URL friendly "slug" from a given string.
 
 User::insert(); // Doesn't add timestamps automatically.
-User::create(); // Adds timestamps automatically .
+User::create(); // Adds timestamps automatically.
 ```

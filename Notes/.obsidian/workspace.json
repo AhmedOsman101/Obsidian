@@ -11,8 +11,12 @@
             "id": "a3ff0b885bc430c7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "AhmedOsman101/README.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "AhmedOsman101/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "AhmedOsman101/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "AhmedOsman101/README.md"
+              }
             }
           },
           {
@@ -134,7 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 329.5
   },
   "left-ribbon": {
     "hiddenItems": {

@@ -12,5 +12,6 @@
   },
   "promptDelete": false,
   "defaultViewMode": "preview",
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "spellcheck": false
 }

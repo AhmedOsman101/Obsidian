@@ -56,5 +56,23 @@
       "key": "W"
     }
   ],
-  "workspace:close-window": []
+  "workspace:close-window": [],
+  "editor:add-cursor-above": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "editor:add-cursor-below": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "ArrowDown"
+    }
+  ]
 }

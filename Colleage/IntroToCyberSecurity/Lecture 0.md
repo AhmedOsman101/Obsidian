@@ -1,11 +1,11 @@
-# Intro To Cypersecurity Lecture 0
+# Intro To Cybersecurity Lecture 0
 
 ## What's Cybersecurity
 
-Cybersecurity is the protection of information systems (hardware, software, and network), the data on them, and the services they provide, from these items: 
-- Unauthorized access 
-- General harm or misuse 
-- Harm caused intentionally by the operator of the system 
+Cybersecurity is the protection of information systems (hardware, software, and network), the data on them, and the services they provide, from these items:
+- Unauthorized access
+- General harm or misuse
+- Harm caused intentionally by the operator of the system
 - Accidentally as a result of failing to follow security procedures.
 
 ### The History of Cybersecurity

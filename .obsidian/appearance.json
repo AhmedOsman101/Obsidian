@@ -1,6 +1,6 @@
 {
-  "textFontFamily": "FiraCode Nerd Font",
-  "monospaceFontFamily": "FiraCode Nerd Font Mono",
+  "textFontFamily": "JetBrainsMono Nerd Font Mono,Fira Code Retina",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono,Fira Code Retina",
   "cssTheme": "GitHub Theme",
   "theme": "obsidian"
 }

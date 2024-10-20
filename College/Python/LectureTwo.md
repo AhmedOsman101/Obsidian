@@ -38,3 +38,148 @@ x = 5 # The interpreter understands that it's an integer on runtime
 
 ## Data Types
 
+Variables in Python are **dynamically-typed**; they are declared without an explicit type. 
+However, **objects have a type**, so Python knows the type of the variable, even if you don't.
+
+```Python
+type(1) # => <class 'int'> -> this is the same object as the keyword `int`
+type("Hello") # => <class 'str'>
+type(None) # => <class 'NoneType'>
+type(int) # => <class 'type'>
+type(type(5)) # => <class 'type'>
+```
+
+## Converting Values
+
+```Python
+## All objects has a string representation
+str(10) # => "10"
+int("10") # => 10
+float("3.5") # => 3.5
+float("2") # => 2.0
+```
+
+## Comments
+
+```Python
+# Single line comments start with a `#`
+
+"""
+Multiline comments can be written between
+three double quotes `"` and are often used as function
+and module comments.
+"""
+```
+
+## Input Handling in Python
+
+The `input()` function in Python **accepts a single string argument** as a **prompt** and returns the user's input as a **string**, regardless of the content. This can cause issues when expecting numeric input, as it **returns text by default**.
+
+To solve this, you can **convert** the input to the appropriate data type (e.g., `int` or `float`) after receiving it.
+
+**Example:**
+
+```python
+# We can convert the string input to a number in two ways:
+
+# First method:
+# Take the input as a string, then convert it to a float
+monthly_salary = float(input("How much do you make in a month? "))
+monthly_salary = float(monthly_salary)
+
+# Second method:
+# We can take the input and convert it in one step/line using `Nested Calls`
+# You can nest any number of functions
+monthly_salary = float(input("How much do you make in a month? "))
+
+# Calculate yearly salary
+yearly_salary = monthly_salary * 12
+
+# Print the yearly salary
+print("That means you make", yearly_salary, "in a year.")
+```
+
+This ensures that `monthly_salary` is stored as a float for further numeric operations.
+
+## ID Function
+
+The `id()` function in Python **returns a unique identifier** (address) for a given object. This unique ID **remains constant** for an object during its lifetime. However, if two variables reference the **same object**, they will have the **same ID**.
+
+**Example:**
+
+```python
+# Assign values to variables x and y
+x = 10
+y = 20
+
+# Print the unique IDs of x and y (different objects, different IDs)
+print("ID of x:", id(x)) # ID of x: 140496609954472
+print("ID of y:", id(y)) # ID of y: 140496609954792
+
+# Assign the same value to both a and b
+a = b = 30
+
+# Print the unique IDs of a and b (same object, same ID)
+print("ID of a:", id(x)) # ID of a after assignment: 140496609955112
+print("ID of b:", id(y)) # ID of b after assignment: 140496609955112
+```
+
+**Key Points:**
+- Initially, `x` and `y` are different objects, so they have different IDs.
+- When assigning the same value (`30`) to both `a` and `b`, they reference the same object in memory, so their IDs are the same.
+
+## Types of Errors in Python
+
+- **Syntax Errors**  
+  - Occur when the **code does not follow the rules of the language**.
+  - Example: Using curly brackets `{}` where angled brackets `[]` are needed or using a keyword as a variable name.
+  - **Result**: The program will not run at all.
+
+- **Runtime Errors**  
+  - Occur when **the code is correct**, but the **program does not run as expected** or encounters an issue during execution (program crashes).
+  - Example: Dividing by zero in a program.
+  - **Result**: The program stops unexpectedly.
+
+- **Logical/Semantic Errors**  
+  - The **code is correct**, and the **program runs without crashing**, but **the output is incorrect** due to a flaw in the algorithm or logic.
+  - Example: Printing `2 + 2 = 5`.
+  - **Result**: Incorrect output, even though the code runs.
+
+### Syntax Error
+
+- **Leaving out one parenthesis**  
+  - **Result**: A **SyntaxError** occurs because the parentheses are incomplete, violating Python's syntax rules for function calls.
+  
+- **Leaving out both parentheses**  
+  - **Result**: A **SyntaxError** occurs because `print` is a function in Python 3, and functions require parentheses. Without them, Python will not recognize it as a function call.
+
+### Logical/Semantic Errors
+
+A **logical error** occurs when the code runs but **produces incorrect results** due to flawed logic. These errors do not trigger runtime errors but result in unexpected output, requiring debugging.
+
+**Example:**
+
+```python
+# Incorrect average calculation due to missing parentheses
+a = 10
+b = 20
+
+average = a + b / 2  # Wrong operation order
+print("Average:", average)  # Incorrect result
+```
+
+To fix, use parentheses:
+
+```python
+average = (a + b) / 2  # Correct order
+``` 
+
+Logical errors often arise from incorrect operation orders like this.
+
+### Runtime Errors
+
+**Runtime errors** occur during the execution of a program and lead to unexpected termination. These errors are detected while the program is running and can cause crashes or infinite loops. Common examples include:
+
+1. **Dividing by Zero**: Attempting to divide a number by zero results in a `ZeroDivisionError`.
+2. **Infinite Loop**: A loop that never terminates can cause the program to hang indefinitely or crash.
+3. **Incorrect User Input**: When the user provides input that the program cannot process, it can lead to various errors, such as `ValueError`.

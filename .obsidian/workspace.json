@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -142,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5
+    "width": 329.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,7 +157,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "a3014805534dc546",
+  "active": "79675c7adbc8b037",
   "lastOpenFiles": [
     "College/Python/LectureOne.md",
     "College/Python/LectureTwo.md",

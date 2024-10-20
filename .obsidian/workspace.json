@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Python/Lecture1.md",
+                "file": "College/IntroToCyberSecurity/LectureOne.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "College/Python/Lecture1.md",
+                "file": "College/IntroToCyberSecurity/LectureOne.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "College/Python/Lecture1.md",
+                "file": "College/IntroToCyberSecurity/LectureOne.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/Python/Lecture1.md"
+                "file": "College/IntroToCyberSecurity/LectureOne.md"
               }
             }
           },
@@ -155,10 +155,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "a3014805534dc546",
+  "active": "6e6b30772217c8e6",
   "lastOpenFiles": [
+    "College/Python/LectureOne.md",
+    "College/Python/LectureTwo.md",
     "College/Python/imgs/code1.png",
-    "College/Python/Lecture1.md",
     "College/Python/imgs",
     "College/Python/imgs/ThonnyStepFour.png",
     "Pasted image 20241020164509.png",

@@ -74,5 +74,13 @@
       ],
       "key": "ArrowDown"
     }
+  ],
+  "obsidian-languagetool-plugin:ltcheck-text": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "."
+    }
   ]
 }

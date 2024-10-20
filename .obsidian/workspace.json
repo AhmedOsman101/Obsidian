@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/IntroToCyberSecurity/LectureOne.md",
+                "file": "College/Python/LectureTwo.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "College/IntroToCyberSecurity/LectureOne.md",
+                "file": "College/Python/LectureTwo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "College/IntroToCyberSecurity/LectureOne.md",
+                "file": "College/Python/LectureTwo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/IntroToCyberSecurity/LectureOne.md"
+                "file": "College/Python/LectureTwo.md"
               }
             }
           },
@@ -155,10 +155,13 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "6e6b30772217c8e6",
+  "active": "a3014805534dc546",
   "lastOpenFiles": [
     "College/Python/LectureOne.md",
     "College/Python/LectureTwo.md",
+    "College/Python/code/lectureTwo.py",
+    "College/Python/code",
+    "College/IntroToCyberSecurity/LectureOne.md",
     "College/Python/imgs/code1.png",
     "College/Python/imgs",
     "College/Python/imgs/ThonnyStepFour.png",
@@ -179,8 +182,6 @@
     "Mastering Laravel 10 Query Builder, Eloquent and Relationships/exports/fonts",
     "Mastering Laravel 10 Query Builder, Eloquent and Relationships/exports/main.css",
     "Mastering Laravel 10 Query Builder, Eloquent and Relationships/exports/notes.html",
-    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/exports",
-    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/notes.html",
     "notes.md",
     "Notes/notes.md"
   ]

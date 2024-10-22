@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/IntroToCyberSecurity/LectureTwo.md",
-                "mode": "preview",
+                "file": "College/IT-Essentials/LectureOne.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LectureTwo"
+              "title": "LectureOne"
             }
           }
         ]
@@ -176,8 +176,12 @@
   },
   "active": "a3014805534dc546",
   "lastOpenFiles": [
-    "College/IntroToCyberSecurity/LectureOne.md",
+    "College/IT-Essentials/imgs/Cases.png",
+    "College/IT-Essentials/imgs",
+    "College/IT-Essentials/LectureOne.md",
     "College/IntroToCyberSecurity/LectureTwo.md",
+    "College/IT-Essentials",
+    "College/IntroToCyberSecurity/LectureOne.md",
     "College/Python/LectureOne.md",
     "College/Python/LectureTwo.md",
     "College/Python/code/lectureTwo.py",
@@ -200,8 +204,6 @@
     "Mastering Laravel 10 Query Builder, Eloquent and Relationships/notes.md",
     "Mastering Laravel 10 Query Builder, Eloquent and Relationships/exports/fonts/FiraCodeNerdFontMono-Regular.ttf",
     "Mastering Laravel 10 Query Builder, Eloquent and Relationships/exports/fonts",
-    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/exports/main.css",
-    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/exports/notes.html",
     "notes.md",
     "Notes/notes.md"
   ]

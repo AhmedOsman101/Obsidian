@@ -161,8 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5,
-    "collapsed": true
+    "width": 329.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,9 +176,12 @@
   },
   "active": "a3014805534dc546",
   "lastOpenFiles": [
+    "College/IT-Essentials/AssignmentOne.md",
+    "College/IT-Essentials/~$signmentOne.docx",
+    "College/IT-Essentials/AssignmentOne.docx",
+    "College/IT-Essentials/LectureOne.md",
     "College/IT-Essentials/imgs/Cases.png",
     "College/IT-Essentials/imgs",
-    "College/IT-Essentials/LectureOne.md",
     "College/IntroToCyberSecurity/LectureTwo.md",
     "College/IT-Essentials",
     "College/IntroToCyberSecurity/LectureOne.md",
@@ -203,8 +205,6 @@
     "Colleage/IntroToCyberSecurity",
     "Untitled",
     "Mastering Laravel 10 Query Builder, Eloquent and Relationships/notes.md",
-    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/exports/fonts/FiraCodeNerdFontMono-Regular.ttf",
-    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/exports/fonts",
     "notes.md",
     "Notes/notes.md"
   ]

@@ -13,7 +13,7 @@
 
 Although `bool` and `sum` are reserved words, but python allows using them as variable names which is not recommended because it disables their functionality.
 
-![](College/Python/imgs/code2.png)
+![](imgs/code2.png)
 
 2. Determine the type of errors:
 
@@ -111,13 +111,13 @@ It will result in a `NameError` Because `F` is not defined.
 
 | NO  | Before correction                  | Type of Error                            | After correcting                                               |
 | --- | ---------------------------------- | ---------------------------------------- | -------------------------------------------------------------- |
-| 1   | ![](code4.png)                     | SyntaxError (missing double quote)       | ![](code9.png)                                                 |
-| 2   | ![](College/Python/imgs/code3.png) | IndentationError (incorrect indentation) | ![](code10.png)                                                |
-| 3   | ![](code5.png)                     | LogicalError (division precedence)       | ![](code8.png)                                                 |
-| 4   | ![](code6.png)<br><br>             | SyntaxError (incorrect comment format)   | ![](code7.png)                                                 |
-| 5   | ![](code11.png)                    | SyntaxError (invalid variable name)      | ![](code12.png)                                                |
-| 6   | ![](code13.png)                    | ZeroDivisionError (division by zero)     | Add a check to avoid division by zero or change X to non-zero. |
-| 7   | ![](code14.png)                    | TypeError (string concatenation)         | ![](code15.png)                                                |
+| 1   | ![](imgs/code4.png)                     | SyntaxError (missing double quote)       | ![](imgs/code9.png)                                                 |
+| 2   | ![](imgs/code3.png) | IndentationError (incorrect indentation) | ![](imgs/code10.png)                                                |
+| 3   | ![](imgs/code5.png)                     | LogicalError (division precedence)       | ![](imgs/code8.png)                                                 |
+| 4   | ![](imgs/code6.png)             | SyntaxError (incorrect comment format)   | ![](imgs/code7.png)                                                 |
+| 5   | ![](imgs/code11.png)                    | SyntaxError (invalid variable name)      | ![](imgs/code12.png)                                                |
+| 6   | ![](imgs/code13.png)                    | ZeroDivisionError (division by zero)     | Add a check to avoid division by zero or change X to non-zero. |
+| 7   | ![](imgs/code14.png)                    | TypeError (string concatenation)         | ![](imgs/code15.png)                                                |
 
 9. Essay Questions:
 
@@ -132,7 +132,7 @@ volume = (4 / 3) * PI * radius**3  # Calculate the sphere's volume
 print(volume)
 ```
 
-![](code16.png)
+![](imgs/code16.png)
 
 - Write a program that converts the input Celsius degree into its equivalent Fahrenheit degree. Use the formula `F = (9 / 5) * C + 32`.
 
@@ -143,7 +143,7 @@ Fahrenheit = (9 / 5) * Celsius + 32
 print(Fahrenheit)
 ```
 
-![](code17.png)
+![](imgs/code17.png)
 
 - Write a program that converts the input dollar to its peso exchange rate equivalent. Assume that the present exchange rate is `51.50` pesos for one dollar. Then display the peso equivalent exchange rate.
 
@@ -156,7 +156,7 @@ pesos = dollars * peso_dollar_ratio
 print(f"{dollars} dollars is {pesos} pesos")
 ```
 
-![](code18.png)
+![](imgs/code18.png)
 
 - Write a program that converts the input inches into its equivalent centimeters. Take note that one inch is equal to `2.54` centimeters.
 
@@ -169,4 +169,4 @@ centimeters = inches * 2.54
 print(f"{inches} inches is {centimeters} centimeters")
 ```
 
-![](code19.png)
+![](imgs/code19.png)

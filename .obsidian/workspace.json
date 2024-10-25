@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b1b4002ad5d1b7cb",
+        "id": "dd7488493797e83e",
         "type": "tabs",
         "children": [
           {
-            "id": "a3014805534dc546",
+            "id": "7a3d7a0aee077fcf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/IT-Essentials/LectureOne.md",
+                "file": "College/Python/AssignmentOne.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LectureOne"
+              "title": "AssignmentOne"
             }
           }
         ]
@@ -174,31 +174,33 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "a3014805534dc546",
+  "active": "7a3d7a0aee077fcf",
   "lastOpenFiles": [
+    "College/Python/imgs/code19.png",
+    "Pasted image 20241025223918.png",
+    "College/Python/AssignmentOne.md",
+    "College/Python/imgs/code18.png",
+    "College/Python/imgs/code17.png",
+    "College/Python/imgs/code16.png",
+    "College/Python/imgs/code15.png",
+    "College/Python/imgs/code14.png",
+    "College/Python/imgs/code13.png",
+    "College/Python/imgs/code12.png",
+    "College/Python/imgs/code11.png",
+    "College/Python/LectureOne.md",
+    "College/Python/imgs/code10.png",
+    "College/IT-Essentials/LectureOne.md",
     "College/IT-Essentials/AssignmentOne.md",
     "College/IT-Essentials/~$signmentOne.docx",
     "College/IT-Essentials/AssignmentOne.docx",
-    "College/IT-Essentials/LectureOne.md",
-    "College/IT-Essentials/imgs/Cases.png",
     "College/IT-Essentials/imgs",
     "College/IntroToCyberSecurity/LectureTwo.md",
     "College/IT-Essentials",
     "College/IntroToCyberSecurity/LectureOne.md",
-    "College/Python/LectureOne.md",
     "College/Python/LectureTwo.md",
     "College/Python/code/lectureTwo.py",
     "College/Python/code",
-    "College/Python/imgs/code1.png",
     "College/Python/imgs",
-    "College/Python/imgs/ThonnyStepFour.png",
-    "Pasted image 20241020164509.png",
-    "College/Python/imgs/ThonnyStepThree.png",
-    "Pasted image 20241020164134.png",
-    "Pasted image 20241020164101.png",
-    "College/Python/imgs/ThonnyStepTwo.png",
-    "College/Python/imgs/ThonnyStepOne.png",
-    "College/Python/imgs/editors.jpg",
     "College/Python",
     "Untitled.md",
     "Colleage/IntroToCyberSecurity/Lecture 0.md",

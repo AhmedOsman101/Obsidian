@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "dd7488493797e83e",
+        "id": "2e02d65943ba44f7",
         "type": "tabs",
         "children": [
           {
-            "id": "7a3d7a0aee077fcf",
+            "id": "a3651facdd0a58ed",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "College/Python/AssignmentOne.docx",
-                "staged": false
+                "file": "College/Python/AssignmentOne.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (AssignmentOne.docx)"
+              "icon": "lucide-file",
+              "title": "AssignmentOne"
             }
           }
         ]
@@ -170,10 +171,11 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "7a3d7a0aee077fcf",
+  "active": "a3651facdd0a58ed",
   "lastOpenFiles": [
     "College/Python/AssignmentOne.md",
     "College/Python/AssignmentOne.html",

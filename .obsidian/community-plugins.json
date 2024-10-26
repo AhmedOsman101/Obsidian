@@ -2,5 +2,6 @@
   "obsidian-pandoc",
   "obsidian-git",
   "better-export-pdf",
-  "obsidian-languagetool-plugin"
+  "obsidian-languagetool-plugin",
+  "webpage-html-export"
 ]

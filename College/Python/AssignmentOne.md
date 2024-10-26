@@ -43,7 +43,7 @@ print(type(5 / 2))  # <class 'float'>
 print(type(5 // 2)) # <class 'int'>
 ```
 
-==A) float and int==
+<mark>A) float and int</mark>
 B) int and float
 C) float and float
 D) int and int

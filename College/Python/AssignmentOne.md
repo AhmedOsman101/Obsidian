@@ -31,7 +31,7 @@ print("""hello my students ""'+ " "+x+" "+y)
 print(2**3 + (5 + 6) ** (1 + 1)) # 8 + 11**2 = 8 + 121 + 129
 ```
 
-==A) 129==
+<mark>A) 129</mark>
 B) 8
 C) 121
 D) None of the above.

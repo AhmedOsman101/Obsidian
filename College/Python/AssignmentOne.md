@@ -1,6 +1,6 @@
 # Ahmad Ali Ahmad Othman - Section 1 - Assignment 1
 
-1. Detect whether these variable names are valid or not:
+## 1. Detect whether these variable names are valid or not:
 
 - `bool`
 - `mail@`
@@ -15,7 +15,7 @@ Although `bool` and `sum` are reserved words, but python allows using them as va
 
 ![](imgs/code2.png)
 
-2. Determine the type of errors:
+## 2. Determine the type of errors:
 
 ```Python
 x="student"
@@ -25,7 +25,7 @@ print("""hello my students ""'+ " "+x+" "+y)
 
 **SyntaxError**: unterminated triple-quoted string literal (detected at line 3)
 
-3. What will be the output of the following code snippet?
+## 3. What will be the output of the following code snippet?
 
 ```Python
 print(2**3 + (5 + 6) ** (1 + 1)) # 8 + 11**2 = 8 + 121 + 129
@@ -36,7 +36,7 @@ B) 8
 C) 121
 D) None of the above.
 
-4. What will be the output of the following code snippet?
+## 4. What will be the output of the following code snippet?
 
 ```Python
 print(type(5 / 2))  # <class 'float'>
@@ -48,7 +48,7 @@ B) int and float
 C) float and float
 D) int and int
 
-5. What will be the datatype of the var in the below code snippet?
+## 5. What will be the datatype of the var in the below code snippet?
 
 ```Python
 var = 10
@@ -57,7 +57,7 @@ var = "Hello"
 print(type(var))  # <class 'str'>
 ```
 
-6. What is the actual and expected output of this program and if there is an error what is the type of it and how to solve it?
+## 6. What is the actual and expected output of this program and if there is an error what is the type of it and how to solve it?
 
 ```Python
 # This program takes two numbers from the user and prints the sum.
@@ -88,7 +88,7 @@ sum = x + y
 print(sum)  # 7
 ```
 
-7. What is the output?
+## 7. What is the output?
 
 ```Python
 f = 5
@@ -107,7 +107,7 @@ It will result in a `NameError` Because `F` is not defined.
 - **NameError**: The variable `F` (uppercase) in line 6 is undefined, which will raise a `NameError` when this line is executed.
 - **Type of Error**: `NameError` occurs because `F` has not been defined in the code. Python is case-sensitive, so `f` (lowercase) and `F` (uppercase) are distinct variables.
 
-8. Discover the errors, and keywords for the following sub Python programs which was written by some friends in the same company. Then correct each type of error and Identifiers.
+## 8. Discover the errors, and keywords for the following sub Python programs which was written by some friends in the same company. Then correct each type of error and Identifiers.
 
 | NO  | Before correction                  | Type of Error                            | After correcting                                               |
 | --- | ---------------------------------- | ---------------------------------------- | -------------------------------------------------------------- |
@@ -119,7 +119,7 @@ It will result in a `NameError` Because `F` is not defined.
 | 6   | ![](imgs/code13.png)                    | ZeroDivisionError (division by zero)     | Add a check to avoid division by zero or change X to non-zero. |
 | 7   | ![](imgs/code14.png)                    | TypeError (string concatenation)         | ![](imgs/code15.png)                                                |
 
-9. Essay Questions:
+## 9. Essay Questions:
 
 - Create a program to compute the volume of a sphere. Use the formula `V = (4/3) * pi * r^3` where `pi` is equal to `3.1416` approximately. The `r` is the radius of sphere. Display the result.
 

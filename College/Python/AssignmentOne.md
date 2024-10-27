@@ -31,7 +31,7 @@ print("""hello my students ""'+ " "+x+" "+y)
 print(2**3 + (5 + 6) ** (1 + 1)) # 8 + 11**2 = 8 + 121 + 129
 ```
 
-<mark>A) 129</mark>
+<mark> A) 129 </mark>
 B) 8
 C) 121
 D) None of the above.
@@ -43,7 +43,7 @@ print(type(5 / 2))  # <class 'float'>
 print(type(5 // 2)) # <class 'int'>
 ```
 
-<mark>A) float and int</mark>
+<mark> A) float and int </mark>
 B) int and float
 C) float and float
 D) int and int

@@ -29,7 +29,10 @@
     "Assignment",
     "SyntaxError",
     "TypeError",
-    "NameError"
+    "NameError",
+    "Ryzen",
+    "Ryzen",
+    "EVGA"
   ],
   "showLineNumber": false
 }

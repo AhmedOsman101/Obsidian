@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -177,6 +176,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "College/IT-Essentials/Assignments/AssignmentOne.md",
     "College/IT-Essentials/Assignments/lu161520c8naw.tmp",
     "College/IT-Essentials/Assignments/lu161520c8nau.tmp",
     "College/IT-Essentials/Assignments/lu161520c8nas.tmp",
@@ -185,13 +185,11 @@
     "College/IT-Essentials/Assignments/lu161520c8n6b.tmp",
     "College/IT-Essentials/Assignments/AssignmentOne.docx",
     "conflict-files-obsidian-git.md",
-    "College/IT-Essentials/Assignments/AssignmentOne.md",
     "College/IT-Essentials/LectureOne.md",
     "College/IT-Essentials/Assignments",
     "College/Python/AssignmentOne.md",
     "College/Python/AssignmentOne.docx",
     "College/Python/AssignmentOne.html",
-    "College/Python/AssignmentOne.pdf",
     "College/Python/imgs/code9.png",
     "College/Python/imgs/code8.png",
     "College/Python/imgs/code7.png",

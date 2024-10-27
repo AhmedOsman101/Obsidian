@@ -140,7 +140,7 @@ image: https://sigma-computer.com/image/products/1594050218web-template.jpg
 
 ---
 
-### **Total Estimated Cost**: Around $1,000 - $1,200
+### **Total Estimated Cost**: Around $700 (34,000 L.E) - $800 (39,000 L.E)
 
 ---
 

@@ -5,18 +5,45 @@ Here we have a balanced PC build designed for gaming that prioritizes performanc
 ### 1. **CPU (Processor)**: **AMD Ryzen 5 5600X**
    - **Reason**: The Ryzen 5 5600X is a 6-core, 12-thread processor, which offers excellent gaming performance. It's affordable and can handle both gaming and light content creation tasks like video editing.
    - **Function**: The CPU is the brain of the computer, executing instructions for everything from running the game engine to controlling player inputs. The Ryzen 5’s core count is ideal for today’s games, which are optimized for multi-core processors.
+   - Product Link:
+   ```cardlink
+url: https://computecheg.com/en/product/cpu-amd-ryzen-5-5600/?gad_source=1&gclid=CjwKCAjwyfe4BhAWEiwAkIL8sKKjciV60X0kvFO4wlexO99gQQs4flPf4ETHG739L3pbuxZ15jx4XhoCELYQAvD_BwE
+title: "CPU AMD Ryzen™ 5 5600 – Computech Store"
+description: "Bundle Only"
+host: computecheg.com
+favicon: https://computecheg.com/wp-content/uploads/2021/08/cropped-10012452_593888027365395_76922644_n-1-32x32.gif
+image: https://computecheg.com/wp-content/uploads/2022/07/image-removebg-preview-3.png
+```
+
 
 ---
 
 ### 2. **GPU (Graphics Card)**: **NVIDIA GeForce RTX 3060**
    - **Reason**: The RTX 3060 provides smooth gameplay at 1080p and 1440p, and it supports NVIDIA’s ray tracing and DLSS technologies, which improve visual fidelity and performance. It’s a well-rounded choice for a gaming-focused build without overspending.
    - **Function**: The GPU handles the graphical computations needed to render games. It processes graphics and outputs them to your display. The RTX 3060 is well-equipped for popular games at high settings, and its ray tracing support enhances graphics realism.
+   - Product Link: 
+```cardlink
+url: https://www.sigma-computer.com/item?id=2826
+title: "GIGABYTE GeForce RTX™ 3060 GAMING OC 12G | 16800 EGP"
+description: "name | GIGABYTE GeForce RTX™ 3060 GAMING OC 12G | Price |16800 EGP"
+host: www.sigma-computer.com
+image: https://sigma-computer.com/image/products/161865179407.webp
+```
+
 
 ---
 
 ### 3. **Motherboard**: **MSI B450 Tomahawk Max**
    - **Reason**: This B450 motherboard is affordable yet has all the essential features needed for gaming, including good VRMs for CPU stability, multiple expansion slots, and support for fast RAM. It also supports Ryzen processors, so it pairs well with the Ryzen 5 5600X.
    - **Function**: The motherboard connects all your components together and allows them to communicate. This particular model provides room for upgrades, allowing you to swap out parts like the CPU and RAM down the line.
+   - Product Link: 
+```cardlink
+url: https://www.sigma-computer.com/item?id=1115
+title: "MSI B450 TOMAHAWK MAX II AMD Ryzen 2ND and 3rd Gen AM4 M.2 USB 3 DDR4 DVI HDMI Crossfire ATX Motherboard | 2299 EGP"
+description: "name | MSI B450 TOMAHAWK MAX II AMD Ryzen 2ND and 3rd Gen AM4 M.2 USB 3 DDR4 DVI HDMI Crossfire ATX Motherboard | Price |2299 EGP"
+host: www.sigma-computer.com
+image: https://sigma-computer.com/image/products/165883384303.webp
+```
 
 ---
 

@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -177,12 +176,12 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "College/Python/AssignmentOne.md",
     "College/IT-Essentials/Assignments/AssignmentOne.md",
     "College/IT-Essentials/Assignments",
     "College/Python/~$signmentOne.docx",
     "College/Python/AssignmentOne.docx",
     "LinuxCrashCourse/notes.md",
-    "College/Python/AssignmentOne.md",
     "College/Python/AssignmentOne.html",
     "College/Python/AssignmentOne.pdf",
     "College/Python/AssignmentOne-copy.html",

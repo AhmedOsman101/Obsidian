@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2e02d65943ba44f7",
+        "id": "b1b4002ad5d1b7cb",
         "type": "tabs",
         "children": [
           {
-            "id": "a3651facdd0a58ed",
+            "id": "7f2e4c4e98470a2b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/Python/AssignmentOne.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "AssignmentOne"
+              "title": "New tab"
             }
           }
         ]
@@ -171,42 +167,41 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "webpage-html-export:Export Vault to HTML": false
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "a3651facdd0a58ed",
+  "active": "7f2e4c4e98470a2b",
   "lastOpenFiles": [
-    "College/Python/AssignmentOne.md",
-    "College/Python/AssignmentOne.html",
-    "College/Python/AssignmentOne.pdf",
-    "College/Python/~$signmentOne.docx",
-    "College/Python/AssignmentOne.docx",
+    "College/Python/imgs/code9.png",
+    "College/Python/imgs/code8.png",
+    "College/Python/imgs/code7.png",
+    "College/Python/imgs/code6.png",
+    "College/Python/imgs/code5.png",
+    "College/Python/imgs/code4.png",
+    "College/Python/imgs/code3.png",
+    "College/Python/imgs/code2.png",
     "College/Python/imgs/code19.png",
-    "Pasted image 20241025223918.png",
     "College/Python/imgs/code18.png",
     "College/Python/imgs/code17.png",
-    "College/Python/imgs/code16.png",
-    "College/Python/imgs/code15.png",
-    "College/Python/imgs/code14.png",
-    "College/Python/imgs/code13.png",
-    "College/Python/imgs/code12.png",
-    "College/Python/imgs/code11.png",
-    "College/Python/LectureOne.md",
+    "College/Python/AssignmentOne.md",
     "College/IT-Essentials/LectureOne.md",
-    "College/IT-Essentials/AssignmentOne.md",
-    "College/IT-Essentials/~$signmentOne.docx",
-    "College/IT-Essentials/AssignmentOne.docx",
     "College/IT-Essentials/imgs",
     "College/IntroToCyberSecurity/LectureTwo.md",
     "College/IT-Essentials",
     "College/IntroToCyberSecurity/LectureOne.md",
+    "College/Python/LectureOne.md",
     "College/Python/LectureTwo.md",
     "College/Python/code/lectureTwo.py",
     "College/Python/code",
+    "College/Python/imgs",
+    "College/Python",
     "Untitled.md",
     "Colleage/IntroToCyberSecurity/Lecture 0.md",
+    "Colleage/IntroToCyberSecurity",
+    "Untitled",
     "Mastering Laravel 10 Query Builder, Eloquent and Relationships/notes.md",
+    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/exports/fonts/FiraCodeNerdFontMono-Regular.ttf",
+    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/exports/fonts",
     "notes.md",
     "Notes/notes.md"
   ]

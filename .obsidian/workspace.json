@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "684706f39da331e7",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "752ef154e9f84bee",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "44d052c162b4ba22",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -171,7 +171,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6cd0bc19bba807e1",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "College/Python/AssignmentOne.html",
     "College/Python/AssignmentOne.pdf",

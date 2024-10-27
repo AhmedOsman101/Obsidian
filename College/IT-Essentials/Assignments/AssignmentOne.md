@@ -50,12 +50,28 @@ image: https://sigma-computer.com/image/products/165883384303.webp
 ### 4. **RAM (Memory)**: **Corsair Vengeance LPX 16GB (2x8GB) DDR4-3200**
    - **Reason**: 16GB is the sweet spot for modern gaming, and the 3200 MHz speed is optimal for Ryzen processors. The dual-channel setup (2x8GB) also improves performance compared to a single 16GB stick.
    - **Function**: RAM is a short-term memory where data needed by the CPU and GPU is temporarily stored. Faster RAM improves the efficiency of data transfer, which translates to smoother gameplay, especially in games that are memory-intensive.
+   - Product Link: 
+```cardlink
+url: https://www.sigma-computer.com/item?id=1527
+title: "Corsair VENGEANCE® LPX 16GB (2 x 8GB) DDR4 DRAM 3600MHz C19 Memory Kit - Black | 1650 EGP"
+description: "name | Corsair VENGEANCE® LPX 16GB (2 x 8GB) DDR4 DRAM 3600MHz C19 Memory Kit - Black | Price |1650 EGP"
+host: www.sigma-computer.com
+image: https://sigma-computer.com/image/products/1589717952web-template.jpg
+```
 
 ---
 
 ### 5. **Storage**: **Crucial P3 1TB NVMe SSD**
    - **Reason**: The Crucial P3 is a fast NVMe SSD with ample space for both your OS and games. NVMe drives have much faster read/write speeds compared to traditional hard drives and even SATA SSDs, making load times noticeably faster.
    - **Function**: Storage is where your data is kept. An NVMe SSD like this one significantly reduces game loading times, enhances system boot-up speed, and makes the overall experience snappier than traditional storage.
+   - Product Link: 
+```cardlink
+url: https://www.sigma-computer.com/item?id=4917&name=Crucial_P3_1TB_M.2_PCIe_Gen3_NVMe_Internal_SSD_-_Up_to_3500MB/s
+title: "Crucial P3 1TB M.2 PCIe Gen3 NVMe Internal SSD - Up to 3500MB/s | 3199 EGP"
+description: "name | Crucial P3 1TB M.2 PCIe Gen3 NVMe Internal SSD - Up to 3500MB/s | Price |3199 EGP"
+host: www.sigma-computer.com
+image: https://sigma-computer.com/image/products/1671239744.webp
+```
 
 ---
 

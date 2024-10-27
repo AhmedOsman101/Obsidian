@@ -15,7 +15,6 @@ favicon: https://computecheg.com/wp-content/uploads/2021/08/cropped-10012452_593
 image: https://computecheg.com/wp-content/uploads/2022/07/image-removebg-preview-3.png
 ```
 
-
 ---
 
 ### 2. **GPU (Graphics Card)**: **NVIDIA GeForce RTX 3060**
@@ -29,7 +28,6 @@ description: "name | GIGABYTE GeForce RTX™ 3060 GAMING OC 12G | Price |16800 E
 host: www.sigma-computer.com
 image: https://sigma-computer.com/image/products/161865179407.webp
 ```
-
 
 ---
 
@@ -78,18 +76,43 @@ image: https://sigma-computer.com/image/products/1671239744.webp
 ### 6. **Power Supply Unit (PSU)**: **EVGA 600 W1, 80+ White 600W**
    - **Reason**: This 600W PSU provides enough power for all the components, with a bit of headroom for future upgrades. It’s 80+ White certified, ensuring efficient power delivery without generating excessive heat.
    - **Function**: The PSU converts electricity from the wall into a form your computer can use and distributes it to all the components. A good PSU is essential for system stability and prevents potential damage from power surges.
+   - Product Link: 
+```cardlink
+url: https://www.amazon.com/EVGA-Certified-100-W1-0600-K1-Power-Supply/dp/B0160XJAQK
+title: "Amazon.com: EVGA 600W 80 Plus Certified 100-W1-0600-K1 Power Supply, 600W : Electronics"
+description: "Buy EVGA 600W 80 Plus Certified 100-W1-0600-K1 Power Supply, 600W: Internal Power Supplies - Amazon.com ✓ FREE DELIVERY possible on eligible purchases"
+host: www.amazon.com
+image: https://m.media-amazon.com/images/I/61JIZLFj3eL._AC_SX425_.jpg
+```
+
 
 ---
 
 ### 7. **Case**: **NZXT H510**
    - **Reason**: The NZXT H510 has good airflow, is easy to build in, and has a minimalist design. It also comes with two pre-installed fans, saving additional costs on cooling.
    - **Function**: The case houses all components and keeps them cool and protected. Good airflow is essential for maintaining stable temperatures, which prolongs the lifespan of your components and ensures they run efficiently.
+   - Product Link: 
+```cardlink
+url: https://sigma-computer.com/item?id=2605
+title: "NZXT H510 - Compact ATX Mid-Tower PC Gaming Case | 1599 EGP"
+description: "name | NZXT H510 - Compact ATX Mid-Tower PC Gaming Case | Price |1599 EGP"
+host: sigma-computer.com
+image: https://sigma-computer.com/image/products/161503342211.webp
+```
 
 ---
 
 ### 8. **CPU Cooler (Optional)**: **Cooler Master Hyper 212**
    - **Reason**: The Ryzen 5 5600X does come with a stock cooler, but the Hyper 212 provides better cooling, which is useful for those who want to keep temperatures low or plan to overclock their CPU.
    - **Function**: A cooler removes heat from the CPU to keep it operating at optimal temperatures. A more efficient cooler like the Hyper 212 can help the CPU maintain high performance under load, especially in gaming.
+   - Product Link: 
+```cardlink
+url: https://www.sigma-computer.com/item?id=1728
+title: "COOLER MASTER HYPER 212 SPECTRUM RGB CPU COOLER | 1499 EGP"
+description: "name | COOLER MASTER HYPER 212 SPECTRUM RGB CPU COOLER | Price |1499 EGP"
+host: www.sigma-computer.com
+image: https://sigma-computer.com/image/products/1594050218web-template.jpg
+```
 
 ---
 

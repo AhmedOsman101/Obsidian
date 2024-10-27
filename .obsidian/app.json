@@ -30,5 +30,6 @@
     "SyntaxError",
     "TypeError",
     "NameError"
-  ]
+  ],
+  "showLineNumber": false
 }

@@ -11,10 +11,14 @@
             "id": "7f2e4c4e98470a2b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "College/Python/AssignmentOne.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "AssignmentOne"
             }
           }
         ]
@@ -136,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/IntroToCyberSecurity/LectureTwo.md"
+                "file": "College/Python/AssignmentOne.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of LectureTwo"
+              "title": "Outline of AssignmentOne"
             }
           },
           {
@@ -167,11 +171,16 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "publish:Publish changes...": false,
+      "homepage:Open homepage": false
     }
   },
   "active": "7f2e4c4e98470a2b",
   "lastOpenFiles": [
+    "College/Python/AssignmentOne.html",
+    "College/Python/AssignmentOne.pdf",
+    "College/Python/AssignmentOne-copy.html",
     "College/Python/imgs/code9.png",
     "College/Python/imgs/code8.png",
     "College/Python/imgs/code7.png",
@@ -182,7 +191,6 @@
     "College/Python/imgs/code2.png",
     "College/Python/imgs/code19.png",
     "College/Python/imgs/code18.png",
-    "College/Python/imgs/code17.png",
     "College/Python/AssignmentOne.md",
     "College/IT-Essentials/LectureOne.md",
     "College/IT-Essentials/imgs",
@@ -200,8 +208,6 @@
     "Colleage/IntroToCyberSecurity",
     "Untitled",
     "Mastering Laravel 10 Query Builder, Eloquent and Relationships/notes.md",
-    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/exports/fonts/FiraCodeNerdFontMono-Regular.ttf",
-    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/exports/fonts",
     "notes.md",
     "Notes/notes.md"
   ]

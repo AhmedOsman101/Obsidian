@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Python/AssignmentOne.md",
+                "file": "College/IT-Essentials/Assignments/AssignmentOne.md",
                 "mode": "source",
                 "source": false
               },
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/Python/AssignmentOne.md"
+                "file": "College/IT-Essentials/Assignments/AssignmentOne.md"
               },
               "icon": "lucide-list",
               "title": "Outline of AssignmentOne"
@@ -177,6 +176,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "College/IT-Essentials/LectureOne.md",
+    "College/IT-Essentials/Assignments/AssignmentOne.md",
+    "College/IT-Essentials/Assignments",
+    "College/Python/AssignmentOne.md",
     "College/Python/AssignmentOne.docx",
     "College/Python/AssignmentOne.html",
     "College/Python/AssignmentOne.pdf",
@@ -191,8 +194,6 @@
     "College/Python/imgs/code2.png",
     "College/Python/imgs/code19.png",
     "College/Python/imgs/code18.png",
-    "College/Python/AssignmentOne.md",
-    "College/IT-Essentials/LectureOne.md",
     "College/IT-Essentials/imgs",
     "College/IntroToCyberSecurity/LectureTwo.md",
     "College/IT-Essentials",
@@ -202,10 +203,8 @@
     "College/Python/code/lectureTwo.py",
     "College/Python/code",
     "College/Python/imgs",
-    "College/Python",
     "Untitled.md",
     "Colleage/IntroToCyberSecurity/Lecture 0.md",
-    "Colleage/IntroToCyberSecurity",
     "Mastering Laravel 10 Query Builder, Eloquent and Relationships/notes.md",
     "notes.md",
     "Notes/notes.md"

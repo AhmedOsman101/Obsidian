@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "College/IntroToCyberSecurity/LectureTwo.md",
+                "file": "College/Python/AssignmentOne.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for LectureTwo"
+              "title": "Backlinks for AssignmentOne"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "College/IntroToCyberSecurity/LectureTwo.md",
+                "file": "College/Python/AssignmentOne.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from LectureTwo"
+              "title": "Outgoing links from AssignmentOne"
             }
           },
           {
@@ -147,7 +147,7 @@
             }
           },
           {
-            "id": "79675c7adbc8b037",
+            "id": "6cd0bc19bba807e1",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -173,10 +173,11 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "publish:Publish changes...": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7f2e4c4e98470a2b",
+  "active": "ee59deff705ab6c2",
   "lastOpenFiles": [
     "College/Python/AssignmentOne.html",
     "College/Python/AssignmentOne.pdf",

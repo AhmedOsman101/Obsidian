@@ -1,6 +1,5 @@
 [
   "obsidian-pandoc",
-  "obsidian-git",
   "better-export-pdf",
   "obsidian-languagetool-plugin",
   "obsidian-icon-folder",
@@ -9,5 +8,6 @@
   "obsidian-hider",
   "obsidian-paste-image-rename",
   "remember-cursor-position",
-  "copy-document-as-html"
+  "copy-document-as-html",
+  "obsidian-git"
 ]

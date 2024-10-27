@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -176,6 +177,7 @@
   },
   "active": "6cd0bc19bba807e1",
   "lastOpenFiles": [
+    "College/IT-Essentials/Assignments/AssignmentOne.docx",
     "conflict-files-obsidian-git.md",
     "College/IT-Essentials/Assignments/AssignmentOne.md",
     "College/IT-Essentials/LectureOne.md",

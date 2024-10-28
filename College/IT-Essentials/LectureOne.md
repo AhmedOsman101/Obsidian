@@ -149,3 +149,7 @@ A **computer** can be defined as:
     - **CPU communication speed**
   - **Southbridge** controls:
     - Communication between the **CPU** and **expansion ports** (e.g., hard drives, sound card, USB ports, and other I/O ports)
+
+![](imgs/chipset1.png)
+
+![](imgs/chipset2.png)

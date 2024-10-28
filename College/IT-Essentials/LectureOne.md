@@ -102,3 +102,20 @@ A **computer** can be defined as:
   - A **rail** is the **Printed Circuit Board (PCB)** inside the power supply to which the external cables connect.
   - Known as a **Modular Power Supply**.
 - Computers can tolerate minor power fluctuations, but significant deviations can cause power supply failure.
+
+## Motherboard
+
+- The **backbone** of the computer, interconnecting its components.
+- The **main Printed Circuit Board (PCB)** containing **buses** (electrical pathways) that enable data flow among components.
+- Supports various components, including:
+  - **CPU**
+  - **RAM**
+  - **Expansion slots**
+  - **Heat sink/fan assembly**
+  - **BIOS chip**
+  - **Chipset**
+  - **Sockets**
+  - **Internal and external connectors**
+  - **Ports** and embedded wires connecting components
+- Components may be **soldered** directly or added via **sockets, expansion slots,** and **ports**.
+- Main power is supplied via a **20 or 24-pin connector**.

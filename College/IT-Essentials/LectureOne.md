@@ -154,7 +154,9 @@ A **computer** can be defined as:
 
 ![](imgs/chipset2.png)
 
-<img src="imgs/chipset2.png" alt="chipset 2" width="200" height="200"/>
+
+
+
 
 
 

@@ -178,7 +178,7 @@ A **computer** can be defined as:
   - **BGA** (Ball Grid Array): Pins are soldered to the motherboard, commonly used in laptops and mobile devices.
 
 ### CPU Features
-- **Hyper-Threading**: Creates virtual cores per physical core, improving CPU utilization.
+- **Hyper-Threading**: Creates two virtual cores per physical core, improving CPU utilization.
 - **HyperTransport**: Enhances high-speed, low-latency communication between CPU and other components (e.g., memory, I/O controllers).
 
 ### CPU Performance

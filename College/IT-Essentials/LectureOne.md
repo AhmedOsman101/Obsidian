@@ -78,6 +78,7 @@ A **computer** can be defined as:
   - **W = V x A** (Watts = Volts x Amps)
 
 ### Connectors
+
 ![](imgs/connectors.png)
 
 - A power supply includes several different connectors, used to power various internal components like the motherboard and disk drives.
@@ -105,6 +106,7 @@ A **computer** can be defined as:
 - Computers can tolerate minor power fluctuations, but significant deviations can cause power supply failure.
 
 ## Motherboard
+
 ![](imgs/motherboard.png)
 
 - The **backbone** of the computer, interconnecting its components.
@@ -121,3 +123,16 @@ A **computer** can be defined as:
   - **Ports** and embedded wires connecting components
 - Components may be **soldered** directly or added via **sockets, expansion slots,** and **ports**.
 - Main power is supplied via a **20 or 24-pin connector**.
+
+## Motherboard Components
+
+![](imgs/motherboard2.png)
+
+- **CPU** (Central Processing Unit)
+- **RAM** (Random Access Memory)
+- **Expansion slots**
+- **Chipset**
+- **BIOS** chip and **UEFI** chip
+- **SATA connectors**
+- **Internal USB connector**
+

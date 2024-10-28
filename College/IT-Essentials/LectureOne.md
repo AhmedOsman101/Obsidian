@@ -164,3 +164,30 @@ A **computer** can be defined as:
   - How **components attach**
   - The **power supply type** needed
   - The **shape** of the computer case
+
+## CPU (Central Processing Unit)
+
+- The **CPU** interprets and executes commands, functioning as the **brain** of the computer.
+- Resides as a small microchip within a **CPU package**.
+
+### CPU Connections
+- The **CPU socket** connects the processor to the motherboard.
+- **CPU socket architectures**:
+  - **PGA** (Pin Grid Array): Pins on the processor package, inserted into the motherboard socket.
+  - **LGA** (Land Grid Array): Pins on the socket, higher pin density.
+  - **BGA** (Ball Grid Array): Pins are soldered to the motherboard, commonly used in laptops and mobile devices.
+
+### CPU Features
+- **Hyper-Threading**: Creates virtual cores per physical core, improving CPU utilization.
+- **HyperTransport**: Enhances high-speed, low-latency communication between CPU and other components (e.g., memory, I/O controllers).
+
+### CPU Performance
+- Data processing capacity depends on the **processor data bus** size.
+- Speed is measured in **MHz** or **GHz** (cycles per second).
+- **Multi-core CPUs** allow for multiple cores on a single chip:
+  - **Dual-Core**: 2 cores
+  - **Triple-Core**: 3 cores
+  - **Quad-Core**: 4 cores
+  - **Hexa-Core**: 6 cores
+  - **Octa-Core**: 8 cores
+  - **Up to sixteen cores** in high-end CPUs

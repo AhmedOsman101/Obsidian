@@ -39,7 +39,8 @@
     "Northbridge",
     "Southbridge",
     "ITX",
-    "eXtended"
+    "eXtended",
+    "GDDR"
   ],
   "showLineNumber": false,
   "focusNewTab": false

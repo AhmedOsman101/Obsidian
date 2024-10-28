@@ -191,3 +191,21 @@ A **computer** can be defined as:
   - **Hexa-Core**: 6 cores
   - **Octa-Core**: 8 cores
   - **Up to sixteen cores** in high-end CPUs
+
+## Cooling Systems
+
+- **Cooling** is essential for optimal computer performance.
+- **Case fans** enhance cooling efficiency.
+
+### Types of Cooling
+- **Heat Sink and Fan**: A heat sink pulls heat from the CPU core, and the fan disperses it. Some fans are dedicated to cooling the **GPU**.
+
+#### Active Cooling
+- Requires **power** and includes fans or liquid cooling systems.
+- Actively removes heat from components.
+- Example: **Case fans**
+
+#### Passive Cooling
+- Requires **no power**; relies on natural heat dissipation.
+- Example: **Heat sinks** (made from aluminum or copper) attach to components like the CPU or GPU, transferring and dissipating heat without consuming power.
+

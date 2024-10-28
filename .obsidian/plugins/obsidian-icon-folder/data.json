@@ -6,9 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiHackaday",
+      "FiCpu",
+      "FabPython",
       "🐘",
-      "🐧",
-      "TiSchool"
+      "🐧"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -33,5 +35,8 @@
   },
   "College": "TiSchool",
   "LinuxCrashCourse": "🐧",
-  "phpElZero": "🐘"
+  "phpElZero": "🐘",
+  "College/Python": "FabPython",
+  "College/IT-Essentials": "FiCpu",
+  "College/IntroToCyberSecurity": "SiHackaday"
 }

@@ -89,3 +89,14 @@ A **computer** can be defined as:
 - **Berg keyed connector** (used for powering floppy drives, now mostly obsolete)
 - **4-pin to 8-pin auxiliary power connector** (additional power to the CPU, also known as the ATX12V connector)
 - **6/8-pin PCIe power connector** (supplies power to high-performance graphics cards)
+
+## Power Supply Voltage
+
+- Power supply connectors provide various **voltages**.
+- The most common voltages are **3.3 volts**, **5 volts**, and **12 volts**.
+- **3.3V** and **5V** supplies are generally used by **digital circuits** like the **CPU**, **RAM**, and **chipset** on the motherboard.
+- The **12V** supply is typically used to power **motors** in disk drives and **fans**.
+- Power supplies can be **single rail**, **dual rail**, or **multi rail**:
+  - A **rail** is the **printed circuit board (PCB)** inside the power supply to which the external cables connect.
+  - Often referred to as a **Modular Power Supply**.
+- Computers can tolerate minor power fluctuations, but significant deviations can cause power supply failure.

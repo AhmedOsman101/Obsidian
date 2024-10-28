@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "College/IT-Essentials/LectureOne.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "LectureOne"
             }
           }
         ]
@@ -134,10 +138,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/Python/AssignmentOne.md"
+                "file": "College/IT-Essentials/LectureOne.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of AssignmentOne"
+              "title": "Outline of LectureOne"
             }
           },
           {
@@ -155,7 +159,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,6 +178,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/notes.md",
     "College/Python/AssignmentOne.md",
     "College/IT-Essentials/Assignments/AssignmentOne.md",
     "College/IT-Essentials/Assignments",
@@ -203,7 +209,6 @@
     "College/Python/code",
     "Untitled.md",
     "Colleage/IntroToCyberSecurity/Lecture 0.md",
-    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/notes.md",
     "notes.md",
     "Notes/notes.md"
   ]

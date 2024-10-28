@@ -209,3 +209,32 @@ A **computer** can be defined as:
 - Requires **no power**; relies on natural heat dissipation.
 - Example: **Heat sinks** (made from aluminum or copper) attach to components like the CPU or GPU, transferring and dissipating heat without consuming power.
 
+## Types of Memory
+
+- **Memory chips** store data as bytes, each consisting of eight bits (0s and 1s).
+
+### Read-Only Memory (ROM)
+- **ROM** stores basic boot instructions for loading the operating system.
+- Retains data even when powered off and cannot be erased or rewritten.
+
+#### Types of ROM:
+- **ROM**: Programmed at the factory; non-erasable.
+- **PROM**: Blank at manufacture; programmable once.
+- **EPROM**: Erasable with ultraviolet light.
+- **EEPROM**: Reprogrammable while in the computer.
+
+### Random-Access Memory (RAM)
+- **RAM** temporarily stores data and programs for CPU access.
+- Volatile memory, so contents are erased when powered off.
+- More **RAM** enhances system performance and capacity for larger files.
+- **RAM** capacity is limited by the motherboard chipset.
+
+#### Types of RAM:
+- **SRAM** (Static RAM)
+- **DRAM** (Dynamic RAM)
+- **SDRAM** (Synchronous Dynamic RAM)
+- **DDR SDRAM** (Double Data Rate SDRAM) with variations:
+  - **DDR2 SDRAM**
+  - **DDR3 SDRAM**
+  - **DDR4 SDRAM**
+- **GDDR SDRAM**: Specialized for video graphics with a dedicated **GPU**.

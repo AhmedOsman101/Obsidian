@@ -152,7 +152,15 @@ A **computer** can be defined as:
 
 ![](imgs/chipset.jpg)
 
+## Motherboard Form Factors
 
-
-
-
+- **Form factor** refers to the **size and shape** of the motherboard.
+- **Common form factors**:
+  - **ATX** (Advanced Technology eXtended)
+  - **Micro-ATX**
+  - **ITX**
+![](imgs/motherboardForms.png)
+- The form factor affects:
+  - How **components attach**
+  - The **power supply type** needed
+  - The **shape** of the computer case

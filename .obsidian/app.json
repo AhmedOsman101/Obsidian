@@ -37,7 +37,9 @@
     "zen 5",
     "Molex",
     "Northbridge",
-    "Southbridge"
+    "Southbridge",
+    "ITX",
+    "eXtended"
   ],
   "showLineNumber": false,
   "focusNewTab": false

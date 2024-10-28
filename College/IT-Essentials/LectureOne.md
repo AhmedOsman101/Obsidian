@@ -136,3 +136,16 @@ A **computer** can be defined as:
 - **SATA connectors**
 - **Internal USB connector**
 
+## Motherboard Chipset
+
+- The **chipset** includes integrated circuits that manage interactions between system hardware, the **CPU**, and the **motherboard**, affecting:
+  - **System performance**
+  - **System limitations** (e.g., max memory capacity)
+- **Types of Chipset:**
+  - **Northbridge** controls:
+    - Access to **RAM**
+    - Access to the **video card**
+    - Access to the **CPU**
+    - **CPU communication speed**
+  - **Southbridge** controls:
+    - Communication between the **CPU** and **expansion ports** (e.g., hard drives, sound card, USB ports, and other I/O ports)

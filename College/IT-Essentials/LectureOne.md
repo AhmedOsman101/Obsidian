@@ -211,17 +211,19 @@ A **computer** can be defined as:
 
 ## Types of Memory
 
-- **Memory chips** store data as bytes, each consisting of eight bits (0s and 1s).
+- **Memory chips** store data as bytes, each consisting of eight bits stored as either `0` or `1`.
 
 ### Read-Only Memory (ROM)
 - **ROM** stores basic boot instructions for loading the operating system.
-- Retains data even when powered off and cannot be erased or rewritten.
+- Retains data even when powered off and **cannot be erased or rewritten**.
 
 #### Types of ROM:
-- **ROM**: Programmed at the factory; non-erasable.
-- **PROM**: Blank at manufacture; programmable once.
-- **EPROM**: Erasable with ultraviolet light.
-- **EEPROM**: Reprogrammable while in the computer.
+- **ROM**: **Read-Only Memory**. Programmed at the factory; non-erasable.
+- **PROM**: **Programmable ROM**. Blank at manufacture; programmable once.
+- **EPROM**: **Erasable Programmable ROM**. Erasable with ultraviolet light.
+- **EEPROM**: **Electrically Erasable Programmable ROM**. Reprogrammable while in the computer.
+
+![](imgs/rom.png)
 
 ### Random-Access Memory (RAM)
 - **RAM** temporarily stores data and programs for CPU access.

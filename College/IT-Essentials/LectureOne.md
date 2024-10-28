@@ -150,11 +150,7 @@ A **computer** can be defined as:
   - **Southbridge** controls:
     - Communication between the **CPU** and **expansion ports** (e.g., hard drives, sound card, USB ports, and other I/O ports)
 
-![](imgs/chipset1.png)
-
-![](imgs/chipset2.png)
-
-
+![](imgs/chipset.jpg)
 
 
 

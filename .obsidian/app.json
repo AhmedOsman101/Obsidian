@@ -35,7 +35,9 @@
     "EVGA",
     "zen p",
     "zen 5",
-    "Molex"
+    "Molex",
+    "Northbridge",
+    "Southbridge"
   ],
   "showLineNumber": false,
   "focusNewTab": false

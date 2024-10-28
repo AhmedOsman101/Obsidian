@@ -92,11 +92,13 @@ A **computer** can be defined as:
 
 ## Power Supply Voltage
 
+![PSU](imgs/PSU.png)
+
 - Power supply connectors provide various **voltages**.
 - The most common voltages are **3.3 volts**, **5 volts**, and **12 volts**.
 - **3.3V** and **5V** supplies are generally used by **digital circuits** like the **CPU**, **RAM**, and **chipset** on the motherboard.
 - The **12V** supply is typically used to power **motors** in disk drives and **fans**.
 - Power supplies can be **single rail**, **dual rail**, or **multi rail**:
-  - A **rail** is the **printed circuit board (PCB)** inside the power supply to which the external cables connect.
-  - Often referred to as a **Modular Power Supply**.
+  - A **rail** is the **Printed Circuit Board (PCB)** inside the power supply to which the external cables connect.
+  - Known as a **Modular Power Supply**.
 - Computers can tolerate minor power fluctuations, but significant deviations can cause power supply failure.

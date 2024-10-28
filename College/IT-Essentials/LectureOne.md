@@ -78,6 +78,7 @@ A **computer** can be defined as:
   - **W = V x A** (Watts = Volts x Amps)
 
 ### Connectors
+![]({{image}}.png)
 
 - A power supply includes several different connectors, used to power various internal components like the motherboard and disk drives.
 - The number of connectors varies based on the wattage of the power supply.

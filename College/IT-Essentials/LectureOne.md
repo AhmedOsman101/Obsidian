@@ -229,6 +229,7 @@ A **computer** can be defined as:
 - **RAM** temporarily stores data and programs for CPU access.
 - Volatile memory, so contents are erased when powered off.
 - More **RAM** enhances system performance and capacity for larger files.
+- All data moving in or out of the processor **must be loaded** into RAM first.
 - **RAM** capacity is limited by the motherboard chipset.
 
 #### Types of RAM:
@@ -241,4 +242,6 @@ A **computer** can be defined as:
   - **DDR4 SDRAM**
 - **GDDR SDRAM**: Specialized for video graphics with a dedicated **GPU**.
 
-![](imgs/ram.png)
+![](ram1.png)
+
+![](ram2.png)

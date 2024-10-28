@@ -242,7 +242,7 @@ A **computer** can be defined as:
   - **DDR4 SDRAM**
 - **GDDR SDRAM**: Specialized for video graphics with a dedicated **GPU**.
 
-![](imgs/ram.png)
+![](imgs/ram1.png)
 
-![](ram2.png)
+
 

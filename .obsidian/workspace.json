@@ -11,14 +11,12 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "College/IT-Essentials/LectureOne.md",
-                "mode": "source",
-                "source": false
+                "file": "College/IT-Essentials/imgs/Cases.png"
               },
-              "icon": "lucide-file",
-              "title": "LectureOne"
+              "icon": "lucide-image",
+              "title": "Cases"
             }
           }
         ]
@@ -147,10 +145,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/IT-Essentials/LectureOne.md"
+                "file": "College/IT-Essentials/imgs/Cases.png"
               },
               "icon": "lucide-list",
-              "title": "Outline of LectureOne"
+              "title": "Outline of Cases"
             }
           },
           {
@@ -188,8 +186,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "College/IT-Essentials/imgs/connectors.png",
     "College/IT-Essentials/LectureOne.md",
+    "College/IT-Essentials/imgs/motherboard.png",
+    "College/IT-Essentials/imgs/connectors.png",
     "College/Python/LectureTwo.md",
     "College/Python/LectureOne.md",
     "College/Python/AssignmentOne.md",

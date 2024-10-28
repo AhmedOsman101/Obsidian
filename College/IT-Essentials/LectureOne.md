@@ -105,6 +105,7 @@ A **computer** can be defined as:
 - Computers can tolerate minor power fluctuations, but significant deviations can cause power supply failure.
 
 ## Motherboard
+![](imgs/motherboard.png)
 
 - The **backbone** of the computer, interconnecting its components.
 - The **main Printed Circuit Board (PCB)** containing **buses** (electrical pathways) that enable data flow among components.

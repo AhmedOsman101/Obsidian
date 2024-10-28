@@ -72,13 +72,22 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "b68d65bf43d20e42",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -172,18 +181,18 @@
       "markdown-importer:Open format converter": false,
       "publish:Publish changes...": false,
       "homepage:Open homepage": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-importer:Open Importer": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "{{image}}.png",
+    "College/IT-Essentials/imgs/connectors.png",
+    "College/IT-Essentials/LectureOne.md",
     "College/Python/LectureTwo.md",
     "College/Python/LectureOne.md",
     "College/Python/AssignmentOne.md",
-    "College/IT-Essentials/LectureOne.md",
     "College/IT-Essentials/imgs/PSU.png",
-    "{{image}}.png",
     "Mastering Laravel 10 Query Builder, Eloquent and Relationships/notes.md",
     "College/IT-Essentials/Assignments/AssignmentOne.md",
     "College/IT-Essentials/Assignments",
@@ -200,7 +209,6 @@
     "College/Python/imgs/code5.png",
     "College/Python/imgs/code4.png",
     "College/Python/imgs/code3.png",
-    "College/Python/imgs/code2.png",
     "College/IT-Essentials/imgs",
     "College/IntroToCyberSecurity/LectureTwo.md",
     "College/IT-Essentials",

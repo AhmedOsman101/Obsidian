@@ -83,12 +83,12 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 243.5,
-    "collapsed": true
+    "width": 243.5
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -187,7 +187,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "b68d65bf43d20e42",
   "lastOpenFiles": [
     "Courses/PHP-Elzero.md",
     "Courses/Manara/NodeJs.md",

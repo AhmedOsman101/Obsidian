@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiUdemy",
       "SiHackaday",
       "FiCpu",
       "FabPython",
-      "🐘",
-      "🐧"
+      "🐘"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -34,9 +34,10 @@
     "debugMode": false
   },
   "College": "TiSchool",
-  "LinuxCrashCourse": "🐧",
-  "phpElZero": "🐘",
   "College/Python": "FabPython",
   "College/IT-Essentials": "FiCpu",
-  "College/IntroToCyberSecurity": "SiHackaday"
+  "College/IntroToCyberSecurity": "SiHackaday",
+  "Courses/LinuxCrashCourse": "🐧",
+  "Courses/phpElZero": "🐘",
+  "Courses": "SiUdemy"
 }

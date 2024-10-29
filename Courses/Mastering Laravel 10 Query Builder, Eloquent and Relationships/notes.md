@@ -154,7 +154,7 @@ $data->each(function ($item) { // Loop over the collection with the callback
 `art db:table [<table>]` => Display information about the given database table.
 
 Example:
-![](images/code1.png)
+![](Courses/Mastering%20Laravel%2010%20Query%20Builder,%20Eloquent%20and%20Relationships/images/code1.png)
 
 ### Reading Data:
 
@@ -194,11 +194,11 @@ The `pluck()` method is used to retrieve a single column's value from the first 
 
 `pluck('name')` method output:
 
-![](images/code2.png)
+![](Courses/Mastering%20Laravel%2010%20Query%20Builder,%20Eloquent%20and%20Relationships/images/code2.png)
 
 `pluck('email', 'name')` method output:
 
-![](images/code3.png)
+![](Courses/Mastering%20Laravel%2010%20Query%20Builder,%20Eloquent%20and%20Relationships/images/code3.png)
 
 ## Creating Data:
 

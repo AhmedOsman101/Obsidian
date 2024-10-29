@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiLaravel",
+      "SiPhp",
       "FabLinux",
       "🐧",
-      "SiUdemy",
-      "SiHackaday",
-      "FiCpu"
+      "SiUdemy"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -37,7 +37,8 @@
   "College/Python": "FabPython",
   "College/IT-Essentials": "FiCpu",
   "College/IntroToCyberSecurity": "SiHackaday",
-  "Courses/phpElZero": "🐘",
   "Courses": "SiUdemy",
-  "Courses/LinuxCrashCourse.md": "FabLinux"
+  "Courses/LinuxCrashCourse.md": "FabLinux",
+  "Courses/PHP-Elzero.md": "SiPhp",
+  "Courses/Mastering Laravel 10 Query Builder, Eloquent and Relationships": "SiLaravel"
 }

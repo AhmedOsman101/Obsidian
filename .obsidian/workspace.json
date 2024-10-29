@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/phpElZero/PHP-Elzero.md",
+                "file": "Courses/Manara/NodeJs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PHP-Elzero"
+              "title": "NodeJs"
             }
           }
         ]
@@ -147,10 +147,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/phpElZero/PHP-Elzero.md"
+                "file": "Courses/Manara/NodeJs.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of PHP-Elzero"
+              "title": "Outline of NodeJs"
             }
           },
           {
@@ -185,10 +185,13 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "6e6b30772217c8e6",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Courses/PHP-Elzero.md",
+    "Courses/Manara/NodeJs.md",
+    "Courses/Manara",
+    "Courses/Untitled.md",
     "Courses/LinuxCrashCourse.md",
-    "Courses/Untitled",
     "Courses",
     "College/IT-Essentials/LectureOne.md",
     "College/IT-Essentials/imgs/ram1.png",

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a3278cec8b9d44f9",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "36d428f3dbef2ded",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/IT-Essentials/LectureOne.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "LectureOne"
+              "title": "New tab"
             }
           }
         ]
@@ -185,12 +181,13 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "36d428f3dbef2ded",
+  "active": "6e6b30772217c8e6",
   "lastOpenFiles": [
+    "Untitled",
+    "College/IT-Essentials/LectureOne.md",
     "College/IT-Essentials/imgs/ram1.png",
     "College/IT-Essentials/imgs/ram.png",
     "College/IT-Essentials/imgs/ram.png",
-    "College/IT-Essentials/LectureOne.md",
     "College/IT-Essentials/imgs/ram2.png",
     "College/IT-Essentials/imgs/image-1.png",
     "College/IT-Essentials/imgs/image.png",
@@ -198,7 +195,6 @@
     "College/IT-Essentials/imgs/motherboardForms.png",
     "College/IT-Essentials/imgs/chipset.jpg",
     "College/IT-Essentials/imgs/chipset2.png",
-    "College/IT-Essentials/imgs/chipset1.png",
     "College/Python/LectureTwo.md",
     "College/Python/LectureOne.md",
     "College/Python/AssignmentOne.md",

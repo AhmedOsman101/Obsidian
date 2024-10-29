@@ -244,3 +244,12 @@ A **computer** can be defined as:
 
 ![](imgs/ram1.png)
 
+### Cache
+
+- **SRAM** serves as **cache memory**, storing frequently accessed data for faster CPU retrieval compared to **DRAM** (main memory).
+- **Memory speed** directly affects the processor’s data processing capacity.
+
+#### Types of Cache Memory:
+- **L1 Cache**: Integrated within the **CPU**, provides fastest access.
+- **L2 Cache**: Originally mounted on the motherboard; now integrated into the **CPU**.
+- **L3 Cache**: Found in high-end workstations and server CPUs for additional cache support.

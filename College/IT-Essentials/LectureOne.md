@@ -249,6 +249,9 @@ A **computer** can be defined as:
 - **SRAM** serves as **cache memory**, storing frequently accessed data for faster CPU retrieval compared to **DRAM** (main memory).
 - **Memory speed** directly affects the processor’s data processing capacity.
 
+The fastest memory is typically **static RAM** (SRAM) which is used as 
+cache memory for storing the most recently used data and instructions 
+by the CPU.
 #### Types of Cache Memory:
 - **L1 Cache**: Integrated within the **CPU**, provides fastest access.
 - **L2 Cache**: Originally mounted on the motherboard; now integrated into the **CPU**.

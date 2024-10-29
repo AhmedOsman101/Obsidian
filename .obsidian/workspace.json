@@ -87,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5,
-    "collapsed": true
+    "width": 243.5
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -189,13 +188,14 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "College/IT-Essentials/imgs/adapterCards.png",
+    "College/IT-Essentials/LectureOne.md",
     "Courses/Manara/NodeJs.md",
     "Courses/PHP-Elzero.md",
     "Courses/Manara",
     "Courses/Untitled.md",
     "Courses/LinuxCrashCourse.md",
     "Courses",
-    "College/IT-Essentials/LectureOne.md",
     "College/IT-Essentials/imgs/ram1.png",
     "College/IT-Essentials/imgs/ram.png",
     "College/IT-Essentials/imgs/ram.png",
@@ -205,7 +205,6 @@
     "College/IT-Essentials/imgs/rom.png",
     "College/IT-Essentials/imgs/motherboardForms.png",
     "College/IT-Essentials/imgs/chipset.jpg",
-    "College/IT-Essentials/imgs/chipset2.png",
     "College/Python/LectureTwo.md",
     "College/Python/LectureOne.md",
     "College/Python/AssignmentOne.md",

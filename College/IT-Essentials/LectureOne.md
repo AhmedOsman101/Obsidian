@@ -256,3 +256,29 @@ by the CPU.
 - **L1 Cache**: Integrated within the **CPU**, provides fastest access.
 - **L2 Cache**: Originally mounted on the motherboard; now integrated into the **CPU**.
 - **L3 Cache**: Found in high-end workstations and server CPUs for additional cache support.
+
+### Adapter Cards
+
+- **Adapter cards** enhance a computer's functionality by adding controllers for specific devices or replacing malfunctioning ports.
+
+#### Common Adapter Cards:
+- **Sound adapter**
+- **Network Interface Card (NIC)**
+- **Wireless NIC**
+- **Video adapter** (display adapter)
+- **Video capture card**
+- **TV tuner card**
+- **Universal Serial Bus (USB) controller card**
+- **eSATA card**
+
+![](imgs/adapterCards.png)
+
+- Computers have **expansion slots** on the motherboard for installing adapter cards, and the card connector must match the expansion slot type.
+
+#### Common Expansion Slots:
+- **Peripheral Component Interconnect (PCI)**
+- **Mini-PCI**
+- **PCI eXtended (PCI-X)**
+- **PCI Express (PCIe)**
+- **Riser card**
+- **Accelerated Graphics Port (AGP)**

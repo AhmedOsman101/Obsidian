@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Manara/NodeJs.md",
+                "file": "College/IT-Essentials/LectureOne.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NodeJs"
+              "title": "LectureOne"
             }
           }
         ]
@@ -83,12 +83,12 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 243.5,
+    "collapsed": true
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -148,10 +148,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Manara/NodeJs.md"
+                "file": "College/IT-Essentials/LectureOne.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of NodeJs"
+              "title": "Outline of LectureOne"
             }
           },
           {
@@ -187,10 +187,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "b68d65bf43d20e42",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Courses/PHP-Elzero.md",
     "Courses/Manara/NodeJs.md",
+    "Courses/PHP-Elzero.md",
     "Courses/Manara",
     "Courses/Untitled.md",
     "Courses/LinuxCrashCourse.md",

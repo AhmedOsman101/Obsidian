@@ -1,87 +1,123 @@
 # Ahmad Ali Ahmad Othman - Section 1 - Assignment 1
 
-### 1. **CPU (Processor)**: **AMD Ryzen 5 5600X**
-   - **Reason**: The Ryzen 5 5600X is a 6-core, 12-thread processor, which offers excellent gaming performance. It's affordable and can handle both gaming and light content creation tasks like video editing.
-   - **Function**: The CPU is the brain of the computer, executing instructions for everything from running the game engine to controlling player inputs. The Ryzen 5’s core count is ideal for today’s games, which are optimized for multi-core processors.
+## Suggested PC Build
+
+### 1. **Processor (CPU)**: **AMD Ryzen 5 5600X**
+   - **Description**: The Ryzen 5 5600X is a 6-core, 12-thread processor known for its high performance in gaming and light content creation, making it ideal for most users without overspending.
+   - **Specifications**:
+      - Cores/Threads: 6/12
+      - Clock Speed: Up to 4.6 GHz
+      - Power Draw: 65W
+   - **Importance**: The CPU acts as the computer's "brain," executing instructions for all processes, from game logic to data processing. The multi-core setup handles modern gaming requirements, providing smooth performance across tasks.
    - [Product Link](https://computecheg.com/en/product/cpu-amd-ryzen-5-5600/?gad_source=1&gclid=CjwKCAjwyfe4BhAWEiwAkIL8sKKjciV60X0kvFO4wlexO99gQQs4flPf4ETHG739L3pbuxZ15jx4XhoCELYQAvD_BwE)
 
 ---
 
-### 2. **GPU (Graphics Card)**: **NVIDIA GeForce RTX 3060**
-   - **Reason**: The RTX 3060 provides smooth gameplay at 1080p and 1440p, and it supports NVIDIA’s ray tracing and DLSS technologies, which improve visual fidelity and performance. It’s a well-rounded choice for a gaming-focused build without overspending.
-   - **Function**: The GPU handles the graphical computations needed to render games. It processes graphics and outputs them to your display. The RTX 3060 is well-equipped for popular games at high settings, and its ray tracing support enhances graphics realism.
+### 2. **Graphics Card (GPU)**: **NVIDIA GeForce RTX 3060**
+   - **Description**: The RTX 3060 balances excellent gaming performance with support for ray tracing and DLSS, which enhance graphical detail and frame rates.
+   - **Specifications**:
+      - VRAM: 12GB GDDR6
+      - Core Clock: 1.32 GHz (boost up to 1.78 GHz)
+      - Ray Tracing and DLSS support
+   - **Importance**: The GPU handles rendering tasks, transforming data into visuals on-screen. The RTX 3060 provides high-quality graphics and supports advanced features like ray tracing for realistic lighting in games.
    - [Product Link](https://www.sigma-computer.com/item?id=2826)
 
 ---
 
 ### 3. **Motherboard**: **MSI B450 Tomahawk Max**
-   - **Reason**: This B450 motherboard is affordable yet has all the essential features needed for gaming, including good VRMs for CPU stability, multiple expansion slots, and support for fast RAM. It also supports Ryzen processors, so it pairs well with the Ryzen 5 5600X.
-   - **Function**: The motherboard connects all your components together and allows them to communicate. This particular model provides room for upgrades, allowing you to swap out parts like the CPU and RAM down the line.
+   - **Description**: A robust B450 motherboard that offers stability and multiple connectivity options. It supports Ryzen CPUs and fast RAM for gaming performance.
+   - **Specifications**:
+      - Socket: AM4
+      - RAM Slots: 4 (up to 128GB)
+      - Expansion Slots: PCIe 3.0 x16, PCIe x1
+   - **Importance**: The motherboard interconnects all hardware, allowing components to communicate effectively. This model supports future upgrades, offering flexibility and a stable platform.
    - [Product Link](https://www.sigma-computer.com/item?id=1115)
 
 ---
 
-### 4. **RAM (Memory)**: **Corsair Vengeance LPX 16GB (2x8GB) DDR4-3200**
-   - **Reason**: 16GB is the sweet spot for modern gaming, and the 3200 MHz speed is optimal for Ryzen processors. The dual-channel setup (2x8GB) also improves performance compared to a single 16GB stick.
-   - **Function**: RAM is a short-term memory where data needed by the CPU and GPU is temporarily stored. Faster RAM improves the efficiency of data transfer, which translates to smoother gameplay, especially in games that are memory-intensive.
+### 4. **Memory (RAM)**: **Corsair Vengeance LPX 16GB (2x8GB) DDR4-3200**
+   - **Description**: A dual-channel 16GB RAM kit optimized for gaming and multi-tasking. The 3200 MHz speed complements the Ryzen CPU.
+   - **Specifications**:
+      - Capacity: 16GB (2x8GB)
+      - Speed: 3200 MHz
+      - Latency: CL16
+   - **Importance**: RAM temporarily stores active data for quick access by the CPU and GPU, directly impacting system responsiveness and multitasking.
    - [Product Link](https://www.sigma-computer.com/item?id=1527)
 
 ---
 
 ### 5. **Storage**: **Crucial P3 1TB NVMe SSD**
-   - **Reason**: The Crucial P3 is a fast NVMe SSD with ample space for both your OS and games. NVMe drives have much faster read/write speeds compared to traditional hard drives and even SATA SSDs, making load times noticeably faster.
-   - **Function**: Storage is where your data is kept. An NVMe SSD like this one significantly reduces game loading times, enhances system boot-up speed, and makes the overall experience snappier than traditional storage.
+   - **Description**: A high-speed NVMe SSD that offers ample space and rapid read/write speeds for quick load times.
+   - **Specifications**:
+      - Type: NVMe SSD
+      - Capacity: 1TB
+      - Read/Write Speeds: Up to 3500 MB/s
+   - **Importance**: Storage is essential for saving data. NVMe SSDs reduce load times, speeding up system boot-up and gameplay loading.
    - [Product Link](https://www.sigma-computer.com/item?id=4917&name=Crucial_P3_1TB_M.2_PCIe_Gen3_NVMe_Internal_SSD_-_Up_to_3500MB/s)
 
 ---
 
 ### 6. **Power Supply Unit (PSU)**: **EVGA 600 W1, 80+ White 600W**
-   - **Reason**: This 600W PSU provides enough power for all the components, with a bit of headroom for future upgrades. It’s 80+ White certified, ensuring efficient power delivery without generating excessive heat.
-   - **Function**: The PSU converts electricity from the wall into a form your computer can use and distributes it to all the components. A good PSU is essential for system stability and prevents potential damage from power surges.
+   - **Description**: A 600W PSU with an 80+ White efficiency rating, providing stable power delivery for all components.
+   - **Specifications**:
+      - Wattage: 600W
+      - Efficiency Rating: 80+ White
+      - Cables: Fully sleeved
+   - **Importance**: The PSU powers all components, converting AC to DC while ensuring stable voltage to prevent hardware damage.
    - [Product Link](https://www.amazon.com/EVGA-Certified-100-W1-0600-K1-Power-Supply/dp/B0160XJAQK)
 
 ---
 
-### 7. **Case**: **NZXT H510**
-   - **Reason**: The NZXT H510 has good airflow, is easy to build in, and has a minimalist design. It also comes with two pre-installed fans, saving additional costs on cooling.
-   - **Function**: The case houses all components and keeps them cool and protected. Good airflow is essential for maintaining stable temperatures, which prolongs the lifespan of your components and ensures they run efficiently.
+### 7. **Case (Chassis)**: **NZXT H510**
+   - **Description**: A mid-tower case with efficient airflow, a minimalist design, and two pre-installed fans.
+   - **Specifications**:
+      - Form Factor: ATX mid-tower
+      - Pre-installed Fans: 2
+      - Front I/O Ports: USB 3.1, USB-C, Audio
+   - **Importance**: The case houses all components and aids cooling. Good airflow is crucial for maintaining stable temperatures.
    - [Product Link](https://sigma-computer.com/item?id=2605)
 
 ---
 
-### 8. **CPU Cooler (Optional)**: **Cooler Master Hyper 212**
-   - **Reason**: The Ryzen 5 5600X does come with a stock cooler, but the Hyper 212 provides better cooling, which is useful for those who want to keep temperatures low or plan to overclock their CPU.
-   - **Function**: A cooler removes heat from the CPU to keep it operating at optimal temperatures. A more efficient cooler like the Hyper 212 can help the CPU maintain high performance under load, especially in gaming.
+### 8. **Cooling System**: **Cooler Master Hyper 212**
+   - **Description**: An efficient air cooler that improves thermal performance compared to the stock cooler.
+   - **Specifications**:
+      - Type: Air cooler
+      - Fan Speed: 600-2000 RPM
+      - Compatibility: AM4, LGA 1200, etc.
+   - **Importance**: Proper cooling prevents overheating and helps the CPU sustain high performance under load, prolonging its lifespan.
    - [Product Link](https://www.sigma-computer.com/item?id=1728)
 
 ---
 
-### **Assembly Instructions**
-
-1. **Prepare the Case:** Open up the case, and make sure all screws and accessories are ready.
-    
-2. **Install the CPU:** Open the motherboard's CPU socket latch, carefully align the CPU and slot it in without pressing down. Close the latch.
-    
-3. **Install the CPU Cooler:** Attach the cooler to the motherboard on top of the CPU with the provided brackets and thermal paste if necessary. Plug it into the motherboard’s CPU fan header.
-    
-4. **Insert RAM:** Insert the RAM sticks into the appropriate slots. Make sure they click into place.
-    
-5. **Install Storage:** Mount the NVMe SSD directly onto the motherboard in the designated M.2 slot. For the HDD, secure it to the drive bays in the case and connect it to the motherboard.
-    
-6. **Mount the Motherboard in the Case:** Secure the motherboard with screws, aligning it with the case's standoff points.
-    
-7. **Install GPU:** Insert the GPU into the PCIe slot, secure it with screws, and connect the power cables.
-    
-8. **Connect the PSU:** Plug the PSU into the motherboard (24-pin and 8-pin connectors), GPU, storage devices, and any case fans.
-    
-9. **Cable Management:** Route cables neatly to ensure good airflow and close up the case.
-    
-10. **Boot and Install OS:** Once assembled, power up and enter the BIOS to confirm all parts are detected. Then install your operating system.
+### 9. **Operating System (OS)**: **Windows 11 Pro**
+   - **Description**: Windows 11 Pro is the latest version of Microsoft's operating system, designed for performance, security, and compatibility with modern hardware. It offers an intuitive interface, optimized gaming features, and support for a wide range of productivity applications.
+   - **Specifications**:
+      - **Edition**: Pro (Professional)
+      - **Gaming Features**: DirectStorage for faster loading times, Auto HDR for improved visuals
+      - **Security Features**: BitLocker encryption, Windows Hello, advanced malware protection
+   - **Importance**: The OS manages hardware resources and provides an interface for users to interact with software applications. Windows 11 Pro is particularly well-suited for gaming, offering enhanced performance features and compatibility with the latest games and applications.
+   - [Product Link](https://www.microsoft.com/en-us/windows/get-windows-11)
 
 ---
 
-### **Total Estimated Cost**: Around $700 (34,000 L.E) - $800 (39,000 L.E)
+### **Assembly Steps**
+
+1. **Prepare the Case**: Open the case and organize screws/accessories.
+2. **Install the CPU**: Open the CPU socket latch, align the CPU, and slot it in carefully.
+3. **Install the CPU Cooler**: Mount the cooler on the CPU with brackets and thermal paste as needed.
+4. **Insert RAM**: Place RAM sticks in slots until they click.
+5. **Install Storage**: Secure the NVMe SSD onto the motherboard’s M.2 slot.
+6. **Mount the Motherboard**: Secure the motherboard to the case with screws.
+7. **Install GPU**: Slot the GPU into the PCIe x16 slot and secure with screws.
+8. **Connect the PSU**: Attach PSU cables to the motherboard, GPU, and storage.
+9. **Cable Management**: Organize cables neatly to maximize airflow.
+10. **Boot and Install OS**: Power up the system, enter BIOS, and install the OS.
 
 ---
 
-This build is designed to handle most games at high settings on a 1080p or even 1440p monitor, providing a smooth gaming experience without unnecessary overspending. Each component has been chosen to allow for future upgrades, meaning you can replace parts as your budget allows to keep this build performing well for years.
+### **Total Estimated Cost**: **$700 - $800 (34,000 - 39,000 L.E)**
+
+---
+
+This build ensures a well-rounded experience, balancing performance and cost. It’s optimized for high settings in 1080p and 1440p gaming while allowing for future upgrades. Each component has been carefully selected to achieve an efficient, reliable setup.

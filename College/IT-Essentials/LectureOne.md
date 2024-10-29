@@ -282,3 +282,23 @@ by the CPU.
 - **PCI Express (PCIe)**
 - **Riser card**
 - **Accelerated Graphics Port (AGP)**
+
+### Types of Storage Devices
+
+- **Data drives** provide non-volatile storage for user data, applications, and the operating system.
+- These drives can be **internal** or **external** and may feature **fixed media** or **removable media**.
+
+#### Classification of Data Storage Devices:
+- **Magnetic**: Examples include hard disk drives (HDD) and tape drives.
+- **Solid State**: Examples include solid state drives (SSD).
+- **Optical**: Examples include CDs and DVDs.
+
+- Storage devices connect to the motherboard using **Serial AT Attachment (SATA)** connections, with **Parallel ATA (EIDE)** as the legacy interface.
+- **Interface standards** define data transfer methods, rates, and physical characteristics of cables and connectors.
+
+#### SATA Standard Versions:
+- **SATA 1**: First version, lower transfer speeds.
+- **SATA 2**: Improved transfer speeds.
+- **SATA 3**: Highest transfer speeds.
+
+The cables and connectors remain consistent across all versions, but data transfer speeds vary.

@@ -1,4 +1,4 @@
-# Intro To Cybersecurity Lecture 1
+# Intro To Cybersecurity Lecture 2
 
 ## Concepts of Cybersecurity
 

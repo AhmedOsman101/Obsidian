@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "54e3bcd7158d1af7",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "217efb53f4b49d0b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/IT-Essentials/LectureOne.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "LectureOne"
-            }
-          },
-          {
-            "id": "129a97b4c904d63e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/IT-Essentials/Assignments/AssignmentOne.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AssignmentOne"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,11 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "College/IT-Essentials/Assignments/AssignmentOne.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of AssignmentOne"
+              "title": "Outline"
             }
           },
           {
@@ -201,10 +180,13 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "129a97b4c904d63e",
+  "active": "217efb53f4b49d0b",
   "lastOpenFiles": [
-    "College/IT-Essentials/Assignments/AssignmentOne.docx",
+    "College/IntroToCyberSecurity/LectureTwo.md",
+    "College/IntroToCyberSecurity/LectureOne.md",
     "College/IT-Essentials/LectureOne.md",
+    "College/IT-Essentials/Assignments/AssignmentOne.md",
+    "College/IT-Essentials/Assignments/AssignmentOne.docx",
     "College/IT-Essentials/imgs/adapterCards.png",
     "Courses/Manara/NodeJs.md",
     "Courses/PHP-Elzero.md",
@@ -225,7 +207,6 @@
     "College/Python/LectureOne.md",
     "College/Python/AssignmentOne.md",
     "Courses/Mastering Laravel 10 Query Builder, Eloquent and Relationships/notes.md",
-    "College/IT-Essentials/Assignments/AssignmentOne.md",
     "College/IT-Essentials/Assignments",
     "College/Python/~$signmentOne.docx",
     "College/Python/AssignmentOne.docx",
@@ -233,9 +214,6 @@
     "College/Python/AssignmentOne.pdf",
     "College/Python/AssignmentOne-copy.html",
     "College/IT-Essentials/imgs",
-    "College/IntroToCyberSecurity/LectureTwo.md",
-    "College/IT-Essentials",
-    "College/IntroToCyberSecurity/LectureOne.md",
     "Untitled.md",
     "Colleage/IntroToCyberSecurity/Lecture 0.md",
     "notes.md",

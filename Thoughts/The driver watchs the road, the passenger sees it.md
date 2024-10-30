@@ -1,1 +1,2 @@
-# The Driver Watchs the Road, the Passanger Sees It
+# The Driver Watchs the Road, but the Passenger Sees It
+

@@ -1,8 +1,8 @@
 # College
 
 - [Introduction To Cybersecurity](IntroToCyberSecurity/index.md)
-  - [Lecture One](LectureOne.md)
-  - [Lecture Two](LectureTwo.md)
+  - [Lecture One](IntroToCyberSecurity/LectureOne.md)
+  - [Lecture Two](IntroToCyberSecurity/LectureTwo.md)
 
 - [IT Essentials](IT-Essentials/index.md)
   - [Lecture One](IT-Essentials/LectureOne.md)

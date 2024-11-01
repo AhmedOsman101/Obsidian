@@ -13,7 +13,7 @@
 
 Although `bool` and `sum` are reserved words, but python allows using them as variable names which is not recommended because it disables their functionality.
 
-![](imgs/code2.png)
+![](../imgs/code2.png)
 
 ## 2. Determine the type of errors:
 
@@ -32,8 +32,11 @@ print(2**3 + (5 + 6) ** (1 + 1)) # 8 + 11**2 = 8 + 121 + 129
 ```
 
 <mark> A) 129 </mark>
+
 B) 8
+
 C) 121
+
 D) None of the above.
 
 ## 4. What will be the output of the following code snippet?
@@ -44,8 +47,11 @@ print(type(5 // 2)) # <class 'int'>
 ```
 
 <mark> A) float and int </mark>
+
 B) int and float
+
 C) float and float
+
 D) int and int
 
 ## 5. What will be the datatype of the var in the below code snippet?
@@ -111,13 +117,13 @@ It will result in a `NameError` Because `F` is not defined.
 
 | NO  | Before correction                  | Type of Error                            | After correcting                                               |
 | --- | ---------------------------------- | ---------------------------------------- | -------------------------------------------------------------- |
-| 1   | ![](imgs/code4.png)                | SyntaxError (missing double quote)       | ![](imgs/code9.png)                                            |
-| 2   | ![](College/Python/imgs/code3.png) | IndentationError (incorrect indentation) | ![](imgs/code10.png)                                           |
-| 3   | ![](imgs/code5.png)                | LogicalError (division precedence)       | ![](imgs/code8.png)                                            |
-| 4   | ![](imgs/code6.png)                | SyntaxError (incorrect comment format)   | ![](imgs/code7.png)                                            |
-| 5   | ![](imgs/code11.png)               | SyntaxError (invalid variable name)      | ![](imgs/code12.png)                                           |
-| 6   | ![](imgs/code13.png)               | ZeroDivisionError (division by zero)     | Add a check to avoid division by zero or change X to non-zero. |
-| 7   | ![](imgs/code14.png)               | TypeError (string concatenation)         | ![](imgs/code15.png)                                           |
+| 1   | ![](../imgs/code4.png)                | SyntaxError (missing double quote)       | ![](../imgs/code9.png)                                            |
+| 2   | ![](../imgs/code3.png) | IndentationError (incorrect indentation) | ![](../imgs/code10.png)                                           |
+| 3   | ![](../imgs/code5.png)                | LogicalError (division precedence)       | ![](../imgs/code8.png)                                            |
+| 4   | ![](../imgs/code6.png)                | SyntaxError (incorrect comment format)   | ![](../imgs/code7.png)                                            |
+| 5   | ![](../imgs/code11.png)               | SyntaxError (invalid variable name)      | ![](../imgs/code12.png)                                           |
+| 6   | ![](../imgs/code13.png)               | ZeroDivisionError (division by zero)     | Add a check to avoid division by zero or change X to non-zero. |
+| 7   | ![](../imgs/code14.png)               | TypeError (string concatenation)         | ![](../imgs/code15.png)                                           |
 
 ## 9. Essay Questions:
 
@@ -132,7 +138,7 @@ volume = (4 / 3) * PI * radius**3  # Calculate the sphere's volume
 print(volume)
 ```
 
-![](imgs/code16.png)
+![](../imgs/code16.png)
 
 - Write a program that converts the input Celsius degree into its equivalent Fahrenheit degree. Use the formula `F = (9 / 5) * C + 32`.
 
@@ -143,7 +149,7 @@ Fahrenheit = (9 / 5) * Celsius + 32
 print(Fahrenheit)
 ```
 
-![](imgs/code17.png)
+![](../imgs/code17.png)
 
 - Write a program that converts the input dollar to its peso exchange rate equivalent. Assume that the present exchange rate is `51.50` pesos for one dollar. Then display the peso equivalent exchange rate.
 
@@ -156,7 +162,7 @@ pesos = dollars * peso_dollar_ratio
 print(f"{dollars} dollars is {pesos} pesos")
 ```
 
-![](imgs/code18.png)
+![](../imgs/code18.png)
 
 - Write a program that converts the input inches into its equivalent centimeters. Take note that one inch is equal to `2.54` centimeters.
 
@@ -169,4 +175,4 @@ centimeters = inches * 2.54
 print(f"{inches} inches is {centimeters} centimeters")
 ```
 
-![](imgs/code19.png)
+![](../imgs/code19.png)

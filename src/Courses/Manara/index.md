@@ -1,3 +1,3 @@
 # Notes
 
-- [[NodeJs]]
+- [NodeJs](NodeJs.md)

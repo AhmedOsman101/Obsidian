@@ -1,4 +1,4 @@
 # Notes
 
-- [LectureOne](LectureOne.md)
-- [LectureTwo](LectureTwo.md)
+- [Lecture One](LectureOne.md)
+- [Lecture Two](LectureTwo.md)

@@ -13,7 +13,7 @@
 
 Although `bool` and `sum` are reserved words, but python allows using them as variable names which is not recommended because it disables their functionality.
 
-![](College/Python/imgs/code2.png)
+![](imgs/code2.png)
 
 ## 2. Determine the type of errors:
 
@@ -109,15 +109,15 @@ It will result in a `NameError` Because `F` is not defined.
 
 ## 8. Discover the errors, and keywords for the following sub Python programs which was written by some friends in the same company. Then correct each type of error and Identifiers.
 
-| NO  | Before correction    | Type of Error                            | After correcting                                               |
-| --- | -------------------- | ---------------------------------------- | -------------------------------------------------------------- |
-| 1   | ![](imgs/code4.png)  | SyntaxError (missing double quote)       | ![](imgs/code9.png)                                            |
-| 2   | ![](College/Python/imgs/code3.png)  | IndentationError (incorrect indentation) | ![](imgs/code10.png)                                           |
-| 3   | ![](imgs/code5.png)  | LogicalError (division precedence)       | ![](imgs/code8.png)                                            |
-| 4   | ![](imgs/code6.png)  | SyntaxError (incorrect comment format)   | ![](imgs/code7.png)                                            |
-| 5   | ![](imgs/code11.png) | SyntaxError (invalid variable name)      | ![](imgs/code12.png)                                           |
-| 6   | ![](imgs/code13.png) | ZeroDivisionError (division by zero)     | Add a check to avoid division by zero or change X to non-zero. |
-| 7   | ![](imgs/code14.png) | TypeError (string concatenation)         | ![](imgs/code15.png)                                           |
+| NO  | Before correction                  | Type of Error                            | After correcting                                               |
+| --- | ---------------------------------- | ---------------------------------------- | -------------------------------------------------------------- |
+| 1   | ![](imgs/code4.png)                | SyntaxError (missing double quote)       | ![](imgs/code9.png)                                            |
+| 2   | ![](College/Python/imgs/code3.png) | IndentationError (incorrect indentation) | ![](imgs/code10.png)                                           |
+| 3   | ![](imgs/code5.png)                | LogicalError (division precedence)       | ![](imgs/code8.png)                                            |
+| 4   | ![](imgs/code6.png)                | SyntaxError (incorrect comment format)   | ![](imgs/code7.png)                                            |
+| 5   | ![](imgs/code11.png)               | SyntaxError (invalid variable name)      | ![](imgs/code12.png)                                           |
+| 6   | ![](imgs/code13.png)               | ZeroDivisionError (division by zero)     | Add a check to avoid division by zero or change X to non-zero. |
+| 7   | ![](imgs/code14.png)               | TypeError (string concatenation)         | ![](imgs/code15.png)                                           |
 
 ## 9. Essay Questions:
 

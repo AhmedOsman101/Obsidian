@@ -345,6 +345,7 @@ Interfaces
 IDEs
 IDE
 Interaction
+IntroToCyberSecurity
 pHYs
 pt
 pu
@@ -1805,6 +1806,8 @@ Library
 Like
 Log
 Learning
+LectureOne
+LectureTwo
 al
 aj
 ar
@@ -6636,6 +6639,7 @@ helper
 having
 handling
 happen
+happened
 Xi
 XZ
 Xn
@@ -7753,6 +7757,8 @@ AUTO
 Automation
 Advantages
 API
+Assignments
+AssignmentOne
 Jw
 Jg
 JT
@@ -8143,6 +8149,7 @@ While
 Website
 Where
 Weather
+Watches
 Ötl
 ÖC
 ÄQ

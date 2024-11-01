@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Manara/index.md",
+                "file": "Thoughts/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Manara/index.md",
+                "file": "Thoughts/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Manara/index.md",
+                "file": "Thoughts/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Manara/index.md"
+                "file": "Thoughts/index.md"
               },
               "icon": "lucide-list",
               "title": "Outline of index"
@@ -156,7 +156,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -179,17 +179,24 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Thoughts/The driver watches the road, the passenger sees it.md",
+    "Thoughts/index.md",
     "Courses/index.md",
+    "Courses/Mastering_Laravel_10_Database_and_Eloquent/index.md",
     "Courses/Manara/index.md",
+    "College/index.md",
+    "College/IntroToCyberSecurity/index.md",
+    "College/IT-Essentials/index.md",
+    "College/IT-Essentials/Assignments/index.md",
+    "College/Python/index.md",
+    "College/Python/Assignments/index.md",
+    "College/Python/Assignments/AssignmentOne.md",
+    "College/Python/Assignments",
+    "index.md",
     "Courses/Manara/NodeJs.md",
     "College/Python/LectureOne.md",
-    "College/index.md",
-    "Courses/Mastering_Laravel_10_Database_and_Eloquent_Operations/index.md.md",
-    "Courses/Mastering_Laravel_10_Database_and_Eloquent_Operations",
+    "Courses/Mastering_Laravel_10_Database_and_Eloquent",
     "Untitled",
-    "Thoughts/index.md",
-    "index.md",
-    "College/Python/AssignmentOne.md",
     "Thoughts/The driver watchs the road, the passenger sees it.md",
     "Thoughts",
     "conflict-files-obsidian-git.md",
@@ -213,15 +220,10 @@
     "College/IT-Essentials/Assignments/AssignmentOne.docx",
     "College/IT-Essentials/Assignments/AssignmentOne.md",
     "College/IT-Essentials/Assignments/lu164224co3vv.tmp",
-    "College/IT-Essentials/Assignments/lu164224co3vt.tmp",
     "College/IT-Essentials/LectureOne.md",
     "College/IntroToCyberSecurity/LectureTwo.md",
     "College/IntroToCyberSecurity/LectureOne.md",
     "College/Python/LectureTwo.md",
-    "Untitled.md",
-    "Colleage/IntroToCyberSecurity/Lecture 0.md",
-    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/notes.md",
-    "notes.md",
-    "Notes/notes.md"
+    "Untitled.md"
   ]
 }

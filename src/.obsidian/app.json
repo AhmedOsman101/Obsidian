@@ -1,6 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "shortest",
+  "newLinkFormat": "relative",
   "useMarkdownLinks": true,
   "tabSize": 2,
   "useTab": false,

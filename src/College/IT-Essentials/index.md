@@ -1,6 +1,6 @@
 # Notes
 
-- **Assignments**:
-  - [AssignmentOne](Assignments/AssignmentOne.md)
+- [Lecture One](LectureOne.md)
 
-- [LectureOne](LectureOne.md)
+- [Assignments](Assignments/index.md):
+  - [Assignment One](Assignments/AssignmentOne.md)

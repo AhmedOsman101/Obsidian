@@ -1,49 +1,72 @@
 #!/bin/bash
 
-# Function to create links in index.md for the given directory
-create_links() {
+# Function to generate index.md file
+generate_index() {
     local dir="$1"
-    local index_file="$dir/index.md"
+    local output_file="$dir/index.md"
+    local notes_found=false
 
-    # Ensure the index.md file exists or create it if it doesn't
-    if [[ ! -f "$index_file" ]]; then
-        printf "# Notes\n" > "$index_file"
+    # Check if the directory contains any .md files
+    for file in "$dir"/*.md; do
+        if [[ -f "$file" && "$file" != "$output_file" ]]; then
+            notes_found=true
+            break
+        fi
+    done
+
+    # If no notes are found, return without creating index.md
+    if [[ "$notes_found" == false ]]; then
+        return
     fi
 
-    # Clear previous links section if any
-    printf "# Notes\n" > "$index_file"
-    echo "## Explore" >> "$index_file.tmp"
+    # Create or overwrite index.md file
+    {
+        echo "# Notes"
+        echo ""
 
-    # Find all Markdown files in the current directory
-    for file in "$dir"/*.md; do
-        if [[ "$(basename "$file")" != "index.md" ]]; then
-            echo "- [$(basename "$file".md)]($(basename "$file"))" >> "$index_file.tmp"
-        fi
-    done
+        # Find all directories
+        for subdir in "$dir"/*; do
+            if [[ -d "$subdir" ]]; then
+                local subdir_name
+                subdir_name=$(basename "$subdir")
+                local has_notes=false
 
-    # Recursively find subdirectories and their Markdown files
-    for subdir in "$dir"/*; do
-        if [[ -d "$subdir" ]]; then
-            echo "- **$(basename "$subdir")**:" >> "$index_file.tmp"
-            create_links "$subdir" >> "$index_file.tmp"
-        fi
-    done
+                # Check if the subdirectory has .md files
+                for subfile in "$subdir"/*.md; do
+                    if [[ -f "$subfile" && "$subfile" != "$subdir/index.md" ]]; then
+                        has_notes=true
+                        break
+                    fi
+                done
 
-    # Append the existing content (if any) to the new index.md
-    cat "$index_file" >> "$index_file.tmp"
+                if [[ "$has_notes" == true ]]; then
+                    echo "- **$subdir_name**:"
+                    echo ""
+                    # List .md files in subdirectory
+                    for note in "$subdir"/*.md; do
+                        if [[ -f "$note" && "$note" != "$subdir/index.md" ]]; then
+                            note_name=$(basename "$note" .md)
+                            echo "  - [${note_name}]($subdir_name/${note_name}.md)"
+                        fi
+                    done
+                    echo ""
+                fi
+            fi
+        done
 
-    # Replace the old index.md with the new one
-    mv "$index_file.tmp" "$index_file"
+        # List the current directory's .md files
+        for note in "$dir"/*.md; do
+            if [[ -f "$note" && "$note" != "$output_file" ]]; then
+                note_name=$(basename "$note" .md)
+                echo "- [${note_name}](${note_name}.md)"
+            fi
+        done
+    } >"$output_file"
 }
 
-# Starting directory (current directory)
-start_dir="$(pwd)"
-
-# Loop through each directory in the starting directory
-for dir in "$start_dir"/*; do
-    if [[ -d "$dir" ]]; then
-        create_links "$dir"
-    fi
+# Main script execution
+for dir in $(find . -type d); do
+    generate_index "$dir"
 done
 
-echo "Links created in index.md files recursively."
+echo "Index files created or updated."

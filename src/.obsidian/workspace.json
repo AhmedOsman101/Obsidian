@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Python/AssignmentOne.md",
+                "file": "Courses/Manara/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AssignmentOne"
+              "title": "index"
             }
           }
         ]
@@ -93,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Courses/Manara/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -111,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Courses/Manara/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -137,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/Python/AssignmentOne.md"
+                "file": "Courses/Manara/index.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of AssignmentOne"
+              "title": "Outline of index"
             }
           },
           {
@@ -154,7 +156,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -162,7 +164,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-importer:Open Importer": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -172,11 +173,23 @@
       "markdown-importer:Open format converter": false,
       "publish:Publish changes...": false,
       "homepage:Open homepage": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-importer:Open Importer": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Courses/index.md",
+    "Courses/Manara/index.md",
+    "Courses/Manara/NodeJs.md",
+    "College/Python/LectureOne.md",
+    "College/index.md",
+    "Courses/Mastering_Laravel_10_Database_and_Eloquent_Operations/index.md.md",
+    "Courses/Mastering_Laravel_10_Database_and_Eloquent_Operations",
+    "Untitled",
+    "Thoughts/index.md",
+    "index.md",
+    "College/Python/AssignmentOne.md",
     "Thoughts/The driver watchs the road, the passenger sees it.md",
     "Thoughts",
     "conflict-files-obsidian-git.md",
@@ -187,7 +200,6 @@
     "Courses/Mastering Laravel 10 Query Builder, Eloquent and Relationships/notes.md",
     "Courses/Mastering Laravel 10 Query Builder, Eloquent and Relationships/images",
     "Courses/Mastering Laravel 10 Query Builder, Eloquent and Relationships",
-    "Courses/Manara/NodeJs.md",
     "Courses/Manara",
     "Courses/LinuxCrashCourse.md",
     "Courses",
@@ -202,13 +214,9 @@
     "College/IT-Essentials/Assignments/AssignmentOne.md",
     "College/IT-Essentials/Assignments/lu164224co3vv.tmp",
     "College/IT-Essentials/Assignments/lu164224co3vt.tmp",
-    "College/IT-Essentials/Assignments/lu164224co3vr.tmp",
-    "College/IT-Essentials/Assignments/lu161520c8naw.tmp",
     "College/IT-Essentials/LectureOne.md",
-    "College/Python/AssignmentOne.md",
     "College/IntroToCyberSecurity/LectureTwo.md",
     "College/IntroToCyberSecurity/LectureOne.md",
-    "College/Python/LectureOne.md",
     "College/Python/LectureTwo.md",
     "Untitled.md",
     "Colleage/IntroToCyberSecurity/Lecture 0.md",

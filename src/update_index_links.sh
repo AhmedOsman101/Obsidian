@@ -14,31 +14,29 @@ generate_index() {
         fi
     done
 
-    # If no notes are found, return without creating index.md
-    if [[ "$notes_found" == false ]]; then
-        return
-    fi
-
-    # Create or overwrite index.md file
+    # Create or overwrite index.md file even if no notes are found in the current directory # FIXED
     {
         echo "# Notes"
         echo ""
 
+        local child_notes_found=false
+
         # Find all directories
         for subdir in "$dir"/*; do
             if [[ -d "$subdir" ]]; then
-                local subdir_name
-                subdir_name=$(basename "$subdir")
+                local subdir_name=$(basename "$subdir")
                 local has_notes=false
 
                 # Check if the subdirectory has .md files
                 for subfile in "$subdir"/*.md; do
                     if [[ -f "$subfile" && "$subfile" != "$subdir/index.md" ]]; then
                         has_notes=true
+                        child_notes_found=true # Indicate that we found notes in child directories # FIXED
                         break
                     fi
                 done
 
+                # Only process the subdirectory if it contains notes
                 if [[ "$has_notes" == true ]]; then
                     echo "- **$subdir_name**:"
                     # List .md files in subdirectory
@@ -64,12 +62,21 @@ generate_index() {
                 echo "- [${note_name}]($path_friendly_note_name.md)"
             fi
         done
+
+        # If child directories have notes, ensure the index.md is created # FIXED
+        if [[ "$child_notes_found" == true ]]; then
+            echo "" # Ensure there's a new line at the end
+        else
+            return # No need to keep the index.md if there are no notes
+        fi
     } >"$output_file"
 }
 
 # Main script execution
 for dir in $(find . -type d); do
-    generate_index "$dir"
+    if [ "$dir" != ".obsidian" ]; then
+        generate_index "$dir"
+    fi
 done
 
 echo "Index files created or updated."

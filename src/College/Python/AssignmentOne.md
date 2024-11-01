@@ -13,7 +13,7 @@
 
 Although `bool` and `sum` are reserved words, but python allows using them as variable names which is not recommended because it disables their functionality.
 
-![](imgs/code2.png)
+![](College/Python/imgs/code2.png)
 
 ## 2. Determine the type of errors:
 
@@ -112,7 +112,7 @@ It will result in a `NameError` Because `F` is not defined.
 | NO  | Before correction    | Type of Error                            | After correcting                                               |
 | --- | -------------------- | ---------------------------------------- | -------------------------------------------------------------- |
 | 1   | ![](imgs/code4.png)  | SyntaxError (missing double quote)       | ![](imgs/code9.png)                                            |
-| 2   | ![](imgs/code3.png)  | IndentationError (incorrect indentation) | ![](imgs/code10.png)                                           |
+| 2   | ![](College/Python/imgs/code3.png)  | IndentationError (incorrect indentation) | ![](imgs/code10.png)                                           |
 | 3   | ![](imgs/code5.png)  | LogicalError (division precedence)       | ![](imgs/code8.png)                                            |
 | 4   | ![](imgs/code6.png)  | SyntaxError (incorrect comment format)   | ![](imgs/code7.png)                                            |
 | 5   | ![](imgs/code11.png) | SyntaxError (invalid variable name)      | ![](imgs/code12.png)                                           |

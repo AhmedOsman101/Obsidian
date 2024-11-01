@@ -73,7 +73,7 @@ print(type(type(z))) # Output: <class 'type'>
 ```
 
 output:
-![](imgs/code1.png)
+![](College/Python/imgs/code1.png)
 
 ## Python Uses Different IDEs
 

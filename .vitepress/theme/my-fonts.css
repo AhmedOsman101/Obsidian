@@ -1,6 +1,6 @@
 :root {
-  --vp-font-family-base: Inter;
-  --vp-font-family-mono: JetBrainsMonoNerdFontMono;
+  --vp-font-family-base: Inter, Arial;
+  --vp-font-family-mono: JetBrainsMonoNerdFontMono, monospace;
 }
 
 /* Regular */

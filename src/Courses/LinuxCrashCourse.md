@@ -37,6 +37,7 @@ cd .. # Changes the directory to its parent directory.
 cd "new folder" # Use quotes if the directory name contains spaces.
 
 ```
+
 ---
 
 ### cat
@@ -59,6 +60,7 @@ cat >> file.txt # Appends text content to an existing file from the terminal. Pr
 cat file1.txt >> file2.txt # Appends the contents of the first file to the second.
 
 ```
+
 ---
 
 ### grep
@@ -305,16 +307,16 @@ watch -d 1 <command> # Displays the output every 1 second.
 - Write (w) = 2
 - Execute (x) = 1
 
-| Permission  | Numeric Value
-|-------------|------------|
-| ---         | 0          |
-| --x         | 1          |
-| -w-         | 2          |
-| -wx         | 3          |
-| r--         | 4          |
-| r-x         | 5          |
-| rw-         | 6          |
-| rwx         | 7          |
+| Permission | Numeric Value |
+| ---------- | ------------- |
+| ---        | 0             |
+| --x        | 1             |
+| -w-        | 2             |
+| -wx        | 3             |
+| r--        | 4             |
+| r-x        | 5             |
+| rw-        | 6             |
+| rwx        | 7             |
 
 **Other Segments:**
 
@@ -390,16 +392,15 @@ Regular Expressions (RegEx) are used to match/search patterns in strings.
 
 It can be piped along with `grep` command to find patterns of text in the file.
 
-| Symbol      | Explanation
-|-------------|-----------------------------------------------------|
-| `.`         | Replaces any character                              |
-| "`^`"       | Matches the start of the string                     |
-| `$`         | Matches the end of the string                       |
-| `*`         | Matches the preceding character zero or more times  |
-| `?`         | Matches the preceding character one or more times   |
-| `()`        |  Groups regular expressions                         |
-| `\`         |  Escapes special characters                         |
-
+| Symbol | Explanation                                        |
+| ------ | -------------------------------------------------- |
+| `.`    | Replaces any character                             |
+| `^`    | Matches the start of the string                    |
+| `$`    | Matches the end of the string                      |
+| `*`    | Matches the preceding character zero or more times |
+| `?`    | Matches the preceding character one or more times  |
+| `()`   | Groups regular expressions                         |
+| `\`    | Escapes special characters                         |
 
 ## Processes, Adding Users and SSH
 

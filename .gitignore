@@ -1,3 +1,4 @@
 .obsidian/plugins/remember-cursor-position/
 node_modules
 cache
+dist

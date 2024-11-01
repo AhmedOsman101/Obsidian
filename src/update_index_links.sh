@@ -41,12 +41,13 @@ generate_index() {
 
                 if [[ "$has_notes" == true ]]; then
                     echo "- **$subdir_name**:"
-                    echo ""
                     # List .md files in subdirectory
                     for note in "$subdir"/*.md; do
                         if [[ -f "$note" && "$note" != "$subdir/index.md" ]]; then
                             note_name=$(basename "$note" .md)
-                            echo "  - [${note_name}]($subdir_name/${note_name}.md)"
+                            # Replace spaces with %20 for path-friendly links
+                            path_friendly_note_name=$(echo "$note_name" | sed 's/ /%20/g')
+                            echo "  - [${note_name}]($subdir_name/$path_friendly_note_name.md)"
                         fi
                     done
                     echo ""
@@ -58,7 +59,9 @@ generate_index() {
         for note in "$dir"/*.md; do
             if [[ -f "$note" && "$note" != "$output_file" ]]; then
                 note_name=$(basename "$note" .md)
-                echo "- [${note_name}](${note_name}.md)"
+                # Replace spaces with %20 for path-friendly links
+                path_friendly_note_name=$(echo "$note_name" | sed 's/ /%20/g')
+                echo "- [${note_name}]($path_friendly_note_name.md)"
             fi
         done
     } >"$output_file"

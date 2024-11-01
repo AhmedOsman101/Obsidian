@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiLightbulbFill",
       "FabNodeJs",
       "FabNode",
       "SiLaravel",
-      "SiPhp",
-      "FabLinux"
+      "SiPhp"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -41,5 +41,6 @@
   "Courses/LinuxCrashCourse.md": "FabLinux",
   "Courses/PHP-Elzero.md": "SiPhp",
   "Courses/Mastering Laravel 10 Query Builder, Eloquent and Relationships": "SiLaravel",
-  "Courses/Manara/NodeJs.md": "FabNodeJs"
+  "Courses/Manara/NodeJs.md": "FabNodeJs",
+  "Thoughts": "RiLightbulbFill"
 }

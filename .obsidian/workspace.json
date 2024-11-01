@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "College/Python/AssignmentOne.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "AssignmentOne"
             }
           }
         ]
@@ -68,22 +72,12 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "b68d65bf43d20e42",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 300
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -143,10 +137,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thoughts/The driver watchs the road, the passenger sees it.md"
+                "file": "College/Python/AssignmentOne.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of The driver watchs the road, the passenger sees it"
+              "title": "Outline of AssignmentOne"
             }
           },
           {
@@ -168,6 +162,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-importer:Open Importer": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -177,47 +172,47 @@
       "markdown-importer:Open format converter": false,
       "publish:Publish changes...": false,
       "homepage:Open homepage": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-importer:Open Importer": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6e6b30772217c8e6",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Thoughts/The driver watchs the road, the passenger sees it.md",
-    "College/IT-Essentials/LectureOne.md",
     "Thoughts",
-    "College/IntroToCyberSecurity/LectureTwo.md",
-    "College/IntroToCyberSecurity/LectureOne.md",
-    "College/IT-Essentials/Assignments/AssignmentOne.md",
-    "College/IT-Essentials/Assignments/AssignmentOne.docx",
-    "College/IT-Essentials/imgs/adapterCards.png",
-    "Courses/Manara/NodeJs.md",
+    "conflict-files-obsidian-git.md",
     "Courses/PHP-Elzero.md",
+    "Courses/Mastering Laravel 10 Query Builder, Eloquent and Relationships/images/code3.png",
+    "Courses/Mastering Laravel 10 Query Builder, Eloquent and Relationships/images/code2.png",
+    "Courses/Mastering Laravel 10 Query Builder, Eloquent and Relationships/images/code1.png",
+    "Courses/Mastering Laravel 10 Query Builder, Eloquent and Relationships/notes.md",
+    "Courses/Mastering Laravel 10 Query Builder, Eloquent and Relationships/images",
+    "Courses/Mastering Laravel 10 Query Builder, Eloquent and Relationships",
+    "Courses/Manara/NodeJs.md",
     "Courses/Manara",
-    "Courses/Untitled.md",
     "Courses/LinuxCrashCourse.md",
     "Courses",
+    "College/IT-Essentials/imgs/rom.png",
+    "College/IT-Essentials/imgs/ram2.png",
     "College/IT-Essentials/imgs/ram1.png",
     "College/IT-Essentials/imgs/ram.png",
-    "College/IT-Essentials/imgs/ram.png",
-    "College/IT-Essentials/imgs/ram2.png",
-    "College/IT-Essentials/imgs/image-1.png",
-    "College/IT-Essentials/imgs/image.png",
-    "College/IT-Essentials/imgs/rom.png",
     "College/IT-Essentials/imgs/motherboardForms.png",
-    "College/IT-Essentials/imgs/chipset.jpg",
-    "College/Python/LectureTwo.md",
-    "College/Python/LectureOne.md",
+    "College/IT-Essentials/imgs/motherboard2.png",
+    "College/IT-Essentials/imgs/motherboard.png",
+    "College/IT-Essentials/Assignments/AssignmentOne.docx",
+    "College/IT-Essentials/Assignments/AssignmentOne.md",
+    "College/IT-Essentials/Assignments/lu164224co3vv.tmp",
+    "College/IT-Essentials/Assignments/lu164224co3vt.tmp",
+    "College/IT-Essentials/Assignments/lu164224co3vr.tmp",
+    "College/IT-Essentials/Assignments/lu161520c8naw.tmp",
+    "College/IT-Essentials/LectureOne.md",
     "College/Python/AssignmentOne.md",
-    "Courses/Mastering Laravel 10 Query Builder, Eloquent and Relationships/notes.md",
-    "College/IT-Essentials/Assignments",
-    "College/Python/~$signmentOne.docx",
-    "College/Python/AssignmentOne.docx",
-    "College/Python/AssignmentOne.html",
-    "College/Python/AssignmentOne.pdf",
-    "College/Python/AssignmentOne-copy.html",
+    "College/IntroToCyberSecurity/LectureTwo.md",
+    "College/IntroToCyberSecurity/LectureOne.md",
+    "College/Python/LectureOne.md",
+    "College/Python/LectureTwo.md",
     "Untitled.md",
     "Colleage/IntroToCyberSecurity/Lecture 0.md",
+    "Mastering Laravel 10 Query Builder, Eloquent and Relationships/notes.md",
     "notes.md",
     "Notes/notes.md"
   ]

@@ -1,0 +1,36 @@
+:root {
+  --vp-font-family-base: Inter;
+  --vp-font-family-mono: JetBrainsMonoNerdFontMono;
+}
+
+/* Regular */
+@font-face {
+  font-family: "JetBrainsMonoNerdFontMono";
+  src: url("./fonts/JetBrainsMonoNerdFontMono-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Medium */
+@font-face {
+  font-family: "JetBrainsMonoNerdFontMono";
+  src: url("./fonts/JetBrainsMonoNerdFontMono-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Bold */
+@font-face {
+  font-family: "JetBrainsMonoNerdFontMono";
+  src: url("./fonts/JetBrainsMonoNerdFontMono-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Thin */
+@font-face {
+  font-family: "JetBrainsMonoNerdFontMono";
+  src: url("./fonts/JetBrainsMonoNerdFontMono-Thin.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}

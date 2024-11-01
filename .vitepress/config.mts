@@ -4,20 +4,21 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Obsidian Notes",
   description: "A Website for all of my notes and thoughts",
+  srcDir: "src",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Courses", link: "/courses" },
-      { text: "College", link: "/college" },
+      { text: "Courses", link: "/Courses" },
+      { text: "College", link: "/College" },
     ],
 
     sidebar: [
       {
         text: "Examples",
         items: [
-          { text: "Courses", link: "/courses" },
-          { text: "College", link: "/college" },
+          { text: "Courses", link: "/Courses" },
+          { text: "College", link: "/College" },
         ],
       },
     ],

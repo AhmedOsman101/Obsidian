@@ -9,8 +9,8 @@ hero:
   actions:
     - theme: alt
       text: College
-      link: /college
+      link: /College
     - theme: alt
       text: Courses
-      link: /courses
+      link: /Courses
 ---

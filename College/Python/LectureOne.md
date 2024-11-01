@@ -73,7 +73,7 @@ print(type(type(z))) # Output: <class 'type'>
 ```
 
 output:
-![](College/Python/imgs/code1.png)
+![](imgs/code1.png)
 
 ## Python Uses Different IDEs
 
@@ -93,14 +93,14 @@ Examples include:
 - [Thonny](https://thonny.org/)
 - [Programiz Online Compiler](https://www.programiz.com/python-programming/online-compiler/)
 
-![](editors.jpg)
+![](imgs/editors.jpg)
 
 ## How to install IDE (Thonny)
 
-![](ThonnyStepOne.png)
+![](imgs/ThonnyStepOne.png)
 
-![](ThonnyStepTwo.png)
+![](imgs/ThonnyStepTwo.png)
 
-![](ThonnyStepThree.png)
+![](imgs/ThonnyStepThree.png)
 
-![](ThonnyStepFour.png)
+![](imgs/ThonnyStepFour.png)

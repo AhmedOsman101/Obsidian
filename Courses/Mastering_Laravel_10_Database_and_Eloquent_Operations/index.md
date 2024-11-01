@@ -9,10 +9,10 @@ $col = $table->string('email');
 
 $col->unique(); // Unique column that can't have duplicates
 
-$table->unique(['email', 'username']); 
+$table->unique(['email', 'username']);
 // Define multiple unique columns at once
 
-$table->id()->from(startingValue: 5000); 
+$table->id()->from(startingValue: 5000);
 // Changes the starting value of the autoincrement property.
 // Equivalent to `ALTER TABLE tableName AUTO_INCREMENT = 5000;`
 
@@ -30,17 +30,17 @@ $table->foreign('post_id') // Creates a foreign key `post_id`
 $table->foreignId(column: 'post_id', model: Post::class)
 // Model is optional (automatically inferred, use it when having weird names).
 // Or
-$table->foreignId('post_id')->constrained('posts'); 
+$table->foreignId('post_id')->constrained('posts');
 // Constrained by default sets up an `ON DELETE CASCADE` constraint.
 
-$col->comment('message'); 
+$col->comment('message');
 // Adds a comment to your columns (visible on the database view software).
 
 $col->default('any value'); // Adds a default value to the column
 
 $col->first(); // Change order in the database
 
-$col->nullable(default: true); 
+$col->nullable(default: true);
 // Declares a column as nullable (accept null values)
 ```
 
@@ -90,7 +90,7 @@ $table->renameColumn(oldname: 'name', newname: 'fullName'); // Rename a column.
 
 $table->dropColumn('col1'); // Drop one column
 
-$table->dropColumn(['votes', 'avatar', 'location']); 
+$table->dropColumn(['votes', 'avatar', 'location']);
 // Drop multiple columns by passing an array of column names.
 
 $table->dropSoftDeletes(); // Drop the `deleted_at` column.
@@ -125,7 +125,7 @@ $json = File::get('database/json/users.json'); // Returns the json text
 
 // 4. Convert it, there are two ways:
 // First way:
-$data = json_decode($json, associative: true); 
+$data = json_decode($json, associative: true);
 // Returns an associative array with the content of the file
 
 // Second way:
@@ -154,7 +154,7 @@ $data->each(function ($item) { // Loop over the collection with the callback
 `art db:table [<table>]` => Display information about the given database table.
 
 Example:
-![](Courses/Mastering%20Laravel%2010%20Query%20Builder,%20Eloquent%20and%20Relationships/images/code1.png)
+![](imgs/code1.png)
 
 ### Reading Data:
 
@@ -174,19 +174,19 @@ $t->distinct(); // Force the query to only return distinct results.
 
 $q2 = $t->select(['name', 'email']);
 $q2->addSelect('password')->get();
-// Adds more columns to your SELECT clause of a query. 
+// Adds more columns to your SELECT clause of a query.
 // You MUST add the `get()` method to the last statement.
 
 $q3 = $t->where(column: "id", value: 2); // where`id` = 2;
 // This will select the user of id `1` only.
 
-$q3->first(); // Get the first column that matches this clause. 
+$q3->first(); // Get the first column that matches this clause.
 // Returns an object not an array.
 
 $q3->value(column: 'name'); // Returns a single value from the query.
 // Useful when you only need one value from a record.
 
-$q4 = $t->find(id: 1); // searches for a record by its primary key (id). 
+$q4 = $t->find(id: 1); // searches for a record by its primary key (id).
 // Returns an Object.
 ```
 
@@ -194,11 +194,11 @@ The `pluck()` method is used to retrieve a single column's value from the first 
 
 `pluck('name')` method output:
 
-![](Courses/Mastering%20Laravel%2010%20Query%20Builder,%20Eloquent%20and%20Relationships/images/code2.png)
+![](imgs/code2.png)
 
 `pluck('email', 'name')` method output:
 
-![](Courses/Mastering%20Laravel%2010%20Query%20Builder,%20Eloquent%20and%20Relationships/images/code3.png)
+![](imgs/code3.png)
 
 ## Creating Data:
 
@@ -210,25 +210,25 @@ $data = [
   "password" => "password"
 ];
 
-$t->insert($data); 
+$t->insert($data);
 // Inserts a new record, timestamps are null. Returns true on success
 
-$t->insertOrIgnore($data); 
+$t->insertOrIgnore($data);
 // Returns the number of affected rows (0 => data exists).
 // Allows you to insert data only if it doesn't already exist in the table.
 
 $values = [
-  'email'   => 'john.doe@example.com',  
+  'email'   => 'john.doe@example.com',
   'name'    => 'John Doe updated',
-  'revenue' => 1000,  
-];  
-$uniqueBy = 'email';  
-$update = ['name', 'revenue'];  
-  
-$t->upsert($values, $uniqueBy, $update); 
+  'revenue' => 1000,
+];
+$uniqueBy = 'email';
+$update = ['name', 'revenue'];
+
+$t->upsert($values, $uniqueBy, $update);
 // Insert new records or update the existing ones. Tries to insert first.
 
-$t->insertGetId($data); 
+$t->insertGetId($data);
 // Insert new record and grab its id in a single query.
 ```
 
@@ -239,18 +239,18 @@ $t = DB::table(table: 'users'); // Specify the table you are working on
 $q = DB::table('users')->where('id', 2); // Specific row to operate on.
 
 // Finds the user and updates its password field to `newPassword`.
-$q->update(["password" => "newPassword"]); 
+$q->update(["password" => "newPassword"]);
 // Returns the number of affected rows (int).
 
 // Insert or update a record matching the attributes, and fill it with values.
 // Tries to update first.
-$t->updateOrInsert(  
-  attributes: ['age' => 67],  
-  values    : [  
-    "name"    => "new user",  
-    "email"   => "newest@email.com",  
-    "revenue" => 5000,  
-  ]  
+$t->updateOrInsert(
+  attributes: ['age' => 67],
+  values    : [
+    "name"    => "new user",
+    "email"   => "newest@email.com",
+    "revenue" => 5000,
+  ]
 ); // Searches for a row with the given `attributes` (age of 67).
 // If it exists update it with the `values` array.
 // Else create a new row with the two arrays combined.
@@ -273,7 +273,7 @@ $t->where(column: "id", value: 2); // where`id` = 2;
 // This will select the user of id `1` only.
 
 $t->where(column: 'age', operator: '<=', value: '18');
-// The `where()` method takes three arguments: 
+// The `where()` method takes three arguments:
 // `column` to match.
 // Optional `operator` with default value of `==`.
 // And a `value` to compare against.
@@ -282,12 +282,12 @@ $t->orWhere(column: 'type', value: 'admin');
 // Use `orWhere()` method to match multiple records at once. Order matters.
 // Always put where clause at the top of the query.
 
-// The increment() and decrement() methods are used to increment or decrement 
+// The increment() and decrement() methods are used to increment or decrement
 // The value of a column by a given amount, default 1.
 $t->increment(column: 'age'); // Increments the `age` column by one
 $t->decrement(column: 'revenue', amount: 1000); // Decrements the `revenue` column by 1000.
 
-$q->incrementEach(['age' => 2, 'revenue' => 50]); 
+$q->incrementEach(['age' => 2, 'revenue' => 50]);
 // Increment the given column's values by the given amounts.
 ```
 
@@ -300,7 +300,7 @@ $q->incrementEach(['age' => 2, 'revenue' => 50]);
 the `collect` helper to create a new collection instance from the given data:
 
 ```php
-$collection = collect(['taylor', 'abigail']); 
+$collection = collect(['taylor', 'abigail']);
 // Creates a collection instance from the given value.
 ```
 
@@ -326,7 +326,7 @@ $collection->each(function (int $item, int $key) {
 
 ```php
 env(key: 'APP_NAME', default: "Laravel");
-// Helper function that retrieves the value of an environment variable 
+// Helper function that retrieves the value of an environment variable
 // Or returns a default value if given.
 
 Str::slug(title: "John Doe", separator: '-'); // Returns john-doe.

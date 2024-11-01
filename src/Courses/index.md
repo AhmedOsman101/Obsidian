@@ -1,4 +1,4 @@
-# Notes
+# Courses
 
 - [LinuxCrashCourse](LinuxCrashCourse.md)
 - [PHP-Elzero](PHP-Elzero.md)

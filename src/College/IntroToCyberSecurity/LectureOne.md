@@ -1,4 +1,4 @@
-# Intro To Cybersecurity Lecture 1
+# Introduction To Cybersecurity Lecture 1
 
 ## What's Cybersecurity
 

@@ -1,4 +1,4 @@
-# Notes
+# IT Essentials
 
 - [Lecture One](LectureOne.md)
 

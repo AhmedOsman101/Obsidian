@@ -1,6 +1,6 @@
-# Notes
+# College
 
-- [Intro To Cybersecurity](IntroToCyberSecurity/index.md)
+- [Introduction To Cybersecurity](IntroToCyberSecurity/index.md)
   - [Lecture One](LectureOne.md)
   - [Lecture Two](LectureTwo.md)
 

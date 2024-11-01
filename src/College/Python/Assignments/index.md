@@ -1,3 +1,3 @@
-# Notes
+# Assignments
 
 - [Assignment One](AssignmentOne.md)

@@ -1,3 +1,13 @@
+---
+prev:
+  text: "IT-Essentials"
+  link: "/College/IT-Essentials/index"
+next:
+  false
+  # text: 'Lecture Two'
+  # link: '/College/IT-Essentials/LectureTwo'
+---
+
 # IT Essentials Lecture One
 
 ## 1.1 Personal Computer
@@ -6,25 +16,26 @@
 
 A **computer** can be defined as:
 
-1. **Person:**  
+1. **Person:**
    A person who performs calculations, often with a calculating machine.
 
-2. **Programmable Device:**  
+2. **Programmable Device:**
    A device capable of **storing**, **retrieving**, and **processing** data.
 
-3. **Electronic Device:**  
+3. **Electronic Device:**
    An electronic device that processes, stores, retrieves, and outputs data, typically in **binary form**, based on instructions from a variable program.
 
-4. **Mathematical & Logical Operations:**  
+4. **Mathematical & Logical Operations:**
    A programmable electronic device designed to **accept data**, perform **mathematical** and **logical** operations, store data, and **display results**.
 
-**Types of computers** include:  
-- **Mainframes**  
-- **Desktops**  
-- **Laptops**  
-- **Tablets**  
-- **Smartphones**  
-- **Smartwatches**  
+**Types of computers** include:
+
+- **Mainframes**
+- **Desktops**
+- **Laptops**
+- **Tablets**
+- **Smartphones**
+- **Smartwatches**
 - **IoT devices**
 
 ### **Basic Personal Computer System**
@@ -32,6 +43,7 @@ A **computer** can be defined as:
 - A **computer system** comprises both **hardware** and **software** components.
 
 #### **Hardware:**
+
 - The **physical equipment** of a computer system, including:
   - Case
   - Storage drives
@@ -42,6 +54,7 @@ A **computer** can be defined as:
   - Printers
 
 #### **Software:**
+
 - The **operating system** and **programs**:
   - The **operating system** instructs the computer on how to operate.
   - **Programs** or **applications** perform various functions.
@@ -49,6 +62,7 @@ A **computer** can be defined as:
 ## 1.2 PC Components
 
 ### Cases
+
 - The **case** houses the internal components such as:
   - **Power supply**
   - **Motherboard**
@@ -56,7 +70,7 @@ A **computer** can be defined as:
   - **Memory**
   - **Disk drives**
   - Assorted **adapter cards**
-- Case types include: 
+- Case types include:
   - **Super tower**
   - **Full tower**
   - **Mid-tower**
@@ -74,7 +88,7 @@ A **computer** can be defined as:
 - Must provide **sufficient power** for current and future additions.
 - Has an **input voltage selector** on the back.
 - Measured in **Wattage**.
-- **Ohm’s Law:**  
+- **Ohm’s Law:**
   - **W = V x A** (Watts = Volts x Amps)
 
 ### Connectors
@@ -85,6 +99,7 @@ A **computer** can be defined as:
 - The number of connectors varies based on the wattage of the power supply.
 
 **Some examples include:**
+
 - **20-pin or 24-pin main power connector**
 - **SATA keyed connector** (for hard drives and SSDs)
 - **Molex keyed connector** (for older hard drives, optical drives, and fans)
@@ -159,7 +174,7 @@ A **computer** can be defined as:
   - **ATX** (Advanced Technology eXtended)
   - **Micro-ATX**
   - **ITX**
-![](imgs/motherboardForms.png)
+    ![](imgs/motherboardForms.png)
 - The form factor affects:
   - How **components attach**
   - The **power supply type** needed
@@ -171,6 +186,7 @@ A **computer** can be defined as:
 - Resides as a small microchip within a **CPU package**.
 
 ### CPU Connections
+
 - The **CPU socket** connects the processor to the motherboard.
 - **CPU socket architectures**:
   - **PGA** (Pin Grid Array): Pins on the processor package, inserted into the motherboard socket.
@@ -178,10 +194,12 @@ A **computer** can be defined as:
   - **BGA** (Ball Grid Array): Pins are soldered to the motherboard, commonly used in laptops and mobile devices.
 
 ### CPU Features
+
 - **Hyper-Threading**: Creates two virtual cores per physical core, improving CPU utilization.
 - **HyperTransport**: Enhances high-speed, low-latency communication between CPU and other components (e.g., memory, I/O controllers).
 
 ### CPU Performance
+
 - Data processing capacity depends on the **processor data bus** size.
 - Speed is measured in **MHz** or **GHz** (cycles per second).
 - **Multi-core CPUs** allow for multiple cores on a single chip:
@@ -198,14 +216,17 @@ A **computer** can be defined as:
 - **Case fans** enhance cooling efficiency.
 
 ### Types of Cooling
+
 - **Heat Sink and Fan**: A heat sink pulls heat from the CPU core, and the fan disperses it. Some fans are dedicated to cooling the **GPU**.
 
 #### Active Cooling
+
 - Requires **power** and includes fans or liquid cooling systems.
 - Actively removes heat from components.
 - Example: **Case fans**
 
 #### Passive Cooling
+
 - Requires **no power**; relies on natural heat dissipation.
 - Example: **Heat sinks** (made from aluminum or copper) attach to components like the CPU or GPU, transferring and dissipating heat without consuming power.
 
@@ -214,10 +235,12 @@ A **computer** can be defined as:
 - **Memory chips** store data as bytes, each consisting of eight bits stored as either `0` or `1`.
 
 ### Read-Only Memory (ROM)
+
 - **ROM** stores basic boot instructions for loading the operating system.
 - Retains data even when powered off and **cannot be erased or rewritten**.
 
 #### Types of ROM:
+
 - **ROM**: **Read-Only Memory**. Programmed at the factory; non-erasable.
 - **PROM**: **Programmable ROM**. Blank at manufacture; programmable once.
 - **EPROM**: **Erasable Programmable ROM**. Erasable with ultraviolet light.
@@ -226,6 +249,7 @@ A **computer** can be defined as:
 ![](imgs/rom.png)
 
 ### Random-Access Memory (RAM)
+
 - **RAM** temporarily stores data and programs for CPU access.
 - Volatile memory, so contents are erased when powered off.
 - More **RAM** enhances system performance and capacity for larger files.
@@ -233,6 +257,7 @@ A **computer** can be defined as:
 - **RAM** capacity is limited by the motherboard chipset.
 
 #### Types of RAM:
+
 - **SRAM** (Static RAM)
 - **DRAM** (Dynamic RAM)
 - **SDRAM** (Synchronous Dynamic RAM)
@@ -249,10 +274,12 @@ A **computer** can be defined as:
 - **SRAM** serves as **cache memory**, storing frequently accessed data for faster CPU retrieval compared to **DRAM** (main memory).
 - **Memory speed** directly affects the processor’s data processing capacity.
 
-The fastest memory is typically **static RAM** (SRAM) which is used as 
-cache memory for storing the most recently used data and instructions 
+The fastest memory is typically **static RAM** (SRAM) which is used as
+cache memory for storing the most recently used data and instructions
 by the CPU.
+
 #### Types of Cache Memory:
+
 - **L1 Cache**: Integrated within the **CPU**, provides fastest access.
 - **L2 Cache**: Originally mounted on the motherboard; now integrated into the **CPU**.
 - **L3 Cache**: Found in high-end workstations and server CPUs for additional cache support.
@@ -262,6 +289,7 @@ by the CPU.
 - **Adapter cards** enhance a computer's functionality by adding controllers for specific devices or replacing malfunctioning ports.
 
 #### Common Adapter Cards:
+
 - **Sound adapter**
 - **Network Interface Card (NIC)**
 - **Wireless NIC**
@@ -276,6 +304,7 @@ by the CPU.
 - Computers have **expansion slots** on the motherboard for installing adapter cards, and the card connector must match the expansion slot type.
 
 #### Common Expansion Slots:
+
 - **Peripheral Component Interconnect (PCI)**
 - **Mini-PCI**
 - **PCI eXtended (PCI-X)**
@@ -289,6 +318,7 @@ by the CPU.
 - These drives can be **internal** or **external** and may feature **fixed media** or **removable media**.
 
 #### Classification of Data Storage Devices:
+
 - **Magnetic**: Examples include hard disk drives (HDD) and tape drives.
 - **Solid State**: Examples include solid state drives (SSD).
 - **Optical**: Examples include CDs and DVDs.
@@ -297,6 +327,7 @@ by the CPU.
 - **Interface standards** define data transfer methods, rates, and physical characteristics of cables and connectors.
 
 #### SATA Standard Versions:
+
 - **SATA 1**: First version, lower transfer speeds.
 - **SATA 2**: Improved transfer speeds.
 - **SATA 3**: Highest transfer speeds.

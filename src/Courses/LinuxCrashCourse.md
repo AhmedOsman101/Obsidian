@@ -1,4 +1,11 @@
-# Linux Course
+---
+prev:
+  text: "Courses"
+  link: "/Courses/index"
+next: false
+---
+
+# Linux Crash Course
 
 ## Essential Commands
 

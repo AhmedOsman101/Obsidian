@@ -1,3 +1,10 @@
+---
+prev:
+  text: "Courses"
+  link: "/Courses/index"
+next: false
+---
+
 # PHP Course By Osama El Zero
 
 ## Introduction
@@ -12,5 +19,3 @@
 - Deal With Browser Cookies
 
 **Apache Server Basics**
-
-

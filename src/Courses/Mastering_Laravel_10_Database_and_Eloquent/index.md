@@ -1,3 +1,10 @@
+---
+prev:
+  text: "Courses"
+  link: "/Courses/index"
+next: false
+---
+
 # Mastering Laravel 10 Query Builder, Eloquent and Relationships
 
 ## Migrations:

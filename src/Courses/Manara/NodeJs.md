@@ -1,3 +1,10 @@
+---
+prev:
+   text: "Manara"
+   link: "/Courses/Manara/index"
+next: false
+---
+
 # Backend Engineering with Node.js
 
 ## Introduction to Node.js
@@ -22,7 +29,7 @@ The backend and client-side work together to create a seamless experience for us
 1. **User Request**: When a user interacts with the frontend (e.g., clicks "Log In"), a request is sent to the backend.
 2. **Backend Processing**: The backend receives and processes the request (e.g., checks login credentials in the database).
 3. **Server Response**: The backend sends a response back to the client-side, such as a success or error message.
-4. **Client Rendering**: The client-side receives the response and updates the UI accordingly (e.g., redirects to a dashboard or shows an error). 
+4. **Client Rendering**: The client-side receives the response and updates the UI accordingly (e.g., redirects to a dashboard or shows an error).
 
 This communication flow ensures that users see updated, relevant information based on their actions.
 
@@ -33,10 +40,12 @@ Here's a practical example of how the client-side and server-side communicate us
 **Scenario**: A user wants to check the weather for their location.
 
 1. **Client-Side Request**:
+
    - The user enters their city in a form and clicks "Check Weather".
    - The client-side (using JavaScript) sends an HTTP request to the server, asking for the weather information for that city.
 
 2. **Server-Side Processing**:
+
    - The backend server receives the request and may use Node.js to fetch data from a third-party weather API.
    - Node.js retrieves and processes the data, ensuring only relevant information is sent back.
 
@@ -56,4 +65,3 @@ Understanding the backend and its communication with the client-side is essentia
 
 1. **[MDN Web Docs on Express/Node Introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)**: A detailed overview of Node’s main features.
 2. **[Node.js Official Documentation](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)**: Explore Node.js in-depth with official resources and examples.
-

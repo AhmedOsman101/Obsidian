@@ -1,3 +1,10 @@
+---
+prev:
+  text: "Thoughts"
+  link: "/Thoughts/index"
+next: false
+---
+
 # The Driver Watches the Road, but the Passenger Sees It
 
 While going on a road trip what the driver sees is so different than what the passenger sees, although they're looking at the same road and the same landscape. That's because the driver is only busy watching the road, always focused on seeing other cars, pedestrians crossing the road and many other things, that makes him only seeing a small part of the road. On the other hand the passenger sees the road with no worries, he can simply enjoy watching the landscape around him, appreciating every small detail, he can take his time to see the beauty of the surroundings.

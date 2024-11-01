@@ -1,3 +1,12 @@
+---
+prev:
+  text: "Lecture One"
+  link: "/College/Python/LectureOne"
+next: false
+  # text: "Lecture Two"
+  # link: "/College/Python/LectureTwo"
+---
+
 # Programming Essentials in Python Lecture 2
 
 ### Identifiers in Python
@@ -38,7 +47,7 @@ x = 5 # The interpreter understands that it's an integer on runtime
 
 ## Data Types
 
-Variables in Python are **dynamically-typed**; they are declared without an explicit type. 
+Variables in Python are **dynamically-typed**; they are declared without an explicit type.
 However, **objects have a type**, so Python knows the type of the variable, even if you don't.
 
 ```Python
@@ -125,32 +134,36 @@ print("ID of b:", id(y)) # ID of b after assignment: 140496609955112
 ```
 
 **Key Points:**
+
 - Initially, `x` and `y` are different objects, so they have different IDs.
 - When assigning the same value (`30`) to both `a` and `b`, they reference the same object in memory, so their IDs are the same.
 
 ## Types of Errors in Python
 
-- **Syntax Errors**  
+- **Syntax Errors**
+
   - Occur when the **code does not follow the rules of the language**.
   - Example: Using curly brackets `{}` where angled brackets `[]` are needed or using a keyword as a variable name.
   - **Result**: The program will not run at all.
 
-- **Runtime Errors**  
+- **Runtime Errors**
+
   - Occur when **the code is correct**, but the **program does not run as expected** or encounters an issue during execution (program crashes).
   - Example: Dividing by zero in a program.
   - **Result**: The program stops unexpectedly.
 
-- **Logical/Semantic Errors**  
+- **Logical/Semantic Errors**
   - The **code is correct**, and the **program runs without crashing**, but **the output is incorrect** due to a flaw in the algorithm or logic.
   - Example: Printing `2 + 2 = 5`.
   - **Result**: Incorrect output, even though the code runs.
 
 ### Syntax Error
 
-- **Leaving out one parenthesis**  
+- **Leaving out one parenthesis**
+
   - **Result**: A **SyntaxError** occurs because the parentheses are incomplete, violating Python's syntax rules for function calls.
-  
-- **Leaving out both parentheses**  
+
+- **Leaving out both parentheses**
   - **Result**: A **SyntaxError** occurs because `print` is a function in Python 3, and functions require parentheses. Without them, Python will not recognize it as a function call.
 
 ### Logical/Semantic Errors
@@ -172,7 +185,7 @@ To fix, use parentheses:
 
 ```python
 average = (a + b) / 2  # Correct order
-``` 
+```
 
 Logical errors often arise from incorrect operation orders like this.
 

@@ -34,5 +34,8 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/AhmadOsman101/Obsidian" },
     ],
+    outline: {
+      level: [2, 3],
+    },
   },
 });

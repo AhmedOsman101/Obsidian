@@ -1,4 +1,13 @@
-# Ahmad Ali Ahmad Othman - Section 1 - Assignment 1
+---
+prev:
+  text: 'Python'
+  link: '/College/Python/index'
+next: false
+  # text: 'Assignment Two'
+  # link: '/College/Python/AssignmentTwo'
+---
+
+# Section 1 - Assignment 1
 
 ## 1. Detect whether these variable names are valid or not:
 

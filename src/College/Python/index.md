@@ -1,3 +1,10 @@
+---
+prev:
+  text: 'College'
+  link: '/College/index'
+next: false
+---
+
 # Python
 
 - [Lecture One](LectureOne.md)

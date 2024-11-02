@@ -1,9 +1,9 @@
---
+---
 prev:
   false
 next:
   false
---
+---
 
 # Courses
 

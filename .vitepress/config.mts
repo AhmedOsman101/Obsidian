@@ -17,7 +17,7 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "Courses", link: "/Courses" },
       { text: "College", link: "/College" },
-      # { text: "Thoughts", link: "/Thoughts" },
+      // { text: "Thoughts", link: "/Thoughts" },
     ],
 
     sidebar: [
@@ -26,7 +26,7 @@ export default defineConfig({
         items: [
           { text: "Courses", link: "/Courses" },
           { text: "College", link: "/College" },
-          # { text: "Thoughts", link: "/Thoughts" },
+          // { text: "Thoughts", link: "/Thoughts" },
         ],
       },
     ],

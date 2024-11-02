@@ -1,3 +1,10 @@
+--
+prev:
+  false
+next:
+  false
+--
+
 # Courses
 
 - [LinuxCrashCourse](./LinuxCrashCourse.md)

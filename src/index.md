@@ -13,7 +13,4 @@ hero:
     - theme: alt
       text: Courses
       link: /Courses
-    # - theme: alt
-    #   text: Thoughts
-    #   link: /Thoughts
 ---

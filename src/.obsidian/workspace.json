@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/IntroToCyberSecurity/LectureThree.md",
+                "file": "index.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LectureThree"
+              "title": "index"
             }
           },
           {
@@ -155,10 +155,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/IntroToCyberSecurity/LectureThree.md"
+                "file": "index.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of LectureThree"
+              "title": "Outline of index"
             }
           },
           {
@@ -193,14 +193,16 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "6cd0bc19bba807e1",
+  "active": "7a232d28655dcb00",
   "lastOpenFiles": [
+    "College/Python/SectionTwo.md",
+    "College/Python/SectionOne.md",
+    "College/IntroToCyberSecurity/LectureThree.md",
+    "College/IntroToCyberSecurity/LectureTwo.md",
     "College/IntroToCyberSecurity/imgs/CIA.png",
     "College/IntroToCyberSecurity/imgs",
     "College/IntroToCyberSecurity/New folder",
     "image.png",
-    "College/IntroToCyberSecurity/LectureTwo.md",
-    "College/IntroToCyberSecurity/LectureThree.md",
     "College/IT-Essentials/LectureOne.md",
     "College/IT-Essentials/imgs/vports.png",
     "College/IT-Essentials/imgs/vports2.png",
@@ -210,7 +212,6 @@
     "College/IT-Essentials/imgs/inputs3.png",
     "College/IT-Essentials/imgs/inputs2.png",
     "College/IT-Essentials/imgs/inputs1 1.png",
-    "College/IT-Essentials/imgs/vports1.png",
     "College/IT-Essentials/index.md",
     "Courses/index.md",
     "Courses/LinuxCrashCourse.md",
@@ -239,7 +240,6 @@
     "Courses/Mastering Laravel 10 Query Builder, Eloquent and Relationships",
     "Courses/Manara",
     "Courses",
-    "College/IT-Essentials/Assignments/AssignmentOne.md",
-    "College/IntroToCyberSecurity/LectureOne.md"
+    "College/IT-Essentials/Assignments/AssignmentOne.md"
   ]
 }

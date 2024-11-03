@@ -3,11 +3,11 @@ prev:
   text: 'Python'
   link: '/College/Python/index'
 next:
-  text: 'Lecture Two'
-  link: '/College/Python/LectureTwo'
+  text: 'Section Two'
+  link: '/College/Python/SectionTwo'
 ---
 
-# Programming Essentials in Python Lecture 1
+# Programming Essentials in Python Section 1
 
 ## What is Python
 

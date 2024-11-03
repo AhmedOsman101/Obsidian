@@ -9,6 +9,7 @@ next: false
 
   - [Lecture One](IntroToCyberSecurity/LectureOne.md)
   - [Lecture Two](IntroToCyberSecurity/LectureTwo.md)
+  - [Lecture Three](IntroToCyberSecurity/LectureThree.md)
 
 - [IT Essentials](IT-Essentials/index.md)
 
@@ -17,7 +18,7 @@ next: false
     - [Assignment One](IT-Essentials/Assignments/AssignmentOne.md)
 
 - [Python](Python/index.md)
-  - [Lecture One](Python/LectureOne.md)
-  - [Lecture Two](Python/LectureTwo.md)
+  - [Section One](Python/SectionOne.md)
+  - [Section Two](Python/SectionTwo.md)
   - [Assignments](Python/Assignments/index.md)
     - [Assignment One](Python/Assignments/AssignmentOne.md)

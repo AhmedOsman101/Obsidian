@@ -1,13 +1,13 @@
 ---
 prev:
-  text: "Lecture One"
-  link: "/College/Python/LectureOne"
+  text: "Section One"
+  link: "/College/Python/SectionOne"
 next: false
-  # text: "Lecture Two"
-  # link: "/College/Python/LectureTwo"
+  # text: "Section Two"
+  # link: "/College/Python/SectionTwo"
 ---
 
-# Programming Essentials in Python Lecture 2
+# Programming Essentials in Python Section 2
 
 ### Identifiers in Python
 

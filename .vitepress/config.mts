@@ -7,9 +7,12 @@ export default defineConfig({
   srcDir: "src",
   markdown: {
     image: {
-      lazyLoading: true, // image lazy loading is disabled by default
+      lazyLoading: true,
     },
     linkify: true,
+    toc: {
+      level: [2, 4],
+    },
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -17,7 +20,6 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "Courses", link: "/Courses" },
       { text: "College", link: "/College" },
-      // { text: "Thoughts", link: "/Thoughts" },
     ],
 
     sidebar: [
@@ -26,16 +28,22 @@ export default defineConfig({
         items: [
           { text: "Courses", link: "/Courses" },
           { text: "College", link: "/College" },
-          // { text: "Thoughts", link: "/Thoughts" },
         ],
       },
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/AhmadOsman101/Obsidian" },
+      {
+        icon: "github",
+        link: "https://github.com/AhmadOsman101/Obsidian",
+      },
+      {
+        icon: "linkedin",
+        link: "https://www.linkedin.com/in/ahmad-ali-othman-5b503324a/",
+      },
     ],
     outline: {
-      level: [2, 3],
+      level: [2, 4],
     },
   },
 });

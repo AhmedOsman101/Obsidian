@@ -1,11 +1,10 @@
 ---
 prev:
-  text: "Lecture One"
-  link: "/College/IntroToCyberSecurity/LectureOne"
+  text: Lecture One
+  link: /College/IntroToCyberSecurity/LectureOne
 next:
-  false
-  # text: "Lecture Three"
-  # link: "/College/IntroToCyberSecurity/LectureThree"
+  text: Lecture Three
+  link: /College/IntroToCyberSecurity/LectureThree
 ---
 
 # Introduction To Cybersecurity Lecture 2

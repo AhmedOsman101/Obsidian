@@ -268,6 +268,7 @@ Pixel
 Pitch
 Projector
 Printing
+Protocols
 IHDR
 IDATx
 IO
@@ -854,6 +855,7 @@ portion
 paper
 printed
 produce
+protocol
 sbf
 sPv
 sC
@@ -1195,6 +1197,7 @@ smaller
 sharper
 simulators
 simulated
+standardized
 ff
 fP
 fj
@@ -1470,6 +1473,7 @@ featuring
 facial
 faces
 found
+formatting
 yq
 yh
 yS
@@ -3407,6 +3411,8 @@ Touch
 Terminals
 Thermal
 Three
+Transfer
+Technique
 uj
 uq
 uXm
@@ -4386,6 +4392,7 @@ ratio
 ratings
 real
 require
+rules
 eiO
 es
 ee
@@ -6072,6 +6079,7 @@ tap
 transactions
 training
 toner
+technique
 nm
 nv
 nhuK
@@ -6548,6 +6556,7 @@ Field
 Facial
 Fingerprint
 Four
+FTP
 xi
 xpF
 xwG
@@ -10303,6 +10312,8 @@ Headphones
 Headsets
 Horizontal
 Headset
+Hypertext
+HTTPS
 hh
 hLR
 hI

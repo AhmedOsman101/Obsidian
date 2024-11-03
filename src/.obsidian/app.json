@@ -41,7 +41,8 @@
     "ITX",
     "eXtended",
     "GDDR",
-    "Watchs"
+    "Watchs",
+    "PATA"
   ],
   "showLineNumber": false,
   "focusNewTab": false

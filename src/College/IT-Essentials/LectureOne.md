@@ -333,3 +333,250 @@ by the CPU.
 - **SATA 3**: Highest transfer speeds.
 
 The cables and connectors remain consistent across all versions, but data transfer speeds vary.
+
+### Magnetic Media Storage
+
+Magnetic media storage represents binary data using magnetized or non-magnetized areas on magnetic media.
+
+![HDD sizes](imgs/hdd.png)
+#### Common Types of Magnetic Media Storage:
+- **Hard Disk Drive (HDD)**: Traditional storage with capacities ranging from gigabytes (GB) to terabytes (TB). HDDs have motors that spin magnetic platters and move drive heads. Speeds are measured in **revolutions per minute (RPM)**, with common speeds being:
+  - 5400 RPM
+  - 7200 RPM
+  - 10,000 RPM
+
+- **Tape Drive**: Used primarily for **data archiving**. Uses a magnetic read/write head and a removable tape cartridge. Capacities range from a few GB to several TB.
+
+- **Floppy Disk Drive (FDD)**: Uses **3.5-inch floppy disks** with a maximum storage capacity of **1.44 MB**.
+
+![Tape and Floppy Disk](imgs/tape-floppy.png)
+
+### Semiconductor Storage
+
+**Solid-State Drives (SSD)** store data as electrical charges in semiconductor flash memory, resulting in:
+- Faster data access, improved performance, and higher reliability
+- Reduced power consumption, no moving parts, no noise, and minimal heat production
+- Increased resistance to vibrations
+
+![](imgs/ssd.png)
+
+**SSD Form Factors**:
+- **Disc Drive Form Factor**: Resembles a traditional HDD
+- **Expansion Cards**: Connect directly to the motherboard
+- **mSATA or M.2 Modules**: Compact design using special sockets, with **M.2** being a standard for expansion cards
+
+### Optical Storage Devices
+
+Optical drives are removable media storage devices that use lasers to read and write data. Developed to improve on storage limitations of floppy disks, optical drives come in three types:
+- **Compact Disc (CD)**: For audio and data
+- **Digital Versatile Disc (DVD)**: For digital video and data
+- **Blu-ray Disc (BD)**: For high-definition (HD) digital video and data
+
+### Ports and Cables
+
+Input/output (I/O) ports allow a computer to connect to peripheral devices such as printers, scanners, and external drives. Common types of ports include:
+
+- **Personal System 2 (PS/2)**
+- **Audio and Game Ports**
+- **Network Port**
+- **Parallel AT Attachment (PATA)**
+- **Serial AT Attachment (SATA)**
+- **External SATA (eSATA)**
+- **Small Computer System Interface (SCSI)**
+- **Universal Serial Bus (USB)**
+- **Integrated Drive Electronics (IDE)**
+- **Enhanced Integrated Drive Electronics (EIDE)**
+
+![](imgs/ports.png)
+
+- **Serial Port**  
+  - **Connector**: DB-9 or DB-25  
+  - **Usage**: Connecting devices like modems, mice, and older printers, transmitting one bit at a time.
+
+- **USB (Universal Serial Bus)**  
+  - **Functionality**: Standard for connecting hot-swappable devices, some can also be powered via USB.  
+  - **Usage**: Widely used for keyboards, mice, external storage, and printers.
+
+- **FireWire (IEEE-1394)**  
+  - **Functionality**: High-speed, hot-swappable; supports up to 63 devices, some powered via port.  
+  - **Usage**: Used with digital cameras, external drives, and audio/video equipment.
+
+- **Parallel Port (IEEE-1284)**  
+  - **Functionality**: Transmits 8 bits of data at once.  
+  - **Usage**: Primarily for older printers and scanners, before USB standardization.
+
+- **SCSI (Small Computer System Interface)**  
+  - **Data Rate**: Exceeds 320 Mbps, supports up to 15 devices; requires termination at chain endpoints.  
+  - **Usage**: High-performance connections for hard drives, scanners, and peripherals.
+
+- **Network Port (RJ-45)**  
+  - **Functionality**: Connects computers to networks; maximum cable length is 328 ft (100 m).
+
+- **Telephone Port (RJ-11)**  
+  - **Usage**: Connects a modem to a telephone line.
+
+- **BNC (Bayonet Neill–Concelman)**  
+  - **Usage**: Used for data networks over coaxial cables; common in video, broadcast, and some networking (e.g., 10BASE2 Ethernet).
+
+- **PS/2 Port**  
+  - **Connector**: 6-pin mini-DIN  
+  - **Usage**: Connects keyboards or mice.
+
+- **Audio Port**  
+  - **Usage**: Connects audio devices like headphones and speakers.
+
+- **Video Port**  
+  - **Usage**: Connects monitors to the computer.
+
+These ports enable various data transfer and connectivity options for both internal and external devices.
+
+### Video Ports and Cables
+
+- **Functionality**: Video ports connect a monitor to a computer via cables, transferring analog signals, digital signals, or both.
+
+- **Types of Video Ports and Cables**:
+  - **Digital Visual Interface (DVI)**: Supports digital and analog signals.
+  - **DisplayPort**: Designed for high-resolution displays, supporting audio and video.
+  - **High-Definition Multimedia Interface (HDMI)**: Transmits both audio and video signals in high definition.
+  - **Thunderbolt 1 or 2**: High-speed interface for data, video, and power.
+  - **Thunderbolt 3**: Supports higher data rates and can connect to USB-C devices.
+  - **Video Graphics Array (VGA)**: Older analog video connector, primarily for monitors.
+  - **Radio Corporation of America (RCA)**: Used for audio and video signals, often in composite video applications.
+
+![](imgs/vports.png)
+
+### Adapters and Converters
+
+- **Definition**: Adapters and converters are components used to bridge different connection standards in technology.
+  
+  - **Converter**: Performs the same function as an adapter but also translates signals from one technology to another.
+  - **Adapter**: Physically connects one technology to another without altering the signal.
+
+- **Examples of Adapters and Converters**:
+  - **DVI to VGA Adapter**: Connects DVI output to VGA monitors.
+  - **USB to Ethernet Adapter**: Enables a USB port to connect to an Ethernet network.
+  - **USB to PS/2 Adapter**: Allows USB devices to connect to PS/2 ports.
+  - **DVI to HDMI Adapter**: Converts DVI connections to HDMI for display.
+  - **Molex to SATA Adapter**: Adapts a Molex power connector to SATA drives.
+  - **HDMI to VGA Converter**: Converts HDMI signals to VGA for older monitors.
+
+![](imgs/convertor.png)
+
+### The Original Input Devices
+
+- **Definition**: Input devices enable users to communicate and interact with a computer.
+
+- **Early Input Devices**:
+  - **Keyboard and Mouse**: The two most commonly used input devices for text input and navigation.
+  - **ADF / Flatbed Scanner**: Devices that digitize images or documents for electronic use.
+  - **Joystick and Gamepad**: Controllers designed specifically for gaming, enhancing the interactive experience.
+  - **KVM Switch**: A hardware device allowing control of multiple computers using a single keyboard, video monitor, and mouse.
+
+![](imgs/inputs1.png)
+
+### New Input Devices
+
+- **Touch Screen**: Input devices featuring touch or pressure-sensitive screens for direct interaction.
+  
+- **Stylus**: A pen-like tool used by designers or artists for creating digital artwork.
+
+- **Magnetic Strip Reader**: A device that reads information magnetically encoded on the back of plastic cards.
+
+- **Barcode Scanner**: A device that reads information contained in barcodes affixed to products.
+
+![](imgs/inputs2.png)
+
+### More New Input Devices
+
+- **Digital Camera**: Devices that capture digital images and videos.
+
+- **Webcams**: Video cameras that can be integrated into computers for video communication.
+
+- **Signature Pad**: A device that electronically captures a person's signature.
+
+- **Smart Card Reader**: A device used to authenticate users with a smart card, typically the size of a credit card, containing an embedded microprocessor.
+
+- **Microphone**: A device that allows users to speak into a computer, digitizing their voice.
+
+![](imgs/inputs3.png)
+
+### Most Recent Input Devices
+
+- **NFC Devices and Terminals**: Near Field Communication (NFC) tap-to-pay devices for contactless transactions.
+
+- **Biometric Devices**:
+  - **Facial Recognition Scanners**: Devices that identify users based on unique facial features.
+  - **Fingerprint Scanners**: Devices that identify users based on unique fingerprints.
+  - **Voice Recognition Scanners**: Devices that identify users based on unique voice patterns.
+
+![](imgs/inputs4.png)
+
+### Output Devices
+
+- **Definition**: Output devices take binary information from the computer and convert it into a form that is easily understood by the user.
+
+- **Examples**:
+  - **Monitors**: Display visual output from the computer.
+  - **Projectors**: Project visual content onto larger surfaces for presentations or displays.
+  - **Printers**: Produce physical copies of digital documents and images.
+  - **Speakers**: Convert digital audio signals into sound.
+  - **Headphones**: Provide personal audio output for listening.
+  - **VR Headsets**: Create immersive virtual reality experiences by displaying visual and audio output directly to the user.
+
+### Monitors and Projectors
+
+- **Types of Monitor Technology**:
+  - **Liquid Crystal Display (LCD)**: Commonly used in laptops and some projectors; available in two forms:
+    - **Active Matrix**: Offers better response times and image quality.
+    - **Passive Matrix**: Generally slower and used in older displays.
+  - **Light-Emitting Diode (LED)**: An LCD that uses LED backlighting to enhance brightness and color.
+  - **Organic LED (OLED)**: Uses a layer of organic material to emit light, providing superior color accuracy and contrast.
+
+- **Monitor Resolution**:
+  - Refers to the level of image detail that can be reproduced; higher resolution settings yield better image quality.
+  - **Factors Influencing Resolution**:
+    - **Pixel**: The smallest unit of a digital image.
+    - **Dot Pitch**: The distance between pixels; smaller dot pitch means sharper images.
+    - **Contrast Ratio**: The difference in intensity between the brightest and darkest parts of the image.
+    - **Refresh Rate**: The number of times the image is refreshed per second.
+    - **Interlace/Non-Interlace**: Determines how images are displayed.
+    - **Horizontal and Vertical Color**: Refers to color distribution across the display.
+    - **Aspect Ratio**: The ratio of width to height of the display.
+    - **Native Resolution**: The resolution that the monitor is designed to display optimally.
+
+- **Projector Technology**:
+  - Most video projectors use either **LCD** or **Digital Light Processing (DLP)** technology.
+  - **Lumens**: Different projectors have varying lumen ratings, which affect the brightness of the projected image.
+
+### VR and AR Headsets
+
+- **Virtual Reality (VR) Headset**:
+  - Used in computer games, simulators, and training applications with VR functionalities.
+  - Creates a simulated, three-dimensional environment using computer technology.
+  - Completely encases the upper portion of users’ faces, blocking out ambient light.
+
+- **Augmented Reality (AR)**:
+  - Superimposes images and audio over the real world in real-time.
+  - Provides immediate access to information about surroundings.
+  - AR headsets allow ambient light to enter, enabling users to see their real-life environment.
+
+### Printers
+
+- **Definition**: Output devices that create hard copies of files, which can be on paper or in a 3D-printed form.
+- **Types of Printers**:
+  - Inkjet
+  - Impact
+  - Thermal
+  - Laser
+  - 3D printers
+- **Connections**: Printers may use wired or wireless connections.
+- **Materials Required**: Printing materials such as ink, toner, or liquid plastic.
+- **Driver**: Printers require a driver to communicate with the operating system.
+
+### Speakers and Headphones
+
+- **Speakers**: Auditory output devices that produce sound.
+  - Integrated audio support is typically found in the motherboard or on an adapter card.
+  
+- **Headphones**: Include earbuds and headset earphones, also functioning as auditory output devices.
+  - Available in wired or wireless options, with some models supporting Wi-Fi or Bluetooth connectivity.

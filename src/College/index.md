@@ -20,13 +20,13 @@ next: false
 
 - [Python](Python/index.md)
 
-- [Lectures](Python/Lectures/index.md)
-  - [Lecture One](Python/Lectures/LectureOne.md)
-  - [Lecture Two](Python/Lectures/LectureTwo.md)
+  - [Lectures](Python/Lectures/index.md)
+    - [Lecture One](Python/Lectures/LectureOne.md)
+    - [Lecture Two](Python/Lectures/LectureTwo.md)
 
-- [Sections](Python/Sections/index.md)
-  - [Section One](Python/Sections/SectionOne.md)
-  - [Section Two](Python/Sections/SectionTwo.md)
+  - [Sections](Python/Sections/index.md)
+    - [Section One](Python/Sections/SectionOne.md)
+    - [Section Two](Python/Sections/SectionTwo.md)
 
-- [Assignments](Python/Assignments/index.md)
-  - [Assignment One](Python/Assignments/AssignmentOne.md)
+  - [Assignments](Python/Assignments/index.md)
+    - [Assignment One](Python/Assignments/AssignmentOne.md)

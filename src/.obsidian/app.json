@@ -42,7 +42,9 @@
     "eXtended",
     "GDDR",
     "Watchs",
-    "PATA"
+    "PATA",
+    "Rossum",
+    "pyc"
   ],
   "showLineNumber": false,
   "focusNewTab": false

@@ -2885,6 +2885,7 @@ Lumens
 Laser
 LectureThree
 LectureFour
+Lectures
 al
 aj
 ar

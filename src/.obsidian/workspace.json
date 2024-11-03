@@ -11,10 +11,15 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "College/Python/LectureOne.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "LectureOne"
             }
           }
         ]
@@ -134,9 +139,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "College/Python/LectureOne.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of LectureOne"
             }
           },
           {
@@ -173,10 +180,11 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "College/Python/SectionOne.md",
+    "College/Python/LectureOne.md",
     "College/IntroToCyberSecurity/LectureTwo.md",
     "index.md",
     "College/Python/SectionTwo.md",
-    "College/Python/SectionOne.md",
     "College/IntroToCyberSecurity/LectureThree.md",
     "College/IntroToCyberSecurity/imgs/CIA.png",
     "College/IntroToCyberSecurity/imgs",
@@ -217,7 +225,6 @@
     "Courses/Mastering Laravel 10 Query Builder, Eloquent and Relationships/images",
     "Courses/Mastering Laravel 10 Query Builder, Eloquent and Relationships",
     "Courses/Manara",
-    "Courses",
-    "College/IT-Essentials/Assignments/AssignmentOne.md"
+    "Courses"
   ]
 }

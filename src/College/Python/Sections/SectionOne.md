@@ -1,6 +1,6 @@
 ---
 prev:
-  text: 'Python'
+  text: 'Sections'
   link: '/College/Python/Sections/index'
 next:
   text: 'Section Two'

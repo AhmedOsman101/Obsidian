@@ -1,5 +1,5 @@
 /* Full-width container and centered images */
-.markdown-preview-view img {
+img {
   display: block; /* Makes the image act as a block element */
   margin: 0 auto; /* Centers the image horizontally */
   max-width: 100%; /* Keeps images responsive */
@@ -10,11 +10,11 @@
 }
 
 /* Optional: Centering with padding and hover effect */
-.markdown-preview-view img:hover {
+img:hover {
   transform: scale(1.05); /* Optional hover effect */
 }
 
 /* Ensures full-width for any image container */
-.markdown-preview-view p img {
+p img {
   max-width: 100%;
 }

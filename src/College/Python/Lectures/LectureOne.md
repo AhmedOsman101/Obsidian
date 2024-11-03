@@ -1,6 +1,6 @@
 ---
 prev:
-  text: "Python"
+  text: "Lectures"
   link: "/College/Python/Lectures/index"
 next:
   text: "Lecture Two"

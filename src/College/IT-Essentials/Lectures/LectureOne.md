@@ -1,11 +1,11 @@
 ---
 prev:
   text: "IT-Essentials"
-  link: "/College/IT-Essentials/index"
+  link: "/College/IT-Essentials/Lectures/index"
 next:
   false
   # text: 'Lecture Two'
-  # link: '/College/IT-Essentials/LectureTwo'
+  # link: '/College/IT-Essentials/Lectures/LectureTwo'
 ---
 
 # IT Essentials Lecture One
@@ -77,7 +77,7 @@ A **computer** can be defined as:
   - **Mini tower**
   - **Cube case**, and more.
 
-![Case Types](imgs/Cases.png)
+![Case Types](../imgs/Cases.png)
 
 ### Power Supplies
 
@@ -93,7 +93,7 @@ A **computer** can be defined as:
 
 ### Connectors
 
-![](imgs/connectors.png)
+![](../imgs/connectors.png)
 
 - A power supply includes several different connectors, used to power various internal components like the motherboard and disk drives.
 - The number of connectors varies based on the wattage of the power supply.
@@ -109,7 +109,7 @@ A **computer** can be defined as:
 
 ## Power Supply Voltage
 
-![PSU](imgs/PSU.png)
+![PSU](../imgs/PSU.png)
 
 - Power supply connectors provide various **voltages**.
 - The most common voltages are **3.3 volts**, **5 volts**, and **12 volts**.
@@ -122,7 +122,7 @@ A **computer** can be defined as:
 
 ## Motherboard
 
-![](imgs/motherboard.png)
+![](../imgs/motherboard.png)
 
 - The **backbone** of the computer, interconnecting its components.
 - The **main Printed Circuit Board (PCB)** containing **buses** (electrical pathways) that enable data flow among components.
@@ -141,7 +141,7 @@ A **computer** can be defined as:
 
 ## Motherboard Components
 
-![](imgs/motherboard2.png)
+![](../imgs/motherboard2.png)
 
 - **CPU** (Central Processing Unit)
 - **RAM** (Random Access Memory)
@@ -165,7 +165,7 @@ A **computer** can be defined as:
   - **Southbridge** controls:
     - Communication between the **CPU** and **expansion ports** (e.g., hard drives, sound card, USB ports, and other I/O ports)
 
-![](imgs/chipset.jpg)
+![](../imgs/chipset.jpg)
 
 ## Motherboard Form Factors
 
@@ -174,7 +174,7 @@ A **computer** can be defined as:
   - **ATX** (Advanced Technology eXtended)
   - **Micro-ATX**
   - **ITX**
-    ![](imgs/motherboardForms.png)
+    ![](../imgs/motherboardForms.png)
 - The form factor affects:
   - How **components attach**
   - The **power supply type** needed
@@ -246,7 +246,7 @@ A **computer** can be defined as:
 - **EPROM**: **Erasable Programmable ROM**. Erasable with ultraviolet light.
 - **EEPROM**: **Electrically Erasable Programmable ROM**. Reprogrammable while in the computer.
 
-![](imgs/rom.png)
+![](../imgs/rom.png)
 
 ### Random-Access Memory (RAM)
 
@@ -267,7 +267,7 @@ A **computer** can be defined as:
   - **DDR4 SDRAM**
 - **GDDR SDRAM**: Specialized for video graphics with a dedicated **GPU**.
 
-![](imgs/ram1.png)
+![](../imgs/ram1.png)
 
 ### Cache
 
@@ -299,7 +299,7 @@ by the CPU.
 - **Universal Serial Bus (USB) controller card**
 - **eSATA card**
 
-![](imgs/adapterCards.png)
+![](../imgs/adapterCards.png)
 
 - Computers have **expansion slots** on the motherboard for installing adapter cards, and the card connector must match the expansion slot type.
 
@@ -338,9 +338,12 @@ The cables and connectors remain consistent across all versions, but data transf
 
 Magnetic media storage represents binary data using magnetized or non-magnetized areas on magnetic media.
 
-![HDD sizes](imgs/hdd.png)
+![HDD sizes](../imgs/hdd.png)
+
 #### Common Types of Magnetic Media Storage:
+
 - **Hard Disk Drive (HDD)**: Traditional storage with capacities ranging from gigabytes (GB) to terabytes (TB). HDDs have motors that spin magnetic platters and move drive heads. Speeds are measured in **revolutions per minute (RPM)**, with common speeds being:
+
   - 5400 RPM
   - 7200 RPM
   - 10,000 RPM
@@ -349,18 +352,20 @@ Magnetic media storage represents binary data using magnetized or non-magnetized
 
 - **Floppy Disk Drive (FDD)**: Uses **3.5-inch floppy disks** with a maximum storage capacity of **1.44 MB**.
 
-![Tape and Floppy Disk](imgs/tape-floppy.png)
+![Tape and Floppy Disk](../imgs/tape-floppy.png)
 
 ### Semiconductor Storage
 
 **Solid-State Drives (SSD)** store data as electrical charges in semiconductor flash memory, resulting in:
+
 - Faster data access, improved performance, and higher reliability
 - Reduced power consumption, no moving parts, no noise, and minimal heat production
 - Increased resistance to vibrations
 
-![](imgs/ssd.png)
+![](../imgs/ssd.png)
 
 **SSD Form Factors**:
+
 - **Disc Drive Form Factor**: Resembles a traditional HDD
 - **Expansion Cards**: Connect directly to the motherboard
 - **mSATA or M.2 Modules**: Compact design using special sockets, with **M.2** being a standard for expansion cards
@@ -368,6 +373,7 @@ Magnetic media storage represents binary data using magnetized or non-magnetized
 ### Optical Storage Devices
 
 Optical drives are removable media storage devices that use lasers to read and write data. Developed to improve on storage limitations of floppy disks, optical drives come in three types:
+
 - **Compact Disc (CD)**: For audio and data
 - **Digital Versatile Disc (DVD)**: For digital video and data
 - **Blu-ray Disc (BD)**: For high-definition (HD) digital video and data
@@ -387,45 +393,55 @@ Input/output (I/O) ports allow a computer to connect to peripheral devices such 
 - **Integrated Drive Electronics (IDE)**
 - **Enhanced Integrated Drive Electronics (EIDE)**
 
-![](imgs/ports.png)
+![](../imgs/ports.png)
 
-- **Serial Port**  
-  - **Connector**: DB-9 or DB-25  
+- **Serial Port**
+
+  - **Connector**: DB-9 or DB-25
   - **Usage**: Connecting devices like modems, mice, and older printers, transmitting one bit at a time.
 
-- **USB (Universal Serial Bus)**  
-  - **Functionality**: Standard for connecting hot-swappable devices, some can also be powered via USB.  
+- **USB (Universal Serial Bus)**
+
+  - **Functionality**: Standard for connecting hot-swappable devices, some can also be powered via USB.
   - **Usage**: Widely used for keyboards, mice, external storage, and printers.
 
-- **FireWire (IEEE-1394)**  
-  - **Functionality**: High-speed, hot-swappable; supports up to 63 devices, some powered via port.  
+- **FireWire (IEEE-1394)**
+
+  - **Functionality**: High-speed, hot-swappable; supports up to 63 devices, some powered via port.
   - **Usage**: Used with digital cameras, external drives, and audio/video equipment.
 
-- **Parallel Port (IEEE-1284)**  
-  - **Functionality**: Transmits 8 bits of data at once.  
+- **Parallel Port (IEEE-1284)**
+
+  - **Functionality**: Transmits 8 bits of data at once.
   - **Usage**: Primarily for older printers and scanners, before USB standardization.
 
-- **SCSI (Small Computer System Interface)**  
-  - **Data Rate**: Exceeds 320 Mbps, supports up to 15 devices; requires termination at chain endpoints.  
+- **SCSI (Small Computer System Interface)**
+
+  - **Data Rate**: Exceeds 320 Mbps, supports up to 15 devices; requires termination at chain endpoints.
   - **Usage**: High-performance connections for hard drives, scanners, and peripherals.
 
-- **Network Port (RJ-45)**  
+- **Network Port (RJ-45)**
+
   - **Functionality**: Connects computers to networks; maximum cable length is 328 ft (100 m).
 
-- **Telephone Port (RJ-11)**  
+- **Telephone Port (RJ-11)**
+
   - **Usage**: Connects a modem to a telephone line.
 
-- **BNC (Bayonet Neill–Concelman)**  
+- **BNC (Bayonet Neill–Concelman)**
+
   - **Usage**: Used for data networks over coaxial cables; common in video, broadcast, and some networking (e.g., 10BASE2 Ethernet).
 
-- **PS/2 Port**  
-  - **Connector**: 6-pin mini-DIN  
+- **PS/2 Port**
+
+  - **Connector**: 6-pin mini-DIN
   - **Usage**: Connects keyboards or mice.
 
-- **Audio Port**  
+- **Audio Port**
+
   - **Usage**: Connects audio devices like headphones and speakers.
 
-- **Video Port**  
+- **Video Port**
   - **Usage**: Connects monitors to the computer.
 
 These ports enable various data transfer and connectivity options for both internal and external devices.
@@ -443,12 +459,12 @@ These ports enable various data transfer and connectivity options for both inter
   - **Video Graphics Array (VGA)**: Older analog video connector, primarily for monitors.
   - **Radio Corporation of America (RCA)**: Used for audio and video signals, often in composite video applications.
 
-![](imgs/vports.png)
+![](../imgs/vports.png)
 
 ### Adapters and Converters
 
 - **Definition**: Adapters and converters are components used to bridge different connection standards in technology.
-  
+
   - **Converter**: Performs the same function as an adapter but also translates signals from one technology to another.
   - **Adapter**: Physically connects one technology to another without altering the signal.
 
@@ -460,7 +476,7 @@ These ports enable various data transfer and connectivity options for both inter
   - **Molex to SATA Adapter**: Adapts a Molex power connector to SATA drives.
   - **HDMI to VGA Converter**: Converts HDMI signals to VGA for older monitors.
 
-![](imgs/convertor.png)
+![](../imgs/convertor.png)
 
 ### The Original Input Devices
 
@@ -472,19 +488,19 @@ These ports enable various data transfer and connectivity options for both inter
   - **Joystick and Gamepad**: Controllers designed specifically for gaming, enhancing the interactive experience.
   - **KVM Switch**: A hardware device allowing control of multiple computers using a single keyboard, video monitor, and mouse.
 
-![](imgs/inputs1.png)
+![](../imgs/inputs1.png)
 
 ### New Input Devices
 
 - **Touch Screen**: Input devices featuring touch or pressure-sensitive screens for direct interaction.
-  
+
 - **Stylus**: A pen-like tool used by designers or artists for creating digital artwork.
 
 - **Magnetic Strip Reader**: A device that reads information magnetically encoded on the back of plastic cards.
 
 - **Barcode Scanner**: A device that reads information contained in barcodes affixed to products.
 
-![](imgs/inputs2.png)
+![](../imgs/inputs2.png)
 
 ### More New Input Devices
 
@@ -498,7 +514,7 @@ These ports enable various data transfer and connectivity options for both inter
 
 - **Microphone**: A device that allows users to speak into a computer, digitizing their voice.
 
-![](imgs/inputs3.png)
+![](../imgs/inputs3.png)
 
 ### Most Recent Input Devices
 
@@ -509,7 +525,7 @@ These ports enable various data transfer and connectivity options for both inter
   - **Fingerprint Scanners**: Devices that identify users based on unique fingerprints.
   - **Voice Recognition Scanners**: Devices that identify users based on unique voice patterns.
 
-![](imgs/inputs4.png)
+![](../imgs/inputs4.png)
 
 ### Output Devices
 
@@ -526,6 +542,7 @@ These ports enable various data transfer and connectivity options for both inter
 ### Monitors and Projectors
 
 - **Types of Monitor Technology**:
+
   - **Liquid Crystal Display (LCD)**: Commonly used in laptops and some projectors; available in two forms:
     - **Active Matrix**: Offers better response times and image quality.
     - **Passive Matrix**: Generally slower and used in older displays.
@@ -533,6 +550,7 @@ These ports enable various data transfer and connectivity options for both inter
   - **Organic LED (OLED)**: Uses a layer of organic material to emit light, providing superior color accuracy and contrast.
 
 - **Monitor Resolution**:
+
   - Refers to the level of image detail that can be reproduced; higher resolution settings yield better image quality.
   - **Factors Influencing Resolution**:
     - **Pixel**: The smallest unit of a digital image.
@@ -551,6 +569,7 @@ These ports enable various data transfer and connectivity options for both inter
 ### VR and AR Headsets
 
 - **Virtual Reality (VR) Headset**:
+
   - Used in computer games, simulators, and training applications with VR functionalities.
   - Creates a simulated, three-dimensional environment using computer technology.
   - Completely encases the upper portion of users’ faces, blocking out ambient light.
@@ -576,7 +595,8 @@ These ports enable various data transfer and connectivity options for both inter
 ### Speakers and Headphones
 
 - **Speakers**: Auditory output devices that produce sound.
+
   - Integrated audio support is typically found in the motherboard or on an adapter card.
-  
+
 - **Headphones**: Include earbuds and headset earphones, also functioning as auditory output devices.
   - Available in wired or wireless options, with some models supporting Wi-Fi or Bluetooth connectivity.

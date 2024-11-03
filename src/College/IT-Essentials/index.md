@@ -1,13 +1,15 @@
 ---
 prev:
-  text: 'College'
-  link: '/College/index'
+  text: "College"
+  link: "/College/index"
 next: false
 ---
 
 # IT Essentials
 
-- [Lecture One](LectureOne.md)
+- [Lectures](Lectures/index.md)
 
-- [Assignments](Assignments/index.md):
+  - [Lecture One](LectureOne.md)
+
+- [Assignments](Assignments/index.md)
   - [Assignment One](Assignments/AssignmentOne.md)

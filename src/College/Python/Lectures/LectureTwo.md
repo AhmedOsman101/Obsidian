@@ -1,7 +1,7 @@
 ---
 prev:
-  text: "Lecture Two"
-  link: "/College/Python/Lectures/LectureTwo"
+  text: "Lecture One"
+  link: "/College/Python/Lectures/LectureOne"
 next:
   false
   # text: "Lecture Three"

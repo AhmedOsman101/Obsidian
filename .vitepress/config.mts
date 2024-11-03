@@ -13,6 +13,7 @@ export default defineConfig({
     toc: {
       level: [2, 4],
     },
+    math: true
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

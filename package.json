@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "gh-pages": "^6.2.0",
+    "markdown-it-mathjax3": "^4.3.2",
     "vitepress": "^1.4.3"
   },
   "scripts": {

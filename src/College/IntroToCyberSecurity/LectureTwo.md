@@ -9,7 +9,7 @@ next:
 
 # Introduction To Cybersecurity Lecture 2
 
-## Concepts of Cybersecurity
+## Concepts of Cybersecurity (part I)
 
 The five core concepts of cybersecurity are:
 

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e6b1416c0fc84ae0",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "3cd330b5a10c8e0a",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -171,7 +171,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "3cd330b5a10c8e0a",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "College/IntroToCyberSecurity/LectureTwo.md",
     "index.md",

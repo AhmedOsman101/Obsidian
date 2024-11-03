@@ -548,6 +548,7 @@ parts
 preparing
 practical
 party
+prev
 sbf
 sPv
 sC
@@ -964,6 +965,7 @@ focusing
 feel
 fetch
 functional
+false
 yq
 yh
 yS
@@ -2177,6 +2179,7 @@ ThonnyStepTwo
 ThonnyStepThree
 ThonnyStepFour
 Technologies
+Thoughts
 uj
 uq
 uXm
@@ -5937,6 +5940,7 @@ CSS
 Communicate
 Check
 Conclusion
+Crash
 vb
 vO
 vvF

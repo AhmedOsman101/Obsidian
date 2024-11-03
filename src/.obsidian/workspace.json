@@ -13,12 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thoughts/index.md",
+                "file": "College/IT-Essentials/LectureOne.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "LectureOne"
             }
           }
         ]
@@ -139,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thoughts/index.md"
+                "file": "College/IT-Essentials/LectureOne.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of LectureOne"
             }
           },
           {
@@ -179,9 +180,11 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Thoughts/The driver watches the road, the passenger sees it.md",
-    "Thoughts/index.md",
     "Courses/index.md",
+    "Courses/LinuxCrashCourse.md",
+    "index.md",
+    "Thoughts/index.md",
+    "Thoughts/The driver watches the road, the passenger sees it.md",
     "Courses/Mastering_Laravel_10_Database_and_Eloquent/index.md",
     "Courses/Manara/index.md",
     "College/index.md",
@@ -192,7 +195,6 @@
     "College/Python/Assignments/index.md",
     "College/Python/Assignments/AssignmentOne.md",
     "College/Python/Assignments",
-    "index.md",
     "Courses/Manara/NodeJs.md",
     "College/Python/LectureOne.md",
     "Courses/Mastering_Laravel_10_Database_and_Eloquent",
@@ -208,7 +210,6 @@
     "Courses/Mastering Laravel 10 Query Builder, Eloquent and Relationships/images",
     "Courses/Mastering Laravel 10 Query Builder, Eloquent and Relationships",
     "Courses/Manara",
-    "Courses/LinuxCrashCourse.md",
     "Courses",
     "College/IT-Essentials/imgs/rom.png",
     "College/IT-Essentials/imgs/ram2.png",

@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Obsidian Notes",
   description: "A Website for all of my notes and thoughts",
   srcDir: "src",
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   markdown: {
     image: {
       lazyLoading: true,
@@ -13,7 +14,7 @@ export default defineConfig({
     toc: {
       level: [2, 4],
     },
-    math: true
+    math: true,
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

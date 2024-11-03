@@ -11,12 +11,15 @@
             "id": "7c264620dbe1d501",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "College/IT-Essentials/imgs/vports.png"
+                "file": "College/IT-Essentials/LectureOne.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "vports"
+              "icon": "lucide-file",
+              "title": "LectureOne"
             }
           }
         ]
@@ -137,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/IT-Essentials/imgs/vports.png"
+                "file": "College/IT-Essentials/LectureOne.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of vports"
+              "title": "Outline of LectureOne"
             }
           },
           {
@@ -175,10 +178,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "6e6b30772217c8e6",
+  "active": "7c264620dbe1d501",
   "lastOpenFiles": [
-    "College/IT-Essentials/imgs/vports2.png",
     "College/IT-Essentials/imgs/vports.png",
+    "College/IT-Essentials/imgs/vports2.png",
     "College/IT-Essentials/imgs/convertor.png",
     "College/IT-Essentials/imgs/inputs1.png",
     "College/IT-Essentials/imgs/inputs4.png",

@@ -1,10 +1,10 @@
 ---
 prev:
   text: 'Python'
-  link: '/College/Python/index'
+  link: '/College/Python/Sections/index'
 next:
   text: 'Section Two'
-  link: '/College/Python/SectionTwo'
+  link: '/College/Python/Sections/SectionTwo'
 ---
 
 # Programming Essentials in Python Section 1
@@ -82,7 +82,7 @@ print(type(type(z))) # Output: <class 'type'>
 ```
 
 output:
-![](imgs/code1.png)
+![](../imgs/code1.png)
 
 ## Python Uses Different IDEs
 
@@ -102,14 +102,14 @@ Examples include:
 - [Thonny](https://thonny.org/)
 - [Programiz Online Compiler](https://www.programiz.com/python-programming/online-compiler/)
 
-![](imgs/editors.jpg)
+![](../imgs/editors.jpg)
 
 ## How to install IDE (Thonny)
 
-![](imgs/ThonnyStepOne.png)
+![](../imgs/ThonnyStepOne.png)
 
-![](imgs/ThonnyStepTwo.png)
+![](../imgs/ThonnyStepTwo.png)
 
-![](imgs/ThonnyStepThree.png)
+![](../imgs/ThonnyStepThree.png)
 
-![](imgs/ThonnyStepFour.png)
+![](../imgs/ThonnyStepFour.png)

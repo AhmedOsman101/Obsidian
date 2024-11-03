@@ -1,10 +1,10 @@
 ---
 prev:
   text: "Section One"
-  link: "/College/Python/SectionOne"
+  link: "/College/Python/Sections/SectionOne"
 next: false
-  # text: "Section Two"
-  # link: "/College/Python/SectionTwo"
+  # text: "Section Three"
+  # link: "/College/Python/Sections/SectionThree"
 ---
 
 # Programming Essentials in Python Section 2
@@ -29,6 +29,7 @@ number one = 5 # Not valid, contains a whitespace
 (num) = 5 # Not valid, contains special characters
 int = 5 # Not valid, `int` is a reserved word (keyword)
 2Teams = 5 # Not valid, starts with a number
+$Teams = 5 # Not valid, starts with a special character
 ```
 
 ## Variables in Python

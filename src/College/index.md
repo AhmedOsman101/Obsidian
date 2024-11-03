@@ -18,7 +18,8 @@ next: false
     - [Assignment One](IT-Essentials/Assignments/AssignmentOne.md)
 
 - [Python](Python/index.md)
-  - [Section One](Python/SectionOne.md)
-  - [Section Two](Python/SectionTwo.md)
+  - [Section One](Python/Sections/SectionOne.md)
+  - [Section Two](Python/Sections/SectionTwo.md)
+  - [Section Two](Python/Sections/SectionTwo.md)
   - [Assignments](Python/Assignments/index.md)
     - [Assignment One](Python/Assignments/AssignmentOne.md)

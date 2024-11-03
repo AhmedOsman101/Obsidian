@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5,
-    "collapsed": true
+    "width": 271.5
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -194,7 +193,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "7a232d28655dcb00",
+  "active": "6cd0bc19bba807e1",
   "lastOpenFiles": [
     "College/IntroToCyberSecurity/imgs/CIA.png",
     "College/IntroToCyberSecurity/imgs",

@@ -1,10 +1,10 @@
 ---
 prev:
-  text: 'Python'
-  link: '/College/Python/index'
+  text: 'Assignments'
+  link: '/College/Python/Assignments/index'
 next: false
   # text: 'Assignment Two'
-  # link: '/College/Python/AssignmentTwo'
+  # link: '/College/Python/Assignments/AssignmentTwo'
 ---
 
 # Section 1 - Assignment 1

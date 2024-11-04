@@ -3,7 +3,6 @@ img {
   display: block; /* Makes the image act as a block element */
   margin: 0 auto; /* Centers the image horizontally */
   max-width: 100%; /* Keeps images responsive */
-  padding: 4px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s ease;

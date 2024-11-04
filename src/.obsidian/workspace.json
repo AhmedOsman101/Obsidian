@@ -11,10 +11,15 @@
             "id": "b5511a54efb27afc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "College/Python/Sections/SectionThree.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "SectionThree"
             }
           }
         ]
@@ -73,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 271.5,
+    "collapsed": true
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -135,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/Python/Lectures/LectureTwo.md"
+                "file": "College/Python/Sections/SectionThree.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of LectureTwo"
+              "title": "Outline of SectionThree"
             }
           },
           {
@@ -175,6 +181,8 @@
   },
   "active": "b5511a54efb27afc",
   "lastOpenFiles": [
+    "College/Python/Sections/SectionOne.md",
+    "College/Python/Sections/SectionThree.md",
     "College/Python/Lectures/LectureTwo.md",
     "College/Python/Lectures/LectureOne.md",
     "College/IT-Essentials/Lectures/LectureOne.md",
@@ -185,7 +193,6 @@
     "College/Python/Lectures/index.md",
     "College/Python/Sections/index.md",
     "College/Python/index.md",
-    "College/Python/Sections/SectionOne.md",
     "College/Python/Sections",
     "College/Python/Lectures",
     "College/IntroToCyberSecurity/LectureTwo.md",
@@ -216,7 +223,6 @@
     "College/IntroToCyberSecurity/index.md",
     "College/IT-Essentials/Assignments/index.md",
     "College/Python/Assignments/index.md",
-    "College/Python/Assignments/AssignmentOne.md",
     "College/Python/Assignments",
     "Courses/Mastering_Laravel_10_Database_and_Eloquent",
     "Untitled",

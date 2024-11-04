@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "064c36a89cdb072e",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "b5511a54efb27afc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/Python/Lectures/LectureTwo.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "LectureTwo"
+              "title": "New tab"
             }
           }
         ]
@@ -78,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5,
-    "collapsed": true
+    "width": 271.5
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -179,15 +173,15 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "b5511a54efb27afc",
   "lastOpenFiles": [
+    "College/Python/Lectures/LectureTwo.md",
     "College/Python/Lectures/LectureOne.md",
     "College/IT-Essentials/Lectures/LectureOne.md",
     "College/IT-Essentials/Lectures/index.md",
     "College/IT-Essentials/Sections/index.md",
     "College/IT-Essentials/Sections",
     "College/IT-Essentials/Lectures",
-    "College/Python/Lectures/LectureTwo.md",
     "College/Python/Lectures/index.md",
     "College/Python/Sections/index.md",
     "College/Python/index.md",

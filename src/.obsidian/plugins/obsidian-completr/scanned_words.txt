@@ -277,6 +277,9 @@ Principles
 Prevent
 Principle
 Protection
+Prefix
+Point
+Program
 IHDR
 IDATx
 IO
@@ -552,6 +555,8 @@ Impact
 Include
 Institutions
 Important
+Integers
+Integer
 pHYs
 pt
 pu
@@ -880,6 +885,8 @@ promptly
 principle
 proactive
 professionals
+positive
+precision
 sbf
 sPv
 sC
@@ -1226,6 +1233,7 @@ steer
 social
 stolen
 swipes
+scientific
 ff
 fP
 fj
@@ -1505,6 +1513,8 @@ formatting
 fundamental
 folder
 failures
+fractional
+followed
 yq
 yh
 yS
@@ -1875,6 +1885,7 @@ qmii
 qfff
 qvS
 qoG
+quotes
 waq
 wc
 wav
@@ -2113,6 +2124,7 @@ wireless
 withdrawal
 wages
 whenever
+whole
 BU
 Bh
 BC
@@ -2378,6 +2390,7 @@ Barcode
 Biometric
 Bluetooth
 Bank
+Backspace
 MC
 Ml
 MW
@@ -2886,6 +2899,8 @@ Laser
 LectureThree
 LectureFour
 Lectures
+Literals
+Leading
 al
 aj
 ar
@@ -3222,6 +3237,7 @@ accountability
 actors
 able
 availability
+adds
 Te
 Tn
 TA
@@ -3467,6 +3483,8 @@ Technique
 Triad
 Tools
 Trust
+They
+Tab
 uj
 uq
 uXm
@@ -3691,6 +3709,9 @@ unprotected
 unauthorized
 unintentional
 uncorrupted
+unlimited
+underscores
+underscore
 OB
 Ox
 ONynT
@@ -3949,6 +3970,7 @@ Original
 Offers
 Organic
 OLED
+Octal
 Uc
 Ue
 UXk
@@ -4183,6 +4205,8 @@ UBIi
 UtrP
 Usage
 Using
+Underscores
+Underscore
 ra
 rO
 rV
@@ -4463,6 +4487,10 @@ reference
 repaired
 required
 redundant
+represented
+readability
+represent
+respectively
 eiO
 es
 ee
@@ -4778,6 +4806,7 @@ employee
 exchanged
 ensure
 emphasizing
+essentials
 GO
 GQ
 Gk
@@ -5032,6 +5061,7 @@ GMv
 Game
 Gamepad
 Grants
+Getting
 Ex
 EZR
 EG
@@ -5326,6 +5356,7 @@ Emitting
 Ensuring
 Encryption
 Even
+Escape
 Sal
 SQ
 SB
@@ -5621,6 +5652,9 @@ Safeguarding
 SectionTwo
 Sections
 SectionOne
+Scientific
+Separator
+Strings
 iH
 ic
 iP
@@ -5909,6 +5943,8 @@ integrity
 important
 instilling
 implement
+integer
+imaginary
 tWA
 tW
 tM
@@ -6376,6 +6412,8 @@ numbers
 never
 near
 necessitating
+negative
+notation
 Fc
 Fe
 Fo
@@ -6658,6 +6696,9 @@ Facial
 Fingerprint
 Four
 FTP
+Floats
+Floating
+Float
 xi
 xpF
 xwG
@@ -7263,6 +7304,9 @@ blocking
 birthdays
 bank
 backups
+belong
+backslash
+beep
 Nb
 NJu
 Nbsa
@@ -7505,6 +7549,11 @@ Near
 Non
 Native
 Nonrepudiation
+Number
+Numbers
+Notation
+Newline
+Naming
 lqQvz
 ln
 lN
@@ -7751,6 +7800,10 @@ layer
 lumen
 locked
 legal
+literals
+leading
+letter
+letters
 Rc
 Rt
 RO
@@ -8012,6 +8065,8 @@ Refresh
 Reality
 Required
 Redundancy
+Rules
+Reserved
 Zt
 ZB
 Zb
@@ -8204,6 +8259,7 @@ ZZB
 ZDD
 Zuy
 ZWW
+Zeros
 kn
 kHf
 kJ
@@ -8956,6 +9012,7 @@ optimally
 obvious
 obligations
 operational
+octal
 mipte
 mRT
 mX
@@ -9570,6 +9627,11 @@ CIA
 Control
 Changes
 Computational
+Complex
+Conversion
+Converting
+Codes
+Calculator
 vb
 vO
 vvF
@@ -9807,6 +9869,7 @@ voice
 visual
 varying
 vital
+verify
 ck
 cr
 ce
@@ -10187,6 +10250,10 @@ civil
 customers
 confidence
 continuous
+codes
+calculator
+covers
+conversions
 Hu
 Hg
 HiL
@@ -10452,6 +10519,7 @@ Horizontal
 Headset
 Hypertext
 HTTPS
+Hexadecimal
 hh
 hLR
 hI
@@ -10705,6 +10773,7 @@ holder
 hacker
 historical
 hours
+hexadecimal
 Xi
 XZ
 Xn
@@ -11363,6 +11432,7 @@ KNN
 Keyboard
 KVM
 Keep
+Keywords
 zC
 zl
 zk
@@ -11530,6 +11600,7 @@ zFbV
 zhP
 zAJ
 zoUN
+zeros
 YT
 Yh
 YDvhV
@@ -11948,6 +12019,9 @@ VGA
 Voice
 Vertical
 Verifies
+Vice
+Versa
+Variable
 dk
 dR
 dV
@@ -12231,6 +12305,8 @@ department
 deny
 disrupt
 disruptions
+decimal
+desired
 AK
 AQ
 Aya
@@ -12545,6 +12621,7 @@ Arab
 ATMs
 Achieve
 Achieving
+Alert
 Jw
 Jg
 JT
@@ -13199,6 +13276,7 @@ WWWOO
 Www
 Widely
 Webcams
+Words
 Ötl
 ÖC
 Öm

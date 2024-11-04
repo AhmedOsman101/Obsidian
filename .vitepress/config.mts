@@ -1,7 +1,9 @@
 import { defineConfig } from "vitepress";
-
+import { withMermaid } from "vitepress-plugin-mermaid";
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+// export default defineConfig({});
+
+export default withMermaid({
   title: "Obsidian Notes",
   description: "A Website for all of my notes and thoughts",
   srcDir: "src",
@@ -15,13 +17,6 @@ export default defineConfig({
       level: [2, 4],
     },
     math: true,
-    config: (md) => {
-      try {
-        // md.use(markdownItMermaid);
-      } catch (error) {
-        console.error("Error initializing plugins:", error);
-      }
-    },
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -55,4 +50,10 @@ export default defineConfig({
       level: [2, 4],
     },
   },
+  mermaid: {
+    // refer https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults for options
+    theme: "neutral",
+  },
+  // optionally set additional config for plugin itself with MermaidPluginConfig
+  mermaidPlugin: {},
 });

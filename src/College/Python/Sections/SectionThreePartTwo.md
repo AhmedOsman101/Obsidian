@@ -1,3 +1,12 @@
+---
+prev:
+  text: "Section Three (Part I)"
+  link: "/College/Python/Sections/SectionThreePartOne"
+next: false
+#   text: "Section Four"
+#   link: "/College/Python/Sections/SectionFour"
+---
+
 # Programming Essentials in Python Section 3 (Part II)
 
 ## Symbols Used in Flowcharts
@@ -5,21 +14,27 @@
 Flowcharts use various symbols to visually represent the structure of algorithms and processes. Each symbol has a specific meaning, allowing viewers to quickly understand the flow and logic of a program.
 
 ### 1. Oval
+
 - **Function**: Used to indicate the `START` or `STOP` of the program.
 
 ### 2. Parallelogram
+
 - **Function**: Represents input and output operations. Statements like `INPUT`, `READ`, and `PRINT` are typically enclosed within this shape.
 
 ### 3. Rectangle
+
 - **Function**: Used to indicate processing operations, such as storing values or performing arithmetic calculations.
 
 ### 4. Diamond
+
 - **Function**: Indicates a decision-making step, known as the decision box. This shape is used to test conditions, ask questions, and direct the flow based on responses.
 
 ### 5. Flow Lines
-- **Function**: Arrows indicate the direction of flow in a flowchart. Every line must have an arrow to specify the process sequence. 
+
+- **Function**: Arrows indicate the direction of flow in a flowchart. Every line must have an arrow to specify the process sequence.
 
 ### 6. Circle
+
 - **Function**: Known as on-page connectors, circles help join different parts of a flowchart on the same page. They also assist in shaping complex flowcharts by connecting sections.
 
 ### Flowchart Example for Decision-Making Using Mermaid
@@ -34,7 +49,7 @@ flowchart TD
     ResultB([b is the largest])
     ResultC([c is the largest])
     End([End])
-    
+
     Start --> Decision1
     Decision1 -- Yes --> Decision2
     Decision1 -- No --> Decision3
@@ -52,6 +67,7 @@ flowchart TD
 There are two common ways to represent decisions in a flowchart:
 
 1. **Binary Questions**: The condition is framed as a question with two possible outcomes:
+
    - `Yes`
    - `No`
 
@@ -64,9 +80,11 @@ There are two common ways to represent decisions in a flowchart:
 In Python, the `if` statement is used to execute code based on a condition.
 
 ### 1. If Statement
+
 The `if` statement executes a block of code if the condition evaluates to `True`.
 
 **Syntax**:
+
 ```python
 # Check a condition
 if condition:
@@ -74,6 +92,7 @@ if condition:
 ```
 
 **Example**:
+
 ```python
 # Check if a number is positive
 num = 5
@@ -82,9 +101,11 @@ if num > 0:
 ```
 
 ### 2. If-Else Statement
+
 The `if-else` structure provides an alternative set of actions if the condition is `False`.
 
 **Syntax**:
+
 ```python
 if condition:
     statement1_here  # Executes if condition is True
@@ -93,6 +114,7 @@ else:
 ```
 
 **Example**:
+
 ```python
 # Check if a number is positive or negative
 num = -3
@@ -103,9 +125,11 @@ else:
 ```
 
 ### 3. Nested If Statements
+
 Nested `if` statements allow for more complex decision structures by placing `if` statements inside other `if` statements.
 
 **Example**:
+
 ```python
 # Find the largest of three numbers
 a = 10
@@ -150,7 +174,7 @@ flowchart TD
     ResultB([b is the largest])
     ResultC([c is the largest])
     End([End])
-    
+
     Start --> InputData
     InputData --> Decision1
     Decision1 -- Yes --> Decision2

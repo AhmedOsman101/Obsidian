@@ -16,6 +16,8 @@ next: false
 
   - [Section One](Sections/SectionOne.md)
   - [Section Two](Sections/SectionTwo.md)
+  - [Section Three (Part I)](Sections/SectionThreePartOne.md)
+  - [Section Three (Part II)](Sections/SectionThreePartTwo.md)
 
 - [Assignments](Assignments/index.md)
   - [Assignment One](Assignments/AssignmentOne.md)

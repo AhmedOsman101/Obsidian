@@ -2,9 +2,9 @@
 prev:
   text: "Section One"
   link: "/College/Python/Sections/SectionOne"
-next: false
-  # text: "Section Three"
-  # link: "/College/Python/Sections/SectionThree"
+next:
+  text: "Section Three (Part I)"
+  link: "/College/Python/Sections/SectionThreePartOne"
 ---
 
 # Programming Essentials in Python Section 2

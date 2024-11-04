@@ -107,7 +107,7 @@ Bitwise shift operators move bits within the binary representation of an integer
 1. **Left Shift (`<<`)**
 
 - The left shift operator `<<` shifts all bits in the number to the left by a specified number of positions.
-- Each left shift effectively multiplies the number by \(2^{\text{shift count}}\).
+- Each left shift effectively multiplies the number by $2^{\text{shift count}}$.
 - Example:
   ```python
   x = 3       # Binary: 0000 0011
@@ -118,7 +118,7 @@ Bitwise shift operators move bits within the binary representation of an integer
 2. **Right Shift (`>>`)**
 
 - The right shift operator `>>` moves all bits in the number to the right by a specified number of positions.
-- Each right shift effectively divides the number by \(2^{\text{shift count}}\) and discards any remainder (similar to floor division).
+- Each right shift effectively divides the number by $2^{\text{shift count}}$ and discards any remainder (similar to floor division).
 - Example:
   ```python
   x = 8       # Binary: 0000 1000

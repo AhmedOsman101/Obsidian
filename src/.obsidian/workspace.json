@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "064c36a89cdb072e",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "b5511a54efb27afc",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -178,10 +178,13 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "b5511a54efb27afc",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "College/Python/Sections/SectionThreePartOne.md",
+    "public/favicon.ico",
+    "public",
+    "enhanceApp.ts",
     "College/Python/Sections/SectionThreePartTwo.md",
+    "College/Python/Sections/SectionThreePartOne.md",
     "College/Python/Sections/SectionOne.md",
     "College/Python/Lectures/LectureTwo.md",
     "College/Python/Lectures/LectureOne.md",
@@ -221,10 +224,7 @@
     "Courses/Manara/index.md",
     "College/index.md",
     "College/IntroToCyberSecurity/index.md",
-    "College/IT-Essentials/Assignments/index.md",
     "College/Python/Assignments",
-    "Courses/Mastering_Laravel_10_Database_and_Eloquent",
-    "Untitled",
-    "Thoughts"
+    "Courses/Mastering_Laravel_10_Database_and_Eloquent"
   ]
 }

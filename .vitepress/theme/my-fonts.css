@@ -3,6 +3,10 @@
   --vp-font-family-mono: JetBrainsMonoNerdFontMono, monospace;
 }
 
+pre.mermaid {
+  font-family: "JetBrainsMonoNerdFontMono", monospace;
+}
+
 /* Regular */
 @font-face {
   font-family: "JetBrainsMonoNerdFontMono";

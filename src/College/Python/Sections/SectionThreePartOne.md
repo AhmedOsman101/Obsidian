@@ -1,4 +1,4 @@
-# Programming Essentials in Python Section 3
+# Programming Essentials in Python Section 3 (Part I)
 
 ## Operators in Python
 

@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import markdownItMermaid from "markdown-it-mermaid";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -15,6 +16,17 @@ export default defineConfig({
       level: [2, 4],
     },
     math: true,
+    config: (md) => {
+      md.use(markdownItMermaid);
+      md.mermaid.loadPreferences({
+        get: (key: string) => {
+          if (key === "mermaid-theme") {
+            return "neutral"; // setting a hypothetical neutral theme
+          }
+          return undefined;
+        },
+      });
+    },
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

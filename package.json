@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@markslides/markdown-it-mermaid": "^0.3.4",
     "markdown-it-mathjax3": "^4.3.2",
     "vitepress": "^1.4.3"
   },
@@ -7,8 +8,5 @@
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
-  },
-  "dependencies": {
-    "markdown-it-mermaid": "^0.2.5"
   }
 }

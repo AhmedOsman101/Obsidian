@@ -10,6 +10,7 @@ next: false
   - [Lecture One](IntroToCyberSecurity/LectureOne.md)
   - [Lecture Two](IntroToCyberSecurity/LectureTwo.md)
   - [Lecture Three](IntroToCyberSecurity/LectureThree.md)
+  - [Lecture Four](IntroToCyberSecurity/LectureFour.md)
 
 - [IT Essentials](IT-Essentials/index.md)
 

@@ -161,8 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,23 +179,24 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "College/Python/Sections/SectionThreePartTwo.md",
+    "College/Python/Lectures/LectureTwo.md",
     "College/Python/Lectures/LectureThree.md",
+    "College/index.md",
+    "College/Python/index.md",
+    "College/Python/Lectures/index.md",
+    "College/Python/Sections/index.md",
+    "College/Python/Sections/SectionThreePartOne.md",
+    "College/Python/Sections/SectionThreePartTwo.md",
     "public/favicon.ico",
     "public",
     "enhanceApp.ts",
-    "College/Python/Sections/SectionThreePartOne.md",
     "College/Python/Sections/SectionOne.md",
-    "College/Python/Lectures/LectureTwo.md",
     "College/Python/Lectures/LectureOne.md",
     "College/IT-Essentials/Lectures/LectureOne.md",
     "College/IT-Essentials/Lectures/index.md",
     "College/IT-Essentials/Sections/index.md",
     "College/IT-Essentials/Sections",
     "College/IT-Essentials/Lectures",
-    "College/Python/Lectures/index.md",
-    "College/Python/Sections/index.md",
-    "College/Python/index.md",
     "College/Python/Sections",
     "College/Python/Lectures",
     "College/IntroToCyberSecurity/LectureTwo.md",
@@ -223,7 +223,6 @@
     "Thoughts/The driver watches the road, the passenger sees it.md",
     "Courses/Mastering_Laravel_10_Database_and_Eloquent/index.md",
     "Courses/Manara/index.md",
-    "College/index.md",
     "College/IntroToCyberSecurity/index.md",
     "College/Python/Assignments"
   ]

@@ -8,6 +8,7 @@ next:
   # link: "/College/Python/Lectures/LectureFour"
 ---
 
+# Programming Essentials in Python Lecture 3
 ## Operators in Python
 
 Operators in Python are used to perform operations on variables and values. Python categorizes operators into several groups based on their functionality.

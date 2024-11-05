@@ -26,7 +26,7 @@ next: false
 
     - [Lecture One](Python/Lectures/LectureOne.md)
     - [Lecture Two](Python/Lectures/LectureTwo.md)
-    - [Lecture Two](Python/Lectures/LectureThree.md)
+    - [Lecture Three](Python/Lectures/LectureThree.md)
 
   - [Sections](Python/Sections/index.md)
 

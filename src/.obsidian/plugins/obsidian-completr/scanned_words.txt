@@ -282,6 +282,8 @@ Point
 Program
 Part
 Parallelogram
+Precedence
+Parentheses
 IHDR
 IDATx
 IO
@@ -560,6 +562,8 @@ Important
 Integers
 Integer
 Indicates
+Identity
+Inverts
 pHYs
 pt
 pu
@@ -894,6 +898,10 @@ performing
 page
 possible
 placing
+positions
+powerful
+performed
+plus
 sbf
 sPv
 sC
@@ -1250,6 +1258,12 @@ shaping
 sections
 statement
 statements
+serving
+shift
+shifts
+shifting
+sign
+subtraction
 ff
 fP
 fj
@@ -1534,6 +1548,8 @@ followed
 flowchart
 flowcharts
 framed
+floor
+filling
 yq
 yh
 yS
@@ -2147,6 +2163,7 @@ wages
 whenever
 whole
 ways
+way
 BU
 Bh
 BC
@@ -2413,6 +2430,8 @@ Biometric
 Bluetooth
 Bank
 Backspace
+Below
+Bitwise
 MC
 Ml
 MW
@@ -2666,6 +2685,10 @@ Materials
 Maintaining
 Making
 Mermaid
+Multiplication
+Multiplies
+Modulus
+Membership
 Lj
 Lf
 LvVa
@@ -2927,6 +2950,9 @@ Literals
 Leading
 Lines
 Largest
+Less
+Left
+Lowest
 al
 aj
 ar
@@ -3269,6 +3295,7 @@ arithmetic
 arrow
 assist
 alternative
+assign
 Te
 Tn
 TA
@@ -3517,6 +3544,9 @@ Trust
 They
 Tab
 There
+True
+Truth
+Tables
 uj
 uq
 uXm
@@ -3745,6 +3775,7 @@ unlimited
 underscores
 underscore
 understand
+unary
 OB
 Ox
 ONynT
@@ -4006,6 +4037,8 @@ OLED
 Octal
 Oval
 Otherwise
+Operators
+Operator
 Uc
 Ue
 UXk
@@ -4242,6 +4275,7 @@ Usage
 Using
 Underscores
 Underscore
+Unary
 ra
 rO
 rV
@@ -4526,6 +4560,13 @@ represented
 readability
 represent
 respectively
+return
+representation
+remainder
+rightmost
+rounds
+refer
+representations
 eiO
 es
 ee
@@ -4845,6 +4886,9 @@ essentials
 enclosed
 expressed
 evaluates
+element
+expression
+evaluated
 GO
 GQ
 Gk
@@ -5100,6 +5144,7 @@ Game
 Gamepad
 Grants
 Getting
+Greater
 Ex
 EZR
 EG
@@ -5398,6 +5443,10 @@ Escape
 Every
 Else
 End
+Exponentiation
+Equivalent
+Equal
+Explained
 Sal
 SQ
 SB
@@ -5704,6 +5753,13 @@ Structures
 Statement
 Syntax
 Start
+SectionThreePartTwo
+Subtraction
+Subtracts
+Shift
+Shifts
+Same
+Sets
 iH
 ic
 iP
@@ -6264,6 +6320,7 @@ tampering
 tracks
 triad
 test
+true
 nm
 nv
 nhuK
@@ -6465,6 +6522,8 @@ near
 necessitating
 negative
 notation
+nearest
+numeric
 Fc
 Fe
 Fo
@@ -6755,6 +6814,7 @@ Function
 Flow
 Flowchart
 Find
+False
 xi
 xpF
 xwG
@@ -7366,6 +7426,8 @@ backslash
 beep
 box
 block
+boolean
+bitwise
 Nb
 NJu
 Nbsa
@@ -7614,6 +7676,9 @@ Notation
 Newline
 Naming
 Nested
+Name
+Not
+NOT
 lqQvz
 ln
 lN
@@ -7865,6 +7930,9 @@ leading
 letter
 letters
 largest
+less
+least
+left
 Rc
 Rt
 RO
@@ -8130,6 +8198,10 @@ Rules
 Reserved
 Represents
 Rectangle
+Remainder
+Raises
+Right
+Reverses
 Zt
 ZB
 Zb
@@ -8833,6 +8905,8 @@ Dot
 DLP
 Diamond
 Decision
+Division
+Divides
 ohQ
 oL
 ob
@@ -9079,6 +9153,7 @@ obligations
 operational
 octal
 outcomes
+operators
 mipte
 mRT
 mX
@@ -9353,6 +9428,13 @@ modification
 malicious
 maintain
 matters
+modifying
+multiplies
+moves
+module
+minus
+modulus
+membership
 Ck
 CS
 Cm
@@ -9699,6 +9781,8 @@ Converting
 Codes
 Calculator
 Circle
+Comparison
+Comparisons
 vb
 vO
 vvF
@@ -10325,6 +10409,12 @@ covers
 conversions
 circles
 condition
+categorizes
+compare
+combine
+changing
+contains
+contain
 Hu
 Hg
 HiL
@@ -10591,6 +10681,7 @@ Headset
 Hypertext
 HTTPS
 Hexadecimal
+Higher
 hh
 hLR
 hI
@@ -11036,6 +11127,7 @@ Xlf
 XqshX
 Xqq
 XSS
+XOR
 gR
 gQ
 go
@@ -11270,6 +11362,7 @@ guess
 granting
 guarantee
 greater
+groups
 KUYX
 KX
 KK
@@ -12382,6 +12475,10 @@ desired
 decision
 direction
 decisions
+descriptions
+down
+divides
+discards
 AK
 AQ
 Aya
@@ -12699,6 +12796,11 @@ Achieving
 Alert
 Arrows
 Algorithm
+Arithmetic
+Addition
+Adds
+Assigns
+AND
 Jw
 Jg
 JT
@@ -13127,6 +13229,7 @@ QEcf
 Qvj
 QWp
 QCX
+Quotient
 WliB
 WWO
 WRY

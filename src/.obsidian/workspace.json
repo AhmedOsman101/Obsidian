@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "c8f1554fd68417e8",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "f18d2b9756274ea7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/IntroToCyberSecurity/LectureFour.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "LectureFour"
+              "title": "New tab"
             }
           }
         ]
@@ -140,11 +135,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "College/IntroToCyberSecurity/LectureFour.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of LectureFour"
+              "title": "Outline"
             }
           },
           {
@@ -178,11 +171,12 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "f18d2b9756274ea7",
   "lastOpenFiles": [
+    "College/Python/Sections/SectionThreePartTwo.md",
+    "College/IntroToCyberSecurity/LectureFour.md",
     "College/IntroToCyberSecurity/index.md",
     "College/IntroToCyberSecurity/LectureOne.md",
-    "College/IntroToCyberSecurity/LectureFour.md",
     "College/IntroToCyberSecurity/LectureThree.md",
     "College/Python/Lectures/LectureThree.md",
     "College/Python/Lectures/LectureTwo.md",
@@ -191,7 +185,6 @@
     "College/Python/Lectures/index.md",
     "College/Python/Sections/index.md",
     "College/Python/Sections/SectionThreePartOne.md",
-    "College/Python/Sections/SectionThreePartTwo.md",
     "public/favicon.ico",
     "public",
     "enhanceApp.ts",

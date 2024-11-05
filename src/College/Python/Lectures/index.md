@@ -9,3 +9,4 @@ next: false
 
 - [Lecture One](LectureOne.md)
 - [Lecture Two](LectureTwo.md)
+- [Lecture Two](LectureThree.md)

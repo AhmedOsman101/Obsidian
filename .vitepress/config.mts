@@ -22,16 +22,16 @@ export default withMermaid({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Courses", link: "/Courses" },
       { text: "College", link: "/College" },
+      { text: "Courses", link: "/Courses" },
     ],
 
     sidebar: [
       {
         text: "Explore",
         items: [
-          { text: "Courses", link: "/Courses" },
           { text: "College", link: "/College" },
+          { text: "Courses", link: "/Courses" },
         ],
       },
     ],

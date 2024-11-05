@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 271.5,
+    "collapsed": true
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -173,7 +174,6 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "publish:Publish changes...": false,
-      "homepage:Open homepage": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-importer:Open Importer": false
     }

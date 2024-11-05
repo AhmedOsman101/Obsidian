@@ -17,17 +17,52 @@ Flowcharts use various symbols to visually represent the structure of algorithms
 
 - **Function**: Used to indicate the `START` or `STOP` of the program.
 
+```mermaid
+---
+title: Oval
+---
+flowchart LR
+    id1([START])
+```
+
 ### 2. Parallelogram
 
 - **Function**: Represents input and output operations. Statements like `INPUT`, `READ`, and `PRINT` are typically enclosed within this shape.
+
+```mermaid
+---
+title: Parallelogram
+---
+flowchart TD
+    id1[/READ age/]
+```
 
 ### 3. Rectangle
 
 - **Function**: Used to indicate processing operations, such as storing values or performing arithmetic calculations.
 
+```mermaid
+---
+title: Rectangle
+---
+flowchart LR
+    id1[c = a + b]
+
+```
+
 ### 4. Diamond
 
 - **Function**: Indicates a decision-making step, known as the decision box. This shape is used to test conditions, ask questions, and direct the flow based on responses.
+
+```mermaid
+---
+title: Diamond
+---
+
+flowchart TD
+    id1{age < 18}
+
+```
 
 ### 5. Flow Lines
 
@@ -36,6 +71,18 @@ Flowcharts use various symbols to visually represent the structure of algorithms
 ### 6. Circle
 
 - **Function**: Known as on-page connectors, circles help join different parts of a flowchart on the same page. They also assist in shaping complex flowcharts by connecting sections.
+
+```mermaid
+---
+title: On-Page Connectors
+---
+
+flowchart LR
+    id1((Part II))
+    id2([Start])
+    id1 --> id2
+
+```
 
 ### Flowchart Example for Decision-Making Using Mermaid
 

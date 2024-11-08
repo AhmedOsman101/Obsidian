@@ -6,6 +6,7 @@ next: false
 # College
 
 - [Introduction To Cybersecurity](IntroToCyberSecurity/index.md)
+  - [Lectures](IntroToCyberSecurity/Lectures/index.md)
 
 - [IT Essentials](IT-Essentials/index.md)
   - [Lectures](IT-Essentials/Lectures/index.md)

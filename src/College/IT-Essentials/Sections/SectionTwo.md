@@ -1,3 +1,12 @@
+---
+prev:
+  text: "Section One"
+  link: "/College/IT-Essentials/Sections/SectionOne"
+next:
+  false
+  # text: 'Section One'
+  # link: '/College/IT-Essentials/Sections/SectionOne'
+---
 
 # IT Essentials Lab 2: Computer Assembly
 
@@ -12,7 +21,7 @@ The motherboard is the computer's main circuit board. It includes several essent
 - **Central Processing Unit (CPU)**: Executes instructions and processes data.
 - **Random Access Memory (RAM)**: Temporary memory for active tasks.
 - **Read Only Memory (ROM)**: Stores permanent data for system functions.
-- **Cooling Components**: 
+- **Cooling Components**:
   - **Fans**: Dissipate heat from the motherboard.
   - **Heat Sink**: Draws heat away from the CPU.
 - **Expansion Slots**: For additional hardware.

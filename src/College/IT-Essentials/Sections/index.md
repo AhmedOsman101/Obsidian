@@ -8,4 +8,4 @@ next: false
 # Sections
 
 - [Section One](SectionOne.md)
-<!-- - [Section Two](SectionTwo.md) -->
+- [Section Two](SectionTwo.md)

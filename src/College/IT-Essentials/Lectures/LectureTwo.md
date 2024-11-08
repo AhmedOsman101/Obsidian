@@ -1,11 +1,10 @@
 ---
 prev:
-  text: "IT-Essentials"
-  link: "/College/IT-Essentials/Lectures/index"
+  text: "Lecture One"
+  link: "/College/IT-Essentials/Lectures/LectureOne"
 next:
-  false
-  # text: 'Lecture Two'
-  # link: '/College/IT-Essentials/Lectures/LectureTwo'
+  text: "Lecture Three"
+  link: "/College/IT-Essentials/Lectures/LectureThree"
 ---
 
 # IT Essentials Lecture 2
@@ -15,10 +14,12 @@ next:
 ### IT Essentials
 
 #### Boot the Computer
+
 - **Configure BIOS and UEFI Settings**
+
   - Describe POST, BIOS, CMOS, and UEFI.
   - Configure the computer firmware.
-  
+
 - **Electrical Power**
   - Explain the concept of electrical power.
   - Describe wattage and voltage.
@@ -29,13 +30,16 @@ next:
 ### Chapter 3: Sections & Objectives
 
 #### Advanced Computer Functionality
+
 - **Explain Computer Functionality**
+
   - Understand CPU architecture.
   - Describe RAID technology.
   - Identify common ports, cables, and connectors.
   - Explain monitor characteristics.
 
 - **Computer Upgrade**
+
   - Select components to upgrade a computer.
   - Identify components for specialized computers.
 
@@ -47,20 +51,24 @@ next:
 ## Boot the Computer
 
 ### POST (Power-On Self-Test)
+
 - Performed by BIOS to check all internal components.
 - Alerts for malfunctioning components via error or beep codes.
 - BIOS access key must be pressed during POST.
 - **Tip**: Remove RAM to confirm POST functionality; the computer should emit a beep code for missing RAM.
 
 ### BIOS and CMOS
+
 - **BIOS**: Firmware on a ROM chip, managing communication between OS and hardware, identifying drives, memory configuration, and expansion slots.
 - **CMOS**: Stores BIOS settings and is battery-powered; if the battery fails, settings and time/date may reset.
 
 ### UEFI (Unified Extensible Firmware Interface)
+
 - Modern firmware with additional features and security enhancements.
 - Supports 32-bit and 64-bit systems, larger boot drives, and **Secure Boot** (preventing rootkits).
 
 ### BIOS and UEFI Security Features
+
 - **Security Measures**:
   - **Passwords**: Control access levels.
   - **Drive Encryption**: Prevents unauthorized data access.
@@ -69,14 +77,16 @@ next:
   - **Secure Boot**: Ensures only trusted OS boots.
 
 ### Access Levels
-| Access Level       | Description                                                    |
-|--------------------|----------------------------------------------------------------|
-| Full Access        | All settings accessible.                                       |
-| Limited Access     | Restricted access (e.g., time and date only).                  |
-| View-Only Access   | All screens viewable, but no settings changeable.              |
-| No Access          | No access to BIOS setup utility.                               |
+
+| Access Level     | Description                                       |
+| ---------------- | ------------------------------------------------- |
+| Full Access      | All settings accessible.                          |
+| Limited Access   | Restricted access (e.g., time and date only).     |
+| View-Only Access | All screens viewable, but no settings changeable. |
+| No Access        | No access to BIOS setup utility.                  |
 
 ### Update the Firmware
+
 - Modern BIOS chips (EEPROM) can be upgraded by **flashing**.
 - Follow the manufacturer’s website instructions for BIOS updates.
 
@@ -85,11 +95,13 @@ next:
 ## Electrical Power
 
 ### Procedures to Protect Equipment and Data
+
 - **Electrostatic Discharge (ESD)**: Buildup of electric charge can damage components; use grounded mats and antistatic wrist straps.
 - **Electromagnetic Interference (EMI)**: Interference in transmission media from sources like power lines; place sensitive devices away from EMI sources.
 - **Radio Frequency Interference (RFI)**: Affects wireless networks; change Wi-Fi channels or use the 5 GHz band to reduce RFI.
 
 ### Wattage and Voltage
+
 - **Basic Units**:
   - **Voltage (V)**: Work required to move a charge.
   - **Current (I)**: Electron flow rate, measured in amperes.
@@ -99,10 +111,12 @@ next:
 - **Power Calculation**: \( P = V \times I \)
 
 ### Power Supply Voltage Settings
+
 - Dual-voltage supplies have a switch for 110V/115V or 220V/230V.
 - Auto-detect voltage supplies do not need a manual switch.
 
 ### Power Fluctuation Types
+
 - **Blackout**: Complete loss of AC power.
 - **Brownout**: Reduced voltage for an extended period.
 - **Noise**: Interference from generators, lightning.
@@ -110,6 +124,7 @@ next:
 - **Surge**: High voltage above the normal flow.
 
 ### Power Protection Devices
+
 - **Surge Protectors**: Protect from surges and spikes.
 - **Uninterruptible Power Supply (UPS)**: Provides backup power during blackouts and brownouts.
 - **Standby Power Supply (SPS)**: Backup battery power with slower activation than UPS.
@@ -119,21 +134,25 @@ next:
 ## Advanced Computer Functionality
 
 ### CPU Architectures
+
 - **RISC (Reduced Instruction Set Computer)**: Executes a small set of instructions quickly.
 - **CISC (Complex Instruction Set Computer)**: Broad instruction set for fewer steps per operation.
 - **Cache Memory**: High-speed memory close to the CPU for faster instruction execution.
 
 ### Enhancing CPU Operation
+
 - **Hyper-Threading (Intel)**: Multiple threads execute simultaneously, simulating multiple CPUs.
 - **HyperTransport (AMD)**: High-speed CPU connection to the Northbridge.
 - **CPU Throttling**: Reduces speed to save power and reduce heat.
 - **CPU Virtualization**: Allows multiple OS to run on virtual machines as if on separate CPUs.
 
 ### Multicore Processors
+
 - **Integrated Cores**: Multiple processors on one chip, sharing resources.
 - **Integrated GPU**: Handles graphics processing with less heat than a dedicated GPU.
 
 ### CPU Cooling Mechanisms
+
 - **Case Fans**: Increase airflow to remove heat.
 - **CPU Heat Sinks**: Draw heat away from CPU; passive (no fan) or active (with fan).
 - **Graphics Card Cooling**: Reduces heat from dedicated GPUs.

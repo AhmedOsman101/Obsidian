@@ -1,3 +1,11 @@
+---
+prev:
+  text: "Sections"
+  link: "/College/IT-Essentials/Sections/index"
+next:
+  text: "Section Two"
+  link: "/College/IT-Essentials/Sections/SectionTwo"
+---
 
 # IT-Essentials Seciton 1
 

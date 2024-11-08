@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c9d425f06d24a802",
+        "id": "9faff9cc3971a796",
         "type": "tabs",
         "children": [
           {
-            "id": "ee956df744ee4f4b",
+            "id": "bd83654e678e8c11",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/IT-Essentials/Lectures/LectureThree.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "LectureThree"
+              "title": "New tab"
             }
           }
         ]
@@ -139,11 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "College/IT-Essentials/Lectures/LectureThree.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of LectureThree"
+              "title": "Outline"
             }
           },
           {
@@ -177,17 +170,18 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "ee956df744ee4f4b",
+  "active": "6e6b30772217c8e6",
   "lastOpenFiles": [
-    "College/index.md",
+    "College/Python/Sections/SectionOne.md",
+    "College/Python/Sections/SectionTwo.md",
     "College/IT-Essentials/Lectures/LectureThree.md",
+    "College/index.md",
     "College/IT-Essentials/Lectures/Untitled.md",
     "College/IT-Essentials/Lectures/LectureTwo.md",
     "College/IT-Essentials/Sections/SectionTwo.md",
     "College/IT-Essentials/Sections/SectionOne.md",
     "College/IT-Essentials/Lectures/LectureOne.md",
     "College/IT-Essentials/Sections/index.md",
-    "College/Python/Sections/SectionOne.md",
     "Untitled.md",
     "College/Python/Sections/SectionThreePartTwo.md",
     "College/IntroToCyberSecurity/LectureFour.md",
@@ -211,7 +205,6 @@
     "College/Python/Lectures",
     "College/IntroToCyberSecurity/LectureTwo.md",
     "index.md",
-    "College/Python/Sections/SectionTwo.md",
     "College/IntroToCyberSecurity/imgs/CIA.png",
     "College/IntroToCyberSecurity/imgs",
     "College/IntroToCyberSecurity/New folder",

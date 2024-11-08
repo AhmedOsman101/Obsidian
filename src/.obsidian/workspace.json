@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/index.md",
+                "file": "College/IT-Essentials/Lectures/LectureThree.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "LectureThree"
             }
           }
         ]
@@ -140,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/index.md"
+                "file": "College/IT-Essentials/Lectures/LectureThree.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of LectureThree"
             }
           },
           {
@@ -179,6 +179,9 @@
   },
   "active": "ee956df744ee4f4b",
   "lastOpenFiles": [
+    "College/index.md",
+    "College/IT-Essentials/Lectures/LectureThree.md",
+    "College/IT-Essentials/Lectures/Untitled.md",
     "College/IT-Essentials/Lectures/LectureTwo.md",
     "College/IT-Essentials/Sections/SectionTwo.md",
     "College/IT-Essentials/Sections/SectionOne.md",
@@ -193,7 +196,6 @@
     "College/IntroToCyberSecurity/LectureThree.md",
     "College/Python/Lectures/LectureThree.md",
     "College/Python/Lectures/LectureTwo.md",
-    "College/index.md",
     "College/Python/index.md",
     "College/Python/Lectures/index.md",
     "College/Python/Sections/index.md",
@@ -214,7 +216,6 @@
     "College/IntroToCyberSecurity/imgs",
     "College/IntroToCyberSecurity/New folder",
     "image.png",
-    "College/IT-Essentials/LectureOne.md",
     "College/IT-Essentials/imgs/vports.png",
     "College/IT-Essentials/imgs/vports2.png",
     "College/IT-Essentials/imgs/convertor.png",
@@ -223,7 +224,6 @@
     "College/IT-Essentials/imgs/inputs3.png",
     "College/IT-Essentials/imgs/inputs2.png",
     "College/IT-Essentials/imgs/inputs1 1.png",
-    "College/IT-Essentials/index.md",
     "College/Python/Assignments"
   ]
 }

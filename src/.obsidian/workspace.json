@@ -11,10 +11,15 @@
             "id": "bd83654e678e8c11",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "College/IT-Essentials/Lectures/LectureFour.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "LectureFour"
             }
           }
         ]
@@ -73,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 271.5,
+    "collapsed": true
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -134,9 +140,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "College/IT-Essentials/Lectures/LectureFour.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of LectureFour"
             }
           },
           {
@@ -170,41 +178,42 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "6e6b30772217c8e6",
+  "active": "bd83654e678e8c11",
   "lastOpenFiles": [
+    "College/IntroToCyberSecurity/index.md",
+    "College/IntroToCyberSecurity/Lectures/LectureTwo.md",
+    "College/IntroToCyberSecurity/Lectures/LectureThree.md",
+    "College/IntroToCyberSecurity/Lectures/LectureOne.md",
+    "College/IntroToCyberSecurity/Lectures/LectureFour.md",
+    "College/IntroToCyberSecurity/Lectures/index.md",
+    "College/IntroToCyberSecurity/Lectures",
+    "College/IT-Essentials/Lectures/LectureThree.md",
+    "College/IT-Essentials/Lectures/LectureTwo.md",
+    "College/IT-Essentials/Lectures/LectureOne.md",
+    "College/IT-Essentials/Lectures/LectureFour.md",
+    "College/IT-Essentials/index.md",
     "College/Python/Sections/SectionOne.md",
     "College/Python/Sections/SectionTwo.md",
-    "College/IT-Essentials/Lectures/LectureThree.md",
     "College/index.md",
     "College/IT-Essentials/Lectures/Untitled.md",
-    "College/IT-Essentials/Lectures/LectureTwo.md",
     "College/IT-Essentials/Sections/SectionTwo.md",
     "College/IT-Essentials/Sections/SectionOne.md",
-    "College/IT-Essentials/Lectures/LectureOne.md",
     "College/IT-Essentials/Sections/index.md",
     "Untitled.md",
     "College/Python/Sections/SectionThreePartTwo.md",
     "College/IntroToCyberSecurity/LectureFour.md",
-    "College/IntroToCyberSecurity/index.md",
     "College/IntroToCyberSecurity/LectureOne.md",
     "College/IntroToCyberSecurity/LectureThree.md",
     "College/Python/Lectures/LectureThree.md",
     "College/Python/Lectures/LectureTwo.md",
     "College/Python/index.md",
-    "College/Python/Lectures/index.md",
-    "College/Python/Sections/index.md",
-    "College/Python/Sections/SectionThreePartOne.md",
     "public/favicon.ico",
     "public",
     "enhanceApp.ts",
-    "College/Python/Lectures/LectureOne.md",
-    "College/IT-Essentials/Lectures/index.md",
     "College/IT-Essentials/Sections",
     "College/IT-Essentials/Lectures",
     "College/Python/Sections",
     "College/Python/Lectures",
-    "College/IntroToCyberSecurity/LectureTwo.md",
-    "index.md",
     "College/IntroToCyberSecurity/imgs/CIA.png",
     "College/IntroToCyberSecurity/imgs",
     "College/IntroToCyberSecurity/New folder",
@@ -216,7 +225,6 @@
     "College/IT-Essentials/imgs/inputs4.png",
     "College/IT-Essentials/imgs/inputs3.png",
     "College/IT-Essentials/imgs/inputs2.png",
-    "College/IT-Essentials/imgs/inputs1 1.png",
-    "College/Python/Assignments"
+    "College/IT-Essentials/imgs/inputs1 1.png"
   ]
 }

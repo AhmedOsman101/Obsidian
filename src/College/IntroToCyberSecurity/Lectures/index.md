@@ -1,7 +1,7 @@
 ---
 prev:
-  text: "IT-Essentials"
-  link: "/College/IT-Essentials/index"
+  text: "Introduction to Cybersecurity"
+  link: "/College/IntroToCyberSecurity/index"
 next: false
 ---
 

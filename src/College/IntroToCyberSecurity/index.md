@@ -7,7 +7,8 @@ next: false
 
 # Introduction to Cybersecurity
 
-- [Lecture One](LectureOne.md)
-- [Lecture Two](LectureTwo.md)
-- [Lecture Three](LectureThree.md)
-- [Lecture Four](LectureFour.md)
+- [Lectures](Lectures/index.md)
+  - [Lecture One](Lectures/LectureOne.md)
+  - [Lecture Two](Lectures/LectureTwo.md)
+  - [Lecture Three](Lectures/LectureThree.md)
+  - [Lecture Four](Lectures/LectureFour.md)

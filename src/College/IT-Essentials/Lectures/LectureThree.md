@@ -3,14 +3,13 @@ prev:
   text: "Lecture Two"
   link: "/College/IT-Essentials/Lectures/LectureTwo"
 next:
-  false
-  # text: 'Lecture Four'
-  # link: '/College/IT-Essentials/Lectures/LectureFour'
+  text: "Lecture Four"
+  link: "/College/IT-Essentials/Lectures/LectureFour"
 ---
 
 # IT Essentials Lecture 3
 
-## Lecture 3: Number Systems
+## Number Systems
 
 ### Module Objective
 

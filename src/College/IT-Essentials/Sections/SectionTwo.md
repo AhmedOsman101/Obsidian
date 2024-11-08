@@ -4,8 +4,8 @@ prev:
   link: "/College/IT-Essentials/Sections/SectionOne"
 next:
   false
-  # text: 'Section One'
-  # link: '/College/IT-Essentials/Sections/SectionOne'
+  # text: 'Section Three'
+  # link: '/College/IT-Essentials/Sections/SectionThree'
 ---
 
 # IT Essentials Lab 2: Computer Assembly

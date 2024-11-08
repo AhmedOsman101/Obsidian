@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "c8f1554fd68417e8",
+        "id": "c9d425f06d24a802",
         "type": "tabs",
         "children": [
           {
-            "id": "f18d2b9756274ea7",
+            "id": "ee956df744ee4f4b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "College/IT-Essentials/Lectures/LectureTwo.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "LectureTwo"
             }
           }
         ]
@@ -135,9 +140,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "College/IT-Essentials/Lectures/LectureTwo.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of LectureTwo"
             }
           },
           {
@@ -171,8 +178,15 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "f18d2b9756274ea7",
+  "active": "ee956df744ee4f4b",
   "lastOpenFiles": [
+    "College/IT-Essentials/Sections/SectionTwo.md",
+    "College/IT-Essentials/Lectures/LectureTwo.md",
+    "College/IT-Essentials/Sections/SectionOne.md",
+    "College/IT-Essentials/Lectures/LectureOne.md",
+    "College/IT-Essentials/Sections/index.md",
+    "College/Python/Sections/SectionOne.md",
+    "Untitled.md",
     "College/Python/Sections/SectionThreePartTwo.md",
     "College/IntroToCyberSecurity/LectureFour.md",
     "College/IntroToCyberSecurity/index.md",
@@ -188,11 +202,8 @@
     "public/favicon.ico",
     "public",
     "enhanceApp.ts",
-    "College/Python/Sections/SectionOne.md",
     "College/Python/Lectures/LectureOne.md",
-    "College/IT-Essentials/Lectures/LectureOne.md",
     "College/IT-Essentials/Lectures/index.md",
-    "College/IT-Essentials/Sections/index.md",
     "College/IT-Essentials/Sections",
     "College/IT-Essentials/Lectures",
     "College/Python/Sections",
@@ -214,10 +225,6 @@
     "College/IT-Essentials/imgs/inputs2.png",
     "College/IT-Essentials/imgs/inputs1 1.png",
     "College/IT-Essentials/index.md",
-    "Courses/index.md",
-    "Courses/LinuxCrashCourse.md",
-    "Thoughts/index.md",
-    "Thoughts/The driver watches the road, the passenger sees it.md",
     "College/Python/Assignments"
   ]
 }

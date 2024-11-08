@@ -8,7 +8,7 @@ next:
   # link: '/College/IT-Essentials/Lectures/LectureTwo'
 ---
 
-# IT Essentials Lecture One
+# IT Essentials Lecture 1
 
 ## 1.1 Personal Computer
 

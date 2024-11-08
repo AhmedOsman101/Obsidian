@@ -7,5 +7,5 @@ next: false
 
 # Sections
 
-<!-- - [Section One](SectionOne.md) -->
+- [Section One](SectionOne.md)
 <!-- - [Section Two](SectionTwo.md) -->

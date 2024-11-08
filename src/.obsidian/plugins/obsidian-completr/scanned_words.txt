@@ -287,6 +287,8 @@ Parentheses
 Phishing
 Profit
 Points
+Perform
+Practice
 IHDR
 IDATx
 IO
@@ -573,6 +575,7 @@ Ideological
 Individuals
 Insider
 Insiders
+Instructs
 pHYs
 pt
 pu
@@ -918,6 +921,7 @@ political
 personnel
 payment
 prioritizing
+processed
 sbf
 sPv
 sC
@@ -1575,6 +1579,7 @@ framed
 floor
 filling
 filtering
+follows
 yq
 yh
 yS
@@ -2190,6 +2195,7 @@ whole
 ways
 way
 websites
+word
 BU
 Bh
 BC
@@ -2459,6 +2465,8 @@ Backspace
 Below
 Bitwise
 Backdoor
+Byte
+Bytes
 MC
 Ml
 MW
@@ -5515,6 +5523,7 @@ Encrypts
 Entry
 Email
 Exploiting
+Encloses
 Sal
 SQ
 SB
@@ -5831,6 +5840,8 @@ Sets
 Sharing
 Seek
 Self
+Store
+Seciton
 iH
 ic
 iP
@@ -7521,6 +7532,7 @@ bitwise
 barriers
 best
 business
+browsing
 Nb
 NJu
 Nbsa
@@ -7773,6 +7785,7 @@ Name
 Not
 NOT
 Nation
+Nibble
 lqQvz
 ln
 lN
@@ -9013,6 +9026,7 @@ Division
 Divides
 Deceptive
 Disguises
+Decimal
 ohQ
 oL
 ob
@@ -9551,6 +9565,7 @@ motivations
 motivated
 messages
 monetary
+multimedia
 Ck
 CS
 Cm
@@ -10540,6 +10555,7 @@ cybercrimes
 continuity
 challenge
 consists
+computing
 Hu
 Hg
 HiL
@@ -11496,6 +11512,7 @@ guarantee
 greater
 groups
 gain
+grouped
 KUYX
 KX
 KK
@@ -12620,6 +12637,7 @@ destroy
 demanding
 detection
 delivered
+digits
 AK
 AQ
 Aya
@@ -12951,6 +12969,8 @@ Adhering
 Aligning
 Actors
 Attack
+Additional
+Applications
 Jw
 Jg
 JT
@@ -13608,6 +13628,7 @@ Widely
 Webcams
 Words
 Worm
+Word
 Ötl
 ÖC
 Öm

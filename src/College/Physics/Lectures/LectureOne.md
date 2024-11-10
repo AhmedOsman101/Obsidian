@@ -88,17 +88,24 @@ A **physical quantity** is any property of a material or system that can be meas
 
 ## Dimensional Analysis
 
-| Derived Quantity | Formula                  | Dimensional Formula | SI Unit                                      |
-| ---------------- | ------------------------ | ------------------- | -------------------------------------------- |
-| Area             | Length × Length          | $L^2$               | Square meter ($\text{m}^2$)                  |
-| Volume           | Length × Length × Length | $L^3$               | Cubic meter ($\text{m}^3$)                   |
-| Velocity         | Distance / Time          | $LT^{-1}$           | m/s or $\text{ms}^{-1}$                      |
-| Acceleration     | Velocity / Time          | $LT^{-2}$           | $\text{m/s}^2$ or $\text{ms}^{-2}$           |
-| Force            | Mass × Acceleration      | $MLT^{-2}$          | Newton (N) or $\text{kg} \cdot \text{m/s}^2$ |
-| Momentum         | Mass × Velocity          | $MLT^{-1}$          | $\text{kg} \cdot \text{m/s}$                 |
-| Work (Energy)    | Force × Distance         | $ML^2T^{-2}$        | Joule (J) or $\text{N} \cdot \text{m}$       |
-| Pressure         | Force / Area             | $ML^{-1}T^{-2}$     | Pascal (Pa) or $\text{N/m}^2$                |
-| Density          | Mass / Volume            | $ML^{-3}$           | $\text{kg/m}^3$                              |
+| Derived Quantity         | Formula                        | Dimensional Formula | SI Unit                                                     |
+| ------------------------ | ------------------------------ | ------------------- | ----------------------------------------------------------- |
+| Area                     | Length × Length                | $L^2$               | Square meter ($\text{m}^2$)                                 |
+| Volume                   | Length × Length × Length       | $L^3$               | Cubic meter ($\text{m}^3$)                                  |
+| Density                  | Mass / Volume                  | $\frac{M}{L^3}$     | $\frac{\text{kg}}{\text{m}^3}$                              |
+| Linear Density           | Mass / Length                  | $\frac{M}{L}$       | $\frac{\text{kg}}{\text{m}}$                                |
+| Velocity                 | Distance / Time                | $\frac{L}{T}$       | m/s or $\text{ms}^{-1}$                                     |
+| Acceleration             | Velocity / Time                | $\frac{L}{T^2}$     | $\text{m/s}^2$ or $\text{ms}^{-2}$                          |
+| Force                    | Mass × Acceleration            | $\frac{ML}{T^2}$    | Newton (N) or $\text{kg} \cdot \text{m/s}^2$                |
+| Torque                   | Force × Length                 | $\frac{ML^2}{T^2}$  | $\text{kg} \cdot \frac{\text{m}^2}{\text{s}^2}$             |
+| Pressure                 | Force / Area                   | $\frac{M}{L T^2}$   | Pascal (Pa) or $\frac{\text{N}}{\text{m}^2}$                |
+| Work or Energy           | Force × Distance               | $\frac{ML^2}{T^2}$  | Joule (J) or $\text{N} \cdot \text{m}$                      |
+| Power                    | Work / Time                    | $\frac{ML^2}{T^3}$  | Watt (W) or $\text{kg} \cdot \frac{\text{m}^2}{\text{s}^3}$ |
+| Intensity                | Energy / Time                  | $\frac{M}{T^3}$     | $\frac{\text{kg}}{\text{s}^3}$                              |
+| Velocity Gradient        | Velocity / Distance            | $T^{-1}$            | $\text{s}^{-1}$                                             |
+| Volumetric Rate          | Volume / Time                  | $\frac{L^3}{T}$     | $\frac{\text{m}^3}{\text{s}}$                               |
+| Momentum                 | Mass × Velocity                | $\frac{ML}{T}$      | $\text{kg} \cdot \frac{\text{m}}{\text{s}}$                 |
+| Coefficient of Viscosity | Force × Time / Area × Velocity | $\frac{M}{L T}$     | $\frac{\text{kg}}{\text{m} \cdot \text{s}}$                 |
 
 ---
 

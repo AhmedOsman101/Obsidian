@@ -15,7 +15,6 @@ next: false
 
 - [Sections](Sections/index.md)
 
-  <!-- - [Section One](Sections/SectionOne.md) -->
-  <!-- - [Section Two](Sections/SectionTwo.md) -->
-  <!-- - [Section Three (Part I)](Sections/SectionThreePartOne.md) -->
-  <!-- - [Section Three (Part II)](Sections/SectionThreePartTwo.md) -->
+  - [Section One](Sections/SectionOne.md)
+  - [Section Two](Sections/SectionTwo.md)
+  <!-- - [Section Three](Sections/SectionThree.md) -->

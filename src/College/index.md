@@ -19,5 +19,4 @@ next: false
 
 - [Physics](Physics/index.md)
   - [Lectures](Physics/Lectures/index.md)
-  <!-- - [Sections](Physics/Sections/index.md) -->
-  <!-- - [Assignments](Physics/Assignments/index.md) -->
+  - [Sections](Physics/Sections/index.md)

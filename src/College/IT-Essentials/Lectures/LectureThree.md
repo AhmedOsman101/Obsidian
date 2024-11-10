@@ -42,7 +42,7 @@ Calculate numbers between decimal, binary, and hexadecimal systems.
 - **Definition**: Positional notation means each digit represents a different value depending on its position.
 - **Example Calculation**:
   - Binary Number: `11000000`
-  - Calculation: \(1 \times 128 + 1 \times 64 + 0 + 0 + 0 + 0 + 0 + 0 = 192\)
+  - Calculation: $1 \times 128 + 1 \times 64 + 0 + 0 + 0 + 0 + 0 + 0 = 192$
 
 ---
 

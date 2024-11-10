@@ -10,6 +10,7 @@ next: false
 
 - [IT Essentials](IT-Essentials/index.md)
   - [Lectures](IT-Essentials/Lectures/index.md)
+  - [Sections](IT-Essentials/Sections/index.md)
   - [Assignments](IT-Essentials/Assignments/index.md)
 
 - [Python](Python/index.md)

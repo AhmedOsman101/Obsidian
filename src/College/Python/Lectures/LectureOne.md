@@ -83,5 +83,3 @@ next:
 5. Sublime Text (Editor)
 6. Thonny (IDE)
 7. Atom (Editor)
-
-This summary provides a high-level overview of computers, software types, the SDLC, Python language advantages, and tools for Python development.

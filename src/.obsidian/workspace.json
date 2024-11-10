@@ -162,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,6 +181,10 @@
   },
   "active": "629ccc4f63aea46a",
   "lastOpenFiles": [
+    "College/Physics/Sections/index.md",
+    "College/Physics/Sections",
+    "College/Physics/imgs",
+    "College/Physics/imgs/vectors-1.png",
     "College/IT-Essentials/Lectures/LectureFour.md",
     "College/IT-Essentials/Lectures/LectureThree.md",
     "College/IT-Essentials/Lectures/LectureTwo.md",
@@ -194,11 +199,9 @@
     "College/Physics/Lectures/LectureOne.md",
     "College/Physics/VideoSummaries/Calculus_3_Intro_To_Vectors.md",
     "College/Physics/VideoSummaries/index.md",
-    "College/Physics/Sections/index.md",
     "College/Physics/VideoSummaries",
     "College/Physics/Untitled.md",
     "College/Physics/Lectures/index.md",
-    "College/Physics/Sections",
     "College/Physics/index.md",
     "College/Physics/Lectures",
     "College/Physics",
@@ -210,21 +213,18 @@
     "College/IntroToCyberSecurity/Lectures/index.md",
     "College/IntroToCyberSecurity/Lectures",
     "College/IT-Essentials/Lectures/LectureOne.md",
-    "College/IT-Essentials/index.md",
     "public/favicon.ico",
     "public",
     "enhanceApp.ts",
     "College/IT-Essentials/Sections",
-    "College/IT-Essentials/Lectures",
     "College/IntroToCyberSecurity/imgs/CIA.png",
-    "image.png",
+    "College/Physics/imgs/vectors-1.png",
     "College/IT-Essentials/imgs/vports.png",
     "College/IT-Essentials/imgs/vports2.png",
     "College/IT-Essentials/imgs/convertor.png",
     "College/IT-Essentials/imgs/inputs1.png",
     "College/IT-Essentials/imgs/inputs4.png",
     "College/IT-Essentials/imgs/inputs3.png",
-    "College/IT-Essentials/imgs/inputs2.png",
-    "College/IT-Essentials/imgs/inputs1 1.png"
+    "College/IT-Essentials/imgs/inputs2.png"
   ]
 }

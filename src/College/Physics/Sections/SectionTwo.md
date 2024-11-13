@@ -51,17 +51,17 @@ To resolve a vector into its components, we use trigonometry. For a vector at an
 
 #### Example 2:
 
-For a displacement vector with a magnitude of 30.0 m at a 23° angle from the x-axis:
+For a displacement vector $\text{A}$ with a magnitude of 30.0 m at a 23° angle from the x-axis:
 
 - **x-component**:
 
   $$
-   x\_{\text{comp}} = 30 \cos(23^\circ) \approx 28 \, \text{m}
+   A_x = 30 \cos(23^\circ) \approx 28 \, \text{m}
   $$
 
 - **y-component**:
   $$
-   y\_{\text{comp}} = 30 \sin(23^\circ) \approx 12 \, \text{m}
+   A_y = 30 \sin(23^\circ) \approx 12 \, \text{m}
   $$
 
 ---

@@ -626,6 +626,7 @@ Interprets
 Installation
 International
 Initial
+Intensity
 pHYs
 pt
 pu
@@ -3884,6 +3885,7 @@ Translates
 Temporary
 Terameter
 Thus
+Torque
 uj
 uq
 uXm
@@ -5588,6 +5590,7 @@ Given
 Gravitational
 Gravitation
 Geometrically
+Gradient
 Ex
 EZR
 EG
@@ -10635,6 +10638,7 @@ Correctness
 Constant
 Cosine
 City
+Coefficient
 vb
 vO
 vvF
@@ -13153,6 +13157,8 @@ Volume
 Velocity
 Verifying
 Vector
+Volumetric
+Viscosity
 dk
 dR
 dV
@@ -14512,6 +14518,7 @@ Word
 Work
 Water
 Whitespaces
+Watt
 Ötl
 ÖC
 Öm

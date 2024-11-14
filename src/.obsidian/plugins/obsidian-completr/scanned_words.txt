@@ -627,6 +627,10 @@ Installation
 International
 Initial
 Intensity
+Impersonation
+Imitation
+Impersonates
+Implement
 pHYs
 pt
 pu
@@ -1012,6 +1016,11 @@ problems
 parallelogram
 perpendicular
 plane
+phishing
+personalized
+payments
+preventive
+patches
 sbf
 sPv
 sC
@@ -1425,6 +1434,16 @@ scalar
 shortest
 straight
 subtract
+sense
+spear
+senior
+scams
+send
+spam
+safeguard
+suspicious
+sites
+staying
 ff
 fP
 fj
@@ -1735,6 +1754,9 @@ final
 flies
 formed
 fields
+fraudulent
+filters
+falling
 yq
 yh
 yS
@@ -2364,6 +2386,8 @@ warranties
 whitespaces
 writing
 west
+worded
+whales
 BU
 Bh
 BC
@@ -2649,6 +2673,9 @@ Bring
 BCD
 Baidu
 British
+BEC
+Back
+Block
 MC
 Ml
 MW
@@ -3221,6 +3248,8 @@ Length
 LHS
 Linear
 Let
+Looking
+Links
 al
 aj
 ar
@@ -3609,6 +3638,12 @@ angle
 axis
 adjacent
 airplane
+attacker
+appears
+aimed
+attachment
+accidental
+adopting
 Te
 Tn
 TA
@@ -3886,6 +3921,8 @@ Temporary
 Terameter
 Thus
 Torque
+Tactics
+Targets
 uj
 uq
 uXm
@@ -4130,6 +4167,8 @@ usable
 upon
 utilizing
 universe
+urgency
+urging
 OB
 Ox
 ONynT
@@ -4401,6 +4440,8 @@ Occur
 Objective
 Often
 Oversee
+Organizations
+Outlook
 Uc
 Ue
 UXk
@@ -4653,6 +4694,8 @@ Unique
 Unicode
 Uppercase
 UTF
+Urgency
+Unreliable
 ra
 rO
 rV
@@ -4970,6 +5013,10 @@ resultant
 resolve
 relative
 resolving
+reply
+ranking
+replica
+ransomware
 eiO
 es
 ee
@@ -5322,6 +5369,10 @@ equation
 especially
 east
 expands
+entity
+executives
+executive
+emails
 GO
 GQ
 Gk
@@ -5930,6 +5981,8 @@ Energy
 Equation
 Expanding
 Equating
+Ensure
+Educate
 Sal
 SQ
 SB
@@ -6297,6 +6350,10 @@ Setting
 Substituting
 Sine
 Simplifying
+Spear
+Snowshoeing
+Spam
+Suite
 iH
 ic
 iP
@@ -6618,6 +6675,8 @@ initializes
 involved
 initial
 involve
+impersonates
+impersonating
 tWA
 tW
 tM
@@ -6923,6 +6982,9 @@ triangle
 tail
 theorem
 trigonometry
+tactic
+title
+trick
 nm
 nv
 nhuK
@@ -7449,6 +7511,7 @@ Fundamental
 Formula
 Finding
 Finally
+Fake
 xi
 xpF
 xwG
@@ -8098,6 +8161,9 @@ building
 blocks
 body
 break
+branding
+believability
+bypassing
 Nb
 NJu
 Nbsa
@@ -8628,6 +8694,8 @@ libraries
 located
 lab
 linear
+logos
+links
 Rc
 Rt
 RO
@@ -8928,6 +8996,7 @@ Rightarrow
 Rearranging
 Radius
 Representation
+Regularly
 Zt
 ZB
 Zb
@@ -9667,6 +9736,8 @@ Dimension
 Dependency
 Displacement
 Direction
+Deception
+Don
 ohQ
 oL
 ob
@@ -9927,6 +9998,7 @@ outlet
 option
 opposite
 origin
+obtain
 mipte
 mRT
 mX
@@ -10639,6 +10711,10 @@ Constant
 Cosine
 City
 Coefficient
+Chase
+Compromise
+Clone
+Click
 vb
 vO
 vvF
@@ -10886,6 +10962,14 @@ violating
 velocity
 vector
 vectors
+victims
+victim
+vendors
+voicemail
+volumes
+verification
+visits
+vigilant
 ck
 cr
 ce
@@ -11338,6 +11422,9 @@ cosine
 cross
 calculate
 computed
+complete
+corporate
+clicking
 Hu
 Hg
 HiL
@@ -12320,6 +12407,8 @@ generate
 gravitational
 gravity
 galaxies
+gathers
+grammatically
 KUYX
 KX
 KK
@@ -12916,6 +13005,7 @@ YYi
 YZZZZZ
 YTT
 Your
+Yourself
 VLt
 Vfa
 Vr
@@ -13159,6 +13249,7 @@ Verifying
 Vector
 Volumetric
 Viscosity
+Vishing
 dk
 dR
 dV
@@ -13496,6 +13587,9 @@ denoted
 dealing
 determinant
 described
+directed
+domains
+downloading
 AK
 AQ
 Aya
@@ -13851,6 +13945,9 @@ Acceleration
 According
 Angular
 Angle
+Address
+Attackers
+Attachments
 Jw
 Jg
 JT
@@ -14519,6 +14616,8 @@ Work
 Water
 Whitespaces
 Watt
+Websites
+Whaling
 Ötl
 ÖC
 Öm

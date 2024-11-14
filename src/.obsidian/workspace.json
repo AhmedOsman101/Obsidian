@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Physics/Sections/SectionTwo.md",
+                "file": "College/IntroToCyberSecurity/Lectures/LectureFive.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SectionTwo"
+              "title": "LectureFive"
             }
           }
         ]
@@ -140,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/Physics/Sections/SectionTwo.md"
+                "file": "College/IntroToCyberSecurity/Lectures/LectureFive.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of SectionTwo"
+              "title": "Outline of LectureFive"
             }
           },
           {
@@ -179,8 +179,10 @@
   },
   "active": "96801f91eaaaf8d2",
   "lastOpenFiles": [
-    "College/Physics/Lectures/LectureOne.md",
+    "College/IntroToCyberSecurity/Lectures/LectureFour.md",
+    "College/IntroToCyberSecurity/Lectures/LectureFive.md",
     "College/Physics/Sections/SectionTwo.md",
+    "College/Physics/Lectures/LectureOne.md",
     "College/Physics/Sections/SectionOne.md",
     "College/Physics/Sections/index.md",
     "College/Physics/Sections",
@@ -209,8 +211,6 @@
     "College/IntroToCyberSecurity/Lectures/LectureTwo.md",
     "College/IntroToCyberSecurity/Lectures/LectureThree.md",
     "College/IntroToCyberSecurity/Lectures/LectureOne.md",
-    "College/IntroToCyberSecurity/Lectures/LectureFour.md",
-    "College/IntroToCyberSecurity/Lectures/index.md",
     "College/IntroToCyberSecurity/Lectures",
     "public/favicon.ico",
     "public",

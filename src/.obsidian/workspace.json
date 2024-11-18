@@ -222,8 +222,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,7 +235,8 @@
       "markdown-importer:Open format converter": false,
       "publish:Publish changes...": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-importer:Open Importer": false
+      "obsidian-importer:Open Importer": false,
+      "obsidian-tts:Text to Speech": false
     }
   },
   "active": "96801f91eaaaf8d2",

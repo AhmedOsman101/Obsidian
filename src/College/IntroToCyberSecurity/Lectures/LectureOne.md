@@ -26,7 +26,7 @@ In the **1970s**, cybersecurity emerged with the creation of the **Creeper** pro
 
 #### 1980s: Birth of the commercial antivirus
 
-In **1987**, commercial antivirus software emerged with several competing claims for the first product. **Andreas Lüning** and **Kai Figge** developed an antivirus for the **Atari ST**, along with the release of **Ultimate Virus Killer**. Meanwhile, three **Czechoslovakians** introduced the first version of the **NOD antivirus**. In the **US**, **John McAfee founded McAfee** and **launched VirusScan**, marking a significant step in the evolution of cybersecurity.
+In **1987**, commercial antivirus software emerged with several competing claims for the first product. **Andreas Lüning** and **Kai Figge** developed an antivirus for the **Atari ST**, along with the release of **Ultimate Virus Killer**. Meanwhile, three **Czechoslovakians** introduced the first version of the **NOD antivirus**. In the **US**, **John McAfee founded McAfee Antivirus** and **launched VirusScan**, marking a significant step in the evolution of cybersecurity.
 
 #### 1990s: The world goes online
 

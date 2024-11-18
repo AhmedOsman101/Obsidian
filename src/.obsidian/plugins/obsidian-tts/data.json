@@ -1,0 +1,20 @@
+{
+  "defaultVoice": "speechSynthesis-Microsoft David - English (United States)",
+  "pitch": 1,
+  "rate": 1.2,
+  "volume": 1,
+  "speakLinks": false,
+  "speakFrontmatter": true,
+  "speakSyntax": false,
+  "speakTitle": false,
+  "speakCodeblocks": false,
+  "speakEmoji": false,
+  "speakComments": false,
+  "languageVoices": [],
+  "stopPlaybackWhenNoteChanges": false,
+  "services": {
+    "openai": {
+      "key": ""
+    }
+  }
+}

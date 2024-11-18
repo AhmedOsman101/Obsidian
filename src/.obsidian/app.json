@@ -47,5 +47,6 @@
     "pyc"
   ],
   "showLineNumber": false,
-  "focusNewTab": false
+  "focusNewTab": false,
+  "readableLineLength": false
 }

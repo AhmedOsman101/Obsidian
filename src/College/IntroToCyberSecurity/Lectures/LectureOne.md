@@ -20,7 +20,7 @@ Cybersecurity is the protection of information systems (hardware, software, and 
 
 ### The History of Cybersecurity
 
-#### 1970s: ARAPNET and the Creeper
+#### 1970s: ARPANET and the Creeper
 
 In the **1970s**, cybersecurity emerged with the creation of the **Creeper** program by **Bob Thomas**, which could move across **ARPANET**, leaving a trail behind. **Ray Tomlinson**, who **invented email**, **developed Reaper**, a program designed to chase and delete Creeper. Reaper became **the first example of antivirus software** and **the first self-replicating program**, marking it as **the first computer worm**.
 

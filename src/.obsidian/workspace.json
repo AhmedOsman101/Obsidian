@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "College/IntroToCyberSecurity/Lectures/LectureOne.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               },
@@ -222,8 +222,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,11 +240,11 @@
   },
   "active": "96801f91eaaaf8d2",
   "lastOpenFiles": [
+    "College/IntroToCyberSecurity/Lectures/LectureOne.md",
     "College/IntroToCyberSecurity/Lectures/LectureFive.md",
     "College/IntroToCyberSecurity/Lectures/LectureFour.md",
     "College/IntroToCyberSecurity/Lectures/LectureThree.md",
     "College/IntroToCyberSecurity/Lectures/LectureTwo.md",
-    "College/IntroToCyberSecurity/Lectures/LectureOne.md",
     "College/Physics/Sections/SectionTwo.md",
     "College/Physics/Lectures/LectureOne.md",
     "College/Physics/Sections/SectionOne.md",

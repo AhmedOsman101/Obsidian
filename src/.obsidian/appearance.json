@@ -4,7 +4,8 @@
   "cssTheme": "GitHub Theme",
   "theme": "obsidian",
   "enabledCssSnippets": [
-    "centerImage"
+    "centerImage",
+    "centerTable"
   ],
   "interfaceFontFamily": "Inter",
   "baseFontSize": 18

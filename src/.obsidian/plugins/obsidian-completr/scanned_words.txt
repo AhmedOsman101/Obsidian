@@ -320,6 +320,7 @@ Pendulum
 Products
 Product
 Pythagorean
+Preventing
 IHDR
 IDATx
 IO
@@ -631,6 +632,7 @@ Impersonation
 Imitation
 Impersonates
 Implement
+Issues
 pHYs
 pt
 pu
@@ -1021,6 +1023,8 @@ personalized
 payments
 preventive
 patches
+parsing
+phase
 sbf
 sPv
 sC
@@ -1444,6 +1448,7 @@ safeguard
 suspicious
 sites
 staying
+stem
 ff
 fP
 fj
@@ -1757,6 +1762,7 @@ fields
 fraudulent
 filters
 falling
+flaws
 yq
 yh
 yS
@@ -2676,6 +2682,8 @@ British
 BEC
 Back
 Block
+Bugs
+Boolean
 MC
 Ml
 MW
@@ -3251,6 +3259,7 @@ Let
 Looking
 Links
 LectureSix
+Logic
 al
 aj
 ar
@@ -3645,6 +3654,7 @@ aimed
 attachment
 accidental
 adopting
+adapt
 Te
 Tn
 TA
@@ -5374,6 +5384,8 @@ entity
 executives
 executive
 emails
+exception
+evaluate
 GO
 GQ
 Gk
@@ -7514,6 +7526,7 @@ Formula
 Finding
 Finally
 Fake
+Flaws
 xi
 xpF
 xwG
@@ -8166,6 +8179,7 @@ break
 branding
 believability
 bypassing
+begins
 Nb
 NJu
 Nbsa
@@ -10001,6 +10015,7 @@ option
 opposite
 origin
 obtain
+occurring
 mipte
 mRT
 mX
@@ -10717,6 +10732,8 @@ Chase
 Compromise
 Clone
 Click
+Corrected
+Conditions
 vb
 vO
 vvF
@@ -11427,6 +11444,8 @@ computed
 complete
 corporate
 clicking
+categorized
+context
 Hu
 Hg
 HiL
@@ -13592,6 +13611,8 @@ described
 directed
 domains
 downloading
+dependent
+despite
 AK
 AQ
 Aya

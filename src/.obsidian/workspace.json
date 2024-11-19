@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Physics/Lectures/LectureOne.md",
-                "mode": "preview",
+                "file": "College/Python/Lectures/LectureFour.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LectureOne"
+              "title": "LectureFour"
             }
           }
         ]
@@ -141,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/Physics/Lectures/LectureOne.md"
+                "file": "College/Python/Lectures/LectureFour.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of LectureOne"
+              "title": "Outline of LectureFour"
             }
           },
           {
@@ -182,13 +182,24 @@
   },
   "active": "6744ea9b171ee506",
   "lastOpenFiles": [
+    "College/Python/imgs/output3.png",
+    "College/Python/imgs/output2.png",
+    "College/Python/imgs/output1.png",
+    "College/Python/Lectures/LectureThree.md",
+    "College/Python/Lectures/LectureTwo.md",
+    "College/Python/Lectures/LectureFour.md",
+    "College/Python/Lectures/LectureOne.md",
+    "College/Python/Sections/SectionThreePartTwo.md",
+    "College/Python/Sections/SectionThreePartOne.md",
+    "College/Python/Sections/SectionTwo.md",
+    "College/Python/Sections/SectionOne.md",
+    "College/Physics/Lectures/LectureOne.md",
     "College/IntroToCyberSecurity/Lectures/LectureOne.md",
     "College/IntroToCyberSecurity/Lectures/LectureFive.md",
     "College/IntroToCyberSecurity/Lectures/LectureFour.md",
     "College/IntroToCyberSecurity/Lectures/LectureThree.md",
     "College/IntroToCyberSecurity/Lectures/LectureTwo.md",
     "College/Physics/Sections/SectionTwo.md",
-    "College/Physics/Lectures/LectureOne.md",
     "College/Physics/Sections/SectionOne.md",
     "College/Physics/Sections/index.md",
     "College/Physics/Sections",
@@ -199,21 +210,12 @@
     "College/IT-Essentials/Lectures/LectureTwo.md",
     "College/IT-Essentials/Sections/SectionOne.md",
     "College/IT-Essentials/Sections/SectionTwo.md",
-    "College/Python/Lectures/LectureOne.md",
-    "College/Python/Lectures/LectureTwo.md",
-    "College/Python/Lectures/LectureThree.md",
-    "College/Python/Sections/SectionThreePartTwo.md",
-    "College/Python/Sections/SectionThreePartOne.md",
-    "College/Python/Sections/SectionTwo.md",
     "College/Physics/VideoSummaries/Calculus_3_Intro_To_Vectors.md",
     "College/Physics/VideoSummaries/index.md",
     "College/Physics/VideoSummaries",
     "College/Physics/Untitled.md",
-    "College/Physics/Lectures/index.md",
-    "College/Physics/index.md",
     "College/Physics/Lectures",
     "College/Physics",
-    "College/IntroToCyberSecurity/index.md",
     "College/IntroToCyberSecurity/Lectures",
     "public/favicon.ico",
     "public",
@@ -225,8 +227,6 @@
     "College/IT-Essentials/imgs/vports2.png",
     "College/IT-Essentials/imgs/convertor.png",
     "College/IT-Essentials/imgs/inputs1.png",
-    "College/IT-Essentials/imgs/inputs4.png",
-    "College/IT-Essentials/imgs/inputs3.png",
-    "College/IT-Essentials/imgs/inputs2.png"
+    "College/IT-Essentials/imgs/inputs4.png"
   ]
 }

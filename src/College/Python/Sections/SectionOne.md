@@ -62,7 +62,7 @@ next:
   Examples:
 
 ```C++
-  int x = 20; // In C++ type declaration is mandatory
+int x = 20; // In C++ type declaration is mandatory
 ```
 
 ```Python

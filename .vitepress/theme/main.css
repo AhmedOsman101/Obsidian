@@ -14,9 +14,3 @@ img {
 img:hover {
   transform: scale(1.05);
 }
-
-/* Center tables */
-table {
-  margin-left: auto;
-  margin-right: auto;
-}

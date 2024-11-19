@@ -12,8 +12,3 @@ img {
 img:hover {
   transform: scale(1.05); /* Optional hover effect */
 }
-
-/* Ensures full-width for any image container */
-p img {
-  max-width: 100%;
-}

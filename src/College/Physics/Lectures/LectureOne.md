@@ -101,7 +101,7 @@ A **physical quantity** is any property of a material or system that can be meas
 | Pressure                 | Force / Area                   | $\frac{M}{L T^2}$   | Pascal (Pa) or $\frac{\text{N}}{\text{m}^2}$                                 |
 | Work or Energy           | Force × Distance               | $\frac{ML^2}{T^2}$  | Joule (J) or $\text{N} \cdot \text{m}$                                       |
 | Power                    | Work / Time                    | $\frac{ML^2}{T^3}$  | Watt (W) or $\text{kg} \cdot \frac{\text{m}^2}{\text{s}^3}$                  |
-| Intensity                | Energy / Time                  | $\frac{M}{T^3}$     | $\frac{\text{kg}}{\text{s}^3}$                                               |
+| Intensity                | Power / Area                   | $\frac{M}{T^3}$     | $\text{kg/s}^3$                                                              |
 | Velocity Gradient        | Velocity / Distance            | $T^{-1}$            | $\text{s}^{-1}$                                                              |
 | Volumetric Rate          | Volume / Time                  | $\frac{L^3}{T}$     | $\frac{\text{m}^3}{\text{s}}$                                                |
 | Momentum                 | Mass × Velocity                | $\frac{ML}{T}$      | $\text{kg} \cdot \frac{\text{m}}{\text{s}}$                                  |

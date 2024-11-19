@@ -85,9 +85,18 @@ print(float("-inf"))   # Output: -inf
 - **Complex Numbers** in Python have both real and imaginary parts, written as `a + bj`, where `j` represents the imaginary unit.
 
 ```python
-a = 5 + 2j
-print(a)               # Output: (5+2j)
-print(type(a))         # Output: <class 'complex'>
+# Define complex numbers 
+a = 8 + 3j
+b = 2 + 1j
+
+print(a)               # Output: (8+3j)
+print(type(b))         # Output: <class 'complex'>
+
+# Basic operations 
+addition = a + b # (10+4j)
+subtraction = b - a # (-6-2j)
+multiplication = a * b # (13+14j)
+division = a / b # (3.8-0.4j)
 ```
 
 ### Strings

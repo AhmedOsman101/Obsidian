@@ -13,16 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Python/Lectures/LectureFour.md",
+                "file": "College/Python/Sections/SectionOne.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SectionOne"
+            }
+          },
+          {
+            "id": "a7e9cb5c4ebb66a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "College/Python/Lectures/LectureTwo.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LectureFour"
+              "title": "LectureTwo"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5,
-    "collapsed": true
+    "width": 271.5
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -141,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/Python/Lectures/LectureFour.md"
+                "file": "College/Python/Lectures/LectureTwo.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of LectureFour"
+              "title": "Outline of LectureTwo"
             }
           },
           {
@@ -162,8 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,19 +194,19 @@
       "obsidian-tts:Text to Speech": false
     }
   },
-  "active": "6744ea9b171ee506",
+  "active": "a7e9cb5c4ebb66a2",
   "lastOpenFiles": [
+    "College/Python/Sections/SectionOne.md",
+    "College/Python/Lectures/LectureTwo.md",
+    "College/Python/Lectures/LectureOne.md",
+    "College/Python/Sections/SectionTwo.md",
+    "College/Python/Sections/SectionThreePartOne.md",
+    "College/Python/Sections/SectionThreePartTwo.md",
+    "College/Python/Lectures/LectureFour.md",
     "College/Python/imgs/output3.png",
     "College/Python/imgs/output2.png",
     "College/Python/imgs/output1.png",
     "College/Python/Lectures/LectureThree.md",
-    "College/Python/Lectures/LectureTwo.md",
-    "College/Python/Lectures/LectureFour.md",
-    "College/Python/Lectures/LectureOne.md",
-    "College/Python/Sections/SectionThreePartTwo.md",
-    "College/Python/Sections/SectionThreePartOne.md",
-    "College/Python/Sections/SectionTwo.md",
-    "College/Python/Sections/SectionOne.md",
     "College/Physics/Lectures/LectureOne.md",
     "College/IntroToCyberSecurity/Lectures/LectureOne.md",
     "College/IntroToCyberSecurity/Lectures/LectureFive.md",
@@ -226,7 +240,6 @@
     "College/IT-Essentials/imgs/vports.png",
     "College/IT-Essentials/imgs/vports2.png",
     "College/IT-Essentials/imgs/convertor.png",
-    "College/IT-Essentials/imgs/inputs1.png",
-    "College/IT-Essentials/imgs/inputs4.png"
+    "College/IT-Essentials/imgs/inputs1.png"
   ]
 }

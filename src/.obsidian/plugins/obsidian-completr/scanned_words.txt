@@ -2394,6 +2394,7 @@ writing
 west
 worded
 whales
+were
 BU
 Bh
 BC
@@ -4180,6 +4181,7 @@ utilizing
 universe
 urgency
 urging
+usage
 OB
 Ox
 ONynT
@@ -5028,6 +5030,8 @@ reply
 ranking
 replica
 ransomware
+resolves
+raises
 eiO
 es
 ee
@@ -5386,6 +5390,8 @@ executive
 emails
 exception
 evaluate
+extremely
+exist
 GO
 GQ
 Gk
@@ -5996,6 +6002,8 @@ Expanding
 Equating
 Ensure
 Educate
+Evaluating
+Evaluation
 Sal
 SQ
 SB
@@ -10989,6 +10997,7 @@ volumes
 verification
 visits
 vigilant
+versatile
 ck
 cr
 ce
@@ -13271,6 +13280,7 @@ Vector
 Volumetric
 Viscosity
 Vishing
+Various
 dk
 dR
 dV

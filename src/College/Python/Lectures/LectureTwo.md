@@ -129,6 +129,7 @@ print(str(81))         # Output: '81'
 print("P\nQ\nR")       # Outputs on new lines
 print("S\tU\tV")       # Outputs with tabs
 print("WX\bYZ")        # Removes the character before 'Y'
+print("\a")            # Starts an alert sound 'Beep'
 ```
 
 ### User Input

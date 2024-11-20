@@ -155,9 +155,9 @@ The `if-else` structure provides an alternative set of actions if the condition 
 
 ```python
 if condition:
-    statement1_here  # Executes if condition is True
+  statement1_here  # Executes if condition is True
 else:
-    statement2_here  # Executes if condition is False
+  statement2_here  # Executes if condition is False
 ```
 
 **Example**:
@@ -166,9 +166,9 @@ else:
 # Check if a number is positive or negative
 num = -3
 if num > 0:
-    print("The number is positive")
+  print("The number is positive")
 else:
-    print("The number is negative")
+  print("The number is negative")
 ```
 
 ### 3. Nested If Statements
@@ -184,15 +184,15 @@ b = 15
 c = 7
 
 if a > b:
-    if a > c:
-        print("a is the largest")
-    else:
-        print("c is the largest")
+  if a > c:
+    print("a is the largest")
+  else:
+    print("c is the largest")
 else:
-    if b > c:
-        print("b is the largest")
-    else:
-        print("c is the largest")
+  if b > c:
+    print("b is the largest")
+  else:
+    print("c is the largest")
 ```
 
 ## Algorithm to Find the Largest of Three Numbers

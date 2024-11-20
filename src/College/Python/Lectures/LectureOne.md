@@ -10,7 +10,7 @@ next:
 # Programming Essentials in Python Lecture 1
 
 ## What is a Computer?
-- A computer is a device capable of performing computations and making logical decisions at speeds far exceeding human capabilities.
+- A computer is a device capable of performing computations and making logical decisions at speeds exceeding human capabilities.
 - **Example:** 
   - Personal computers perform hundreds of millions or billions of additions per second.
   - Supercomputers can handle hundreds of billions of additions per second.

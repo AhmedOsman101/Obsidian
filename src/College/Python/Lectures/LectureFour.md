@@ -82,7 +82,7 @@ A **syntax error** occurs when Python’s interpreter cannot translate a stateme
 ```python
 # SyntaxError: cannot assign to expression here. Maybe you meant '==' instead of '='?
 if x = 5:
-    print("Incorrect syntax!")  # Correct: Use '==' for comparison, not '=' for assignment.
+  print("Incorrect syntax!")  # Correct: Use '==' for comparison, not '=' for assignment.
 
 # SyntaxError: unexpected indent
     dividend = eval(input('Enter numbers to divide: '))  # Unexpected indent.

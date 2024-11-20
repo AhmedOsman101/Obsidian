@@ -125,15 +125,15 @@ x = 10
 y = 20
 
 # Print the unique IDs of x and y (different objects, different IDs)
-print("ID of x:", id(x)) # ID of x: 140496609954472
-print("ID of y:", id(y)) # ID of y: 140496609954792
+print("ID of x:", id(x)) # ID of x: 139681763248400
+print("ID of y:", id(y)) # ID of y: 139681763248720
 
 # Assign the same value to both a and b
 a = b = 30
 
 # Print the unique IDs of a and b (same object, same ID)
-print("ID of a:", id(x)) # ID of a after assignment: 140496609955112
-print("ID of b:", id(y)) # ID of b after assignment: 140496609955112
+print("ID of a:", id(a)) # ID of a after assignment: 139681763249040
+print("ID of b:", id(b)) # ID of b after assignment: 139681763249040
 ```
 
 **Key Points:**

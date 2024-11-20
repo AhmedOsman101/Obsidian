@@ -289,16 +289,16 @@ watch -d 1 <command> # Displays the output every 1 second.
 
 **File Types:**
 
-- Normal File -> `-`
-- Directory -> `d`
-- Character Special File -> `c`
-- Binary Special File -> `b`
+- Normal File => `-`
+- Directory => `d`
+- Character Special File => `c`
+- Binary Special File => `b`
 
 **File Permissions:**
 
-- Read -> `r`
-- Write -> `w`
-- Execute -> `x`
+- Read => `r`
+- Write => `w`
+- Execute => `x`
 
 **Format:**
 
@@ -306,7 +306,7 @@ watch -d 1 <command> # Displays the output every 1 second.
 
 **Example:**
 
-- `-rwx-rw-r--` -> File with read/write/execute permissions for the user, read/write for the group and read-only for other's.
+- `-rwx-rw-r--` => File with read/write/execute permissions for the user, read/write for the group and read-only for other's.
 
 **Numeric Format:**
 

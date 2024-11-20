@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/IT-Essentials/Sections/SectionThree.md",
+                "file": "College/IT-Essentials/Lectures/LectureOne.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SectionThree"
+              "title": "LectureOne"
             }
           }
         ]
@@ -141,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/IT-Essentials/Sections/SectionThree.md"
+                "file": "College/IT-Essentials/Lectures/LectureOne.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of SectionThree"
+              "title": "Outline of LectureOne"
             }
           },
           {
@@ -181,13 +181,18 @@
   },
   "active": "580d43117d8c2b0d",
   "lastOpenFiles": [
+    "College/IT-Essentials/imgs/Cases.png",
+    "College/IT-Essentials/Lectures/LectureOne.md",
+    "College/IT-Essentials/imgs/Cases.png",
+    "College/IT-Essentials/Lectures/LectureFour.md",
+    "College/IT-Essentials/Lectures/LectureThree.md",
+    "College/IT-Essentials/Lectures/LectureTwo.md",
+    "College/IT-Essentials/Sections/SectionThree.md",
     "College/IT-Essentials/Sections/SectionTwo.md",
     "College/IT-Essentials/Sections/SectionOne.md",
-    "College/IT-Essentials/Sections/SectionThree.md",
     "College/Python/Sections/SectionThreePartTwo.md",
     "College/IT-Essentials/index.md",
     "College/IT-Essentials/Sections/index.md",
-    "College/IT-Essentials/Lectures/LectureFour.md",
     "Courses/LinuxCrashCourse.md",
     "College/Python/Lectures/LectureFour.md",
     "College/Python/Lectures/LectureThree.md",
@@ -207,13 +212,9 @@
     "College/IntroToCyberSecurity/Lectures/LectureFour.md",
     "College/IntroToCyberSecurity/Lectures/LectureThree.md",
     "College/IntroToCyberSecurity/Lectures/LectureTwo.md",
-    "College/Physics/Sections/SectionTwo.md",
-    "College/Physics/Sections/SectionOne.md",
-    "College/Physics/Sections/index.md",
     "College/Physics/Sections",
     "College/Physics/imgs",
     "College/Physics/imgs/vectors-1.png",
-    "College/IT-Essentials/Lectures/LectureThree.md",
     "College/Physics/VideoSummaries",
     "College/Physics/Lectures",
     "College/Physics",
@@ -225,7 +226,6 @@
     "College/IntroToCyberSecurity/imgs/CIA.png",
     "College/Physics/imgs/vectors-1.png",
     "College/IT-Essentials/imgs/vports.png",
-    "College/IT-Essentials/imgs/vports2.png",
-    "College/IT-Essentials/imgs/convertor.png"
+    "College/IT-Essentials/imgs/vports2.png"
   ]
 }

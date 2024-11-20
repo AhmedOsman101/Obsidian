@@ -84,7 +84,7 @@ flowchart LR
 
 ```
 
-### Flowchart Example for Decision-Making Using Mermaid
+### Flowchart Example for Decision-Making
 
 ```mermaid
 flowchart TD

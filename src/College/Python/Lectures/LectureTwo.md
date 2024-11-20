@@ -22,7 +22,8 @@ x = 10
 print(type(x))  # Output: <class 'int'>
 ```
 
-- **Integer Literals**: Integers can be represented in binary, octal, and hexadecimal forms:
+### Integer Literals
+- Integers can be represented in binary, octal, and hexadecimal forms:
     - Binary: Prefix `0b`
     - Octal: Prefix `0o`
     - Hexadecimal: Prefix `0x`
@@ -59,7 +60,7 @@ print(type(z))         # Output: <class 'float'>
 print(3e3)             # Output: 3000.0
 ```
 
-- **Scientific Notation**: Floats can represent very large or small numbers using scientific notation (e.g., `1e-5` represents \(1 \times 10^{-5}\)).
+- **Scientific Notation**: Floats can represent very large or small numbers using scientific notation (e.g., `1e-5` represents $1 \times 10^{-5}$).
 
 ```python
 x = 6.022e23
@@ -93,10 +94,10 @@ print(a)               # Output: (8+3j)
 print(type(b))         # Output: <class 'complex'>
 
 # Basic operations 
-addition = a + b # (10+4j)
-subtraction = b - a # (-6-2j)
+addition = a + b       # (10+4j)
+subtraction = b - a    # (-6-2j)
 multiplication = a * b # (13+14j)
-division = a / b # (3.8-0.4j)
+division = a / b       # (3.8-0.4j)
 ```
 
 ### Strings

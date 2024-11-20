@@ -66,6 +66,7 @@ type(type(5)) # => <class 'type'>
 ## All objects has a string representation
 str(10) # => "10"
 int("10") # => 10
+int(3.9) # => 3
 float("3.5") # => 3.5
 float("2") # => 2.0
 ```

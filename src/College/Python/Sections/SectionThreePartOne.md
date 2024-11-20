@@ -100,7 +100,7 @@ Bitwise operators perform operations at the binary level on integers.
 | 1   | 1   | 1      |
 
 3. **Bitwise XOR (`^`)**
-   Returns 1 only if one of the bits is 1 (not both).
+   Returns 1 only if one of the bits is 1 (similar = False, different = True).
 
 | a   | b   | a ^ b |
 | --- | --- | ----- |

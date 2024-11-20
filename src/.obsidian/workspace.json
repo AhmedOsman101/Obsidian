@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "College/Python/Sections/SectionThreePartOne.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
@@ -179,7 +179,7 @@
       "obsidian-tts:Text to Speech": false
     }
   },
-  "active": "6744ea9b171ee506",
+  "active": "6cd0bc19bba807e1",
   "lastOpenFiles": [
     "College/Python/Sections/SectionTwo.md",
     "College/Python/imgs/editors_upscayl_4x_realesrgan-x4plus.png",

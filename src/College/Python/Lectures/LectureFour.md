@@ -123,16 +123,16 @@ print(dividend, '/', divisor, "=", dividend / divisor)
 dividend = eval(input('Enter first number to divide: '))
 divisor = eval(input('Enter second number to divide: '))
 if divisor != 0:
-    print(dividend, '/', divisor, "=", dividend / divisor)
+  print(dividend, '/', divisor, "=", dividend / divisor)
 else:
-    print("Error: Division by zero is not allowed.")
+  print("Error: Division by zero is not allowed.")
 ```
 
 ---
 
 ### Logic Errors
 
-A **logic error** occurs when the program runs without crashing but produces incorrect results. These errors stem from flaws in the algorithm or code logic.
+A **logic error** occurs when the program **runs without crashing** but produces **incorrect results**. These errors stem from flaws in the algorithm or code logic.
 
 #### Example of a Logic Error
 

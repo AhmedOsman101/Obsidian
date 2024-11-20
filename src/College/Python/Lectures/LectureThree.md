@@ -189,7 +189,7 @@ Operator precedence determines the order in which operations are performed in an
 |            | `>>`, `<<`                       | Bitwise left and right shifts                     |
 |            | `&`                              | Bitwise AND                                       |
 |            | `^`                              | Bitwise XOR                                       |
-|            | \|                               | Bitwise OR                                        |
+|            | `\|`                             | Bitwise OR                                        |
 |            | `==`, `!=`, `>`, `>=`, `<`, `<=` | Comparisons, identity, and membership operators   |
 |            | `not`                            | Logical NOT                                       |
 |            | `and`                            | Logical AND                                       |

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Python/Sections/SectionThreePartOne.md",
+                "file": "College/Python/Sections/SectionThreePartTwo.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SectionThreePartOne"
+              "title": "SectionThreePartTwo"
             }
           }
         ]
@@ -141,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/Python/Sections/SectionThreePartOne.md"
+                "file": "College/Python/Sections/SectionThreePartTwo.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of SectionThreePartOne"
+              "title": "Outline of SectionThreePartTwo"
             }
           },
           {
@@ -181,6 +181,7 @@
   },
   "active": "6744ea9b171ee506",
   "lastOpenFiles": [
+    "College/Python/Sections/SectionThreePartOne.md",
     "College/Python/Sections/SectionTwo.md",
     "College/Python/imgs/editors_upscayl_4x_realesrgan-x4plus.png",
     "College/Python/Sections/SectionOne.md",
@@ -188,7 +189,6 @@
     "College/Python/Lectures/LectureThree.md",
     "College/Python/Lectures/LectureTwo.md",
     "College/Python/Lectures/LectureOne.md",
-    "College/Python/Sections/SectionThreePartOne.md",
     "College/Python/Sections/SectionThreePartTwo.md",
     "College/Python/imgs/output3.png",
     "College/Python/imgs/output2.png",

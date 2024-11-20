@@ -15,7 +15,7 @@ Flowcharts use various symbols to visually represent the structure of algorithms
 
 ### 1. Oval
 
-- **Function**: Used to indicate the `START` or `STOP` of the program.
+- **Function**: Used to indicate the `START` or `END` of the program.
 
 ```mermaid
 ---

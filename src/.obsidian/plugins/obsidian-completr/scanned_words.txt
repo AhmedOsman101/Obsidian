@@ -1449,6 +1449,7 @@ suspicious
 sites
 staying
 stem
+starting
 ff
 fP
 fj
@@ -2685,6 +2686,7 @@ Back
 Block
 Bugs
 Boolean
+Bonus
 MC
 Ml
 MW
@@ -2973,6 +2975,7 @@ Momentum
 Matching
 Magnitude
 Mathematically
+Middle
 Lj
 Lf
 LvVa
@@ -3261,6 +3264,8 @@ Looking
 Links
 LectureSix
 Logic
+Languages
+Low
 al
 aj
 ar
@@ -5032,6 +5037,9 @@ replica
 ransomware
 resolves
 raises
+recording
+record
+raised
 eiO
 es
 ee
@@ -6004,6 +6012,7 @@ Ensure
 Educate
 Evaluating
 Evaluation
+Exercises
 Sal
 SQ
 SB
@@ -7007,6 +7016,7 @@ trigonometry
 tactic
 title
 trick
+ten
 nm
 nv
 nhuK
@@ -7535,6 +7545,7 @@ Finding
 Finally
 Fake
 Flaws
+FFFF
 xi
 xpF
 xwG
@@ -8188,6 +8199,7 @@ branding
 believability
 bypassing
 begins
+balance
 Nb
 NJu
 Nbsa
@@ -8720,6 +8732,7 @@ lab
 linear
 logos
 links
+lowest
 Rc
 Rt
 RO
@@ -10742,6 +10755,7 @@ Clone
 Click
 Corrected
 Conditions
+Contains
 vb
 vO
 vvF
@@ -11455,6 +11469,8 @@ corporate
 clicking
 categorized
 context
+closer
+compact
 Hu
 Hg
 HiL
@@ -11999,6 +12015,8 @@ hundreds
 handle
 highlighting
 holes
+humans
+historically
 Xi
 XZ
 Xn

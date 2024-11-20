@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "612e84918d942aa2",
+        "id": "5fcdaee64cb16a04",
         "type": "tabs",
         "children": [
           {
-            "id": "1a5e7940d53ed7ee",
+            "id": "580d43117d8c2b0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -179,13 +179,14 @@
       "obsidian-tts:Text to Speech": false
     }
   },
-  "active": "6cd0bc19bba807e1",
+  "active": "580d43117d8c2b0d",
   "lastOpenFiles": [
+    "College/Python/Sections/SectionThreePartTwo.md",
+    "College/IT-Essentials/Sections/SectionThree.md",
     "College/IT-Essentials/Sections/SectionTwo.md",
     "College/IT-Essentials/Sections/SectionOne.md",
     "College/IT-Essentials/index.md",
     "College/IT-Essentials/Sections/index.md",
-    "College/IT-Essentials/Sections/SectionThree.md",
     "College/IT-Essentials/Lectures/LectureFour.md",
     "Courses/LinuxCrashCourse.md",
     "College/Python/Lectures/LectureFour.md",
@@ -193,7 +194,6 @@
     "College/Python/Lectures/LectureTwo.md",
     "College/Python/Lectures/LectureOne.md",
     "College/Python/Lectures/index.md",
-    "College/Python/Sections/SectionThreePartTwo.md",
     "College/Python/Sections/SectionThreePartOne.md",
     "College/Python/Sections/SectionTwo.md",
     "College/Python/imgs/editors_upscayl_4x_realesrgan-x4plus.png",

@@ -1,6 +1,14 @@
+@import url("inter.css");
+
 :root {
-  --vp-font-family-base: Inter, Arial;
+  --vp-font-family-base: "Inter", Arial;
   --vp-font-family-mono: JetBrainsMonoNerdFontMono, monospace;
+}
+
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: "Inter var", sans-serif;
+  }
 }
 
 .mermaid {

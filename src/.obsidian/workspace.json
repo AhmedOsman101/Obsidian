@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5fcdaee64cb16a04",
+        "id": "d21522db4332e574",
         "type": "tabs",
         "children": [
           {
-            "id": "580d43117d8c2b0d",
+            "id": "d12505b98609406f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -162,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,20 +180,22 @@
       "obsidian-tts:Text to Speech": false
     }
   },
-  "active": "580d43117d8c2b0d",
+  "active": "d12505b98609406f",
   "lastOpenFiles": [
+    "College/IT-Essentials/imgs/PSU.png",
+    "College/IT-Essentials/imgs/adapterCards.png",
+    "College/IT-Essentials/imgs/SATA.png",
+    "College/IT-Essentials/imgs/upscayl_png_ultramix_balanced_2x/PSU.png",
+    "College/IT-Essentials/imgs/upscayl_png_ultramix_balanced_2x/adapterCards.png",
+    "College/IT-Essentials/imgs/upscayl_png_ultramix_balanced_2x/SATA.png",
+    "College/IT-Essentials/imgs/upscayl_png_ultramix_balanced_2x",
+    "index.md",
+    "College/IT-Essentials/Lectures/LectureOne.md",
     "College/IT-Essentials/imgs/vports.png",
     "College/IT-Essentials/imgs/tape-floppy.png",
     "College/IT-Essentials/imgs/ssd.png",
-    "College/IT-Essentials/imgs/SATA.png",
     "College/IT-Essentials/imgs/rom.png",
     "College/IT-Essentials/imgs/ram2.png",
-    "College/IT-Essentials/imgs/ram1.png",
-    "College/IT-Essentials/imgs/ram.png",
-    "College/IT-Essentials/imgs/PSU.png",
-    "College/IT-Essentials/imgs/ports.png",
-    "College/IT-Essentials/imgs/motherboardForms.png",
-    "College/IT-Essentials/Lectures/LectureOne.md",
     "College/IT-Essentials/imgs/upscayl_png_ultramix_balanced_3x",
     "College/IT-Essentials/Lectures/LectureFour.md",
     "College/IT-Essentials/Lectures/LectureThree.md",
@@ -217,7 +220,6 @@
     "College/IntroToCyberSecurity/Lectures/LectureFive.md",
     "College/IntroToCyberSecurity/Lectures/LectureFour.md",
     "College/IntroToCyberSecurity/Lectures/LectureThree.md",
-    "College/IntroToCyberSecurity/Lectures/LectureTwo.md",
     "College/Physics/Sections",
     "College/Physics/imgs",
     "College/Physics/VideoSummaries",
@@ -225,7 +227,6 @@
     "College/Physics",
     "College/IntroToCyberSecurity/Lectures",
     "public/favicon.ico",
-    "public",
-    "enhanceApp.ts"
+    "public"
   ]
 }

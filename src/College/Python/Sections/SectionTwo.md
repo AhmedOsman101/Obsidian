@@ -14,7 +14,7 @@ next:
 The general rules for naming variables (identifiers) in Python are:
 
 1. **Unique Names**: Python variables must be identified with unique names.
-2. **Allowed Characters**: Names can contain letters, digits, and underscores `_`.
+2. **Allowed Characters**: Names can contain letters, digits, and underscores `_` **only**.
 3. **Starting Character**: Names must begin with a letter or an underscore `_`.
 4. **Case Sensitivity**: Names are case-sensitive (e.g., `myVar` and `myvar` are different variables).
 5. **No Whitespaces or Special Characters**: Names cannot contain whitespaces or special characters like `!`, `#`, `%`, `$`, etc.

@@ -61,7 +61,7 @@ next:
   Many programming languages need to declare the type of the variable before runtime like C++ and Java.
   Examples:
 
-```c++
+```C++
 int x = 20; // In C++ type declaration is mandatory
 ```
 

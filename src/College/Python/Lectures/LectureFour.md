@@ -106,7 +106,6 @@ A **runtime error** (or exception) occurs while the program is executing. These 
 # NameError: Using a variable that hasn't been defined
 x = N + 2  # Variable 'N' is not defined.
 # Output:
-# Traceback (most recent call last):
 # NameError: name 'N' is not defined
 
 # ZeroDivisionError: Division by zero
@@ -114,7 +113,6 @@ dividend = eval(input('Enter first number to divide: '))  # Example input: 40
 divisor = eval(input('Enter second number to divide: '))  # Example input: 0
 print(dividend, '/', divisor, "=", dividend / divisor)
 # Output:
-# Traceback (most recent call last):
 # ZeroDivisionError: division by zero
 ```
 

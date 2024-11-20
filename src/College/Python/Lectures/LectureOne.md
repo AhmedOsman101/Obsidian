@@ -30,7 +30,7 @@ next:
 - **Software Engineers:** Apply engineering principles to build scalable, problem-solving software.
 - **Software Developers:** Oversee specific project areas, manage teams, and handle the software development lifecycle.
 
-**Software Development Life Cycle (SDLC):**
+### Software Development Life Cycle (SDLC):
 1. Requirements Analysis
 2. Design & Development
 3. Testing

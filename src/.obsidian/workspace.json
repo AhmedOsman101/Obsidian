@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Python/Lectures/index.md",
-                "mode": "source",
+                "file": "College/Python/Lectures/LectureOne.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "LectureOne"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 271.5,
+    "collapsed": true
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -140,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/Python/Lectures/index.md"
+                "file": "College/Python/Lectures/LectureOne.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of LectureOne"
             }
           },
           {
@@ -178,10 +179,10 @@
       "obsidian-tts:Text to Speech": false
     }
   },
-  "active": "6744ea9b171ee506",
+  "active": "6cd0bc19bba807e1",
   "lastOpenFiles": [
-    "College/Python/Lectures/LectureFour.md",
     "College/Python/Lectures/index.md",
+    "College/Python/Lectures/LectureFour.md",
     "College/Python/Lectures/LectureOne.md",
     "College/Python/Sections/SectionThreePartTwo.md",
     "College/Python/Sections/SectionThreePartOne.md",

@@ -181,13 +181,14 @@ a = 10
 b = 20
 
 average = a + b / 2  # Wrong operation order
-print("Average:", average)  # Incorrect result
+print("Average:", average)  # Incorrect result (20)
 ```
 
 To fix, use parentheses:
 
 ```python
-average = (a + b) / 2  # Correct order
+average = (a + b) / 2  # Correct operation order
+print("Average:", average)  # Correct result (15)
 ```
 
 Logical errors often arise from incorrect operation orders like this.

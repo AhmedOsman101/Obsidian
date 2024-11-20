@@ -155,7 +155,7 @@ Bitwise operators compare the binary representations of integers.
 | Operator | Name        | Description                                | Example  |
 | -------- | ----------- | ------------------------------------------ | -------- |
 | `&`      | AND         | Sets each bit to 1 if both bits are 1      | `x & y`  |
-| \|       | OR          | Sets each bit to 1 if one of two bits is 1 | x \| y   |
+| `\|`     | OR          | Sets each bit to 1 if one of two bits is 1 | x \| y   |
 | `^`      | XOR         | Sets each bit to 1 if only one bit is 1    | `x ^ y`  |
 | `~`      | NOT         | Inverts all the bits                       | `~x`     |
 | `<<`     | Left Shift  | Shifts bits left, filling with zeros       | `x << 2` |

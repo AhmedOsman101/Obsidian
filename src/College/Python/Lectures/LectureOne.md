@@ -38,7 +38,7 @@ next:
 5. Maintenance & Support
 
 ## Python Language
-- **Python** is a popular, high-level programming language created by Guido van Rossum in 1991.
+- **Python** is a popular, high-level programming language created by **Guido van Rossum** in **1991**.
 - Known for ease of learning and rich libraries, Python is used across platforms and supports object-oriented programming.
 
 **Common Uses for Python:**

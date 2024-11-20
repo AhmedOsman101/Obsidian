@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "College/Python/Lectures/LectureOne.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               },
@@ -179,7 +179,7 @@
       "obsidian-tts:Text to Speech": false
     }
   },
-  "active": "6cd0bc19bba807e1",
+  "active": "6744ea9b171ee506",
   "lastOpenFiles": [
     "College/Python/Lectures/index.md",
     "College/Python/Lectures/LectureFour.md",

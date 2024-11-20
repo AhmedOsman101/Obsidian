@@ -37,7 +37,7 @@ print("""hello my students ""'+ " "+x+" "+y)
 ## 3. What will be the output of the following code snippet?
 
 ```Python
-print(2**3 + (5 + 6) ** (1 + 1)) # 8 + 11**2 = 8 + 121 + 129
+print(2**3 + (5 + 6) ** (1 + 1)) # 8 + 11**2 = 8 + 121 = 129
 ```
 
 <mark> A) 129 </mark>

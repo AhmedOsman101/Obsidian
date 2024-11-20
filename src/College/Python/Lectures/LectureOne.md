@@ -44,7 +44,7 @@ next:
 **Common Uses for Python:**
 - Software & Web Development
 - Data Science & Machine Learning
-- System Scripting
+- System Scripting & Automation
 - Cybersecurity & Ethical Hacking
 
 **Advantages of Python:**

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Python/Lectures/LectureOne.md",
+                "file": "College/Python/Lectures/LectureTwo.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LectureOne"
+              "title": "LectureTwo"
             }
           }
         ]
@@ -141,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/Python/Lectures/LectureOne.md"
+                "file": "College/Python/Lectures/LectureTwo.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of LectureOne"
+              "title": "Outline of LectureTwo"
             }
           },
           {
@@ -182,9 +182,9 @@
   },
   "active": "6744ea9b171ee506",
   "lastOpenFiles": [
+    "College/Python/Lectures/LectureOne.md",
     "College/Python/Lectures/index.md",
     "College/Python/Lectures/LectureFour.md",
-    "College/Python/Lectures/LectureOne.md",
     "College/Python/Sections/SectionThreePartTwo.md",
     "College/Python/Sections/SectionThreePartOne.md",
     "College/Python/Sections/SectionTwo.md",

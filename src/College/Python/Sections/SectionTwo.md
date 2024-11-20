@@ -96,7 +96,7 @@ To solve this, you can **convert** the input to the appropriate data type (e.g.,
 
 # First method:
 # Take the input as a string, then convert it to a float
-monthly_salary = float(input("How much do you make in a month? "))
+monthly_salary = input("How much do you make in a month? ")
 monthly_salary = float(monthly_salary)
 
 # Second method:

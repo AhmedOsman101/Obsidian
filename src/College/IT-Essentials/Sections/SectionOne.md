@@ -7,9 +7,9 @@ next:
   link: "/College/IT-Essentials/Sections/SectionTwo"
 ---
 
-# IT-Essentials Lab 1: Computer and Computer Language
+# IT-Essentials Lab 1: Computer Basics
 
-## Computer Basics: Software & Hardware
+## Software & Hardware
 
 ### Hardware
 

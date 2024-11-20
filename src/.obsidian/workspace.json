@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/IT-Essentials/Sections/SectionOne.md",
+                "file": "College/IT-Essentials/Sections/SectionTwo.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SectionOne"
+              "title": "SectionTwo"
             }
           }
         ]
@@ -141,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/IT-Essentials/Sections/SectionOne.md"
+                "file": "College/IT-Essentials/Sections/SectionTwo.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of SectionOne"
+              "title": "Outline of SectionTwo"
             }
           },
           {
@@ -181,9 +181,9 @@
   },
   "active": "580d43117d8c2b0d",
   "lastOpenFiles": [
+    "College/IT-Essentials/Sections/SectionOne.md",
     "College/IT-Essentials/Sections/SectionThree.md",
     "College/IT-Essentials/Sections/SectionTwo.md",
-    "College/IT-Essentials/Sections/SectionOne.md",
     "College/Python/Sections/SectionThreePartTwo.md",
     "College/IT-Essentials/index.md",
     "College/IT-Essentials/Sections/index.md",

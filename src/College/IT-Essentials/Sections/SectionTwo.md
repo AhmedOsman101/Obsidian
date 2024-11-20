@@ -21,7 +21,7 @@ The motherboard is the computer's main circuit board. It includes several essent
 - **Random Access Memory (RAM)**: Temporary memory for active tasks.
 - **Read Only Memory (ROM)**: Stores permanent data for system functions.
 - **Cooling Components**:
-  - **Fans**: Dissipate heat from the motherboard.
+  - **Fans**: Release the heat from the motherboard.
   - **Heat Sink**: Draws heat away from the CPU.
 - **Expansion Slots**: For additional hardware.
 - **Chipset**: Controls communication between CPU, memory, and peripherals.
@@ -32,7 +32,7 @@ BIOS is firmware that initializes hardware during the boot process (power-on sta
 
 ## Cooling System
 
-- **Heat Sink**: Directly attached to the CPU to absorb and dissipate heat.
+- **Heat Sink**: Directly attached to the CPU to absorb and release the heat.
 - **Fan**: Mounted above the heat sink to further cool down the CPU.
 
 ## CPU (Central Processing Unit)

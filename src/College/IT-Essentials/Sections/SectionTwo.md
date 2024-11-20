@@ -3,16 +3,15 @@ prev:
   text: "Section One"
   link: "/College/IT-Essentials/Sections/SectionOne"
 next:
-  false
-  # text: 'Section Three'
-  # link: '/College/IT-Essentials/Sections/SectionThree'
+  text: "Section Three"
+  link: "/College/IT-Essentials/Sections/SectionThree"
 ---
 
 # IT Essentials Lab 2: Computer Assembly
 
 ## Power Supply
 
-The power supply converts electrical power from an outlet into usable power for the internal components of the computer.
+The power supply converts electrical power from an outlet (AC) into usable power (DC) for the internal components of the computer.
 
 ## Motherboard
 

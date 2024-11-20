@@ -9,3 +9,4 @@ next: false
 
 - [Section One](SectionOne.md)
 - [Section Two](SectionTwo.md)
+- [SectionThree](SectionThree.md)

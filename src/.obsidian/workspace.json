@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/IT-Essentials/Sections/SectionOne.md",
+                "file": "College/IT-Essentials/Sections/SectionTwo.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SectionOne"
+              "title": "SectionTwo"
             }
           }
         ]
@@ -141,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/IT-Essentials/Sections/SectionOne.md"
+                "file": "College/IT-Essentials/Sections/SectionTwo.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of SectionOne"
+              "title": "Outline of SectionTwo"
             }
           },
           {
@@ -182,8 +182,13 @@
   },
   "active": "1a5e7940d53ed7ee",
   "lastOpenFiles": [
-    "Courses/LinuxCrashCourse.md",
     "College/IT-Essentials/Sections/SectionOne.md",
+    "College/IT-Essentials/Sections/SectionTwo.md",
+    "College/IT-Essentials/index.md",
+    "College/IT-Essentials/Sections/index.md",
+    "College/IT-Essentials/Sections/SectionThree.md",
+    "College/IT-Essentials/Lectures/LectureFour.md",
+    "Courses/LinuxCrashCourse.md",
     "College/Python/Lectures/LectureFour.md",
     "College/Python/Lectures/LectureThree.md",
     "College/Python/Lectures/LectureTwo.md",
@@ -209,12 +214,7 @@
     "College/Physics/Sections",
     "College/Physics/imgs",
     "College/Physics/imgs/vectors-1.png",
-    "College/IT-Essentials/Lectures/LectureFour.md",
     "College/IT-Essentials/Lectures/LectureThree.md",
-    "College/IT-Essentials/Lectures/LectureTwo.md",
-    "College/IT-Essentials/Sections/SectionTwo.md",
-    "College/Physics/VideoSummaries/Calculus_3_Intro_To_Vectors.md",
-    "College/Physics/VideoSummaries/index.md",
     "College/Physics/VideoSummaries",
     "College/Physics/Lectures",
     "College/Physics",

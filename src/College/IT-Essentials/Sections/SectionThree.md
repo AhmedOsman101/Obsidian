@@ -19,7 +19,6 @@ In the world of computing, languages and number systems are fundamental to how c
 ### Computer Language Types
 
 Computer languages can be categorized into different levels:
-
 - **High-Level Language**: These are programming languages that are closer to human languages. Examples include Python, Java, and C++.
 - **Middle-Level Language**: These languages provide a good balance between machine-level operations and human readability. An example is Assembly language.
 - **Low-Level Language**: These languages are closer to machine code. The lowest level is **Binary** (Base 2), which is the fundamental language for computers.
@@ -29,7 +28,6 @@ Computer languages can be categorized into different levels:
 ### Number Systems
 
 Number systems are methods of representing numbers in a consistent way using digits or other symbols. Some common number systems used in computing include:
-
 1. **Decimal (Base 10)**: Used by humans, it contains ten digits: 0-9.
 2. **Binary (Base 2)**: Used by computers, it contains two digits: 0 and 1.
 3. **Octal (Base 8)**: Contains digits from 0-7.

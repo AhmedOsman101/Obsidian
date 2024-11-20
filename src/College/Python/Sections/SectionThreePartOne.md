@@ -72,7 +72,7 @@ Bitwise operators perform operations at the binary level on integers.
 | Operator | Name        | Example                                                   |
 | -------- | ----------- | --------------------------------------------------------- |
 | `&`      | AND         | `x & y`                                                   |
-| `\|`     | OR          | x \| y                                                    |
+| `\|`     | OR          | `x` `\|` `y`                                              |
 | `^`      | XOR         | `x ^ y`                                                   |
 | `<<`     | Left Shift  | `x << 2` (Shifts bits in `x` to the left by 2 positions)  |
 | `>>`     | Right Shift | `x >> 2` (Shifts bits in `x` to the right by 2 positions) |

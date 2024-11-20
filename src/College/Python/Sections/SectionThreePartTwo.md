@@ -135,7 +135,7 @@ The `if` statement executes a block of code if the condition evaluates to `True`
 ```python
 # Check a condition
 if condition:
-    statement1_here  # Executes if condition is True
+  statement1_here  # Executes if condition is True
 ```
 
 **Example**:
@@ -144,7 +144,7 @@ if condition:
 # Check if a number is positive
 num = 5
 if num > 0:
-    print("The number is positive")
+  print("The number is positive")
 ```
 
 ### 2. If-Else Statement

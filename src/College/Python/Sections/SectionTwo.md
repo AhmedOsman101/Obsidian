@@ -132,8 +132,8 @@ print("ID of y:", id(y)) # ID of y: 139681763248720
 a = b = 30
 
 # Print the unique IDs of a and b (same object, same ID)
-print("ID of a:", id(a)) # ID of a after assignment: 139681763249040
-print("ID of b:", id(b)) # ID of b after assignment: 139681763249040
+print("ID of a:", id(a)) # ID of a: 139681763249040
+print("ID of b:", id(b)) # ID of b: 139681763249040
 ```
 
 **Key Points:**
@@ -146,7 +146,7 @@ print("ID of b:", id(b)) # ID of b after assignment: 139681763249040
 - **Syntax Errors**
 
   - Occur when the **code does not follow the rules of the language**.
-  - Example: Using curly brackets `{}` where angled brackets `[]` are needed or using a keyword as a variable name.
+  - Example: Using curly brackets `{}` where angled brackets `[]` are needed.
   - **Result**: The program will not run at all.
 
 - **Runtime Errors**

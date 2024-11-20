@@ -98,7 +98,7 @@ dividend = eval(input('Enter numbers to divide:'))  # Correct usage of quotes an
 
 ### Runtime Errors
 
-A **runtime error** (or exception) occurs while the program is executing. These errors are context-dependent and only arise during the program's runtime.
+A **runtime error** (or exception) occurs while the program is executing. These errors are context-dependent and only **arise during the program's runtime**.
 
 #### Examples of Runtime Errors
 

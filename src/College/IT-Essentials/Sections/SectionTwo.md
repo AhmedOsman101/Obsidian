@@ -21,7 +21,7 @@ The motherboard is the computer's main circuit board. It includes several essent
 - **Random Access Memory (RAM)**: Temporary memory for active tasks.
 - **Read Only Memory (ROM)**: Stores permanent data for system functions.
 - **Cooling Components**:
-  - **Fans**: Release the heat from the motherboard.
+  - **Fans**: Releases the heat away from the motherboard.
   - **Heat Sink**: Draws heat away from the CPU.
 - **Expansion Slots**: For additional hardware.
 - **Chipset**: Controls communication between CPU, memory, and peripherals.
@@ -32,7 +32,7 @@ BIOS is firmware that initializes hardware during the boot process (power-on sta
 
 ## Cooling System
 
-- **Heat Sink**: Directly attached to the CPU to absorb and release the heat.
+- **Heat Sink**: Directly attached to the CPU to absorb and release the heat from the CPU away.
 - **Fan**: Mounted above the heat sink to further cool down the CPU.
 
 ## CPU (Central Processing Unit)
@@ -44,8 +44,8 @@ The CPU, also called the processor, is the brain of the computer. It fits into a
 
 ## Memory Types
 
-- **Read-Only Memory (ROM)**: Non-volatile memory that permanently stores essential data.
-- **Random Access Memory (RAM)**: Volatile memory used to temporarily store data for active processes.
+- **Read-Only Memory (ROM)**: Permanent memory that permanently stores essential data.
+- **Random Access Memory (RAM)**: Temporary memory used to temporarily store data for active processes.
 
 ## Storage
 
@@ -56,13 +56,11 @@ The CPU, also called the processor, is the brain of the computer. It fits into a
 ## Expansion Slots and Adapter Cards
 
 Expansion slots allow for adding hardware to the motherboard:
-
 - **PCI**: Peripheral Component Interconnect.
 - **AGP**: Advanced Graphics Port.
 - **Mini PCI**: Commonly used in laptops.
 
 **Adapter Cards**:
-
 - **Video Card**: Enhances graphical performance.
 - **NIC (Network Interface Card)**: For wired network connectivity.
 - **Wireless NIC**: For wireless network connectivity.

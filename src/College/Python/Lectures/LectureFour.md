@@ -164,11 +164,11 @@ Boolean expressions enable programs to adapt based on conditions. The `if` state
 ```python
 age = 15
 if age <= 18:
-    print("You are still a boy.")
+  print("You are still a boy.")
 
 age = 20
 if age >= 18:
-    print("You are in the youth stage.")
+  print("You are in the youth stage.")
 ```
 
 #### `if-else` Example
@@ -176,9 +176,9 @@ if age >= 18:
 ```python
 n = 14
 if 0 <= n <= 20:
-    print(n, "is accepted.")
+  print(n, "is accepted.")
 else:
-    print(n, "is not accepted!")
+  print(n, "is not accepted!")
 ```
 
 #### Using `and` and `or` in Conditions
@@ -186,17 +186,17 @@ else:
 ```python
 x = 2
 if x == 1 or x == 2 or x == 3:
-    print(x, "is available.")
+  print(x, "is available.")
 else:
-    print(x, "is not available!")
+  print(x, "is not available!")
 
 a, b, c = 200, 33, 500
 if a > b and c > a:
-    print("Both conditions are True")
+  print("Both conditions are True")
 
 a, b = 33, 200
 if not a > b:
-    print("a is NOT greater than b")
+  print("a is NOT greater than b")
 ```
 
 #### Nested `if` Statements
@@ -204,11 +204,11 @@ if not a > b:
 ```python
 x = 41
 if x <= 20:
-    print("x is less than or equal to 20!")
-elif 20 < x <= 40:
-    print("x is between 21 and 40!")
+  print("x is less than or equal to 20!")
+  if x >= 5:
+    print("x is between 5 and 20!")
 else:
-    print("x is greater than 40!")
+  print("x is greater than 40!")
 ```
 
 ---

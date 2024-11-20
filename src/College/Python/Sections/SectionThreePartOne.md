@@ -122,7 +122,7 @@ Bitwise shift operators move bits within the binary representation of an integer
   x = 3       # Binary: 0000 0011
   print(x << 2)  # Shifts bits left by 2, resulting in 12 (Binary: 0000 1100)
   ```
-- Here, `3 << 2` results in `12` because shifting `3` (binary `0000 0011`) left by 2 adds two zeros to the right, changing it to binary `0000 1100` which represents `12` in decimal.
+- Here, `3 << 2` results in `12` because shifting `3` (binary `0000 0011`) left by 2 adds two zeros to the right, changing it to binary `0000 1100` which represents `12` in decimal. Same as mulitplying `3` by $2^\text{shift count}$ which is $3*2^2 = 12$.
 
 2. **Right Shift (`>>`)**
 
@@ -133,13 +133,13 @@ Bitwise shift operators move bits within the binary representation of an integer
   x = 8       # Binary: 0000 1000
   print(x >> 2)  # Shifts bits right by 2, yielding 2 (Binary: 0000 0010)
   ```
-- Here, `8 >> 2` results in `2` because shifting `8` (binary `0000 1000`) right by 2 removes two rightmost bits, changing it to binary `0000 0010`, which represents `2` in decimal.
+- Here, `8 >> 2` results in `2` because shifting `8` (binary `0000 1000`) right by 2 removes two rightmost bits, changing it to binary `0000 0010`, which represents `2` in decimal. Same as dividing `8` by $2^\text{shift count}$ which is $8\div2^2 = 2$.
 
 ## Floor Division and `ceil()` Function
 
 1. **Floor Division (`//`)**
 
-   - Floor division divides and returns the largest integer less than or equal to the result.
+   - Floor division divides and returns the integer part of the result; it removes anything after the decimal point.
 
    ```python
    print(7 // 2)  # Output: 3 (rounds down from 3.5)
@@ -150,6 +150,6 @@ Bitwise shift operators move bits within the binary representation of an integer
    - The `ceil()` function, from Python's `math` module, rounds up to the nearest integer.
 
    ```python
-   import math
-   print(math.ceil(4.2))  # Output: 5
+   from math import ceil # Importing the `ceil` function from the `math` module
+   print(ceil(4.2))  # Output: 5
    ```

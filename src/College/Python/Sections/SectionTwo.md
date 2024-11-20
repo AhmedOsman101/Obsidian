@@ -167,7 +167,7 @@ print("ID of b:", id(b)) # ID of b: 139681763249040
   - **Result**: A **SyntaxError** occurs because the parentheses are incomplete, violating Python's syntax rules for function calls.
 
 - **Leaving out both parentheses**
-  - **Result**: A **SyntaxError** occurs because `print` is a function in Python 3, and functions require parentheses. Without them, Python will not recognize it as a function call.
+  - **Result**: A **SyntaxError** occurs because `print` is a function in Python, and functions require parentheses. Without them, Python will not recognize it as a function call.
 
 ### Logical/Semantic Errors
 

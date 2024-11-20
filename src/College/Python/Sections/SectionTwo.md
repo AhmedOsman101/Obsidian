@@ -55,6 +55,7 @@ However, **objects have a type**, so Python knows the type of the variable, even
 type(1) # => <class 'int'> -> this is the same object as the keyword `int`
 type("Hello") # => <class 'str'>
 type(None) # => <class 'NoneType'>
+type(True) # => <class 'bool'>
 type(int) # => <class 'type'>
 type(type(5)) # => <class 'type'>
 ```

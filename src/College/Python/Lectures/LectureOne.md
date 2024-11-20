@@ -15,7 +15,7 @@ next:
   - Personal computers perform hundreds of millions or billions of additions per second.
   - Supercomputers can handle hundreds of billions of additions per second.
 
-**Components of a Computer:**
+## Components of a Computer:
 1. **Hardware:** Physical components of a computer, like the keyboard, screen, mouse, and processor.
 2. **Software:** Programs and instructions that tell the computer what to do.
 

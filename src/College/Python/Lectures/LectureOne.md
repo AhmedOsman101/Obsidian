@@ -39,7 +39,7 @@ next:
 
 ## Python Language
 - **Python** is a popular, high-level programming language created by **Guido van Rossum** in **1991**.
-- Known for ease of learning and rich libraries, Python is used across platforms and supports object-oriented programming.
+- Known for ease of learning and rich libraries, Python is cross platform and supports object-oriented programming (OOP).
 
 **Common Uses for Python:**
 - Software & Web Development

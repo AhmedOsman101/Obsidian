@@ -151,7 +151,7 @@ print("ID of b:", id(b)) # ID of b: 139681763249040
 
 - **Runtime Errors**
 
-  - Occur when **the code is correct**, but the **program does not run as expected** or encounters an issue during execution (program crashes).
+  - Occur when **the code's syntax is correct**, but the **program does not run as expected** or encounters an issue during execution (program crashes).
   - Example: Dividing by zero in a program.
   - **Result**: The program stops unexpectedly.
 

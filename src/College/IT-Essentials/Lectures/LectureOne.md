@@ -88,7 +88,7 @@ A **computer** can be defined as:
 - Has an **input voltage selector** on the back.
 - Measured in **Wattage**.
 - **Ohm’s Law:**
-  - **W = V x A** (Watts = Volts x Amps)
+  - $\text{W} = \text{V} \times \text{A}$ (Watts = Volts x Amps)
 
 ### Connectors
 

@@ -39,7 +39,7 @@ export default withMermaid({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/AhmadOsman101/Obsidian",
+        link: "https://github.com/AhmedOsman101/Obsidian",
       },
       {
         icon: "linkedin",

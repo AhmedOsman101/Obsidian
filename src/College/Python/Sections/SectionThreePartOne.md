@@ -109,7 +109,7 @@ Bitwise operators perform operations at the binary level on integers.
 | 1   | 0   | 1     |
 | 1   | 1   | 0     |
 
-#### Bitwise Shift Operators Explained
+#### Bitwise Shift Operators
 
 Bitwise shift operators move bits within the binary representation of an integer either to the left or to the right. Shifts can be a powerful way to perform fast calculations by modifying the binary representation directly.
 

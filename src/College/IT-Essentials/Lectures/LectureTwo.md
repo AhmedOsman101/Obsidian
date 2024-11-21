@@ -7,46 +7,7 @@ next:
   link: "/College/IT-Essentials/Lectures/LectureThree"
 ---
 
-# IT Essentials Lecture 2
-
-## 2. Advanced Computer Hardware
-
-### IT Essentials
-
-#### Boot the Computer
-
-- **Configure BIOS and UEFI Settings**
-
-  - Describe POST, BIOS, CMOS, and UEFI.
-  - Configure the computer firmware.
-
-- **Electrical Power**
-  - Explain the concept of electrical power.
-  - Describe wattage and voltage.
-  - Identify power fluctuations and protection devices.
-
----
-
-### Chapter 3: Sections & Objectives
-
-#### Advanced Computer Functionality
-
-- **Explain Computer Functionality**
-
-  - Understand CPU architecture.
-  - Describe RAID technology.
-  - Identify common ports, cables, and connectors.
-  - Explain monitor characteristics.
-
-- **Computer Upgrade**
-
-  - Select components to upgrade a computer.
-  - Identify components for specialized computers.
-
-- **Protecting the Environment**
-  - Explain safe disposal methods to protect the environment.
-
----
+# IT Essentials Lecture 2: Advanced Computer Hardware
 
 ## Boot the Computer
 

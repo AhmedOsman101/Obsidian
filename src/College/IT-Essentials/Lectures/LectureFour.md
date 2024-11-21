@@ -176,5 +176,5 @@ Steps:
   - © (Copyright): U+00A9
   - ® (Registered Trademark): U+00AE
 - **Emojis**:
-  - ☺ (Smiling Face): U+1F60A
+  - 😊 (Smiling Face): U+1F60A
   - 🍕 (Pizza): U+1F355

@@ -37,7 +37,8 @@
               "title": "LectureFour"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,10 +167,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/IT-Essentials/Lectures/LectureOne.md"
+                "file": "College/IT-Essentials/Lectures/LectureFour.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of LectureOne"
+              "title": "Outline of LectureFour"
             }
           },
           {
@@ -187,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,11 +207,11 @@
       "print:Print note": false
     }
   },
-  "active": "6cd0bc19bba807e1",
+  "active": "dec2b79317ff54f4",
   "lastOpenFiles": [
+    "College/IT-Essentials/Lectures/LectureOne.md",
     "College/IT-Essentials/Lectures/LectureFour.md",
     "College/IT-Essentials/Lectures/LectureThree.md",
-    "College/IT-Essentials/Lectures/LectureOne.md",
     "College/IT-Essentials/imgs/PSU.png",
     "College/IT-Essentials/imgs/adapterCards.png",
     "College/IT-Essentials/imgs/SATA.png",

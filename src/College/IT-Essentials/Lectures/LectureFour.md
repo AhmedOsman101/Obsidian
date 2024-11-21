@@ -17,11 +17,10 @@ next:
 1. **Binary Addition**: Similar to decimal addition, binary addition is performed from right to left with possible carryover values (0 or 1).
 2. **Binary Subtraction**: Binary subtraction involves borrowing, similar to decimal subtraction.
 3. **Binary Multiplication**: Binary multiplication is performed similar to decimal multiplication, shifting left as necessary.
-4. **Binary Division**: Binary division follows the method of long division, where shifts and subtractions are performed.
 
 ### 1. **Binary Addition**
 
-Binary addition works similarly to decimal addition, but only uses the digits 0 and 1. The key difference is that whenever a sum reaches 2, it “carries” a 1 to the next higher place (just as decimal addition carries at 10).
+Binary addition works similarly to decimal addition, but only uses the digits 0 and 1. The key difference is that whenever a sum reaches 2, it "carries" a 1 to the next higher place (just as decimal addition carries at 10).
 
 #### Binary Addition Rules
 
@@ -30,7 +29,7 @@ Binary addition works similarly to decimal addition, but only uses the digits 0 
 3. \(1 + 0 = 1\)
 4. \(1 + 1 = 0\) (with a carry of 1 to the next column)
 
-#### Example: \(1011 + 1101\)
+#### Example: (1011 + 1101)
 
 ```
     1011
@@ -58,13 +57,13 @@ Binary subtraction works like decimal subtraction, but here we borrow only when 
 3. \(1 - 1 = 0\)
 4. \(0 - 1 = 1\) (with a borrow of 1 from the next higher bit)
 
-#### Example: \(1101 - 1011\)
+#### Example: (1101 - 1011)
 
-```
+```txt
     1101
   - 1011
   ------
-     0010
+    0010
 ```
 
 Steps:
@@ -82,17 +81,17 @@ Binary multiplication is similar to decimal multiplication, where we multiply an
 1. Multiplying by 0 yields 0.
 2. Multiplying by 1 yields the same number shifted to the left (same as adding zeros in decimal multiplication).
 
-#### Example: \(1011 × 101\)
+#### Example: (1011 × 101)
 
-```
+```txt
         1011
       ×  101
       ------
         1011       (1011 × 1)
-       0000        (Shifted left, 1011 × 0)
-    + 1011         (Shifted left twice, 1011 × 1)
+       00000       (Shifted left, 1011 × 0)
+    + 101100       (Shifted left twice, 1011 × 1)
     ----------
-     110111
+      110111
 ```
 
 Steps:
@@ -101,30 +100,6 @@ Steps:
 - Multiply \(1011\) by the next \(0\): Result is \(0000\) (shifted one position left).
 - Multiply \(1011\) by the next \(1\): Result is \(1011\) (shifted two positions left).
 - Sum the partial results: \(110111\).
-
-### 4. **Binary Division**
-
-Binary division resembles long division in decimal arithmetic. It involves repeatedly dividing and shifting based on the divisor. Here’s a step-by-step example.
-
-#### Example: \(101101 ÷ 11\)
-
-```
-    101
-------
- 11 | 101101
-     -  11
-      ----
-        0011
-       -  11
-        ----
-          0001
-```
-
-Steps:
-
-- Divide the first two bits of the dividend \(101101\) by \(11\): quotient is \(1\), remainder \(0\).
-- Bring down the next bit from the dividend and repeat until there are no more bits.
-- Final result: Quotient = \(101\), Remainder = \(1\).
 
 ---
 

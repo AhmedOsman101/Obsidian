@@ -40,7 +40,6 @@ A **computer** can be defined as:
 ### **Basic Personal Computer System**
 
 - A **computer system** consists of **hardware** and **software** components.
-
 #### **Hardware:**
 
 - The **physical equipment** of a computer system, including:

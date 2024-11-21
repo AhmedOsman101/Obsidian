@@ -73,6 +73,16 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "996876bdb80aadc5",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
           }
         ]
       }
@@ -162,8 +172,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,7 +186,8 @@
       "publish:Publish changes...": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-importer:Open Importer": false,
-      "obsidian-tts:Text to Speech": false
+      "obsidian-tts:Text to Speech": false,
+      "print:Print note": false
     }
   },
   "active": "d12505b98609406f",

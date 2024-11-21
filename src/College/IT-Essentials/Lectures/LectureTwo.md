@@ -213,7 +213,7 @@ next:
 - **Dot Pitch**
   - The distance between pixels on the screen.
 - **Brightness**
-  - Measured in candelas per square meter (cd/m²).
+  - Measured in candelas per square meter ($\text{cd}/m^2$).
 - **Contrast Ratio**
   - The difference in intensity between the brightest white and darkest black.
 - **Aspect Ratio**

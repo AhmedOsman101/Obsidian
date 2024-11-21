@@ -68,8 +68,8 @@ next:
   - **Current (I)**: Electron flow rate, measured in amperes.
   - **Resistance (R)**: Opposition to current flow.
   - **Power (P)**: Work done per second, measured in watts.
-- **Ohm’s Law**: \( V = I \times R \)
-- **Power Calculation**: \( P = V \times I \)
+- **Ohm’s Law**: $V = I \times R$
+- **Power Calculation**: $P = V \times I$
 
 ### Power Supply Voltage Settings
 

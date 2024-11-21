@@ -37,8 +37,7 @@
               "title": "LectureFour"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,10 +166,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/IT-Essentials/Lectures/LectureFour.md"
+                "file": "College/IT-Essentials/Lectures/LectureOne.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of LectureFour"
+              "title": "Outline of LectureOne"
             }
           },
           {
@@ -207,10 +206,10 @@
       "print:Print note": false
     }
   },
-  "active": "dec2b79317ff54f4",
+  "active": "d12505b98609406f",
   "lastOpenFiles": [
-    "College/IT-Essentials/Lectures/LectureOne.md",
     "College/IT-Essentials/Lectures/LectureFour.md",
+    "College/IT-Essentials/Lectures/LectureOne.md",
     "College/IT-Essentials/Lectures/LectureThree.md",
     "College/IT-Essentials/imgs/PSU.png",
     "College/IT-Essentials/imgs/adapterCards.png",

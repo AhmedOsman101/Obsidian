@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "LectureThree",
+      "path": "College/IT-Essentials/Lectures/LectureThree.md"
+    },
+    {
       "basename": "AssignmentOne",
       "path": "College/IT-Essentials/Assignments/AssignmentOne.md"
     },
@@ -34,5 +38,6 @@
     }
   ],
   "omittedPaths": [],
-  "omittedTags": []
+  "omittedTags": [],
+  "omitBookmarks": false
 }

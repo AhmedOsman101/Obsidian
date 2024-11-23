@@ -18,6 +18,6 @@ next: false
   - [Sections](Python/Sections/index.md)
   - [Assignments](Python/Assignments/index.md)
 
-- [Physics](Physics/index.md)
-  - [Lectures](Physics/Lectures/index.md)
-  - [Sections](Physics/Sections/index.md)
+<!-- - [Physics](Physics/index.md) -->
+  <!-- - [Lectures](Physics/Lectures/index.md) -->
+  <!-- - [Sections](Physics/Sections/index.md) -->

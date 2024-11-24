@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Math/LectureOne.md",
+                "file": "College/Math/LectureTwo.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "LectureOne"
+              "title": "LectureTwo"
             }
           }
         ]
@@ -151,10 +151,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/Math/LectureOne.md"
+                "file": "College/Math/LectureTwo.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of LectureOne"
+              "title": "Outline of LectureTwo"
             }
           },
           {
@@ -172,7 +172,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,9 +192,10 @@
   },
   "active": "1b51be24b38c104f",
   "lastOpenFiles": [
+    "College/Math/LectureOne.md",
+    "College/Math/LectureTwo.md",
     "College/Math/index.md",
     "College/index.md",
-    "College/Math/LectureOne.md",
     "College/Math/draft.md",
     "College/IT-Essentials/Lectures/LectureFour.md",
     "College/IT-Essentials/Lectures/LectureOne.md",
@@ -228,7 +230,6 @@
     "College/Python/Sections/SectionTwo.md",
     "College/Python/Sections/SectionOne.md",
     "College/Physics/Lectures/LectureOne.md",
-    "College/IntroToCyberSecurity/Lectures/LectureOne.md",
     "College/Physics/Sections",
     "College/Physics/imgs",
     "College/Physics/VideoSummaries",

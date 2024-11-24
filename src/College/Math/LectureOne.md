@@ -446,17 +446,21 @@ Next, compute $A^3$:
 $$
 A^3 = A \cdot A^2
 $$
-
 $$
-A(pA+qI_2)
+A(pA+qI_2) \text{ (substitute }A^2 \text{ with pA+qI)}
 $$
-
-$18A^2 - 27A$ (substitute $A^2$ with $pA+qI$)
-
 $$
-= 18(18A - 27I_2) - 27A, \quad 324A - 486I_2 - 27A, \quad A^3 = 297A - 486I
+18A^2 - 27A \text{ (substitute }A^2 \text{ with pA+qI)}
 $$
-
+$$
+18(18A - 27I_2) - 27A
+$$
+$$ 
+324A - 486I_2 - 27A
+$$
+$$
+A^3 = 297A - 486I
+$$
 $$
 p = 18, \quad q = -27, \quad g=297, \quad h = -486
 $$

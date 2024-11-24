@@ -88,8 +88,6 @@ B_{2 \times 2} = \begin{bmatrix}
 \end{bmatrix}
 $$
 
----
-
 ## Matrix Algebra: Addition, Subtraction, and Scalar Multiplication
 
 1. **Matrix Addition**: The matrix sum $A + B$ is obtained by adding corresponding entries of $A$ and $B$.
@@ -112,7 +110,9 @@ $$
 A + B = \begin{bmatrix}
 0 + 13 & -3 + 1 \\
 5 - 4 & 2 + 5
-\end{bmatrix}, \quad
+\end{bmatrix}
+$$
+$$
 A + B = \begin{bmatrix}
 13 & -2 \\
 1 & 7
@@ -138,7 +138,9 @@ $$
 P - Q = \begin{bmatrix}
 4 - (-4) & -2 - (-2) & 0 - 2 \\
 1 - (-8) & 0 - 3 & 37 - 6
-\end{bmatrix}, \quad
+\end{bmatrix}
+$$
+$$
 P - Q = \begin{bmatrix}
 8 & 0 & -2 \\
 9 & -3 & 31
@@ -162,15 +164,15 @@ $$
 4 & -4 & 0 \\
 12 & 6 & 2 \\
 8 & 18 & -2
-\end{bmatrix}, \quad
+\end{bmatrix}
+$$
+$$
 \frac{1}{2} A = \begin{bmatrix}
 2 & -2 & 0 \\
 6 & 3 & 1 \\
 4 & 9 & -1
 \end{bmatrix}
 $$
-
----
 
 ## Matrix Multiplication
 
@@ -188,7 +190,9 @@ B = \begin{bmatrix}
 3 & 0 \\
 1 & 2 \\
 3 & 4
-\end{bmatrix}, \quad
+\end{bmatrix}
+$$
+$$
 AB = \begin{bmatrix}
 1(3) + 2(1) + 0(3) & 1(0) + 2(2) + 0(4) \\\
 8(3) + 0(1) + 1(3) & 8(0) + 0(2) + 1(4) \\\
@@ -201,7 +205,9 @@ AB = \begin{bmatrix}
 3 + 2 + 0 & 0 + 4 + 0 \\
 24 + 0 + 3 & 0 + 0 + 4 \\
 6 + 4 + 18 & 0 + 8 + 24
-\end{bmatrix}, \quad
+\end{bmatrix}
+$$
+$$
 AB = \begin{bmatrix}
 5 & 4 \\
 27 & 4 \\
@@ -230,7 +236,9 @@ $$
 AB = \begin{bmatrix}
 0(1) + 3(0) & 0(0) + 3(2) \\
 5(1) + 2(0) & 5(0) + 2(2)
-\end{bmatrix}, \quad
+\end{bmatrix}
+$$
+$$
 AB = \begin{bmatrix}
 0 & 6 \\
 5 & 4
@@ -243,7 +251,9 @@ $$
 BA = \begin{bmatrix}
 1(0) + 0(5) & 1(3) + 0(2) \\
 0(0) + 2(5) & 0(3) + 2(2)
-\end{bmatrix}, \quad
+\end{bmatrix}
+$$
+$$
 BA = \begin{bmatrix}
 0 & 3 \\
 10 & 4
@@ -264,9 +274,7 @@ $$
 \therefore \ AB \neq BA
 $$
 
----
-
-### Matrix Transpose
+## Matrix Transpose
 
 1. **Transpose**: The transpose $A^T$ of a matrix $A$ is obtained by swapping the rows and columns of $A$. If $A$ is of order $m \times n$, then $A^T$ will be of order $n \times m$.
 
@@ -290,8 +298,6 @@ $$
 A^2 = A \cdot A, \quad
 A^3 = A \cdot A \cdot A
 $$
-
----
 
 ## Basic Properties of Matrices
 
@@ -343,9 +349,9 @@ Thus, the identity and zero matrices behave like the numbers 1 and 0 respectivel
 
 ---
 
-## Example 7: Matrix Equation $A^2 = pA + qI_2$
+## Example 7
 
-<!-- show that $A^2 = pA + qI_2$, then write $A^3$ in the form $gA + hI_2$. Find the values of $p,\ q,\ g,\ h$ -->
+**show that $A^2 = pA + qI_2$, then write $A^3$ in the form $A^3 = gA + hI_2$. Find the values of $\text{p, q, g, h}$.**
 
 **Given**:
 
@@ -365,7 +371,9 @@ A^2 = \begin{bmatrix}
 \end{bmatrix} \begin{bmatrix}
 2 & 5 \\
 1 & 16
-\end{bmatrix}, \quad
+\end{bmatrix}
+$$
+$$
 A^2 = \begin{bmatrix}
 2(2) + 5(1) & 2(5) + 5(16) \\
 1(2) + 16(1) & 1(5) + 16(16)
@@ -415,8 +423,10 @@ p & 16p
 \begin{bmatrix}
 q & 0 \\
 0 & q
-\end{bmatrix} =
-\begin{bmatrix}
+\end{bmatrix} 
+$$
+$$
+= \begin{bmatrix}
 2p + q & 5p \\
 p & 16p + q
 \end{bmatrix}
@@ -462,5 +472,8 @@ $$
 A^3 = 297A - 486I
 $$
 $$
-p = 18, \quad q = -27, \quad g=297, \quad h = -486
+p = 18, \quad q = -27
+$$
+$$
+g=297, \quad h = -486
 $$

@@ -342,6 +342,7 @@ Pyx
 Pla
 PHDt
 PgE
+Properties
 IHDR
 IDATx
 IO
@@ -1574,6 +1575,10 @@ sJh
 sjb
 sGS
 strb
+swapping
+show
+substituting
+substitute
 ff
 fP
 fj
@@ -4072,6 +4077,8 @@ alI
 aFM
 aRE
 aFy
+arranged
+algebra
 Te
 Tn
 TA
@@ -4379,6 +4386,8 @@ Txv
 TFv
 TWEC
 Tgv
+Transpose
+Transposition
 uj
 uq
 uXm
@@ -5598,6 +5607,7 @@ rSc
 roI
 ryCc
 rIT
+row
 eiO
 es
 ee
@@ -5987,6 +5997,10 @@ eEW
 eJl
 exKMRrEdz
 efGY
+entries
+entry
+elements
+equals
 GO
 GQ
 Gk
@@ -6653,6 +6667,7 @@ Elbc
 EFR
 EUB
 EcJ
+Element
 Sal
 SQ
 SB
@@ -7402,6 +7417,8 @@ ivA
 ilZ
 ikm
 iWr
+immediately
+involving
 tWA
 tW
 tM
@@ -7744,6 +7761,7 @@ tZG
 timu
 tzxl
 tri
+transpose
 nm
 nv
 nhuK
@@ -9095,6 +9113,7 @@ bJB
 bvdy
 bCd
 bnS
+behave
 Nb
 NJu
 Nbsa
@@ -10038,6 +10057,7 @@ RGOG
 RcM
 RCj
 RdB
+Row
 Zt
 ZB
 Zb
@@ -10887,6 +10907,9 @@ DBF
 DPH
 Dsb
 DdLj
+Definitions
+Diagonal
+Distributivity
 ohQ
 oL
 ob
@@ -11177,6 +11200,8 @@ oTH
 odh
 onhx
 oSE
+obtained
+ordinary
 mipte
 mRT
 mX
@@ -11516,6 +11541,9 @@ mna
 mmni
 mkq
 mpw
+matrices
+multiplying
+multiplied
 Ck
 CS
 Cm
@@ -11951,6 +11979,7 @@ CYB
 CTO
 CMbd
 CiM
+Commutativity
 vb
 vO
 vvF
@@ -12738,6 +12767,9 @@ csyP
 czb
 cccKc
 cJY
+columns
+commutativity
+commutative
 Hu
 Hg
 HiL
@@ -13877,6 +13909,8 @@ gRt
 grY
 gTNc
 gBb
+giving
+gives
 KUYX
 KX
 KK
@@ -15198,6 +15232,7 @@ dAjXQP
 dKcV
 dhC
 dFw
+diagonal
 AK
 AQ
 Aya
@@ -15591,6 +15626,8 @@ ARC
 AAm
 AGx
 AIfX
+Algebra
+Associativity
 Jw
 Jg
 JT

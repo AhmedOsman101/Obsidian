@@ -347,8 +347,6 @@ $$
 
 Thus, the identity and zero matrices behave like the numbers 1 and 0 respectively in ordinary arithmetic and algebra.
 
----
-
 ## Example 7
 
 **show that $A^2 = pA + qI_2$, then write $A^3$ in the form $A^3 = gA + hI_2$. Find the values of $\text{p, q, g, h}$.**

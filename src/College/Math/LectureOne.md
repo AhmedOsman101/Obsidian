@@ -16,7 +16,7 @@ next:
 
 - **Order**: The order of a matrix is given as $m \times n$, where $m$ is the number of rows and $n$ is the number of columns.
 
-- **Element**: The element in row $i$ and column $j$ of a matrix is denoted as $a\_{ij}$, and it's called the $(i, j)^{th}$ entry of the matrix $A$.
+- **Element**: The element in row $i$ and column $j$ of a matrix is denoted as $a_{ij}$ and it's called the $(i, j)^{th}$ entry of the matrix $A$.
 
 - **Main Diagonal**: The main diagonal of any matrix is the set of entries $a_{ij}$ where $i = j$.
 

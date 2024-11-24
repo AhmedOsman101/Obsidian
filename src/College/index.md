@@ -19,7 +19,8 @@ next: false
   - [Assignments](Python/Assignments/index.md)
 
 - [Math](Math/index.md)
-  - [LectureOne](Math/LectureOne.md)
+  - [Lecture One](Math/LectureOne.md)
+  - [Lecture Two](LectureTwo.md)
 
 <!-- - [Physics](Physics/index.md) -->
   <!-- - [Lectures](Physics/Lectures/index.md) -->

@@ -8,3 +8,4 @@ next: false
 # Math
 
 - [Lecture One](LectureOne.md)
+- [Lecture Two](LectureTwo.md)

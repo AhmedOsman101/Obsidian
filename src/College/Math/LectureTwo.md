@@ -1,11 +1,39 @@
-Special Types of Matrices 
+---
+prev:
+  text: "Lecture One"
+  link: "/College/Math/LectureOne"
+next:
+  false
+  # text: "Lecture Three"
+  # link: "/College/Math/LectureThree"
+---
 
-Symmetric and Skew-Symmetric Matrices 
-Definition:  A matrix $A$ is symmetric if, $A^T = A$.
-Note: A symmetric matrix must be square.
+# Lecture Two: Determinants, Inverse Matrices and Systems of Equations
 
-Example 8: Show that matrix $A$  is symmetric
+## Special Types of Matrices
 
+### Symmetric Matrices
+
+- **Definition**: A matrix $A$ is **symmetric** if $A^T = A$. In other words, the transpose of the matrix is equal to the matrix itself.
+
+- **Properties**:
+
+  - A symmetric matrix must always be **square** (i.e., the number of rows must equal the number of columns).
+  - The elements across the main diagonal of a symmetric matrix are symmetric with respect to the diagonal.
+
+- **Example**:
+
+$$
+A = \begin{bmatrix}
+1 & x & -y \\
+x & 2 & z \\
+-y & z & 3
+\end{bmatrix}
+$$
+
+In this case, the matrix is symmetric because $A^T = A$.
+
+- **Example 1**: Show that the matrix $A$ is symmetric:
 $$
 A = \begin{bmatrix}
 1 & 2 & 4 \\
@@ -18,2522 +46,726 @@ A^T = \begin{bmatrix}
 1 & 2 & 4 \\
 2 & 0 & 17 \\
 4 & 17 & 6
-\end{bmatrix}, \quad A = A^T
+\end{bmatrix}
+$$
+$$
+A = A^T
+$$
+  Hence, $A$ is a symmetric matrix.
+
+---
+
+### Skew-Symmetric Matrices
+
+- **Definition**: A matrix $A$ is **skew-symmetric** if $A^T = -A$. In other words, the transpose of the matrix is the negative of the matrix.
+
+- **Properties**:
+
+  - A skew-symmetric matrix must be **square** (i.e., the number of rows must equal the number of columns).
+  - All diagonal entries of a skew-symmetric matrix must be **0**, because the transpose of the diagonal element must equal its negative, which is only possible if it is zero.
+
+- **Example**:
+  $$
+  A = \begin{bmatrix}
+  0 & x & y \\
+  -x & 0 & -z \\
+  -y & z & 0
+  \end{bmatrix}
+  $$
+  This matrix is skew-symmetric because $A^T = -A$.
+
+## Determinants
+
+### Determinant of a $2 \times 2$ Matrix
+
+For a matrix $A$ of size $2 \times 2$:
+
+$$
+A = \begin{bmatrix}
+a & b \\
+c & d
+\end{bmatrix}
 $$
 
-Definition: A matrix $A$ is skew-symmetric if, $A^T = −A$ 
+The determinant is calculated as:
 
-Note: A skew-symmetric matrix must be square and have all diagonal entries equal to 0. 
+$$
+\det(A) = ad - bc
+$$
 
- 
+where $ad - bc \neq 0$.
 
-Example 11 
+---
 
- 
+### Determinant of a $3 \times 3$ Matrix
 
-Show that the sum of 2 skew-symmetric matrices is skew-symmetric. 
+For a matrix $A$ of size $3 \times 3$:
 
- 
+$$
+A = \begin{bmatrix}
+a & b & c \\
+d & e & f \\
+g & h & i
+\end{bmatrix}
+$$
 
-Let the 2 skew-symmetric matrices be A  and B. Then,  
+The determinant is calculated as:
 
- 
+$$
+|A| = a \begin{vmatrix}
+e & f \\
+h & i
+\end{vmatrix}
 
-(A + B )T = A T + B T 
+- b \begin{vmatrix}
+d & f \\
+g & i
+\end{vmatrix}
 
- 
++ c \begin{vmatrix}
+d & e \\
+g & h
+\end{vmatrix}
+$$
 
- (A + B )T = ( −A ) + ( −B ) 
+This simplifies to:
 
- 
+$$
+|A| = a(ei - fh) - b(di - fg) + c(dh - eg)
+$$
 
- (A + B )T = −(A + B ) 
+---
 
- 
+### Sign Rule for $3 \times 3$ Determinants
 
-Hence, as the sum A + B satisfies the skew-symmetric condition, the 
-sum of 2 skew-symmetric matrices is skew-symmetric.  
+To calculate the determinant of a $3 \times 3$ matrix, you can use the **sign rule** based on the positions of the elements in the matrix. The signs alternate in a checkerboard pattern, as shown below:
 
- 
+$$
+\begin{vmatrix}
++ & - & + \\
 
-Orthogonal Matrices 
+- & + & - \\
 
- 
++ & - & +
+\end{vmatrix}
+$$
 
-Definition: 
+This pattern helps determine the signs when calculating the determinant by cofactor expansion along any row or column.
 
- 
+---
 
-A square matrix A  (of order n  × n ) is orthogonal if, 
+### Examples
 
- 
+- **Example 1: Determinant of a $2 \times 2$ Matrix**:
 
-A T A = 
+$$
+B = \begin{bmatrix}
+1 & 4 \\
+2 & 6
+\end{bmatrix}
+$$
 
-In 
+The determinant of $B$ is:
 
- 
+$$
+|B| = 1(6) - 4(2) = -2
+$$
 
-Example 12 
+- **Example 2: Determinant of a $3 \times 3$ Matrix**:
 
- 
+$$
+F = \begin{bmatrix}
+1 & -2 & 7 \\
+6 & 0 & 1 \\
+3 & 10 & 4
+\end{bmatrix}
+$$
 
-Show that R = cos sin 
- sin cos 
+Using cofactor expansion, we get:
 
-θ θ
-θ θ
+$$
+|F| = 1 \begin{vmatrix}
+0 & 1 \\
+10 & 4
+\end{vmatrix}
+-(-2) \begin{vmatrix}
+6 & 1 \\
+3 & 4
+\end{vmatrix}
++7 \begin{vmatrix}
+6 & 0 \\
+3 & 10
+\end{vmatrix}
+$$
 
- 
- 
-− 
+Calculating the smaller determinants:
 
- is an orthogonal matrix. 
+$$
+|F| = 1(0 - 10) + 2(24 - 3) + 7(60-0)
+$$
 
- 
+$$
+|F| = -10 + 42 + 420 = 452
+$$
 
- R T R = cos sin 
-sin cos 
+---
 
-θ θ
-θ θ
+### Properties of Determinants
 
- − 
- 
- 
+For any square matrix $A$ of size $n \times n$ and scalar $k \in \mathbb{R}$, the following properties hold:
 
- cos sin 
- sin cos 
+- **Multiplication Property**:
 
-θ θ
-θ θ
+$$
+\det(AB) = \det(A) \cdot \det(B)
+$$
 
- 
- 
-− 
+- **Scalar Multiplication Property**:
 
- 
+$$
+\det(kA) = k^n \cdot \det(A)
+$$
 
- 
+- **Transpose Property**:
+  $$
+  \det(A^T) = \det(A)
+  $$
 
-                        =   
+Note: $\det(A)$ is often written as $|A|$.
 
-2 2
+## Inverse of a Matrix
 
-2 2
+### Definition
 
-cos sin cos sin sin cos 
-sin cos cos sin sin cos 
+An $n \times n$ matrix $A$ has an inverse if its determinant is non-zero ($\det(A) \neq 0$), and the inverse $A^{-1}$ satisfies the following condition:
 
-θ θ θ θ θ θ
-θ θ θ θ θ θ
+$$
+A \cdot A^{−1} = A^{−1} \cdot A = I_n
+$$
 
- + − 
- 
- − + 
+Where $I_n$ is the identity matrix of size $n \times n$. If matrix $A$ has an inverse, it is called **non-singular** (or **invertible**). If it does not have an inverse, it is called **singular** (or **non-invertible**).
 
-  
+---
 
- 
+### Theorem: Uniqueness of the Inverse
 
-                         =  
+A matrix can have only one inverse.
 
-1 0 
-0 1
+---
 
-  
-  
- 
+### Adjoint of a Matrix
 
-  
+The adjoint of a square $2 \times 2$ matrix $A$ is defined as:
 
+$$
+A = \begin{bmatrix}
+a & b \\
+c & d
+\end{bmatrix}, \quad \text{adj}(A) = \begin{bmatrix}
+d & -b \\
+-c & a
+\end{bmatrix}
+$$
 
-Advanced Higher Notes (Unit 3) Matrices 
+---
 
-M Patel (April 2012) 13 St. Machar Academy 
+### Theorem: Non-Singularity
 
- 
- = I2 
+A matrix is **non-singular** (invertible) if $\det(A) \neq 0$. Conversely, a matrix is **singular** (non-invertible) if $\det(A) = 0$.
 
- 
+---
 
-Hence, as R T R equals the identity matrix, R is orthogonal. 
+### Properties of Inverse Matrices
 
- 
+For square matrices $A$ and $B$, and scalar $k \in \mathbb{R}$, the following properties hold:
 
-Determinants 
+- **Product Property**:
 
- 
+$$
+(AB)^{-1} = B^{-1} A^{-1}
+$$
 
-The solution to the 1  ×  1 system,  
+- **Transpose Property**:
 
- 
+$$
+(A^{-1})^T = (A^T)^{-1}
+$$
 
-ax  =  b 
+- **Determinant Property**:
 
- 
+$$
+\det(A^{-1}) = \frac{1}{\det(A)}
+$$
 
-is,   
+- **Scalar Multiplication Property**:
+  $$
+  (kA)^{-1} = \frac{1}{k} A^{-1}
+  $$
 
- 
+---
 
-  x  =  
+### Examples
 
-b
-a 
+- **Example 1: Show that $A$ is non-singular.**
 
- 
+  Given matrix $A$:
 
-assuming a  ≠  0. 
+$$
+A = \begin{bmatrix}
+1 & 0 & 4 \\
+-2 & 0 & 17 \\
+4 & 17 & 6
+\end{bmatrix}
+$$
 
- 
+The determinant of $A$ is calculated as:
 
-The solution to the 2  ×  2 system of equations,  
+$$
+|A| =
+1 \begin{vmatrix}
+0 & 17 \\
+17 & 6
+\end{vmatrix}
+- 0 \begin{vmatrix}
+-2 & 17 \\
+4 & 6
+\end{vmatrix}
++ 4 \begin{vmatrix}
+-2 & 0 \\
+4 & 17
+\end{vmatrix}
+$$
 
- 
+Simplifying:
 
-ax by e
-cx dy f
+$$
+|A| = 1(-289) - 0 + 4(-34) = -425
+$$
 
-+ =
-+ =
+Since $|A| \neq 0$, matrix $A$ is **non-singular**.
 
- 
+---
 
- 
+- **Example 2: Find the values of $k$ that make matrix $A$ singular.**
 
-is,   
+  Given matrix $A$:
 
- 
+$$
+A = \begin{bmatrix}
+k & 2 \\
+-2 & k+5
+\end{bmatrix}
+$$
 
-x = de bf
-ad bc
+For singularity, we require the determinant to be 0:
 
-−
-− 
+$$
+|A| = k(k + 5) - 2(−2) = 0
+$$
 
- 
+Simplifying:
 
-y = af ce
-ad bc
+$$
+k^2 + 5k + 4 = 0
+$$
 
-−
-− 
+Factoring the quadratic equation:
 
- 
+$$
+(k + 1)(k + 4) = 0
+$$
 
-assuming ad  −  bc  ≠  0. 
+Hence, $k = -1$ or $k = -4$. Therefore, the matrix $A$ is singular when $k = -1$ or $k = -4$.
 
- 
+## Inverse of a $2 \times 2$ Matrix
 
-The solution to the 3  ×  3 system of equations,  
+The inverse of a $2 \times 2$ matrix $A$:
 
- 
+$$
+A = \begin{bmatrix}
+a & b \\
+c & d
+\end{bmatrix}
+$$
 
-ax by cz j 
-dx ey fz k 
-gx hy iz l
+If matrix $A$ is a $2 \times 2$ matrix and has a non-zero determinant, its inverse is given by:
 
-+ + =
-+ + =
-+ + =
+$$
+A^{-1} = \frac{1}{\det(A)} \cdot \text{adj}(A)
+$$
 
- 
+Which simplifies to:
 
- 
+$$
+A^{-1} = \frac{1}{ad-bc} \ \cdot \ \begin{bmatrix}
+d & -b \\
+-c & a
+\end{bmatrix}
+$$
 
-is (this takes a lot more effort),  
+## Inverse of a $3 \times 3$ Matrix
 
+For a $3 \times 3$ matrix $A$, the inverse exists if and only if the determinant of $A$ is non-zero. The inverse is calculated as:
 
-Advanced Higher Notes (Unit 3) Matrices 
+$$
+A^{-1} = \frac{1}{\det(A)} \cdot \text{adj}(A)
+$$
 
-M Patel (April 2012) 14 St. Machar Academy 
+Where:
 
- 
+- $\det(A)$ is the determinant of $A$.
+- $\text{adj}(A)$ is the adjoint of $A$, which is the transpose of its cofactor matrix.
 
-x = ( ) ( ) ( ) 
-( ) ( ) ( )
+### Matrix Representation
 
-j ei fh k bi ch l bf ce 
-a ei fh b di fg c dh eg
+If $A$ is given as:
 
-− − − + −
-− − − + − 
+$$
+A = \begin{bmatrix}
+a & b & c \\
+d & e & f \\
+g & h & i
+\end{bmatrix}
+$$
 
- 
+1. **Determinant ($\det(A)$)**
+   The determinant of $A$ is calculated as:
 
-y = ( ) ( ) ( ) 
-( ) ( ) ( )
+   $$
+   \det(A) = a(ei - fh) - b(di - fg) + c(dh - eg)
+   $$
 
-j fg di k cg ai l cd af 
-a ei fh b di fg c dh eg
+2. **Cofactor Matrix**
+   The cofactor matrix is obtained by calculating the determinant of the minor for each element of $A$ following the [Sign Rule](#Sign%20Rule%20for%20$3%20times%203$%20Determinants).
 
-− − − + −
-− − − + − 
+The cofactor matrix for $A$ is:
 
- 
+$$
+\text{Cofactor}(A) =
+\begin{bmatrix}
+e(i) - f(h) & - d(i) - f(g) & d(h) - e(g) \\
+- b(i) - c(h) & a(i) - c(g) & - a(h) - b(g) \\
+b(f) - c(e) & - a(f) - c(d) & a(e) - b(d) \\
+\end{bmatrix}
+$$
 
- 
+3. **Adjugate Matrix**
+   The adjugate of $A$ is the transpose of the cofactor matrix:
 
-z = ( ) ( ) ( )
-( ) ( ) ( )
+   $$
+   \text{adj}(A) = \text{Cofactor}(A)^T
+   $$
 
-j dh ge k ah bg l ae bd 
-a ei fh b di fg c dh eg
+4. **Inverse Formula**
+   Using the determinant and adjugate, the inverse is given by:
+   $$
+   A^{-1} = \frac{1}{\det(A)} \cdot \text{adj}(A)
+   $$
 
-− − − + −
-− − − + − 
+### Simplified Example
 
- 
+For a matrix:
 
-assuming a(ei − fh) − b(di − fg) + c(dh − eg) ≠ 0. 
+$$
+A = \begin{bmatrix}
+2 & 1 & 3 \\
+1 & 0 & 2 \\
+3 & 1 & 4
+\end{bmatrix}
+$$
 
- 
+- Calculate $|A|$ using the formula.
 
-In each of these solutions, we require the denominators to be non-zero. 
-The denominators that arise in the solutions have a pattern (not 
-necessarily that obvious !) and a special name. We first need some 
-definitions. 
+  $$
+  |A| = a(ei - fh) - b(di - fg) + c(dh - eg)
+  $$
 
- 
+  $$
+  |A| = 2(0 - 2) - 1(4 - 6) + 3(1 - 0) = 1
+  $$
 
-Definition: 
+- Find the adjoint.
 
- 
+  $$
+  adj(A) = \begin{bmatrix}
+  0(4) - 1(2) & 1(4) - 2(3) & 1(1) - 0(3) \\
+  1(4) - 1(3) & 2(4) - 3(3) & 2(1) - 1(3) \\
+  1(2) - 0(3) & 2(2) - 1(3) & 2(0) - 1(1) \\
+  \end{bmatrix}
+  $$
 
-A permutation, denoted by σ , of an ordered set of numbers (1, 2, 3, … , 
-n) is a rearrangement of those numbers. 
+  $$
+  adj(A) = \begin{bmatrix}
+  -2 & -2 & 1 \\
+  1 & -1 & -1 \\
+  2 & 1 & -1 \\
+  \end{bmatrix}
+  $$
 
- 
+  Applying the [Sign Rule](#Sign%20Rule%20for%20$3%20times%203$%20Determinants):
 
-An even permutation is one where the rearrangement involves an even 
-number of consecutive switches starting from the original numbers. 
+  $$
+  adj(A) = \begin{bmatrix}
+  -2 & 2 & 1 \\
+  -1 & -1 & 1 \\
+  2 & -1 & -1 \\
+  \end{bmatrix}
+  $$
 
- 
+- Transpose the adjoint.
+  $$
+  \begin{bmatrix}
+  -2 & 2 & 1 \\
+  -1 & -1 & 1 \\
+  2 & -1 & -1 \\
+  \end{bmatrix}^T =
+  \begin{bmatrix}
+  -2 & -1 & 2 \\
+  2 & -1 & -1 \\
+  1 & 1 & -1 \\
+  \end{bmatrix}
+  $$
+- Substitute into the inverse formula.
+  $$
+  A^{-1} = \frac{1}{\det(A)} \cdot \text{adj}(A)
+  $$
+  $$
+  A^{-1} = \frac{1}{1} \cdot
+  \begin{bmatrix}
+  -2 & -1 & 2 \\
+  2 & -1 & -1 \\
+  1 & 1 & -1 \\
+  \end{bmatrix}
+  $$
+  $$
+  A^{-1} = \begin{bmatrix}
+  -2 & -1 & 2 \\
+  2 & -1 & -1 \\
+  1 & 1 & -1 \\
+  \end{bmatrix}
+  $$
 
-An odd permutation is one where the rearrangement involves an odd 
-number of consecutive switches starting from the original numbers. 
+## Inverse and Systems of Equations
 
- 
+### System of Equations and Matrix Representation
 
-Definition: 
+A system of linear equations can be represented in matrix form as:
 
- 
+$$
+A \cdot X = B
+$$
 
-The sign of a permutation σ , denoted by sign σ , is defined to be + 1 
-for an even permutation and − 1 for an odd permutation. 
+Where:
 
- 
+- $A$ is the coefficient matrix,
+- $X$ is the column vector of unknowns, and
+- $B$ is the column vector of constants (the right-hand side of the equations).
 
-Example 13 
+If $A^{-1}$ (the inverse of matrix $A$) exists, the solution to the system of equations is given by:
 
- 
+$$
+X = A^{-1} \cdot B
+$$
 
-For the case n = 3, the permutation (1, 2, 3) σ→ (2, 1, 3) is odd, as 
-the result of σ involves only 1 switch (1↔2) between consecutive 
-numbers of (1, 2, 3). The sign of this permutation is − 1 . 
+---
 
- 
+### Theorem: Solution Existence
 
+The $n \times n$ system of equations $A \cdot X = B$ has a solution if $A^{-1}$ exists. The solution is then obtained by calculating:
 
-Advanced Higher Notes (Unit 3) Matrices 
+$$
+X = A^{-1} \cdot B
+$$
 
-M Patel (April 2012) 15 St. Machar Academy 
+---
 
-Example 14 
+### Example 6: Condition for a Solution
 
- 
+Consider the system of equations:
 
-Again, for the case n = 3, the permutation (1, 2, 3) σ→ (3, 1, 2) is 
-even, as the result of σ involves 4 switches between consecutive numbers 
-of (1, 2, 3). The switches are (1, 2, 3) → (2, 1, 3) → (2, 3, 1) → (3, 2, 1) 
-→ (3, 1, 2). For this permutation, sign σ = + 1. 
+$$
+x + y = 1
+$$
 
- 
+$$
+2x + ky = 0
+$$
 
-A permutation can be thought of as a function. For example, in Example , 
-1 gets sent to 3 would be written as σ (1) = 3. 
+The coefficient matrix $A$ is:
 
- 
+$$
+A = \begin{bmatrix}
+1 & 1 \\
+2 & k
+\end{bmatrix}
+$$
 
-Definition: 
+The determinant of $A$ is:
 
- 
+$$
+|A| = 1(k) - 2(1) = k - 2
+$$
 
-The determinant of an n  × n  matrix is given by the Leibniz formula, 
+For the system to have a solution, $|A| \neq 0$. Setting the determinant equal to zero:
 
- 
+$$
+k - 2 = 0 \quad \Rightarrow \quad k = 2
+$$
 
-det (A ) ≡ A 
+Thus, the system has a solution when $k \neq 2$.
 
-def
-= ( )
-1
+---
 
-(sign ) 
+### Example 7: Solving a System Using the Inverse of a 2x2 Matrix
 
-n
+Solve the following system of equations for $x$ and $y$:
 
-i σ i
+$$
+2x + y = 8
+$$
 
-σ i
+$$
+-2x + 3y = 16
+$$
 
-σ a
-=
+The coefficient matrix $A$, unknown vector $X$, and right-hand side vector $B$ are:
 
-   
-   
-   
-   
+$$
+A = \begin{bmatrix}
+2 & 1 \\
+-2 & 3
+\end{bmatrix}, \quad X = \begin{bmatrix} x \\ y \end{bmatrix}, \quad B = \begin{bmatrix} 8 \\ 16 \end{bmatrix}
+$$
 
-∑ ∏ 
+To solve for $X = A^{-1} \cdot B$, first find the inverse of $A$:
 
- 
+$$
+A^{-1} = \frac{1}{2(3) - 1(-2)} \cdot \begin{bmatrix}
+3 & -1 \\
+2 & 2
+\end{bmatrix}
+$$
 
-Fortunately, this cryptic formula does not need to be remembered; an 
-alternative formula that is more practical will be given below. 
+$$
+A^{-1} = \frac{1}{8} \cdot \begin{bmatrix}
+3 & -1 \\
+2 & 2
+\end{bmatrix}
+$$
 
- 
+Now, calculate $X = A^{-1} \cdot B$:
 
-Definition: 
+$$
+\begin{bmatrix} x \\ y \end{bmatrix}
+= \frac{1}{8} \ \cdot \begin{bmatrix}
+3 & -1 \\
+2 & 2
+\end{bmatrix} \ \cdot \begin{bmatrix} 8 \\ 16 \end{bmatrix}
+$$
 
- 
+$$
+= \frac{1}{8} \cdot \begin{bmatrix}
+3(8) + (-1)(16) \\
+2(8) + 2(16)
+\end{bmatrix}
+$$
 
-For an n × n matrix A, the minor of entry aij is the determinant 
-(denoted Mij ) of the (n − 1) × (n − 1) matrix formed from A by 
-deleting the i th row and j th column of A. 
+$$
+\frac{1}{8} \ \cdot \begin{bmatrix} 8 \\ 48 \end{bmatrix}
+= \begin{bmatrix} 1 \\ 6 \end{bmatrix}
+$$
 
- 
+$$
+\begin{bmatrix} x \\ y \end{bmatrix}
+= \begin{bmatrix} 1 \\ 6 \end{bmatrix}
+$$
 
-Definition: 
+Thus, $x = 1$ and $y = 6$.
 
- 
+## Cramer's Rule for Solving Systems of Equations
 
-The cofactor of entry aij is the quantity 
+Cramer's Rule provides a method to solve a system of linear equations using determinants. For a system represented by $A \cdot X = B$, where $A$ is an $n \times n$ matrix, the solution is given by the following steps.
 
- 
+### Definitions:
 
-Cij 
+- $\Delta$: The determinant of the coefficient matrix $A$.
+- $\Delta_x$: The determinant of the matrix obtained by replacing the first column of $A$ with $B$.
+- $\Delta_y$: The determinant of the matrix obtained by replacing the second column of $A$ with $B$.
 
-def
-= ( − 1)i +j Mij 
+### Solution for 2 Variables
 
- 
+For a system with two variables $x$ and $y$, the solution is:
 
-It can be shown that the Leibniz formula for determinants can be written 
-using cofactors in the form given in the following theorem. 
+$$
+x = \frac{\Delta_x}{\Delta}, \quad y = \frac{\Delta_y}{\Delta}
+$$
 
- 
+---
 
- 
+### Example 8: Solving a System Using Cramer's Rule
 
- 
+Solve the following system for $x$ and $y$ using Cramer's Rule:
 
- 
+$$
+2x + y = 8
+$$
 
- 
+$$
+-2x + 3y = 16
+$$
 
+First, calculate the determinant of the coefficient matrix $A$:
 
-Advanced Higher Notes (Unit 3) Matrices 
+$$
+\Delta = \begin{vmatrix}
+2 & 1 \\
+-2 & 3
+\end{vmatrix}
+= 2(3) - (-2)(1) = 6 + 2 = 8
+$$
 
-M Patel (April 2012) 16 St. Machar Academy 
+Next, calculate $\Delta_x$ by replacing the first column of $A$ with $B$:
 
-Theorem: 
+$$
+\Delta_x = \begin{vmatrix}
+8 & 1 \\
+16 & 3
+\end{vmatrix}
+= 8(3) - 16(1) = 24 - 16 = 8
+$$
 
- 
+Now, calculate $\Delta_y$ by replacing the second column of $A$ with $B$:
 
-The determinant of an n × n matrix is given by the Laplace expansion 
-formula, 
+$$
+\Delta_y = \begin{vmatrix}
+2 & 8 \\
+-2 & 16
+\end{vmatrix}
+= 2(16) - (-2)(8) = 32 + 16 = 48
+$$
 
- 
+Finally, solve for $x$ and $y$:
 
-det (A )  =  
+$$
+x = \frac{\Delta_x}{\Delta} = \frac{8}{8} = 1
+$$
 
- 1
+$$
+y = \frac{\Delta_y}{\Delta} = \frac{48}{8} = 6
+$$
 
-n
+Thus, the solution is $x = 1$ and $y = 6$.
 
-ij ij
+## Key Takeaways
 
-j
-
-a C
-
-=
-
-∑ (i = 1, 2, 3, … , n) 
-
- 
-
-The Laplace expansion formula expresses the determinant of a matrix in 
-terms of smaller determinants. For satisfaction and reassurance, the 
-following theorems should be proven using the Laplace expansion formula. 
-
- 
-
-Theorem: 
-
- 
-
-The determinant of a 1  ×  1 matrix is, 
-
- 
-
-A ≡ (a) = a 
-
- 
-
-Theorem: 
-
- 
-
-The determinant  of a 2  ×  2 matrix is, 
-
- 
-
-A ≡ 
-
-a b 
-c d
-
-  
-  
- 
-
- = ad − bc 
-
- 
-
-Theorem: 
-
- 
-
-The determinant  of a 3  ×  3 matrix is, 
-
- 
-
-A ≡ 
-
-a b c 
-d e f 
-g h i
-
- 
- 
- 
- 
- 
-
- = a e f 
-h i
-
-  
-  
- 
-
- − b d f 
-g i
-
-  
-  
- 
-
- + c d e 
-g h
-
-  
-  
- 
-
- 
-
- 
-
-Notice that these are precisely the expressions for the denominators for 
-the systems at the start of this section. 
-
- 
-
- 
-
- 
-
- 
-
-
-Advanced Higher Notes (Unit 3) Matrices 
-
-M Patel (April 2012) 17 St. Machar Academy 
-
-Example 15 
-
- 
-
-Calculate the determinant of the matrix B = 1 4
-2 6
-
- −  
-  
- 
-
-. 
-
- 
-
-det (B ) = 1 4
-2 6
-
- −  
-  
- 
-
-     
-
- 
-
- = 1.6 − ( −4).2 
-    
-   =  14 
-
- 
-
-Example 16 
-
- 
-
-Calculate the determinant of the matrix F  =  
-
-1 2 7
-6 0 1
-3 10 4
-
- − 
- 
- − 
-− − 
-
- 
-
-. 
-
- 
-
-                   det (F )  =  
-
-1 2 7
-6 0 1
-3 10 4
-
- − 
- 
- − 
-− − 
-
- 
-
-  
-
- 
-
-                                       =   1 
-
-0 1 
-10 4
-
- − 
- 
-− 
-
- − (−2) 
-
-6 1 
-3 4
-
- −  
- 
-− 
-
- + 7 
-
-6 0 
-3 10
-
- 
- 
-− − 
-
- 
-
- 
-
- = 1 (0 − 10) + 2 (24 − 3) + 7 ( −60 − 0) 
-
- 
-
- = − 388 
-
- 
-
-Example 17 
-
- 
-
-Solve the equation 2 4
-3x 5
-
- − 
- 
- 
-
-  =  21 for x. 
-
- 
-
-2 4 
-3x 5
-
- − 
- 
- 
-
-  =  21 
-
-  
- 10 + 12x = 21 
-
-
-Advanced Higher Notes (Unit 3) Matrices 
-
-M Patel (April 2012) 18 St. Machar Academy 
-
- 
-
-          12x  =  11 
-
- 
-
-x = 1121 
-
- 
-
-Properties of Determinants 
-
- 
-
-The following properties hold for n × n matrices and k ∈ ℝ . 
- 
-• det (AB ) = det (A ) det (B ) 
-
- 
-
-• det (kA ) = k n det (A ) 
-
- 
-
-• det (A T ) = det (A ) 
-
- 
-
-Inverse of a Matrix 
-
- 
-
-Inverse Matrices  
-
- 
-
-Of all the operations that have been described for matrices, that of 
-division has not been mentioned. The closest concept of ‘ division of 
-matrices ’ involves the following.  
-
- 
-
-Definition: 
-
- 
-
-An n × n matrix A has an inverse if there is a matrix (denoted A −1 ) 
-such that, 
-
- 
-
-AA −1 = A −1 A = In 
-
- 
-
-If a matrix A  has an inverse, then A is said to be invertible (aka non-
-singular).  
-
- 
-
-If a matrix does not have an inverse, then it is non-invertible (aka 
-singular). 
-
- 
-
-Theorem: 
-
- 
-
-A matrix has only 1 inverse. 
-
-
-Advanced Higher Notes (Unit 3) Matrices 
-
-M Patel (April 2012) 19 St. Machar Academy 
-
- 
-
-Definition: 
-
- 
-
-The cofactor matrix of a square matrix A  is the matrix C  whose (i, j )th 
-entry is Cij . 
-Definition: 
-
- 
-
-The adjugate (aka classical adjoint) of a square matrix A is the 
-transpose of the cofactor matrix C, 
-
- 
-
-adj (A )  
-
-def
-= C T 
-
- 
-
-Theorem: 
-
- 
-
-The inverse of a matrix A  is given by, 
-
- 
-
-A −1 = 
-
-adj ( ) 
-det ( )
-
-A
-A
-
- 
-
- 
-
-Theorem: 
-
- 
-
-A matrix is invertible iff det (A ) ≠ 0. 
-
- 
-
-This theorem implies that a matrix is non-invertible iff det (A )  =  0. 
-
- 
-
-Example 18 
-
- 
-
-Show that A  =  
-
-1 0 4
-2 0 17 
-4 17 6
-
- 
- 
-− 
- 
- 
-
- is invertible. 
-
- 
-
-                   det (A )  =  
-
-1 0 4
-2 0 17
-4 17 6
-
- 
- 
-− 
- 
- 
-
- 
-
- 
-
-                            =   1 
-
-0 17 
-17 6
-
- 
- 
- 
-
- − 0 2 17
-4 6
-
-−  
- 
- 
-
- + 4 2 0 
-4 17
-
-−  
- 
- 
-
- 
-
- 
-
-
-Advanced Higher Notes (Unit 3) Matrices 
-
-M Patel (April 2012) 20 St. Machar Academy 
-
- = 1 (0 − 289) + 4 (−34 − 0) 
-
- 
-
- = − 425 
-
- 
-
-Hence, as det (A ) ≠ 0, A is invertible. 
-
- 
-
-Example 19 
-Determine the values of k for which the matrix 2
-2 5
-
-k
-
-k 
-
- − 
- 
-− + 
-
- is singular. 
-
- 
-
-For singularity, we require the determinant of the given matrix to be 0.  
-
- 
-
-2
-2 5
-
-k
-
-k
-
- − 
- 
-− + 
-
-   =   0 
-
- 
-
- k (k + 5) − ( −2). (−2) = 0 
-
- 
-
- k2 + 5k + 4 = 0 
-
- 
-
- (k + 1) (k + 4) = 0 
-
- 
-
-Hence, the given matrix is singular when k = −1 and k = −4. 
-
- 
-
-Example 20 
-
- 
-
-If the matrix A satisfies the equation A 2 = 18A − 27I2 , show 
-(without explicitly calculating A −1 ) that A −1 = DA + EI2 , stating the 
-values of D and E. 
-
- 
-
-A 2 = 18A − 27
-
-I2 
-
- 
-
-Multiplying (doesn’t matter whether post or pre, as the only matrices 
-involved are A and I2 ) this equation throughout by A −1 gives, 
-
- 
-
- A −1 A 2 = A −1 (18A − 27I2 ) 
-
- 
-
-Performing the multiplications and simplifying gives, 
-
- 
-
- A = 18I2 − 27A −1 
-
-
-Advanced Higher Notes (Unit 3) Matrices 
-
-M Patel (April 2012) 21 St. Machar Academy 
-
- 
-
-Rearranging and solving for A −1 gives, 
-
- 
-
- A −1 = −
-
-1
-27 A + 
-
-2
-3 I2 
-
- 
-
-Hence, D = − 1
-
-27 and E = 
-
-2
-3 . 
-
- 
-
-Inverse and Systems of Equations  
-
- 
-
-An n  ×  n  system of equations with coefficient matrix A  and solution 
-represented by the column matrix x  can be written as, 
-
- 
-
-A x  =  b 
-
- 
-
-where b is the RHS of the system of equations. Assuming the inverse 
-A −1 exists, multiplying the above equation by A −1 gives, 
-
- 
-
-A −1 A x = A −1 b 
-
- 
-
- x = A −1 b 
-
- 
-
-In other words, the following theorem holds. 
-
- 
-
-Theorem: 
-
- 
-
-The n  ×  n  system of equations,  
-
- 
-
-A x  =  b 
-
- 
-
-has a solution if A −1 exists; the solution is then obtained by calculating, 
-
- 
-
-x = A −1 b 
-
- 
-
-This result is stated differently in terms of determinants in the following 
-theorem. 
-
- 
-
- 
-
- 
-
- 
-
-
-Advanced Higher Notes (Unit 3) Matrices 
-
-M Patel (April 2012) 22 St. Machar Academy 
-
- 
-
-Corollary: 
-
- 
-
-A system of n  equations in n  unknowns has a solution if the determinant 
-of the coefficient matrix is non-zero. 
-
- 
-
-Example 21 
-
- 
-
-Determine the value of k  for which the following system of equations has 
-a solution. 
-
- 
-
-1
-2 3 0
-4 3
-
-x y z
-x ky z
-x y z
-
-+ + =
-− + =
-+ − =
-
- 
-
- 
-
-The coefficient matrix is,  
-
- 
-
-1 1 1 
-2 3 
-1 4 1
-
-k
-
- 
- 
- 
- − 
-
- 
-
- 
-
- 
-
-The determinant of the coefficient matrix is,  
-
- 
-
-1 1 1 
-2 3 
-1 4 1
-
-k
-
- 
- 
- 
- − 
-
- 
-
- = 1 3 
-4 1
-
-k  
-  
- − 
-
- − 1 2 3 
-1 1
-
-  
-  
- − 
-
- + 1 2
-1 4
-
- k  
-  
- 
-
- 
-
- 
-
- = ( −k − 12) − ( −2 − 3) + (8 − k) 
-
- 
-
- = −2k − 15 
-
- 
-
-According to the previous theorem, the system of equations has a 
-solution when −2k − 15 ≠ 0, i.e. when k ≠ − 15
-
-2 . 
-
- 
-
-In practice, the formula for the inverse involving the adjugate is difficult 
-to use from scratch. Fortunately, for the cases we are interested in, 
-there are other approaches.  
-
- 
-
- 
-
-
-Advanced Higher Notes (Unit 3) Matrices 
-
-M Patel (April 2012) 23 St. Machar Academy 
-
- 
-
-Inverse of a 2 x 2 Matrix 
-
- 
-
-Theorem: 
-
- 
-
-The inverse of the 2 × 2 matrix a b 
-c d
-
-  
-  
- 
-
- is,  
-
- 
-
-A −1 = 
-
-1
-ad − bc 
-
-d b 
-c a
-
- − 
- 
-− 
-
- 
-
- 
-
-This is just the adjugate formula for a 2 × 2 matrix, but it is easier to 
-remember in this form.  
-
- 
-
-Example 22 
-
- 
-
-Find the inverse of the matrix 7 3
-4 2
-
- −  
- 
- 
-
-. 
-
- 
-
-Using the formula in the above theorem gives,  
-
- 
-
- 1
-
-7 3 
-4 2
-
-  −
-
-−
- 
- 
-
-  =   
-
-1
-7.2 − ( −3).4
-
-2 3 
-4 7
-
- 
- 
-− 
-
-   
-
- 
-
-                                  
-
- 1
-
-7 3 
-4 2
-
-  −
-
-−
- 
- 
-
- = 1
-26
-
-2 3 
-4 7
-
- 
- 
-− 
-
- 
-
- 
-
-It is ok to leave the answer in this form, instead of actually performing 
-the scalar multiplication; there is no virtue in complicating an already ugly 
-answer (technically, the answer in the form above is fully simplified, as 
-the 1
-
-26 has been factorised out). 
-
- 
-
- 
-
-Example 23 
-
- 
-
-Solve the following equation for x  and y. 
-
- 
-
-
-Advanced Higher Notes (Unit 3) Matrices 
-
-M Patel (April 2012) 24 St. Machar Academy 
-
- 2 1
-2 3
-
-  
-  
-− 
-
-x
-y
-
- 
-
- 
-
- 
-
- = 8
-16
-
- 
-
- 
-
- 
-
-   
-
- 
-
-Multiplying this equation by 
-
- 1
-
-2 1 
-2 3
-
-  −
-  
-− 
-
-, which equals 1
-8
-
-3 1 
-2 2
-
- −  
-  
- 
-
- (check !), 
-
-gives, 
-
- 
-
- x
-y
-
- 
-
- 
-
- 
-
- = 1
-8
-
-3 1 
-2 2
-
- −  
-  
- 
-
-8
-16
-
- 
-
- 
-
- 
-
-   
-
- 
-
- x
-y
-
- 
-
- 
-
- 
-
- = 3 1
-2 2
-
- −  
-  
- 
-
-1
-2
-
- 
-
- 
-
- 
-
-   
-
- 
-
-Performing the matrix multiplication gives x  =  1 and y  =  6. Check that 
-these values work in the original equation. 
-
- 
-
-Inverse of a 3 x 3 Matrix 
-
- 
-
-Recall that the n  ×  n  system A x  =  b  can be solved by calculating x  =  
-
-A −1 b. Picking b to be 
-
-1
-
-1
-0
-
- 
-
-0
-
-b
-
- 
-
- 
- 
-=  
- 
-
- 
-
-⋮
-
-, 2
-
-0
-1
-
- 
-
-0
-
-b
-
- 
-
- 
- 
-=  
- 
-
- 
-
-⋮
-
-, …, 
-
-0
-0
-
-bn 
-
-n
-
- 
-
- 
- 
-=  
- 
-
- 
-
-⋮
-
- shows that the 
-
-solution vector x picks out the columns of A −1 (b1 picks out the first 
-column of A −1 etc.). Alternatively, the solution vectors x can be obtained 
-by row-reducing the augmented matrices, 
-
- 
-
-(A b1 ) 
-
- 
-
-(A b2 ) 
-
- 
-
-⋮ 
-
- 
-
-(A bn ) 
-
- 
-
-
-Advanced Higher Notes (Unit 3) Matrices 
-
-M Patel (April 2012) 25 St. Machar Academy 
-
-so that the LHS of each gives the identity matrix. According to the first 
-way of obtaining the RHS, what is left on each RHS will be the columns of 
-A −1 . 
-
- 
-
-These n calculations can be performed in one go by forming a giant 
-Augmented matrix consisting of A on the LHS, but now b1 , b2 , …, bn 
-written beside each other so that the RHS is effectively In . 
-
- 
-
-Theorem: 
-
- 
-
-The inverse of A  can be found by row-reducing the extended Augmented 
-matrix, 
-
- 
-
-(A In ) 
-
- 
-
-into,    
-
- 
-
-(In B) 
-
- 
-
-Then B = A −1 . 
-
- 
-
-This theorem is mainly used for a 3  ×  3 matrix A. 
-
- 
-
-Example 24 
-
- 
-
-Find the inverse of N  =  
-
-1 0 4 
-2 0 7 
-4 1 6
-
- 
- 
-− 
- 
- 
-
-. 
-
- 
-
-First set up the big-daddy Augmented matrix,  
-
- 
-
-1 0 4 1 0 0 
-2 0 7 0 1 0 
-4 1 6 0 0 1
-
- 
-
- 
- 
-− 
- 
- 
-
- 
-
- 
-
-Then use EROs to reduce this matrix so that the LHS becomes I3 ; the 
-RHS will then be N −1 . 
-
- 
-
-
-Advanced Higher Notes (Unit 3) Matrices 
-
-M Patel (April 2012) 26 St. Machar Academy 
-
- 
-
-R2 → R2 + 2R1 
-R3 → R3 − 4R1 
-
-1 0 2 1 0 0 
-0 0 11 2 1 0 
-0 1 2 4 0 1
-
- 
-
- 
- 
- 
- − − 
-
- 
-
- 
-
- 
-
-2 2
-
-1
-R R
-
-↔ 11 
-
-2 1
-11 11
-
-1 0 2 1 0 0 
-0 0 1 0
-0 1 2 4 0 1
-
- 
-
- 
- 
- 
- − − 
-
- 
-
- 
-
- 
-
-R2 ↔ R3 
-
-2 1
-11 11
-
-1 0 2 1 0 0 
-0 1 2 4 0 1 
-0 0 1 0
-
- 
-
- 
- 
- − − 
- 
- 
-
- 
-
- 
-
-R2 → R2 + 2R3 
-
-40 2
-11 11
-2 1
-11 11
-
-1 0 2 1 0 0 
-0 1 0 1
-0 0 1 0
-
- 
-
- 
- 
- − 
- 
- 
-
- 
-
- 
-
-R1 → R1 − 2R3 
-
-7 2
-11 11
-40 2
-11 11
-2 1
-11 11
-
-1 0 0 0
-0 1 0 1
-0 0 1 0
-
- 
-
- − 
- 
- − 
- 
- 
-
- 
-
- 
-
-To get the inverse into a slightly slicker form, factorise out the fraction,  
-
- 
-
-N −1 = 
-
-1
-11
-
-7 2 0
-40 2 11 
-2 1 0
-
- − 
- 
-− 
- 
- 
-
- 
-
- 
-
- 
-
- 
-
-
-Advanced Higher Notes (Unit 3) Matrices 
-
-M Patel (April 2012) 27 St. Machar Academy 
-
-Properties of Inverse Matrices 
- 
-• (AB) −1 = B −1 A −1 
-
- 
-
-• (A −1 ) T = (A T ) −1 
-
- 
-
-• det (A −1 ) = 
-
-1
-det (A )
-
- 
-
- 
-
-• (kA ) −1 = 1
-k
-
-A −1 
-
- 
-
-Transformation Matrices 
-
- 
-
-Definition: 
-
- 
-
-A (geometrical) transformation is a way of changing points in space. 
-
- 
-
-In this course, we will focus on transformations in the xy - plane. A 
-transformation is described by a function. 
-
- 
-
-Definition: 
-
- 
-
-A linear transformation in the plane is a function that sends a point P (x, 
-y) to a point Q (ax + by, cx + dy) (a, b, c, d ∈ ℝ ). 
-
- 
-
-Geometrical transformations can be described using matrices. 
-
- 
-
-Theorem: 
-
- 
-
-A linear transformation in the plane can be described as a matrix 
-equation,  
-
- 
-
-x'
-y'
-
-  
-  
- 
-
-   
-
-def
-
-= ax by 
-cx dy
-
- + 
- 
- + 
-
- = a b 
-c d
-
-  
-  
- 
-
-x
-y
-
-  
-  
- 
-
- 
-
- 
-
-The matrix a b 
-c d
-
-  
-  
- 
-
- is called the transformation matrix. 
-
- 
-
-
-Advanced Higher Notes (Unit 3) Matrices 
-
-M Patel (April 2012) 28 St. Machar Academy 
-
-A transformation matrix can be determined by looking at where the 
-geometrical transformation sends the points (0, 1) and (1, 0). 
- 
-Example 25 
-
- 
-
-Find the matrix associated with the transformation (x, y) → (x ’, y ′) 
-where x ′ = 2x + 5y and y ′ = x − 3y. 
-
- 
-
-Thinking in terms of matrices and vectors,  
-
- 
-
-x'
-y'
-
-  
-  
- 
-
- = a b 
-c d
-
-  
-  
- 
-
-x
-y
-
-  
-  
- 
-
- 
-
- 
-
-shows that x ′ = ax + by and y ′ = cx + dy. Comparing this with x ′ = 
-2x + 5y and y ′ = x − 3y gives a = 2, b = 5, c = 1, and d = −3. So, 
-the required transformation matrix is 2 5 
-1 3
-
-  
-  
- − 
-
-. 
-
- 
-
-Example 26 
-
- 
-
-Find the image of the point P (3, −1) under the transformation associated 
-with the matrix 1 2
-3 0
-
- −  
-  
- 
-
-. 
-
- 
-
-The image of P is given by P ′ (x ’, y ′) where, 
-
- 
-
-x'
-y'
-
-  
-  
- 
-
- = 1 2
-3 0
-
- −  
-  
- 
-
-3
-
-1
-
-  
-  
-− 
-
- 
-
- 
-
-This gives x ′  =  5 and y ′  =  9, Thus, the image of P is P ′ (5, 9). 
-
- 
-
-Invariant Points  
-
- 
-
-Some points are left unchanged under a transformation. If x is a 
-coordinate vector of a point and T  the transformation matrix, then the 
-following definition can be made. 
-
- 
-
- 
-
- 
- 
-
-
-Advanced Higher Notes (Unit 3) Matrices 
-
-M Patel (April 2012) 29 St. Machar Academy 
-
-Definition: 
-
- 
-
-An invariant point is a point whose coordinates stay the same after a 
-transformation, 
-
- 
-
-Tx  =  x 
-
- 
-
-Example 27 
-
- 
-
-Find the invariant points under the transformation described by the 
-matrix 1 2
-2 3
-
-  
-  
- 
-
-.  
-
- 
-
-The matrix equation, 
-
- 
-
-x
-y
-
-  
-  
- 
-
- = 1 2 
-2 3
-
-−  
-  
- 
-
-x
-y
-
-  
-  
- 
-
- 
-
- 
-
-yields the equations x = −x + 2y and y = 2x + 3y, which simplify to 
-x = y and x = −y. Solving these gives x = 0, and y = 0. Hence, (0, 0) is 
-the only invariant point under this transformation.  
-
- 
-
-There are some standard transformations that must be known. 
-
- 
-
-Reflection in the x - axis 
-
- 
-
-Theorem: 
-
- 
-
-A reflection in the x-axis is described by the transformation matrix, 
-
- 
-
-1 0 
-0 1
-
-  
-  
- − 
-
- 
-
- 
-
-Reflection in the y – axis 
-
- 
-
-Theorem: 
-
- 
-
-A reflection in the y-axis is described by the transformation matrix, 
-
- 
-
-
-Advanced Higher Notes (Unit 3) Matrices 
-
-M Patel (April 2012) 30 St. Machar Academy 
-
- 
-
-1 0 
-0 1
-
-−  
-  
- 
-
- 
-
- 
-
-Reflection in the Line y = x 
-
- 
-
-Theorem: 
-
- 
-
-A reflection in the line y  =  x  is described by the transformation matrix, 
-
- 
-
-0 1 
-1 0
-
-  
-  
- 
-
- 
-
- 
-
-Anticlockwise rotation about the origin  
-
- 
-
-Theorem: 
-
- 
-
-An anticlockwise rotation of angle θ about the origin is described by the 
-transformation matrix, 
-
- 
-
-cos sin 
-sin cos 
-
-θ θ
-θ θ
-
- − 
- 
- 
-
- 
-
- 
-
-Dilatation (Scaling) 
-
- 
-
-Definition: 
-
- 
-
-A dilatation (aka scaling or homothety) is a transformation that scales 
-each coordinate of a point by the same amount.  
-
- 
-
-Theorem: 
-
- 
-
-A dilatation is described by the transformation matrix, 
-
- 
-
-0
-
-0
-
-k
-
-k
-
-  
-  
- 
-
- (k ∈ ℝ ) 
-
- 
-
-
-Advanced Higher Notes (Unit 3) Matrices 
-
-M Patel (April 2012) 31 St. Machar Academy 
-
-If k > 1, the dilatation is an enlargement, whereas if k < 1, the 
-dilatation is a reduction. If k  <  0, then the dilatation inverts 
-
- 
-
-Transformation matrices are usually combined to yield a resultant 
-transformation. 
-
- 
-
-Example 28 
-
- 
-
-Find the transformation matrix associated with a reflection in the x-axis 
-followed by anti-clockwise rotation of 90° about the origin.  
-
- 
-
-The first transformation is the reflection, which we will label as TR , and 
-the second is the rotation, labelled as Tθ . Taking a generic point P, the 
-first transformation will be TR (P) and the second one will be Tθ (TR (P)). In 
-other words, we have to perform matrix multiplication (and remember 
-that, in general, the order of multiplication matters). So, the required 
-transformation is, 
-
- 
-
-Tθ TR = 
-
-0 1 
-1 0
-
- −  
- 
- 
-
- 1 0 
-0 1
-
-  
-  
- − 
-
- 
-
- 
-
- = 0 1
-1 0
-
-  
-  
- 
-
- 
-
- 
-
-Notice that this is the same as reflecting in the line y  =  x. 
-
- 
-
-Example 29 
-
- 
-
-Find the image of the point P (1, 2) after a reflection in the line y  =  x 
-followed by the dilatation 7 0
-0 7
-
-  
-  
- 
-
-. 
-
- 
-
-The image of P will be given by, 
-
- 
-
-7 0 
-0 7
-
-  
-  
- 
-
- 0 1 
-1 0
-
-  
-  
- 
-
- 1
-2
-
-  
-  
- 
-
- 
-
- 
-
-
-Advanced Higher Notes (Unit 3) Matrices 
-
-M Patel (April 2012) 32 St. Machar Academy 
-
-Performing this multiplication gives the vector 14
-7
-
-  
-  
- 
-
-. So, the image of P is 
-
-P ′ (14, 7).   
-
- 
-
-Transformation of Loci 
-
- 
-
-It is important to know where sets of points, for example, those on a 
-curve, get mapped to under a transformation. 
-
- 
-
-Example 30 
-
- 
-
-Find the equation of the image of the curve with equation y = x 2 under 
-the transformation with associated matrix 1 2
-2 3
-
-  
-  
- 
-
-. 
-
- 
-
-Let the image of a point P (x, y) be P ′ (x ’, y ′ ). Then,  
-
- 
-
-x'
-y'
-
-  
-  
- 
-
- = 1 2 
-2 3
-
-  
-  
- 
-
- x
-y
-
-  
-  
- 
-
- 
-
- 
-
- x
-y
-
-  
-  
- 
-
-  =  
-
- 1
-
-1 2 
-2 3
-
-  −
- 
- 
-
- x'
-y'
-
-  
-  
- 
-
- 
-
- 
-
- x
-y
-
-  
-  
- 
-
- = 3 2 
-2 1
-
-−  
- 
- − 
-
- x'
-y'
-
-  
-  
- 
-
- 
-
- 
-
- x
-y
-
-  
-  
- 
-
- = x' y'
-x' y'
-
-3 2
-2
-
-− + 
- 
- − 
-
- 
-
- 
-
-Substituting the above expressions for x and y into y = 3x 2 gives the 
-image curve equation in implicit form as 2x' − y' = 3( −3x' + 2y' )2 .
+- **Symmetric matrices** are equal to their transposes and must be square, with the elements mirrored across the main diagonal.
+- **Skew-symmetric matrices** are the negative of their transposes and must be square, with all diagonal elements equal to zero.
+- The determinant of a $2 \times 2$ matrix is calculated as $ad - bc$.
+- For a $3 \times 3$ matrix, the determinant can be computed using cofactor expansion along any row or column.
+- Determinants have several important properties, such as being invariant under transpose and related to the matrix multiplication.
+- A matrix is **invertible** (non-singular) if its determinant is non-zero.
+- The inverse of a $2 \times 2$ matrix can be found using the adjoint and determinant.
+- The inverse matrix properties allow for operations such as multiplication and transposition of matrices.
+- A system of equations can be solved using the inverse of the coefficient matrix if it is invertible.
+- Cramer's Rule provides an alternative method for solving systems using determinants.
+- Both methods give the same results, and the system has a solution if the determinant of the coefficient matrix is non-zero.

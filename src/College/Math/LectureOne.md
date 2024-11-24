@@ -3,9 +3,8 @@ prev:
   text: "Lectures"
   link: "/College/Math/index"
 next:
-  false
-  # text: "Lecture Two"
-  # link: "/College/Math/LectureTwo"
+  text: "Lecture Two"
+  link: "/College/Math/LectureTwo"
 ---
 
 # Lecture One: Matrices Basic Definitions and Operations
@@ -421,7 +420,7 @@ p & 16p
 \begin{bmatrix}
 q & 0 \\
 0 & q
-\end{bmatrix} 
+\end{bmatrix}
 $$
 $$
 = \begin{bmatrix}
@@ -463,7 +462,7 @@ $$
 $$
 18(18A - 27I_2) - 27A
 $$
-$$ 
+$$
 324A - 486I_2 - 27A
 $$
 $$

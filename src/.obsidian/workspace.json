@@ -16,7 +16,7 @@
                 "file": "College/Math/LectureTwo.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "LectureTwo"
@@ -193,10 +193,10 @@
   "active": "1b51be24b38c104f",
   "lastOpenFiles": [
     "College/Math/LectureOne.md",
+    "College/Math/draft.md",
     "College/Math/LectureTwo.md",
     "College/Math/index.md",
     "College/index.md",
-    "College/Math/draft.md",
     "College/IT-Essentials/Lectures/LectureFour.md",
     "College/IT-Essentials/Lectures/LectureOne.md",
     "College/IT-Essentials/Lectures/LectureThree.md",

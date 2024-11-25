@@ -7172,6 +7172,8 @@ Solve
 Scaling
 Such
 Singularity
+Simplified
+Substitute
 iH
 ic
 iP
@@ -12129,6 +12131,7 @@ Cramer
 Calculating
 Conversely
 Condition
+Cofactor
 vb
 vO
 vvF
@@ -15816,6 +15819,8 @@ Assuming
 Alternatively
 Anticlockwise
 Adjoint
+Adjugate
+Applying
 Jw
 Jg
 JT

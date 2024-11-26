@@ -20,7 +20,7 @@ next: false
 
 - [Math](Math/index.md)
   - [Lecture One](Math/LectureOne.md)
-  - [LectureTwo](Math/LectureTwo.md)
+  - [Lecture Two](Math/LectureTwo.md)
 
 <!-- - [Physics](Physics/index.md) -->
   <!-- - [Lectures](Physics/Lectures/index.md) -->

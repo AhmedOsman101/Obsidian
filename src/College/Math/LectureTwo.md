@@ -436,7 +436,7 @@ $$
    $$
 
 2. **Cofactor Matrix**
-   The cofactor matrix is obtained by calculating the determinant of the minor for each element of $A$ following the [Sign Rule](#Sign%20Rule%20for%20$3%20times%203$%20Determinants).
+   The cofactor matrix is obtained by calculating the determinant of the minor for each element of $A$ following the [Sign Rule](#Sign-20Rule-for-$3-\times-3$-Determinants).
 
 The cofactor matrix for $A$ is:
 

@@ -2,12 +2,12 @@
 prev:
    text: 'IT-Essentials'
    link: '/College/IT-Essentials/index'
-next: false
-   # text: 'Assignment Two'
-   # link: '/College/IT-Essentials/AssignmentTwo'
+next:
+   text: 'Task Two'
+   link: '/College/IT-Essentials/AssignmentTwo'
 ---
 
-# Section 1 - Assignment 1
+# Task One
 
 ## Suggested PC Build
 

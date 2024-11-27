@@ -3,9 +3,8 @@ prev:
   text: "Lecture One"
   link: "/College/Math/LectureOne"
 next:
-  false
-  # text: "Lecture Three"
-  # link: "/College/Math/LectureThree"
+  text: "Lecture Three"
+  link: "/College/Math/LectureThree"
 ---
 
 # Lecture Two: Determinants, Inverse Matrices and Systems of Equations
@@ -137,6 +136,8 @@ $$
 ---
 
 ### Sign Rule for $3 \times 3$ Determinants
+
+^3e3596
 
 To calculate the determinant of a $3 \times 3$ matrix, you can use the **sign rule** based on the positions of the elements in the matrix. The signs alternate in a checkerboard pattern, as shown below:
 

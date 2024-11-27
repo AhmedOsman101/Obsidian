@@ -1,10 +1,10 @@
 ---
 prev:
   text: "Lectures"
-  link: "/College/Math/index"
+  link: "/College/Math/Lectures/index"
 next:
   text: "Lecture Two"
-  link: "/College/Math/LectureTwo"
+  link: "/College/Math/Lectures/LectureTwo"
 ---
 
 # Lecture One: Matrices Basic Definitions and Operations

@@ -7,6 +7,6 @@ next: false
 
 # Math
 
-- [Lecture One](LectureOne.md)
-- [Lecture Two](LectureTwo.md)
-- [Lecture Three](LectureThree.md)
+- [Lecture One](Lectures/LectureOne.md)
+- [Lecture Two](Lectures/LectureTwo.md)
+- [Lecture Three](Lectures/LectureThree.md)

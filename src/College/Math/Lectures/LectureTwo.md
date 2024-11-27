@@ -1,10 +1,10 @@
 ---
 prev:
   text: "Lecture One"
-  link: "/College/Math/LectureOne"
+  link: "/College/Math/Lectures/LectureOne"
 next:
   text: "Lecture Three"
-  link: "/College/Math/LectureThree"
+  link: "/College/Math/Lectures/LectureThree"
 ---
 
 # Lecture Two: Determinants, Inverse Matrices and Systems of Equations

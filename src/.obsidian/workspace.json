@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5f1d0e2e9aa8d937",
+        "id": "ad4545c2189ae7d8",
         "type": "tabs",
         "children": [
           {
-            "id": "d3e15e8958638c9c",
+            "id": "49e3c05a778d86b3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "College/index.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           }
         ]
@@ -144,9 +149,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "College/index.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of index"
             }
           },
           {
@@ -182,11 +189,21 @@
       "obsidian-tts:Text to Speech": false
     }
   },
-  "active": "d3e15e8958638c9c",
+  "active": "49e3c05a778d86b3",
   "lastOpenFiles": [
-    "College/Math/LectureTwo.md",
-    "College/Math/LectureThree.md",
-    "College/Math/draft.md",
+    "College/Math/index.md",
+    "College/Math/Lectures/LectureOne.md",
+    "College/Math/Lectures/LectureTwo.md",
+    "College/Math/Lectures/LectureThree.md",
+    "College/Math/Lectures/index.md",
+    "College/index.md",
+    "College/Math/Lectures",
+    "College/IntroToCyberSecurity/index.md",
+    "College/IntroToCyberSecurity/Lectures/LectureSix.md",
+    "College/IntroToCyberSecurity/imgs/hacker.png",
+    "College/IntroToCyberSecurity/Lectures/LectureFive.md",
+    "College/IntroToCyberSecurity/Lectures/LectureFour.md",
+    "College/Math/Lectures/draft.md",
     "College/Math/sed65yYM7",
     "College/Math/sedG9mbub",
     "College/Math/sed6PIm5A",
@@ -196,15 +213,11 @@
     "College/Math/sedUIEQ8H",
     "College/Math/sedxmDhrS",
     "College/Math/sed49Za6I",
-    "College/Math/sedg5Y9OP",
     "College/IT-Essentials/Assignments/AssingmentFour.md",
     "College/IT-Essentials/Assignments/AssingmentTwo.md",
     "College/IT-Essentials/Assignments/AssignmentOne.md",
     "College/Physics/Lectures/LectureOne.md",
-    "College/index.md",
-    "College/Math/index.md",
     "index.md",
-    "College/Math/LectureOne.md",
     "College/IT-Essentials/Lectures/LectureFour.md",
     "College/IT-Essentials/Lectures/LectureOne.md",
     "College/IT-Essentials/Lectures/LectureThree.md",
@@ -217,17 +230,12 @@
     "College/IT-Essentials/imgs/vports.png",
     "College/IT-Essentials/imgs/tape-floppy.png",
     "College/IT-Essentials/imgs/ssd.png",
-    "College/IT-Essentials/imgs/rom.png",
     "College/IT-Essentials/Lectures/LectureTwo.md",
     "College/IT-Essentials/Sections/SectionThree.md",
     "College/IT-Essentials/Sections/SectionTwo.md",
     "College/IT-Essentials/Sections/SectionOne.md",
     "College/Python/Sections/SectionThreePartTwo.md",
     "College/IT-Essentials/index.md",
-    "College/IT-Essentials/Sections/index.md",
-    "Courses/LinuxCrashCourse.md",
-    "College/Python/Lectures/LectureFour.md",
-    "College/Python/Lectures/LectureThree.md",
-    "College/Python/Lectures/LectureTwo.md"
+    "College/IT-Essentials/Sections/index.md"
   ]
 }

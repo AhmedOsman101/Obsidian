@@ -3,9 +3,8 @@ prev:
   text: Lecture Four
   link: /College/IntroToCyberSecurity/LectureFour
 next:
-  false
-  # text: Lecture Six
-  # link: /College/IntroToCyberSecurity/LectureSix
+  text: Lecture Six
+  link: /College/IntroToCyberSecurity/LectureSix
 ---
 
 # Introduction To Cybersecurity Lecture 5

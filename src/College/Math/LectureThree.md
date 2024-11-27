@@ -226,8 +226,6 @@ $$
 \lambda_1 = 2, \quad \lambda_2 = 5
 $$
 
----
-
 ## **Example 2: Cayley-Hamilton Method for a $2 \times 2$ Matrix**
 
 Let:
@@ -292,7 +290,7 @@ $$
 \end{vmatrix}
 $$
 
-Expanding along the third column (remember applying the [Sign rule](LectureTwo.md#^3e3596):
+Expanding along the third column (remember applying the [Sign rule](https://obsidian-notes-swart.vercel.app/College/Math/LectureTwo.html#sign-rule-for-determinants)):
 
 $$
 |A - \lambda I| =

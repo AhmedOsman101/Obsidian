@@ -137,8 +137,6 @@ $$
 
 ### Sign Rule for $3 \times 3$ Determinants
 
-^3e3596
-
 To calculate the determinant of a $3 \times 3$ matrix, you can use the **sign rule** based on the positions of the elements in the matrix. The signs alternate in a checkerboard pattern, as shown below:
 
 $$
@@ -437,7 +435,7 @@ $$
    $$
 
 2. **Cofactor Matrix**
-   The cofactor matrix is obtained by calculating the determinant of the minor for each element of $A$ following the [Sign Rule](#Sign-20Rule-for-$3-\times-3$-Determinants).
+   The cofactor matrix is obtained by calculating the determinant of the minor for each element of $A$ following the [Sign Rule](https://obsidian-notes-swart.vercel.app/College/Math/LectureTwo.html#sign-rule-for-determinants).
 
 The cofactor matrix for $A$ is:
 
@@ -503,7 +501,7 @@ $$
   \end{bmatrix}
   $$
 
-  Applying the [Sign Rule](#Sign%20Rule%20for%20$3%20times%203$%20Determinants):
+  Applying the [Sign Rule](https://obsidian-notes-swart.vercel.app/College/Math/LectureTwo.html#sign-rule-for-determinants):
 
   $$
   adj(A) = \begin{bmatrix}

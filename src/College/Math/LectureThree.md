@@ -29,7 +29,7 @@ $$
 For a non-trivial solution ($v \neq 0$), the matrix $(A - \lambda I)$ must be singular, meaning its determinant is zero:
 
 $$
-\det(A - \lambda I) = 0
+\|A - \lambda I| = 0
 $$
 
 This determinant equation gives a polynomial in $\lambda$, called the **characteristic polynomial**. The roots of this polynomial are the eigenvalues of $A$.
@@ -166,7 +166,7 @@ Eigenvalues are obtained by solving the cubic characteristic equation.
 
 ## Summary:
 
-- The **determinant method** directly computes eigenvalues from the characteristic polynomial $\det(A - \lambda I) = 0$.
+- The **determinant method** directly computes eigenvalues from the characteristic polynomial $\|A - \lambda I| = 0$.
 - The **Cayley-Hamilton theorem** leverages the characteristic polynomial to establish relationships between $A$ and its eigenvalues, offering additional insights into $A$'s powers and structure.
 
 ## Examples:
@@ -205,7 +205,7 @@ $$
 $$
 
 $$
-\det(A - \lambda I) = \lambda^2 - 7 \lambda + 12 - 2 = \lambda^2 - 7 \lambda + 10
+\|A - \lambda I| = \lambda^2 - 7 \lambda + 12 - 2 = \lambda^2 - 7 \lambda + 10
 $$
 
 #### **Step 3: Solve for $\lambda$:**
@@ -295,12 +295,12 @@ $$
 Expanding along the third column (remember applying the [Sign rule](LectureTwo.md#^3e3596):
 
 $$
-|A - \lambda I| = 
+|A - \lambda I| =
 0 \begin{vmatrix}
 2 & 5 - \lambda \\
 -3 & 4
 \end{vmatrix}
-- 
+-
 0 \begin{vmatrix}
 5 - \lambda & 2 \\
 -3 & 4
@@ -379,15 +379,15 @@ $$
 S_1 = \text{trac}(A) = 5 + 5 + 6 = 16
 $$
 $$
-S_2 = |A| = 
+S_2 = |A| =
 \begin{vmatrix}
 5 & 0 \\
 4 & 6
-\end{vmatrix} + 
+\end{vmatrix} +
 \begin{vmatrix}
 5 & 0 \\
 -3 & 6
-\end{vmatrix} + 
+\end{vmatrix} +
 \begin{vmatrix}
 5 & 2 \\
 2 & 5

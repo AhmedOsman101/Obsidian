@@ -10,8 +10,6 @@ next:
 
 # Lecture Three: Eigenvalues
 
-Eigenvalues are a fundamental concept in linear algebra that are used in many applications, including solving systems of differential equations, analyzing stability, and performing dimensionality reduction (e.g., PCA). Let’s break down the methods you’ve mentioned: **the determinant method** and **the Cayley-Hamilton method** for finding eigenvalues.
-
 ## 1. Eigenvalues Using the Determinant Method
 
 Eigenvalues of a square matrix $A$ are values $\lambda$ for which there exists a non-zero vector $v$ (called an eigenvector) such that:
@@ -29,7 +27,7 @@ $$
 For a non-trivial solution ($v \neq 0$), the matrix $(A - \lambda I)$ must be singular, meaning its determinant is zero:
 
 $$
-\|A - \lambda I| = 0
+|A - \lambda I| = 0
 $$
 
 This determinant equation gives a polynomial in $\lambda$, called the **characteristic polynomial**. The roots of this polynomial are the eigenvalues of $A$.
@@ -205,7 +203,7 @@ $$
 $$
 
 $$
-\|A - \lambda I| = \lambda^2 - 7 \lambda + 12 - 2 = \lambda^2 - 7 \lambda + 10
+|A - \lambda I| = \lambda^2 - 7 \lambda + 12 - 2 = \lambda^2 - 7 \lambda + 10
 $$
 
 #### **Step 3: Solve for $\lambda$:**

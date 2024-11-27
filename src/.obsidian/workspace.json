@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d034250885d75572",
+        "id": "5f1d0e2e9aa8d937",
         "type": "tabs",
         "children": [
           {
-            "id": "c1fbdd2da68f795b",
+            "id": "d3e15e8958638c9c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/Math/LectureThree.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "LectureThree"
+              "title": "New tab"
             }
           }
         ]
@@ -88,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5,
-    "collapsed": true
+    "width": 271.5
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -150,11 +144,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "College/Math/LectureThree.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of LectureThree"
+              "title": "Outline"
             }
           },
           {
@@ -190,7 +182,7 @@
       "obsidian-tts:Text to Speech": false
     }
   },
-  "active": "c1fbdd2da68f795b",
+  "active": "d3e15e8958638c9c",
   "lastOpenFiles": [
     "College/Math/LectureTwo.md",
     "College/Math/LectureThree.md",

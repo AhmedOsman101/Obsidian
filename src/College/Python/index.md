@@ -25,4 +25,4 @@ next: false
 
 - [Assignments](Assignments/index.md)
   - [Assignment One](Assignments/AssignmentOne.md)
-  - 
+  - [Assignment Two](Assignments/AssignmentTwo.md)

@@ -7,7 +7,7 @@ next: false
   # link: '/College/Python/Assignments/AssignmentTwo'
 ---
 
-# Section 1 - Assignment 1
+# Programming Essentials in Python Assignment 1
 
 ## 1. Detect whether these variable names are valid or not:
 

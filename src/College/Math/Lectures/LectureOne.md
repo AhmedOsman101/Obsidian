@@ -291,7 +291,7 @@ A^T = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-_Note_: A square matrix $A$ can be multiplied by itself any number of times, giving the $n^{th}$ power of $A$.
+> Note: A square matrix $A$ can be multiplied by itself any number of times, giving the $n^{th}$ power of $A$.
 
 $$
 A^2 = A \cdot A, \quad

@@ -13,6 +13,8 @@ next: false
   - [Lecture Two](Lectures/LectureTwo.md)
   - [Lecture Three](Lectures/LectureThree.md)
   - [Lecture Four](Lectures/LectureFour.md)
+  - [Lecture Five](Lectures/LectureFive.md)
+  - [LectureSix](Lectures/Lecture Six.md)
 
 - [Sections](Sections/index.md)
 
@@ -23,3 +25,4 @@ next: false
 
 - [Assignments](Assignments/index.md)
   - [Assignment One](Assignments/AssignmentOne.md)
+  - 

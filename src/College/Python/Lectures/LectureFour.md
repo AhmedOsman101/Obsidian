@@ -1,10 +1,10 @@
 ---
 prev:
-  text: Lecture Three
-  link: /College/Python/Lectures/LectureThree
-next: false
-#   text: "Lecture Five"
-#   link: "/College/Python/Lectures/LectureFive"
+  text: "Lecture Three"
+  link: "/College/Python/Lectures/LectureThree"
+next:
+  text: "Lecture Five"
+  link: "/College/Python/Lectures/LectureFive"
 ---
 
 # Programming Essentials in Python Lecture 4

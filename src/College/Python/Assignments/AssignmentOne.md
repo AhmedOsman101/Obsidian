@@ -3,8 +3,8 @@ prev:
   text: 'Assignments'
   link: '/College/Python/Assignments/index'
 next: false
-  # text: 'Assignment Two'
-  # link: '/College/Python/Assignments/AssignmentTwo'
+  text: 'Assignment Two'
+  link: '/College/Python/Assignments/AssignmentTwo'
 ---
 
 # Programming Essentials in Python Assignment 1

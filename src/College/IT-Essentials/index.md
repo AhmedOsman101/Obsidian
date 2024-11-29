@@ -16,7 +16,9 @@ next: false
 - [Sections](Sections/index.md)
   - [Section One](Sections/SectionOne.md)
   - [Section Two](Sections/SectionTwo.md)
-  - [SectionThree](Sections/SectionThree.md)
+  - [Section Three](Sections/SectionThree.md)
 
 - [Assignments](Assignments/index.md)
-  - [Assignment One](Assignments/AssignmentOne.md)
+  - [Task One](Assignments/AssignmentOne.md)
+  - [Task Two](Assignments/AssingmentTwo.md)
+  - [Task Four](Assignments/AssingmentFour.md)

@@ -359,6 +359,8 @@ Polynomial
 PCA
 Practical
 Pattern
+Print
+Prime
 IHDR
 IDATx
 IO
@@ -3423,6 +3425,7 @@ Moving
 Mail
 Manages
 Maintains
+MAX
 Lj
 Lf
 LvVa
@@ -3766,6 +3769,7 @@ Layer
 Link
 Loops
 LectureSeven
+List
 al
 aj
 ar
@@ -4531,6 +4535,7 @@ TCP
 TLS
 Ternary
 Terminates
+Tree
 uj
 uq
 uXm
@@ -6493,6 +6498,7 @@ GFdDfe
 GAS
 GQW
 Geometrical
+Geometric
 Ex
 EZR
 EG
@@ -7299,6 +7305,7 @@ Summing
 Seven
 Sample
 Star
+Sketch
 iH
 ic
 iP
@@ -15236,6 +15243,7 @@ VSu
 VBPA
 Vbn
 Vzu
+Validate
 dk
 dR
 dV
@@ -16028,6 +16036,8 @@ AssignmentTwo
 AssignmentThree
 AssignmentFour
 ARP
+AssingmentTwo
+AssingmentFour
 Jw
 Jg
 JT

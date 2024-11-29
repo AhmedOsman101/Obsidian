@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f75b77eb7c4845bc",
+        "id": "adb2ed096663f9d6",
         "type": "tabs",
         "children": [
           {
-            "id": "9a99c009a5a07c29",
+            "id": "0c374773708341bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/IntroToCyberSecurity/index.md",
+                "file": "College/index.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/IntroToCyberSecurity/index.md"
+                "file": "College/index.md"
               },
               "icon": "lucide-list",
               "title": "Outline of index"
@@ -189,28 +189,36 @@
       "obsidian-tts:Text to Speech": false
     }
   },
-  "active": "9a99c009a5a07c29",
+  "active": "0c374773708341bc",
   "lastOpenFiles": [
-    "College/Python/Lectures/LectureFive.md",
+    "College/Python/Lectures/index.md",
+    "College/Python/Sections/index.md",
+    "College/Python/index.md",
+    "College/Python/Assignments/index.md",
+    "College/Python/Sections/SectionThreePartTwo.md",
     "College/Python/Assignments/AssignmentTwo.md",
+    "College/Python/Assignments/AssignmentOne.md",
+    "College/Math/Lectures/index.md",
+    "College/Math/index.md",
+    "College/IntroToCyberSecurity/Lectures/index.md",
+    "College/IntroToCyberSecurity/index.md",
+    "College/IT-Essentials/index.md",
+    "College/IT-Essentials/Lectures/index.md",
+    "College/IT-Essentials/Assignments/index.md",
+    "College/IT-Essentials/Sections/index.md",
+    "College/IT-Essentials/Assignments/AssingmentTwo.md",
+    "College/IT-Essentials/Assignments/AssignmentOne.md",
+    "College/IT-Essentials/Assignments/AssingmentFour.md",
+    "College/index.md",
+    "College/Python/Lectures/LectureFive.md",
     "College/Python/Lectures/LectureSix.md",
     "College/Math/Lectures/LectureThree.md",
     "College/Math/Lectures/LectureTwo.md",
     "College/Math/Lectures/LectureOne.md",
-    "College/Python/Assignments/AssignmentOne.md",
-    "College/Python/index.md",
-    "College/Python/Lectures/index.md",
     "College/Python/Lectures/LectureFour.md",
-    "College/index.md",
-    "College/Math/index.md",
-    "College/Math/Lectures/index.md",
     "College/Math/Lectures",
-    "College/IntroToCyberSecurity/index.md",
     "College/IntroToCyberSecurity/Lectures/LectureSix.md",
     "College/IntroToCyberSecurity/imgs/hacker.png",
-    "College/IntroToCyberSecurity/Lectures/LectureFive.md",
-    "College/IntroToCyberSecurity/Lectures/LectureFour.md",
-    "College/Math/Lectures/draft.md",
     "College/Math/sed65yYM7",
     "College/Math/sedG9mbub",
     "College/Math/sed6PIm5A",
@@ -220,14 +228,6 @@
     "College/Math/sedUIEQ8H",
     "College/Math/sedxmDhrS",
     "College/Math/sed49Za6I",
-    "College/IT-Essentials/Assignments/AssingmentFour.md",
-    "College/IT-Essentials/Assignments/AssingmentTwo.md",
-    "College/IT-Essentials/Assignments/AssignmentOne.md",
-    "College/Physics/Lectures/LectureOne.md",
-    "index.md",
-    "College/IT-Essentials/Lectures/LectureFour.md",
-    "College/IT-Essentials/Lectures/LectureOne.md",
-    "College/IT-Essentials/Lectures/LectureThree.md",
     "College/IT-Essentials/imgs/PSU.png",
     "College/IT-Essentials/imgs/adapterCards.png",
     "College/IT-Essentials/imgs/SATA.png",

@@ -7,4 +7,6 @@ next: false
 
 # Assignments
 
-- [Assignment One](AssignmentOne.md)
+- [Task One](AssignmentOne.md)
+- [Task Two](AssingmentTwo.md)
+- [Task Four](AssingmentFour.md)

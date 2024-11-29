@@ -8,7 +8,6 @@ next: false
 # Python
 
 - [Lectures](Lectures/index.md)
-
   - [Lecture One](Lectures/LectureOne.md)
   - [Lecture Two](Lectures/LectureTwo.md)
   - [Lecture Three](Lectures/LectureThree.md)
@@ -17,7 +16,6 @@ next: false
   - [Lecture Six](Lectures/LectureSix.md)
 
 - [Sections](Sections/index.md)
-
   - [Section One](Sections/SectionOne.md)
   - [Section Two](Sections/SectionTwo.md)
   - [Section Three (Part I)](Sections/SectionThreePartOne.md)

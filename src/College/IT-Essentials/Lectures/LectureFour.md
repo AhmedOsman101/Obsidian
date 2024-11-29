@@ -3,9 +3,8 @@ prev:
   text: "Lecture Three"
   link: "/College/IT-Essentials/Lectures/LectureThree"
 next:
-  false
-  # text: "Lecture Five"
-  # link: "/College/IT-Essentials/Lectures/LectureFive"
+  text: "Lecture Five"
+  link: "/College/IT-Essentials/Lectures/LectureFive"
 ---
 
 # IT Essentials Lecture 4

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/index.md",
+                "file": "College/draft.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "draft"
             }
           }
         ]
@@ -150,10 +150,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/index.md"
+                "file": "College/draft.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of draft"
             }
           },
           {
@@ -191,6 +191,12 @@
   },
   "active": "0c374773708341bc",
   "lastOpenFiles": [
+    "College/IT-Essentials/Lectures/LectureFive.md",
+    "College/draft.md",
+    "College/IT-Essentials/Lectures/LectureFour.md",
+    "College/IT-Essentials/Lectures/LectureOne.md",
+    "College/index.md",
+    "College/IT-Essentials/Lectures/Untitled.md",
     "College/Python/Lectures/index.md",
     "College/Python/Sections/index.md",
     "College/Python/index.md",
@@ -209,15 +215,9 @@
     "College/IT-Essentials/Assignments/AssingmentTwo.md",
     "College/IT-Essentials/Assignments/AssignmentOne.md",
     "College/IT-Essentials/Assignments/AssingmentFour.md",
-    "College/index.md",
     "College/Python/Lectures/LectureFive.md",
     "College/Python/Lectures/LectureSix.md",
-    "College/Math/Lectures/LectureThree.md",
-    "College/Math/Lectures/LectureTwo.md",
-    "College/Math/Lectures/LectureOne.md",
-    "College/Python/Lectures/LectureFour.md",
     "College/Math/Lectures",
-    "College/IntroToCyberSecurity/Lectures/LectureSix.md",
     "College/IntroToCyberSecurity/imgs/hacker.png",
     "College/Math/sed65yYM7",
     "College/Math/sedG9mbub",

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/draft.md",
+                "file": "College/IT-Essentials/index.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "draft"
+              "title": "index"
             }
           }
         ]
@@ -150,10 +150,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/draft.md"
+                "file": "College/IT-Essentials/index.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of draft"
+              "title": "Outline of index"
             }
           },
           {
@@ -191,9 +191,10 @@
   },
   "active": "0c374773708341bc",
   "lastOpenFiles": [
-    "College/IT-Essentials/Lectures/LectureFive.md",
-    "College/draft.md",
+    "College/IT-Essentials/Lectures/index.md",
     "College/IT-Essentials/Lectures/LectureFour.md",
+    "College/draft.md",
+    "College/IT-Essentials/Lectures/LectureFive.md",
     "College/IT-Essentials/Lectures/LectureOne.md",
     "College/index.md",
     "College/IT-Essentials/Lectures/Untitled.md",
@@ -209,7 +210,6 @@
     "College/IntroToCyberSecurity/Lectures/index.md",
     "College/IntroToCyberSecurity/index.md",
     "College/IT-Essentials/index.md",
-    "College/IT-Essentials/Lectures/index.md",
     "College/IT-Essentials/Assignments/index.md",
     "College/IT-Essentials/Sections/index.md",
     "College/IT-Essentials/Assignments/AssingmentTwo.md",

@@ -3,12 +3,11 @@ prev:
   text: "Lecture Four"
   link: "/College/IT-Essentials/Lectures/LectureFour"
 next:
-  false
-  # text: "Lecture Six"
-  # link: "/College/IT-Essentials/Lectures/LectureSix"
+  text: "Lecture Six"
+  link: "/College/IT-Essentials/Lectures/LectureSix"
 ---
 
-# IT Essentials Lecture 5: Networking Concepts
+# IT Essentials Lecture 5: Networking Concepts (Part I)
 
 ## Network History
 

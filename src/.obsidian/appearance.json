@@ -1,6 +1,6 @@
 {
-  "textFontFamily": "Inter,JetBrainsMono Nerd Font,JetBrainsMono Nerd Font Mono,Fira Code Retina",
-  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono,Fira Code Retina",
+  "textFontFamily": "Inter,JetBrainsMono Nerd Font,Fira Code Retina",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font,Fira Code Retina",
   "cssTheme": "GitHub Theme",
   "theme": "obsidian",
   "enabledCssSnippets": [
@@ -8,5 +8,6 @@
     "centerTable"
   ],
   "interfaceFontFamily": "Inter",
-  "baseFontSize": 18
+  "baseFontSize": 21,
+  "baseFontSizeAction": true
 }

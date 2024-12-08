@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/IT-Essentials/Lectures/LectureSix.md",
+                "file": "General/MathForProblemSolving.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LectureSix"
+              "title": "MathForProblemSolving"
             }
           }
         ]
@@ -80,15 +80,16 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 271.5,
+    "collapsed": true
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -150,10 +151,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/IT-Essentials/Lectures/LectureSix.md"
+                "file": "General/MathForProblemSolving.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of LectureSix"
+              "title": "Outline of MathForProblemSolving"
             }
           },
           {
@@ -191,11 +192,14 @@
   },
   "active": "0c374773708341bc",
   "lastOpenFiles": [
+    "College/Math/Lectures/LectureOne.md",
+    "General/MathForProblemSolving.md",
+    "College/IT-Essentials/Lectures/LectureSix.md",
+    "General",
     "College/index.md",
     "College/IT-Essentials/index.md",
     "College/IT-Essentials/Lectures/index.md",
     "College/draft.md",
-    "College/IT-Essentials/Lectures/LectureSix.md",
     "College/IT-Essentials/Lectures/LectureFive.md",
     "College/IT-Essentials/Lectures/Untitled.md",
     "College/IT-Essentials/Lectures/LectureFour.md",
@@ -215,8 +219,6 @@
     "College/IT-Essentials/Sections/index.md",
     "College/IT-Essentials/Assignments/AssingmentTwo.md",
     "College/IT-Essentials/Assignments/AssignmentOne.md",
-    "College/IT-Essentials/Assignments/AssingmentFour.md",
-    "College/Python/Lectures/LectureFive.md",
     "College/Math/Lectures",
     "College/IntroToCyberSecurity/imgs/hacker.png",
     "College/Math/sed65yYM7",
@@ -227,7 +229,6 @@
     "College/Math/sed2nWB48",
     "College/Math/sedUIEQ8H",
     "College/Math/sedxmDhrS",
-    "College/Math/sed49Za6I",
     "College/IT-Essentials/imgs/PSU.png",
     "College/IT-Essentials/imgs/adapterCards.png",
     "College/IT-Essentials/imgs/SATA.png",

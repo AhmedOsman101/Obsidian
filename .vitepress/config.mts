@@ -24,6 +24,7 @@ export default withMermaid({
       { text: "Home", link: "/" },
       { text: "College", link: "/College" },
       { text: "Courses", link: "/Courses" },
+      { text: "General", link: "/General" },
     ],
 
     sidebar: [
@@ -32,6 +33,7 @@ export default withMermaid({
         items: [
           { text: "College", link: "/College" },
           { text: "Courses", link: "/Courses" },
+          { text: "General", link: "/General" },
         ],
       },
     ],

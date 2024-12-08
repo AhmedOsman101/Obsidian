@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General/MathForProblemSolving.md",
+                "file": "index.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "MathForProblemSolving"
+              "title": "index"
             }
           }
         ]
@@ -150,10 +150,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "General/MathForProblemSolving.md"
+                "file": "index.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of MathForProblemSolving"
+              "title": "Outline of index"
             }
           },
           {
@@ -191,8 +191,8 @@
   },
   "active": "0c374773708341bc",
   "lastOpenFiles": [
-    "Courses/LinuxCrashCourse.md",
     "General/MathForProblemSolving.md",
+    "Courses/LinuxCrashCourse.md",
     "General/index.md",
     "Thoughts/index.md",
     "index.md",

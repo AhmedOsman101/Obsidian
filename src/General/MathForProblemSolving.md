@@ -1,3 +1,10 @@
+---
+prev:
+  text: "General Knowledge"
+  link: "/General/index"
+next: false
+---
+
 # General Math Notes for Problem Solving
 
 ## Logarithms (Logs)

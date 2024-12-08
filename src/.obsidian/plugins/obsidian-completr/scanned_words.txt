@@ -3546,6 +3546,8 @@ MAN
 Metropolitan
 Megabits
 Modes
+Multiplicative
+Mulitplication
 Lj
 Lf
 LvVa
@@ -3907,6 +3909,8 @@ Large
 Location
 Logarithms
 Logs
+Logarithm
+Logarithmic
 al
 aj
 ar
@@ -4368,6 +4372,7 @@ activated
 apps
 automatically
 administrators
+anit
 Te
 Tn
 TA
@@ -6001,6 +6006,7 @@ rings
 redundancy
 registered
 relay
+reciprocal
 eiO
 es
 ee
@@ -6424,6 +6430,9 @@ encrypting
 electronics
 expand
 encrypted
+exponent
+exponential
+express
 GO
 GQ
 Gk
@@ -7123,6 +7132,7 @@ Established
 Electrotechnical
 EIA
 Extended
+Equality
 Sal
 SQ
 SB
@@ -8335,6 +8345,7 @@ topologies
 temporary
 talkies
 transport
+thier
 nm
 nv
 nhuK
@@ -10354,6 +10365,8 @@ log
 lots
 locate
 logs
+logarithm
+logarithms
 Rc
 Rt
 RO
@@ -10720,6 +10733,7 @@ RDP
 Rates
 RFID
 Ring
+Raise
 Zt
 ZB
 Zb
@@ -12740,6 +12754,7 @@ Collects
 Circular
 Combination
 Covers
+Change
 vb
 vO
 vvF
@@ -13589,6 +13604,7 @@ central
 circular
 campus
 cautiously
+cancels
 Hu
 Hg
 HiL
@@ -15026,6 +15042,7 @@ KYW
 KWX
 Kbps
 Kilobits
+Knowledge
 zC
 zl
 zk
@@ -17326,6 +17343,7 @@ Wave
 WANs
 WAN
 Walkie
+WatchingVsSeeing
 Ötl
 ÖC
 Öm

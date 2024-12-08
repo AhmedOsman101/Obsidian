@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5,
-    "collapsed": true
+    "width": 271.5
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -192,8 +191,12 @@
   },
   "active": "0c374773708341bc",
   "lastOpenFiles": [
-    "College/Math/Lectures/LectureOne.md",
+    "Courses/LinuxCrashCourse.md",
     "General/MathForProblemSolving.md",
+    "General/index.md",
+    "Thoughts/index.md",
+    "index.md",
+    "College/Math/Lectures/LectureOne.md",
     "College/IT-Essentials/Lectures/LectureSix.md",
     "General",
     "College/index.md",
@@ -215,10 +218,6 @@
     "College/Math/index.md",
     "College/IntroToCyberSecurity/Lectures/index.md",
     "College/IntroToCyberSecurity/index.md",
-    "College/IT-Essentials/Assignments/index.md",
-    "College/IT-Essentials/Sections/index.md",
-    "College/IT-Essentials/Assignments/AssingmentTwo.md",
-    "College/IT-Essentials/Assignments/AssignmentOne.md",
     "College/Math/Lectures",
     "College/IntroToCyberSecurity/imgs/hacker.png",
     "College/Math/sed65yYM7",

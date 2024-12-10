@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/IT-Essentials/Assignments/AssingmentFive.md",
+                "file": "College/IT-Essentials/Assignments/AssignmentFive.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AssingmentFive"
+              "title": "AssignmentFive"
             }
           }
         ]
@@ -150,10 +150,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/IT-Essentials/Assignments/AssingmentFive.md"
+                "file": "College/IT-Essentials/Assignments/AssignmentFive.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of AssingmentFive"
+              "title": "Outline of AssignmentFive"
             }
           },
           {
@@ -191,6 +191,8 @@
   },
   "active": "68ae30430c3aa1bd",
   "lastOpenFiles": [
+    "College/IT-Essentials/Assignments/AssignmentFour.md",
+    "College/IT-Essentials/Assignments/AssignmentTwo.md",
     "College/IT-Essentials/Assignments/AssingmentFour.md",
     "College/IT-Essentials/Assignments/AssingmentTwo.md",
     "College/IT-Essentials/Assignments/AssignmentOne.md",
@@ -220,8 +222,6 @@
     "College/IT-Essentials/Lectures/LectureOne.md",
     "College/Python/Lectures/index.md",
     "College/Python/Sections/index.md",
-    "College/Python/index.md",
-    "College/Python/Assignments/index.md",
     "College/Math/Lectures",
     "College/IntroToCyberSecurity/imgs/hacker.png",
     "College/Math/sed65yYM7",

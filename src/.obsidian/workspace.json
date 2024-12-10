@@ -11,10 +11,15 @@
             "id": "68ae30430c3aa1bd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "College/IT-Essentials/Assignments/AssingmentFive.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "AssingmentFive"
             }
           }
         ]
@@ -144,9 +149,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "College/IT-Essentials/Assignments/AssingmentFive.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of AssingmentFive"
             }
           },
           {
@@ -184,13 +191,13 @@
   },
   "active": "68ae30430c3aa1bd",
   "lastOpenFiles": [
+    "College/IT-Essentials/Assignments/AssingmentFour.md",
+    "College/IT-Essentials/Assignments/AssingmentTwo.md",
+    "College/IT-Essentials/Assignments/AssignmentOne.md",
     "College/index.md",
     "College/IT-Essentials/index.md",
     "College/IT-Essentials/Assignments/index.md",
     "College/IT-Essentials/Assignments/AssingmentFive.md",
-    "College/IT-Essentials/Assignments/AssingmentFour.md",
-    "College/IT-Essentials/Assignments/AssingmentTwo.md",
-    "College/IT-Essentials/Assignments/AssignmentOne.md",
     "College/IT-Essentials/Assignments/lu8857925t2r.tmp",
     "College/IT-Essentials/Assignments/lu8857925t2p.tmp",
     "College/IT-Essentials/Assignments/AssingmentFive.pdf",

@@ -1,7 +1,7 @@
 ---
 prev:
-   text: 'Task Three'
-   link: '/College/IT-Essentials/Assignments/AssignmentThree'
+   text: 'Task Two'
+   link: '/College/IT-Essentials/Assignments/AssignmentTwo'
 next:
    text: 'Task Five'
    link: '/College/IT-Essentials/Assignments/AssignmentFive'

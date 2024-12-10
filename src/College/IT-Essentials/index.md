@@ -22,6 +22,6 @@ next: false
 
 - [Assignments](Assignments/index.md)
   - [Task One](Assignments/AssignmentOne.md)
-  - [Task Two](Assignments/AssingmentTwo.md)
-  - [Task Four](Assignments/AssingmentFour.md)
-  - [Task Five](Assignments/AssingmentFive.md)
+  - [Task Two](Assignments/AssignmentsTwo.md)
+  - [Task Four](Assignments/AssignmentsFour.md)
+  - [Task Five](Assignments/AssignmentsFive.md)

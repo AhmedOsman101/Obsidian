@@ -745,6 +745,7 @@ Industries
 Interoperability
 Interoperable
 Interconnects
+Improvement
 pHYs
 pt
 pu
@@ -1217,6 +1218,7 @@ paths
 peers
 peer
 prior
+playback
 sbf
 sPv
 sC
@@ -1739,6 +1741,9 @@ scalability
 skilled
 suitable
 strong
+series
+smoother
+supported
 ff
 fP
 fj
@@ -2563,6 +2568,7 @@ qSO
 qwiK
 qJh
 quadratic
+quicker
 waq
 wc
 wav
@@ -3548,6 +3554,7 @@ Megabits
 Modes
 Multiplicative
 Mulitplication
+Minimum
 Lj
 Lf
 LvVa
@@ -4373,6 +4380,7 @@ apps
 automatically
 administrators
 anit
+adequate
 Te
 Tn
 TA
@@ -5590,6 +5598,7 @@ Uniqueness
 UDP
 USENET
 Union
+Updates
 ra
 rO
 rV
@@ -7593,6 +7602,7 @@ Simplex
 Simultaneous
 Service
 Should
+SoC
 iH
 ic
 iP
@@ -10367,6 +10377,7 @@ locate
 logs
 logarithm
 logarithms
+later
 Rc
 Rt
 RO
@@ -10734,6 +10745,8 @@ Rates
 RFID
 Ring
 Raise
+Recommended
+Replace
 Zt
 ZB
 Zb
@@ -11609,6 +11622,7 @@ Diverse
 Decentralized
 Duplex
 Distributed
+DirectX
 ohQ
 oL
 ob
@@ -12279,6 +12293,7 @@ macOS
 music
 monitoring
 maintainance
+minimum
 Ck
 CS
 Cm
@@ -12755,6 +12770,9 @@ Circular
 Combination
 Covers
 Change
+Chip
+Compatible
+Considerations
 vb
 vO
 vvF
@@ -13605,6 +13623,7 @@ circular
 campus
 cautiously
 cancels
+capability
 Hu
 Hg
 HiL
@@ -14775,6 +14794,7 @@ generic
 grounding
 grows
 graphic
+gigahertz
 KUYX
 KX
 KK
@@ -15735,6 +15755,7 @@ Very
 Verify
 Varies
 VLAN
+Version
 dk
 dR
 dV
@@ -16133,6 +16154,8 @@ disrupts
 degrades
 decreases
 distributed
+document
+drivers
 AK
 AQ
 Aya
@@ -16562,6 +16585,8 @@ Acts
 Accounting
 Abbreviation
 AssignmentSix
+AssignmentFive
+AssingmentFive
 Jw
 Jg
 JT
@@ -17345,6 +17370,7 @@ WANs
 WAN
 Walkie
 WatchingVsSeeing
+WDDM
 Ötl
 ÖC
 Öm

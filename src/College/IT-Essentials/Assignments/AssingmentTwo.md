@@ -1,6 +1,6 @@
 ---
 prev:
-   text: 'Assignment One'
+   text: 'Task One'
    link: '/College/IT-Essentials/AssignmentOne'
 next:
    text: 'Task Four'

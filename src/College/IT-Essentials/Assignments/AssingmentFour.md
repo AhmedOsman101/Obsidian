@@ -1,10 +1,10 @@
 ---
 prev:
-   text: 'Assignment One'
-   link: '/College/IT-Essentials/AssignmentOne'
+   text: 'Assignment Three'
+   link: '/College/IT-Essentials/AssignmentThree'
 next:
-   text: 'Assignment Four'
-   link: '/College/IT-Essentials/AssignmentFour'
+   text: 'Assignment Five'
+   link: '/College/IT-Essentials/AssignmentFive'
 ---
 
 # Task Four

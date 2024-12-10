@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9f4a6bb925dfc44e",
+        "id": "83f6c891e4765fea",
         "type": "tabs",
         "children": [
           {
-            "id": "731b629da33b2888",
+            "id": "d1eefe4dfbc99bc4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General/draft.md",
+                "file": "College/IT-Essentials/Assignments/AssingmentFive.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "draft"
+              "title": "AssingmentFive"
             }
           }
         ]
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 271.5,
+    "collapsed": true
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -150,10 +151,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "General/draft.md"
+                "file": "College/IT-Essentials/Assignments/AssingmentFive.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of draft"
+              "title": "Outline of AssingmentFive"
             }
           },
           {
@@ -189,8 +190,19 @@
       "obsidian-tts:Text to Speech": false
     }
   },
-  "active": "731b629da33b2888",
+  "active": "d1eefe4dfbc99bc4",
   "lastOpenFiles": [
+    "College/IT-Essentials/Assignments/lu8857925t2r.tmp",
+    "College/IT-Essentials/Assignments/lu8857925t2p.tmp",
+    "College/IT-Essentials/Assignments/AssingmentFive.pdf",
+    "College/IT-Essentials/Assignments/AssingmentFive.docx",
+    "College/IT-Essentials/Lectures/LectureFive.md",
+    "College/IT-Essentials/Lectures/LectureSix.md",
+    "College/IT-Essentials/Assignments/AssingmentFive.md",
+    "College/IT-Essentials/Assignments/AssingmentTwo.md",
+    "College/IT-Essentials/Assignments/AssignmentOne.md",
+    "College/IT-Essentials/Assignments/AssingmentFour.md",
+    "College/IT-Essentials/Assignments/Untitled.md",
     "General/MathForProblemSolving.md",
     "General/draft.md",
     "index.md",
@@ -198,13 +210,11 @@
     "General/index.md",
     "Thoughts/index.md",
     "College/Math/Lectures/LectureOne.md",
-    "College/IT-Essentials/Lectures/LectureSix.md",
     "General",
     "College/index.md",
     "College/IT-Essentials/index.md",
     "College/IT-Essentials/Lectures/index.md",
     "College/draft.md",
-    "College/IT-Essentials/Lectures/LectureFive.md",
     "College/IT-Essentials/Lectures/Untitled.md",
     "College/IT-Essentials/Lectures/LectureFour.md",
     "College/IT-Essentials/Lectures/LectureOne.md",
@@ -212,12 +222,6 @@
     "College/Python/Sections/index.md",
     "College/Python/index.md",
     "College/Python/Assignments/index.md",
-    "College/Python/Sections/SectionThreePartTwo.md",
-    "College/Python/Assignments/AssignmentTwo.md",
-    "College/Python/Assignments/AssignmentOne.md",
-    "College/Math/Lectures/index.md",
-    "College/Math/index.md",
-    "College/IntroToCyberSecurity/Lectures/index.md",
     "College/Math/Lectures",
     "College/IntroToCyberSecurity/imgs/hacker.png",
     "College/Math/sed65yYM7",
@@ -225,9 +229,6 @@
     "College/Math/sed6PIm5A",
     "College/Math/sedIhFvME",
     "College/Math/sed9n1rW6",
-    "College/Math/sed2nWB48",
-    "College/Math/sedUIEQ8H",
-    "College/Math/sedxmDhrS",
     "College/IT-Essentials/imgs/PSU.png",
     "College/IT-Essentials/imgs/adapterCards.png",
     "College/IT-Essentials/imgs/SATA.png",

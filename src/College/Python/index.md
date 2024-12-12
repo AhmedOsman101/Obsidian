@@ -22,5 +22,5 @@ next: false
   - [Section Three (Part II)](Sections/SectionThreePartTwo.md)
 
 - [Assignments](Assignments/index.md)
-  - [Assignment One](Assignments/AssignmentOne.md)
-  - [Assignment Two](Assignments/AssignmentTwo.md)
+  - [Sheet One](Assignments/AssignmentOne.md)
+  - [Sheet Two](Assignments/AssignmentTwo.md)

@@ -1,11 +1,11 @@
 ---
 prev:
-  text: 'Python'
-  link: '/College/Python/index'
+  text: "Python"
+  link: "/College/Python/index"
 next: false
 ---
 
 # Assignments
 
-- [Assignment One](AssignmentOne.md)
-- [Assignment Two](AssignmentTwo.md)
+- [Sheet One](AssignmentOne.md)
+- [Sheet Two](AssignmentTwo.md)

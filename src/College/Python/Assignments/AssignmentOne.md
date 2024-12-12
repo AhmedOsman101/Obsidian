@@ -3,11 +3,11 @@ prev:
   text: "Assignments"
   link: "/College/Python/Assignments/index"
 next:
-  text: "Assignment Two"
+  text: "Sheet Two"
   link: "/College/Python/Assignments/AssignmentTwo"
 ---
 
-# Programming Essentials in Python Assignment 1
+# Programming Essentials in Python Sheet 1
 
 ## 1. Detect whether these variable names are valid or not:
 

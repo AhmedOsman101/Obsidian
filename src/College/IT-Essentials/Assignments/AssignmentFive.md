@@ -2,9 +2,9 @@
 prev:
    text: 'Task Four'
    link: '/College/IT-Essentials/Assignments/AssignmentFour'
-next: false
-   # text: 'Task Six'
-   # link: '/College/IT-Essentials/Assignments/AssignmentSix'
+next:
+   text: 'Task Six'
+   link: '/College/IT-Essentials/Assignments/AssignmentSix'
 ---
 
 # Task Five

@@ -11,3 +11,4 @@ next: false
 - [Task Two](AssignmentTwo.md)
 - [Task Four](AssignmentFour.md)
 - [Task Five](AssignmentFive.md)
+- [Task Six](AssignmentSix.md)

@@ -125,5 +125,14 @@
       ],
       "key": "S"
     }
+  ],
+  "editor:insert-link": [],
+  "editor:delete-paragraph": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "K"
+    }
   ]
 }

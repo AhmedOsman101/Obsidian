@@ -1,4 +1,13 @@
-# Ahmad Ali Ahmad Othman - Section 1 - Task 6
+---
+prev:
+   text: 'Task Five'
+   link: '/College/IT-Essentials/Assignments/AssignmentFive'
+next:
+   text: 'Task Seven'
+   link: '/College/IT-Essentials/Assignments/AssignmentSeven'
+---
+
+# Task 6
 
 ## **Step 1: Open User Account Settings**
 

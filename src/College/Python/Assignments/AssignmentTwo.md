@@ -56,7 +56,7 @@ for i in range(1, MAX + 1):
 
 **With Function**:
 ```python
-def factors(Max)
+def factors(Max):
   for i in range(1, Max + 1):
     print(f"{i}: 1", end=" ")
     for j in range(2, i + 1):

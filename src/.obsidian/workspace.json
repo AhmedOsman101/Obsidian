@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/IT-Essentials/Assignments/AssignmentSix.md",
-                "mode": "preview",
+                "file": "College/Python/Assignments/AssignmentTwo.md",
+                "mode": "source",
                 "backlinks": false,
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "AssignmentSix"
+              "title": "AssignmentTwo"
             }
           }
         ]
@@ -151,10 +151,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/IT-Essentials/Assignments/AssignmentSix.md"
+                "file": "College/Python/Assignments/AssignmentTwo.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of AssignmentSix"
+              "title": "Outline of AssignmentTwo"
             }
           },
           {
@@ -192,13 +192,13 @@
   },
   "active": "d03d8e7f6eca80ab",
   "lastOpenFiles": [
+    "College/IT-Essentials/Assignments/AssignmentSix.md",
     "College/IT-Essentials/Assignments/lu21347656wmt.tmp",
     "College/IT-Essentials/Assignments/lu21347656wmr.tmp",
     "College/IT-Essentials/Assignments/AssignmentSix.docx",
     "College/IT-Essentials/imgs/taskSix14.png",
     "College/IT-Essentials/imgs/taskSix15.png",
     "College/IT-Essentials/imgs/taskSix16.png",
-    "College/IT-Essentials/Assignments/AssignmentSix.md",
     "image-7.png",
     "image-6.png",
     "image-5.png",
@@ -236,7 +236,6 @@
     "College/Math/sedG9mbub",
     "College/Math/sed6PIm5A",
     "College/Math/sedIhFvME",
-    "College/Math/sed9n1rW6",
-    "College/Math/sed2nWB48"
+    "College/Math/sed9n1rW6"
   ]
 }

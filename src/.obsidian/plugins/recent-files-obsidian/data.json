@@ -9,6 +9,22 @@
       "path": "College/IT-Essentials/Assignments/index.md"
     },
     {
+      "basename": "draft",
+      "path": "College/draft.md"
+    },
+    {
+      "basename": "image",
+      "path": "image.png"
+    },
+    {
+      "basename": "image-1",
+      "path": "image-1.png"
+    },
+    {
+      "basename": "image-2",
+      "path": "image-2.png"
+    },
+    {
       "basename": "AssignmentSix",
       "path": "College/IT-Essentials/Assignments/AssignmentSix.md"
     },

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Python/Assignments/AssignmentTwo.md",
+                "file": "College/draft.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AssignmentTwo"
+              "title": "draft"
             }
           }
         ]
@@ -151,10 +151,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/Python/Assignments/AssignmentTwo.md"
+                "file": "College/draft.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of AssignmentTwo"
+              "title": "Outline of draft"
             }
           },
           {
@@ -192,6 +192,8 @@
   },
   "active": "d03d8e7f6eca80ab",
   "lastOpenFiles": [
+    "College/Python/Assignments/AssignmentTwo.md",
+    "College/draft.md",
     "College/IT-Essentials/Assignments/AssignmentSix.md",
     "College/IT-Essentials/Assignments/lu21347656wmt.tmp",
     "College/IT-Essentials/Assignments/lu21347656wmr.tmp",
@@ -216,7 +218,6 @@
     "College/index.md",
     "College/IT-Essentials/index.md",
     "College/IT-Essentials/Lectures/index.md",
-    "College/draft.md",
     "College/IT-Essentials/Lectures/LectureFive.md",
     "College/IT-Essentials/Lectures/Untitled.md",
     "College/IT-Essentials/Lectures/LectureFour.md",
@@ -226,7 +227,6 @@
     "College/Python/index.md",
     "College/Python/Assignments/index.md",
     "College/Python/Sections/SectionThreePartTwo.md",
-    "College/Python/Assignments/AssignmentTwo.md",
     "College/Python/Assignments/AssignmentOne.md",
     "College/Math/Lectures/index.md",
     "College/Math/index.md",

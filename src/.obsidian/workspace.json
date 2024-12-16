@@ -52,8 +52,7 @@
               "title": "index"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 271.5,
+    "collapsed": true
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -181,10 +181,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/IT-Essentials/index.md"
+                "file": "College/draft.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of draft"
             }
           },
           {
@@ -220,29 +220,31 @@
       "obsidian-tts:Text to Speech": false
     }
   },
-  "active": "16bd07b941e88898",
+  "active": "d03d8e7f6eca80ab",
   "lastOpenFiles": [
+    "College/draft.pdf",
+    "image-9.png",
+    "image-8.png",
+    "image-7.png",
+    "image-6.png",
+    "image-5.png",
+    "image-4.png",
+    "image-3.png",
+    "College/Python/Assignments/AssignmentTwo.md",
+    "College/IT-Essentials/index.md",
     "College/IT-Essentials/Assignments/index.md",
     "College/draft.md",
     "image.png",
     "image-1.png",
     "image-2.png",
-    "College/IT-Essentials/index.md",
     "College/IT-Essentials/Assignments/AssignmentSix.md",
     "College/IT-Essentials/Assignments/AssignmentFive.md",
     "College/IT-Essentials/Assignments/AssignmentFour.md",
     "College/IT-Essentials/Assignments/AssignmentTwo.md",
     "College/IT-Essentials/Assignments/AssignmentOne.md",
-    "College/Python/Assignments/AssignmentTwo.md",
-    "image-3.png",
     "College/IT-Essentials/Assignments/lu21347656wmt.tmp",
     "College/IT-Essentials/Assignments/lu21347656wmr.tmp",
     "College/IT-Essentials/Assignments/AssignmentSix.docx",
-    "College/IT-Essentials/imgs/taskSix14.png",
-    "College/IT-Essentials/imgs/taskSix15.png",
-    "College/IT-Essentials/imgs/taskSix16.png",
-    "image-7.png",
-    "image-6.png",
     "College/IT-Essentials/Lectures/LectureSix.md",
     "General/MathForProblemSolving.md",
     "General/index.md",

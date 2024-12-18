@@ -129,6 +129,7 @@ Encapsulation involves wrapping data with protocol-specific headers and footers 
 | Use Case        | Email, file transfer, web browsing. | Streaming, gaming, voice calls. |
 | Data Sequencing | Data delivered in order.            | No guarantee of order.          |
 
+
 ## Application Port Numbers
 
 PCs use source port numbers to track the data flow of different applications. Ports classify communication for specific protocols and services.

@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "College/IT-Essentials/Exams/ExamTwo.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
@@ -35,6 +35,21 @@
               },
               "icon": "lucide-file",
               "title": "draft"
+            }
+          },
+          {
+            "id": "7a0063294af19cd7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "College/IT-Essentials/Lectures/LectureSix.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "LectureSix"
             }
           }
         ]
@@ -207,12 +222,23 @@
   },
   "active": "aceb89f6935783ab",
   "lastOpenFiles": [
+    "College/IT-Essentials/Exams/imgs/2024-12-18-02-06-18.png",
+    "College/IT-Essentials/Exams/imgs/2024-12-18-02-06-07.png",
+    "College/IT-Essentials/Exams/imgs/2024-12-18-02-06-03.png",
+    "College/IT-Essentials/Exams/imgs/2024-12-18-02-06-01.png",
+    "College/IT-Essentials/Exams/imgs/2024-12-18-02-05-55.png",
+    "College/IT-Essentials/Exams/imgs/2024-12-18-02-05-44.png",
+    "College/IT-Essentials/Exams/imgs/2024-12-18-02-05-29.png",
+    "College/IT-Essentials/Exams/imgs/2024-12-18-02-05-25.png",
+    "College/IT-Essentials/Exams/imgs/2024-12-18-02-02-58.png",
+    "College/IT-Essentials/Exams/imgs/2024-12-18-02-02-52.png",
+    "College/IT-Essentials/Exams/imgs/2024-12-18-02-02-43.png",
     "College/IT-Essentials/Exams/draft.md",
     "College/IT-Essentials/Exams/ExamTwo.md",
+    "College/IT-Essentials/Lectures/LectureSix.md",
     "College/IT-Essentials/Exams/index.md",
     "College/IT-Essentials/Lectures/LectureTwo.md",
     "College/IT-Essentials/Lectures/LectureOne.md",
-    "College/IT-Essentials/Lectures/LectureSix.md",
     "College/IT-Essentials/Lectures/index.md",
     "ExamTwo.md",
     "College/IT-Essentials/Assignments/AssignmentSix.md",
@@ -225,17 +251,7 @@
     "College/Python/Assignments/AssignmentTwo.md",
     "College/draft.md",
     "College/draft.pdf",
-    "image-9.png",
-    "image-8.png",
-    "image-7.png",
-    "image-6.png",
-    "image-5.png",
-    "image-4.png",
-    "image-3.png",
     "College/IT-Essentials/Assignments/index.md",
-    "image.png",
-    "image-1.png",
-    "image-2.png",
     "College/IT-Essentials/Assignments/lu21347656wmt.tmp",
     "College/IT-Essentials/Assignments/lu21347656wmr.tmp",
     "College/IT-Essentials/Assignments/AssignmentSix.docx",
@@ -248,7 +264,6 @@
     "College/IT-Essentials/Lectures/LectureFour.md",
     "College/Python/Lectures/index.md",
     "College/Python/Sections/index.md",
-    "College/Python/index.md",
     "College/Math/Lectures",
     "College/Math/sed65yYM7",
     "College/Math/sedG9mbub",

@@ -7,7 +7,7 @@ next:
    link: '/College/IT-Essentials/Assignments/AssignmentSeven'
 ---
 
-# Task 6
+# Task Six
 
 ## **Step 1: Open User Account Settings**
 

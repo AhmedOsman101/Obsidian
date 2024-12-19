@@ -42,31 +42,246 @@ next:
 
 #### Q1: What are the essential components required to set up the network in this office?
 
-- **Router**: To connect the network to the internet.
-- **Switch**: To interconnect all devices (computers, server, printer) within the network.
-- **Ethernet cables (Cat5e or Cat6)**: For wired connections between devices.
-- **Access Point (optional)**: If wireless connectivity is needed.
-- **Firewall**: For securing the network from external threats.
-- **Network Interface Cards (NICs)**: Required in all devices for network communication.
-- **Server**: For file sharing, printer management, and possibly hosting applications.
-- **Printer**: Configured to be network-accessible.
+##### 1. Networking Hardware
+
+###### a. Router
+
+- **Purpose:** Connects the office network to the internet.
+- **Features:**
+  - Supports DHCP to assign IP addresses.
+  - Includes firewall capabilities for added security.
+  - May have built-in Wi-Fi for wireless devices.
+
+###### b. Switch
+
+- **Purpose:** Acts as the central hub for connecting all devices in a star topology.
+- **Recommended Specification:**
+  - A **16-port Gigabit switch** to accommodate the 10 computers, server, printer, and future expansion.
+
+###### c. Ethernet Cables
+
+- **Purpose:** Physically connects computers, the server, the printer, and networking devices.
+- **Recommendation:**
+  - Use **Cat5e** or **Cat6** cables for high-speed and reliable data transfer.
+
+###### d. Access Point
+
+- **Purpose:** Provides Wi-Fi connectivity for mobile devices or laptops, if needed.
+- **Alternative:** A router with integrated Wi-Fi.
+
+###### e. Printer
+
+- **Purpose:** A shared printer capable of network printing.
+- **Recommendation:**
+  - A printer with **Ethernet** or **Wi-Fi** connectivity for direct integration into the network.
+
+---
+
+##### 2. Server
+
+- **Purpose:** Provides centralized storage, file sharing, and possibly application hosting.
+- **Recommended Features:**
+  - Adequate storage capacity (e.g., RAID configuration for redundancy).
+  - Gigabit network interface card (NIC) for high-speed connectivity.
+  - An appropriate operating system (e.g., Linux, Windows Server).
+
+---
+
+##### 3. Computers
+
+- **Purpose:** End-user devices for work and communication.
+- **Connectivity:**
+  - Ethernet ports for wired connections.
+  - Wireless adapters (optional, if Wi-Fi is used).
+
+---
+
+##### 4. Internet Connection
+
+- **Purpose:** Provides external access for browsing, email, and cloud services.
+- **Requirement:**
+  - A broadband connection (e.g., fiber or DSL) with sufficient bandwidth for 10 users.
+
+---
+
+##### 5. Software and Configuration
+
+###### Network Configuration Tools
+
+- DHCP: For automatic IP address assignment (often provided by the router).
+- DNS: For resolving domain names (via the router or ISP).
+
+###### Security Tools
+
+- Firewalls: Provided by the router or server.
+- Antivirus software: For all devices.
+
+##### Summary of Components:
+
+| **Component**           | **Quantity** | **Purpose**                            |
+| ----------------------- | ------------ | -------------------------------------- |
+| Router                  | 1            | Internet access, DHCP, and firewall.   |
+| Switch                  | 1 (16-port)  | Central connection point.              |
+| Ethernet Cables         | ~15          | Wired connections.                     |
+| Printer                 | 1            | Shared printing.                       |
+| Server                  | 1            | Centralized file and resource sharing. |
+| Computers               | 10           | End-user devices.                      |
+| Power Backup (UPS)      | 1-2          | Uninterrupted power for key devices.   |
+| Access Point (Optional) | 1            | Wireless connectivity (if needed).     |
 
 #### Q2: What are the seven layers of the OSI model, and how does each layer contribute to enabling communication between the devices at the office network?
 
-1. **Physical Layer**: Transmits raw bit streams over physical media like cables or Wi-Fi.
-2. **Data Link Layer**: Handles MAC addressing and error detection (e.g., Ethernet protocol).
-3. **Network Layer**: Manages IP addressing and routing (e.g., ensuring devices can access the internet).
-4. **Transport Layer**: Ensures data is sent reliably (TCP) or quickly (UDP).
-5. **Session Layer**: Maintains, establishes, and terminates connections (e.g., managing active file transfers).
-6. **Presentation Layer**: Handles data translation, encryption, and compression.
-7. **Application Layer**: Interfaces with software applications (e.g., browsers, email clients).
+##### OSI Model Layers
+
+**Physical Layer**
+
+- **Role in the Network:**
+  - Establishes the physical connection between devices.
+  - Transmits raw binary data over the medium (e.g., Ethernet cables or Wi-Fi signals).
+- **Example:**
+  - Ethernet cables connect the computers, server, printer, and router.
+  - Network switch and Wi-Fi access points facilitate signal distribution.
+
+---
+
+**Data Link Layer**
+
+- **Role in the Network:**
+  - Provides MAC addressing to identify devices on the same network.
+  - Ensures error detection and reliable data delivery within the local area network (LAN).
+- **Example:**
+  - Ensures that a print request from Computer A is directed to the correct printer.
+  - Switches forward frames based on MAC addresses within the office network.
+
+---
+
+**Network Layer**
+
+- **Role in the Network:**
+  - Handles logical addressing (IP addresses) and routes data between different networks.
+  - Enables internet access by routing packets from the office network to external networks.
+- **Example:**
+  - Assigns IP addresses to all devices (e.g., via DHCP from the router).
+  - Routes data from the server to the computers and manages traffic to the internet.
+
+---
+
+**Transport Layer**
+
+- **Role in the Network:**
+  - Ensures reliable communication through error checking, acknowledgments, and retransmissions.
+  - Handles segmentation of data into packets and flow control.
+- **Example:**
+  - Ensures a file transfer from the server to a computer completes without errors (TCP).
+  - Handles streaming of video content over a web browser (UDP).
+
+---
+
+**Session Layer**
+
+- **Role in the Network:**
+  - Manages and maintains sessions between devices or applications.
+  - Keeps sessions active for tasks like printing or shared folder access.
+- **Example:**
+  - Maintains a session for remote desktop access to the server.
+  - Ensures a stable connection for a user editing a document on the shared server.
+
+---
+
+**Presentation Layer**
+
+- **Role in the Network:**
+  - Formats data for the application layer, including encryption and compression.
+  - Ensures data is understandable by both sender and receiver.
+- **Example:**
+  - Encrypts sensitive data sent from a computer to the server (SSL/TLS).
+  - Compresses large files for faster transmission across the network.
+
+---
+
+**Application Layer**
+
+- **Role in the Network:**
+  - Interfaces with user applications and provides services such as file sharing, email, and printing.
+  - Uses protocols to enable communication between applications.
+- **Example:**
+  - Facilitates file sharing via SMB (Server Message Block) or FTP.
+  - Sends emails through SMTP and retrieves them with IMAP.
+  - Sends print jobs to the shared printer using print protocols.
+
+---
+
+##### End-to-End Scenario
+
+1. A user on Computer A sends a print job to the printer.
+
+   - **Layer 7:** User interacts with the print application.
+   - **Layer 6:** Data is formatted and encrypted for secure transmission.
+   - **Layer 5:** A session is established with the printer.
+   - **Layer 4:** Data is segmented into packets with error checking.
+   - **Layer 3:** Packets are routed to the printer using its IP address.
+   - **Layer 2:** Frames are directed to the printer based on its MAC address.
+   - **Layer 1:** Electrical signals transmit the data to the printer.
+
+2. A user on Computer B accesses the internet.
+   - **Layer 7:** Web browser sends an HTTP request.
+   - **Layer 6:** Data is encrypted using HTTPS.
+   - **Layer 5:** Session is maintained for the HTTP connection.
+   - **Layer 4:** TCP ensures reliable delivery of the request and response.
+   - **Layer 3:** Packets are routed to and from the external web server.
+   - **Layer 2:** Frames are switched within the office network.
+   - **Layer 1:** Data is transmitted through the router and ISP.
 
 #### Q3: What are the suggested network type and topology for the office network? Explain why these are the most suitable options for this setup.
 
-- **Network Type**: LAN (Local Area Network) for internal communication, and WAN (Wide Area Network) for internet access.
-- **Topology**:
-  - **Star Topology**: Centralized connection through a switch/router. This ensures ease of troubleshooting and scalability.
-  - **Reason**: A star topology minimizes downtime (only affected devices fail) and supports centralized management.
+##### Network Type: Local Area Network (LAN)
+
+- **Why LAN?**
+  - **Localized coverage:** A LAN is designed for devices within a small geographical area, such as a single-floor office.
+  - **Cost-effective:** LAN setups are affordable and ideal for connecting a small number of devices.
+  - **High-speed communication:** Ensures fast data transfer rates for file sharing, printing, and internet access.
+  - **Ease of management:** Simple to configure and maintain with modern networking devices (e.g., switches and routers).
+
+---
+
+##### Topology: Star Topology
+
+- **Why Star Topology?**
+  - **Centralized management:**
+    - A network switch acts as the central hub, connecting all devices (computers, server, printer).
+    - Easy to troubleshoot since each device connects independently to the switch.
+  - **Scalability:**
+    - New devices can be added easily without affecting the existing connections.
+  - **Reliability:**
+    - A failure in one device or cable does not affect the entire network, as each device has an independent connection to the central switch.
+  - **Performance:**
+    - Eliminates data collisions by using switches with full-duplex communication, ensuring efficient bandwidth usage.
+  - **Cost-effective:**
+    - Affordable for small networks with a limited number of devices.
+
+---
+
+##### Implementation Example
+
+1. **Core Devices:**
+
+   - A central **network switch**.
+   - A **router** connected to the switch to provide internet access.
+   - Ethernet cables for wired connections (Cat5e or Cat6 for better speeds).
+
+2. **Connections:**
+   - All computers, the server, and the printer are connected to the switch via Ethernet.
+   - The router connects to the switch to enable internet access.
+   - A wireless access point (or a router with Wi-Fi) can be added for mobile or Wi-Fi-enabled devices.
+
+---
+
+##### Benefits of this Setup
+
+- **Efficiency:** All devices can share files, print, and access the internet seamlessly.
+- **Security:** A LAN allows for better control of network access and implementation of security protocols (e.g., firewalls, VLANs).
+- **Cost-effectiveness:** Uses affordable and readily available hardware.
+- **Reliability:** Minimizes downtime by isolating potential failures to individual connections.
 
 #### Q4: Compare between TCP and UDB protocols.
 
@@ -99,7 +314,7 @@ next:
 
 #### Q7: Install Windows 10 on a virtual machine and configure basic system settings.
 
-##### a) Fresh Installation:
+###### A) Start a Fresh Installation of Windows 10
 
 - Create a new VM in VirtualBox.
   ![](./imgs/2024-12-18-00-29-34.png)
@@ -118,7 +333,7 @@ next:
 - Run the virtual machine.
   ![](./imgs/2024-12-18-00-31-38.png)
 
-#### b) Configure Language, Time Zone, and Region:
+##### B) During the Installation, Set the Language, Time Zone, and Region
 
 - Select language, local and keyboard layout.
   ![](./imgs/2024-12-18-00-32-54.png)
@@ -148,10 +363,6 @@ next:
 
 - Wait until it finishes.
   ![](./imgs/2024-12-18-00-45-47.png)
-
-  ![](./imgs/2024-12-18-00-46-51.png)
-
-  ![](./imgs/2024-12-18-00-47-44.png)
 
   ![](./imgs/2024-12-18-00-57-57.png)
 
@@ -207,7 +418,7 @@ next:
 - Installation completed.
   ![](./imgs/2024-12-18-01-20-50.png)
 
-#### c) Create User Accounts and Permissions:
+##### C) After Installation, Create User Accounts and Set Up User Permissions
 
 - Open windows settings app
   ![](./imgs/2024-12-18-01-39-34.png)
@@ -229,7 +440,9 @@ next:
 - Now we have two users one is Administrator and the other one is a standard user.
   ![](./imgs/2024-12-18-01-43-37.png)
 
-#### d) FAT32 vs NTFS:
+##### D) Compare Between Fat32 and Ntfs File Systems Then Configure a Storage Device With the Appropriate File System Based on Its Intended Use
+
+###### NTFS vs. FAT32
 
 FAT32 (File Allocation Table 32) and NTFS (New Technology File System) are two popular file systems used in various operating systems. Here's a comparison of their intended uses:
 
@@ -265,4 +478,92 @@ FAT32 (File Allocation Table 32) and NTFS (New Technology File System) are two p
 - Advanced security features are required (e.g., encryption, access control).
 - Large files and directories need to be stored and shared.
 
-In summary, FAT32 is suitable for simple, low-end devices with limited storage capacity, while NTFS is designed for high-performance storage devices that require advanced security features.
+###### Configure a storage device with the appropriate file system.
+
+- Open `Disk Manager` from the start menu.
+  ![](./imgs/2024-12-18-01-44-20.png)
+- Select unallocated space (or select an existing **EMPTY** partition and change its file system)
+  ![](./imgs/2024-12-18-01-46-00.png)
+- Click `New simple volume`.
+  ![](./imgs/2024-12-18-01-46-06.png)
+- Click `Next`.
+  ![](./imgs/2024-12-18-01-46-15.png)
+- Enter the size of the partition in MBs.
+  ![](./imgs/2024-12-18-01-46-51.png)
+- Assign a letter to the partition.
+  ![](./imgs/2024-12-18-01-47-02.png)
+- Choose the file system (FAT32 or NTFS). I will choose NTFS for better performance.
+  ![](./imgs/2024-12-18-01-47-09.png)
+- Add a label to the partition then click `next`.
+  ![](./imgs/2024-12-18-01-47-21.png)
+- Click `Finish`.
+  ![](./imgs/2024-12-18-01-47-25.png)
+- Now we have a new `4.82GB NTFS` partition `test` with the letter `E`.
+  ![](./imgs/2024-12-18-01-47-43.png)
+
+##### E) Set Up a Local Area Network (Lan) Connection or Wi-Fi, Ensuring Internet Access.
+
+- Open `Network & Internet` in the settings.
+  ![](./imgs/2024-12-18-01-51-38.png)
+- Because of the virtual machine the network is already working.
+  ![](./imgs/2024-12-18-01-51-43.png)
+- To verify click on `Change adapter options`.
+  ![](./imgs/2024-12-18-01-51-46.png)
+- Select your adapter (Wi-Fi for WLAN or Ethernet for LAN) I will choose my Ethernet adapter.
+  ![](./imgs/2024-12-18-01-51-54.png)
+- Right click on it then select `Status`.
+  ![](./imgs/2024-12-18-01-51-58.png)
+- It shows the following info:
+  ![](./imgs/2024-12-18-01-54-09.png)
+
+| Property    | Value                         |
+| ----------- | ----------------------------- |
+| IPv4        | Internet                      |
+| IPv6        | No Internet Access            |
+| Media State | Enabled                       |
+| Duration    | 57 Minutes                    |
+| Speed       | 1 Gbps (Giga bits per second) |
+
+Which tells us that this Ethernet cable utilizes IPv4 for internet access and IPv6 is disabled, the cable has been up for 57 minutes at speed of 1Gbps.
+
+- To further verify we will try to ping into a website e.g. [archlinux.org](https://archlinux.org/). Open the command prompt using start menu.
+  ![](./imgs/2024-12-18-01-54-43.png)
+- type the command `ping archlinux.org` then press Enter.
+  ![](./imgs/2024-12-18-01-55-05.png)
+- It says `4 packets transmitted, 4 received, 0% packet loss` which means we have internet connection.
+  ![](./imgs/2024-12-18-01-55-11.png)
+
+#### Q8: After Successfully Installing Windows 10, Configure Security Settings Such as Windows Defender, Firewall, User Account Control.
+
+##### Enable firewall:
+
+- Launch Control Panel from the start menu.
+  ![](./imgs/2024-12-19-18-05-04.png)
+- Open `Windows Defender Firewall`.
+  ![](./imgs/2024-12-19-18-06-19.png)
+- Here it's disabled so let's enable it.
+  ![](./imgs/2024-12-19-18-10-17.png)
+- Check both boxes to turn on the firewall, then click `OK`.
+  ![](./imgs/2024-12-19-18-11-07.png)
+
+###### Verify that the firewall is working:
+
+- Open `settings` -> `Updates & Security`.
+  ![](./imgs/2024-12-18-02-02-21.png)
+- Click on `Windows Security` -> `Open Windows Security`.
+  ![](./imgs/2024-12-18-02-02-43.png)
+- Go to `Firewall & Network Protection`.
+  ![](./imgs/2024-12-18-02-02-52.png)
+- Firewall is successfully enabled.
+  ![](./imgs/2024-12-18-02-02-58.png)
+
+##### Setup User Account Control:
+
+- In settings search for `User Account Control`.
+  ![](./imgs/2024-12-18-02-06-18.png)
+- User Account Control for this device is disabled let's enable it.
+  ![](./imgs/2024-12-19-18-13-00.png)
+- Drag the slider to the top for maximum security.
+  ![](./imgs/2024-12-18-02-06-03.png)
+- It will prompt you to verify this operation, click `OK` and you're done.
+  ![](./imgs/2024-12-18-02-06-07.png)

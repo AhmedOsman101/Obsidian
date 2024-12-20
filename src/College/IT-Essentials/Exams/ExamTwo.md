@@ -2,13 +2,11 @@
 prev:
   text: "Exams"
   link: "/College/IT-Essentials/Exams/index"
-next:
-  false
-  # text: "Exam Three"
-  # link: "/College/IT-Essentials/Lectures/ExamThree"
+next: false
 ---
 
-# Assignment Two
+
+# IT-Essentials Assignment Two
 
 ## Scenario
 
@@ -19,22 +17,22 @@ next:
 
 ## Task No.01
 
-1. What are the essential components required to set up the network in this office?
-2. What are the seven layers of the OSI model, and how does each layer contribute to enabling communication between the devices at the office network?
-3. What are the suggested network type and topology for the office network? Explain why these are the most suitable options for this setup.
-4. Compare between TCP and UDB protocols.
-5. Using Cisco Packet Tracer, design and implement a basic network setup for the office. Include the network type, devices, and topology. Simulate and test communication between the devices to ensure the setup is functional. Explain your design choices and the results of your simulation.
+1. What are the essential components required to set up the network in this office? (P6)
+2. What are the seven layers of the OSI model, and how does each layer contribute to enabling communication between the devices at the office network? (P7)
+3. What are the suggested network type and topology for the office network? Explain why these are the most suitable options for this setup. (M6)
+4. Compare between TCP and UDB protocols. (M7)
+5. Using Cisco Packet Tracer, design and implement a basic network setup for the office. Include the network type, devices, and topology. Simulate and test communication between the devices to ensure the setup is functional. Explain your design choices and the results of your simulation. (D5)
 
 ## Task No.02
 
-6. What are the basic functions of an Operating system?
-7. Install Windows 10 on a virtual machine (e.g., VirtualBox) and configure basic system settings:
-   a) Start a fresh installation of Windows 10.
-   b) During the installation, set the language, time zone, and region.
-   c) After installation, create user accounts and set up user permissions.
-   d) Compare between FAT32 and NTFS file systems then Configure a storage device with the appropriate file system based on its intended use
-   e) Set up a local area network (LAN) connection or Wi-Fi, ensuring internet access.
-8. After successfully installing Windows 10, configure security settings such as Windows Defender, Firewall, and User Account Control.
+6. What are the basic functions of an Operating system? (P8)
+7. Install Windows 10 on a virtual machine (e.g. VirtualBox) and configure basic system settings:
+   a) Start a fresh installation of Windows 10. (P9)
+   b) During the installation, set the language, time zone, and region. (P9)
+   c) After installation, create user accounts and set up user permissions. (P9)
+   d) Compare between FAT32 and NTFS file systems then Configure a storage device with the appropriate file system based on its intended use.  (M8)
+   e) Set up a local area network (LAN) connection or Wi-Fi, ensuring internet access. (M9)
+8. After successfully installing Windows 10, configure security settings such as Windows Defender, Firewall, and User Account Control. (D6)
 
 ## Answers
 
@@ -120,7 +118,7 @@ next:
 
 | **Component**           | **Quantity** | **Purpose**                            |
 | ----------------------- | ------------ | -------------------------------------- |
-| Router                  | 1            | Internet access, DHCP, and firewall.   |
+| Router                  | 1            | Internet access and firewall.          |
 | Switch                  | 1 (16-port)  | Central connection point.              |
 | Ethernet Cables         | ~15          | Wired connections.                     |
 | Printer                 | 1            | Shared printing.                       |
@@ -290,7 +288,7 @@ next:
 - **Features**:
   - Reliable, ensures data integrity.
   - Acknowledges received data.
-  - Resends unacknowledged data.
+  - Resend unacknowledged data.
   - Maintains data sequencing.
 
 ##### UDP (User Datagram Protocol)
@@ -310,7 +308,101 @@ next:
 
 #### Q5: Using Packet Tracer, design and implement a basic network setup for the office. Include the network type, devices, and topology. Simulate and test communication between the devices to ensure the setup is functional. Explain your design choices and the results of your simulation.
 
+##### 1. Design Choices
+
+###### a. Network Type
+
+- **Local Area Network (LAN):**
+  - Suitable for a small office within a single floor.
+  - Centralized control for file sharing, internet access, and printing.
+
+###### b. Topology
+
+- **Star Topology:**
+  - A central switch connects all devices.
+  - Scalable and easy to manage.
+
+###### c. Devices
+
+- **Router:** Provides internet access and acts as a DHCP server.
+- **Switch:** Serves as the central connecting point.
+- **End Devices:** 10 PCs, 1 server, 1 printer.
+- **Cables:** Copper straight-through cables for wired connections.
+
+##### 2. Steps for Implementation in Cisco Packet Tracer
+
+###### a. Add Devices
+
+1. Place the following devices on the workspace:
+   - **1 Router:** (Cisco 4331)
+   - **1 Switch:** (Cisco 2960)
+   - **10 PCs:** Representing office computers.
+   - **1 Server:** For file sharing and print management.
+   - **1 Printer:** Network-enabled printer.
+
+###### b. Physical Connections
+
+- Connect devices using **copper straight-through cables:**
+  - Router to switch.
+  - Switch to all PCs, server, and printer.
+
+###### c. IP Addressing
+
+1. **Router Configuration:**
+
+   - Assign a static IP address `192.168.1.1` to the router's interface `GigabitEthernet0/0/0`.
+   - Connect the switch to the router on the `GigabitEthernet0/0/0` interface (which we assigned an IP earlier).
+
+2. **Server and Printer:**
+   - Assign static IP addresses for easier identification (`192.168.1.2` for the server and `192.168.1.3` for the printer).
+
+###### d. Device Configuration
+
+- **PCs:**
+
+  - Configure each PC with a static IP address from `192.168.1.4` to `192.168.1.13`.
+  - Test connectivity with the router (click on the device -> desktop -> command prompt -> run `ping 192.168.1.1`).
+
+- **Server:**
+
+  - Assign the static IP `192.168.1.2`.
+  - Configure the default gateway to `192.168.1.1`.
+
+- **Printer:**
+  - Assign the static IP `192.168.1.3`.
+  - Configure the default gateway to `192.168.1.1`.
+
+##### 3. Testing Communication
+
+###### Pinging Devices
+
+- **Test 1:** Ping between two PCs (e.g., `PC1 -> PC2`) to verify internal LAN communication.
+- **Test 2:** Ping the server (`192.168.1.2`) and printer (`192.168.1.3`) to ensure reachability.
+
+![](./imgs/2024-12-20-19-05-54.png)
+
+##### 4. Simulation Results
+
+- **All PCs were successfully assigned static IP addresses.**
+- **PCs can communicate with each other, the server, and the printer.**
+
+#### 5. Final Design
+
+![](./imgs/2024-12-20-18-13-09.png)
+![](./imgs/2024-12-20-18-44-09.png)
+
+---
+
+## Task No.02
+
 #### Q6: What are the basic functions of Operating system?
+
+An Operating System (OS) is essential software that manages a computer's hardware and software resources, acting as an intermediary between users and the hardware. Its key functions include:
+
+- **Resource Management:** Controlling hardware resources like the CPU, memory, storage, and peripherals.
+- **User Interface:** Providing an interface (Command Line Interface (CLI) or Graphical User Interface (GUI)) for user interaction.
+
+One of the OS's main roles is **controlling hardware access**. It achieves this by using **device drivers**, small programs written by hardware manufacturers, to enable communication between applications and hardware. **Plug and Play (PnP)** automates this process by automatically detecting PnP-compatible hardware and installing the necessary drivers. The OS then configures the device and updates the **registry**, a database containing information about the computer's applications, users, hardware, network settings, and file types.
 
 #### Q7: Install Windows 10 on a virtual machine and configure basic system settings.
 
@@ -514,15 +606,16 @@ FAT32 (File Allocation Table 32) and NTFS (New Technology File System) are two p
 - Right click on it then select `Status`.
   ![](./imgs/2024-12-18-01-51-58.png)
 - It shows the following info:
-  ![](./imgs/2024-12-18-01-54-09.png)
 
 | Property    | Value                         |
 | ----------- | ----------------------------- |
 | IPv4        | Internet                      |
-| IPv6        | No Internet Access            |
+| IPv6        | No Internet Access (disabled) |
 | Media State | Enabled                       |
 | Duration    | 57 Minutes                    |
 | Speed       | 1 Gbps (Giga bits per second) |
+
+![](./imgs/2024-12-18-01-54-09.png)
 
 Which tells us that this Ethernet cable utilizes IPv4 for internet access and IPv6 is disabled, the cable has been up for 57 minutes at speed of 1Gbps.
 

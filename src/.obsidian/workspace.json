@@ -4,52 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d9b12cdd5003479c",
+        "id": "2231e0076a0c8ac3",
         "type": "tabs",
         "children": [
           {
-            "id": "aceb89f6935783ab",
+            "id": "72a99e2cf4ce09c7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/IT-Essentials/Exams/ExamTwo.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "ExamTwo"
-            }
-          },
-          {
-            "id": "7a0063294af19cd7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/IT-Essentials/Lectures/LectureSix.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "LectureSix"
-            }
-          },
-          {
-            "id": "22a5a367f61ec4ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/IT-Essentials/Exams/draft.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "draft"
+              "title": "New tab"
             }
           }
         ]
@@ -118,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5,
+    "width": 312.5,
     "collapsed": true
   },
   "right": {
@@ -180,11 +145,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "College/IT-Essentials/Exams/ExamTwo.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of ExamTwo"
+              "title": "Outline"
             }
           },
           {
@@ -220,31 +183,38 @@
       "obsidian-tts:Text to Speech": false
     }
   },
-  "active": "aceb89f6935783ab",
+  "active": "72a99e2cf4ce09c7",
   "lastOpenFiles": [
     "College/IT-Essentials/Lectures/LectureSix.md",
-    "Courses/LinuxCrashCourse.md",
     "College/IT-Essentials/Exams/draft.md",
     "College/IT-Essentials/Exams/ExamTwo.md",
-    "Courses/LinuxCrashCourse.docx",
-    "Courses/PHP-Elzero.docx",
+    "College/IT-Essentials/Exams/lu113835ba1cr.tmp",
+    "College/IT-Essentials/Exams/lu113835ba1cn.tmp",
+    "College/IT-Essentials/Exams/lu113835ba1cl.tmp",
+    "College/IT-Essentials/Exams/lu113835ba181.tmp",
+    "College/IT-Essentials/Exams/lu113835ba0dv.tmp",
+    "College/IT-Essentials/Exams/lu113835ba04s.tmp",
+    "College/IT-Essentials/Exams/lu113835ba03e.tmp",
+    "College/IT-Essentials/Exams/lu113835b9zy6.tmp",
+    "College/IT-Essentials/Exams/lu113835b9zsi.tmp",
+    "College/IT-Essentials/Exams/lu113835b9zsg.tmp",
+    "College/IT-Essentials/Exams/imgs/2024-12-20-18-13-09.png",
+    "College/IT-Essentials/Exams/imgs/2024-12-20-18-44-09.png",
+    "College/IT-Essentials/Exams/imgs/2024-12-20-19-05-54.png",
+    "College/IT-Essentials/Exams/imgs/2024-12-20-19-13-09.png",
+    "College/IT-Essentials/Exams/imgs/Screenshot_2024-12-20-18-44-09_1440x900.png",
+    "College/IT-Essentials/Exams/imgs/2024-12-19-19-13-09.png",
+    "College/IT-Essentials/Exams/imgs/AssignmentTwo.png",
+    "image.png",
+    "Courses/LinuxCrashCourse.md",
     "College/IT-Essentials/Exams/imgs/2024-12-19-18-13-00.png",
     "College/IT-Essentials/Exams/imgs/2024-12-19-18-11-07.png",
-    "College/IT-Essentials/Exams/imgs/2024-12-19-18-10-17.png",
-    "College/IT-Essentials/Exams/imgs/2024-12-19-18-18-09.png",
-    "College/IT-Essentials/Exams/imgs/2024-12-19-18-06-19.png",
-    "College/IT-Essentials/Exams/imgs/2024-12-19-18-05-04.png",
-    "College/IT-Essentials/Exams/imgs/2024-12-18-02-06-18.png",
-    "College/IT-Essentials/Exams/imgs/2024-12-18-02-06-07.png",
-    "College/IT-Essentials/Exams/imgs/2024-12-18-02-06-03.png",
-    "College/IT-Essentials/Exams/imgs/2024-12-18-02-06-01.png",
     "College/IT-Essentials/Exams/index.md",
     "College/IT-Essentials/Lectures/LectureTwo.md",
     "College/IT-Essentials/Lectures/LectureOne.md",
     "College/IT-Essentials/Lectures/index.md",
     "ExamTwo.md",
     "College/IT-Essentials/Assignments/AssignmentSix.md",
-    "College/IT-Essentials/Exams",
     "College/IT-Essentials/Assignments/AssignmentFour.md",
     "College/IT-Essentials/Assignments/AssignmentFive.md",
     "College/IT-Essentials/Assignments/AssignmentTwo.md",
@@ -252,21 +222,13 @@
     "College/IT-Essentials/index.md",
     "College/Python/Assignments/AssignmentTwo.md",
     "College/draft.md",
-    "College/draft.pdf",
     "College/IT-Essentials/Assignments/index.md",
-    "College/IT-Essentials/Assignments/lu21347656wmt.tmp",
-    "College/IT-Essentials/Assignments/lu21347656wmr.tmp",
-    "College/IT-Essentials/Assignments/AssignmentSix.docx",
     "General/MathForProblemSolving.md",
     "General/index.md",
-    "General",
     "College/index.md",
     "College/IT-Essentials/Lectures/LectureFive.md",
     "College/IT-Essentials/Lectures/Untitled.md",
     "College/IT-Essentials/Lectures/LectureFour.md",
-    "College/Python/Lectures/index.md",
-    "College/Python/Sections/index.md",
-    "College/Math/Lectures",
-    "College/Math/sed65yYM7"
+    "College/Python/Lectures/index.md"
   ]
 }

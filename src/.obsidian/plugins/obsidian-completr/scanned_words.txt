@@ -1428,6 +1428,7 @@ pTT
 pdV
 pppHSJW
 pDDDDDDD
+programmer
 sbf
 sPv
 sC
@@ -2035,6 +2036,12 @@ sUy
 skS
 stI
 stG
+subjects
+student
+stop
+students
+subject
+score
 ff
 fP
 fj
@@ -3384,6 +3391,7 @@ wlb
 wJh
 wkY
 wMsV
+workers
 BU
 Bh
 BC
@@ -4234,6 +4242,7 @@ MBB
 MDDDDDDDDDD
 MAQr
 MiYI
+Mention
 Lj
 Lf
 LvVa
@@ -5175,6 +5184,7 @@ akX
 acting
 achieves
 automates
+approach
 Te
 Tn
 TA
@@ -5595,6 +5605,7 @@ TWG
 TUe
 TBB
 TeH
+Technological
 uj
 uq
 uXm
@@ -5953,6 +5964,7 @@ uJw
 uhY
 ucX
 uHW
+understanding
 OB
 Ox
 ONynT
@@ -6679,6 +6691,7 @@ UyrrC
 UEUUTM
 Upo
 Uch
+University
 ra
 rO
 rV
@@ -7637,6 +7650,8 @@ emM
 eMO
 eeee
 eac
+engineer
+entertains
 GO
 GQ
 Gk
@@ -9463,6 +9478,9 @@ inm
 itz
 iLh
 intermediary
+ideas
+indicating
+insensitive
 tWA
 tW
 tM
@@ -9911,6 +9929,7 @@ tAm
 tHH
 tJG
 tvI
+tuples
 nm
 nv
 nhuK
@@ -10669,6 +10688,7 @@ FSw
 FXx
 FtU
 FGj
+Fail
 xi
 xpF
 xwG
@@ -12365,6 +12385,8 @@ lmmi
 lYf
 loc
 ljCU
+lists
+learned
 Rc
 Rt
 RO
@@ -13894,6 +13916,8 @@ DJJ
 Dhh
 DpD
 Dxy
+Department
+Define
 ohQ
 oL
 ob
@@ -14264,6 +14288,7 @@ oSf
 onp
 oPa
 oSN
+outside
 mipte
 mRT
 mX
@@ -14695,6 +14720,8 @@ mzr
 mxQ
 mjC
 manufacturers
+mention
+marks
 Ck
 CS
 Cm
@@ -15238,6 +15265,7 @@ CwvA
 CDDDDDDDDDDn
 CjQ
 Controlling
+Cairo
 vb
 vO
 vvF
@@ -16230,6 +16258,9 @@ cxe
 cYtF
 controlling
 configures
+challenges
+category
+criteria
 Hu
 Hg
 HiL
@@ -17675,6 +17706,8 @@ gyHqd
 ghS
 gfok
 gbru
+grade
+grades
 KUYX
 KX
 KK
@@ -19331,6 +19364,8 @@ dHKKc
 dmK
 dvbdmm
 detecting
+director
+dictionary
 AK
 AQ
 Aya
@@ -19847,6 +19882,7 @@ ADDDDDDDD
 Apu
 AfE
 AGI
+Acceptable
 Jw
 Jg
 JT

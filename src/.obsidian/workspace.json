@@ -21,8 +21,24 @@
               "icon": "lucide-file",
               "title": "draft"
             }
+          },
+          {
+            "id": "752f36d97cad11f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "College/Python/Exams/ExamTwo.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "ExamTwo"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -151,10 +167,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/Python/Exams/draft.md"
+                "file": "College/Python/Exams/ExamTwo.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of draft"
+              "title": "Outline of ExamTwo"
             }
           },
           {
@@ -190,15 +206,15 @@
       "obsidian-tts:Text to Speech": false
     }
   },
-  "active": "72a99e2cf4ce09c7",
+  "active": "752f36d97cad11f1",
   "lastOpenFiles": [
+    "College/Python/Exams/draft.md",
+    "College/Python/Exams/ExamTwo.md",
     "College/Python/Exams/draft.docx",
     "College/Python/Exams/imgs/code6.png",
     "College/Python/Exams/lu7754285i8.tmp",
     "College/Python/Exams/lu7754285hg.tmp",
     "College/Python/Exams/imgs/code3.png",
-    "College/Python/Exams/draft.md",
-    "College/Python/Exams/ExamTwo.md",
     "College/Python/Exams/imgs/code1.png",
     "College/Python/Exams/imgs/code15.png",
     "College/Python/Exams/imgs/code14.png",

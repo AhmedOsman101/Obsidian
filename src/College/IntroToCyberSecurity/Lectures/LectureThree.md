@@ -40,6 +40,7 @@ The CIA Triad is a security model developed to help individuals consider various
 - **Integrity**: Ensuring that data remains unchanged and trustworthy.
 - **Availability**: Ensuring that data and resources are accessible when needed.
 
+![](../../../figure2.png)
 ### Confidentiality
 
 **Confidentiality in ATM Security:**
@@ -58,6 +59,8 @@ The CIA Triad is a security model developed to help individuals consider various
 - **Authorization**: Grants specific permissions to users based on their role.
 - **Authentication**: Verifies the identity of users before granting access.
 - **Physical Security**: Protects physical access to data and resources.
+
+![](../../../figure3.png)
 
 Confidentiality protects against unauthorized or unintentional access to sensitive information, addressing ethical and legal obligations. It involves protective measures to prevent unauthorized access, ensuring that only those with a "need to know" can access certain data. Access is implemented through rights and privileges assigned to individual users.
 

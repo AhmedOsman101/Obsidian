@@ -8,37 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "11436524eb3296b3",
+            "id": "867617ba69f9f2dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/IntroToCyberSecurity/Exams/draft.md",
+                "file": "College/IntroToCyberSecurity/Lectures/LectureFour.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "draft"
-            }
-          },
-          {
-            "id": "b4636fe1f45a9a9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/IntroToCyberSecurity/Exams/ExamTwo.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ExamTwo"
+              "title": "LectureFour"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209.5,
-    "collapsed": true
+    "width": 209.5
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -167,10 +150,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/IntroToCyberSecurity/Exams/ExamTwo.md"
+                "file": "College/IntroToCyberSecurity/Lectures/LectureFour.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of ExamTwo"
+              "title": "Outline of LectureFour"
             }
           },
           {
@@ -206,22 +189,29 @@
       "obsidian-tts:Text to Speech": false
     }
   },
-  "active": "b4636fe1f45a9a9b",
+  "active": "867617ba69f9f2dc",
   "lastOpenFiles": [
+    "College/IntroToCyberSecurity/Lectures/LectureFive.md",
+    "College/IntroToCyberSecurity/Lectures/LectureFour.md",
+    "figure6.png",
+    "Screenshot_2024-12-25-19-38-36_1440x900.png",
+    "figure5.png",
+    "figure4.png",
+    "College/IntroToCyberSecurity/Lectures/LectureThree.md",
+    "figure3.png",
+    "figure2.png",
+    "College/IntroToCyberSecurity/Lectures/LectureTwo.md",
+    "College/IntroToCyberSecurity/Lectures/LectureOne.md",
+    "figure1.png",
+    "College/IntroToCyberSecurity/Lectures/LectureSevenToNine.md",
+    "Pasted image 20241225192423.png",
+    "College/IntroToCyberSecurity/Lectures/LectureSix.md",
     "College/IntroToCyberSecurity/Exams/draft.md",
     "College/IntroToCyberSecurity/Exams/ExamTwo.md",
     "College/Python/Exams/draft.md",
     "College/Python/Exams/ExamTwo.md",
     "College/IntroToCyberSecurity/Exams/imgs/code9.png",
     "College/IntroToCyberSecurity/Exams/imgs/code8.png",
-    "College/IntroToCyberSecurity/Exams/imgs/code7.png",
-    "College/IntroToCyberSecurity/Exams/imgs/code6.png",
-    "College/IntroToCyberSecurity/Exams/imgs/code5.png",
-    "College/IntroToCyberSecurity/Exams/imgs/code4.png",
-    "College/IntroToCyberSecurity/Exams/imgs/code3.png",
-    "College/IntroToCyberSecurity/Exams/imgs/code2.png",
-    "College/IntroToCyberSecurity/Exams/imgs/code15.png",
-    "College/IntroToCyberSecurity/Exams/imgs/code14.png",
     "College/IntroToCyberSecurity/Exams/index.md",
     "College/IntroToCyberSecurity/Exams/imgs",
     "College/IntroToCyberSecurity/Exams",
@@ -245,13 +235,6 @@
     "ExamTwo.md",
     "College/IT-Essentials/Assignments/AssignmentSix.md",
     "College/IT-Essentials/Assignments/AssignmentFour.md",
-    "College/IT-Essentials/Assignments/AssignmentFive.md",
-    "College/IT-Essentials/Assignments/AssignmentTwo.md",
-    "College/IT-Essentials/Assignments/AssignmentOne.md",
-    "College/IT-Essentials/index.md",
-    "College/Python/Assignments/AssignmentTwo.md",
-    "College/draft.md",
-    "College/IT-Essentials/Assignments/index.md",
-    "General/MathForProblemSolving.md"
+    "College/IT-Essentials/Assignments/AssignmentFive.md"
   ]
 }

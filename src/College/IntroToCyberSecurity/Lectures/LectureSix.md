@@ -4,8 +4,8 @@ prev:
   link: /College/IntroToCyberSecurity/LectureFive
 next:
   false
-  # text: Lecture Seven
-  # link: /College/IntroToCyberSecurity/LectureSeven
+  # text: Lectures Seven to Nine
+  # link: /College/IntroToCyberSecurity/LectureSevenToNine
 ---
 
 # Introduction To Cybersecurity Lecture 6
@@ -21,7 +21,7 @@ Hacking involves exploiting vulnerabilities in computer systems, networks, or so
 3. Gain confidential and private information.
 4. Alter software, hardware, or networks.
 
-![](../imgs/hacker.png)
+![](../imgs/figure19.png)
 
 ## Types of Hackers
 

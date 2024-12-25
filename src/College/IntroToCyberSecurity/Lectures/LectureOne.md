@@ -18,7 +18,7 @@ Cybersecurity is the protection of information systems (hardware, software, and 
 - Harm caused intentionally by the operator of the system
 - Accidentally as a result of failing to follow security procedures.
 
-![](../../../figure1.png)
+![](../imgs/figure1.png)
 ### The History of Cybersecurity
 
 #### 1970s: ARPANET and the Creeper

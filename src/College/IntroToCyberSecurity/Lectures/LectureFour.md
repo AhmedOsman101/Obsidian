@@ -13,7 +13,7 @@ next:
 
 Cybersecurity encompasses practices, technologies, and principles designed to protect digital systems and data from threats. Below are key concepts that define the scope of cybersecurity.
 
-![](../../../figure4.png)
+![](../imgs/figure4.png)
 
 ### Cyber Threats
 
@@ -64,7 +64,7 @@ Cyber threat actors are individuals or groups with malicious intent to exploit v
   - **Cybercriminals**: Attack for monetary gain.
   - **Insiders**: Internal personnel with knowledge of vulnerabilities.
 
-![](../../../figure5.png)
+![](../imgs/figure5.png)
 
 ### Malware
 
@@ -78,7 +78,7 @@ Malware, or malicious software, is a key cyber threat. It includes various types
 - **Rootkit**: Hides malicious activity from detection.
 - **Backdoor**: Allows unauthorized access to systems.
 
-![](../../../figure6.png)
+![](../imgs/figure6.png)
 #### Attack Vectors and Entry Points
 
 Malware can be delivered through various means:

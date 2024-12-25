@@ -33,6 +33,8 @@ Phishing is a type of cybersecurity threat or social engineering tactic that tar
    - Targets specific individuals within an organization.
    - The email is personalized with the victim’s details (e.g., name, title, phone number) to increase believability.
 
+![](../imgs/figure8.png)
+
 2. **Whaling**
 
    - A form of spear phishing aimed at high-ranking executives ("whales").
@@ -54,6 +56,7 @@ Phishing is a type of cybersecurity threat or social engineering tactic that tar
 6. **Snowshoeing**
    - Attackers send phishing emails from multiple domains and IP addresses in small volumes, bypassing spam filters.
 
+![](../imgs/figure7.png)
 ### How to Protect Yourself from Phishing
 
 Organizations and individuals can take several preventive actions to protect against phishing attacks:

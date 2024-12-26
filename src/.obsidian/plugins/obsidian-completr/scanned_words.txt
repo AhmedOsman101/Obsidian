@@ -555,6 +555,8 @@ Pya
 PNN
 PJE
 PeM
+Predefined
+Parameters
 IHDR
 IDATx
 IO
@@ -1155,6 +1157,10 @@ IaD
 ILFB
 IHG
 IzU
+Inside
+Indexed
+Item
+Indexing
 pHYs
 pt
 pu
@@ -1799,6 +1805,9 @@ pXD
 ppt
 pwe
 plaintext
+passed
+padded
+parameters
 sbf
 sPv
 sC
@@ -2540,6 +2549,11 @@ sfq
 sFX
 suC
 syTw
+specifier
+spaces
+sure
+shrink
+structured
 ff
 fP
 fj
@@ -4901,6 +4915,8 @@ BRSp
 BLI
 Bfv
 BIt
+Built
+Blocks
 MC
 Ml
 MW
@@ -5466,6 +5482,8 @@ McK
 MThMz
 MKi
 MGe
+Modularization
+Modify
 Lj
 Lf
 LvVa
@@ -6033,6 +6051,7 @@ Lir
 LectureSevenToNine
 LectureNine
 LectureEight
+Libraries
 al
 aj
 ar
@@ -6709,6 +6728,8 @@ apb
 aOs
 anX
 alphabet
+aligning
+allowed
 Te
 Tn
 TA
@@ -7748,6 +7769,8 @@ uOf
 uwk
 uNx
 uqC
+unchangeable
+unindexed
 OB
 Ox
 ONynT
@@ -8219,6 +8242,8 @@ OYI
 OiJ
 OAa
 OrB
+Overview
+Ordered
 Uc
 Ue
 UXk
@@ -8695,6 +8720,8 @@ UWe
 UeQ
 UeZw
 UHscnBm
+Unchangeable
+Unordered
 ra
 rO
 rV
@@ -9293,6 +9320,8 @@ rdh
 rBF
 rylc
 reversing
+reusability
+retain
 eiO
 es
 ee
@@ -9924,6 +9953,9 @@ ece
 edB
 encrypt
 educational
+embed
+exceptions
+effect
 GO
 GQ
 Gk
@@ -11027,6 +11059,7 @@ Eft
 ENNVpw
 Encrypting
 Eight
+Except
 Sal
 SQ
 SB
@@ -12314,6 +12347,9 @@ iUx
 ift
 iSv
 impossible
+indicates
+indexes
+indexed
 tWA
 tW
 tM
@@ -12901,6 +12937,9 @@ tFK
 tsin
 twh
 tMq
+truncate
+tabular
+tuple
 nm
 nv
 nhuK
@@ -13866,6 +13905,7 @@ FAm
 FmM
 FUW
 FVv
+Factorization
 xi
 xpF
 xwG
@@ -15139,6 +15179,7 @@ bstw
 bgX
 beF
 brute
+brief
 Nb
 NJu
 Nbsa
@@ -15651,6 +15692,7 @@ NZKX
 NTW
 Named
 Nine
+Negative
 lqQvz
 ln
 lN
@@ -16716,6 +16758,9 @@ Rvg
 Rtn
 RHs
 Reverse
+Return
+Removing
+Removes
 Zt
 ZB
 Zb
@@ -18220,6 +18265,9 @@ Dyv
 DoYM
 Dnov
 DzN
+Defining
+Duplicates
+Duplicate
 ohQ
 oL
 ob
@@ -18680,6 +18728,8 @@ oOt
 oGR
 ogf
 oKV
+overwrite
+otherwise
 mipte
 mRT
 mX
@@ -19224,6 +19274,10 @@ mcJ
 mdN
 messaging
 mod
+modularity
+modules
+members
+might
 Ck
 CS
 Cm
@@ -19890,6 +19944,10 @@ ChB
 CWR
 Communications
 Caesar
+Combining
+Changeable
+Contain
+Checking
 vb
 vO
 vvF
@@ -20360,6 +20418,7 @@ voy
 vBk
 vXK
 vdS
+view
 ck
 cr
 ce
@@ -21161,6 +21220,8 @@ csK
 cgM
 cRN
 comparing
+clarity
+count
 Hu
 Hg
 HiL
@@ -23110,6 +23171,7 @@ gzh
 gyJ
 goh
 giE
+grouping
 KUYX
 KX
 KK
@@ -25367,6 +25429,10 @@ dCp
 dEe
 dRH
 decrypted
+description
+denotes
+duplicate
+dictionaries
 AK
 AQ
 Aya
@@ -26025,6 +26091,9 @@ AtJ
 Aof
 Aeb
 Ahg
+Are
+Accessible
+Allow
 Jw
 Jg
 JT
@@ -27359,6 +27428,7 @@ WjUb
 WWF
 WGR
 WYk
+Workaround
 Ötl
 ÖC
 Öm

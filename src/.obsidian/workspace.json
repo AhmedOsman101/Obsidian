@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "eb9df1926f172683",
+        "id": "2aa26abdb076a9d0",
         "type": "tabs",
         "children": [
           {
-            "id": "5132511c3a4c1ff7",
+            "id": "f0c0515b269ea77d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/IntroToCyberSecurity/index.md",
+                "file": "College/index.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/IntroToCyberSecurity/index.md"
+                "file": "College/index.md"
               },
               "icon": "lucide-list",
               "title": "Outline of index"
@@ -189,8 +189,16 @@
       "obsidian-tts:Text to Speech": false
     }
   },
-  "active": "5132511c3a4c1ff7",
+  "active": "f0c0515b269ea77d",
   "lastOpenFiles": [
+    "College/IntroToCyberSecurity/index.md",
+    "College/index.md",
+    "College/IT-Essentials/Exams/index.md",
+    "College/IT-Essentials/index.md",
+    "College/Python/index.md",
+    "College/Python/Exams/index.md",
+    "College/Python/Exams/ExamTwo.md",
+    "College/Python/Lectures/LectureSix.md",
     "College/IntroToCyberSecurity/Lectures/index.md",
     "College/IntroToCyberSecurity/Lectures/LectureSix.md",
     "College/IntroToCyberSecurity/Lectures/LectureEight.md",
@@ -215,7 +223,6 @@
     "College/IntroToCyberSecurity/Exams/draft.md",
     "College/IntroToCyberSecurity/Exams/ExamTwo.md",
     "College/Python/Exams/draft.md",
-    "College/Python/Exams/ExamTwo.md",
     "College/IntroToCyberSecurity/Exams/index.md",
     "College/IntroToCyberSecurity/Exams/imgs",
     "College/IntroToCyberSecurity/Exams",
@@ -224,18 +231,11 @@
     "College/Python/Exams/lu7754285hg.tmp",
     "College/Python/Exams/imgs.zip",
     "College/Python/Exams/imgs",
-    "College/Python/Exams/index.md",
     "College/Python/Exams",
     "College/IT-Essentials/Lectures/LectureSix.md",
     "College/IT-Essentials/Exams/draft.md",
     "College/IT-Essentials/Exams/ExamTwo.md",
     "College/IT-Essentials/Exams/lu113835ba1cr.tmp",
-    "College/IT-Essentials/Exams/lu113835ba1cn.tmp",
-    "Courses/LinuxCrashCourse.md",
-    "College/IT-Essentials/Exams/index.md",
-    "College/IT-Essentials/Lectures/LectureTwo.md",
-    "College/IT-Essentials/Lectures/LectureOne.md",
-    "College/IT-Essentials/Lectures/index.md",
-    "ExamTwo.md"
+    "College/IT-Essentials/Exams/lu113835ba1cn.tmp"
   ]
 }

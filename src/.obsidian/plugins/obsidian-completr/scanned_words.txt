@@ -6031,6 +6031,8 @@ LJa
 LNy
 Lir
 LectureSevenToNine
+LectureNine
+LectureEight
 al
 aj
 ar
@@ -11024,6 +11026,7 @@ EKm
 Eft
 ENNVpw
 Encrypting
+Eight
 Sal
 SQ
 SB

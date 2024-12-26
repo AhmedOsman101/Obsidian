@@ -57,6 +57,7 @@ Phishing is a type of cybersecurity threat or social engineering tactic that tar
    - Attackers send phishing emails from multiple domains and IP addresses in small volumes, bypassing spam filters.
 
 ![](../imgs/figure7.png)
+
 ### How to Protect Yourself from Phishing
 
 Organizations and individuals can take several preventive actions to protect against phishing attacks:

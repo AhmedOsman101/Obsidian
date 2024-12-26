@@ -41,6 +41,7 @@ The CIA Triad is a security model developed to help individuals consider various
 - **Availability**: Ensuring that data and resources are accessible when needed.
 
 ![](../imgs/figure2.png)
+
 ### Confidentiality
 
 **Confidentiality in ATM Security:**

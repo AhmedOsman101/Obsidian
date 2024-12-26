@@ -49,49 +49,57 @@ Cracking is the process of breaching software or system security, often using re
 ### Types of Cracking
 
 1. **Password Cracking**:
-    - **Techniques**:
-        - **Brute Force**: Tries all possible combinations.
-        - **Dictionary**: Uses common words.
-        - **Rainbow Table**: Precomputed hashes to find encrypted passwords.
+
+   - **Techniques**:
+     - **Brute Force**: Tries all possible combinations.
+     - **Dictionary**: Uses common words.
+     - **Rainbow Table**: Precomputed hashes to find encrypted passwords.
 
 2. **Software Cracking**:
-    - **Tools**:
-        - **Keygen**: Generates valid serial numbers.
-        - **Patch**: Modifies software to remove restrictions.
-        - **Loader**: Bypasses security features.
+
+   - **Tools**:
+     - **Keygen**: Generates valid serial numbers.
+     - **Patch**: Modifies software to remove restrictions.
+     - **Loader**: Bypasses security features.
 
 3. **Network Cracking**:
-    - Targets local area networks (LAN) or wireless networks (Wi-Fi).
-    - Easier to breach wireless networks due to proximity requirements.
+
+   - Targets local area networks (LAN) or wireless networks (Wi-Fi).
+   - Easier to breach wireless networks due to proximity requirements.
 
 4. **Application Cracking**:
-    - Modifies software to disable licensing or authentication mechanisms.
-    - Exploits vulnerabilities to access sensitive data or execute code.
+
+   - Modifies software to disable licensing or authentication mechanisms.
+   - Exploits vulnerabilities to access sensitive data or execute code.
 
 5. **Wireless Cracking**:
-    - Gains unauthorized access to Wi-Fi networks.
-    - Exploits security protocol weaknesses to intercept communications or steal data.
+   - Gains unauthorized access to Wi-Fi networks.
+   - Exploits security protocol weaknesses to intercept communications or steal data.
 
 ## How to Prevent Cracking
 
 1. **Keep Software Updated**:
-    - Regular updates fix vulnerabilities.
-    - Enable automatic updates.
+
+   - Regular updates fix vulnerabilities.
+   - Enable automatic updates.
 
 2. **Use Antivirus Software**:
-    - Protects against malware and spyware.
-    - Scans systems for infections.
+
+   - Protects against malware and spyware.
+   - Scans systems for infections.
 
 3. **Avoid Public Wi-Fi**:
-    - Use VPNs to secure connections on public networks.
-    
+
+   - Use VPNs to secure connections on public networks.
+
 4. **Use Unique Passwords**:
-    - Avoid using the same password across accounts.
-    - Ensure passwords are strong and secure.
-    
+
+   - Avoid using the same password across accounts.
+   - Ensure passwords are strong and secure.
+
 5. **Secure Devices**:
-    - Change default usernames and passwords on routers and smart devices.
-    - Enable HTTPS encryption when browsing.
+   - Change default usernames and passwords on routers and smart devices.
+   - Enable HTTPS encryption when browsing.
 
 ## Devices Most Vulnerable to Hacking
 
@@ -117,18 +125,21 @@ Cracking is the process of breaching software or system security, often using re
 
 ## How to Protect Yourself from Hacking
 
-    
 1. **Keep Software Updated**:
-    - Regularly install updates for all devices and programs.
-    
+
+   - Regularly install updates for all devices and programs.
+
 2. **Use Unique Passwords**:
-    - Avoid reusing passwords; create strong, unique ones for each account.
-    
+
+   - Avoid reusing passwords; create strong, unique ones for each account.
+
 3. **Enable HTTPS Encryption**:
-    - Verify secure connections by checking for "https://" in URLs.
-    
+
+   - Verify secure connections by checking for "https://" in URLs.
+
 4. **Avoid Suspicious Links and Ads**:
-    - Do not click on strange links or pop-up ads.
-    
+
+   - Do not click on strange links or pop-up ads.
+
 5. **Secure Default Settings**:
-    - Replace default usernames and passwords on devices with unique combinations.
+   - Replace default usernames and passwords on devices with unique combinations.

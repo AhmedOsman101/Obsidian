@@ -22,7 +22,6 @@ next:
 - **Modularization**: The process of dividing a program into separate modules to make it easier to understand, test, and maintain.
 - **Libraries**: Commonly used modules that provide generic solutions to frequently needed tasks.
 
-
 ## Types of Functions
 
 ### Built-in Functions
@@ -32,7 +31,6 @@ Predefined in Python, such as `print()`, `len()`, and `sum()`.
 ### User-defined Functions
 
 Created by the programmer to perform specific tasks.
-
 
 ## Defining a Function
 
@@ -116,7 +114,6 @@ outer_function()
 # This is the inner function.
 ```
 
-
 ## The Loop
 
 ### Factorization
@@ -191,16 +188,18 @@ multiplication_table(10)
 The syntax `print(f"{i:2}")` uses **f-strings** in Python, which allow you to embed expressions directly into string literals. The part `{i:2}` inside the f-string specifies **string formatting** for the variable `i`. Here's a breakdown:
 
 1. **`f""`**:
-    - This denotes a formatted string literal, or **f-string**. Expressions inside `{}` are evaluated and replaced with their values.
-    
+
+   - This denotes a formatted string literal, or **f-string**. Expressions inside `{}` are evaluated and replaced with their values.
+
 2. **`i`**:
-    - This is the variable whose value is being formatted.
-    
+
+   - This is the variable whose value is being formatted.
+
 3. **`:2`**:
-    - This is a **format specifier**.
-    - `2` indicates a **minimum width** of 2 characters for the output.
-    - If the value of `i` has fewer than 2 digits, it will be padded with spaces on the left to make it 2 characters wide.
-    - If `i` has more than 2 digits, it will not truncate or modify the value.
+   - This is a **format specifier**.
+   - `2` indicates a **minimum width** of 2 characters for the output.
+   - If the value of `i` has fewer than 2 digits, it will be padded with spaces on the left to make it 2 characters wide.
+   - If `i` has more than 2 digits, it will not truncate or modify the value.
 
 #### Example:
 
@@ -217,7 +216,6 @@ If `i = 12`, then `f"{i:2}"` will produce:
 ```
 
 This formatting is useful for aligning columns in tabular output, as shown in your multiplication table.
-
 
 ## Additional Examples
 

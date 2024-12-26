@@ -2,8 +2,7 @@
 prev:
   text: "Lecture Seven"
   link: "/College/Python/Lectures/LectureSeven"
-next: 
-  false
+next: false
 ---
 
 # Programming Essentials in Python Lecture 8
@@ -18,7 +17,6 @@ Python provides four built-in collection data types:
 - **Dictionary**: Ordered (as of Python 3.7), mutable, and does not allow duplicate keys.
 
 Choosing the appropriate data type helps maintain efficiency, clarity, and security.
-
 
 ## Lists
 
@@ -78,7 +76,6 @@ print(mixed)       # Output: ["0", "1", "2", "3", "4", "5"]
 print(len(mixed))  # Output: 6
 ```
 
-
 ## Tuples
 
 Tuples are immutable collections used to store multiple items in a single variable. Once created, their values cannot be changed directly.
@@ -128,7 +125,6 @@ tuple1 = tuple(list1)
 print(tuple1)  # Output: ('apple', 'banana', 'cherry', 'date')
 ```
 
-
 ## Sets
 
 Sets are unordered collections that do not allow duplicate items.
@@ -150,17 +146,19 @@ print(fruits)  # Output: {'banana', 'apple', 'cherry'}
 ### Set Methods
 
 1. **`add(element)`**:
-    
-    - Adds an element to the set.
-    - If the element is already in the set, it has no effect.
+
+   - Adds an element to the set.
+   - If the element is already in the set, it has no effect.
+
 2. **`discard(element)`**:
-    
-    - Removes the specified element from the set if it exists.
-    - Does **not** raise an error if the element is missing (unlike `remove`).
+
+   - Removes the specified element from the set if it exists.
+   - Does **not** raise an error if the element is missing (unlike `remove`).
+
 3. **`remove(element)`**:
-    
-    - Removes the specified element from the set.
-    - Raises a `KeyError` if the element is not found.
+
+   - Removes the specified element from the set.
+   - Raises a `KeyError` if the element is not found.
 
 ### Example Using All Methods
 
@@ -190,7 +188,6 @@ fruits.add("mango")
 print("mango" in fruits)    # Output: True
 ```
 
-
 ## Dictionaries
 
 Dictionaries store data as key-value pairs.
@@ -218,22 +215,25 @@ print(my_dict)          # Output: {'name': 'Youssef', 'job': 'student', 'age': 1
 ### Dictionary Methods
 
 1. **`get(key, default=None)`**:
-    - Returns the value associated with the given key.
-    - If the key doesn’t exist, it returns the specified `default` value (or `None` if not provided).
-    
+
+   - Returns the value associated with the given key.
+   - If the key doesn’t exist, it returns the specified `default` value (or `None` if not provided).
+
 2. **`items()`**:
-    - Returns a view object containing key-value pairs `(key, value)`.
-    
+
+   - Returns a view object containing key-value pairs `(key, value)`.
+
 3. **`keys()`**:
-    - Returns a view object containing all the keys in the dictionary.
-    
+
+   - Returns a view object containing all the keys in the dictionary.
+
 4. **`pop(key, default)`**:
-    - Removes the specified key and returns its value.
-    - If the key doesn’t exist, it returns the `default` value if provided; otherwise, raises a `KeyError`.
-    
+
+   - Removes the specified key and returns its value.
+   - If the key doesn’t exist, it returns the `default` value if provided; otherwise, raises a `KeyError`.
+
 5. **`values()`**:
-    - Returns a view object containing all the values in the dictionary.
-    
+   - Returns a view object containing all the values in the dictionary.
 
 ### Example Using All Methods
 
@@ -255,7 +255,6 @@ print(f"After pop('b'): {my_dict}, Popped Value: {popped_value}")  # {'a': 1, 'c
 # 3. View all values
 print("Values:", my_dict.values())  # dict_values([1, 3])
 ```
-
 
 ## Error Handling: Try-Except Blocks
 
@@ -283,4 +282,3 @@ else:
 finally:
   print("Execution complete.")
 ```
-

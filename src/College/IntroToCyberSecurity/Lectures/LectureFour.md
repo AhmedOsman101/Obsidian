@@ -52,6 +52,7 @@ Cybersecurity relies heavily on managing risks associated with cyber threats. Co
 Cyber threat actors are individuals or groups with malicious intent to exploit vulnerabilities in systems. Their motivations and sophistication vary:
 
 - **Motivations**:
+
   - **Geopolitical**: Nation-states aiming for strategic advantage.
   - **Profit-driven**: Cybercriminals seeking financial gain.
   - **Ideological**: Hacktivists and terrorists promoting agendas.
@@ -79,6 +80,7 @@ Malware, or malicious software, is a key cyber threat. It includes various types
 - **Backdoor**: Allows unauthorized access to systems.
 
 ![](../imgs/figure6.png)
+
 #### Attack Vectors and Entry Points
 
 Malware can be delivered through various means:

@@ -11,10 +11,15 @@
             "id": "cdda3ee163bc91fc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "College/Python/index.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           }
         ]
@@ -144,9 +149,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "College/Python/index.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of index"
             }
           },
           {
@@ -184,6 +191,7 @@
   },
   "active": "cdda3ee163bc91fc",
   "lastOpenFiles": [
+    "College/Python/Sections/index.md",
     "College/Python/Sections/SectionFive.md",
     "College/Python/imgs/figure1.png",
     "College/Python/imgs/figure4.png",
@@ -201,7 +209,6 @@
     "College/Python/Exams/ExamTwo.md",
     "College/Python/Exams/index.md",
     "College/Python/index.md",
-    "College/Python/Sections/index.md",
     "College/Python/Lectures/index.md",
     "College/Python/Lectures/LectureSix.md",
     "College/Python/Sections/SectionThreePartTwo.md",

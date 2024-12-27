@@ -3,9 +3,8 @@ prev:
   text: "Lecture Five"
   link: "/College/Python/Lectures/LectureFive"
 next:
-  false
-  # text: "Lecture Seven"
-  # link: "/College/Python/Lectures/LectureSeven"
+  text: "Lecture Seven"
+  link: "/College/Python/Lectures/LectureSeven"
 ---
 
 # Programming Essentials in Python Lecture 6

@@ -2,3 +2,12 @@ read
 real
 Read
 reads
+Note
+Summary
+Abstract
+TL;DR
+Info
+To-Do
+Tip
+Hint
+Important

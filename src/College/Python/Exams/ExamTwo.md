@@ -53,13 +53,17 @@ Use loops to allow the program to run repeatedly an unlimited number of times. T
 > [!Note]
 > Solve this task without using functions.
 
-## Task 5: Define lists and tuples and compare between them
+## Task 5
+Define lists and tuples and compare between them
 
-## Task 6: Define the dictionary in Python and mention its uses
+## Task 6
+Define the dictionary in Python and mention its uses
 
-## Task 7: Re-write task 3 with using function
+## Task 7
+Re-write task 3 with using function
 
-## Task 8: Write program using a dictionary to store student name and degree data
+## Task 8
+Write program using a dictionary to store student name and degree data
 
 ## Task 9
 
@@ -78,7 +82,23 @@ Write a program using a dictionary to store student names and their grades for f
 
 ### Task 1
 
-![](imgs/code1.png)
+```python
+grade = int(input("Enter your grade (0~100): "))
+
+if grade in range(101):
+  if grade in range(85, 101):
+    print("Excellent")
+  elif grade in range(75, 85):
+    print("Very Good")
+  elif grade in range(65, 75):
+    print("Good")
+  elif grade in range(60, 65):
+    print("Acceptable:")
+  else:
+    print("Fail")
+else:
+  print(f"Invalid grade: {grade}, you must enter values between 0 and 100.")
+```
 
 ### Task 2
 
@@ -93,11 +113,50 @@ Write a program using a dictionary to store student names and their grades for f
 
 ### Task 3
 
-![](imgs/code2.png)
+```python
+while True:
+  grade = input("Enter your grade (0~100) or type 'exit' to quit: ")
+
+  # The program stops only when the user writes the word `exit` in lowercase letters (case insensitive).
+  if grade.lower() == "exit":
+    print("Goodbye!")
+    break
+  else:
+    grade = int(grade2)
+
+  if grade in range(101):
+    if grade in range(85, 101):
+      result = "Excellent"
+    elif grade in range(75, 85):
+      result = "Very Good"
+    elif grade in range(65, 75):
+      result = "Good"
+    elif grade in range(60, 65):
+      result = "Acceptable:"
+    else:
+      result = "Fail"
+    print(result, end="\n\n")
+  else:
+    print(f"Invalid grade: {grade}, you must enter values between 0 and 100.")
+```
 
 ### Task 4
 
-![](imgs/code3.png)
+```python
+while True:
+  height = input("Enter the height: ")
+  if height == "exit":
+    print("Goodbye!")
+    break
+  elif height.isdigit():
+    if 0 < int(height):
+      for i in range(1, int(height)+1):
+        print(i*"*")
+    else:
+      print("Invalid height, you must enter an integer bigger than 0.")
+  else:
+    print("Invalid height, you must either enter an integer or type 'exit' to quit.")
+```
 
 ### Task 5
 
@@ -164,12 +223,97 @@ A **dictionary** is an unordered collection of key-value pairs in Python. Each k
 
 ### Task 7
 
-![](imgs/code4.png)
+```python
+def task7():
+  while True:
+    grade = input("Enter your grade (0~100) or type 'exit' to quit: ")
+    # The program stops only when the user writes the word `exit` in lowercase letters (case insensitive).
+    if grade.lower() == "exit":
+      print("Goodbye!")
+      return
+    elif grade.isdigit():
+      grade = int(grade)
+      if grade in range(101):
+        if grade in range(85, 101):
+          result = "Excellent"
+        elif grade in range(75, 85):
+          result = "Very Good"
+        elif grade in range(65, 75):
+          result = "Good"
+        elif grade in range(60, 65):
+          result = "Acceptable:"
+        else:
+          result = "Fail"
+        print(result, end="\n\n")
+      else:
+        print(f"Invalid grade: {grade}, you must enter values between 0 and 100.")
+    else:
+      print(f"Invalid input, you must either enter an integer or type 'exit' to quit.")
+
+
+task7()
+```
 
 ### Task 8
 
-![](imgs/code5.png)
+```python
+def task8():
+  data = {}
+  name = input("Enter your name: ")
+  degree = int(input("Enter your degree: "))
+  data = {
+      "name": name,
+      "degree": degree
+  }
+  print(data)
+
+
+task8()
+```
 
 ### Task 9
 
-![](imgs/code6.png)
+```python
+def inFloatRange(value, start=0, end=1):
+  return start <= value and value < end
+
+
+def getGrade(percentage: float):
+  if inFloatRange(percentage, 0, 101):
+    if inFloatRange(percentage, 85, 101):
+      return "Excellent"
+    elif inFloatRange(percentage, 75, 85):
+      return "Very Good"
+    elif inFloatRange(percentage, 65, 75):
+      return "Good"
+    elif inFloatRange(percentage, 60, 65):
+      return "Acceptable:"
+    else:
+      return "Fail"
+  else:
+    print(f"Invalid percentage: {percentage}, you must enter values between 0 and 100.")
+    exit(-1)
+
+
+def task9():
+  data = {}
+  marks = 0
+  data["name"] = input("Enter your name: ")
+  for i in range(1, 5):
+    marks += int(input(f"Please enter you mark for subject{i}: "))
+
+  if not marks in range(401):
+    print("Invalid input, marks should be between 0 and 400.")
+    return
+
+  data["total_marks"] = marks
+
+  percentage = (marks * 100) / 400
+
+  data["grade"] = getGrade(percentage)
+
+  print(data)
+
+
+task9()
+```

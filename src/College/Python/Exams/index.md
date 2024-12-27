@@ -1,6 +1,6 @@
 ---
 prev:
-  text: "IT-Python"
+  text: "Python"
   link: "/College/Python/index"
 next: false
 ---

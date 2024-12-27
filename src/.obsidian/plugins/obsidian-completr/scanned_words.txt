@@ -557,6 +557,8 @@ PJE
 PeM
 Predefined
 Parameters
+Pitfall
+Parameter
 IHDR
 IDATx
 IO
@@ -1161,6 +1163,11 @@ Inside
 Indexed
 Item
 Indexing
+Increment
+ITERATING
+ITEM
+ITEMS
+Inserts
 pHYs
 pt
 pu
@@ -1808,6 +1815,9 @@ plaintext
 passed
 padded
 parameters
+prematurely
+particular
+popitem
 sbf
 sPv
 sC
@@ -2554,6 +2564,13 @@ spaces
 sure
 shrink
 structured
+skips
+sequences
+slight
+separated
+shallow
+setdefault
+ssh
 ff
 fP
 fj
@@ -3120,6 +3137,7 @@ fRI
 fAR
 fmeIK
 fUkW
+fromkeys
 yq
 yh
 yS
@@ -3901,6 +3919,7 @@ qyxw
 qWt
 qLGcc
 qCM
+qualities
 waq
 wc
 wav
@@ -5484,6 +5503,10 @@ MKi
 MGe
 Modularization
 Modify
+METHODS
+METHOD
+MEMBERSHIP
+Modifying
 Lj
 Lf
 LvVa
@@ -6052,6 +6075,8 @@ LectureSevenToNine
 LectureNine
 LectureEight
 Libraries
+LOOP
+LIST
 al
 aj
 ar
@@ -6730,6 +6755,8 @@ anX
 alphabet
 aligning
 allowed
+anything
+attempt
 Te
 Tn
 TA
@@ -7277,6 +7304,11 @@ TJt
 Tsz
 TDB
 Transform
+TUPLES
+THROUGH
+TUPLE
+TEST
+Through
 uj
 uq
 uXm
@@ -7771,6 +7803,7 @@ uNx
 uqC
 unchangeable
 unindexed
+update
 OB
 Ox
 ONynT
@@ -8244,6 +8277,7 @@ OAa
 OrB
 Overview
 Ordered
+ObzxvQ
 Uc
 Ue
 UXk
@@ -8722,6 +8756,7 @@ UeZw
 UHscnBm
 Unchangeable
 Unordered
+Useful
 ra
 rO
 rV
@@ -9322,6 +9357,7 @@ rylc
 reversing
 reusability
 retain
+raising
 eiO
 es
 ee
@@ -9956,6 +9992,10 @@ educational
 embed
 exceptions
 effect
+exclusive
+emulated
+enough
+empty
 GO
 GQ
 Gk
@@ -11060,6 +11100,14 @@ ENNVpw
 Encrypting
 Eight
 Except
+Ending
+EXAMPLE
+ELEMENT
+EXISTS
+Egypt
+Elements
+Exists
+Eju
 Sal
 SQ
 SB
@@ -11735,6 +11783,9 @@ SNu
 SBI
 Slj
 Syyi
+Stop
+SectionFive
+Slicing
 iH
 ic
 iP
@@ -12350,6 +12401,10 @@ impossible
 indicates
 indexes
 indexed
+inclusive
+incrementing
+irrespective
+insert
 tWA
 tW
 tM
@@ -12940,6 +12995,9 @@ tMq
 truncate
 tabular
 tuple
+traversal
+tricky
+trailing
 nm
 nv
 nhuK
@@ -13354,6 +13412,7 @@ noy
 nhs
 nKW
 nVRR
+null
 Fc
 Fe
 Fo
@@ -13906,6 +13965,9 @@ FmM
 FUW
 FVv
 Factorization
+FUNCTION
+FOR
+FROM
 xi
 xpF
 xwG
@@ -16761,6 +16823,12 @@ Reverse
 Return
 Removing
 Removes
+RANGE
+RETRIEVE
+REMOVE
+Raise
+RIx
+RfPL
 Zt
 ZB
 Zb
@@ -17191,6 +17259,7 @@ Zfh
 ZaJI
 ZfUekm
 Zwa
+ZOu
 kn
 kHf
 kJ
@@ -17642,6 +17711,8 @@ kgz
 kip
 kji
 kjqz
+kEo
+kwSaY
 Dp
 DI
 Db
@@ -18268,6 +18339,8 @@ DzN
 Defining
 Duplicates
 Duplicate
+DICTIONARY
+Deletes
 ohQ
 oL
 ob
@@ -18730,6 +18803,8 @@ ogf
 oKV
 overwrite
 otherwise
+occurrence
+occurrences
 mipte
 mRT
 mX
@@ -19278,6 +19353,8 @@ modularity
 modules
 members
 might
+mulitplying
+math
 Ck
 CS
 Cm
@@ -19948,6 +20025,12 @@ Combining
 Changeable
 Contain
 Checking
+Challenges
+Custom
+CREATE
+CHECK
+CHANGE
+Counts
 vb
 vO
 vvF
@@ -21222,6 +21305,13 @@ cRN
 comparing
 clarity
 count
+ceil
+commas
+comma
+counts
+capitals
+country
+copy
 Hu
 Hg
 HiL
@@ -21769,6 +21859,7 @@ HkA
 Hoy
 HwM
 HELLO
+Having
 hh
 hLR
 hI
@@ -22277,6 +22368,9 @@ hCYY
 hbZ
 hfQ
 hacked
+heterogeneous
+homogeneous
+however
 Xi
 XZ
 Xn
@@ -23172,6 +23266,8 @@ gyJ
 goh
 giE
 grouping
+generates
+gQY
 KUYX
 KX
 KK
@@ -23666,6 +23762,9 @@ KiSuY
 KFb
 KCt
 KHOOR
+KEYS
+KeyError
+KWM
 zC
 zl
 zk
@@ -24387,6 +24486,7 @@ YeRy
 YfQ
 YcE
 YhD
+YXB
 VLt
 Vfa
 Vr
@@ -24819,6 +24919,8 @@ VPl
 VmxTKw
 Vhk
 Vkst
+VALUE
+VALUES
 dk
 dR
 dV
@@ -25433,6 +25535,7 @@ description
 denotes
 duplicate
 dictionaries
+deletes
 AK
 AQ
 Aya
@@ -26094,6 +26197,8 @@ Ahg
 Are
 Accessible
 Allow
+ACCESS
+Another
 Jw
 Jg
 JT
@@ -27429,6 +27534,7 @@ WWF
 WGR
 WYk
 Workaround
+WITH
 Ötl
 ÖC
 Öm

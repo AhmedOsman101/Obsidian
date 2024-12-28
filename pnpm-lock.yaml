@@ -26,6 +26,12 @@ importers:
       vue:
         specifier: ^3.5.12
         version: 3.5.12(typescript@5.6.3)
+      vue-google-adsense:
+        specifier: ^2.0.0
+        version: 2.0.0(vue-scriptx@0.2.7)(vue@3.5.12(typescript@5.6.3))
+      vue-scriptx:
+        specifier: ^0.2.7
+        version: 0.2.7
     devDependencies:
       '@markslides/markdown-it-mermaid':
         specifier: ^0.3.4
@@ -1502,6 +1508,15 @@ packages:
     peerDependenciesMeta:
       '@vue/composition-api':
         optional: true
+
+  vue-google-adsense@2.0.0:
+    resolution: {integrity: sha512-/Lds405KZEufu8VKjmxubu22qRQsr073MKmZuefC9ABs3ArvTZCWfqFMyG2xNjeFOHHr4vrngXUrNhuT8Zi9lw==}
+    peerDependencies:
+      vue: ^3.0.0
+      vue-scriptx: ^0.2.5
+
+  vue-scriptx@0.2.7:
+    resolution: {integrity: sha512-6e+1VhZPYz7/7VnsDHjU6/RZZUqziaFRnCieytX304cgRo8B4oADlaEy4e5zQ0YaZ2Ct49tDN2McOpXcxvSuTw==}
 
   vue@3.5.12:
     resolution: {integrity: sha512-CLVZtXtn2ItBIi/zHZ0Sg1Xkb7+PU32bJJ8Bmy7ts3jxXTcbfsEfBivFYYWz1Hur+lalqGAh65Coin0r+HRUfg==}
@@ -3208,6 +3223,13 @@ snapshots:
   vue-demi@0.14.10(vue@3.5.12(typescript@5.6.3)):
     dependencies:
       vue: 3.5.12(typescript@5.6.3)
+
+  vue-google-adsense@2.0.0(vue-scriptx@0.2.7)(vue@3.5.12(typescript@5.6.3)):
+    dependencies:
+      vue: 3.5.12(typescript@5.6.3)
+      vue-scriptx: 0.2.7
+
+  vue-scriptx@0.2.7: {}
 
   vue@3.5.12(typescript@5.6.3):
     dependencies:

@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Obsidian Notes"
+  name: "Othman's Blog"
   text: "A Website for all of my notes and thoughts"
-  tagline: "Ease your learning process with Othman's notes 😉"
+  tagline: "Making your learning process easier "
   actions:
     - theme: alt
       text: College
@@ -17,3 +17,8 @@ hero:
       text: General
       link: /General
 ---
+
+<InArticleAdsense
+    data-ad-client="ca-pub-2884049321298787"
+    data-ad-slot="1234567890">
+</InArticleAdsense>

@@ -17,6 +17,8 @@
     "cytoscape-cose-bilkent": "^4.1.0",
     "dayjs": "^1.11.13",
     "debug": "^4.3.7",
-    "vue": "^3.5.12"
+    "vue": "^3.5.12",
+    "vue-google-adsense": "^2.0.0",
+    "vue-scriptx": "^0.2.7"
   }
 }

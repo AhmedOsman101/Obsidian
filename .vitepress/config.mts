@@ -7,7 +7,17 @@ export default withMermaid({
   title: "Obsidian Notes",
   description: "A Website for all of my notes and thoughts",
   srcDir: "src",
-  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  head: [
+    ["link", { rel: "icon", href: "/favicon.ico" }],
+    [
+      "script",
+      {
+        async: "",
+        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2884049321298787",
+        crossorigin: "anonymous",
+      },
+    ],
+  ],
   markdown: {
     image: {
       lazyLoading: true,

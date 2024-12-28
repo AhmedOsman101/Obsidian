@@ -69,7 +69,7 @@ Reference models, such as the **OSI** and **TCP/IP** models, describe data commu
 **Layers:**
 
 | No. | Layer        | Description                                                                                    | Protocols                               |
-| --- | ------------ | ---------------------------------------------------------------------------------------------- | --------------------------------------- |
+| :-: | :----------: | ---------------------------------------------------------------------------------------------- | --------------------------------------- |
 | 7   | Application  | Provides network services to users or applications.                                            | HTTP, FTP, SMTP, DNS, POP3, IMAP        |
 | 6   | Presentation | Translates data into a format usable by the Application layer (e.g., encryption, compression). | SSL/TLS, JPEG, MPEG, ASCII, EBCDIC      |
 | 5   | Session      | Manages communication sessions between applications.                                           | NetBIOS, RPC, PPTP                      |

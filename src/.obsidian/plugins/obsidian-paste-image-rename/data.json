@@ -6,5 +6,5 @@
   "autoRename": false,
   "handleAllAttachments": false,
   "excludeExtensionPattern": "",
-  "disableRenameNotice": false
+  "disableRenameNotice": true
 }

@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Othman's Blog"
+  name: "Othman Blog"
   text: "A Website for all of my notes and thoughts"
-  tagline: "Making your learning process easier "
+  tagline: "Making your learning process easier ❤️"
   actions:
     - theme: alt
       text: College

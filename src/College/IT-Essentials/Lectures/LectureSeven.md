@@ -13,7 +13,7 @@ next:
 
 An Operating System (OS) is essential system software that manages hardware and software resources on a computer or device. It acts as an intermediary between users and hardware, enabling interaction and efficient task management.
 
-![](../../../figure.png)
+![](../imgs/figure.png)
 ### Key Functions:
 
 - **Resource Management**: Controls hardware resources like CPU, memory, storage, and peripherals.
@@ -142,7 +142,7 @@ The OS ensures efficient allocation of resources to applications by:
 
    - Apple’s mobile OS for iPhones and iPads, offering security and ecosystem integration.
 
-![](../../../figure-1.png)
+![](../imgs/figure-1.png)
 
 ## 32-bit vs. 64-bit Processor Architecture
 
@@ -190,7 +190,7 @@ The architecture determines the processing power and memory handling of a system
 - Operating systems (OS) need periodic upgrades to remain compatible with the latest hardware and software.
 - Before upgrading, verify the new OS's **minimum hardware requirements** to ensure compatibility.
 
-![](../../../figure-2.png)
+![](../imgs/figure-2.png)
 
 ### Tools for Compatibility Checks:
 
@@ -211,7 +211,7 @@ The architecture determines the processing power and memory handling of a system
      - Perform a clean installation using Windows 10 installation media.
      - Create installation media with the **Create Windows 10 installation media tool**.
 
-![](../../../figure-3.png)
+![](../imgs/figure-3.png)
 
 ## Minimum Hardware Requirements and Compatibility
 
@@ -338,7 +338,7 @@ When installing an OS, the storage device must be prepared to store the OS and a
   - **Administrator Account**: Full control of the system, including global settings and program installations.
   - **Standard User Account**: Limited access, cannot install programs.
 
-![](../../../figure-6.png)
+![](../imgs/figure-6.png)
 ### Finalize the Installation
 
 - **Windows Update**: Use to install the latest software updates, service packs, and patches.
@@ -350,7 +350,7 @@ When installing an OS, the storage device must be prepared to store the OS and a
 - The base system is fully configured and duplicated sector by sector onto a new disk.
 - Use **Microsoft’s Sysprep tool** to remove unwanted settings before creating the final image.
 
-![](../../../figure-5.png)
+![](../imgs/figure-5.png)
 
 ## Recovery Partition
 

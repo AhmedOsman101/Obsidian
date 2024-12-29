@@ -16,7 +16,7 @@
                 "file": "College/IT-Essentials/Sections/SectionSix.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "SectionSix"

@@ -16,6 +16,7 @@ next: false
   - [Lecture Six](Lectures/LectureSix.md)
   - [Lecture Seven](Lectures/LectureSeven.md)
   - [Lecture Eight](Lectures/LectureEight.md)
+  - [Lecture Nine](Lectures/LectureNine.md)
 
 - [Sections](Sections/index.md)
   - [Section One](Sections/SectionOne.md)

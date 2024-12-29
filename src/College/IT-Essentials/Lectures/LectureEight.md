@@ -2,7 +2,9 @@
 prev:
   text: "Lecture Seven"
   link: "/College/IT-Essentials/Lectures/LectureSeven"
-next: false
+next:
+  text: "Lecture Nine"
+  link: "/College/IT-Essentials/Lectures/LectureNine"
 ---
 
 # IT Essentials Lecture 8: Configure Operating System

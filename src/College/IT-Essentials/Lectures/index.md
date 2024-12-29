@@ -15,3 +15,4 @@ next: false
 - [Lecture Six](LectureSix.md)
 - [Lecture Seven](LectureSeven.md)
 - [Lecture Eight](LectureEight.md)
+- [Lecture Nine](LectureNine.md)

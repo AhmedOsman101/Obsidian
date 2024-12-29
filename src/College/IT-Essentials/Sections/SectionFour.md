@@ -3,9 +3,8 @@ prev:
   text: "Section Three"
   link: "/College/IT-Essentials/Sections/SectionThree"
 next:
-  false
-  # text: "Section Five"
-  # link: "/College/IT-Essentials/Sections/SectionFive"
+  text: "Section Five"
+  link: "/College/IT-Essentials/Sections/SectionFive"
 ---
 
 # IT Essentials Lab 4: Number Systems and Arithmetic Operations

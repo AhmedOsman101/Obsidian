@@ -28,6 +28,8 @@ Reference models, such as the **OSI** and **TCP/IP** models, describe data commu
 
 ### TCP/IP Model
 
+TCP/IP stands for Transmission Control Protocol/Internet Protocol.
+
 - **Purpose**:
   - Framework for the Internet’s protocols.
   - Organizes networking tasks into layers.
@@ -45,6 +47,8 @@ Reference models, such as the **OSI** and **TCP/IP** models, describe data commu
 ---
 
 ### OSI Model
+
+OSI Stand for Open Systems Interconnection.
 
 - **Purpose**:
 
@@ -68,15 +72,15 @@ Reference models, such as the **OSI** and **TCP/IP** models, describe data commu
 
 **Layers:**
 
-| No. | Layer        | Description                                                                                    | Protocols                               |
+| No. |    Layer     | Description                                                                                    | Protocols                               |
 | :-: | :----------: | ---------------------------------------------------------------------------------------------- | --------------------------------------- |
-| 7   | Application  | Provides network services to users or applications.                                            | HTTP, FTP, SMTP, DNS, POP3, IMAP        |
-| 6   | Presentation | Translates data into a format usable by the Application layer (e.g., encryption, compression). | SSL/TLS, JPEG, MPEG, ASCII, EBCDIC      |
-| 5   | Session      | Manages communication sessions between applications.                                           | NetBIOS, RPC, PPTP                      |
-| 4   | Transport    | Ensures reliable data transfer with error correction and flow control.                         | TCP, UDP                                |
-| 3   | Network      | Handles logical addressing and routing of data packets across networks.                        | IP, ICMP, OSPF, RIP, ARP                |
-| 2   | Data Link    | Manages physical addressing (MAC), error detection and prepares data for transmission.         | Ethernet, Wi-Fi (802.11), PPP, MAC      |
-| 1   | Physical     | Defines physical transmission medium and data encoding.                                        | Cables, hubs, repeaters, voltage levels |
+|  7  | Application  | Provides network services to users or applications.                                            | HTTP, FTP, SMTP, DNS, POP3, IMAP        |
+|  6  | Presentation | Translates data into a format usable by the Application layer (e.g., encryption, compression). | SSL/TLS, JPEG, MPEG, ASCII, EBCDIC      |
+|  5  |   Session    | Manages communication sessions between applications.                                           | NetBIOS, RPC, PPTP                      |
+|  4  |  Transport   | Ensures reliable data transfer with error correction and flow control.                         | TCP, UDP                                |
+|  3  |   Network    | Handles logical addressing and routing of data packets across networks.                        | IP, ICMP, OSPF, RIP, ARP                |
+|  2  |  Data Link   | Manages physical addressing (MAC), error detection and prepares data for transmission.         | Ethernet, Wi-Fi (802.11), PPP, MAC      |
+|  1  |   Physical   | Defines physical transmission medium and data encoding.                                        | Cables, hubs, repeaters, voltage levels |
 
 ---
 
@@ -128,7 +132,6 @@ Encapsulation involves wrapping data with protocol-specific headers and footers 
 | Overhead        | Higher; ensures data integrity.     | Lower; fast, lightweight.       |
 | Use Case        | Email, file transfer, web browsing. | Streaming, gaming, voice calls. |
 | Data Sequencing | Data delivered in order.            | No guarantee of order.          |
-
 
 ## Application Port Numbers
 

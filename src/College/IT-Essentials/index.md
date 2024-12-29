@@ -23,6 +23,7 @@ next: false
   - [Section Two](Sections/SectionTwo.md)
   - [Section Three](Sections/SectionThree.md)
   - [Section Four](Sections/SectionFour.md)
+  - [Section Five](Sections/SectionFive.md)
 
 - [Tasks](Assignments/index.md)
   - [Task One](Assignments/AssignmentOne.md)

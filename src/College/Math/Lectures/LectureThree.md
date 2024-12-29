@@ -288,7 +288,7 @@ $$
 \end{vmatrix}
 $$
 
-Expanding along the third column (remember applying the [Sign rule](https://obsidian-notes-swart.vercel.app/College/Math/LectureTwo.html#sign-rule-for-determinants)):
+Expanding along the third column (remember applying the [Sign rule](LectureTwo.md#sign-rule-for-determinants)):
 
 $$
 |A - \lambda I| =

@@ -230,7 +230,8 @@ $$
   \det(A^T) = \det(A)
   $$
 
-> Note: $\det(A)$ is often written as $|A|$.
+> [!Note] 
+> $\det(A)$ is often written as $|A|$.
 
 ## Inverse of a Matrix
 

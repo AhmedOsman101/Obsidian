@@ -110,7 +110,7 @@ ASCII (American Standard Code for Information Interchange) is a character encodi
 - `a` $= 97$ (decimal) = $0110 \space 0001$ (binary)
 - `0` $= 48$ (decimal) = $0011 \space 0000$ (binary)
 
-![](../../../figure-7.png)
+![](../imgs/figure-7.png)
 
 ## Binary-Coded Decimal (BCD)
 

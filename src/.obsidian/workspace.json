@@ -11,10 +11,15 @@
             "id": "195ecf2fd0c89a95",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Manara/NodeJs/Chapters/ChapterOne/index.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           }
         ]
@@ -145,10 +150,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/IT-Essentials/imgs/figure.png"
+                "file": "Courses/Manara/NodeJs/Chapters/ChapterOne/index.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of figure"
+              "title": "Outline of index"
             }
           },
           {
@@ -184,8 +189,19 @@
       "obsidian-tts:Text to Speech": false
     }
   },
-  "active": "6e6b30772217c8e6",
+  "active": "195ecf2fd0c89a95",
   "lastOpenFiles": [
+    "Courses/Manara/NodeJs/Chapters/index.md",
+    "Courses/index.md",
+    "Courses/Manara/index.md",
+    "Courses/Manara/NodeJs/Chapters/ChapterOne/ModuleOne.md",
+    "Courses/Manara/NodeJs/Chapters/ChapterOne/index.md",
+    "Courses/Manara/NodeJs/Chapters/ChapterOne/ModuleTwo.md",
+    "Courses/Manara/NodeJs/index.md",
+    "Courses/Manara/NodeJs/Chapters/ChapterOne",
+    "Courses/Manara/NodeJs/Chapters",
+    "Courses/Manara/NodeJs",
+    "Courses/Mastering_Laravel_10_Database_and_Eloquent.md",
     "College/IT-Essentials/Lectures/LectureEight.md",
     "College/IT-Essentials/Lectures/LectureSeven.md",
     "College/IT-Essentials/Exams/ExamTwo.md",
@@ -214,22 +230,12 @@
     "College/Python/Exams/ExamTwo.md",
     "College/Python/Exams/index.md",
     "College/Python/Lectures/index.md",
-    "College/Python/Lectures/LectureSix.md",
-    "College/Python/Sections/SectionThreePartTwo.md",
-    "College/Python/Lectures/LectureFive.md",
-    "College/Python/Sections/SectionOne.md",
-    "College/Python/Exams/draft.md",
-    "College/draft.md",
-    "College/Python/Sections/SectionThreePartOne.md",
     "College/IntroToCyberSecurity/Exams/imgs",
     "College/IntroToCyberSecurity/Exams",
     "College/Python/Exams/draft.docx",
     "College/Python/Exams/lu7754285i8.tmp",
     "College/Python/Exams/lu7754285hg.tmp",
     "College/Python/Exams/imgs.zip",
-    "College/Python/Exams/imgs",
-    "College/Python/Exams",
-    "College/IT-Essentials/Exams/lu113835ba1cr.tmp",
-    "College/IT-Essentials/Exams/lu113835ba1cn.tmp"
+    "College/Python/Exams/imgs"
   ]
 }

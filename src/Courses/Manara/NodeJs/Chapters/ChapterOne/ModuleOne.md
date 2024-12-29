@@ -1,15 +1,15 @@
 ---
 prev:
-   text: "Manara"
-   link: "/Courses/Manara/index"
-next: false
+  text: "Modules"
+  link: "/Courses/Manara/NodeJs/Chapters/ChapterOne/index"
+next:
+  text: "Module 2"
+  link: "/Courses/Manara/NodeJs/Chapters/ChapterOne/ModuleTwo"
 ---
 
-# Backend Engineering with Node.js
+# Module 1: What is Backend?
 
-## Introduction to Node.js
-
-### What is Backend?
+## What is Backend?
 
 In web development, applications have two main parts: the client-side (frontend) and the server-side (backend).
 
@@ -17,14 +17,14 @@ In web development, applications have two main parts: the client-side (frontend)
 
 - **Server-Side (Backend):** The backend works behind the scenes, handling the **application's logic**, **database operations**, **user authentication**, and **server configurations**. It powers the application and ensures smooth functionality. Common backend languages include Node.js, Python, Ruby, and Java.
 
-### How Does the Backend Communicate with the Client-Side?
+## How Does the Backend Communicate with the Client-Side?
 
 The backend and client-side work together to create a seamless experience for users. Here’s a simple analogy to explain their relationship:
 
 - **Client-Side (Restaurant Floor):** Where users interact and experience the application directly. This includes the layout, buttons, and forms users see.
 - **Server-Side (Kitchen):** Where the application’s logic and data processing happen behind the scenes. Like a kitchen preparing orders, the backend processes requests and delivers responses.
 
-#### Interaction Steps
+### Interaction Steps
 
 1. **User Request**: When a user interacts with the frontend (e.g., clicks "Log In"), a request is sent to the backend.
 2. **Backend Processing**: The backend receives and processes the request (e.g., checks login credentials in the database).
@@ -33,7 +33,7 @@ The backend and client-side work together to create a seamless experience for us
 
 This communication flow ensures that users see updated, relevant information based on their actions.
 
-### Example of Client-Side and Server-Side Communication
+## Example of Client-Side and Server-Side Communication
 
 Here's a practical example of how the client-side and server-side communicate using Node.js.
 
@@ -55,13 +55,13 @@ Here's a practical example of how the client-side and server-side communicate us
 
 This communication allows for a smooth, interactive experience by efficiently sharing data between the frontend and backend.
 
-### Conclusion and Further Learning
+## Conclusion and Further Learning
 
-#### Conclusion
+### Conclusion
 
 Understanding the backend and its communication with the client-side is essential for developers. The backend performs the core operations, ensuring web applications are functional and responsive to user actions. As we explore Node.js, we’ll see how it creates efficient, scalable backend solutions that power web applications.
 
-#### Further Learning
+### Further Learning
 
 1. **[MDN Web Docs on Express/Node Introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)**: A detailed overview of Node’s main features.
 2. **[Node.js Official Documentation](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)**: Explore Node.js in-depth with official resources and examples.

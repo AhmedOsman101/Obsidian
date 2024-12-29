@@ -17,8 +17,3 @@ hero:
       text: General
       link: /General
 ---
-
-<InArticleAdsense
-    data-ad-client="ca-pub-2884049321298787"
-    data-ad-slot="1234567890">
-</InArticleAdsense>

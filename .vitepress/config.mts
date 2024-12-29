@@ -4,7 +4,7 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 // export default defineConfig({});
 
 export default withMermaid({
-  title: "Obsidian Notes",
+  title: "Othman Blog",
   description: "A Website for all of my notes and thoughts",
   srcDir: "src",
   head: [
@@ -41,8 +41,103 @@ export default withMermaid({
       {
         text: "Explore",
         items: [
-          { text: "College", link: "/College" },
-          { text: "Courses", link: "/Courses" },
+          {
+            text: "College",
+            link: "/College",
+            collapsed: true,
+            items: [
+              // Cybersecurity
+              {
+                text: "Intro to Cybersecurity",
+                link: "/College/IntroToCyberSecurity",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Lectures",
+                    link: "/College/IntroToCyberSecurity/Lectures",
+                  },
+                ],
+              },
+              // IT Essentials
+              {
+                text: "IT Essentials",
+                link: "/College/IT-Essentials",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Lectures",
+                    link: "/College/IT-Essentials/Lectures",
+                  },
+                  {
+                    text: "Sections",
+                    link: "/College/IT-Essentials/Sections",
+                  },
+                  {
+                    text: "Assignments (Tasks)",
+                    link: "/College/IT-Essentials/Assignments",
+                  },
+                  {
+                    text: "Exams",
+                    link: "/College/IT-Essentials/Exams",
+                  },
+                ],
+              },
+              // Python
+              {
+                text: "Python",
+                link: "/College/Python",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Lectures",
+                    link: "/College/Python/Lectures",
+                  },
+                  {
+                    text: "Sections",
+                    link: "/College/Python/Sections",
+                  },
+                  {
+                    text: "Assignments (Sheets)",
+                    link: "/College/Python/Assignments",
+                  },
+                  {
+                    text: "Exams",
+                    link: "/College/Python/Exams",
+                  },
+                ],
+              },
+              {
+                text: "Math",
+                link: "/College/Math",
+                collapsed: true,
+                items: [{ text: "Lectures", link: "/College/Math/Lectures" }],
+              },
+            ],
+          },
+          {
+            text: "Courses",
+            link: "/Courses",
+            collapsed: true,
+            items: [
+              { text: "PHP Elzero", link: "/Courses/PHP-Elzero" },
+              { text: "Linux Crash Course", link: "/Courses/LinuxCrashCourse" },
+              {
+                text: "Laravel 10 - Database and Eloquent",
+                link: "/Courses/Mastering_Laravel_10_Database_and_Eloquent",
+              },
+              {
+                text: "Manara",
+                link: "/Courses/Manara",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Node JS",
+                    link: "/Courses/Manara/NodeJs/Chapters",
+                  },
+                ],
+              },
+            ],
+          },
           { text: "General", link: "/General" },
         ],
       },

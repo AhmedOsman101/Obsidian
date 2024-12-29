@@ -11,15 +11,12 @@
             "id": "24530b0058f1b70d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "College/IT-Essentials/index.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "College/IT-Essentials/imgs/figure 10.png"
               },
-              "icon": "lucide-file",
-              "title": "index"
+              "icon": "lucide-image",
+              "title": "figure 10"
             }
           }
         ]
@@ -150,10 +147,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/IT-Essentials/index.md"
+                "file": "College/IT-Essentials/imgs/figure 10.png"
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of figure 10"
             }
           },
           {
@@ -189,16 +186,17 @@
       "obsidian-tts:Text to Speech": false
     }
   },
-  "active": "24530b0058f1b70d",
+  "active": "6e6b30772217c8e6",
   "lastOpenFiles": [
+    "College/IT-Essentials/index.md",
     "College/IT-Essentials/Sections/index.md",
     "College/IT-Essentials/Sections/SectionFive.md",
-    "figure-13.png",
-    "figure-12.png",
-    "figure.png",
-    "figure-11.png",
-    "figure-10.png",
-    "figure-9.png",
+    "College/IT-Essentials/imgs/figure 15.png",
+    "College/IT-Essentials/imgs/figure 14.png",
+    "College/IT-Essentials/imgs/figure 13.png",
+    "College/IT-Essentials/imgs/figure 12.png",
+    "College/IT-Essentials/imgs/figure 11.png",
+    "College/IT-Essentials/imgs/figure 10.png",
     "College/IT-Essentials/Lectures/LectureSeven.md",
     "College/IT-Essentials/Lectures/LectureNine.md",
     "College/IT-Essentials/Lectures/LectureEight.md",
@@ -207,7 +205,7 @@
     "College/IT-Essentials/Sections/SectionTwo.md",
     "College/IT-Essentials/Sections/SectionThree.md",
     "College/IT-Essentials/Sections/SectionFour.md",
-    "College/IT-Essentials/imgs/figure-8.png",
+    "College/IT-Essentials/imgs/figure 9.png",
     "Pasted image 20241229205550.png",
     "figure-8.png",
     "College/IT-Essentials/Sections/draft.md",
@@ -215,8 +213,7 @@
     "College/Math/Lectures/LectureThree.md",
     "College/IT-Essentials/Lectures/LectureFour.md",
     "College/IT-Essentials/Lectures/LectureFive.md",
-    "College/IT-Essentials/index.md",
-    "College/IT-Essentials/imgs/figure-7.png",
+    "College/IT-Essentials/imgs/figure 8.png",
     "College/IT-Essentials/Lectures/index.md",
     "Courses/Manara/NodeJs/Chapters/ChapterOne/index.md",
     "Courses/Manara/NodeJs/Chapters/index.md",

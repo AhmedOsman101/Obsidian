@@ -76,13 +76,13 @@ A network involves two or more interconnected devices sharing resources and info
 
 - A personal network (used by one person) for connecting devices like laptops and scanners.
 
-![](../imgs/figure-8.png)
+![](../imgs/figure%209.png)
 
 #### Local Area Network (LAN)
 
 - Covers a limited geographical area (e.g., offices, schools).
 
-![](../../../figure-9.png)
+![](../imgs/figure%2010.png)
 
 #### Wireless Local Area Network (WLAN)
 
@@ -106,35 +106,35 @@ Defines the physical connection of devices in a network.
 
 - A direct link between two nodes.
 
-![](../../../figure-10.png)
+![](../imgs/figure%2011.png)
 
 #### Bus Topology
 
 - Devices share a common cable with terminators at each end to prevent signal reflections and network errors.
 - Only one device transmits at a time to avoid collisions.
 
-![](../../../figure-11.png)
+![](../imgs/figure%2012.png)
 
 #### Ring Topology
 
 - Devices are connected in a circular layout.
 - A **token** circulates to control data transmission.
 
-![](../../../figure.png)
+![](../imgs/figure%2013.png)
 
 #### Mesh Topology
 
 - Every device connects to every other device.
 - Common in WANs and the Internet.
 
-![](../../../figure-12.png)
+![](../imgs/figure%2014.png)
 
 #### Star Topology
 
 - Central connection point (hub, switch, or router).
 - Simplifies troubleshooting as each device connects independently to the central hub.
 
-![](../../../figure-13.png)
+![](../imgs/figure%2015.png)
 
 ## Computer Network Architecture
 

@@ -1,11 +1,11 @@
 ---
 prev:
-  text: "Lecture Two"
-  link: "/College/Math/Lectures/LectureTwo"
+  text: "Lecture Three"
+  link: "/College/Math/Lectures/LectureThree"
 next:
   false
-  # text: "Lecture Four"
-  # link: "/College/Math/Lectures/LectureFour"
+  # text: "Lecture Five"
+  # link: "/College/Math/Lectures/LectureFive"
 ---
 
 # Lecture Four: Applications on Determinants

@@ -16,7 +16,7 @@
                 "file": "College/Math/Lectures/LectureOne.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "LectureOne"
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209.5
+    "width": 209.5,
+    "collapsed": true
   },
   "right": {
     "id": "f35096d70d8deb78",

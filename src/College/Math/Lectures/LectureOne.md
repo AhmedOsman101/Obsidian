@@ -25,7 +25,7 @@ next:
 
 $$
 A = \begin{bmatrix}
-1&2&3
+1 & 2 & 3
 \end{bmatrix}
 $$
 
@@ -33,68 +33,69 @@ $$
 
 $$
 A = \begin{bmatrix}
-1 \\
-2 \\
-3
+1 \\ 2 \\ 3
 \end{bmatrix}
 $$
 
 3. **Square Matrix**: A square matrix has the same number of rows and columns, i.e., $m = n$. Examples:
 
 $$
+\begin{gather}
 A_{2\times2} = \begin{bmatrix}
 1 & 2 \\ 3 & 4
 \end{bmatrix}
-$$
-
-$$
+\\\\
 B_{3\times3} = \begin{bmatrix}
 1 & 2 & 3 \\
 4 & 5 & 6 \\
 7 & 8 & 9
 \end{bmatrix}
+\end{gather}
 $$
 
 4. **Identity Matrix**: The identity matrix $I$ is a square matrix where all diagonal elements are 1, and all other elements are 0. Examples:
 
 $$
+\begin{gather}
 I_2 = \begin{bmatrix}
 1 & 0 \\
 0 & 1
 \end{bmatrix}
-$$
-
-$$
+\\\\
 I_3 = \begin{bmatrix}
 1 & 0 & 0 \\
 0 & 1 & 0 \\
 0 & 0 & 1
 \end{bmatrix}
+\end{gather}
 $$
 
 5. **Zero Matrix**: The zero matrix $O$ has all its entries as 0. Examples:
 
 $$
+\begin{gather}
 A_{1 \times 3} = \begin{bmatrix}
 0 & 0 & 0
 \end{bmatrix}
-$$
-
-$$
+\\\\
 B_{2 \times 2} = \begin{bmatrix}
 0 & 0 \\
 0 & 0
 \end{bmatrix}
+\end{gather}
 $$
 
 ## Matrix Algebra: Addition, Subtraction, and Scalar Multiplication
 
 1. **Matrix Addition**: The matrix sum $A + B$ is obtained by adding corresponding entries of $A$ and $B$.
-   _Note_: Matrix addition is possible only if the matrices have the same order.
+
+   > [!Note]
+   > Matrix addition is only possible if the matrices have the same order.
 
    **Example 1: Find $A+B$**:
 
 $$
+\begin{gather}
 A = \begin{bmatrix}
 0 & -3 \\
 5 & 2
@@ -103,19 +104,17 @@ B = \begin{bmatrix}
 13 & 1 \\
 -4 & 5
 \end{bmatrix}
-$$
-
-$$
+\\\\
 A + B = \begin{bmatrix}
 0 + 13 & -3 + 1 \\
 5 - 4 & 2 + 5
 \end{bmatrix}
-$$
-$$
+\\\\
 A + B = \begin{bmatrix}
 13 & -2 \\
 1 & 7
 \end{bmatrix}
+\end{gather}
 $$
 
 2. **Matrix Subtraction**: The matrix difference $A - B$ is obtained by subtracting corresponding entries of $B$ from $A$.
@@ -123,27 +122,27 @@ $$
    **Example 2: Find $P-Q$**:
 
 $$
+\begin{gather}
 P = \begin{bmatrix}
 4 & -2 & 0 \\
 1 & 0 & 37
-\end{bmatrix}, \quad
+\end{bmatrix}
+\\\\
 Q = \begin{bmatrix}
 -4 & -2 & 2 \\
 -8 & 3 & 6
 \end{bmatrix}
-$$
-
-$$
+\\\\
 P - Q = \begin{bmatrix}
-4 - (-4) & -2 - (-2) & 0 - 2 \\
-1 - (-8) & 0 - 3 & 37 - 6
+4 + 4 & -2 + 2 & 0 - 2 \\
+1 + 8 & 0 - 3 & 37 - 6
 \end{bmatrix}
-$$
-$$
+\\\\
 P - Q = \begin{bmatrix}
 8 & 0 & -2 \\
 9 & -3 & 31
 \end{bmatrix}
+\end{gather}
 $$
 
 3. **Scalar Multiplication**: The scalar multiplication of $A$ by $k$ is obtained by multiplying each entry of $A$ by $k$.
@@ -151,35 +150,38 @@ $$
    **Example 3: Find $\frac{1}{2}A$**:
 
 $$
+\begin{gather}
 A = \begin{bmatrix}
 4 & -4 & 0 \\
 12 & 6 & 2 \\
 8 & 18 & -2
 \end{bmatrix}
-$$
-
-$$
+\\\\
 \frac{1}{2} A = \frac{1}{2} \begin{bmatrix}
 4 & -4 & 0 \\
 12 & 6 & 2 \\
 8 & 18 & -2
 \end{bmatrix}
-$$
-$$
+\\\\
 \frac{1}{2} A = \begin{bmatrix}
 2 & -2 & 0 \\
 6 & 3 & 1 \\
 4 & 9 & -1
 \end{bmatrix}
+\end{gather}
 $$
 
 ## Matrix Multiplication
 
 1. **Matrix Product**: The product $AB$ of matrices $A$ and $B$ is defined if the number of columns of $A$ equals the number of rows of $B$. The resulting matrix will have the order $m \times p$.
 
+> [!Tip]
+> If you are on mobile swip to the left to see the full euqation or enable desktop mode
+
    **Example 4: Find $AB$**:
 
 $$
+\begin{gather}
 A = \begin{bmatrix}
 1 & 2 & 0 \\
 8 & 0 & 1 \\
@@ -190,28 +192,25 @@ B = \begin{bmatrix}
 1 & 2 \\
 3 & 4
 \end{bmatrix}
-$$
-$$
+\\\\
 AB = \begin{bmatrix}
 1(3) + 2(1) + 0(3) & 1(0) + 2(2) + 0(4) \\\
 8(3) + 0(1) + 1(3) & 8(0) + 0(2) + 1(4) \\\
 2(3) + 4(1) + 6(3) & 2(0) + 4(2) + 6(4)
 \end{bmatrix}
-$$
-
-$$
+\\\\
 AB = \begin{bmatrix}
 3 + 2 + 0 & 0 + 4 + 0 \\
 24 + 0 + 3 & 0 + 0 + 4 \\
 6 + 4 + 18 & 0 + 8 + 24
 \end{bmatrix}
-$$
-$$
+\\\\
 AB = \begin{bmatrix}
 5 & 4 \\
 27 & 4 \\
 28 & 32
 \end{bmatrix}
+\end{gather}
 $$
 
 2. **Non-commutativity**: In general, matrix multiplication is not commutative, i.e., $AB \neq BA$.
@@ -232,31 +231,33 @@ $$
 First $AB$,
 
 $$
+\begin{gather}
 AB = \begin{bmatrix}
 0(1) + 3(0) & 0(0) + 3(2) \\
 5(1) + 2(0) & 5(0) + 2(2)
 \end{bmatrix}
-$$
-$$
+\\\\
 AB = \begin{bmatrix}
 0 & 6 \\
 5 & 4
 \end{bmatrix}
+\end{gather}
 $$
 
 Next $BA$,
 
 $$
+\begin{gather}
 BA = \begin{bmatrix}
 1(0) + 0(5) & 1(3) + 0(2) \\
 0(0) + 2(5) & 0(3) + 2(2)
 \end{bmatrix}
-$$
-$$
+\\\\
 BA = \begin{bmatrix}
 0 & 3 \\
 10 & 4
 \end{bmatrix}
+\end{gather}
 $$
 
 Hence that,
@@ -291,7 +292,11 @@ A^T = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-> Note: A square matrix $A$ can be multiplied by itself any number of times, giving the $n^{th}$ power of $A$.
+---
+<br> 
+
+> [!Note]
+>  A square matrix $A$ can be multiplied by itself any number of times, giving the $n^{th}$ power of $A$.
 
 $$
 A^2 = A \cdot A, \quad

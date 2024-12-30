@@ -3,9 +3,8 @@ prev:
   text: "Lecture Two"
   link: "/College/Math/Lectures/LectureTwo"
 next:
-  false
-  # text: "Lecture Four"
-  # link: "/College/Math/Lectures/LectureFour"
+  text: "Lecture Four"
+  link: "/College/Math/Lectures/LectureFour"
 ---
 
 # Lecture Three: Eigenvalues

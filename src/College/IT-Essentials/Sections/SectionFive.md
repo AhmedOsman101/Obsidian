@@ -3,9 +3,8 @@ prev:
   text: "Section Four"
   link: "/College/IT-Essentials/Sections/SectionFour"
 next:
-  false
-  # text: "Section Six"
-  # link: "/College/IT-Essentials/Sections/SectionSix"
+  text: "Section Six"
+  link: "/College/IT-Essentials/Sections/SectionSix"
 ---
 
 # IT Essentials Lab 5: Computer Network

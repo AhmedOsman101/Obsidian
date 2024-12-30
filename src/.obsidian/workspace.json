@@ -11,12 +11,15 @@
             "id": "6e88a57ebaac2cd3",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "College/Math/imgs/figure-4.png"
+                "file": "College/Math/Lectures/LectureOne.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "figure-4"
+              "icon": "lucide-file",
+              "title": "LectureOne"
             }
           }
         ]
@@ -147,10 +150,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/Math/imgs/figure-4.png"
+                "file": "College/Math/Lectures/LectureOne.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of figure-4"
+              "title": "Outline of LectureOne"
             }
           },
           {
@@ -189,8 +192,8 @@
   },
   "active": "6e88a57ebaac2cd3",
   "lastOpenFiles": [
-    "College/Math/imgs/figure-1.png",
     "College/Math/imgs/figure-4.png",
+    "College/Math/imgs/figure-1.png",
     "College/Math/imgs/figure-2.png",
     "College/Math/imgs/figure-3.png",
     "College/Math/index.md",

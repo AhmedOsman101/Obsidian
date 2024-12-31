@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/draft.md",
+                "file": "College/Math/Lectures/LectureFour.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "draft"
+              "title": "LectureFour"
             }
           }
         ]
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209.5,
-    "collapsed": true
+    "width": 209.5
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -151,10 +150,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/draft.md"
+                "file": "College/Math/Lectures/LectureFour.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of draft"
+              "title": "Outline of LectureFour"
             }
           },
           {
@@ -193,6 +192,9 @@
   },
   "active": "6e88a57ebaac2cd3",
   "lastOpenFiles": [
+    "College/Math/Lectures/LectureThree.md",
+    "College/Math/Lectures/LectureTwo.md",
+    "College/draft.md",
     "College/Math/Lectures/LectureOne.md",
     "College/Math/imgs/figure-4.png",
     "College/Math/imgs/figure-1.png",
@@ -201,7 +203,6 @@
     "College/Math/index.md",
     "College/Math/Lectures/index.md",
     "College/Math/Lectures/LectureFour.md",
-    "College/Math/Lectures/LectureThree.md",
     "Pasted image 20241229233801.png",
     "Pasted image 20241229232504.png",
     "College/Math/imgs",
@@ -220,14 +221,12 @@
     "College/IT-Essentials/Sections/SectionTwo.md",
     "College/IT-Essentials/Sections/SectionThree.md",
     "College/IT-Essentials/Sections/SectionFour.md",
-    "College/Math/Lectures/LectureTwo.md",
     "College/IT-Essentials/Lectures/LectureFour.md",
     "College/IT-Essentials/Lectures/LectureFive.md",
     "College/IT-Essentials/Lectures/index.md",
     "Courses/Manara/NodeJs/Chapters/ChapterOne/index.md",
     "Courses/Manara/NodeJs/Chapters/index.md",
     "Courses/index.md",
-    "Courses/Manara/index.md",
     "Courses/Manara/NodeJs/Chapters/ChapterOne",
     "Courses/Manara/NodeJs/Chapters",
     "Courses/Manara/NodeJs",

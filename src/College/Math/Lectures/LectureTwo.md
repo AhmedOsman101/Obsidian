@@ -436,7 +436,7 @@ $$
    $$
 
 2. **Cofactor Matrix**
-   The cofactor matrix is obtained by calculating the determinant of the minor for each element of $A$ following the [Sign Rule](https://obsidian-notes-swart.vercel.app/College/Math/LectureTwo.html#sign-rule-for-determinants).
+   The cofactor matrix is obtained by calculating the determinant of the minor for each element of $A$ following the [Sign rule](LectureTwo.md#sign-rule-for-determinants).
 
 The cofactor matrix for $A$ is:
 
@@ -502,7 +502,7 @@ $$
   \end{bmatrix}
   $$
 
-  Applying the [Sign Rule](https://obsidian-notes-swart.vercel.app/College/Math/LectureTwo.html#sign-rule-for-determinants):
+  Applying the [Sign rule](LectureTwo.md#sign-rule-for-determinants):
 
   $$
   adj(A) = \begin{bmatrix}

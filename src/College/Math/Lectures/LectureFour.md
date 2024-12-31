@@ -124,7 +124,7 @@ $$
 1 & 6
 \end{vmatrix} \\ \\
 = 5(4-6) - 3(2-1) + 1(12-4)
-= \space 37 \space cm^2
+= \space -5 \space cm^2
 \end{gather}
 $$
 

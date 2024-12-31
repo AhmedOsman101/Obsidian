@@ -3,13 +3,13 @@ import { SearchPlugin, flexSearchIndexOptions } from "vitepress-plugin-search";
 // https://vitepress.dev/reference/site-config
 // export default defineConfig({});
 
-const options = {
-  previewLength: 62,
-  buttonLabel: "Search",
-  placeholder: "Search docs",
-  allow: [],
-  ignore: [],
-};
+// const options = {
+//   previewLength: 62,
+//   buttonLabel: "Search",
+//   placeholder: "Search docs",
+//   allow: [],
+//   ignore: [],
+// };
 
 export default withMermaid({
   title: "Othman Blog",
@@ -40,14 +40,14 @@ export default withMermaid({
     },
     math: true,
   },
-  vite: { plugins: [SearchPlugin(options)] },
+  // vite: { plugins: [SearchPlugin(options)] },
   themeConfig: {
     search: {
       provider: "algolia",
       options: {
-        appId: "...",
-        apiKey: "...",
-        indexName: "...",
+        appId: "CTOYTT4D0B",
+        apiKey: "1a91956aea22c42ed0989e8c0f0f862d",
+        indexName: "obsidian_notes_swart_vercel_app_ctoytt4d0b_pages",
       },
       // options: {
       //   miniSearch: {

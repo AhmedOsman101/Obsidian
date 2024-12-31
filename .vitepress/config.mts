@@ -5,6 +5,7 @@ export default withMermaid({
   title: "Othman Blog",
   description: "A Website for all of my notes and thoughts",
   srcDir: "src",
+  lastUpdated: true,
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
     [
@@ -34,7 +35,16 @@ export default withMermaid({
     search: {
       provider: "local",
     },
-    // https://vitepress.dev/reference/default-theme-config
+    outline: {
+      level: [2, 4],
+    },
+    lastUpdated: {
+      text: "Last updated",
+      formatOptions: {
+        dateStyle: "medium",
+        timeStyle: "short",
+      },
+    },
     nav: [
       { text: "Home", link: "/" },
       { text: "College", link: "/College" },
@@ -158,9 +168,6 @@ export default withMermaid({
         link: "https://www.linkedin.com/in/ahmad-ali-othman-5b503324a/",
       },
     ],
-    outline: {
-      level: [2, 4],
-    },
   },
   mermaid: {
     // refer https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults for options

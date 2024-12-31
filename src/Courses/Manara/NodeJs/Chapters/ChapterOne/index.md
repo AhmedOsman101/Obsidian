@@ -5,6 +5,7 @@ prev:
 next: false
   # text: "Chapter Two"
   # link: "/Courses/Manara/NodeJs/Chapters/ChapterTwo/index"
+lastUpdated: false
 ---
 
 # Chapter 1: Introduction to Node.js

@@ -1,6 +1,7 @@
 ---
 prev: false
 next: false
+lastUpdated: false
 ---
 
 # College

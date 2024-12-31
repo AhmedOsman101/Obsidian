@@ -3,6 +3,7 @@ prev:
   text: "Introduction to Cybersecurity"
   link: "/College/IntroToCyberSecurity/index"
 next: false
+lastUpdated: false
 ---
 
 # Lectures

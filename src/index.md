@@ -8,11 +8,11 @@ hero:
   tagline: "Making your learning process easier ❤️"
   actions:
     - theme: alt
-      text: College
-      link: /College
-    - theme: alt
       text: Courses
       link: /Courses
+    - theme: alt
+      text: College
+      link: /College
     - theme: alt
       text: General
       link: /General

@@ -1,8 +1,7 @@
 ---
-prev:
-  false
-next:
-  false
+prev: false
+next: false
+lastUpdated: false
 ---
 
 # Courses

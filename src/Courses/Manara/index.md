@@ -2,8 +2,8 @@
 prev:
   text: "Courses"
   link: "/Courses/index"
-next:
-  false
+next: false
+lastUpdated: false
 ---
 
 # Manara

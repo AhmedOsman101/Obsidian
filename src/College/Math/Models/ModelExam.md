@@ -30,7 +30,7 @@ $$
 
 **Find:** 
 
-1$)$ $A+B$
+### 1) $\space A+B$
 
 $$
 \begin{gather}
@@ -58,7 +58,7 @@ $$
 
 ---
 
-2$)$  $5A-B$
+### 2) $\space 5A-B$
 
 $$
 \begin{gather}
@@ -85,7 +85,7 @@ $$
 
 ---
 
-3$)$ $B^T$
+### 3) $\space B^T$
 
 $$
 B = \begin{bmatrix}
@@ -101,7 +101,7 @@ $$
 
 ---
 
-4$)$ $AB$
+### 4) $\space AB$
 
 $$
 \begin{gather}
@@ -132,7 +132,7 @@ $$
 
 ---
 
-5$)$ $(BC)^T$
+### 5) $\space (BC)^T$
 
 $$
 \begin{gather}
@@ -179,12 +179,15 @@ $$
 
 **Find:** 
 
-1, 3) $|A|$ and $A^{-1}$
+### 1) $\space|A|$
 
 $$
-\begin{gather}
 |A| = 4(5) - 2(8) = 20 - 16 = 4
-\\\\
+$$
+
+### 2) $\space A^{-1}$
+$$
+\begin{gather}
 A^{-1} = \frac{1}{|A|} * adj(A)
 \\\\
 adj(A) = \begin{bmatrix}
@@ -199,8 +202,13 @@ A^{-1} = \frac{1}{4} * \begin{bmatrix}
 \end{gather}
 $$
 
+---
 
-2) $C^{-1}$, since the first row is equal to the third row then the determinant is zero and the matrix $C$ is [singular](../Lectures/LectureTwo.md#theorem-singularity) (Doesn't have an inverse)
+### 3) $\space C^{-1}$
+
+> [!Note]
+> Since the first row is equal to the third row then the determinant is zero and the matrix $C$ is [singular](../Lectures/LectureTwo.md#theorem-singularity) (Doesn't have an inverse).
+> **The following solution is just to verify.**
 
 $$
 \begin{gather}
@@ -222,15 +230,81 @@ C^{-1} = \frac{1}{|C|} * adj(C)
 |C| = 1(0 - 8) - 2(-3-4) - 1(6-0)
 \\\\
 |C| = -8 + 14 - 6 = 0
+\end{gather}
+$$
+
+## Question 3
+
+**If:**
+$$
+\begin{gather}
+4x + 2y = 8 \\\
+8x + 5y = 18
+\end{gather}
+$$
+
+$$
+A = \begin{bmatrix}
+6 & -2 \\
+7 & 5
+\end{bmatrix}, \quad
+B = \begin{bmatrix}
+3 & 0 \\
+7 & 5
+\end{bmatrix}, \quad
+C = \begin{bmatrix}
+2 & 1 \\
+-1 & 3
+\end{bmatrix} 
+$$
+
+**Solve the previous system using:** 
+$I$) $A+B$
+
+$$
+\begin{gather}
+A+B &= \begin{bmatrix}
+6 & -2 \\
+7 & 5
+\end{bmatrix} +
+\begin{bmatrix}
+3 & 0 \\
+7 & 5
+\end{bmatrix} 
 \\\\
-adj(A) = \begin{bmatrix}
-5 & -2 \\
--8 & 4
+&= \begin{bmatrix}
+6+3 & -2+0 \\
+7+7 & 5+5
+\end{bmatrix} 
+\\\\
+&= \begin{bmatrix}
+9 & -2 \\
+14 & 10
+\end{bmatrix}
+\end{gather}
+$$
+
+$II$) $5A-B$
+
+$$
+\begin{gather}
+5A = \begin{bmatrix}
+5(3) & 5(0) \\
+7(7) & 5(5)
+\end{bmatrix}
+= \begin{bmatrix}
+30 & -10 \\
+35 & 25
 \end{bmatrix}
 \\\\
-A^{-1} = \frac{1}{4} * \begin{bmatrix}
-5 & -2 \\
--8 & 4
+5A-B = \begin{bmatrix}
+30 - 3 & -10 - 0 \\
+35-7 & 25-5
+\end{bmatrix}
+\\\\
+5A - B = \begin{bmatrix}
+27 & -10 \\
+28 & 20
 \end{bmatrix}
 \end{gather}
 $$
@@ -306,4 +380,5 @@ BC = \begin{bmatrix}
 \end{bmatrix}
 \end{gather}
 $$
+
 

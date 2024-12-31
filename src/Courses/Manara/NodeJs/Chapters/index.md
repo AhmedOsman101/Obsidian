@@ -2,8 +2,8 @@
 prev:
   text: "Manara"
   link: "/Courses/Manara/index"
-next:
-  false
+next: false
+lastUpdated: false
 ---
 
 # Node.js

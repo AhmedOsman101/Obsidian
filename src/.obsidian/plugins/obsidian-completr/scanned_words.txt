@@ -596,6 +596,7 @@ PZO
 Phs
 PPs
 PTs
+Parallelepiped
 IHDR
 IDATx
 IO
@@ -5883,6 +5884,7 @@ Mut
 MmK
 MJnh
 MKp
+Makes
 Lj
 Lf
 LvVa
@@ -22747,6 +22749,7 @@ crD
 cgL
 collinear
 colinear
+cramer
 Hu
 Hg
 HiL

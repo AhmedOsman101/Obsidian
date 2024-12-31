@@ -586,7 +586,6 @@ Consider the system of equations:
 $$
 x + y = 1
 $$
-
 $$
 2x + ky = 0
 $$

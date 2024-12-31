@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Math/Lectures/LectureTwo.md",
+                "file": "College/Math/Lectures/LectureFour.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LectureTwo"
+              "title": "LectureFour"
             }
           }
         ]
@@ -207,8 +207,9 @@
   },
   "active": "eefda0d8a6fe7834",
   "lastOpenFiles": [
-    "College/Math/Lectures/LectureTwo.md",
+    "College/Math/Lectures/LectureFour.md",
     "College/Math/Models/ModelExam.md",
+    "College/Math/Lectures/LectureTwo.md",
     "College/Math/Models/index.md",
     "College/Math/Models/Untitled.md",
     "College/Math/Lectures/index.md",
@@ -217,7 +218,6 @@
     "College/draft.pdf",
     "Pasted image 20241231182037.png",
     "College/Math/Lectures/LectureThree.md",
-    "College/Math/Lectures/LectureFour.md",
     "College/Math/Lectures/LectureOne.md",
     "College/Math/imgs/figure-4.png",
     "College/Math/imgs/figure-1.png",

@@ -210,7 +210,7 @@ $$
 6 & 4
 \end{vmatrix}
 \\ \\ 
-\Rightarrow 4(-x - 40) + 2(5x - 60) + 8(20 + 6) = 0 
+\Rightarrow 4(-x - 40) + 2(5x - 60) + 8(20 + 6) = 18 
 \\ \\
 \Rightarrow 
 -4x - 160 + 10x - 120 + 208 

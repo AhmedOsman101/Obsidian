@@ -33,11 +33,6 @@ export default withMermaid({
   themeConfig: {
     search: {
       provider: "local",
-      // options: {
-      //   appId: "CTOYTT4D0B",
-      //   apiKey: "1a91956aea22c42ed0989e8c0f0f862d",
-      //   indexName: "obsidian_notes_swart_vercel_app_ctoytt4d0b_pages",
-      // },
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [

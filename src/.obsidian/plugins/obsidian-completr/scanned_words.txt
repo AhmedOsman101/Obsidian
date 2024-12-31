@@ -2773,6 +2773,7 @@ src
 sRi
 sBX
 swip
+sums
 ff
 fP
 fj
@@ -7208,6 +7209,7 @@ amw
 aTo
 avq
 aRe
+average
 Te
 Tn
 TA
@@ -19549,6 +19551,7 @@ DAb
 Dca
 DYL
 DYcr
+Doesn
 ohQ
 oL
 ob
@@ -27918,6 +27921,7 @@ ATz
 AEqYA
 ABt
 ABB
+Arrays
 Jw
 Jg
 JT
@@ -28833,6 +28837,7 @@ QVs
 Qxr
 QBT
 Qqx
+Question
 WliB
 WWO
 WRY

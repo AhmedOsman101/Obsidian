@@ -269,9 +269,9 @@ $$
 
 ---
 
-### Theorem: Non-Singularity
+### Theorem: Singularity
 
-A matrix is **non-singular** (invertible) if $\det(A) \neq 0$. Conversely, a matrix is **singular** (non-invertible) if $\det(A) = 0$.
+Any matrix is **singular** (non-invertible) if $\det(A) = 0$. Conversely, a matrix is **non-singular** (invertible) if $\det(A) \neq 0$.
 
 ---
 

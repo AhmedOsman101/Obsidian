@@ -4,11 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "ea85adf047cdf76c",
+        "id": "e677f9838a0da215",
         "type": "tabs",
         "children": [
           {
-            "id": "6e88a57ebaac2cd3",
+            "id": "eefda0d8a6fe7834",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "College/Math/Models/ModelExam.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "ModelExam"
+            }
+          },
+          {
+            "id": "5ca47a728e6d1d98",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -150,10 +165,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/Math/Lectures/LectureTwo.md"
+                "file": "College/Math/Models/ModelExam.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of LectureTwo"
+              "title": "Outline of ModelExam"
             }
           },
           {
@@ -190,19 +205,25 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "6e88a57ebaac2cd3",
+  "active": "eefda0d8a6fe7834",
   "lastOpenFiles": [
-    "College/Math/Lectures/LectureThree.md",
     "College/Math/Lectures/LectureTwo.md",
-    "College/Math/Lectures/LectureFour.md",
+    "College/Math/Models/ModelExam.md",
+    "College/Math/Models/index.md",
+    "College/Math/Models/Untitled.md",
+    "College/Math/Lectures/index.md",
     "College/draft.md",
+    "College/Math/Models",
+    "College/draft.pdf",
+    "Pasted image 20241231182037.png",
+    "College/Math/Lectures/LectureThree.md",
+    "College/Math/Lectures/LectureFour.md",
     "College/Math/Lectures/LectureOne.md",
     "College/Math/imgs/figure-4.png",
     "College/Math/imgs/figure-1.png",
     "College/Math/imgs/figure-2.png",
     "College/Math/imgs/figure-3.png",
     "College/Math/index.md",
-    "College/Math/Lectures/index.md",
     "Pasted image 20241229233801.png",
     "Pasted image 20241229232504.png",
     "College/Math/imgs",
@@ -224,17 +245,12 @@
     "College/IT-Essentials/Lectures/LectureFour.md",
     "College/IT-Essentials/Lectures/LectureFive.md",
     "College/IT-Essentials/Lectures/index.md",
-    "Courses/Manara/NodeJs/Chapters/ChapterOne/index.md",
-    "Courses/Manara/NodeJs/Chapters/index.md",
-    "Courses/index.md",
     "Courses/Manara/NodeJs/Chapters/ChapterOne",
     "Courses/Manara/NodeJs/Chapters",
     "Courses/Manara/NodeJs",
     "College/IntroToCyberSecurity/Exams/imgs",
     "College/IntroToCyberSecurity/Exams",
     "College/Python/Exams/draft.docx",
-    "College/Python/Exams/lu7754285i8.tmp",
-    "College/Python/Exams/lu7754285hg.tmp",
-    "College/Python/Exams/imgs.zip"
+    "College/Python/Exams/lu7754285i8.tmp"
   ]
 }

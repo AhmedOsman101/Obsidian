@@ -2772,6 +2772,7 @@ sLbj
 src
 sRi
 sBX
+swip
 ff
 fP
 fj
@@ -10680,6 +10681,7 @@ eVA
 eIv
 eoZ
 eAN
+euqation
 GO
 GQ
 Gk

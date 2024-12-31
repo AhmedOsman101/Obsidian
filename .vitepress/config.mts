@@ -1,7 +1,15 @@
-import { defineConfig } from "vitepress";
 import { withMermaid } from "vitepress-plugin-mermaid";
+import { SearchPlugin, flexSearchIndexOptions } from "vitepress-plugin-search";
 // https://vitepress.dev/reference/site-config
 // export default defineConfig({});
+
+const options = {
+  previewLength: 62,
+  buttonLabel: "Search",
+  placeholder: "Search docs",
+  allow: [],
+  ignore: [],
+};
 
 export default withMermaid({
   title: "Othman Blog",
@@ -17,6 +25,10 @@ export default withMermaid({
         crossorigin: "anonymous",
       },
     ],
+    [
+      "meta",
+      { name: "algolia-site-verification", content: "523F7DBEE71292A6" },
+    ],
   ],
   markdown: {
     image: {
@@ -28,7 +40,36 @@ export default withMermaid({
     },
     math: true,
   },
+  vite: { plugins: [SearchPlugin(options)] },
   themeConfig: {
+    search: {
+      provider: "algolia",
+      options: {
+        appId: "...",
+        apiKey: "...",
+        indexName: "...",
+      },
+      // options: {
+      //   miniSearch: {
+      //     /**
+      //      * @type {Pick<import('minisearch').Options, 'extractField' | 'tokenize' | 'processTerm'>}
+      //      */
+      //     options: {
+      //       /* ... */
+      //     },
+      //     /**
+      //      * @type {MiniSearch.SearchOptions}
+      //      * @default
+      //      * { fuzzy: 0.2, prefix: true, boost: { title: 4, text: 2, titles: 1 } }
+      //      */
+      //     searchOptions: {
+      //       fuzzy: 0.2,
+      //       prefix: true,
+      //       boost: { title: 4, text: 2, titles: 1 },
+      //     },
+      //   },
+      // },
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },

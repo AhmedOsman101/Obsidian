@@ -1,10 +1,12 @@
 {
   "devDependencies": {
     "@markslides/markdown-it-mermaid": "^0.3.4",
+    "flexsearch": "^0.7.43",
     "markdown-it-mathjax3": "^4.3.2",
     "mermaid": "^11.4.0",
     "vitepress": "^1.5.0",
-    "vitepress-plugin-mermaid": "^2.0.17"
+    "vitepress-plugin-mermaid": "^2.0.17",
+    "vitepress-plugin-search": "1.0.4-alpha.22"
   },
   "scripts": {
     "docs:dev": "vitepress dev",
@@ -13,10 +15,12 @@
   },
   "dependencies": {
     "@braintree/sanitize-url": "^7.1.0",
+    "@docsearch/js": "3",
     "cytoscape": "^3.30.3",
     "cytoscape-cose-bilkent": "^4.1.0",
     "dayjs": "^1.11.13",
     "debug": "^4.3.7",
+    "minisearch": "^7.1.1",
     "vue": "^3.5.12"
   }
 }

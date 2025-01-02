@@ -65,7 +65,6 @@ print("Result =", user_input)
 
 ![](../imgs/output3.png)
 
----
 
 ## Bugs in Python Programs
 
@@ -109,9 +108,9 @@ x = N + 2  # Variable 'N' is not defined.
 # NameError: name 'N' is not defined
 
 # ZeroDivisionError: Division by zero
-dividend = eval(input('Enter first number to divide: '))  # Example input: 40
-divisor = eval(input('Enter second number to divide: '))  # Example input: 0
-print(dividend, '/', divisor, "=", dividend / divisor)
+num1 = eval(input('Enter first number to divide: '))  # Example input: 40
+num2 = eval(input('Enter second number to divide: '))  # Example input: 0
+print(num1, '/', num2, "=", num1 / num2)
 # Output:
 # ZeroDivisionError: division by zero
 ```
@@ -120,10 +119,10 @@ print(dividend, '/', divisor, "=", dividend / divisor)
 
 ```python
 # Safeguard against division by zero
-dividend = eval(input('Enter first number to divide: '))
-divisor = eval(input('Enter second number to divide: '))
-if divisor != 0:
-  print(dividend, '/', divisor, "=", dividend / divisor)
+num1 = eval(input('Enter first number to divide: '))
+num2 = eval(input('Enter second number to divide: '))
+if num2 != 0:
+  print(num1, '/', num2, "=", num1 / num2)
 else:
   print("Error: Division by zero is not allowed.")
 ```
@@ -138,18 +137,18 @@ A **logic error** occurs when the program **runs without crashing** but produces
 
 ```python
 # Incorrect logic
-dividend = 40
-divisor = 5
-result = divisor / dividend  # Logic error: Should be dividend / divisor.
+num1 = 40
+num2 = 5
+result = num2 / num1  # Logic error: Should be dividend / divisor.
 print("Result:", result)  # Produces incorrect output.
 ```
 
 #### Corrected Code
 
 ```python
-dividend = 40
-divisor = 5
-result = dividend / divisor  # Correct logic.
+num1 = 40
+num2 = 5
+result = num1 / num2  # Correct logic.
 print("Result:", result)  # Output: 8.0
 ```
 

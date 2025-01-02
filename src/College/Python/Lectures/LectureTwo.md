@@ -156,15 +156,4 @@ print(num1, "+", num2, "=", num1 + num2)
 - **Identifiers**: Variable names (identifiers) must start with a letter or underscore, followed by letters, numbers, or underscores.
 - **Reserved Words**: Keywords (e.g., `if`, `while`, `True`) cannot be used as identifiers.
 
-### Example Program: Calculator
 
-Here’s a program that adds two numbers entered by the user:
-
-```python
-# Short calculator program
-num1 = int(input("Please enter an integer value: "))
-num2 = int(input("Please enter another integer value: "))
-print(num1, "+", num2, "=", num1 + num2)
-```
-
-This covers the essentials of number types and string handling in Python, providing examples of conversions, variable naming, and simple operations.

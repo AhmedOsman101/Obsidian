@@ -11,7 +11,7 @@ next:
 
 ## Control Structures in Python
 
-Control structures determine the flow of execution in a program. In Python, the key control structures include **if/else statements** and **loops**. Below is a summarized and formatted overview with examples.
+Control structures determine the flow of execution in a program. In Python, the key control structures include **if/else statements** and **loops**.
 
 ## If/Else Statements
 

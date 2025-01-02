@@ -56,6 +56,7 @@ type(1) # => <class 'int'> -> this is the same object as the keyword `int`
 type("Hello") # => <class 'str'>
 type(None) # => <class 'NoneType'>
 type(True) # => <class 'bool'>
+type(print) # => <class 'builtin_function_or_method'>
 type(int) # => <class 'type'>
 type(type(5)) # => <class 'type'>
 ```
@@ -100,7 +101,7 @@ monthly_salary = input("How much do you make in a month? ")
 monthly_salary = float(monthly_salary)
 
 # Second method:
-# We can take the input and convert it in one step/line using `Nested Calls`
+# We can take the input and convert it in one step using Nested Calls
 # You can nest any number of functions
 monthly_salary = float(input("How much do you make in a month? "))
 
@@ -159,6 +160,8 @@ print("ID of b:", id(b)) # ID of b: 139681763249040
   - The **code is correct**, and the **program runs without crashing**, but **the output is incorrect** due to a flaw in the algorithm or logic.
   - Example: Printing `2 + 2 = 5`.
   - **Result**: Incorrect output, even though the code runs.
+
+---
 
 ### Syntax Error
 

@@ -13,7 +13,7 @@ Python provides four built-in collection data types:
 
 - **List**: Ordered and mutable (changeable). Allows duplicate members.
 - **Tuple**: Ordered and immutable (unchangeable). Allows duplicate members.
-- **Set**: Unordered, immutable (once created), and unindexed. Does not allow duplicate members.
+- **Set**: Unordered, mutable, and unindexed. Does not allow duplicate members.
 - **Dictionary**: Ordered (as of Python 3.7), mutable, and does not allow duplicate keys.
 
 Choosing the appropriate data type helps maintain efficiency, clarity, and security.
@@ -60,9 +60,11 @@ print(mixed)       # Output: ["0", "1", "two", "3", "four", "five"]
 #### List Methods
 
 ```python
+mixed = ["0", "1", "2", "3", "4", "5"]
+
 # Append an item to the end of the list
-mixed.append('six')
-print(mixed)      # Output: ["0", "1", "2", "three", '4', 'five', '6"]
+mixed.append("six")
+print(mixed)      # Output: ["0", "1", "2", "3", "4", "5", "six]
 
 # Remove the last item from the list
 mixed.pop()
@@ -182,6 +184,7 @@ print("After remove(3):", my_set)  # {1, 4}
 ### Checking Items in a Set
 
 ```python
+fruits = {"apple", "banana", "cherry"}
 # Check if an item is present using the 'in' keyword
 print("banana" in fruits)  # Output: False
 fruits.add("mango")
@@ -250,7 +253,8 @@ print(f"Value for 'z': {value}")  # Not Found
 
 # 2. Pop a key-value pair
 popped_value = my_dict.pop("b")
-print(f"After pop('b'): {my_dict}, Popped Value: {popped_value}")  # {'a': 1, 'c': 3}, Popped Value: 2
+print(f"After pop('b'): {my_dict}, Popped Value: {popped_value}")  
+# {'a': 1, 'c': 3}, Popped Value: 2
 
 # 3. View all values
 print("Values:", my_dict.values())  # dict_values([1, 3])

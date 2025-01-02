@@ -109,7 +109,7 @@ The `range()` function generates a sequence of numbers, often used in loops.
 **Syntax:** `range(start, stop, step)`
 
 | Parameter | Description                                              | Default |
-| --------- | -------------------------------------------------------- | ------- |
+| --------- | -------------------------------------------------------- | :-----: |
 | `start`   | Optional. Start position of the sequence.                | 0       |
 | `stop`    | Required. Stop position (exclusive).                     | None    |
 | `step`    | Optional. Increment between each number in the sequence. | 1       |

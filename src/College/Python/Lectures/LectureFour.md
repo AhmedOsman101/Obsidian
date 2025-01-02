@@ -57,8 +57,8 @@ The `eval()` function resolves variable names if they exist in the current conte
 
 ```python
 x1 = 10  # Define a variable
-user_input = eval(input("Enter a variable or expression: "))  # e.g., x1 * 2
-print("Result =", user_input)
+user_input = eval(input("Enter a variable or expression: "))  # x1
+print("Result =", user_input) # 10
 ```
 
 **Output Example:**

@@ -45,7 +45,7 @@ def function_name(parameters):
 
 - `parameters`: Variables to hold values passed during the function call.
 - `"""docstring"""`: A brief description of what the function does. Accessible via `help(function_name)` or `function_name.__doc__`.
-- `return [expression]`: Sends a value back to the caller.
+- `return [expression]`: Sends a value back to the caller (optional).
 
 ---
 
@@ -72,6 +72,7 @@ def get_sum(n1, n2):
 result = get_sum(3, 5)
 print(result)  # Output: 8
 print(get_sum.__doc__)  # Output: Returns the sum of n1 and n2
+help(get_sum)  # Output: Returns the sum of n1 and n2
 ```
 
 #### Function With Default Parameters

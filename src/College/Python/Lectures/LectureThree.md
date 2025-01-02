@@ -35,7 +35,7 @@ y = 3
 print(x + y)    # Addition: 13
 print(x - y)    # Subtraction: 7
 print(x * y)    # Multiplication: 30
-print(x / y)    # Division: 3.333...
+print(x / y)    # Division: 3.3333
 print(x % y)    # Modulus: 1
 print(x ** y)   # Exponentiation: 1000
 print(x // y)   # Floor division: 3
@@ -178,21 +178,21 @@ print(x >> 1)  # Output: 3 (right shift)
 
 Operator precedence determines the order in which operations are performed in an expression. Higher precedence operators are evaluated before lower precedence operators.
 
-| Precedence | Operator                         | Description                                       |
-| ---------- | -------------------------------- | ------------------------------------------------- |
-| Highest    | `()`                             | Parentheses                                       |
-|            | `**`                             | Exponentiation                                    |
-|            | `+x`, `-x`, `~x`                 | Unary plus, unary minus, and bitwise NOT          |
-|            | `*`, `/`, `%`, `//`              | Multiplication, division, modulus, floor division |
-|            | `+`, `-`                         | Addition and subtraction                          |
-|            | `>>`, `<<`                       | Bitwise left and right shifts                     |
-|            | `&`                              | Bitwise AND                                       |
-|            | `^`                              | Bitwise XOR                                       |
-|            | `\|`                             | Bitwise OR                                        |
-|            | `==`, `!=`, `>`, `>=`, `<`, `<=` | Comparisons, identity, and membership operators   |
-|            | `not`                            | Logical NOT                                       |
-|            | `and`                            | Logical AND                                       |
-| Lowest     | `or`                             | Logical OR                                        |
+| Precedence | Operator                                     | Description                                       |
+| ---------- | -------------------------------------------- | ------------------------------------------------- |
+| Highest    | `()`                                         | Parentheses                                       |
+|            | `**`                                         | Exponentiation                                    |
+|            | `+x`, `-x`, `~x`                             | Unary plus, unary minus, and bitwise NOT          |
+|            | `*`, `/`, `%`, `//`                          | Multiplication, division, modulus, floor division |
+|            | `+`, `-`                                     | Addition and subtraction                          |
+|            | `>>`, `<<`                                   | Bitwise left and right shifts                     |
+|            | `&`                                          | Bitwise AND                                       |
+|            | `^`                                          | Bitwise XOR                                       |
+|            | `\|`                                         | Bitwise OR                                        |
+|            | `==`, `!=`, `>`, `>=`, `<`, `<=`, `is`, `in` | Comparisons, identity, and membership operators   |
+|            | `not`                                        | Logical NOT                                       |
+|            | `and`                                        | Logical AND                                       |
+| Lowest     | `or`                                         | Logical OR                                        |
 
 **Example**:
 

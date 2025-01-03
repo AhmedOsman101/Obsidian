@@ -333,11 +333,11 @@ print("Japan" not in data) # True
 
 ```python
 squares = {
-  "a": 1,
-  "b": 9,
-  "c": 25,
-  "d": 49,
-  "e": 81
+  "1": 1,
+  "3": 9,
+  "5": 25,
+  "7": 49,
+  "9": 81
 }
 
 print("Keys & Values:")

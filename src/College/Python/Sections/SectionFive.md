@@ -191,7 +191,7 @@ print(data)
 ```python
 data = {
   "name": "Othman",
-  "age": 18
+  "age": 19
 }
 
 # Access value using key

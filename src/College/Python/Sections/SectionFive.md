@@ -312,7 +312,7 @@ print(data)  # Output: {'Egypt': 'Cairo', 'America': 'Washington DC'}
 
 ### Check if a Key Exists in Dictionary
 
-- We can test if a key is in a dictionary or not using the keyword in.
+- We can test if a key is in a dictionary or not using the keyword `in`.
 
 ```python
 data = {

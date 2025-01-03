@@ -1,10 +1,10 @@
 ---
 prev:
-  text: "Lectures"
-  link: "/College/Python/Lectures/index"
+  text: Lectures
+  link: /College/Python/Lectures/index
 next:
-  text: "Lecture Two"
-  link: "/College/Python/Lectures/LectureTwo"
+  text: Lecture Two
+  link: /College/Python/Lectures/LectureTwo
 ---
 
 # Programming Essentials in Python Lecture 1

@@ -11,6 +11,9 @@ importers:
       '@braintree/sanitize-url':
         specifier: ^7.1.0
         version: 7.1.0
+      '@catppuccin/vitepress':
+        specifier: ^0.1.0
+        version: 0.1.0(typescript@5.6.3)
       cytoscape:
         specifier: ^3.30.3
         version: 3.30.3
@@ -154,6 +157,11 @@ packages:
 
   '@braintree/sanitize-url@7.1.0':
     resolution: {integrity: sha512-o+UlMLt49RvtCASlOMW0AkHnabN9wR9rwCCherxO0yG4Npy34GkvrAqdXQvrhNs+jh+gkK8gB8Lf05qL/O7KWg==}
+
+  '@catppuccin/vitepress@0.1.0':
+    resolution: {integrity: sha512-HJilKL8dzidGWwDBNcGVzDmjHocwhaxQ0tleRf0/Aab7MDCHK63jzoYHifXro6mH+AtK120WHfsHiJl54sSaww==}
+    peerDependencies:
+      typescript: ^5.0.0
 
   '@chevrotain/cst-dts-gen@11.0.3':
     resolution: {integrity: sha512-BvIKpRLeS/8UbfxXxgC33xOumsacaeCKAjAeLyOn7Pcp95HiRbrpl14S+9vaZLolnbssPIUuiUd8IvgkRyt6NQ==}
@@ -1673,6 +1681,10 @@ snapshots:
 
   '@braintree/sanitize-url@7.1.0': {}
 
+  '@catppuccin/vitepress@0.1.0(typescript@5.6.3)':
+    dependencies:
+      typescript: 5.6.3
+
   '@chevrotain/cst-dts-gen@11.0.3':
     dependencies:
       '@chevrotain/gast': 11.0.3
@@ -3072,8 +3084,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  typescript@5.6.3:
-    optional: true
+  typescript@5.6.3: {}
 
   ufo@1.5.4: {}
 

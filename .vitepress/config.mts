@@ -22,6 +22,10 @@ export default withMermaid({
     ],
   ],
   markdown: {
+    theme: {
+      dark: "github-dark",
+      light: "catppuccin-latte",
+    },
     image: {
       lazyLoading: true,
     },
@@ -38,14 +42,15 @@ export default withMermaid({
     outline: {
       level: [2, 4],
     },
+    footer: {
+      copyright:
+        'Copyright © 2024-present <a href="https://github.com/AhmedOsman101">Ahmad Othman</a>',
+    },
     lastUpdated: {
       text: "Last updated",
       formatOptions: {
         dateStyle: "medium",
         timeStyle: "short",
-      },
-    footer: {
-      copyright: 'Copyright © 2024-present <a href="https://github.com/AhmedOsman101">Ahmad Othman</a>'
       },
     },
     nav: [

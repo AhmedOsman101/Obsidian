@@ -598,6 +598,7 @@ PPs
 PTs
 Parallelepiped
 Pez
+Precision
 IHDR
 IDATx
 IO
@@ -1947,6 +1948,7 @@ practicing
 pigP
 parallelepiped
 pzJ
+predictable
 sbf
 sPv
 sC
@@ -2779,6 +2781,7 @@ sBX
 swip
 sums
 sDm
+subtle
 ff
 fP
 fj
@@ -3372,6 +3375,8 @@ fSa
 fRl
 fmJ
 fFV
+floating
+finite
 yq
 yh
 yS
@@ -5900,6 +5905,8 @@ MJnh
 MKp
 Makes
 Mun
+MaharaTech
+Mastery
 Lj
 Lf
 LvVa
@@ -7233,6 +7240,7 @@ avq
 aRe
 average
 aFD
+approximate
 Te
 Tn
 TA
@@ -10031,6 +10039,8 @@ ryd
 rOa
 rsk
 rAe
+reasons
+rounding
 eiO
 es
 ee
@@ -10716,6 +10726,8 @@ eoZ
 eAN
 euqation
 eXw
+exact
+enumerated
 GO
 GQ
 Gk
@@ -13285,6 +13297,8 @@ iRG
 iMr
 imitate
 iuIC
+inaccuracies
+imprecise
 tWA
 tW
 tM
@@ -13930,6 +13944,7 @@ tlY
 tIo
 tIJ
 tPP
+tolerance
 nm
 nv
 nhuK
@@ -15749,6 +15764,7 @@ jEX
 jeP
 jAd
 jpOT
+jump
 bo
 bi
 bn
@@ -17369,6 +17385,8 @@ lie
 lcz
 lmGe
 lyP
+lastUpdated
+labels
 Rc
 Rt
 RO
@@ -18010,6 +18028,7 @@ RqJ
 RhJ
 RtD
 RII
+Restriction
 Zt
 ZB
 Zb
@@ -20705,6 +20724,9 @@ mpn
 moy
 mLR
 miv
+matches
+manner
+matching
 Ck
 CS
 Cm
@@ -22815,6 +22837,8 @@ cgL
 collinear
 colinear
 cramer
+chains
+comparisons
 Hu
 Hg
 HiL
@@ -27297,6 +27321,8 @@ dHAx
 drop
 dzr
 dJf
+disallowed
+discrete
 AK
 AQ
 Aya
@@ -28003,6 +28029,7 @@ Arrays
 ADDDdXJ
 ALxd
 AqAZ
+Approaches
 Jw
 Jg
 JT

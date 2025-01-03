@@ -44,6 +44,9 @@ export default withMermaid({
         dateStyle: "medium",
         timeStyle: "short",
       },
+    footer: {
+      copyright: 'Copyright © 2024-present <a href="https://github.com/AhmedOsman101">Ahmad Othman</a>'
+      },
     },
     nav: [
       { text: "Home", link: "/" },

@@ -11,12 +11,15 @@
             "id": "ed9d0c7735889e4c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "figure.png"
+                "file": "College/IT-Essentials/Sections/SectionFour.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "figure"
+              "icon": "lucide-file",
+              "title": "SectionFour"
             }
           }
         ]
@@ -147,10 +150,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "figure.png"
+                "file": "College/IT-Essentials/Sections/SectionFour.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of figure"
+              "title": "Outline of SectionFour"
             }
           },
           {
@@ -189,10 +192,15 @@
   },
   "active": "ed9d0c7735889e4c",
   "lastOpenFiles": [
+    "College/IT-Essentials/Sections/SectionThree.md",
+    "College/IT-Essentials/Sections/SectionFive.md",
+    "College/IT-Essentials/Sections/SectionFour.md",
+    "College/IT-Essentials/Sections/SectionTwo.md",
+    "College/IT-Essentials/Sections/SectionOne.md",
+    "figure.png",
     "Courses/MaharaTech/C-Programming.md",
     "draft.md",
     "College/Python/Lectures/LectureOne.md",
-    "figure.png",
     "Courses/MaharaTech/index.md",
     "Courses/LinuxCrashCourse.md",
     "Courses/index.md",
@@ -214,10 +222,6 @@
     "College/Python/Lectures/LectureTwo.md",
     "College/Math/Lectures/LectureFour.md",
     "College/Math/Models/ModelExam.md",
-    "College/Math/Lectures/LectureTwo.md",
-    "College/Math/Models/index.md",
-    "College/Math/Models/Untitled.md",
-    "College/Math/Lectures/index.md",
     "College/Math/Models",
     "College/draft.pdf",
     "Pasted image 20241231182037.png",

@@ -599,6 +599,11 @@ PTs
 Parallelepiped
 Pez
 Precision
+PQy
+PHUVW
+Pnn
+Pdd
+PFF
 IHDR
 IDATx
 IO
@@ -1949,6 +1954,7 @@ pigP
 parallelepiped
 pzJ
 predictable
+pAu
 sbf
 sPv
 sC
@@ -2782,6 +2788,8 @@ swip
 sums
 sDm
 subtle
+stripes
+sqrt
 ff
 fP
 fj
@@ -3377,6 +3385,9 @@ fmJ
 fFV
 floating
 finite
+fxZ
+fjW
+fBL
 yq
 yh
 yS
@@ -3785,6 +3796,7 @@ yUA
 yAq
 yJgb
 yNuS
+ysg
 ql
 qu
 qb
@@ -4218,6 +4230,9 @@ qqH
 qGGuk
 qPP
 qqIe
+quD
+qAn
+qrb
 waq
 wc
 wav
@@ -4715,6 +4730,10 @@ wXw
 wym
 wMU
 wFQ
+wha
+wTT
+wmg
+wle
 BU
 Bh
 BC
@@ -5907,6 +5926,8 @@ Makes
 Mun
 MaharaTech
 Mastery
+Mjf
+MQNd
 Lj
 Lf
 LvVa
@@ -7241,6 +7262,7 @@ aRe
 average
 aFD
 approximate
+aligned
 Te
 Tn
 TA
@@ -7835,6 +7857,10 @@ TWu
 TpL
 TBa
 TAqQ
+TVQ
+TWZ
+TMJ
+TNPm
 uj
 uq
 uXm
@@ -8367,6 +8393,7 @@ ulW
 uDB
 urM
 upz
+ukV
 OB
 Ox
 ONynT
@@ -8873,6 +8900,7 @@ OOP
 ODDDDDDD
 OZq
 OpBw
+Ogm
 Uc
 Ue
 UXk
@@ -9381,6 +9409,9 @@ UUl
 UPV
 UUVIK
 UEjT
+UNW
+UWWS
+UEE
 ra
 rO
 rV
@@ -10041,6 +10072,7 @@ rsk
 rAe
 reasons
 rounding
+rho
 eiO
 es
 ee
@@ -10728,6 +10760,7 @@ euqation
 eXw
 exact
 enumerated
+eFuYY
 GO
 GQ
 Gk
@@ -11243,6 +11276,10 @@ GKp
 GES
 GYS
 GzD
+GitHub
+Grc
+GYN
+Gqd
 Ex
 EZR
 EG
@@ -11906,6 +11943,8 @@ EbC
 EFe
 EEEb
 Esq
+Esu
+EdIce
 Sal
 SQ
 SB
@@ -12632,6 +12671,10 @@ Sao
 SvY
 Selection
 SGY
+Style
+Snf
+SRru
+SeyJ
 iH
 ic
 iP
@@ -13945,6 +13988,7 @@ tIo
 tIJ
 tPP
 tolerance
+tEX
 nm
 nv
 nhuK
@@ -14382,6 +14426,9 @@ ncc
 nVs
 nXz
 nzKxU
+neat
+nabla
+nWK
 Fc
 Fe
 Fo
@@ -14977,6 +15024,7 @@ Fko
 FTG
 FJTd
 FRRR
+FxD
 xi
 xpF
 xwG
@@ -15314,6 +15362,9 @@ xjPP
 xNt
 xrJ
 xUs
+xQuu
+xFP
+xzr
 jY
 jHnQ
 jO
@@ -15765,6 +15816,7 @@ jeP
 jAd
 jpOT
 jump
+jCG
 bo
 bi
 bn
@@ -16332,6 +16384,9 @@ bxQ
 bdz
 bSA
 bJf
+bcl
+biH
+bHc
 Nb
 NJu
 Nbsa
@@ -16869,6 +16924,7 @@ NNt
 NqQ
 NHNV
 Nzt
+NTe
 lqQvz
 ln
 lN
@@ -17387,6 +17443,8 @@ lmGe
 lyP
 lastUpdated
 labels
+lZp
+lKQ
 Rc
 Rt
 RO
@@ -20727,6 +20785,7 @@ miv
 matches
 manner
 matching
+mathbf
 Ck
 CS
 Cm
@@ -21451,6 +21510,7 @@ CeN
 CJz
 CDDD
 CMR
+Cool
 vb
 vO
 vvF
@@ -21949,6 +22009,8 @@ vYU
 vMk
 vYy
 vzt
+vec
+vnwqJ
 ck
 cr
 ce
@@ -22839,6 +22901,7 @@ colinear
 cramer
 chains
 comparisons
+col
 Hu
 Hg
 HiL
@@ -23423,6 +23486,7 @@ HWO
 HLx
 HaE
 HVT
+HSg
 hh
 hLR
 hI
@@ -24411,6 +24475,8 @@ XYX
 XOl
 XQS
 XglG
+XCZ
+Xsj
 gR
 gQ
 go
@@ -25435,6 +25501,7 @@ Kgs
 KUq
 KVB
 KQz
+Kii
 zC
 zl
 zk
@@ -25783,6 +25850,7 @@ zmQ
 zrrr
 zSM
 zEe
+zebra
 YT
 Yh
 YDvhV
@@ -26193,6 +26261,7 @@ YMg
 YbI
 Yos
 YtA
+YKd
 VLt
 Vfa
 Vr
@@ -26651,6 +26720,11 @@ VmX
 VfB
 Vhl
 VvVl
+Vfh
+VYv
+VXk
+VmT
+Vbe
 dk
 dR
 dV
@@ -27323,6 +27397,7 @@ dzr
 dJf
 disallowed
 discrete
+dxG
 AK
 AQ
 Aya
@@ -28521,6 +28596,11 @@ JkSZ
 JEW
 JVB
 JSx
+JvX
+JOc
+JRr
+JFY
+JHL
 Qv
 QL
 QD
@@ -28953,6 +29033,9 @@ QCT
 Qei
 QIC
 QAT
+Qll
+Qev
+QOV
 WliB
 WWO
 WRY

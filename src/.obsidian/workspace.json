@@ -4,56 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e157a94a49f5e2a2",
+        "id": "c3639331c1f32da5",
         "type": "tabs",
         "children": [
           {
-            "id": "3ba858e613c615c1",
+            "id": "ed9d0c7735889e4c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Courses/MaharaTech/C-Programming.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "figure.png"
               },
-              "icon": "lucide-file",
-              "title": "C-Programming"
-            }
-          },
-          {
-            "id": "5e66de151088cfea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "draft.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "draft"
-            }
-          },
-          {
-            "id": "2b4bc5e41fb251d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/Python/Lectures/LectureOne.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "LectureOne"
+              "icon": "lucide-image",
+              "title": "figure"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,10 +147,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "draft.md"
+                "file": "figure.png"
               },
               "icon": "lucide-list",
-              "title": "Outline of draft"
+              "title": "Outline of figure"
             }
           },
           {
@@ -221,11 +187,11 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "5e66de151088cfea",
+  "active": "ed9d0c7735889e4c",
   "lastOpenFiles": [
-    "College/Python/Lectures/LectureOne.md",
     "Courses/MaharaTech/C-Programming.md",
     "draft.md",
+    "College/Python/Lectures/LectureOne.md",
     "figure.png",
     "Courses/MaharaTech/index.md",
     "Courses/LinuxCrashCourse.md",

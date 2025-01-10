@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/IT-Essentials/Sections/SectionFour.md",
-                "mode": "preview",
+                "file": "College/draft.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SectionFour"
+              "title": "draft"
             }
           }
         ]
@@ -150,10 +150,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/IT-Essentials/Sections/SectionFour.md"
+                "file": "College/draft.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of SectionFour"
+              "title": "Outline of draft"
             }
           },
           {
@@ -192,9 +192,9 @@
   },
   "active": "ed9d0c7735889e4c",
   "lastOpenFiles": [
+    "College/IT-Essentials/Sections/SectionFour.md",
     "College/IT-Essentials/Sections/SectionThree.md",
     "College/IT-Essentials/Sections/SectionFive.md",
-    "College/IT-Essentials/Sections/SectionFour.md",
     "College/IT-Essentials/Sections/SectionTwo.md",
     "College/IT-Essentials/Sections/SectionOne.md",
     "figure.png",

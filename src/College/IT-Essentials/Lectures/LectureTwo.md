@@ -51,7 +51,6 @@ next:
 - Modern BIOS chips (EEPROM) can be upgraded by **flashing**.
 - Follow the manufacturer’s website instructions for BIOS updates.
 
----
 
 ## Electrical Power
 
@@ -90,7 +89,6 @@ next:
 - **Uninterruptible Power Supply (UPS)**: Provides backup power during blackouts and brownouts.
 - **Standby Power Supply (SPS)**: Backup battery power with slower activation than UPS.
 
----
 
 ## Advanced Computer Functionality
 
@@ -119,7 +117,6 @@ next:
 - **Graphics Card Cooling**: Reduces heat from dedicated GPUs.
 - **Water Cooling**: Efficiently dissipates heat from high-performance systems.
 
----
 
 ## Video and Graphic Ports
 
@@ -200,7 +197,7 @@ next:
 - **Screen Size**
   - Measured diagonally, from top-left to bottom-right, in inches.
 - **Resolution**
-  - The number of horizontal and vertical pixels (e.g., 1920 x 1080).
+  - The number of horizontal and vertical pixels (e.g., 1920 $\times$ 1080).
 - **Native Resolution**
   - The best resolution for a specific monitor, displayed in native mode.
 - **Connectivity**
@@ -227,13 +224,13 @@ next:
 
 ## Display Standards
 
-- **CGA (320 x 200)**
-- **VGA (640 x 480)**
-- **SVGA (800 x 600)**
-- **HD (1280 x 720) - 720p**
-- **FHD (1920 x 1080) - 1080p**
-- **QHD (2560 x 1440) - 1440p**
-- **UHD (3840 x 2160) - 4K**
+- **CGA (320 $\times$ 200)**
+- **VGA (640 $\times$ 480)**
+- **SVGA (800 $\times$ 600)**
+- **HD (1280 $\times$ 720) - 720p**
+- **FHD (1920 $\times$ 1080) - 1080p**
+- **QHD (2560 $\times$ 1440) - 2K**
+- **UHD (3840 $\times$ 2160) - 4K**
 
 ## Using Multiple Monitors
 
@@ -284,8 +281,8 @@ Adding multiple monitors can enhance productivity by expanding the desktop or mi
 
 ### Step 2: Determine Your Budget
 
-- Entry-Level: $300 - $600.
-- Mid-Range: $600 - $1,200.
+- Entry-Level: $300 ~ $600.
+- Mid-Range: $600 ~ $1,200.
 - High-End: $1,200 and above.
 
 ### Step 3: Consider Specifications

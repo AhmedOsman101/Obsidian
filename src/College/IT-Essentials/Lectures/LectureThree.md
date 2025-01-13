@@ -39,10 +39,10 @@ To convert a decimal number to binary:
 
 Example: Convert Decimal `13` to Binary
 
-$13 \div 2 = 6$ remainder `1`
-$6 \div 2 = 3$ remainder `0`
-$3 \div 2 = 1$ remainder `1`
-$1 \div 2 = 0$ remainder `1`
+- $13 \div 2 = 6$ remainder `1`
+- $6 \div 2 = 3$ remainder `0`
+- $3 \div 2 = 1$ remainder `1`
+- $1 \div 2 = 0$ remainder `1`
 
 Binary: `1101`
 
@@ -91,9 +91,9 @@ Binary: `1101`
 
 Example: Convert Decimal `168` to Binary:
 
-$168 - 128 = 40$ → `1` in `128` position.
-$40 - 32 = 8$ → `1` in `32` position.
-$8 - 8 = 0$ → `1` in `8` position.
+- $168 - 128 = 40$ → `1` in `128` position.
+- $40 - 32 = 8$ → `1` in `32` position.
+- $8 - 8 = 0$ → `1` in `8` position.
 
 Binary: `1010 1000`
 

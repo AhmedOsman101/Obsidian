@@ -103,7 +103,7 @@ Encapsulation involves wrapping data with protocol-specific headers and footers 
   2. **Segments**: Data divided and prepared by Transport layer.
   3. **Packets**: Segments are assigned IP addressing by Network layer.
   4. **Frames**: Packets framed with MAC addresses by Data Link layer.
-  5. **Bits**: Data transmitted as raw signals (binray) via Physical layer.
+  5. **Bits**: Data transmitted as raw signals (binary) via Physical layer.
 
 ---
 

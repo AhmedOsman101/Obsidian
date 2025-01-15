@@ -51,7 +51,7 @@ next:
 - **2010s**: Emergence of **cloud computing**, **IoT**, and **5G technology**.
 - **2020s**: Focus on **edge computing**, AI integration, and enhanced global connectivity.
 
-## 5.1 Network Components and Types
+## Network Components and Types
 
 ### Principles of Networking
 
@@ -89,7 +89,7 @@ Computers can connect to share data and resources via:
 - Fiber-optic cabling
 - Wireless connections
 
-## 5.3 Basic Network Devices
+## Basic Network Devices
 
 #### Network Interface Card (NIC)
 
@@ -123,7 +123,7 @@ Computers can connect to share data and resources via:
 
 - Protect networks from unauthorized access using **Access Control Lists (ACLs)**.
 
-## 5.4 Network Cables
+## Network Cables
 
 ### Types of Cables
 

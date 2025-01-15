@@ -9,7 +9,7 @@ next:
 
 # IT Essentials Lecture 6: Networking Concepts (Part II)
 
-## 5.2 Networking Protocols, Standards, and Services
+## Networking Protocols, Standards, and Services
 
 ### Reference Models
 
@@ -274,7 +274,7 @@ Several organizations develop and maintain standards for networking and communic
 | **Authentication Server** | Provides Authentication, Authorization, and Accounting (AAA) for network access.   |
 | **Syslog Server**         | Collects and stores log messages from network devices for monitoring and analysis. |
 
-## 5.5 Network Topologies
+## Network Topologies
 
 ### Types of LAN Topologies
 

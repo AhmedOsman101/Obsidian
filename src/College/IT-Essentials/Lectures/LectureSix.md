@@ -18,7 +18,7 @@ Reference models, such as the **OSI** and **TCP/IP** models, describe data commu
 - **Open Standards**:
 
   - Developed by organizations like IEEE, IETF, and ISO.
-  - Ensure interoperability across systems and platforms.
+  - Ensure compatibility across systems and platforms.
 
 - **Encapsulation**:
   - As application data moves down through layers, protocol information is added (headers, footers, etc.).
@@ -230,14 +230,14 @@ Several organizations develop and maintain standards for networking and communic
 
 ### Wireless Ethernet Standards:
 
-| **Standard**       | **Bandwidth**  | **Frequency**    | **Range**            | **Interoperability**                                 |
+| **Standard**       | **Bandwidth**  | **Frequency**    | **Range**            | **Compatibility**                                 |
 | ------------------ | -------------- | ---------------- | -------------------- | ---------------------------------------------------- |
-| 802.11a            | Up to 54 Mbps  | 5 GHz band       | 100 feet (30 meters) | Not interoperable with 802.11b, 802.11g, or 802.11n. |
-| 802.11b            | Up to 11 Mbps  | 2.4 GHz band     | 100 feet (30 meters) | Interoperable with 802.11g.                          |
-| 802.11g            | Up to 54 Mbps  | 2.4 GHz band     | 100 feet (30 meters) | Interoperable with 802.11b.                          |
-| 802.11n            | Up to 540 Mbps | 5 GHz, 2.4 GHz   | 164 feet (50 meters) | Interoperable with 802.11b and 802.11g.              |
-| 802.11ac           | Up to 1.3 Gbps | 5 GHz band       | 115 feet (35 meters) | Interoperable with 802.11a and 802.11n.              |
-| 802.15.1 Bluetooth | Up to 2 Mbps   | 2.4 GHz or 5 GHz | 30 feet (10 meters)  | Not interoperable with any other 802.11              |
+| 802.11a            | Up to 54 Mbps  | 5 GHz band       | 100 feet (30 meters) | Not compatible with 802.11b, 802.11g, or 802.11n. |
+| 802.11b            | Up to 11 Mbps  | 2.4 GHz band     | 100 feet (30 meters) | Compatible with 802.11g.                          |
+| 802.11g            | Up to 54 Mbps  | 2.4 GHz band     | 100 feet (30 meters) | Compatible with 802.11b.                          |
+| 802.11n            | Up to 540 Mbps | 5 GHz, 2.4 GHz   | 164 feet (50 meters) | Compatible with 802.11b and 802.11g.              |
+| 802.11ac           | Up to 1.3 Gbps | 5 GHz band       | 115 feet (35 meters) | Compatible with 802.11a and 802.11n.              |
+| 802.15.1 Bluetooth | Up to 2 Mbps   | 2.4 GHz or 5 GHz | 30 feet (10 meters)  | Not compatible with any other 802.11              |
 
 ## Bluetooth, NFC, RFID, Zigbee, and Z-Wave
 

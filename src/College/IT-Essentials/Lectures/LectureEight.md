@@ -257,12 +257,12 @@ next:
 ### Internet Options
 
 - **General Tab**: Select the **default home page**, view and delete browsing history, adjust search settings, and customize the browser appearance.
-  - **Security Tab**: Choose security zones for trusted or restricted internet websites and set the types of allowed information.
-  - **Privacy Tab**: Manage access to private information (e.g., cookies, location), pop-up blockers, and toolbars.
-  - **Content Tab**: Adjust **AutoComplete** settings and configure **feeds and web slices** for viewing in Internet Explorer.
-  - **Connections Tab**: Configure **dial-up**, **VPN**, and **Proxy Server** settings.
-  - **Programs Tab**: Set Internet Explorer as the default browser, enable browser add-ons, select HTML editor for IE, and choose programs for internet services.
-  - **Advanced Tab**: Reset Internet Explorer settings to default.
+- **Security Tab**: Choose security zones for trusted or restricted internet websites and set the types of allowed information.
+- **Privacy Tab**: Manage access to private information (e.g., cookies, location), pop-up blockers, and toolbars.
+- **Content Tab**: Adjust **AutoComplete** settings and configure **feeds and web slices** for viewing in Internet Explorer.
+- **Connections Tab**: Configure **dial-up**, **VPN**, and **Proxy Server** settings.
+- **Programs Tab**: Set Internet Explorer as the default browser, enable browser add-ons, select HTML editor for IE, and choose programs for internet services.
+- **Advanced Tab**: Reset Internet Explorer settings to default.
 
 ---
 

@@ -211,7 +211,7 @@ Mantraps are used in high-security areas to limit access and prevent **intruding
 Data is one of an organization’s most valuable assets and includes research, sales, financial, employee, and customer data.
 
 - Data loss can occur due to theft, equipment failure, or disasters.
-- **Data loss or exfiltration** refers to lost, stolen, or publicly leaked data.
+- **Data loss or leakage** refers to lost, stolen, or publicly leaked data.
 - Protection methods include **data backups**, **file/folder permissions**, and **encryption**.
 
 ### Data Backups

@@ -200,7 +200,7 @@ Methods to protect physical equipment:
 
 #### Mantraps
 
-Mantraps are used in high-security areas to limit access and prevent **tailgating**.
+Mantraps are used in high-security areas to limit access and prevent **intruding**.
 
 - Small rooms with two doors, one of which must be closed before the other opens.
 - Require verification at each door to proceed.

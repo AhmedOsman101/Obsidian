@@ -268,7 +268,7 @@ next:
 
 ### Network and Sharing Center
 
-- The **Network and Sharing Center** allows administrators to configure and review most network settings.
+- The **Network and Sharing Center** allows administrators to configure and review most network settings such as:
   - View **network status** and **internet connectivity**.
   - Modify the **properties of protocols and services** running on network adapters.
   - Configure **file and device sharing** using **network profiles**.

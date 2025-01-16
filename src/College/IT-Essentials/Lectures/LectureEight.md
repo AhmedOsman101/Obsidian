@@ -304,7 +304,8 @@ next:
 - You can configure a **power plan** to maximize battery performance or conserve energy.
 - Unlike previous Windows versions, the setting that requires a password when the computer wakes has been moved from **Power Options** to **User Accounts** in Windows 10, enhancing data security.
 - Windows offers **preset power plans**, or you can create custom plans.
-- **Note**: Power Options settings vary based on the detected hardware.
+>[!Note]
+> Power Options settings vary based on the detected hardware.
 
 ---
 

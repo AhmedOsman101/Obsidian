@@ -162,7 +162,7 @@ The goal is to create a **safe network environment** and protect the organizatio
 
 #### Physical Security
 
-Physical security is critical to prevent theft, vandalism, or data loss.
+Physical security is critical to prevent theft, data corruption or loss.
 
 - Secure access to premises and restricted areas.
 - Protect computing and network infrastructure.

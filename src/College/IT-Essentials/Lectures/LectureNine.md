@@ -116,7 +116,7 @@ Anti-malware programs are essential for protecting computers and mobile devices 
 
 - Modern antivirus programs are often referred to as **anti-malware programs**.
 - They detect and block worms, viruses, trojans, rootkits, ransomware, spyware, keyloggers, and adware.
-- Use a **database of malware signatures** and **heuristic techniques** to identify malicious behavior.
+- Use a **database of malware signatures** and **practical techniques** to identify malicious behavior.
 
 ## Signature File Updates
 

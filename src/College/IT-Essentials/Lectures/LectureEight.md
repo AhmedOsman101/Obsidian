@@ -46,7 +46,7 @@ next:
   - All installed applications
   - Recently opened documents
   - Search feature, Help and Support, and Control Panel
-- To customize, right-click the taskbar and select **Properties** > **Start Menu** > **Customize**.
+- To customize, right-click the taskbar and select **Properties** -> **Start Menu** -> **Customize**.
 
 #### Windows 8.0 and 8.1 Start Menu
 
@@ -64,7 +64,7 @@ next:
 ### The Taskbar
 
 - Displays all applications installed, recently opened documents, search, Help, and Control Panel.
-- To customize the Start Menu in Windows 7, right-click an empty area of the taskbar and choose **Properties** > **Start Menu** > **Customize**.
+- To customize the Start Menu in Windows 7, right-click an empty area of the taskbar and choose **Properties** -> **Start Menu** -> **Customize**.
 
 ---
 

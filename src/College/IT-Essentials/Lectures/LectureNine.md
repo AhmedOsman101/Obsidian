@@ -35,7 +35,7 @@ Malicious software designed to damage, disrupt, or gain unauthorized access to a
 
 #### Types of Malware
 
-- **Adware**: Displays unsolicited ads via pop-ups or redirects.
+- **Adware**: Displays unwanted ads via pop-ups or redirects.
 - **Ransomware**: Encrypts files and demands payment for a decryption key.
 - **Rootkits**: Hard-to-detect tools granting admin-level access.
 - **Spyware**: Gathers user data and sends it to cybercriminals.

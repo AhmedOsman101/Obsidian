@@ -129,7 +129,7 @@ Anti-malware programs are essential for protecting computers and mobile devices 
 > When downloading signature files from a mirror, ensure that the mirror site is a legitimate site.
 > Always link to the mirror site from the manufacturer's website.
 
-## Remediating Infected Systems
+## Repairing Infected Systems
 
 When malware is detected:
 

@@ -139,7 +139,6 @@ next:
 - Directories can contain **subfolders** (nested directories).
 - The path length is limited by a maximum character limit:
   - In Windows 10, the default limit is **260 characters**.
-- Example of a nested folder structure in File Explorer, showing the full path.
 
 ---
 

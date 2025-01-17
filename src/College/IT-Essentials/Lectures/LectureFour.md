@@ -23,10 +23,10 @@ Binary addition works similarly to decimal addition, but only uses the digits 0 
 
 #### Binary Addition Rules
 
-1. $0 + 0 = 0$
-2. $0 + 1 = 1$
-3. $1 + 0 = 1$
-4. $1 + 1 = 0$ (with a carry of 1 to the next column)
+- $0 + 0 = 0$
+- $0 + 1 = 1$
+- $1 + 0 = 1$
+- $1 + 1 = 0$ (with a carry of 1 to the next column)
 
 #### Example: (1011 + 1101)
 
@@ -51,14 +51,14 @@ Binary subtraction works like decimal subtraction, but here we borrow only when 
 
 #### Binary Subtraction Rules
 
-1. $0 - 0 = 0$
-2. $1 - 0 = 1$
-3. $1 - 1 = 0$
-4. $0 - 1 = 1$ (with a borrow of 1 from the next higher bit)
+- $0 - 0 = 0$
+- $1 - 0 = 1$
+- $1 - 1 = 0$
+- $0 - 1 = 1$ (with a borrow of 1 from the next higher bit)
 
 #### Example: (1101 - 1011)
 
-```txt
+```
     1101
   - 1011
   ------
@@ -99,7 +99,6 @@ Steps:
 - Multiply $1011$ by the next $0$: Result is $0000$ (shifted one position left).
 - Multiply $1011$ by the next $1$: Result is $1011$ (shifted two positions left).
 - Sum the partial results: $110111$.
-
 
 ## BCD, ASCII Code, and Unicode
 

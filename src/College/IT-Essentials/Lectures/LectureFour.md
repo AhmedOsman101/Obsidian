@@ -23,10 +23,10 @@ Binary addition works similarly to decimal addition, but only uses the digits 0 
 
 #### Binary Addition Rules
 
-1. \(0 + 0 = 0\)
-2. \(0 + 1 = 1\)
-3. \(1 + 0 = 1\)
-4. \(1 + 1 = 0\) (with a carry of 1 to the next column)
+1. $0 + 0 = 0$
+2. $0 + 1 = 1$
+3. $1 + 0 = 1$
+4. $1 + 1 = 0$ (with a carry of 1 to the next column)
 
 #### Example: (1011 + 1101)
 
@@ -39,11 +39,11 @@ Binary addition works similarly to decimal addition, but only uses the digits 0 
 
 Steps:
 
-- Rightmost column: \(1 + 1 = 0\) (carry 1)
-- Next column: \(1 + 0 + 1 = 0\) (carry 1)
-- Next column: \(0 + 1 + 1 = 0\) (carry 1)
-- Leftmost column: \(1 + 1 = 1\) (no further carry needed)
-- Result: \(11000\)
+- Rightmost column: $1 + 1 = 0$ (carry 1)
+- Next column: $1 + 0 + 1 = 0$ (carry 1)
+- Next column: $0 + 1 + 1 = 0$ (carry 1)
+- Leftmost column: $1 + 1 = 1$ (no further carry needed)
+- Result: $11000$
 
 ### 2. **Binary Subtraction**
 
@@ -51,10 +51,10 @@ Binary subtraction works like decimal subtraction, but here we borrow only when 
 
 #### Binary Subtraction Rules
 
-1. \(0 - 0 = 0\)
-2. \(1 - 0 = 1\)
-3. \(1 - 1 = 0\)
-4. \(0 - 1 = 1\) (with a borrow of 1 from the next higher bit)
+1. $0 - 0 = 0$
+2. $1 - 0 = 1$
+3. $1 - 1 = 0$
+4. $0 - 1 = 1$ (with a borrow of 1 from the next higher bit)
 
 #### Example: (1101 - 1011)
 
@@ -67,11 +67,11 @@ Binary subtraction works like decimal subtraction, but here we borrow only when 
 
 Steps:
 
-- Rightmost column: \(1 - 1 = 0\)
-- Next column: \(0 - 1 = 1\) (borrow 1 from the next column)
-- Next column: \(0 - 0 = 0\)
-- Leftmost column: \(1 - 1 = 0\)
-- Result: \(0010\)
+- Rightmost column: $1 - 1 = 0$
+- Next column: $0 - 1 = 1$ (borrow 1 from the next column)
+- Next column: $0 - 0 = 0$
+- Leftmost column: $1 - 1 = 0$
+- Result: $0010$
 
 ### 3. **Binary Multiplication**
 
@@ -95,10 +95,10 @@ Binary multiplication is similar to decimal multiplication, where we multiply an
 
 Steps:
 
-- Multiply \(1011\) by the rightmost \(1\): Result is \(1011\).
-- Multiply \(1011\) by the next \(0\): Result is \(0000\) (shifted one position left).
-- Multiply \(1011\) by the next \(1\): Result is \(1011\) (shifted two positions left).
-- Sum the partial results: \(110111\).
+- Multiply $1011$ by the rightmost $1$: Result is $1011$.
+- Multiply $1011$ by the next $0$: Result is $0000$ (shifted one position left).
+- Multiply $1011$ by the next $1$: Result is $1011$ (shifted two positions left).
+- Sum the partial results: $110111$.
 
 
 ## BCD, ASCII Code, and Unicode

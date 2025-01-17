@@ -100,7 +100,6 @@ Steps:
 - Multiply \(1011\) by the next \(1\): Result is \(1011\) (shifted two positions left).
 - Sum the partial results: \(110111\).
 
----
 
 ## BCD, ASCII Code, and Unicode
 

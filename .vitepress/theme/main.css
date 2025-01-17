@@ -16,11 +16,11 @@ img:hover {
   transform: scale(1.05);
 }
 
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #abb2bf !important;
-} */
+h1:not(.text),
+h2:not(.text),
+h3:not(.text),
+h4:not(.text),
+h5:not(.text),
+h6:not(.text) {
+  color: #9ac4f8 !important;
+}

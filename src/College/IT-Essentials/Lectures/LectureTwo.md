@@ -16,7 +16,10 @@ next:
 - Performed by BIOS to check all internal components.
 - Alerts for malfunctioning components via error or beep codes.
 - BIOS access key must be pressed during POST.
-- **Tip**: Remove RAM to confirm POST functionality; the computer should emit a beep code for missing RAM.
+
+>[!Tip]
+> Remove RAM to confirm POST functionality.
+> The computer should emit a beep code for missing RAM.
 
 ### BIOS and CMOS
 

@@ -11,6 +11,10 @@
   }
 }
 
+* {
+  font-display: swap !important;
+}
+
 .mermaid {
   font-family: "JetBrainsMonoNerdFontMono", monospace;
 }

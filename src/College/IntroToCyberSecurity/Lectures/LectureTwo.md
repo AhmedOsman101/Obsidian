@@ -7,7 +7,7 @@ next:
   link: /College/IntroToCyberSecurity/Lectures/LectureThree
 ---
 
-# Introduction To Cybersecurity Lecture 2
+# Introduction to Cybersecurity Lecture 2
 
 ## Concepts of Cybersecurity (part I)
 

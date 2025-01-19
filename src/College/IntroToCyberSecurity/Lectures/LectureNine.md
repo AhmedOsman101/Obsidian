@@ -1,7 +1,7 @@
 ---
 prev:
   text: Lecture Eight
-  link: /College/IntroToCyberSecurity/LectureEight
+  link: /College/IntroToCyberSecurity/Lectures/LectureEight
 next: false
 ---
 

@@ -1,10 +1,10 @@
 ---
 prev:
   text: Introduction to Cybersecurity
-  link: /College/IntroToCyberSecurity/index
+  link: /College/IntroToCyberSecurity/Lectures/index
 next:
   text: Lecture Two
-  link: /College/IntroToCyberSecurity/LectureTwo
+  link: /College/IntroToCyberSecurity/Lectures/LectureTwo
 ---
 
 # Introduction to Cybersecurity Lecture 1
@@ -41,6 +41,8 @@ In the **early 2000s**, crime organizations began heavily **funding professional
 #### 2021: The next generation
 
 The cybersecurity industry is rapidly expanding, with the global market expected to grow significantly by 2026. Ransomware remains one of the most prevalent threats to organizational data security and is projected to continue increasing.
+
+---
 
 ### The importance of cybersecurity
 

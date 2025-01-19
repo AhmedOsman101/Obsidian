@@ -121,7 +121,6 @@ Cracking is the process of breaching software or system security, often using re
 - Used for phishing and spreading malware.
 - Common target for cyberattacks.
 
----
 
 ## How to Protect Yourself from Hacking
 
@@ -135,7 +134,7 @@ Cracking is the process of breaching software or system security, often using re
 
 3. **Enable HTTPS Encryption**:
 
-   - Verify secure connections by checking for "https://" in URLs.
+   - Verify secure connections by checking for `https://` in URLs.
 
 4. **Avoid Suspicious Links and Ads**:
 

@@ -52,7 +52,7 @@ In today's digital age, cybersecurity is crucial as **a single breach can expose
 
 Cybersecurity protects various types of data, including:
 1. **Sensitive Information**
-2. [**Personally Identifiable Information**]([https://www.upguard.com/blog/personally-identifiable-information-pii) (PII)
+2. [**Personally Identifiable Information**](https://www.upguard.com/blog/personally-identifiable-information-pii) (PII)
 3. **Protected Health Information** (PHI)
 4. **Intellectual Property**
 5. **Governmental Data**

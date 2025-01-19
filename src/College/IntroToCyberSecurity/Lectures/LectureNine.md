@@ -5,7 +5,7 @@ prev:
 next: false
 ---
 
-# Introduction To Cybersecurity Lecture 9
+# Introduction to Cybersecurity Lecture 9
 
 ## Proactive Measures
 

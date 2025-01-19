@@ -7,7 +7,7 @@ next:
   link: /College/IntroToCyberSecurity/Lectures/LectureSeven
 ---
 
-# Introduction To Cybersecurity Lecture 6
+# Introduction to Cybersecurity Lecture 6
 
 ## Hacking
 
@@ -36,11 +36,11 @@ Hacking involves exploiting vulnerabilities in computer systems, networks, or so
 - **Actions**: Tests and fixes system vulnerabilities with permission to enhance security.
 - **Legality**: Authorized and legal.
 
-### 3. Grey Hat Hacker
+### 3. Gray Hat Hacker
 
 - **Motivation**: A mix of ethical and unethical practices.
 - **Actions**: Identifies vulnerabilities and may alert authorities or demand payment to fix them.
-- **Legality**: Operates in a legal grey area.
+- **Legality**: Operates in a legal gray area.
 
 ## Cracking
 

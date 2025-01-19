@@ -147,9 +147,9 @@ Also known as public-key cryptography, asymmetric encryption employs a pair of k
 - **Definition**: A substitution cipher that shifts each letter in the plaintext by a fixed number of positions in the alphabet.
 - **Named After**: Julius Caesar, who used it to encrypt messages.
 - **Mathematical Representation**:
-  - Transform letters into numbers (A = 0, B = 1, ..., Z = 25).
-  - Apply the formula for encryption: E(x)=(x+n)mod  26E(x) = (x + n) \mod 26, where nn is the shift value.
-  - Decrypt by reversing the shift: D(x)=(x−n)mod  26D(x) = (x - n) \mod 26.
+  - Transform letters into numbers ($A = 0, B = 1, ..., Z = 25$).
+  - Apply the formula for encryption: $E(x) = (x + n) \mod{26}$, where $n$ is the shift value.
+  - Decrypt by reversing the shift: $D(x) = (x - n) \mod{26}$.
 
 ##### Example: Encrypting "HELLO" with a Shift of 3
 

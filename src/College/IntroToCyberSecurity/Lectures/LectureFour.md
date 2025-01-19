@@ -7,7 +7,7 @@ next:
   link: /College/IntroToCyberSecurity/Lectures/LectureFive
 ---
 
-# Introduction To Cybersecurity Lecture 4
+# Introduction to Cybersecurity Lecture 4
 
 ## Key Concepts of Cybersecurity
 

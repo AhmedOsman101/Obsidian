@@ -9,5 +9,6 @@
   ],
   "interfaceFontFamily": "Inter Nerd Font Propo,Inter",
   "baseFontSize": 21,
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "accentColor": ""
 }

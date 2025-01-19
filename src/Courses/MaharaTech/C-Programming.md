@@ -39,7 +39,7 @@ switch(b) { // error: Statement requires expression of integer type ('float' inv
 
 Attempting to write a switch statement with a float would result in the following errors:
 
-![](../../figure.png)
+![](../imgs/figure.png)
 
 
 ---

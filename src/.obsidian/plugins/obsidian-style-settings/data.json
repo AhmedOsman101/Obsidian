@@ -23,5 +23,9 @@
   "Editor@@bold-color@@dark": "#FF757F",
   "Editor@@italic-color@@dark": "#FF757F",
   "Editor@@italic-color@@light": "#732A38",
-  "Editor@@bold-color@@light": "#732A38"
+  "Editor@@bold-color@@light": "#732A38",
+  "Editor@@link-color@@dark": "#7AA2F7",
+  "Editor@@link-decoration": "unset",
+  "Editor@@link-external-color@@dark": "#7AA2F7",
+  "Editor@@link-external-decoration": "unset"
 }

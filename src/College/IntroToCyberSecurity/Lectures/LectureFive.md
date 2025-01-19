@@ -7,7 +7,7 @@ next:
   link: /College/IntroToCyberSecurity/Lectures/LectureSix
 ---
 
-# Introduction To Cybersecurity Lecture 5
+# Introduction to Cybersecurity Lecture 5
 
 ## Phishing
 

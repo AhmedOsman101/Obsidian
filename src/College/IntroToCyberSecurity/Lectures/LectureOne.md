@@ -7,7 +7,7 @@ next:
   link: /College/IntroToCyberSecurity/LectureTwo
 ---
 
-# Introduction To Cybersecurity Lecture 1
+# Introduction to Cybersecurity Lecture 1
 
 ## What's Cybersecurity
 

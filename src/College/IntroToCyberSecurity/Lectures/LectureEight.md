@@ -7,7 +7,7 @@ next:
   link: /College/IntroToCyberSecurity/Lectures/LectureNine
 ---
 
-# Introduction To Cybersecurity Lecture 8
+# Introduction to Cybersecurity Lecture 8
 
 ## Principles of risk management in cybersecurity (Part II)
 

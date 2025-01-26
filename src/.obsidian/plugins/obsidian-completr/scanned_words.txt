@@ -1250,6 +1250,8 @@ Intellectual
 Investment
 Italic
 Inline
+Initialization
+Iteration
 pHYs
 pt
 pu
@@ -6548,6 +6550,7 @@ LEEG
 LDDDDDD
 LJS
 LSB
+Logarithmic
 al
 aj
 ar
@@ -7886,6 +7889,8 @@ TNPm
 Tricks
 TypeScript
 Toggling
+Termination
+Trick
 uj
 uq
 uXm
@@ -10100,6 +10105,7 @@ rAe
 reasons
 rounding
 rho
+reduced
 eiO
 es
 ee
@@ -11980,6 +11986,7 @@ Esu
 EdIce
 Emphasis
 Escaping
+Extremely
 Sal
 SQ
 SB
@@ -12715,6 +12722,8 @@ Showcase
 Strikethrough
 Sub
 Schedule
+Slightly
+Subtracting
 iH
 ic
 iP
@@ -16437,6 +16446,7 @@ bold
 bullet
 backticks
 blockquote
+beginners
 Nb
 NJu
 Nbsa
@@ -17495,6 +17505,7 @@ lastUpdated
 labels
 lZp
 lKQ
+logarithmic
 Rc
 Rt
 RO
@@ -21568,6 +21579,7 @@ CJz
 CDDD
 CMR
 Cool
+Counting
 vb
 vO
 vvF
@@ -22963,6 +22975,11 @@ computationally
 cheap
 concise
 calculates
+counted
+calculation
+cheaper
+clears
+conceptually
 Hu
 Hg
 HiL
@@ -28172,6 +28189,8 @@ ADDDdXJ
 ALxd
 AqAZ
 Approaches
+Approach
+Avoids
 Jw
 Jg
 JT

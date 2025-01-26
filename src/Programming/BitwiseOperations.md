@@ -2,119 +2,94 @@
 
 ## 10 Bitwise Operations Tricks
 
-### **1. Odd or Even Check Using Bitwise AND**
+### **1. Checking if a Number is Even**
 
-The **least significant bit (LSB)** of a number determines whether it is odd or even:
-- If the LSB is `0`, the number is **even**.
-- If the LSB is `1`, the number is **odd**.
-
-We can use the bitwise AND operation (`&`) with `1` to isolate the LSB:
-- If `n & 1` is `0`, the number is even.
-- If `n & 1` is `1`, the number is odd.
-
----
-
-#### Formula
-```
-(n & 1) === 0;
-```
-
----
-
-**Examples**
-1. For `n = 6`:
-
-   ```
-   6 in binary: 110
-   1 in binary: 001
-   ---------------
-   6 & 1 = 110 & 001 = 000 (0) -> Even
-   ```
-
-2. For `n = 5`:
-   
-   ```
-   5 in binary: 101
-   1 in binary: 001
-   ---------------
-   5 & 1 = 101 & 001 = 001 (1) -> Odd
-   ```
-
----
-
-#### Code Implementation
+The function `isEven` checks whether a number `n` is even using a bitwise AND operation:
 
 ```typescript
-const EvenOrOdd = (n: number): bool => (n & 1) === 0;
-
-// Example usage:
-console.log(checkOddOrEven(6)); // Output: true
-console.log(checkOddOrEven(5)); // Output: false
+const isEven = (n: number): boolean => (n & 1) === 0;
 ```
 
 ---
 
-#### Why This Works
-- The number `1` in binary is `000...0001`. When you perform `n & 1`, all bits except the LSB are masked out.
-- If the LSB is `0`, the result is `0` (even).
-- If the LSB is `1`, the result is `1` (odd).
+#### Explanation
+1. **Bitwise AND with 1**:
+   - The least significant bit (LSB) of a number determines if it is even or odd.
+   - If the LSB is `0`, the number is even.
+   - If the LSB is `1`, the number is odd.
 
-This method is **efficient** because bitwise operations are computationally cheap and faster than using modulo (`%`).
+2. **Operation**:
+   - `n & 1` isolates the LSB.
+   - If the result is `0`, the number is even.
+
+3. **Comparison**:
+   - `(n & 1) === 0` evaluates to `true` for even numbers and `false` for odd numbers.
 
 ---
 
-#### Comparison with Modulo
+#### Comparison with Modulus Approach
+- **Bitwise Approach**: `(n & 1) === 0`
+  - Faster and more efficient because bitwise operations are computationally cheaper.
+  - Directly checks the LSB without performing division or remainder operations.
 
-Alternatively, you could use the modulo operator:
+- **Modulus Approach**: `n % 2 === 0`
+  - Easier to read and understand for beginners.
+  - Slightly slower due to the division/remainder operation.
+
+---
+
+#### Example
+```typescript
+console.log(isEven(4)); // true (4 is even)
+console.log(isEven(5)); // false (5 is odd)
+```
+
+---
+
+### **2. Checking if a Number is a Power of Two**
+
+The function `isPowerOfTwo` checks whether a number `x` is a power of two using bitwise operations:
 
 ```typescript
-const result = n % 2 === 0 ? "Even" : "Odd";
+const isPowerOfTwo = (x: number): boolean => x !== 0 && !(x & (x - 1));
 ```
 
-However, the bitwise approach (`n & 1`) is generally **faster** and more concise.
+---
+
+#### Explanation
+1. **Power of Two Property**:
+   - A power of two in binary has exactly one bit set (e.g., `1` → `001`, `2` → `010`, `4` → `100`).
+
+2. **Bitwise Trick**:
+   - Subtracting `1` from a power of two flips all bits after the single set bit (e.g., `4 - 1 = 3` → `100 & 011 = 0`).
+   - For non-powers of two, `x & (x - 1)` will not be zero (e.g., `5 & 4 = 4`).
+
+3. **Operation**:
+   - `x & (x - 1)` clears the lowest set bit in `x`.
+   - If the result is `0` and `x` is not `0`, then `x` is a power of two.
+
+4. **Edge Case**:
+   - `x !== 0` ensures `0` is not considered a power of two.
 
 ---
 
-### **2. Check the Number Is a Power of Two**
+#### Comparison with Logarithmic Approach
+- **Bitwise Approach**: `x !== 0 && !(x & (x - 1))`
+  - Extremely fast and efficient, leveraging bitwise properties.
+  - Avoids floating-point inaccuracies or expensive logarithmic calculations.
 
-#### Why It Works
-A power of two in binary has exactly **one bit set**, e.g.,  
-- `1` → `0001`  
-- `2` → `0010`  
-- `4` → `0100`  
-- `8` → `1000`  
-
-When you subtract `1` from a power of two, all bits **below** the single set bit become `1`, e.g.,  
-- `8 (1000) - 1 = 7 (0111)`  
-- `4 (0100) - 1 = 3 (0011)`  
-
-If you perform `x & (x - 1)`:
-- For a power of two: The result is `0` because there are no overlapping set bits.
-  ```
-  8 & 7 → 0b1000 & 0b0111 = 0b0000
-  ```
-- For non-powers of two: The result is non-zero because overlapping bits exist.
-  ```
-  5 & 4 → 0b0101 & 0b0100 = 0b0100 (non-zero)
-  ```
-
->[!Note] 
-> **Edge Case**: `x = 0` must be explicitly excluded (since `0 & -1 = 0`, but `0` is not a power of two).
+- **Logarithmic Approach**: `Math.log2(x) % 1 === 0`
+  - Easier to understand conceptually.
+  - Slower and prone to floating-point precision issues.
 
 ---
 
-#### Code Implementation
-
+#### Example
 ```typescript
-const isPowerOfTwo = (x: number): boolean => x != 0 && !(x & (x - 1));
+console.log(isPowerOfTwo(8)); // true (8 is 2**3)
+console.log(isPowerOfTwo(5)); // false (5 is not a power of two)
+console.log(isPowerOfTwo(0)); // false (0 is not a power of two)
 ```
-
-**Examples**:
-- `isPowerOfTwo(8) → true`  
-- `isPowerOfTwo(5) → false`  
-- `isPowerOfTwo(0) → false`  
-
-This works because it directly checks if the number has exactly **one bit set** in its binary representation.
 
 ---
 

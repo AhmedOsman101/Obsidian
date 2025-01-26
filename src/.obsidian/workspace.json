@@ -37,7 +37,8 @@
               "title": "draft"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,10 +166,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/BitwiseOperations.md"
+                "file": "draft.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of BitwiseOperations"
+              "title": "Outline of draft"
             }
           },
           {
@@ -205,8 +206,9 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "bfc89d45455137fa",
+  "active": "3d5b7d0672f62ef5",
   "lastOpenFiles": [
+    "draft2.md",
     "draft.md",
     "Programming/BitwiseOperations.md",
     "Courses/MaharaTech/C-Programming.md",

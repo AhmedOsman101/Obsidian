@@ -1966,6 +1966,8 @@ predictable
 pAu
 pipes
 proposal
+preserve
+partners
 sbf
 sPv
 sC
@@ -2806,6 +2808,8 @@ subtitles
 strikethrough
 span
 searching
+swaps
+swap
 ff
 fP
 fj
@@ -5328,6 +5332,7 @@ BDDDD
 Bold
 Blockquotes
 Bit
+Bitmask
 MC
 Ml
 MW
@@ -7288,6 +7293,8 @@ average
 aFD
 approximate
 aligned
+ambiguity
+articles
 Te
 Tn
 TA
@@ -10798,6 +10805,7 @@ emphasis
 escape
 except
 excluded
+excel
 GO
 GQ
 Gk
@@ -12724,6 +12732,8 @@ Sub
 Schedule
 Slightly
 Subtracting
+Shifting
+Swapping
 iH
 ic
 iP
@@ -14043,6 +14053,8 @@ tPP
 tolerance
 tEX
 toggle
+truncating
+truncation
 nm
 nv
 nhuK
@@ -16447,6 +16459,9 @@ bullet
 backticks
 blockquote
 beginners
+beyond
+bitmask
+blog
 Nb
 NJu
 Nbsa
@@ -16985,6 +17000,7 @@ NqQ
 NHNV
 Nzt
 NTe
+News
 lqQvz
 ln
 lN
@@ -17506,6 +17522,8 @@ labels
 lZp
 lKQ
 logarithmic
+leverage
+logo
 Rc
 Rt
 RO
@@ -22080,6 +22098,7 @@ vYy
 vzt
 vec
 vnwqJ
+volunteer
 ck
 cr
 ce
@@ -22980,6 +22999,7 @@ calculation
 cheaper
 clears
 conceptually
+cancels
 Hu
 Hg
 HiL
@@ -24121,6 +24141,7 @@ hdX
 hya
 hyperlinks
 hyphens
+halves
 Xi
 XZ
 Xn
@@ -24560,6 +24581,7 @@ XQS
 XglG
 XCZ
 Xsj
+XORing
 gR
 gQ
 go
@@ -27482,6 +27504,8 @@ dJf
 disallowed
 discrete
 dxG
+doubles
+duplicates
 AK
 AQ
 Aya

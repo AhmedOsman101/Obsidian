@@ -2803,6 +2803,7 @@ showcase
 subtitles
 strikethrough
 span
+searching
 ff
 fP
 fj
@@ -3401,6 +3402,7 @@ finite
 fxZ
 fjW
 fBL
+flips
 yq
 yh
 yS
@@ -5323,6 +5325,7 @@ Bst
 BDDDD
 Bold
 Blockquotes
+Bit
 MC
 Ml
 MW
@@ -5944,6 +5947,8 @@ Mastery
 Mjf
 MQNd
 Markdown
+Modulo
+Manipulating
 Lj
 Lf
 LvVa
@@ -6542,6 +6547,7 @@ Lbj
 LEEG
 LDDDDDD
 LJS
+LSB
 al
 aj
 ar
@@ -7877,6 +7883,9 @@ TVQ
 TWZ
 TMJ
 TNPm
+Tricks
+TypeScript
+Toggling
 uj
 uq
 uXm
@@ -8410,6 +8419,7 @@ uDB
 urM
 upz
 ukV
+unset
 OB
 Ox
 ONynT
@@ -9428,6 +9438,7 @@ UEjT
 UNW
 UWWS
 UEE
+Unsetting
 ra
 rO
 rV
@@ -10779,6 +10790,8 @@ enumerated
 eFuYY
 emphasis
 escape
+except
+excluded
 GO
 GQ
 Gk
@@ -13371,6 +13384,8 @@ inaccuracies
 imprecise
 italic
 inline
+isolate
+isolates
 tWA
 tW
 tM
@@ -14018,6 +14033,7 @@ tIJ
 tPP
 tolerance
 tEX
+toggle
 nm
 nv
 nhuK
@@ -14458,6 +14474,7 @@ nzKxU
 neat
 nabla
 nWK
+negated
 Fc
 Fe
 Fo
@@ -20221,6 +20238,7 @@ oYF
 obV
 oxw
 oSjL
+overlapping
 mipte
 mRT
 mX
@@ -20822,6 +20840,9 @@ matching
 mathbf
 markup
 meeting
+masked
+modulo
+mask
 Ck
 CS
 Cm
@@ -22938,6 +22959,10 @@ cramer
 chains
 comparisons
 col
+computationally
+cheap
+concise
+calculates
 Hu
 Hg
 HiL
@@ -25027,6 +25052,7 @@ gap
 gToc
 gXp
 gnM
+gate
 KUYX
 KX
 KK
@@ -29560,6 +29586,7 @@ WVZ
 Wyq
 WPmfM
 Wxi
+Works
 Ötl
 ÖC
 Öm

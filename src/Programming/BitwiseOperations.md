@@ -327,3 +327,91 @@ console.log(divideByPowerOfTwo(10, 1)); // 5 (10 / 2^1)
 
 ---
 
+### **7. Finding the Unique Number in an Array Using XOR**
+
+The following function `getUnique` finds the unique number in an array of numbers where every number except one appears twice. This is achieved using the **XOR** operator:
+
+```typescript
+const getUnique = (arr: number[]): number => arr.reduce((a, b) => a ^ b, 0);
+```
+
+---
+
+#### Explanation
+1. **XOR Properties**:
+   - XOR (`^`) is a bitwise operation with the following properties:
+     - `a ^ a = 0` (any number XORed with itself results in 0).
+     - `a ^ 0 = a` (any number XORed with 0 results in the number itself).
+     - XOR is **commutative** and **associative**, meaning the order in which the operation is performed does not matter.
+   
+2. **Behavior**:
+   - When applying XOR across an array, pairs of identical numbers will cancel each other out (because of `a ^ a = 0`).
+   - The only number that does not have a pair will remain after all XOR operations, as it will be XORed with `0` (which does not change the value).
+
+3. **Initial Value**:
+   - The `reduce()` method initializes with `0` to start the XOR operation.
+
+4. **Time Complexity**:
+   - **O(n)** where `n` is the number of elements in the array. This is because we are performing the XOR operation on each element once.
+
+---
+
+#### Example
+```typescript
+const arr1 = [4, 1, 2, 1, 2];
+console.log(getUnique(arr1)); // 4 (4 is the unique number)
+
+const arr2 = [7, 3, 5, 7, 3];
+console.log(getUnique(arr2)); // 5 (5 is the unique number)
+```
+
+---
+
+#### Comparison with Other Approaches
+- **Using a Hash Set**:
+  - We could also solve this problem by using a hash set (or map) to track the counts of numbers, but this would require additional space, making it less efficient in terms of space complexity (O(n)).
+  - **Space Complexity**: O(n)
+  - **Time Complexity**: O(n)
+  
+- **XOR Approach**:
+  - The XOR approach is space-efficient because it doesn't require additional data structures. It only uses a single variable to accumulate the result.
+  - **Space Complexity**: O(1)
+  - **Time Complexity**: O(n)
+
+---
+
+#### Edge Cases
+1. **Array with only one element**:
+   - The XOR approach will work correctly, as it will return the only element.
+   
+2. **Array with all elements being the same**:
+   - If all elements are the same (even number of elements), the result will be `0`, indicating there is no unique number.
+
+3. **Empty array**:
+   - If the array is empty, the result will be `0`, since we initialize the accumulator to `0`.
+
+---
+
+### Example with Explanation:
+Given an array where all elements except one appear twice:
+
+```typescript
+const arr = [8, 3, 2, 3, 2];
+console.log(unique(arr)); // Output: 8 (8 is the unique number)
+```
+
+**Step-by-Step XOR Process**:
+4. `0 ^ 8 = 8`
+5. `8 ^ 3 = 11`
+6. `11 ^ 2 = 9`
+7. `9 ^ 3 = 8`
+8. `8 ^ 2 = 8`
+
+At the end of the process, the result is `8`, which is the unique number in the array.
+
+---
+
+#### Key Points
+- The XOR approach is very efficient for finding a unique number in an array where all other numbers appear in pairs.
+- It operates in linear time complexity **O(n)** and constant space **O(1)**.
+- XOR's properties make it an ideal fit for pairing and cancellation problems.

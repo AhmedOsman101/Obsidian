@@ -1968,6 +1968,7 @@ pipes
 proposal
 preserve
 partners
+pairing
 sbf
 sPv
 sC
@@ -5333,6 +5334,7 @@ Bold
 Blockquotes
 Bit
 Bitmask
+Behavior
 MC
 Ml
 MW
@@ -7295,6 +7297,9 @@ approximate
 aligned
 ambiguity
 articles
+associative
+accumulate
+accumulator
 Te
 Tn
 TA
@@ -11995,6 +12000,7 @@ EdIce
 Emphasis
 Escaping
 Extremely
+Empty
 Sal
 SQ
 SB
@@ -12734,6 +12740,7 @@ Slightly
 Subtracting
 Shifting
 Swapping
+Space
 iH
 ic
 iP
@@ -13405,6 +13412,8 @@ italic
 inline
 isolate
 isolates
+identical
+initialize
 tWA
 tW
 tM
@@ -20872,6 +20881,7 @@ meeting
 masked
 modulo
 mask
+map
 Ck
 CS
 Cm
@@ -21598,6 +21608,7 @@ CDDD
 CMR
 Cool
 Counting
+Complexity
 vb
 vO
 vvF
@@ -23000,6 +23011,8 @@ cheaper
 clears
 conceptually
 cancels
+cancel
+cancellation
 Hu
 Hg
 HiL
@@ -24582,6 +24595,7 @@ XglG
 XCZ
 Xsj
 XORing
+XORed
 gR
 gQ
 go

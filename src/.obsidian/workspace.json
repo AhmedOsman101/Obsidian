@@ -4,41 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "637dfdf33ba012f2",
+        "id": "fb7d18f046c42810",
         "type": "tabs",
         "children": [
           {
-            "id": "bfc89d45455137fa",
+            "id": "4412665d1466833a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Programming/BitwiseOperations.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "BitwiseOperations"
             }
           },
           {
-            "id": "3d5b7d0672f62ef5",
+            "id": "abde42d5ed5396ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "draft.md",
+                "file": "Programming/draft.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": true
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "draft"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -57,7 +56,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -166,10 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "draft.md"
+                "file": "Programming/BitwiseOperations.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of draft"
+              "title": "Outline of BitwiseOperations"
             }
           },
           {
@@ -206,11 +209,12 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "3d5b7d0672f62ef5",
+  "active": "4412665d1466833a",
   "lastOpenFiles": [
-    "draft2.md",
-    "draft.md",
+    "Programming/draft.md",
     "Programming/BitwiseOperations.md",
+    "draft.md",
+    "draft2.md",
     "Courses/MaharaTech/C-Programming.md",
     "College/IntroToCyberSecurity/Lectures/LectureNine.md",
     "College/IntroToCyberSecurity/Lectures/LectureOne.md",
@@ -234,7 +238,6 @@
     "Courses/imgs/figure.png",
     "College/Python/Lectures/LectureOne.md",
     "Courses/MaharaTech/index.md",
-    "Courses/LinuxCrashCourse.md",
     "Courses/MaharaTech",
     "College/Python/imgs/output1.png",
     "College/Python/imgs/output1.png",

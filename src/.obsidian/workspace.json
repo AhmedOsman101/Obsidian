@@ -8,33 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4412665d1466833a",
+            "id": "0f4fdff34c516cde",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/BitwiseOperations.md",
+                "file": "project-draft.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "BitwiseOperations"
-            }
-          },
-          {
-            "id": "abde42d5ed5396ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/draft.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "draft"
+              "title": "project-draft"
             }
           }
         ]
@@ -104,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209.5
+    "width": 209.5,
+    "collapsed": true
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -166,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/BitwiseOperations.md",
+                "file": "project-draft.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of BitwiseOperations"
+              "title": "Outline of project-draft"
             }
           },
           {
@@ -209,10 +195,11 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "4412665d1466833a",
+  "active": "0f4fdff34c516cde",
   "lastOpenFiles": [
-    "Programming/draft.md",
     "Programming/BitwiseOperations.md",
+    "project-draft.md",
+    "Programming/draft.md",
     "draft.md",
     "draft2.md",
     "Courses/MaharaTech/C-Programming.md",
@@ -237,7 +224,6 @@
     "College/IT-Essentials/Sections/SectionOne.md",
     "Courses/imgs/figure.png",
     "College/Python/Lectures/LectureOne.md",
-    "Courses/MaharaTech/index.md",
     "Courses/MaharaTech",
     "College/Python/imgs/output1.png",
     "College/Python/imgs/output1.png",

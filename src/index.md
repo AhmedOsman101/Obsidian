@@ -16,4 +16,7 @@ hero:
     - theme: alt
       text: General
       link: /General
+    - theme: alt
+      text: Programming
+      link: /Programming
 ---

@@ -1,10 +1,10 @@
 ---
 prev:
   text: "Lecture One"
-  link: "/College/Python/Lectures/LectureOne"
+  link: "/College/yearOne/firstTerm/Python/Lectures/LectureOne"
 next:
   text: "Lecture Three"
-  link: "/College/Python/Lectures/LectureThree"
+  link: "/College/yearOne/firstTerm/Python/Lectures/LectureThree"
 title: Lecture 2
 ---
 
@@ -156,5 +156,3 @@ print(num1, "+", num2, "=", num1 + num2)
 
 - **Identifiers**: Variable names (identifiers) must start with a letter or underscore, followed by letters, numbers, or underscores.
 - **Reserved Words**: Keywords (e.g., `if`, `while`, `True`) cannot be used as identifiers.
-
-

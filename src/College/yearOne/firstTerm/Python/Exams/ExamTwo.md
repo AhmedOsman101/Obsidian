@@ -1,7 +1,7 @@
 ---
 prev:
   text: "Exams"
-  link: "/College/Python/Exams/index"
+  link: "/College/yearOne/firstTerm/Python/Exams/index"
 next: false
 title: Assignment 2
 ---
@@ -55,15 +55,19 @@ Use loops to allow the program to run repeatedly an unlimited number of times. T
 > Solve this task without using functions.
 
 ## Task 5
+
 Define lists and tuples and compare between them
 
 ## Task 6
+
 Define the dictionary in Python and mention its uses
 
 ## Task 7
+
 Re-write task 3 with using function
 
 ## Task 8
+
 Write program using a dictionary to store student name and degree data
 
 ## Task 9
@@ -189,7 +193,7 @@ while True:
 ![](imgs/code7.png)
 
 - **Tuple**:
-![](imgs/code8.png)
+  ![](imgs/code8.png)
 
 ### Task 6
 
@@ -198,16 +202,16 @@ while True:
 A **dictionary** is an unordered collection of key-value pairs in Python. Each key in a dictionary is unique and immutable, while the values can be of any data type and are mutable.
 
 - **Syntax**:
-![](imgs/code9.png)
+  ![](imgs/code9.png)
 
 #### Uses of Dictionaries
 
 1. **Key-Based Data Retrieval**: Accessing data quickly using keys instead of indices.
    Example:
-![](imgs/code10.png)
+   ![](imgs/code10.png)
 2. **Mapping Relationships**: Representing relationships such as ID-to-name or product-to-price mappings.
    Example:
-![](imgs/code11.png)
+   ![](imgs/code11.png)
 3. **Dynamic Data Storage**: Storing dynamic key-value data, such as configurations or user inputs.
    Example:
    ![](imgs/code12.png)

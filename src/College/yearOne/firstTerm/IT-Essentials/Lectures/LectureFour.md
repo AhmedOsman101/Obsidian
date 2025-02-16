@@ -2,10 +2,10 @@
 title: Lecture 4
 prev:
   text: "Lecture Three"
-  link: "/College/IT-Essentials/Lectures/LectureThree"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Lectures/LectureThree"
 next:
   text: "Lecture Five"
-  link: "/College/IT-Essentials/Lectures/LectureFive"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Lectures/LectureFive"
 ---
 
 # IT Essentials Lecture 4

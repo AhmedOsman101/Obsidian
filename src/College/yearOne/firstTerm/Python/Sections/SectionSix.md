@@ -1,7 +1,7 @@
 ---
 prev:
   text: "Section Five"
-  link: "/College/Python/Sections/SectionFive"
+  link: "/College/yearOne/firstTerm/Python/Sections/SectionFive"
 next: false
 title: Section 6
 ---

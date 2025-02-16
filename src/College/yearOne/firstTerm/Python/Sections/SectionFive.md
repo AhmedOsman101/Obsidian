@@ -1,10 +1,10 @@
 ---
 prev:
   text: "Section Four"
-  link: "/College/Python/Sections/SectionFour"
+  link: "/College/yearOne/firstTerm/Python/Sections/SectionFour"
 next:
   text: "Section Six"
-  link: "/College/Python/Sections/SectionSix"
+  link: "/College/yearOne/firstTerm/Python/Sections/SectionSix"
 title: Section 5
 ---
 
@@ -111,9 +111,9 @@ The `range()` function generates a sequence of numbers, often used in loops.
 
 | Parameter | Description                                              | Default |
 | --------- | -------------------------------------------------------- | :-----: |
-| `start`   | Optional. Start position of the sequence.                | 0       |
-| `stop`    | Required. Stop position (exclusive).                     | None    |
-| `step`    | Optional. Increment between each number in the sequence. | 1       |
+| `start`   | Optional. Start position of the sequence.                |    0    |
+| `stop`    | Required. Stop position (exclusive).                     |  None   |
+| `step`    | Optional. Increment between each number in the sequence. |    1    |
 
 ### Example:
 

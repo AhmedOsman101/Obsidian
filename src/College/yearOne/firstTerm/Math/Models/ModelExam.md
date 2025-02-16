@@ -2,7 +2,7 @@
 title: Model Exam
 prev:
   text: "Models"
-  link: "/College/Math/Models/index"
+  link: "/College/yearOne/firstTerm/Math/Models/index"
 next: false
 ---
 
@@ -24,10 +24,10 @@ B = \begin{bmatrix}
 C = \begin{bmatrix}
 2 & 1 \\
 -1 & 3
-\end{bmatrix} 
+\end{bmatrix}
 $$
 
-**Find:** 
+**Find:**
 
 ### 1) $\space A+B$
 
@@ -40,12 +40,12 @@ A+B &= \begin{bmatrix}
 \begin{bmatrix}
 3 & 0 \\
 7 & 5
-\end{bmatrix} 
+\end{bmatrix}
 \\\\
 &= \begin{bmatrix}
 6+3 & -2+0 \\
 7+7 & 5+5
-\end{bmatrix} 
+\end{bmatrix}
 \\\\
 &= \begin{bmatrix}
 9 & -2 \\
@@ -53,7 +53,6 @@ A+B &= \begin{bmatrix}
 \end{bmatrix}
 \end{gather}
 $$
-
 
 ---
 
@@ -151,7 +150,7 @@ BC = \begin{bmatrix}
 BC = \begin{bmatrix}
 6+0 & 3+0 \\
 14-5 & 7+15
-\end{bmatrix} 
+\end{bmatrix}
 \\\\
 BC = \begin{bmatrix}
 6 & 9 \\
@@ -173,10 +172,10 @@ C = \begin{bmatrix}
 1 & 2 & -1 \\
 3 & 0 & 4 \\
 1 & 2 & -1
-\end{bmatrix} 
+\end{bmatrix}
 $$
 
-**Find:** 
+**Find:**
 
 ### 1) $\space|A|$
 
@@ -185,6 +184,7 @@ $$
 $$
 
 ### 2) $\space A^{-1}$
+
 $$
 \begin{gather}
 A^{-1} = \frac{1}{|A|} * adj(A)
@@ -210,11 +210,11 @@ $$
 |C| = 1 \begin{vmatrix}
 0 & 4 \\
 2 & 1
-\end{vmatrix} 
+\end{vmatrix}
 - 2 \begin{vmatrix}
 3 & 4 \\
 1 & 1
-\end{vmatrix} 
+\end{vmatrix}
 -1 \begin{vmatrix}
 3 & 0 \\
 1 & 2
@@ -265,14 +265,14 @@ adj(C) = \begin{bmatrix}
 6 & 0 & -6
 \end{bmatrix}
 \\\\
-C^{-1} = \frac{1}{-12} 
+C^{-1} = \frac{1}{-12}
 \begin{bmatrix}
 -8 & -4 & 8 \\
 1 & 2 & -7 \\
 6 & 0 & -6
 \end{bmatrix}
 \\\\
-C^{-1} = \frac{1}{12} 
+C^{-1} = \frac{1}{12}
 \begin{bmatrix}
 8 & 4 & -8 \\
 -1 & -2 & 7 \\
@@ -280,9 +280,11 @@ C^{-1} = \frac{1}{12}
 \end{bmatrix}
 \end{gather}
 $$
+
 ## Question 3
 
 **If:**
+
 $$
 \begin{gather}
 4x + 2y = 8 \\\
@@ -290,8 +292,8 @@ $$
 \end{gather}
 $$
 
+**Solve the previous system using:**
 
-**Solve the previous system using:** 
 ### 1. [Cramer's Method](../Lectures/LectureTwo.md#cramer-s-rule-for-solving-systems-of-equations)
 
 $$
@@ -299,24 +301,24 @@ $$
 \Delta = \begin{vmatrix}
 4 & 2 \\
 8 & 5
-\end{vmatrix} 
-= 4(5) - 2(8) 
+\end{vmatrix}
+= 4(5) - 2(8)
 \\\\
 \Delta = 20 - 16 = 4
 \\\\
 \Delta_x = \begin{vmatrix}
 8 & 2 \\
 18 & 5
-\end{vmatrix} 
-= 8(5) - 2(18) 
+\end{vmatrix}
+= 8(5) - 2(18)
 \\\\
 \Delta_x = 40 - 36 = 4
 \\\\
 \Delta_y = \begin{vmatrix}
 4 & 8 \\
 8 & 18
-\end{vmatrix} 
-= 4(18) - 8(8) 
+\end{vmatrix}
+= 4(18) - 8(8)
 \\\\
 \Delta_y = 72 - 64 = 8
 \\\\
@@ -354,7 +356,7 @@ A^{-1} = \frac{1}{4} \begin{bmatrix}
 -8 & 4
 \end{bmatrix}
 \\\\
-A^{-1} \space \cdot  \space B = 
+A^{-1} \space \cdot  \space B =
 \frac{1}{4} \begin{bmatrix}
 5(8) - 2(18) \\
 -8(8) + 4(18)
@@ -371,8 +373,6 @@ x \\ y
 x = 1, \quad y = 2
 \end{gather}
 $$
-
-
 
 ## Question 4
 
@@ -425,18 +425,17 @@ $$
 \end{pmatrix}
 \\\\\\
 Volume = \begin{vmatrix}
-1 & 0 & 2\\ 
-2 & 1 & 1\\ 
+1 & 0 & 2\\
+2 & 1 & 1\\
 5 & k & 3
 \end{vmatrix} = 0
 \\\\
 = 1(3-k) - 0(6-5) + 2(2k-5)
 \\\\
-= 3-k + 4k - 10 
-\\\\ 
+= 3-k + 4k - 10
+\\\\
 = 3k - 7 = 0, \quad 3k = 7
 \\\\
 k = \frac{7}{3} \approx2.33 \space cm^3
 \end{gather}
 $$
-

@@ -2,10 +2,10 @@
 title: Lecture 2
 prev:
   text: "Lecture One"
-  link: "/College/Math/Lectures/LectureOne"
+  link: "/College/yearOne/firstTerm/Math/Lectures/LectureOne"
 next:
   text: "Lecture Three"
-  link: "/College/Math/Lectures/LectureThree"
+  link: "/College/yearOne/firstTerm/Math/Lectures/LectureThree"
 ---
 
 # Lecture Two: Determinants, Inverse Matrices and Systems of Equations
@@ -34,23 +34,23 @@ $$
 In this case, the matrix is symmetric because $A^T = A$.
 
 - **Example 1**: Show that the matrix $A$ is symmetric:
-$$
-A = \begin{bmatrix}
-1 & 2 & 4 \\
-2 & 0 & 17 \\
-4 & 17 & 6
-\end{bmatrix}
-$$
-$$
-A^T = \begin{bmatrix}
-1 & 2 & 4 \\
-2 & 0 & 17 \\
-4 & 17 & 6
-\end{bmatrix}
-$$
-$$
-A = A^T
-$$
+  $$
+  A = \begin{bmatrix}
+  1 & 2 & 4 \\
+  2 & 0 & 17 \\
+  4 & 17 & 6
+  \end{bmatrix}
+  $$
+  $$
+  A^T = \begin{bmatrix}
+  1 & 2 & 4 \\
+  2 & 0 & 17 \\
+  4 & 17 & 6
+  \end{bmatrix}
+  $$
+  $$
+  A = A^T
+  $$
   Hence, $A$ is a symmetric matrix.
 
 ---
@@ -231,8 +231,7 @@ $$
   \det(A^T) = \det(A)
   $$
 
-> [!Note] 
-> $\det(A)$ is often written as $|A|$.
+> [!Note] > $\det(A)$ is often written as $|A|$.
 
 ## Inverse of a Matrix
 
@@ -587,6 +586,7 @@ Consider the system of equations:
 $$
 x + y = 1
 $$
+
 $$
 2x + ky = 0
 $$

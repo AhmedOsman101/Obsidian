@@ -2,7 +2,7 @@
 title: Section 6
 prev:
   text: "Section Five"
-  link: "/College/IT-Essentials/Sections/SectionFive"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Sections/SectionFive"
 next: false
 ---
 

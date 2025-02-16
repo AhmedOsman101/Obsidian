@@ -2,7 +2,7 @@
 title: Lectures
 prev:
   text: "Math"
-  link: "/College/Math/index"
+  link: "/College/yearOne/firstTerm/Math/index"
 next: false
 lastUpdated: false
 ---

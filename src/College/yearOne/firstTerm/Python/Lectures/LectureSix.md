@@ -1,10 +1,10 @@
 ---
 prev:
   text: "Lecture Five"
-  link: "/College/Python/Lectures/LectureFive"
+  link: "/College/yearOne/firstTerm/Python/Lectures/LectureFive"
 next:
   text: "Lecture Seven"
-  link: "/College/Python/Lectures/LectureSeven"
+  link: "/College/yearOne/firstTerm/Python/Lectures/LectureSeven"
 title: Lecture 6
 ---
 

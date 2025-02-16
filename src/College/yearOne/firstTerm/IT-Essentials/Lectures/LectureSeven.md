@@ -2,10 +2,10 @@
 title: Lecture 7
 prev:
   text: "Lecture Six"
-  link: "/College/IT-Essentials/Lectures/LectureSix"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Lectures/LectureSix"
 next:
   text: "Lecture Eight"
-  link: "/College/IT-Essentials/Lectures/LectureEight"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Lectures/LectureEight"
 ---
 
 # IT Essentials Lecture 7: Operating Systems
@@ -15,6 +15,7 @@ next:
 An Operating System (OS) is essential system software that manages hardware and software resources on a computer or device. It acts as an intermediary between users and hardware, enabling interaction and efficient task management.
 
 ![](../imgs/figure.png)
+
 ### Key Functions:
 
 - **Resource Management**: Controls hardware resources like CPU, memory, storage, and peripherals.
@@ -340,6 +341,7 @@ When installing an OS, the storage device must be prepared to store the OS and a
   - **Standard User Account**: Limited access, cannot install programs.
 
 ![](../imgs/figure%207.png)
+
 ### Finalize the Installation
 
 - **Windows Update**: Use to install the latest software updates, service packs, and patches.

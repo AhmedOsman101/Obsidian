@@ -2,10 +2,10 @@
 title: Lecture 5
 prev:
   text: "Lecture Four"
-  link: "/College/IT-Essentials/Lectures/LectureFour"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Lectures/LectureFour"
 next:
   text: "Lecture Six"
-  link: "/College/IT-Essentials/Lectures/LectureSix"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Lectures/LectureSix"
 ---
 
 # IT Essentials Lecture 5: Networking Concepts (Part I)

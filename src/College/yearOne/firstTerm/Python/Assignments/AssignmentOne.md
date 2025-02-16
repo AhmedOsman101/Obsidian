@@ -1,10 +1,10 @@
 ---
 prev:
   text: "Assignments"
-  link: "/College/Python/Assignments/index"
+  link: "/College/yearOne/firstTerm/Python/Assignments/index"
 next:
   text: "Sheet Two"
-  link: "/College/Python/Assignments/AssignmentTwo"
+  link: "/College/yearOne/firstTerm/Python/Assignments/AssignmentTwo"
 title: Sheet 1
 ---
 

@@ -2,10 +2,10 @@
 title: Lecture 3
 prev:
   text: "Lecture Two"
-  link: "/College/IT-Essentials/Lectures/LectureTwo"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Lectures/LectureTwo"
 next:
   text: "Lecture Four"
-  link: "/College/IT-Essentials/Lectures/LectureFour"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Lectures/LectureFour"
 ---
 
 # IT Essentials Lecture 3: Number Systems
@@ -20,7 +20,6 @@ next:
 - **Octal (Base-8)**
 - **Decimal (Base-10)**
 - **Hexadecimal (Base-16)**
-
 
 ## Decimal Number System (Base-10)
 
@@ -47,7 +46,6 @@ Example: Convert Decimal `13` to Binary
 
 Binary: `1101`
 
-
 ## Binary Number System (Base-2)
 
 - **Digits Used**: `0`, `1`
@@ -62,20 +60,17 @@ Binary: `1101`
   - Binary Number: `1100 0000`
   - Calculation: $(1 \times 2^8) + (1 \times 2^7) + 0 + 0 + 0 + 0 + 0 + 0 = 192$
 
-
 ## Hexadecimal Number System (Base-16)
 
 - **Digits Used**: `0~9`, `A=10`, `B=11`, `C=12`, `D=13`, `E=14`, `F=15`
 - **Structure**: Each digit represents a power of 16.
 - **Usage**: Widely used in programming, particularly for color codes in web design (e.g., `#FF5733`) and memory addresses.
 
-
 ## Octal Number System (Base-8)
 
 - **Digits Used**: `0~7`
 - **Structure**: Each digit represents a power of 8.
 - **Historical Context**: Used as a shorthand for binary in computing, though hexadecimal is more common today.
-
 
 ## Conversions Between Number Systems
 

@@ -2,10 +2,9 @@
 title: Assignment 2
 prev:
   text: "Exams"
-  link: "/College/IT-Essentials/Exams/index"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Exams/index"
 next: false
 ---
-
 
 # IT Essentials Assignment Two
 
@@ -31,7 +30,7 @@ next: false
    a) Start a fresh installation of Windows 10. (P9)
    b) During the installation, set the language, time zone, and region. (P9)
    c) After installation, create user accounts and set up user permissions. (P9)
-   d) Compare between FAT32 and NTFS file systems then Configure a storage device with the appropriate file system based on its intended use.  (M8)
+   d) Compare between FAT32 and NTFS file systems then Configure a storage device with the appropriate file system based on its intended use. (M8)
    e) Set up a local area network (LAN) connection or Wi-Fi, ensuring internet access. (M9)
 8. After successfully installing Windows 10, configure security settings such as Windows Defender, Firewall, and User Account Control. (D6)
 

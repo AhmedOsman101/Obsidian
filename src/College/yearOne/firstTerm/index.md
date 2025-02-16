@@ -1,6 +1,8 @@
 ---
 title: First Term
-prev: false
+prev:
+  text: Year One
+  link: "/College/yearOne/index"
 next: false
 lastUpdated: false
 ---

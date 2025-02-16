@@ -2,7 +2,7 @@
 title: Lecture 9
 prev:
   text: "Lecture Eight"
-  link: "/College/IT-Essentials/Lectures/LectureEight"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Lectures/LectureEight"
 next: false
 ---
 

@@ -2,10 +2,10 @@
 title: Lecture 1
 prev:
   text: "IT-Essentials"
-  link: "/College/IT-Essentials/Lectures/index"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Lectures/index"
 next:
   text: "Lecture Two"
-  link: "/College/IT-Essentials/Lectures/LectureTwo"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Lectures/LectureTwo"
 ---
 
 # IT Essentials Lecture 1
@@ -41,6 +41,7 @@ A **computer** can be defined as:
 ### **Basic Personal Computer System**
 
 - A **computer system** consists of **hardware** and **software** components.
+
 #### **Hardware:**
 
 - The **physical equipment** of a computer system, including:

@@ -2,7 +2,7 @@
 title: Lecture 4
 prev:
   text: "Lecture Three"
-  link: "/College/Math/Lectures/LectureThree"
+  link: "/College/yearOne/firstTerm/Math/Lectures/LectureThree"
 next: false
 ---
 
@@ -152,11 +152,11 @@ $$
 \begin{gather}
 \begin{vmatrix}
 4 & -2 & 8 \\
-5 & -1 & 10 \\ 
+5 & -1 & 10 \\
 6 & 4 & x
 \end{vmatrix}
- = 0 
-\\ \\ 
+ = 0
+\\ \\
 \Rightarrow 4
 \begin{vmatrix}
 -1 & 10 \\
@@ -170,13 +170,13 @@ $$
 5 & -1 \\
 6 & 4
 \end{vmatrix}
-\\ \\ 
-\Rightarrow 4(-x - 40) + 2(5x - 60) + 8(20 + 6) = 0 
 \\ \\
-\Rightarrow 
--4x - 160 + 10x - 120 + 208 
+\Rightarrow 4(-x - 40) + 2(5x - 60) + 8(20 + 6) = 0
 \\ \\
-\Rightarrow 
+\Rightarrow
+-4x - 160 + 10x - 120 + 208
+\\ \\
+\Rightarrow
 6x - 72 = 0, \space 6x = 72
 \\ \\
 \Rightarrow x = 12
@@ -189,11 +189,11 @@ $$
 \begin{gather}
 \begin{vmatrix}
 4 & -2 & 8 \\
-5 & -1 & 10 \\ 
+5 & -1 & 10 \\
 6 & 4 & x
 \end{vmatrix}
- = 18 
-\\ \\ 
+ = 18
+\\ \\
 \Rightarrow 4
 \begin{vmatrix}
 -1 & 10 \\
@@ -207,13 +207,13 @@ $$
 5 & -1 \\
 6 & 4
 \end{vmatrix}
-\\ \\ 
-\Rightarrow 4(-x - 40) + 2(5x - 60) + 8(20 + 6) = 18 
 \\ \\
-\Rightarrow 
--4x - 160 + 10x - 120 + 208 
+\Rightarrow 4(-x - 40) + 2(5x - 60) + 8(20 + 6) = 18
 \\ \\
-\Rightarrow 
+\Rightarrow
+-4x - 160 + 10x - 120 + 208
+\\ \\
+\Rightarrow
 6x - 72 = 18, \space 6x = 90
 \\ \\
 \Rightarrow x = 15

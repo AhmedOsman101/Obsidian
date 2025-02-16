@@ -1,10 +1,10 @@
 ---
 prev:
   text: "Section Two"
-  link: "/College/Python/Sections/SectionTwo"
+  link: "/College/yearOne/firstTerm/Python/Sections/SectionTwo"
 next:
   text: "Section Four"
-  link: "/College/Python/Sections/SectionFour"
+  link: "/College/yearOne/firstTerm/Python/Sections/SectionFour"
 title: Section 3
 ---
 

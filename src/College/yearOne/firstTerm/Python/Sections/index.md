@@ -1,7 +1,7 @@
 ---
 prev:
   text: "Python"
-  link: "/College/Python/index"
+  link: "/College/yearOne/firstTerm/Python/index"
 next: false
 lastUpdated: false
 title: Sections

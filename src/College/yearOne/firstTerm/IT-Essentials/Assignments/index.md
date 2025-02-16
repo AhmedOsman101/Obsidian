@@ -2,7 +2,7 @@
 title: Assignments
 prev:
   text: "IT-Essentials"
-  link: "/College/IT-Essentials/index"
+  link: "/College/yearOne/firstTerm/IT-Essentials/index"
 next: false
 lastUpdated: false
 ---

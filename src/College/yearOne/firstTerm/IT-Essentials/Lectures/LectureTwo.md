@@ -2,10 +2,10 @@
 title: Lecture 2
 prev:
   text: "Lecture One"
-  link: "/College/IT-Essentials/Lectures/LectureOne"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Lectures/LectureOne"
 next:
   text: "Lecture Three"
-  link: "/College/IT-Essentials/Lectures/LectureThree"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Lectures/LectureThree"
 ---
 
 # IT Essentials Lecture 2: Advanced Computer Hardware
@@ -18,7 +18,7 @@ next:
 - Alerts for malfunctioning components via error or beep codes.
 - BIOS access key must be pressed during POST.
 
->[!Tip]
+> [!Tip]
 > Remove RAM to confirm POST functionality.
 > The computer should emit a beep code for missing RAM.
 
@@ -54,7 +54,6 @@ next:
 
 - Modern BIOS chips (EEPROM) can be upgraded by **flashing**.
 - Follow the manufacturer’s website instructions for BIOS updates.
-
 
 ## Electrical Power
 
@@ -93,7 +92,6 @@ next:
 - **Uninterruptible Power Supply (UPS)**: Provides backup power during blackouts and brownouts.
 - **Standby Power Supply (SPS)**: Backup battery power with slower activation than UPS.
 
-
 ## Advanced Computer Functionality
 
 ### CPU Architectures
@@ -120,7 +118,6 @@ next:
 - **CPU Heat Sinks**: Draw heat away from CPU; passive (no fan) or active (with fan).
 - **Graphics Card Cooling**: Reduces heat from dedicated GPUs.
 - **Water Cooling**: Efficiently dissipates heat from high-performance systems.
-
 
 ## Video and Graphic Ports
 

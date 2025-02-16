@@ -1,10 +1,10 @@
 ---
 prev:
   text: "Lecture Three"
-  link: "/College/Python/Lectures/LectureThree"
+  link: "/College/yearOne/firstTerm/Python/Lectures/LectureThree"
 next:
   text: "Lecture Five"
-  link: "/College/Python/Lectures/LectureFive"
+  link: "/College/yearOne/firstTerm/Python/Lectures/LectureFive"
 title: Lecture 4
 ---
 
@@ -65,7 +65,6 @@ print("Result =", user_input) # 10
 **Output Example:**
 
 ![](../imgs/output3.png)
-
 
 ## Bugs in Python Programs
 

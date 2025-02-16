@@ -1,11 +1,11 @@
 ---
 title: Task 2
 prev:
-   text: 'Task One'
-   link: '/College/IT-Essentials/Assignments/AssignmentOne'
+  text: "Task One"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Assignments/AssignmentOne"
 next:
-   text: 'Task Four'
-   link: '/College/IT-Essentials/Assignments/AssignmentFour'
+  text: "Task Four"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Assignments/AssignmentFour"
 ---
 
 # Task Two

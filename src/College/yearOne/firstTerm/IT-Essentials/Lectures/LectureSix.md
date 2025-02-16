@@ -2,10 +2,10 @@
 title: Lecture 6
 prev:
   text: "Lecture Five"
-  link: "/College/IT-Essentials/Lectures/LectureFive"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Lectures/LectureFive"
 next:
   text: "Lecture Seven"
-  link: "/College/IT-Essentials/Lectures/LectureSeven"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Lectures/LectureSeven"
 ---
 
 # IT Essentials Lecture 6: Networking Concepts (Part II)
@@ -232,7 +232,7 @@ Several organizations develop and maintain standards for networking and communic
 ### Wireless Ethernet Standards:
 
 | **Standard**       | **Bandwidth**  | **Frequency**    | **Range**            | **Compatibility**                                 |
-| ------------------ | -------------- | ---------------- | -------------------- | ---------------------------------------------------- |
+| ------------------ | -------------- | ---------------- | -------------------- | ------------------------------------------------- |
 | 802.11a            | Up to 54 Mbps  | 5 GHz band       | 100 feet (30 meters) | Not compatible with 802.11b, 802.11g, or 802.11n. |
 | 802.11b            | Up to 11 Mbps  | 2.4 GHz band     | 100 feet (30 meters) | Compatible with 802.11g.                          |
 | 802.11g            | Up to 54 Mbps  | 2.4 GHz band     | 100 feet (30 meters) | Compatible with 802.11b.                          |

@@ -2,10 +2,10 @@
 title: Section 2
 prev:
   text: "Section One"
-  link: "/College/IT-Essentials/Sections/SectionOne"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Sections/SectionOne"
 next:
   text: "Section Three"
-  link: "/College/IT-Essentials/Sections/SectionThree"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Sections/SectionThree"
 ---
 
 # IT Essentials Lab 2: Computer Assembly
@@ -57,11 +57,13 @@ The CPU, also called the processor, is the brain of the computer. It fits into a
 ## Expansion Slots and Adapter Cards
 
 Expansion slots allow for adding hardware to the motherboard:
+
 - **PCI**: Peripheral Component Interconnect.
 - **AGP**: Advanced Graphics Port.
 - **Mini PCI**: Commonly used in laptops.
 
 **Adapter Cards**:
+
 - **Video Card**: Enhances graphical performance.
 - **NIC (Network Interface Card)**: For wired network connectivity.
 - **Wireless NIC**: For wireless network connectivity.

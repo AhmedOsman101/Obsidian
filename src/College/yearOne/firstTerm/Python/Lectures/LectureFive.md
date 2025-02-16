@@ -1,10 +1,10 @@
 ---
 prev:
   text: "Lecture Four"
-  link: "/College/Python/Lectures/LectureFour"
+  link: "/College/yearOne/firstTerm/Python/Lectures/LectureFour"
 next:
   text: "Lecture Six"
-  link: "/College/Python/Lectures/LectureSix"
+  link: "/College/yearOne/firstTerm/Python/Lectures/LectureSix"
 title: Lecture 5
 ---
 
@@ -149,7 +149,6 @@ while i < 6:
     break
   i += 1
 ```
-
 
 ---
 

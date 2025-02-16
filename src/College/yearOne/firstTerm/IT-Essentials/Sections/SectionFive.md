@@ -2,10 +2,10 @@
 title: Section 5
 prev:
   text: "Section Four"
-  link: "/College/IT-Essentials/Sections/SectionFour"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Sections/SectionFour"
 next:
   text: "Section Six"
-  link: "/College/IT-Essentials/Sections/SectionSix"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Sections/SectionSix"
 ---
 
 # IT Essentials Lab 5: Computer Network

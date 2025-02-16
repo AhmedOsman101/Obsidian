@@ -2,10 +2,10 @@
 title: Section 4
 prev:
   text: "Section Three"
-  link: "/College/IT-Essentials/Sections/SectionThree"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Sections/SectionThree"
 next:
   text: "Section Five"
-  link: "/College/IT-Essentials/Sections/SectionFive"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Sections/SectionFive"
 ---
 
 # IT Essentials Lab 4: Number Systems and Arithmetic Operations

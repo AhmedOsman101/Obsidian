@@ -2,10 +2,10 @@
 title: Lecture 1
 prev:
   text: "Lectures"
-  link: "/College/Math/Lectures/index"
+  link: "/College/yearOne/firstTerm/Math/Lectures/index"
 next:
   text: "Lecture Two"
-  link: "/College/Math/Lectures/LectureTwo"
+  link: "/College/yearOne/firstTerm/Math/Lectures/LectureTwo"
 ---
 
 # Lecture One: Matrices Basic Definitions and Operations
@@ -179,7 +179,7 @@ $$
 > [!Tip]
 > If you are on mobile swip to the left to see the full euqation or enable desktop mode
 
-   **Example 4: Find $AB$**:
+**Example 4: Find $AB$**:
 
 $$
 \begin{gather}
@@ -294,10 +294,11 @@ A^T = \begin{bmatrix}
 $$
 
 ---
-<br> 
+
+<br>
 
 > [!Note]
->  A square matrix $A$ can be multiplied by itself any number of times, giving the $n^{th}$ power of $A$.
+> A square matrix $A$ can be multiplied by itself any number of times, giving the $n^{th}$ power of $A$.
 
 $$
 A^2 = A \cdot A, \quad
@@ -376,6 +377,7 @@ A^2 = \begin{bmatrix}
 1 & 16
 \end{bmatrix}
 $$
+
 $$
 A^2 = \begin{bmatrix}
 2(2) + 5(1) & 2(5) + 5(16) \\
@@ -428,6 +430,7 @@ q & 0 \\
 0 & q
 \end{bmatrix}
 $$
+
 $$
 = \begin{bmatrix}
 2p + q & 5p \\
@@ -458,14 +461,14 @@ Next, compute $A^3$:
 
 $$
 \begin{gather}
-A^3 = A \cdot A^2 
-\\\\ 
+A^3 = A \cdot A^2
+\\\\
 A(pA+qI) \text{ (substitute }A^2 \text{ with pA+qI)}
 \\\\
 A(18A-27I) \Rightarrow \text{ (substitute } p \text{ and } q \text{ with 18 and -27)}
 \\\\
 18A^2 - 27A \text{ (substitute }A^2 \text{ with pA+qI)}
-\\\\ 
+\\\\
 18(pA + qI) - 27A
 \\\\
 18(18A - 27I) - 27A \Rightarrow ( \space p = 18, \space q = -27)
@@ -480,4 +483,3 @@ g=297, \quad h = -486
 \\
 \end{gather}
 $$
-

@@ -2,10 +2,10 @@
 title: Lecture 3
 prev:
   text: "Lecture Two"
-  link: "/College/Math/Lectures/LectureTwo"
+  link: "/College/yearOne/firstTerm/Math/Lectures/LectureTwo"
 next:
   text: "Lecture Four"
-  link: "/College/Math/Lectures/LectureFour"
+  link: "/College/yearOne/firstTerm/Math/Lectures/LectureFour"
 ---
 
 # Lecture Three: Eigenvalues
@@ -240,12 +240,15 @@ $$
 $$
 \lambda^2 - S_1 \lambda + S_2 = 0
 $$
+
 $$
 S_1 = \text{trac}(A) = 4 + 3 = 7
 $$
+
 $$
 S_2 = |A| = 12 - 2 = 10
 $$
+
 $$
 \lambda^2 - 7 \lambda + 10 = 0
 $$
@@ -319,12 +322,15 @@ Compute the subdeterminants:
 $$
 = (5 - \lambda)(5 - \lambda) - 2(2)
 $$
+
 $$
 = (5 - \lambda)^2 - 4
 $$
+
 $$
 = \lambda^2 - 10 \lambda + 25 - 4
 $$
+
 $$
 = \lambda^2 - 10 \lambda + 21
 $$
@@ -340,6 +346,7 @@ Simplify:
 $$
 |A - \lambda I| = (6 - \lambda)(\lambda^2 - 10 \lambda + 21)
 $$
+
 $$
 = - \lambda^3 + 16 \lambda^2 - 81 \lambda + 126
 $$
@@ -371,9 +378,11 @@ $$
 $$
 \lambda^3 - S_1 \lambda^2 + S_2 \lambda - S_3 = 0
 $$
+
 $$
 S_1 = \text{trac}(A) = 5 + 5 + 6 = 16
 $$
+
 $$
 S_2 = |A| =
 \begin{vmatrix}
@@ -390,9 +399,11 @@ S_2 = |A| =
 \end{vmatrix}
 = 81
 $$
+
 $$
 S_3 = |A| = 126
 $$
+
 $$
 \lambda^3 - 16 \lambda^2 + 81 \lambda - 126 = 0
 $$

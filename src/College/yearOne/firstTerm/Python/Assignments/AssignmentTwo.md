@@ -1,7 +1,7 @@
 ---
 prev:
   text: "Sheet One"
-  link: "/College/Python/Assignments/AssignmentOne"
+  link: "/College/yearOne/firstTerm/Python/Assignments/AssignmentOne"
 next: false
 title: Sheet 2
 ---
@@ -11,6 +11,7 @@ title: Sheet 2
 ## 1. Python program for multiplication table
 
 **Without Function**:
+
 ```python
 # take input from the user
 n = int(input("Enter the number for multiplication table: "))
@@ -20,6 +21,7 @@ for i in range(1, 11):
 ```
 
 **With Function**:
+
 ```python
 def mulitplicationTable(n):
   print(f"Multiplication Table for {n}:")
@@ -31,10 +33,10 @@ n = int(input("Enter the number for multiplication table: "))
 multiplicationTable(n)
 ```
 
-
 ## 2. Write python program to List the factors of the integers 1...MAX
 
 **Without Function**:
+
 ```python
 MAX = int(input("Enter Max: "))
 for i in range(1, MAX + 1):
@@ -53,6 +55,7 @@ for i in range(1, MAX + 1):
 ```
 
 **With Function**:
+
 ```python
 def factors(Max):
   for i in range(1, Max + 1):
@@ -66,10 +69,10 @@ MAX = int(input("Enter Max: "))
 factors(MAX)
 ```
 
-
 ## 3. Write python program for sketch a geometric tree, and the user supplies the height. A five- level tree
 
 **Without Function**:
+
 ```python
 height = int(input("Enter the height of the tree: "))
 # Validate that the input is a positive number
@@ -88,6 +91,7 @@ else:
 ```
 
 **With Function**:
+
 ```python
 def drawTree(height):
   if height > 0:
@@ -95,7 +99,7 @@ def drawTree(height):
       padding = height - i  # How much spaces to leave
       repeats = i * 2 - 1
       print(padding * ' ', repeats * '*', sep="")
-  
+
     print((height - 3)*" ", "###")
     print((height - 3)*" ", "###")
   else:
@@ -105,10 +109,10 @@ h = int(input("Enter the height of the tree: "))
 drawTree(h)
 ```
 
-
 ## 4. Write python Program to Print Prime Numbers
 
 **Without Function**:
+
 ```python
 from math import sqrt # import the square root function form math library
 
@@ -133,6 +137,7 @@ else:
 ```
 
 **With Function**:
+
 ```python
 from math import sqrt # import the square root function form math library
 
@@ -145,21 +150,21 @@ def primeNumbers(Max):
         if i % j == 0:
           prime = False # If `i` is divisible by `j`, it is not prime
           break  # Exit the loop because `i` is primeg
-  
+
       if prime:
         print(i, end=" ")
     print("")  # insert a new line
   else:
     print("Invalid Max")
-    
+
 Max = int(input("Enter the maximum number (MAX): "))
 primeNumbers(Max)
 ```
 
-
 ## 5. Write Python program tests the number input by a user to ensure it is within a valid range.
 
 **Without Function**:
+
 ```python
 n = int(input("Enter a number between 1 and 100: "))
 # if between 1 and 100 print `valid` else print `invalid`
@@ -170,6 +175,7 @@ print(
 ```
 
 **With Function**:
+
 ```python
 def inRange(n):
   # if between 1 and 100 print `valid` else print `invalid`

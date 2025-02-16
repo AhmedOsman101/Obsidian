@@ -2,10 +2,10 @@
 title: Section 1
 prev:
   text: "Sections"
-  link: "/College/IT-Essentials/Sections/index"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Sections/index"
 next:
   text: "Section Two"
-  link: "/College/IT-Essentials/Sections/SectionTwo"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Sections/SectionTwo"
 ---
 
 # IT-Essentials Lab 1: Computer Basics

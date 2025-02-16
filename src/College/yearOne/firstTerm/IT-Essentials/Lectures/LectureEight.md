@@ -2,10 +2,10 @@
 title: Lecture 8
 prev:
   text: "Lecture Seven"
-  link: "/College/IT-Essentials/Lectures/LectureSeven"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Lectures/LectureSeven"
 next:
   text: "Lecture Nine"
-  link: "/College/IT-Essentials/Lectures/LectureNine"
+  link: "/College/yearOne/firstTerm/IT-Essentials/Lectures/LectureNine"
 ---
 
 # IT Essentials Lecture 8: Configure Operating System
@@ -306,8 +306,7 @@ next:
 - Unlike previous Windows versions, the setting that requires a password when the computer wakes has been moved from **Power Options** to **User Accounts** in Windows 10, enhancing data security.
 - Windows offers **preset power plans**, or you can create custom plans.
 
-
->[!Note]
+> [!Note]
 > Power Options settings vary based on the detected hardware.
 
 ---

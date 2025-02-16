@@ -1,7 +1,7 @@
 ---
 prev:
   text: "Lecture Seven"
-  link: "/College/Python/Lectures/LectureSeven"
+  link: "/College/yearOne/firstTerm/Python/Lectures/LectureSeven"
 next: false
 title: Lecture 8
 ---
@@ -254,7 +254,7 @@ print(f"Value for 'z': {value}")  # Not Found
 
 # 2. Pop a key-value pair
 popped_value = my_dict.pop("b")
-print(f"After pop('b'): {my_dict}, Popped Value: {popped_value}")  
+print(f"After pop('b'): {my_dict}, Popped Value: {popped_value}")
 # {'a': 1, 'c': 3}, Popped Value: 2
 
 # 3. View all values

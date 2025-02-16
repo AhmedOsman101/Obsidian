@@ -2,7 +2,7 @@
 title: Math
 prev:
   text: "College"
-  link: "/College/index"
+  link: "/College/yearOne/firstTerm/index"
 next: false
 lastUpdated: false
 ---

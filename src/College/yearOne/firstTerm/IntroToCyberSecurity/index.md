@@ -1,8 +1,8 @@
 ---
 title: Intro to Cybersecurity
 prev:
-  text: College
-  link: /College/index
+  text: "College"
+  link: "/College/yearOne/firstTerm/index"
 next: false
 lastUpdated: false
 ---

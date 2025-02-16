@@ -1,4 +1,5 @@
 ---
+title: Intro to Cybersecurity
 prev:
   text: College
   link: /College/index

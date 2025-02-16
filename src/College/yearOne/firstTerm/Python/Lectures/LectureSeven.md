@@ -5,6 +5,7 @@ prev:
 next:
   text: "Lecture Eight"
   link: "/College/Python/Lectures/LectureEight"
+title: Lecture 7
 ---
 
 # Programming Essentials in Python Lecture 7

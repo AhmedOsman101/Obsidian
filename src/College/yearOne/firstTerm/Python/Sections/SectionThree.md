@@ -3,11 +3,12 @@ prev:
   text: "Section Two"
   link: "/College/Python/Sections/SectionTwo"
 next:
-  text: "Section Three (Part II)"
-  link: "/College/Python/Sections/SectionThreePartTwo"
+  text: "Section Four"
+  link: "/College/Python/Sections/SectionFour"
+title: Section 3
 ---
 
-# Programming Essentials in Python Section 3 (Part I)
+# Programming Essentials in Python Section 3
 
 ## Operators in Python
 

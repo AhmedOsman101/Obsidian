@@ -1,4 +1,5 @@
 ---
+title: Manara
 prev:
   text: "Courses"
   link: "/Courses/index"

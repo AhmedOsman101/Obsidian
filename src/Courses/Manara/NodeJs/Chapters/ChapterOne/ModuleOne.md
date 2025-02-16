@@ -1,4 +1,5 @@
 ---
+title: Module 1
 prev:
   text: "Modules"
   link: "/Courses/Manara/NodeJs/Chapters/ChapterOne/index"

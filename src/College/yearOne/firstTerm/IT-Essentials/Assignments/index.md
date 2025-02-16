@@ -1,4 +1,5 @@
 ---
+title: Assignments
 prev:
   text: "IT-Essentials"
   link: "/College/IT-Essentials/index"

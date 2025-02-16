@@ -2,10 +2,8 @@
 prev:
   text: "Sheet One"
   link: "/College/Python/Assignments/AssignmentOne"
-next:
-  false
-  # text: 'Sheet Three'
-  # link: '/College/Python/Assignments/AssignmentThree'
+next: false
+title: Sheet 2
 ---
 
 # Programming Essentials in Python Sheet 2

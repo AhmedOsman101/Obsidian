@@ -4,6 +4,7 @@ prev:
   link: "/College/Python/index"
 next: false
 lastUpdated: false
+title: Lectures
 ---
 
 # Lectures

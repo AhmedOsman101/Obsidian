@@ -1,4 +1,5 @@
 ---
+title: Assignment 2
 prev:
   text: "Exams"
   link: "/College/IT-Essentials/Exams/index"
@@ -6,7 +7,7 @@ next: false
 ---
 
 
-# IT-Essentials Assignment Two
+# IT Essentials Assignment Two
 
 ## Scenario
 

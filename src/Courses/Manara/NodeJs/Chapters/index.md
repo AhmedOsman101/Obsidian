@@ -1,4 +1,5 @@
 ---
+title: Chapters
 prev:
   text: "Manara"
   link: "/Courses/Manara/index"

@@ -4,6 +4,7 @@ prev:
   link: "/College/index"
 next: false
 lastUpdated: false
+title: Python
 ---
 
 # Python
@@ -21,10 +22,10 @@ lastUpdated: false
 - [Sections](Sections/index.md)
   - [Section One](Sections/SectionOne.md)
   - [Section Two](Sections/SectionTwo.md)
-  - [Section Three (Part I)](Sections/SectionThreePartOne.md)
-  - [Section Three (Part II)](Sections/SectionThreePartTwo.md)
+  - [Section Three](Sections/SectionThree.md)
   - [Section Four](Sections/SectionFour.md)
   - [Section Five](Sections/SectionFive.md)
+  - [Section Six](Sections/SectionSix.md)
 
 - [Assignments (Sheets)](Assignments/index.md)
   - [Sheet One](Assignments/AssignmentOne.md)

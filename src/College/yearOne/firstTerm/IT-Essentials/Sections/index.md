@@ -1,4 +1,5 @@
 ---
+title: Sections
 prev:
   text: "IT-Essentials"
   link: "/College/IT-Essentials/index"

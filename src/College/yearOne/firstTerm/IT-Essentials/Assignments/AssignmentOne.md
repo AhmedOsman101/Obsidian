@@ -1,4 +1,5 @@
 ---
+title: Task 1
 prev:
    text: 'IT-Essentials'
    link: '/College/IT-Essentials/index'

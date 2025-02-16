@@ -5,6 +5,7 @@ prev:
 next:
   text: "Sheet Two"
   link: "/College/Python/Assignments/AssignmentTwo"
+title: Sheet 1
 ---
 
 # Programming Essentials in Python Sheet 1

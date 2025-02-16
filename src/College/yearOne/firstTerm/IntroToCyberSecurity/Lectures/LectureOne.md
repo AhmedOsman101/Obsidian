@@ -1,4 +1,5 @@
 ---
+title: Lecture 1
 prev:
   text: Introduction to Cybersecurity
   link: /College/IntroToCyberSecurity/Lectures/index

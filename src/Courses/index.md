@@ -1,4 +1,5 @@
 ---
+title: Courses
 prev: false
 next: false
 lastUpdated: false

@@ -1,4 +1,5 @@
 ---
+title: Section 3
 prev:
   text: "Section Two"
   link: "/College/IT-Essentials/Sections/SectionTwo"

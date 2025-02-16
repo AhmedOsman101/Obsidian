@@ -1,11 +1,9 @@
 ---
+title: Section 6
 prev:
   text: "Section Five"
   link: "/College/IT-Essentials/Sections/SectionFive"
-next:
-  false
-  # text: "Section Seven"
-  # link: "/College/IT-Essentials/Sections/SectionSeven"
+next: false
 ---
 
 # IT Essentials Lab 6: Cisco Packet Tracer

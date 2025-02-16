@@ -1,4 +1,5 @@
 ---
+title: Thoughts
 prev: false
 next: false
 lastUpdated: false

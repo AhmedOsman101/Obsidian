@@ -5,6 +5,7 @@ prev:
 next:
   text: 'Section Two'
   link: '/College/Python/Sections/SectionTwo'
+title: Section 1
 ---
 
 # Programming Essentials in Python Section 1

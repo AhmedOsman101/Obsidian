@@ -1,4 +1,5 @@
 ---
+title: C Programming
 prev:
   text: "Courses"
   link: "/Courses/MaharaTech/index"

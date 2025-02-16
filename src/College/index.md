@@ -1,8 +1,8 @@
 ---
+title: College
 prev: false
 next: false
 lastUpdated: false
-title: "College"
 ---
 
 # College

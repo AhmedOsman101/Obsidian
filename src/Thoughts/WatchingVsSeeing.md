@@ -1,7 +1,8 @@
 ---
+title: Watching Vs Seeing
 prev:
-  text: "Thoughts"
-  link: "/Thoughts/index"
+  text: Thoughts
+  link: /Thoughts/index
 next: false
 ---
 

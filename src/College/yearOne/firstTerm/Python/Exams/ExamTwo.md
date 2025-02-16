@@ -3,6 +3,7 @@ prev:
   text: "Exams"
   link: "/College/Python/Exams/index"
 next: false
+title: Assignment 2
 ---
 
 # Python Assignment Two

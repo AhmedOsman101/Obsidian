@@ -1,4 +1,5 @@
 ---
+title: Laravel 10 Eloquent
 prev:
   text: "Courses"
   link: "/Courses/index"

@@ -1,4 +1,5 @@
 ---
+title: Linux Course
 prev:
   text: "Courses"
   link: "/Courses/index"

@@ -1,10 +1,15 @@
+---
+title: Bitwise Operations
+prev: false
+next: false
+---
+
 # Bitwise Operations
 
-## 10 Bitwise Operations Tricks
+## **1. Checking if a Number is Even**
 
-### **1. Checking if a Number is Even**
-
-The function `isEven` checks whether a number `n` is even using a bitwise AND operation:
+The function `isEven` checks whether a number `n` is even using a bitwise AND
+operation:
 
 ```typescript
 const isEven = (n: number): boolean => (n & 1) === 0;
@@ -12,13 +17,16 @@ const isEven = (n: number): boolean => (n & 1) === 0;
 
 ---
 
-#### Explanation
+### Explanation
+
 1. **Bitwise AND with 1**:
+
    - The least significant bit (LSB) of a number determines if it is even or odd.
    - If the LSB is `0`, the number is even.
    - If the LSB is `1`, the number is odd.
 
 2. **Operation**:
+
    - `n & 1` isolates the LSB.
    - If the result is `0`, the number is even.
 
@@ -27,8 +35,10 @@ const isEven = (n: number): boolean => (n & 1) === 0;
 
 ---
 
-#### Comparison with Modulus Approach
+### Comparison with Modulus Approach
+
 - **Bitwise Approach**: `(n & 1) === 0`
+
   - Faster and more efficient because bitwise operations are computationally cheaper.
   - Directly checks the LSB without performing division or remainder operations.
 
@@ -38,7 +48,8 @@ const isEven = (n: number): boolean => (n & 1) === 0;
 
 ---
 
-#### Example
+### Example
+
 ```typescript
 console.log(isEven(4)); // true (4 is even)
 console.log(isEven(5)); // false (5 is odd)
@@ -46,9 +57,10 @@ console.log(isEven(5)); // false (5 is odd)
 
 ---
 
-### **2. Checking if a Number is a Power of Two**
+## **2. Checking if a Number is a Power of Two**
 
-The function `isPowerOfTwo` checks whether a number `x` is a power of two using bitwise operations:
+The function `isPowerOfTwo` checks whether a number `x` is a power of two using
+bitwise operations:
 
 ```typescript
 const isPowerOfTwo = (x: number): boolean => x !== 0 && !(x & (x - 1));
@@ -56,15 +68,19 @@ const isPowerOfTwo = (x: number): boolean => x !== 0 && !(x & (x - 1));
 
 ---
 
-#### Explanation
+### Explanation
+
 1. **Power of Two Property**:
-   - A power of two in binary has exactly one bit set (e.g., `1` → `001`, `2` → `010`, `4` → `100`).
+
+   - A power of two in binary has exactly one bit set (e.g., `1` -> `001`, `2` -> `010`, `4` -> `100`).
 
 2. **Bitwise Trick**:
-   - Subtracting `1` from a power of two flips all bits after the single set bit (e.g., `4 - 1 = 3` → `100 & 011 = 0`).
+
+   - Subtracting `1` from a power of two flips all bits after the single set bit (e.g., `4 - 1 = 3` -> `100 & 011 = 0`).
    - For non-powers of two, `x & (x - 1)` will not be zero (e.g., `5 & 4 = 4`).
 
 3. **Operation**:
+
    - `x & (x - 1)` clears the lowest set bit in `x`.
    - If the result is `0` and `x` is not `0`, then `x` is a power of two.
 
@@ -73,8 +89,10 @@ const isPowerOfTwo = (x: number): boolean => x !== 0 && !(x & (x - 1));
 
 ---
 
-#### Comparison with Logarithmic Approach
+### Comparison with Logarithmic Approach
+
 - **Bitwise Approach**: `x !== 0 && !(x & (x - 1))`
+
   - Extremely fast and efficient, leveraging bitwise properties.
   - Avoids floating-point inaccuracies or expensive logarithmic calculations.
 
@@ -84,7 +102,8 @@ const isPowerOfTwo = (x: number): boolean => x !== 0 && !(x & (x - 1));
 
 ---
 
-#### Example
+### Example
+
 ```typescript
 console.log(isPowerOfTwo(8)); // true (8 is 2**3)
 console.log(isPowerOfTwo(5)); // false (5 is not a power of two)
@@ -93,12 +112,13 @@ console.log(isPowerOfTwo(0)); // false (0 is not a power of two)
 
 ---
 
-### **3. Accessing and Manipulating the $n^{th}$ Bit**
+## **3. Accessing and Manipulating the $n^{th}$ Bit**
 
-#### Accessing the $n^{th}$ Bit
+### Accessing the $n^{th}$ Bit
+
 To access the $n^{th}$ bit of a number `x`, you can use the following formula:
 
-```typescript
+```ts
 const bitLen = (n: number): number => {
   let length: number = 0;
   while (n > 0) {
@@ -112,11 +132,13 @@ const accessBit = (x: number, n: number): number => (x >> (n - 1)) & 1;
 ```
 
 **Explanation**:
+
 - `bitLen(x)` calculates the total number of bits in `x`.
 - `(x >> (bitLen(x) - n))` shifts the $n^{th}$ bit to the least significant position.
 - `& 1` isolates the bit.
 
 **Example**:
+
 ```typescript
 const x = 0b1010; // Binary 10 (1010)
 console.log(accessBit(x, 2)); // Output: 1 (second bit from the right)
@@ -124,17 +146,21 @@ console.log(accessBit(x, 2)); // Output: 1 (second bit from the right)
 
 ---
 
-#### Toggling the $n^{th}$ Bit
+### Toggling the $n^{th}$ Bit
+
 To toggle the $n^{th}$ bit of a number `x`, use the XOR (`^`) operator:
+
 ```typescript
 const toggleBit = (x: number, n: number): number => x ^ (1 << (n - 1));
 ```
 
 **Explanation**:
+
 - `1 << (n - 1)` creates a mask with a `1` at the $n^{th}$ position.
 - `x ^ mask` flips the $n^{th}$ bit (0 -> 1 or 1 -> 0).
 
 **Example**:
+
 ```typescript
 const x = 0b1010; // Binary 10 (1010)
 console.log(toggleBit(x, 3).toString(2)); // Output: 1110 (toggles the third bit)
@@ -142,17 +168,21 @@ console.log(toggleBit(x, 3).toString(2)); // Output: 1110 (toggles the third bit
 
 ---
 
-#### Setting the $n^{th}$ Bit**
+### Setting the $n^{th}$ Bit\*\*
+
 To set the $n^{th}$ bit of a number `x` to `1`, use the OR (`|`) operator:
+
 ```typescript
 const setBit = (x: number, n: number): number => x | (1 << (n - 1));
 ```
 
 **Explanation**:
+
 - `1 << (n - 1)` creates a mask with a `1` at the $n^{th}$ position.
 - `x | mask` ensures the $n^{th}$ bit is set to `1`.
 
 **Example**:
+
 ```typescript
 const x = 0b1010; // Binary 10 (1010)
 console.log(setBit(x, 2).toString(2)); // Output: 1010 (no change, bit already set)
@@ -161,19 +191,23 @@ console.log(setBit(x, 3).toString(2)); // Output: 1110 (sets the third bit)
 
 ---
 
-#### Unsetting the $n^{th}$ Bit**
-To unset the $n^{th}$ bit of a number `x` (set it to `0`), use the AND (`&`) operator with a negated mask:
+### Unsetting the $n^{th}$ Bit\*\*
+
+To unset the $n^{th}$ bit of a number `x` (set it to `0`), use the AND (`&`)
+operator with a negated mask:
 
 ```typescript
 const unsetBit = (x: number, n: number): number => x & ~(1 << (n - 1));
 ```
 
 **Explanation**:
+
 - `1 << (n - 1)` creates a mask with a `1` at the $n^{th}$ position.
 - `~mask` inverts the mask, making the $n^{th}$ bit `0` and all others `1`.
 - `x & ~mask` ensures the $n^{th}$ bit is set to `0`.
 
 **Example**:
+
 ```typescript
 const x = 0b1010; // Binary 10 (1010)
 console.log(unsetBit(x, 2).toString(2)); // Output: 1000 (unsets the second bit)
@@ -182,9 +216,10 @@ console.log(unsetBit(x, 3).toString(2)); // Output: 1010 (no change, bit already
 
 ---
 
-### **4. Calculating the Bit Length of a Number**
+## **4. Calculating the Bit Length of a Number**
 
-The function `bitLen` calculates the number of bits required to represent a number `n` in binary. Here's how it works:
+The function `bitLen` calculates the number of bits required to represent a
+number `n` in binary. Here's how it works:
 
 ```typescript
 const bitLen = (n: number): number => {
@@ -199,15 +234,19 @@ const bitLen = (n: number): number => {
 
 ---
 
-#### Explanation
+### Explanation
+
 1. **Initialization**:
+
    - Start with `length = 0` to count the number of bits.
 
 2. **Right Shift Operation**:
+
    - `n >>= 1` shifts the bits of `n` to the right by 1 position, effectively dividing `n` by 2.
    - This removes the least significant bit (LSB) of `n` in each iteration.
 
 3. **Counting Bits**:
+
    - Each right shift reduces the number of bits in `n` by 1.
    - Increment `length` by `1` for each shift until `n` becomes `0`.
 
@@ -217,27 +256,32 @@ const bitLen = (n: number): number => {
 
 ---
 
-#### Example
+### Example
+
 For `n = 10` (binary `1010`):
+
 - Iteration 1: `n = 10 >> 1 = 5` (binary `101`), `length = 1`
 - Iteration 2: `n = 5 >> 1 = 2` (binary `10`), `length = 2`
 - Iteration 3: `n = 2 >> 1 = 1` (binary `1`), `length = 3`
 - Iteration 4: `n = 1 >> 1 = 0` (binary `0`), `length = 4`
 
-The function returns `4`, which is the correct number of bits for `10` (binary `1010`).
+The function returns `4`, which is the correct number of bits for `10` (binary
+`1010`).
 
 ---
 
-#### Why This Works
+### Why This Works
+
 - Each right shift (`>>= 1`) removes the LSB of `n`, effectively counting one bit.
 - The loop continues until all bits are removed (`n = 0`), ensuring all bits are counted.
 - This method works for any positive integer and is efficient for bit-length calculation.
 
 ---
 
-### **5. Multiplying a Number by $2^n$ Using Left Shifts**
+## **5. Multiplying a Number by $2^n$ Using Left Shifts**
 
-The operation of multiplying a number `x` by $2^n$ can be efficiently performed using a **left shift** (`<<`):
+The operation of multiplying a number `x` by $2^n$ can be efficiently performed
+using a **left shift** (`<<`):
 
 ```typescript
 const multiplyByPowerOfTwo = (x: number, n: number): number => x << n;
@@ -245,12 +289,15 @@ const multiplyByPowerOfTwo = (x: number, n: number): number => x << n;
 
 ---
 
-#### Explanation
+### Explanation
+
 1. **Left Shift Operation**:
+
    - Shifting a number `x` left by `n` positions is equivalent to multiplying `x` by $2^n$.
    - Each left shift doubles the value of `x`.
 
 2. **Example**:
+
    - $5 \times 2^3 = 5 \times 8 = 40$
    - In binary: `5` is `0b101`. Shifting left by `3` gives `0b101000`, which is `40`.
 
@@ -259,7 +306,8 @@ const multiplyByPowerOfTwo = (x: number, n: number): number => x << n;
 
 ---
 
-#### Example
+### Example
+
 ```typescript
 console.log(multiplyByPowerOfTwo(5, 3)); // 40 (5 * 2^3)
 console.log(multiplyByPowerOfTwo(10, 2)); // 40 (10 * 2^2)
@@ -267,9 +315,10 @@ console.log(multiplyByPowerOfTwo(10, 2)); // 40 (10 * 2^2)
 
 ---
 
-### **6. Dividing a Number by $2^n$ Using Right Shifts**
+## **6. Dividing a Number by $2^n$ Using Right Shifts**
 
-The operation of dividing a number `x` by $2^n$ can be efficiently performed using a **right shift** (`>>`):
+The operation of dividing a number `x` by $2^n$ can be efficiently performed
+using a **right shift** (`>>`):
 
 ```typescript
 const divideByPowerOfTwo = (x: number, n: number): number => x >> n;
@@ -277,12 +326,15 @@ const divideByPowerOfTwo = (x: number, n: number): number => x >> n;
 
 ---
 
-#### Explanation
+### Explanation
+
 1. **Right Shift Operation**:
+
    - Shifting a number `x` right by `n` positions is equivalent to dividing `x` by $2^n$ and truncating the result (floor division).
    - Each right shift halves the value of `x`.
 
 2. **Example**:
+
    - $40 \div 2^3 = 40 \div 8 = 5$
    - In binary: `40` is `0b101000`. Shifting right by `3` gives `0b101`, which is `5`.
 
@@ -291,7 +343,8 @@ const divideByPowerOfTwo = (x: number, n: number): number => x >> n;
 
 ---
 
-#### Example
+### Example
+
 ```typescript
 console.log(divideByPowerOfTwo(40, 3)); // 5 (40 / 2^3)
 console.log(divideByPowerOfTwo(10, 1)); // 5 (10 / 2^1)
@@ -299,12 +352,15 @@ console.log(divideByPowerOfTwo(10, 1)); // 5 (10 / 2^1)
 
 ---
 
-#### Key Points
+### Key Points
+
 - **Left Shift (`<<`)**:
+
   - Use to multiply a number by $2^n$.
   - Example: `x << n` is equivalent to $x \times 2^n$.
 
 - **Right Shift (`>>`)**:
+
   - Use to divide a number by $2^n$ (with truncation).
   - Example: `x >> n` is equivalent to $\lfloor x \div 2^n \rfloor$.
 
@@ -314,12 +370,15 @@ console.log(divideByPowerOfTwo(10, 1)); // 5 (10 / 2^1)
 
 ---
 
-#### Edge Cases
+### Edge Cases
+
 1. **Negative Numbers**:
+
    - Right shifts on negative numbers preserve the sign bit (arithmetic right shift).
    - Example: `-10 >> 1` results in `-5`.
 
 2. **Zero**:
+
    - Shifting `0` left or right always results in `0`.
 
 3. **Large Shifts**:
@@ -327,9 +386,11 @@ console.log(divideByPowerOfTwo(10, 1)); // 5 (10 / 2^1)
 
 ---
 
-### **7. Finding the Unique Number in an Array Using XOR**
+## **7. Finding the Unique Number in an Array Using XOR**
 
-The following function `getUnique` finds the unique number in an array of numbers where every number except one appears twice. This is achieved using the **XOR** operator:
+The following function `getUnique` finds the unique number in an array of
+numbers where every number except one appears twice. This is achieved using the
+**XOR** operator:
 
 ```typescript
 const getUnique = (arr: number[]): number => arr.reduce((a, b) => a ^ b, 0);
@@ -337,26 +398,31 @@ const getUnique = (arr: number[]): number => arr.reduce((a, b) => a ^ b, 0);
 
 ---
 
-#### Explanation
+### Explanation
+
 1. **XOR Properties**:
+
    - XOR (`^`) is a bitwise operation with the following properties:
      - `a ^ a = 0` (any number XORed with itself results in 0).
      - `a ^ 0 = a` (any number XORed with 0 results in the number itself).
      - XOR is **commutative** and **associative**, meaning the order in which the operation is performed does not matter.
-   
+
 2. **Behavior**:
+
    - When applying XOR across an array, pairs of identical numbers will cancel each other out (because of `a ^ a = 0`).
    - The only number that does not have a pair will remain after all XOR operations, as it will be XORed with `0` (which does not change the value).
 
 3. **Initial Value**:
+
    - The `reduce()` method initializes with `0` to start the XOR operation.
 
 4. **Time Complexity**:
-   - **O(n)** where `n` is the number of elements in the array. This is because we are performing the XOR operation on each element once.
+   - **`O(n)`** where `n` is the number of elements in the array. This is because we are performing the XOR operation on each element once.
 
 ---
 
-#### Example
+### Example
+
 ```typescript
 const arr1 = [4, 1, 2, 1, 2];
 console.log(getUnique(arr1)); // 4 (4 is the unique number)
@@ -367,24 +433,29 @@ console.log(getUnique(arr2)); // 5 (5 is the unique number)
 
 ---
 
-#### Comparison with Other Approaches
+### Comparison with Other Approaches
+
 - **Using a Hash Set**:
-  - We could also solve this problem by using a hash set (or map) to track the counts of numbers, but this would require additional space, making it less efficient in terms of space complexity (O(n)).
-  - **Space Complexity**: O(n)
-  - **Time Complexity**: O(n)
-  
+
+  - We could also solve this problem by using a hash set (or map) to track the counts of numbers, but this would require additional space, making it less efficient in terms of space complexity (`O(n)`).
+  - **Space Complexity**: `O(n)`
+  - **Time Complexity**: `O(n)`
+
 - **XOR Approach**:
   - The XOR approach is space-efficient because it doesn't require additional data structures. It only uses a single variable to accumulate the result.
-  - **Space Complexity**: O(1)
-  - **Time Complexity**: O(n)
+  - **Space Complexity**: `O(1)`
+  - **Time Complexity**: `O(n)`
 
 ---
 
-#### Edge Cases
+### Edge Cases
+
 1. **Array with only one element**:
+
    - The XOR approach will work correctly, as it will return the only element.
-   
+
 2. **Array with all elements being the same**:
+
    - If all elements are the same (even number of elements), the result will be `0`, indicating there is no unique number.
 
 3. **Empty array**:
@@ -392,7 +463,8 @@ console.log(getUnique(arr2)); // 5 (5 is the unique number)
 
 ---
 
-### Example with Explanation:
+## Example with Explanation:
+
 Given an array where all elements except one appear twice:
 
 ```typescript
@@ -400,18 +472,15 @@ const arr = [8, 3, 2, 3, 2];
 console.log(unique(arr)); // Output: 8 (8 is the unique number)
 ```
 
-**Step-by-Step XOR Process**:
-4. `0 ^ 8 = 8`
-5. `8 ^ 3 = 11`
-6. `11 ^ 2 = 9`
-7. `9 ^ 3 = 8`
-8. `8 ^ 2 = 8`
+**Step-by-Step XOR Process**: 4. `0 ^ 8 = 8` 5. `8 ^ 3 = 11` 6. `11 ^ 2 = 9` 7.
+`9 ^ 3 = 8` 8. `8 ^ 2 = 8`
 
 At the end of the process, the result is `8`, which is the unique number in the array.
 
 ---
 
-#### Key Points
+### Key Points
+
 - The XOR approach is very efficient for finding a unique number in an array where all other numbers appear in pairs.
-- It operates in linear time complexity **O(n)** and constant space **O(1)**.
+- It operates in linear time complexity **`O(n)`** and constant space **`O(1)`**.
 - XOR's properties make it an ideal fit for pairing and cancellation problems.

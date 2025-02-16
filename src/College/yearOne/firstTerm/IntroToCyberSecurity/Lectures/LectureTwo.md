@@ -1,4 +1,5 @@
 ---
+title: Lecture 2
 prev:
   text: Lecture One
   link: /College/IntroToCyberSecurity/Lectures/LectureOne

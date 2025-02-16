@@ -1,4 +1,5 @@
 ---
+title: Lecture 5
 prev:
   text: "Lecture Four"
   link: "/College/IT-Essentials/Lectures/LectureFour"

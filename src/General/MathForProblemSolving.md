@@ -1,11 +1,12 @@
 ---
+title: Math for Problem Solving
 prev:
-  text: "General Knowledge"
-  link: "/General/index"
+  text: General Knowledge
+  link: /General/index
 next: false
 ---
 
-# General Math Notes for Problem Solving
+# Math Notes for Problem Solving
 
 ## Logarithms (Logs)
 

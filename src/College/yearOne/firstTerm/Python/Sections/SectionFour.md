@@ -1,157 +1,237 @@
 ---
 prev:
-  text: "Section Three (Part II)"
-  link: "/College/Python/Sections/SectionThreePartTwo"
+  text: "Section Three"
+  link: "/College/Python/Sections/SectionThree"
 next:
   text: "Section Five"
   link: "/College/Python/Sections/SectionFive"
+title: Section 4
 ---
 
 # Programming Essentials in Python Section 4
 
-## Loops in Python
+## Symbols Used in Flowcharts
 
-Loops allow the execution of a block of code repeatedly as long as a specified condition is met. They save time, reduce errors, and make code more readable. Python supports three types of loops:
+Flowcharts use various symbols to visually represent the structure of algorithms and processes. Each symbol has a specific meaning, allowing viewers to quickly understand the flow and logic of a program.
 
-1. **`while` loop**
-2. **`do while` loop** (not directly available but can be emulated using a `while` loop)
-3. **`for` loop**
+### 1. Oval
 
-## `while` Loop
+- **Function**: Used to indicate the `START` or `END` of the program.
 
-A `while` loop is used to repeatedly execute a block of code as long as the condition evaluates to `True`.
-It is recommended for use when the number of iterations is **not fixed**.
-
-### Syntax:
-
-```python
-while condition:
-  # Block of statements
-  print("This will execute as long as the condition is True")
+```mermaid
+---
+title: Oval
+---
+flowchart LR
+    id1([START])
 ```
 
-### Example:
+### 2. Parallelogram
 
-```python
-x = 1
-while x <= 10:
-  print(x)  # Prints numbers from 1 to 10
-  x += 1
+- **Function**: Represents input and output operations. Statements like `INPUT`, `READ`, and `PRINT` are typically enclosed within this shape.
+
+```mermaid
+---
+title: Parallelogram
+---
+flowchart TD
+    id1[/READ age/]
 ```
 
-### flowchart representation:
+### 3. Rectangle
 
-![while loop flowchart](../imgs/figure1.png)
+- **Function**: Used to indicate processing operations, such as storing values or performing arithmetic calculations.
 
-## Common Pitfall: Infinite Loops
+```mermaid
+---
+title: Rectangle
+---
+flowchart LR
+    id1[c = a + b]
 
-An infinite loop occurs if the condition in a `while` loop always evaluates to `True`.
-**Example:**
-
-```python
-a = 1
-while a == 1:  # This condition is always True
-  b = input("What’s your name? ")
-  print(f"Hi {b}, welcome to the infinite loop!")
-# To terminate, use keyboard interrupt (Ctrl+C).
 ```
 
-## `break` Statement
+### 4. Diamond
 
-The `break` statement is used to exit a loop prematurely, irrespective of the loop's condition.
+- **Function**: Indicates a decision-making step, known as the decision box. This shape is used to test conditions, ask questions, and direct the flow based on responses.
 
-### Example:
+```mermaid
+---
+title: Diamond
+---
 
-```python
-counter = 0
-while True:
-  counter += 1
-  print(counter, end=' ')
-  if counter >= 6:
-    print("\nBreaking the loop!")
-    break  # Exits the loop
-print(f"Loop finished & counter = {counter}")
+flowchart TD
+    id1{age < 18}
+
 ```
 
-**Output:**
+### 5. Flow Lines
 
-![](../imgs/code25.png)
+- **Function**: Arrows indicate the direction of flow in a flowchart. Every line must have an arrow to specify the process sequence.
 
-### flowchart representation:
+### 6. Circle
 
-![break statement flowchart](../imgs/figure2.png)
+- **Function**: Known as on-page connectors, circles help join different parts of a flowchart on the same page. They also assist in shaping complex flowcharts by connecting sections.
 
-## `continue` Statement
+```mermaid
+---
+title: On-Page Connectors
+---
 
-The `continue` statement skips the rest of the code in the current iteration and moves to the next iteration of the loop.
+flowchart LR
+    id1((Part II))
+    id2([Start])
+    id1 --> id2
 
-### Example:
-
-```python
-counter = 0
-while True:
-  counter += 1
-  if counter % 2 == 0:
-    continue  # Skips the even numbers
-  print(f"Odd: {counter}")
-  if counter >= 5:
-    print("Breaking the loop!")
-    break  # Exits the loop
 ```
 
-### flowchart representation:
+### Flowchart Example for Decision-Making
 
-![continue statement flowchart](../imgs/figure3.png)
+```mermaid
+flowchart TD
+    Start([Start])
+    Decision1{Is a > b?}
+    Decision2{Is a > c?}
+    Decision3{Is b > c?}
+    ResultA([a is the largest])
+    ResultB([b is the largest])
+    ResultC([c is the largest])
+    End([End])
 
-## `range()` Function
-
-The `range()` function generates a sequence of numbers, often used in loops.
-**Syntax:** `range(start, stop, step)`
-
-| Parameter | Description                                              | Default |
-| --------- | -------------------------------------------------------- | :-----: |
-| `start`   | Optional. Start position of the sequence.                | 0       |
-| `stop`    | Required. Stop position (exclusive).                     | None    |
-| `step`    | Optional. Increment between each number in the sequence. | 1       |
-
-### Example:
-
-```python
-# Generate numbers from 3 to 19, incrementing by 2
-for i in range(3, 20, 2):
-  print(i, end=" ")  # Output: 3 5 7 9 11 13 15 17 19
+    Start --> Decision1
+    Decision1 -- Yes --> Decision2
+    Decision1 -- No --> Decision3
+    Decision2 -- Yes --> ResultA
+    Decision2 -- No --> ResultC
+    Decision3 -- Yes --> ResultB
+    Decision3 -- No --> ResultC
+    ResultA --> End
+    ResultB --> End
+    ResultC --> End
 ```
 
-## `for` Loop
+## Decision Structures in Flowcharts
 
-The `for` loop is used to iterate over sequences (like lists, tuples, or strings) or other iterable objects. This process is called **traversal**.
+There are two common ways to represent decisions in a flowchart:
 
-### Syntax:
+1. **Binary Questions**: The condition is framed as a question with two possible outcomes:
+
+   - `Yes`
+   - `No`
+
+2. **Binary Statements**: The condition is expressed as a statement with two possible outcomes:
+   - `True`
+   - `False`
+
+## Decision-Making in Python
+
+In Python, the `if` statement is used to execute code based on a condition.
+
+### 1. If Statement
+
+The `if` statement executes a block of code if the condition evaluates to `True`.
+
+**Syntax**:
 
 ```python
-for variable in sequence:
-  # Block of statements
-  print(variable)
+# Check a condition
+if condition:
+  statement1_here  # Executes if condition is True
 ```
 
-### Example:
+**Example**:
 
 ```python
-for i in range(1, 6):
-  print(i, end=' ')  # Output: 1 2 3 4 5
+# Check if a number is positive
+num = 5
+if num > 0:
+  print("The number is positive")
 ```
 
-### flowchart representation:
+### 2. If-Else Statement
 
-![for loop flowchart](../imgs/figure4.png)
+The `if-else` structure provides an alternative set of actions if the condition is `False`.
 
-## Tasks and Challenges:
-
-### Task 1: Custom Range
-
-Generate a sequence of numbers starting from `3` to `19`, incrementing by `2`:
+**Syntax**:
 
 ```python
-for i in range(3, 20, 2):
-  print(i, end=" ")  # Output: 3 5 7 9 11 13 15 17 19
+if condition:
+  statement1_here  # Executes if condition is True
+else:
+  statement2_here  # Executes if condition is False
+```
+
+**Example**:
+
+```python
+# Check if a number is positive or negative
+num = -3
+if num > 0:
+  print("The number is positive")
+else:
+  print("The number is negative")
+```
+
+### 3. Nested If Statements
+
+Nested `if` statements allow for more complex decision structures by placing `if` statements inside other `if` statements.
+
+**Example**:
+
+```python
+# Find the largest of three numbers
+a = 10
+b = 15
+c = 7
+
+if a > b:
+  if a > c:
+    print("a is the largest")
+  else:
+    print("c is the largest")
+else:
+  if b > c:
+    print("b is the largest")
+  else:
+    print("c is the largest")
+```
+
+## Algorithm to Find the Largest of Three Numbers
+
+1. **Start**
+2. **Input** three numbers: `a`, `b`, and `c`
+3. **Check** if `a` is greater than `b`
+   - If **yes**, then check if `a` is also greater than `c`
+     - If **yes**, `a` is the largest
+     - Otherwise, `c` is the largest
+   - If **no**, check if `b` is greater than `c`
+     - If **yes**, `b` is the largest
+     - Otherwise, `c` is the largest
+4. **End**
+
+### Flowchart Example Using Mermaid
+
+```mermaid
+flowchart TD
+    Start([Start])
+    InputData[/Input a, b, c/]
+    Decision1{Is a > b?}
+    Decision2{Is a > c?}
+    Decision3{Is b > c?}
+    ResultA([a is the largest])
+    ResultB([b is the largest])
+    ResultC([c is the largest])
+    End([End])
+
+    Start --> InputData
+    InputData --> Decision1
+    Decision1 -- Yes --> Decision2
+    Decision1 -- No --> Decision3
+    Decision2 -- Yes --> ResultA
+    Decision2 -- No --> ResultC
+    Decision3 -- Yes --> ResultB
+    Decision3 -- No --> ResultC
+    ResultA --> End
+    ResultB --> End
+    ResultC --> End
 ```

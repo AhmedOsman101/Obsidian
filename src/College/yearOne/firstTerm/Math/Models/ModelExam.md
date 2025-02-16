@@ -1,10 +1,9 @@
 ---
+title: Model Exam
 prev:
   text: "Models"
   link: "/College/Math/Models/index"
 next: false
-  # text: "Lecture Two"
-  # link: "/College/Math/Lectures/LectureTwo"
 ---
 
 # Model Exam

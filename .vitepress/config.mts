@@ -84,9 +84,9 @@ const vitePressSidebarOptions: VitePressSidebarOptions = {
 	useTitleFromFileHeading: false,
 	useTitleFromFrontmatter: true, // TODO: edit the forntmatter of each file
 	useFolderLinkFromIndexFile: true,
-	sortMenusOrderNumericallyFromLink: true,
 	excludeFilesByFrontmatterFieldName: "ignore",
 	frontmatterTitleFieldName: "title",
+	useFolderTitleFromIndexFile: true,
 };
 
 export default defineConfig(

@@ -43,8 +43,8 @@
   "Courses/Mastering_Laravel_10_Database_and_Eloquent.md": "FabLaravel",
   "Courses/Manara/NodeJs": "FabNodeJs",
   "Programming": "FasCode",
-  "College/firstYear/firstTerm/IntroToCyberSecurity": "SiHackaday",
-  "College/firstYear/firstTerm/IT-Essentials": "FiCpu",
-  "College/firstYear/firstTerm/Math": "LiCalculator",
-  "College/firstYear/firstTerm/Python": "FabPython"
+  "College/yearOne/firstTerm/IT-Essentials": "FiCpu",
+  "College/yearOne/firstTerm/IntroToCyberSecurity": "SiHackaday",
+  "College/yearOne/firstTerm/Math": "LiCalculator",
+  "College/yearOne/firstTerm/Python": "FabPython"
 }

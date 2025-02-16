@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
   "devDependencies": {
     "@markslides/markdown-it-mermaid": "^0.3.6",
     "markdown-it-mathjax3": "^4.3.2",
@@ -7,11 +12,6 @@
     "vitepress-plugin-mermaid": "^2.0.17",
     "vitepress-plugin-nprogress": "^0.0.4",
     "vitepress-sidebar": "^1.31.0"
-  },
-  "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
   },
   "dependencies": {
     "@braintree/sanitize-url": "^7.1.1",

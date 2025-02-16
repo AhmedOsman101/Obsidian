@@ -379,7 +379,7 @@ next: false
 - **Test 1:** Ping between two PCs (e.g., `PC1 -> PC2`) to verify internal LAN communication.
 - **Test 2:** Ping the server (`192.168.1.2`) and printer (`192.168.1.3`) to ensure reachability.
 
-![](./imgs/2024-12-20-19-05-54.png)
+![](imgs/2024-12-20-19-05-54.png)
 
 ##### 4. Simulation Results
 
@@ -388,8 +388,8 @@ next: false
 
 #### 5. Final Design
 
-![](./imgs/2024-12-20-18-13-09.png)
-![](./imgs/2024-12-20-18-44-09.png)
+![](imgs/2024-12-20-18-13-09.png)
+![](imgs/2024-12-20-18-44-09.png)
 
 ---
 
@@ -409,128 +409,128 @@ One of the OS's main roles is **controlling hardware access**. It achieves this 
 ###### A) Start a Fresh Installation of Windows 10
 
 - Create a new VM in VirtualBox.
-  ![](./imgs/2024-12-18-00-29-34.png)
+  ![](imgs/2024-12-18-00-29-34.png)
 
 - Attach the Windows 10 ISO.
-  ![](./imgs/2024-12-18-00-30-31.png)
+  ![](imgs/2024-12-18-00-30-31.png)
 
 - Give it at least 4GB of RAM, 30GB storage and 4 cores of your CPU.
-  ![](./imgs/2024-12-18-00-30-52.png)
+  ![](imgs/2024-12-18-00-30-52.png)
 
-  ![](./imgs/2024-12-18-00-31-10.png)
+  ![](imgs/2024-12-18-00-31-10.png)
 
 - Follow the installation wizard.
-  ![](./imgs/2024-12-18-00-31-28.png)
+  ![](imgs/2024-12-18-00-31-28.png)
 
 - Run the virtual machine.
-  ![](./imgs/2024-12-18-00-31-38.png)
+  ![](imgs/2024-12-18-00-31-38.png)
 
 ##### B) During the Installation, Set the Language, Time Zone, and Region
 
 - Select language, local and keyboard layout.
-  ![](./imgs/2024-12-18-00-32-54.png)
+  ![](imgs/2024-12-18-00-32-54.png)
 
 - Start windows installation
-  ![](./imgs/2024-12-18-00-33-27.png)
+  ![](imgs/2024-12-18-00-33-27.png)
 
 - Enter your product key if available, we will click `I don't have a product key`.
-  ![](./imgs/2024-12-18-00-33-40.png)
+  ![](imgs/2024-12-18-00-33-40.png)
 
 - Select the windows version to install (Home, Education, Pro, Enterprise). We will choose windows 10 pro.
-  ![](./imgs/2024-12-18-00-33-51.png)
+  ![](imgs/2024-12-18-00-33-51.png)
 
 - Accept terms and conditions
-  ![](./imgs/2024-12-18-00-34-00.png)
+  ![](imgs/2024-12-18-00-34-00.png)
 
 - Choose custom install (to format out disk).
-  ![](./imgs/2024-12-18-00-34-11.png)
+  ![](imgs/2024-12-18-00-34-11.png)
 
 - Choose the right disk then click `next`.
-  ![](./imgs/2024-12-18-00-34-19.png)
+  ![](imgs/2024-12-18-00-34-19.png)
 
 - Installation has begun.
-  ![](./imgs/2024-12-18-00-34-26.png)
+  ![](imgs/2024-12-18-00-34-26.png)
 
-  ![](./imgs/2024-12-18-00-45-29.png)
+  ![](imgs/2024-12-18-00-45-29.png)
 
 - Wait until it finishes.
-  ![](./imgs/2024-12-18-00-45-47.png)
+  ![](imgs/2024-12-18-00-45-47.png)
 
-  ![](./imgs/2024-12-18-00-57-57.png)
+  ![](imgs/2024-12-18-00-57-57.png)
 
 - Choose your region.
-  ![](./imgs/2024-12-18-01-04-56.png)
+  ![](imgs/2024-12-18-01-04-56.png)
 
 - Keyboard layout.
-  ![](./imgs/2024-12-18-01-05-09.png)
+  ![](imgs/2024-12-18-01-05-09.png)
 
 - Add second layout (optional).
-  ![](./imgs/2024-12-18-01-05-16.png)
+  ![](imgs/2024-12-18-01-05-16.png)
 
 - Setup networking.
-  ![](./imgs/2024-12-18-01-08-24.png)
+  ![](imgs/2024-12-18-01-08-24.png)
 
 - Answer some questions.
-  ![](./imgs/2024-12-18-01-10-48.png)
+  ![](imgs/2024-12-18-01-10-48.png)
 
 - Add/Create your microsoft account or continue with an offline account.
-  ![](./imgs/2024-12-18-01-11-56.png)
+  ![](imgs/2024-12-18-01-11-56.png)
 
 - Skip unnecessary features.
-  ![](./imgs/2024-12-18-01-12-19.png)
+  ![](imgs/2024-12-18-01-12-19.png)
 
 - Enter your username.
-  ![](./imgs/2024-12-18-01-12-53.png)
+  ![](imgs/2024-12-18-01-12-53.png)
 
 - Create a password (optional but recommended).
-  ![](./imgs/2024-12-18-01-13-01.png)
+  ![](imgs/2024-12-18-01-13-01.png)
 
 - Confirm your password.
-  ![](./imgs/2024-12-18-01-13-12.png)
+  ![](imgs/2024-12-18-01-13-12.png)
 
 - Answer security questions (3 questions).
-  ![](./imgs/2024-12-18-01-13-27.png)
+  ![](imgs/2024-12-18-01-13-27.png)
 
-  ![](./imgs/2024-12-18-01-13-56.png)
+  ![](imgs/2024-12-18-01-13-56.png)
 
-  ![](./imgs/2024-12-18-01-14-09.png)
+  ![](imgs/2024-12-18-01-14-09.png)
 
 - Turn off telemetry.
-  ![](./imgs/2024-12-18-01-16-09.png)
+  ![](imgs/2024-12-18-01-16-09.png)
 
 - Skip marketing questions.
-  ![](./imgs/2024-12-18-01-16-21.png)
+  ![](imgs/2024-12-18-01-16-21.png)
 
 - Skip setting up Cortana.
-  ![](./imgs/2024-12-18-01-16-33.png)
+  ![](imgs/2024-12-18-01-16-33.png)
 
 - Finishing up the installation.
-  ![](./imgs/2024-12-18-01-16-51.png)
+  ![](imgs/2024-12-18-01-16-51.png)
 
 - Installation completed.
-  ![](./imgs/2024-12-18-01-20-50.png)
+  ![](imgs/2024-12-18-01-20-50.png)
 
 ##### C) After Installation, Create User Accounts and Set Up User Permissions
 
 - Open windows settings app
-  ![](./imgs/2024-12-18-01-39-34.png)
+  ![](imgs/2024-12-18-01-39-34.png)
 - Select `Accounts` -> `Family & Other Users`
-  ![](./imgs/2024-12-18-01-39-43.png)
+  ![](imgs/2024-12-18-01-39-43.png)
 - Select `Add someone else to this PC` -> `I don't have this person's sign-in information`
-  ![](./imgs/2024-12-18-01-40-02.png)
+  ![](imgs/2024-12-18-01-40-02.png)
 - Add a user without microsoft account.
-  ![](./imgs/2024-12-18-01-40-12.png)
+  ![](imgs/2024-12-18-01-40-12.png)
 - Insert username, password, confirm-password, and security questions.
-  ![](./imgs/2024-12-18-01-40-59.png)
+  ![](imgs/2024-12-18-01-40-59.png)
 - Repeat to add another account.
-  ![](./imgs/2024-12-18-01-42-51.png)
+  ![](imgs/2024-12-18-01-42-51.png)
 - Change account type.
-  ![](./imgs/2024-12-18-01-43-11.png)
+  ![](imgs/2024-12-18-01-43-11.png)
 - Change account to `Administrator` or `Standard User`.
-  ![](./imgs/2024-12-18-01-43-27.png)
-  ![](./imgs/2024-12-18-01-43-32.png)
+  ![](imgs/2024-12-18-01-43-27.png)
+  ![](imgs/2024-12-18-01-43-32.png)
 - Now we have two users one is Administrator and the other one is a standard user.
-  ![](./imgs/2024-12-18-01-43-37.png)
+  ![](imgs/2024-12-18-01-43-37.png)
 
 ##### D) Compare Between Fat32 and Ntfs File Systems Then Configure a Storage Device With the Appropriate File System Based on Its Intended Use
 
@@ -573,38 +573,38 @@ FAT32 (File Allocation Table 32) and NTFS (New Technology File System) are two p
 ###### Configure a storage device with the appropriate file system.
 
 - Open `Disk Manager` from the start menu.
-  ![](./imgs/2024-12-18-01-44-20.png)
+  ![](imgs/2024-12-18-01-44-20.png)
 - Select unallocated space (or select an existing **EMPTY** partition and change its file system)
-  ![](./imgs/2024-12-18-01-46-00.png)
+  ![](imgs/2024-12-18-01-46-00.png)
 - Click `New simple volume`.
-  ![](./imgs/2024-12-18-01-46-06.png)
+  ![](imgs/2024-12-18-01-46-06.png)
 - Click `Next`.
-  ![](./imgs/2024-12-18-01-46-15.png)
+  ![](imgs/2024-12-18-01-46-15.png)
 - Enter the size of the partition in MBs.
-  ![](./imgs/2024-12-18-01-46-51.png)
+  ![](imgs/2024-12-18-01-46-51.png)
 - Assign a letter to the partition.
-  ![](./imgs/2024-12-18-01-47-02.png)
+  ![](imgs/2024-12-18-01-47-02.png)
 - Choose the file system (FAT32 or NTFS). I will choose NTFS for better performance.
-  ![](./imgs/2024-12-18-01-47-09.png)
+  ![](imgs/2024-12-18-01-47-09.png)
 - Add a label to the partition then click `next`.
-  ![](./imgs/2024-12-18-01-47-21.png)
+  ![](imgs/2024-12-18-01-47-21.png)
 - Click `Finish`.
-  ![](./imgs/2024-12-18-01-47-25.png)
+  ![](imgs/2024-12-18-01-47-25.png)
 - Now we have a new `4.82GB NTFS` partition `test` with the letter `E`.
-  ![](./imgs/2024-12-18-01-47-43.png)
+  ![](imgs/2024-12-18-01-47-43.png)
 
 ##### E) Set Up a Local Area Network (Lan) Connection or Wi-Fi, Ensuring Internet Access.
 
 - Open `Network & Internet` in the settings.
-  ![](./imgs/2024-12-18-01-51-38.png)
+  ![](imgs/2024-12-18-01-51-38.png)
 - Because of the virtual machine the network is already working.
-  ![](./imgs/2024-12-18-01-51-43.png)
+  ![](imgs/2024-12-18-01-51-43.png)
 - To verify click on `Change adapter options`.
-  ![](./imgs/2024-12-18-01-51-46.png)
+  ![](imgs/2024-12-18-01-51-46.png)
 - Select your adapter (Wi-Fi for WLAN or Ethernet for LAN) I will choose my Ethernet adapter.
-  ![](./imgs/2024-12-18-01-51-54.png)
+  ![](imgs/2024-12-18-01-51-54.png)
 - Right click on it then select `Status`.
-  ![](./imgs/2024-12-18-01-51-58.png)
+  ![](imgs/2024-12-18-01-51-58.png)
 - It shows the following info:
 
 | Property    | Value                         |
@@ -615,48 +615,48 @@ FAT32 (File Allocation Table 32) and NTFS (New Technology File System) are two p
 | Duration    | 57 Minutes                    |
 | Speed       | 1 Gbps (Giga bits per second) |
 
-![](./imgs/2024-12-18-01-54-09.png)
+![](imgs/2024-12-18-01-54-09.png)
 
 Which tells us that this Ethernet cable utilizes IPv4 for internet access and IPv6 is disabled, the cable has been up for 57 minutes at speed of 1Gbps.
 
 - To further verify we will try to ping into a website e.g. [archlinux.org](https://archlinux.org/). Open the command prompt using start menu.
-  ![](./imgs/2024-12-18-01-54-43.png)
+  ![](imgs/2024-12-18-01-54-43.png)
 - type the command `ping archlinux.org` then press Enter.
-  ![](./imgs/2024-12-18-01-55-05.png)
+  ![](imgs/2024-12-18-01-55-05.png)
 - It says `4 packets transmitted, 4 received, 0% packet loss` which means we have internet connection.
-  ![](./imgs/2024-12-18-01-55-11.png)
+  ![](imgs/2024-12-18-01-55-11.png)
 
 #### Q8: After Successfully Installing Windows 10, Configure Security Settings Such as Windows Defender, Firewall, User Account Control.
 
 ##### Enable firewall:
 
 - Launch Control Panel from the start menu.
-  ![](./imgs/2024-12-19-18-05-04.png)
+  ![](imgs/2024-12-19-18-05-04.png)
 - Open `Windows Defender Firewall`.
-  ![](./imgs/2024-12-19-18-06-19.png)
+  ![](imgs/2024-12-19-18-06-19.png)
 - Here it's disabled so let's enable it.
-  ![](./imgs/2024-12-19-18-10-17.png)
+  ![](imgs/2024-12-19-18-10-17.png)
 - Check both boxes to turn on the firewall, then click `OK`.
-  ![](./imgs/2024-12-19-18-11-07.png)
+  ![](imgs/2024-12-19-18-11-07.png)
 
 ###### Verify that the firewall is working:
 
 - Open `settings` -> `Updates & Security`.
-  ![](./imgs/2024-12-18-02-02-21.png)
+  ![](imgs/2024-12-18-02-02-21.png)
 - Click on `Windows Security` -> `Open Windows Security`.
-  ![](./imgs/2024-12-18-02-02-43.png)
+  ![](imgs/2024-12-18-02-02-43.png)
 - Go to `Firewall & Network Protection`.
-  ![](./imgs/2024-12-18-02-02-52.png)
+  ![](imgs/2024-12-18-02-02-52.png)
 - Firewall is successfully enabled.
-  ![](./imgs/2024-12-18-02-02-58.png)
+  ![](imgs/2024-12-18-02-02-58.png)
 
 ##### Setup User Account Control:
 
 - In settings search for `User Account Control`.
-  ![](./imgs/2024-12-18-02-06-18.png)
+  ![](imgs/2024-12-18-02-06-18.png)
 - User Account Control for this device is disabled let's enable it.
-  ![](./imgs/2024-12-19-18-13-00.png)
+  ![](imgs/2024-12-19-18-13-00.png)
 - Drag the slider to the top for maximum security.
-  ![](./imgs/2024-12-18-02-06-03.png)
+  ![](imgs/2024-12-18-02-06-03.png)
 - It will prompt you to verify this operation, click `OK` and you're done.
-  ![](./imgs/2024-12-18-02-06-07.png)
+  ![](imgs/2024-12-18-02-06-07.png)

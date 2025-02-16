@@ -1,7 +1,7 @@
 ---
 prev:
-  text: "College"
-  link: "/College/index"
+  text: College
+  link: /College/index
 next: false
 lastUpdated: false
 ---

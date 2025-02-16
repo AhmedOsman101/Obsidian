@@ -34,17 +34,17 @@
     "debugMode": false
   },
   "College": "TiSchool",
-  "College/Python": "FabPython",
-  "College/IT-Essentials": "FiCpu",
-  "College/IntroToCyberSecurity": "SiHackaday",
   "Courses": "SiUdemy",
   "Courses/LinuxCrashCourse.md": "FabLinux",
   "Courses/PHP-Elzero.md": "SiPhp",
   "Courses/Mastering Laravel 10 Query Builder, Eloquent and Relationships": "SiLaravel",
   "Thoughts": "RiLightbulbFill",
-  "College/Math": "LiCalculator",
   "General": "FasBook",
   "Courses/Mastering_Laravel_10_Database_and_Eloquent.md": "FabLaravel",
   "Courses/Manara/NodeJs": "FabNodeJs",
-  "Programming": "FasCode"
+  "Programming": "FasCode",
+  "College/firstYear/firstTerm/IntroToCyberSecurity": "SiHackaday",
+  "College/firstYear/firstTerm/IT-Essentials": "FiCpu",
+  "College/firstYear/firstTerm/Math": "LiCalculator",
+  "College/firstYear/firstTerm/Python": "FabPython"
 }

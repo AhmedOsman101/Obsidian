@@ -16,6 +16,7 @@
   "dependencies": {
     "@braintree/sanitize-url": "^7.1.1",
     "@catppuccin/vitepress": "^0.1.0",
+    "@vercel/speed-insights": "^1.2.0",
     "cytoscape": "^3.31.0",
     "cytoscape-cose-bilkent": "^4.1.0",
     "dayjs": "^1.11.13",
@@ -24,5 +25,10 @@
     "minisearch": "^7.1.1",
     "vue": "^3.5.13"
   },
-  "packageManager": "pnpm@10.4.0"
+  "packageManager": "pnpm@10.4.0",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@vercel/speed-insights"
+    ]
+  }
 }

@@ -1,3 +1,4 @@
+import { injectSpeedInsights } from "@vercel/speed-insights";
 import vitepressNprogress from "vitepress-plugin-nprogress";
 import type { EnhanceAppContext } from "vitepress/dist/client/index.js";
 import DefaultTheme from "vitepress/theme-without-fonts";
@@ -9,5 +10,6 @@ export default {
 	...DefaultTheme,
 	enhanceApp: (ctx: EnhanceAppContext) => {
 		vitepressNprogress(ctx);
+		injectSpeedInsights();
 	},
 };

@@ -2,10 +2,10 @@
 title: Lecture 1
 prev:
   text: Introduction to Cybersecurity
-  link: /College/IntroToCyberSecurity/Lectures/index
+  link: /College/yearOne/firstTerm/IntroToCyberSecurity/Lectures/index
 next:
   text: Lecture Two
-  link: /College/IntroToCyberSecurity/Lectures/LectureTwo
+  link: /College/yearOne/firstTerm/IntroToCyberSecurity/Lectures/LectureTwo
 ---
 
 # Introduction to Cybersecurity Lecture 1
@@ -49,11 +49,12 @@ The cybersecurity industry is rapidly expanding, with the global market expected
 
 #### The Growing Threat of Cyber Attacks
 
-In today's digital age, cybersecurity is crucial as **a single breach can expose millions of people's personal information**, causing **financial losses** and **eroding customer trust**. Hence, cybersecurity is essential to **protect businesses and individuals** from **spammers and cybercriminals**. 
+In today's digital age, cybersecurity is crucial as **a single breach can expose millions of people's personal information**, causing **financial losses** and **eroding customer trust**. Hence, cybersecurity is essential to **protect businesses and individuals** from **spammers and cybercriminals**.
 
 #### Types of Data Protected by Cybersecurity
 
 Cybersecurity protects various types of data, including:
+
 1. **Sensitive Information**
 2. [**Personally Identifiable Information**](https://www.upguard.com/blog/personally-identifiable-information-pii) (PII)
 3. **Protected Health Information** (PHI)
@@ -65,13 +66,13 @@ Without a robust cybersecurity program, organizations become vulnerable to breac
 
 #### Rising Risks and Challenges
 
-The risk of successful cyber attacks and data breaches is rising due to widespread **poor cloud service configurations** and **increasingly sophisticated cybercriminals**. **Business leaders can no longer rely solely on basic cybersecurity solutions like antivirus software and firewalls**, as **cybercriminals are adapting** their tactics to overcome conventional defenses. Comprehensive coverage of all cybersecurity aspects is essential for protection. 
+The risk of successful cyber attacks and data breaches is rising due to widespread **poor cloud service configurations** and **increasingly sophisticated cybercriminals**. **Business leaders can no longer rely solely on basic cybersecurity solutions like antivirus software and firewalls**, as **cybercriminals are adapting** their tactics to overcome conventional defenses. Comprehensive coverage of all cybersecurity aspects is essential for protection.
 
 Additionally, both inherent and residual risks are growing due to global connectivity and the use of cloud services, such as **Amazon Web Services** (AWS), for storing sensitive data.
 
 #### The Impact of Digital Transformation
 
-As organizations increasingly adopt digital transformation, **the risk of cybercrime is rising** rapidly, making **IT infrastructure crucial for defense against cyberattacks**. **Data breaches now affect all industries**, not just highly regulated sectors like healthcare, and even small businesses face the risk of severe reputational damage. 
+As organizations increasingly adopt digital transformation, **the risk of cybercrime is rising** rapidly, making **IT infrastructure crucial for defense against cyberattacks**. **Data breaches now affect all industries**, not just highly regulated sectors like healthcare, and even small businesses face the risk of severe reputational damage.
 
 #### Investment in Cybersecurity
 

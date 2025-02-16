@@ -2,10 +2,10 @@
 title: Lecture 4
 prev:
   text: Lecture Three
-  link: /College/IntroToCyberSecurity/Lectures/LectureThree
+  link: /College/yearOne/firstTerm/IntroToCyberSecurity/Lectures/LectureThree
 next:
   text: Lecture Five
-  link: /College/IntroToCyberSecurity/Lectures/LectureFive
+  link: /College/yearOne/firstTerm/IntroToCyberSecurity/Lectures/LectureFive
 ---
 
 # Introduction to Cybersecurity Lecture 4

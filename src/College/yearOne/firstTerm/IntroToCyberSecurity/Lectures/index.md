@@ -2,7 +2,7 @@
 title: Lectures
 prev:
   text: "Introduction to Cybersecurity"
-  link: "/College/IntroToCyberSecurity/index"
+  link: "/College/yearOne/firstTerm/IntroToCyberSecurity/index"
 next: false
 lastUpdated: false
 ---

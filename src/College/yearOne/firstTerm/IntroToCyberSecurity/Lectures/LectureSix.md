@@ -2,10 +2,10 @@
 title: Lecture 6
 prev:
   text: Lecture Five
-  link: /College/IntroToCyberSecurity/Lectures/LectureFive
+  link: /College/yearOne/firstTerm/IntroToCyberSecurity/Lectures/LectureFive
 next:
   text: Lectures Seven
-  link: /College/IntroToCyberSecurity/Lectures/LectureSeven
+  link: /College/yearOne/firstTerm/IntroToCyberSecurity/Lectures/LectureSeven
 ---
 
 # Introduction to Cybersecurity Lecture 6
@@ -121,7 +121,6 @@ Cracking is the process of breaching software or system security, often using re
 
 - Used for phishing and spreading malware.
 - Common target for cyberattacks.
-
 
 ## How to Protect Yourself from Hacking
 

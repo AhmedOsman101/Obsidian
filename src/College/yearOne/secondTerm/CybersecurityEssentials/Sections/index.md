@@ -1,6 +1,7 @@
 ---
 title: Sections
-prev: "/College/yearOne/secondTerm/CybersecurityEssentials/index"
+prev:
+  link: "/College/yearOne/secondTerm/CybersecurityEssentials/index"
 next: false
 lastUpdated: false
 ---

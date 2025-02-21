@@ -1,6 +1,7 @@
 ---
 title: Sections
-prev: "/College/yearOne/secondTerm/IntroToIoT/index"
+prev:
+  link: "/College/yearOne/secondTerm/IntroToIoT/index"
 next: false
 lastUpdated: false
 ---

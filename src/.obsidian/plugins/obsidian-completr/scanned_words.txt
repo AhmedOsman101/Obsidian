@@ -608,6 +608,8 @@ Protected
 Personally
 Price
 Problem
+Put
+Produces
 IHDR
 IDATx
 IO
@@ -1254,6 +1256,9 @@ Italic
 Inline
 Initialization
 Iteration
+Introduce
+Initialize
+IntroToIoT
 pHYs
 pt
 pu
@@ -1972,6 +1977,8 @@ preserve
 partners
 pairing
 progress
+predictions
+papers
 sbf
 sPv
 sC
@@ -2814,6 +2821,15 @@ span
 searching
 swaps
 swap
+secondTerm
+skill
+situations
+systematic
+symptoms
+slowly
+spiked
+spike
+strengths
 ff
 fP
 fj
@@ -3416,6 +3432,9 @@ flips
 filter
 firstYear
 firstTerm
+feasibility
+flowing
+failed
 yq
 yh
 yS
@@ -4763,6 +4782,8 @@ wha
 wTT
 wmg
 wle
+workflow
+workflows
 BU
 Bh
 BC
@@ -5344,6 +5365,11 @@ Bitmask
 Behavior
 Blog
 BitwiseOperations
+Brainstorm
+Brainstorming
+Books
+Beginners
+Beej
 MC
 Ml
 MW
@@ -6577,6 +6603,7 @@ Login
 Logarithms
 Logs
 Logarithm
+Lack
 al
 aj
 ar
@@ -7320,6 +7347,7 @@ associative
 accumulate
 accumulator
 anit
+arrows
 Te
 Tn
 TA
@@ -7924,6 +7952,7 @@ Toggling
 Termination
 Trick
 Term
+Trial
 uj
 uq
 uXm
@@ -8458,6 +8487,9 @@ urM
 upz
 ukV
 unset
+uncover
+unoptimized
+unambiguous
 OB
 Ox
 ONynT
@@ -8965,6 +8997,9 @@ ODDDDDDD
 OZq
 OpBw
 Ogm
+Outcome
+Opportunities
+Optimize
 Uc
 Ue
 UXk
@@ -10141,6 +10176,10 @@ rho
 reduced
 react
 reciprocal
+recurrence
+recommendations
+refiability
+rgest
 eiO
 es
 ee
@@ -10838,6 +10877,8 @@ enrolled
 exponent
 exponential
 express
+evidence
+engagement
 GO
 GQ
 Gk
@@ -11360,6 +11401,8 @@ Gqd
 Growing
 Governmental
 Gray
+Generating
+Guide
 Ex
 EZR
 EG
@@ -12030,6 +12073,7 @@ Escaping
 Extremely
 Empty
 Equality
+Effectiveness
 Sal
 SQ
 SB
@@ -12770,6 +12814,13 @@ Subtracting
 Shifting
 Swapping
 Space
+SecondTerm
+Solutions
+SWOT
+Strengths
+Steeper
+Springer
+Selected
 iH
 ic
 iP
@@ -13444,6 +13495,10 @@ isolates
 identical
 initialize
 intruding
+incorrectly
+inadequate
+inaccurate
+inefficiencies
 tWA
 tW
 tM
@@ -14096,6 +14151,8 @@ truncating
 truncation
 teacher
 thier
+thorough
+tune
 nm
 nv
 nhuK
@@ -15133,6 +15190,8 @@ FTG
 FJTd
 FRRR
 FxD
+Fine
+Finiteness
 xi
 xpF
 xwG
@@ -16503,6 +16562,8 @@ beginners
 beyond
 bitmask
 blog
+blem
+book
 Nb
 NJu
 Nbsa
@@ -17042,6 +17103,7 @@ NHNV
 Nzt
 NTe
 News
+Natural
 lqQvz
 ln
 lN
@@ -17569,6 +17631,7 @@ logs
 logarithm
 logarithms
 leakage
+lectures
 Rc
 Rt
 RO
@@ -18214,6 +18277,8 @@ Restriction
 Rising
 React
 Repairing
+Readings
+Rao
 Zt
 ZB
 Zb
@@ -19819,6 +19884,8 @@ DDDDT
 DDDDDDeM
 Dnnm
 DeR
+Designing
+Definiteness
 ohQ
 oL
 ob
@@ -20315,6 +20382,7 @@ obV
 oxw
 oSjL
 overlapping
+opportunities
 mipte
 mRT
 mX
@@ -21649,6 +21717,9 @@ Captial
 Company
 Certificates
 CRUD
+Clearly
+Cause
+CybersecurityEssentials
 vb
 vO
 vvF
@@ -23054,6 +23125,12 @@ cancellation
 courses
 copouns
 cart
+collaborating
+criticism
+consumed
+consume
+chart
+chapters
 Hu
 Hg
 HiL
@@ -23642,6 +23719,7 @@ HSg
 Health
 Headers
 Header
+Hall
 hh
 hLR
 hI
@@ -24196,6 +24274,7 @@ hya
 hyperlinks
 hyphens
 halves
+hyperparameters
 Xi
 XZ
 Xn
@@ -25148,6 +25227,7 @@ gXp
 gnM
 gate
 gray
+gorithm
 KUYX
 KX
 KK
@@ -26889,6 +26969,8 @@ VYv
 VXk
 VmT
 Vbe
+Vendor
+Visualize
 dk
 dR
 dV
@@ -27564,6 +27646,13 @@ discrete
 dxG
 doubles
 duplicates
+dentify
+dark
+dig
+deeper
+did
+diagram
+denote
 AK
 AQ
 Aya
@@ -28274,6 +28363,8 @@ Approaches
 Approach
 Avoids
 Auth
+Asking
+Accepts
 Jw
 Jg
 JT
@@ -28770,6 +28861,7 @@ JOc
 JRr
 JFY
 JHL
+Jorgensen
 Qv
 QL
 QD
@@ -29205,6 +29297,7 @@ QAT
 Qll
 Qev
 QOV
+Quiz
 WliB
 WWO
 WRY
@@ -29690,6 +29783,7 @@ WPmfM
 Wxi
 Works
 WatchingVsSeeing
+Whys
 Ötl
 ÖC
 Öm

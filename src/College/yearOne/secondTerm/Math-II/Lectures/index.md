@@ -1,6 +1,6 @@
 ---
 title: Lectures
-prev: "/College/yearOne/SecondTerm/Math/index"
+prev: "/College/yearOne/secondTerm/Math-II/index"
 next: false
 lastUpdated: false
 ---

@@ -1,6 +1,8 @@
 ---
 title: Intro To IoT
-prev: "/College/yearOne/SecondTerm/index"
+prev:
+  text: Second Term
+  link: "/College/yearOne/secondTerm/index"
 next: false
 lastUpdated: false
 ---

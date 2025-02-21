@@ -15,4 +15,9 @@ lastUpdated: false
   - [IT Essentials](firstTerm/IT-Essentials/index.md)
   - [Intro to Cybersecurity](firstTerm/IntroToCyberSecurity/index.md)
 
-- [Second Term](firstTerm/index.md)
+- [Second Term](secondTerm/index.md)
+  - [C Essentials](secondTerm/C-Essentials/index.md)
+  - [Introduction to IoT](secondTerm/IntroToIoT/index.md)
+  - [Cybersecurity Essentials](secondTerm/CybersecurityEssentials/index.md)
+  - [Microsoft Office](secondTerm/MS-Office/index.md)
+  - [Math](secondTerm/Math-II/index.md)

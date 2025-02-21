@@ -1,8 +1,9 @@
 ---
-title: MS Office
-prev: "/College/yearOne/SecondTerm/index"
+title: Assignments
+prev:
+  link: "/College/yearOne/secondTerm/index"
 next: false
 lastUpdated: false
 ---
 
-# Microsoft Office
+# Assignments

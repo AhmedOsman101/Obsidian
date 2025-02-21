@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "FasC",
-      "SiC",
-      "FasCode",
-      "FabNodeJs",
-      "FasBook"
+      "SiMicrosoftword",
+      "LiCalculator",
+      "SiArduino",
+      "SiHackaday",
+      "FasC"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -44,5 +44,9 @@
   "College/yearOne/firstTerm/IT-Essentials": "FiCpu",
   "College/yearOne/firstTerm/IntroToCyberSecurity": "SiHackaday",
   "College/yearOne/firstTerm/Math": "LiCalculator",
-  "College/yearOne/firstTerm/Python": "FabPython"
+  "College/yearOne/firstTerm/Python": "FabPython",
+  "College/yearOne/secondTerm/CybersecurityEssentials": "SiHackaday",
+  "College/yearOne/secondTerm/IntroToIoT": "SiArduino",
+  "College/yearOne/secondTerm/Math-II": "LiCalculator",
+  "College/yearOne/secondTerm/MS-Office": "SiMicrosoftword"
 }

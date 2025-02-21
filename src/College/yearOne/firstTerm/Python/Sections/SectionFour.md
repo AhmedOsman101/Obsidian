@@ -48,7 +48,6 @@ title: Rectangle
 ---
 flowchart LR
     id1[c = a + b]
-
 ```
 
 ### 4. Diamond
@@ -62,7 +61,6 @@ title: Diamond
 
 flowchart TD
     id1{age < 18}
-
 ```
 
 ### 5. Flow Lines
@@ -82,7 +80,6 @@ flowchart LR
     id1((Part II))
     id2([Start])
     id1 --> id2
-
 ```
 
 ### Flowchart Example for Decision-Making

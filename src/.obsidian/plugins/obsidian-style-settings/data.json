@@ -27,5 +27,9 @@
   "Editor@@link-color@@dark": "#7AA2F7",
   "Editor@@link-decoration": "unset",
   "Editor@@link-external-color@@dark": "#7AA2F7",
-  "Editor@@link-external-decoration": "unset"
+  "Editor@@link-external-decoration": "unset",
+  "things-style@@active-line": true,
+  "things-style@@fancy-code": false,
+  "things-style@@fancy-highlight": true,
+  "things-style@@no-kanban-styles": true
 }

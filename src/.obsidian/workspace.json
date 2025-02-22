@@ -15,7 +15,7 @@
               "state": {
                 "file": "College/yearOne/secondTerm/C-Essentials/Lectures/LectureOne.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
@@ -104,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 302.5,
+    "collapsed": true
   },
   "right": {
     "id": "f35096d70d8deb78",

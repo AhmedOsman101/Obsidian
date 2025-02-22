@@ -8,3 +8,6 @@ lastUpdated: false
 ---
 
 # Math II
+
+- [Lectures](Lectures/index.md)
+  - [Lecture One](Lectures/LectureOne.md)

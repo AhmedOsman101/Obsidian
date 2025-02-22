@@ -7,3 +7,6 @@ lastUpdated: false
 ---
 
 # Assignments
+
+- [Lectures](Lectures/index.md)
+  - [Lecture One](Lectures/LectureOne.md)

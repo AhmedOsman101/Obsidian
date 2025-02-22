@@ -8,3 +8,6 @@ lastUpdated: false
 ---
 
 # C Essentials
+
+- [Lectures](Lectures/index.md)
+  - [Lecture One](Lectures/LectureOne.md)

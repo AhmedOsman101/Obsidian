@@ -610,6 +610,7 @@ Price
 Problem
 Put
 Produces
+Positive
 IHDR
 IDATx
 IO
@@ -1259,6 +1260,9 @@ Iteration
 Introduce
 Initialize
 IntroToIoT
+Indicate
+Inadequate
+Indicating
 pHYs
 pt
 pu
@@ -7348,6 +7352,7 @@ accumulate
 accumulator
 anit
 arrows
+acceptable
 Te
 Tn
 TA
@@ -7953,6 +7958,8 @@ Termination
 Trick
 Term
 Trial
+Tuning
+Textbooks
 uj
 uq
 uXm
@@ -9000,6 +9007,7 @@ Ogm
 Outcome
 Opportunities
 Optimize
+Outcomes
 Uc
 Ue
 UXk
@@ -9512,6 +9520,8 @@ UNW
 UWWS
 UEE
 Unsetting
+Uncover
+Unoptimized
 ra
 rO
 rV
@@ -10180,6 +10190,9 @@ recurrence
 recommendations
 refiability
 rgest
+reasonable
+readings
+resolved
 eiO
 es
 ee
@@ -12074,6 +12087,8 @@ Extremely
 Empty
 Equality
 Effectiveness
+Experiment
+Executable
 Sal
 SQ
 SB
@@ -13499,6 +13514,7 @@ incorrectly
 inadequate
 inaccurate
 inefficiencies
+iteratively
 tWA
 tW
 tM
@@ -14153,6 +14169,7 @@ teacher
 thier
 thorough
 tune
+tuning
 nm
 nv
 nhuK
@@ -15192,6 +15209,9 @@ FRRR
 FxD
 Fine
 Finiteness
+Fixing
+Fundamentals
+Finite
 xi
 xpF
 xwG
@@ -16564,6 +16584,8 @@ bitmask
 blog
 blem
 book
+bottlenecks
+branches
 Nb
 NJu
 Nbsa
@@ -18279,6 +18301,7 @@ React
 Repairing
 Readings
 Rao
+Repetition
 Zt
 ZB
 Zb
@@ -19886,6 +19909,9 @@ Dnnm
 DeR
 Designing
 Definiteness
+Debugging
+Definite
+Diagrammatic
 ohQ
 oL
 ob
@@ -20988,6 +21014,7 @@ masked
 modulo
 mask
 map
+modifications
 Ck
 CS
 Cm
@@ -21720,6 +21747,7 @@ CRUD
 Clearly
 Cause
 CybersecurityEssentials
+Clear
 vb
 vO
 vvF
@@ -22221,6 +22249,7 @@ vzt
 vec
 vnwqJ
 volunteer
+visualizing
 ck
 cr
 ce
@@ -23131,6 +23160,9 @@ consumed
 consume
 chart
 chapters
+charts
+clearly
+collaborative
 Hu
 Hg
 HiL
@@ -23720,6 +23752,7 @@ Health
 Headers
 Header
 Hall
+Hyperparameter
 hh
 hLR
 hI
@@ -27653,6 +27686,8 @@ deeper
 did
 diagram
 denote
+deep
+diamonds
 AK
 AQ
 Aya
@@ -28365,6 +28400,9 @@ Avoids
 Auth
 Asking
 Accepts
+Ask
+Average
+Among
 Jw
 Jg
 JT

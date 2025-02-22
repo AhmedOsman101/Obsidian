@@ -13,13 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearOne/secondTerm/MS-Office/index.md",
+                "file": "College/yearOne/secondTerm/C-Essentials/Lectures/LectureOne.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "LectureOne"
+            }
+          },
+          {
+            "id": "0ff47ca2a0bcabed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "College/yearOne/secondTerm/C-Essentials/Lectures/draft.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "draft"
             }
           }
         ]
@@ -151,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/yearOne/secondTerm/MS-Office/index.md",
+                "file": "College/yearOne/secondTerm/C-Essentials/Lectures/LectureOne.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of LectureOne"
             }
           },
           {
@@ -196,13 +211,15 @@
   },
   "active": "56ffa78b0230631f",
   "lastOpenFiles": [
+    "College/yearOne/secondTerm/C-Essentials/Lectures/draft.md",
+    "College/yearOne/secondTerm/C-Essentials/Lectures/LectureOne.md",
+    "College/yearOne/secondTerm/MS-Office/index.md",
+    "College/yearOne/secondTerm/C-Essentials/Lectures/lectureOne.mmd",
     "College/yearOne/secondTerm/script.sh",
     "College/yearOne/secondTerm/C-Essentials/Assignments/index.md.bak",
     "College/yearOne/secondTerm/index.md",
     "College/index.md",
     "College/yearOne/index.md",
-    "College/yearOne/secondTerm/C-Essentials/Lectures/draft.md",
-    "College/yearOne/secondTerm/C-Essentials/Lectures/LectureOne.md",
     "College/yearOne/firstTerm/Math/Lectures/LectureThree.md",
     "College/yearOne/secondTerm/C-Essentials/Lectures/output.md",
     "College/yearOne/secondTerm/C-Essentials/Lectures/index.md",
@@ -230,8 +247,6 @@
     "College/yearOne/secondTerm/IntroToIoT/Lectures/index.md",
     "College/yearOne/secondTerm/IntroToIoT/Assignments/index.md",
     "College/yearOne/secondTerm/CybersecurityEssentials/Sections/index.md",
-    "College/yearOne/secondTerm/Math-II/Sections",
-    "College/yearOne/secondTerm/Math-II/Lectures",
     "Courses/imgs/figure.png",
     "College/yearOne/firstTerm/Python/imgs/output1.png",
     "College/yearOne/firstTerm/Python/imgs/output1.png",

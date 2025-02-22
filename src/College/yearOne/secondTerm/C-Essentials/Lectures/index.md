@@ -1,6 +1,7 @@
 ---
 title: Lectures
 prev:
+  text: "C Essentials"
   link: "/College/yearOne/secondTerm/C-Essentials/index"
 next: false
 lastUpdated: false

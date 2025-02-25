@@ -1264,6 +1264,7 @@ IntroToIoT
 Indicate
 Inadequate
 Indicating
+Instant
 pHYs
 pt
 pu
@@ -2835,6 +2836,10 @@ slowly
 spiked
 spike
 strengths
+sensing
+softwares
+sorts
+summarize
 ff
 fP
 fj
@@ -3440,6 +3445,8 @@ firstTerm
 feasibility
 flowing
 failed
+fashion
+forth
 yq
 yh
 yS
@@ -4789,6 +4796,7 @@ wmg
 wle
 workflow
 workflows
+worldwide
 BU
 Bh
 BC
@@ -5375,6 +5383,7 @@ Brainstorming
 Books
 Beginners
 Beej
+Big
 MC
 Ml
 MW
@@ -6004,6 +6013,7 @@ ModelExam
 Multiplicative
 Mulitplication
 MathForProblemSolving
+Major
 Lj
 Lf
 LvVa
@@ -7354,6 +7364,14 @@ accumulator
 anit
 arrows
 acceptable
+actuators
+analytics
+actuation
+actuating
+appliances
+aggregate
+assisted
+autonomous
 Te
 Tn
 TA
@@ -7961,6 +7979,7 @@ Term
 Trial
 Tuning
 Textbooks
+Things
 uj
 uq
 uXm
@@ -9009,6 +9028,7 @@ Outcome
 Opportunities
 Optimize
 Outcomes
+Outline
 Uc
 Ue
 UXk
@@ -9523,6 +9543,7 @@ UEE
 Unsetting
 Uncover
 Unoptimized
+UIDs
 ra
 rO
 rV
@@ -10893,6 +10914,7 @@ exponential
 express
 evidence
 engagement
+enforcement
 GO
 GQ
 Gk
@@ -11417,6 +11439,7 @@ Governmental
 Gray
 Generating
 Guide
+Gathering
 Ex
 EZR
 EG
@@ -12837,6 +12860,8 @@ Strengths
 Steeper
 Springer
 Selected
+Sensing
+Sensor
 iH
 ic
 iP
@@ -13517,6 +13542,12 @@ inaccurate
 inefficiencies
 iteratively
 intact
+introduction
+introduces
+interrelated
+infrastructures
+instruments
+innovation
 tWA
 tW
 tM
@@ -14172,6 +14203,8 @@ thier
 thorough
 tune
 tuning
+templates
+themselves
 nm
 nv
 nhuK
@@ -15214,6 +15247,7 @@ Finiteness
 Fixing
 Fundamentals
 Finite
+Fog
 xi
 xpF
 xwG
@@ -18304,6 +18338,7 @@ Repairing
 Readings
 Rao
 Repetition
+Raspberry
 Zt
 ZB
 Zb
@@ -19231,6 +19266,7 @@ keay
 kTm
 kRM
 kdO
+kinds
 Dp
 DI
 Db
@@ -19914,6 +19950,7 @@ Definiteness
 Debugging
 Definite
 Diagrammatic
+Delivering
 ohQ
 oL
 ob
@@ -21017,6 +21054,8 @@ modulo
 mask
 map
 modifications
+microcontroller
+measuring
 Ck
 CS
 Cm
@@ -21750,6 +21789,11 @@ Clearly
 Cause
 CybersecurityEssentials
 Clear
+Computing
+Collecting
+Connected
+Car
+Care
 vb
 vO
 vvF
@@ -22252,6 +22296,8 @@ vec
 vnwqJ
 volunteer
 visualizing
+virtualized
+visualize
 ck
 cr
 ce
@@ -23165,6 +23211,11 @@ chapters
 charts
 clearly
 collaborative
+communicating
+collecting
+collect
+collected
+contexts
 Hu
 Hg
 HiL
@@ -27690,6 +27741,9 @@ diagram
 denote
 deep
 diamonds
+deployment
+discusses
+discover
 AK
 AQ
 Aya
@@ -28405,6 +28459,11 @@ Accepts
 Ask
 Average
 Among
+Arduino
+Agriculture
+Analytics
+Analyse
+Adapting
 Jw
 Jg
 JT
@@ -29824,6 +29883,8 @@ Wxi
 Works
 WatchingVsSeeing
 Whys
+Wearables
+WSNs
 Ötl
 ÖC
 Öm

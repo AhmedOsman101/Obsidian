@@ -612,6 +612,10 @@ Put
 Produces
 Positive
 Placeholder
+PWR
+Pulse
+PWM
+POWER
 IHDR
 IDATx
 IO
@@ -1265,6 +1269,10 @@ Indicate
 Inadequate
 Indicating
 Instant
+IOs
+Inputs
+INPUTS
+Instructions
 pHYs
 pt
 pu
@@ -1985,6 +1993,8 @@ pairing
 progress
 predictions
 papers
+programmed
+piece
 sbf
 sPv
 sC
@@ -2840,6 +2850,9 @@ sensing
 softwares
 sorts
 summarize
+sensor
+sketching
+simulator
 ff
 fP
 fj
@@ -3447,6 +3460,10 @@ flowing
 failed
 fashion
 forth
+fzf
+fetching
+fetched
+family
 yq
 yh
 yS
@@ -5384,6 +5401,9 @@ Books
 Beginners
 Beej
 Big
+Banks
+Button
+Blinking
 MC
 Ml
 MW
@@ -6014,6 +6034,12 @@ Multiplicative
 Mulitplication
 MathForProblemSolving
 Major
+Microprocessor
+Microcontroller
+Memories
+Microcontrollers
+Microprocessors
+Mega
 Lj
 Lf
 LvVa
@@ -6619,6 +6645,7 @@ Logarithms
 Logs
 Logarithm
 Lack
+Leonardo
 al
 aj
 ar
@@ -7372,6 +7399,7 @@ appliances
 aggregate
 assisted
 autonomous
+actuator
 Te
 Tn
 TA
@@ -7980,6 +8008,8 @@ Trial
 Tuning
 Textbooks
 Things
+TinkerCAD
+Tightly
 uj
 uq
 uXm
@@ -9544,6 +9574,7 @@ Unsetting
 Uncover
 Unoptimized
 UIDs
+Uno
 ra
 rO
 rV
@@ -10215,6 +10246,8 @@ rgest
 reasonable
 readings
 resolved
+reacts
+register
 eiO
 es
 ee
@@ -10915,6 +10948,7 @@ express
 evidence
 engagement
 enforcement
+externally
 GO
 GQ
 Gk
@@ -11440,6 +11474,8 @@ Gray
 Generating
 Guide
 Gathering
+GND
+Genuino
 Ex
 EZR
 EG
@@ -12862,6 +12898,12 @@ Springer
 Selected
 Sensing
 Sensor
+Specific
+Sent
+SAM
+SDA
+SCLSDA
+Started
 iH
 ic
 iP
@@ -13548,6 +13590,7 @@ interrelated
 infrastructures
 instruments
 innovation
+internally
 tWA
 tW
 tM
@@ -14205,6 +14248,7 @@ tune
 tuning
 templates
 themselves
+touse
 nm
 nv
 nhuK
@@ -15248,6 +15292,7 @@ Fixing
 Fundamentals
 Finite
 Fog
+Fetcher
 xi
 xpF
 xwG
@@ -16622,6 +16667,7 @@ blem
 book
 bottlenecks
 branches
+boards
 Nb
 NJu
 Nbsa
@@ -17162,6 +17208,7 @@ Nzt
 NTe
 News
 Natural
+Normally
 lqQvz
 ln
 lN
@@ -18339,6 +18386,10 @@ Readings
 Rao
 Repetition
 Raspberry
+Reactive
+Register
+Robots
+RESET
 Zt
 ZB
 Zb
@@ -19951,6 +20002,10 @@ Debugging
 Definite
 Diagrammatic
 Delivering
+Dependability
+Defined
+Decoder
+Due
 ohQ
 oL
 ob
@@ -20448,6 +20503,7 @@ oxw
 oSjL
 overlapping
 opportunities
+oscillator
 mipte
 mRT
 mX
@@ -21056,6 +21112,9 @@ map
 modifications
 microcontroller
 measuring
+memories
+microcomputer
+measure
 Ck
 CS
 Cm
@@ -21794,6 +21853,7 @@ Collecting
 Connected
 Car
 Care
+Continually
 vb
 vO
 vvF
@@ -22298,6 +22358,7 @@ volunteer
 visualizing
 virtualized
 visualize
+visualization
 ck
 cr
 ce
@@ -23216,6 +23277,10 @@ collecting
 collect
 collected
 contexts
+constrained
+consumes
+carried
+cont
 Hu
 Hg
 HiL
@@ -24361,6 +24426,7 @@ hyperlinks
 hyphens
 halves
 hyperparameters
+humidity
 Xi
 XZ
 Xn
@@ -25314,6 +25380,7 @@ gnM
 gate
 gray
 gorithm
+great
 KUYX
 KX
 KK
@@ -27744,6 +27811,9 @@ diamonds
 deployment
 discusses
 discover
+delay
+decoding
+decoder
 AK
 AQ
 Aya
@@ -28464,6 +28534,10 @@ Agriculture
 Analytics
 Analyse
 Adapting
+Actuators
+ALU
+Analogue
+ATmega
 Jw
 Jg
 JT
@@ -28961,6 +29035,7 @@ JRr
 JFY
 JHL
 Jorgensen
+Jack
 Qv
 QL
 QD
@@ -29885,6 +29960,7 @@ WatchingVsSeeing
 Whys
 Wearables
 WSNs
+Width
 Ötl
 ÖC
 Öm

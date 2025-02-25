@@ -5,7 +5,7 @@ prev:
   link: "/College/yearOne/secondTerm/C-Essentials/Lectures/index"
 next: false
 #  text: "Lecture Two"
-#  link: "/College/yearOne/secondTerm/C-Essentials/Lectures/index"
+#  link: "/College/yearOne/secondTerm/C-Essentials/Lectures/LectureTwo"
 ---
 
 # Programming Essentials in C - Lecture 1

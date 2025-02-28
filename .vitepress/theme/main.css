@@ -3,17 +3,20 @@
 
 /* Full-width container and centered images */
 img {
-	display: block; /* Makes the image act as a block element */
-	margin: 0 auto; /* Centers the image horizontally */
-	max-width: 100%; /* Keeps images responsive */
-	border-radius: 8px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-	transition: transform 0.2s ease;
+  display: block;
+  /* Makes the image act as a block element */
+  margin: 0 auto;
+  /* Centers the image horizontally */
+  max-width: 100%;
+  /* Keeps images responsive */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
 }
 
 /* Centering with padding and hover effect */
 img:hover {
-	transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 h1:not(.text),
@@ -22,5 +25,5 @@ h3:not(.text),
 h4:not(.text),
 h5:not(.text),
 h6:not(.text) {
-	color: #9ac4f8 !important;
+  color: #9ac4f8 !important;
 }

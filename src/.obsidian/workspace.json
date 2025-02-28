@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearOne/secondTerm/IntroToIoT/Lectures/draft.md",
+                "file": "Courses/LinuxCrashCourse.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "draft"
+              "title": "LinuxCrashCourse"
             }
           }
         ]
@@ -151,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/yearOne/secondTerm/IntroToIoT/Lectures/draft.md",
+                "file": "Courses/LinuxCrashCourse.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of draft"
+              "title": "Outline of LinuxCrashCourse"
             }
           },
           {
@@ -194,16 +194,19 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "6e6b30772217c8e6",
+  "active": "5985ab5c27f15427",
   "lastOpenFiles": [
+    "College/yearOne/secondTerm/IntroToIoT/Lectures/draft.md",
+    "College/yearOne/secondTerm/IntroToIoT/imgs/img_upscayl_4x_high-fidelity-4x.png",
+    "College/yearOne/secondTerm/IntroToIoT/imgs/figure6.png",
+    "College/yearOne/secondTerm/IntroToIoT/imgs/figure3 1.png",
+    "College/yearOne/secondTerm/IntroToIoT/imgs/figure5.png",
     "College/yearOne/secondTerm/IntroToIoT/imgs/figure4.png",
     "College/yearOne/secondTerm/IntroToIoT/imgs/figure3.png",
     "Programming/LinuxNotes/fzf.md",
-    "College/yearOne/secondTerm/IntroToIoT/Lectures/draft.md",
     "College/yearOne/secondTerm/IntroToIoT/imgs/figure1.png",
     "College/yearOne/secondTerm/IntroToIoT/imgs/figure2.png",
     "College/yearOne/secondTerm/IntroToIoT/imgs/figure3.png",
-    "College/yearOne/secondTerm/IntroToIoT/imgs/img_upscayl_4x_upscayl-standard-4x.png",
     "College/yearOne/secondTerm/IntroToIoT/imgs/Screenshot_2025-02-26-00-16-39_1440x900.png",
     "College/yearOne/secondTerm/IntroToIoT/imgs",
     "College/yearOne/firstTerm/IntroToCyberSecurity/Lectures/typescript",
@@ -237,10 +240,6 @@
     "College/yearOne/firstTerm/index.md",
     "College/yearOne/SecondTerm/index.md",
     "College/yearOne/secondTerm/MS-Office/Sections/index.md",
-    "College/yearOne/secondTerm/MS-Office/Lectures/index.md",
-    "Courses/imgs/figure.png",
-    "College/yearOne/firstTerm/Python/imgs/output1.png",
-    "College/yearOne/firstTerm/Python/imgs/output1.png",
-    "Pasted image 20241231182037.png"
+    "College/yearOne/secondTerm/MS-Office/Lectures/index.md"
   ]
 }

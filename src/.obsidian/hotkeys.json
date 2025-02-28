@@ -1,147 +1,106 @@
 {
-  "editor:open-search-replace": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "R"
-    }
-  ],
-  "window:reset-zoom": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Numpad0"
-    }
-  ],
-  "editor:swap-line-up": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "ArrowUp"
-    }
-  ],
-  "editor:swap-line-down": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "ArrowDown"
-    }
-  ],
-  "editor:insert-codeblock": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "J"
-    }
-  ],
-  "editor:insert-horizontal-rule": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "H"
-    }
-  ],
-  "workspace:close-others": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "W"
-    }
-  ],
-  "workspace:close-window": [],
-  "editor:add-cursor-above": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "ArrowUp"
-    }
-  ],
-  "editor:add-cursor-below": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "ArrowDown"
-    }
-  ],
-  "obsidian-languagetool-plugin:ltcheck-text": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "."
-    }
-  ],
-  "command-palette:open": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "P"
-    }
-  ],
-  "obsidian-better-command-palette:open-better-commmand-palette": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "P"
-    }
-  ],
-  "editor:toggle-inline-math": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "M"
-    }
-  ],
-  "editor:insert-mathblock": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "M"
-    }
-  ],
-  "editor:toggle-source": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "S"
-    }
-  ],
-  "editor:insert-link": [],
-  "editor:delete-paragraph": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "K"
-    }
-  ],
-  "editor:attach-file": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "K"
-    }
-  ]
+	"editor:open-search-replace": [
+		{
+			"modifiers": ["Mod"],
+			"key": "R"
+		}
+	],
+	"window:reset-zoom": [
+		{
+			"modifiers": ["Mod"],
+			"key": "Numpad0"
+		}
+	],
+	"editor:swap-line-up": [
+		{
+			"modifiers": ["Alt"],
+			"key": "ArrowUp"
+		}
+	],
+	"editor:swap-line-down": [
+		{
+			"modifiers": ["Alt"],
+			"key": "ArrowDown"
+		}
+	],
+	"editor:insert-codeblock": [
+		{
+			"modifiers": ["Mod"],
+			"key": "J"
+		}
+	],
+	"editor:insert-horizontal-rule": [
+		{
+			"modifiers": ["Mod"],
+			"key": "H"
+		}
+	],
+	"workspace:close-others": [
+		{
+			"modifiers": ["Mod", "Shift"],
+			"key": "W"
+		}
+	],
+	"workspace:close-window": [],
+	"editor:add-cursor-above": [
+		{
+			"modifiers": ["Alt", "Mod"],
+			"key": "ArrowUp"
+		}
+	],
+	"editor:add-cursor-below": [
+		{
+			"modifiers": ["Alt", "Mod"],
+			"key": "ArrowDown"
+		}
+	],
+	"obsidian-languagetool-plugin:ltcheck-text": [
+		{
+			"modifiers": ["Mod"],
+			"key": "."
+		}
+	],
+	"command-palette:open": [
+		{
+			"modifiers": ["Mod", "Shift"],
+			"key": "P"
+		}
+	],
+	"obsidian-better-command-palette:open-better-commmand-palette": [
+		{
+			"modifiers": ["Mod"],
+			"key": "P"
+		}
+	],
+	"editor:toggle-inline-math": [
+		{
+			"modifiers": ["Mod"],
+			"key": "M"
+		}
+	],
+	"editor:insert-mathblock": [
+		{
+			"modifiers": ["Mod", "Shift"],
+			"key": "M"
+		}
+	],
+	"editor:toggle-source": [
+		{
+			"modifiers": ["Mod", "Shift"],
+			"key": "S"
+		}
+	],
+	"editor:insert-link": [],
+	"editor:delete-paragraph": [
+		{
+			"modifiers": ["Mod"],
+			"key": "K"
+		}
+	],
+	"editor:attach-file": [
+		{
+			"modifiers": ["Mod", "Shift"],
+			"key": "K"
+		}
+	]
 }

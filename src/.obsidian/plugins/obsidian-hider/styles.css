@@ -1,7 +1,9 @@
 /* Hides vault name */
 .hider-vault .workspace-sidedock-vault-profile,
-body.hider-vault:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-profile {
-	display:none;
+body.hider-vault:not(.is-mobile)
+	.workspace-split.mod-left-split
+	.workspace-sidedock-vault-profile {
+	display: none;
 }
 
 /* Hide tabs */
@@ -18,7 +20,10 @@ body.hider-vault:not(.is-mobile) .workspace-split.mod-left-split .workspace-side
 .hider-sidebar-buttons .sidebar-toggle-button.mod-left {
 	display: none;
 }
-.hider-sidebar-buttons.mod-macos.is-hidden-frameless:not(.is-popout-window) .workspace .workspace-tabs.mod-top-right-space .workspace-tab-header-container {
+.hider-sidebar-buttons.mod-macos.is-hidden-frameless:not(.is-popout-window)
+	.workspace
+	.workspace-tabs.mod-top-right-space
+	.workspace-tab-header-container {
 	padding-right: 4px;
 }
 .hider-sidebar-buttons.mod-macos {
@@ -27,22 +32,22 @@ body.hider-vault:not(.is-mobile) .workspace-split.mod-left-split .workspace-side
 
 /* Hide meta */
 .hider-meta .markdown-reading-view .metadata-container {
-	display:none;
+	display: none;
 }
 
 /* Hide scrollbars */
 .hider-scroll ::-webkit-scrollbar {
-	display:none;
+	display: none;
 }
 
 /* Hide status */
 .hider-status .status-bar {
-	display:none;
+	display: none;
 }
 
 /* Hide tooltips */
 .hider-tooltips .tooltip {
-	display:none;
+	display: none;
 }
 
 /* Hide search suggestions */
@@ -51,16 +56,18 @@ body.hider-vault:not(.is-mobile) .workspace-split.mod-left-split .workspace-side
 }
 
 /* Hide search count flair */
-.hider-search-counts .tree-item-flair:not(.tag-pane-tag-count) { 
-	display:none;
+.hider-search-counts .tree-item-flair:not(.tag-pane-tag-count) {
+	display: none;
 }
 
 /* Hide instructions */
 .hider-instructions .prompt-instructions {
-	display:none;
+	display: none;
 }
 
 /* Hide file nav header */
-.hider-file-nav-header .workspace-leaf-content[data-type=file-explorer] .nav-header {
+.hider-file-nav-header
+	.workspace-leaf-content[data-type="file-explorer"]
+	.nav-header {
 	display: none;
 }

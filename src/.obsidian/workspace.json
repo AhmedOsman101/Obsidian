@@ -13,13 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/LinuxCrashCourse.md",
+                "file": "College/yearOne/secondTerm/IntroToIoT/Lectures/LectureTwo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "LinuxCrashCourse"
+              "title": "LectureTwo"
+            }
+          },
+          {
+            "id": "928f200dea31c22d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "College/yearOne/secondTerm/IntroToIoT/Lectures/draft.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "draft"
             }
           }
         ]
@@ -151,27 +166,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/LinuxCrashCourse.md",
+                "file": "College/yearOne/secondTerm/IntroToIoT/Lectures/LectureTwo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of LinuxCrashCourse"
-            }
-          },
-          {
-            "id": "6cd0bc19bba807e1",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "title": "Outline of LectureTwo"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -197,6 +202,9 @@
   "active": "5985ab5c27f15427",
   "lastOpenFiles": [
     "College/yearOne/secondTerm/IntroToIoT/Lectures/draft.md",
+    "College/yearOne/secondTerm/IntroToIoT/Lectures/LectureTwo.md",
+    "College/yearOne/secondTerm/IntroToIoT/Lectures/LectureOne.md",
+    "Courses/LinuxCrashCourse.md",
     "College/yearOne/secondTerm/IntroToIoT/imgs/img_upscayl_4x_high-fidelity-4x.png",
     "College/yearOne/secondTerm/IntroToIoT/imgs/figure6.png",
     "College/yearOne/secondTerm/IntroToIoT/imgs/figure3 1.png",
@@ -213,7 +221,6 @@
     "College/yearOne/firstTerm/IntroToCyberSecurity/Lectures/LectureOne.mduUu4pS.bck",
     "College/yearOne/firstTerm/IntroToCyberSecurity/Lectures/index.mdSosF6Y.bck",
     "Programming/LinuxNotes",
-    "College/yearOne/secondTerm/IntroToIoT/Lectures/LectureOne.md",
     "Courses/MasteringLaravel-10-DatabaseAndEloquent.md",
     "College/yearOne/secondTerm/C-Essentials/Lectures/draft.md",
     "College/yearOne/secondTerm/C-Essentials/Lectures/LectureOne.md",
@@ -239,7 +246,6 @@
     "College/yearOne/secondTerm/Math/Lectures",
     "College/yearOne/firstTerm/index.md",
     "College/yearOne/SecondTerm/index.md",
-    "College/yearOne/secondTerm/MS-Office/Sections/index.md",
-    "College/yearOne/secondTerm/MS-Office/Lectures/index.md"
+    "College/yearOne/secondTerm/MS-Office/Sections/index.md"
   ]
 }

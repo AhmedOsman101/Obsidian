@@ -1,14 +1,14 @@
 ---
-title: Lecture 1
+title: Lecture 2
 prev:
-  text: "Lectures"
-  link: "/College/yearOne/secondTerm/C-Essentials/Lectures/index"
-next:
-  text: "Lecture Two"
-  link: "/College/yearOne/secondTerm/C-Essentials/Lectures/LectureTwo"
+  text: "Lecture One"
+  link: "/College/yearOne/secondTerm/C-Essentials/Lectures/LectureOne"
+next: false
+#  text: "Lecture Three"
+#  link: "/College/yearOne/secondTerm/C-Essentials/Lectures/LectureThree"
 ---
 
-# Programming Essentials in C - Lecture 1
+# Programming Essentials in C - Lecture 2: Introduction to C
 
 ## What is Problem-Solving?
 

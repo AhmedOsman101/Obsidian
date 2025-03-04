@@ -4,3 +4,4 @@ dist
 draft.md
 *.mmd
 *.mermaid
+*draft*

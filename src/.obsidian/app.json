@@ -1,13 +1,13 @@
 {
   "alwaysUpdateLinks": true,
   "newLinkFormat": "relative",
-  "useMarkdownLinks": true,
+  "useMarkdownLinks": false,
   "tabSize": 2,
   "useTab": false,
   "pdfExportSettings": {
-    "pageSize": "A4",
+    "pageSize": "Tabloid",
     "landscape": false,
-    "margin": "0",
+    "margin": "1",
     "downscalePercent": 100
   },
   "promptDelete": false,
@@ -48,5 +48,7 @@
   ],
   "showLineNumber": false,
   "focusNewTab": false,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./"
 }

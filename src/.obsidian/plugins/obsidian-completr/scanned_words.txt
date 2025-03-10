@@ -668,6 +668,10 @@ PrintC
 PrintD
 PrintFail
 PRINT
+Predictive
+Perl
+Portability
+Pointer
 IHDR
 IDATx
 IO
@@ -2165,6 +2169,8 @@ pointer
 padding
 pointEnd
 pointStart
+paradigm
+produced
 sbf
 sPv
 sC
@@ -3046,6 +3052,12 @@ svg
 sans
 serif
 stroke
+subprogram
+secured
+stdio
+singled
+signed
+struct
 ff
 fP
 fj
@@ -3720,6 +3732,8 @@ fill
 ffffde
 flowchartTitleText
 foreignObject
+formal
+finance
 yq
 yh
 yS
@@ -5792,6 +5806,9 @@ BVFxJ
 BJF
 Backbone
 Boards
+BASIC
+Bell
+Backslash
 MC
 Ml
 MW
@@ -7109,6 +7126,9 @@ Lda
 LjBb
 LEDs
 Learn
+Lexical
+Linking
+Labs
 al
 aj
 ar
@@ -7928,6 +7948,7 @@ aaaa
 absolute
 arrowMarkerPath
 amp
+assembler
 Te
 Tn
 TA
@@ -9126,6 +9147,7 @@ uHb
 unstructured
 userSpaceOnUse
 url
+union
 OB
 Ox
 ONynT
@@ -9687,6 +9709,9 @@ OFx
 OpqsQ
 Ordering
 Ovens
+Objects
+Optimization
+Outputs
 Uc
 Ue
 UXk
@@ -10225,6 +10250,7 @@ UMu
 UeD
 URVd
 Upload
+Utilizing
 ra
 rO
 rV
@@ -10927,6 +10953,8 @@ rect
 rgba
 refY
 refX
+recommendation
+reuse
 eiO
 es
 ee
@@ -11681,6 +11709,9 @@ edgeLabel
 events
 edgePaths
 edgeLabels
+encapsulates
+executable
+enum
 GO
 GQ
 Gk
@@ -12249,6 +12280,7 @@ GoGrid
 GPS
 Gather
 Gwv
+GCC
 Ex
 EZR
 EG
@@ -12943,6 +12975,9 @@ Enabling
 Export
 Extension
 ECECFF
+Eclipse
+Ends
+Enumeration
 Sal
 SQ
 SB
@@ -13719,6 +13754,9 @@ SaaS
 Salesforce
 Sources
 Simulates
+Swift
+Scala
+Sequences
 iH
 ic
 iP
@@ -16304,6 +16342,9 @@ FxV
 FHy
 Flash
 Few
+FORTRAN
+Focuses
+Foundation
 xi
 xpF
 xwG
@@ -17803,6 +17844,8 @@ bpr
 beginner
 blinking
 blink
+blueprint
+byte
 Nb
 NJu
 Nbsa
@@ -18400,6 +18443,8 @@ NHB
 NGY
 NAM
 Nbd
+Netflix
+Notepad
 lqQvz
 ln
 lN
@@ -18952,6 +18997,7 @@ lnc
 lGC
 lbgg
 labelBkg
+lined
 Rc
 Rt
 RO
@@ -19638,6 +19684,7 @@ Repeatedly
 Reads
 Responds
 READ
+Ritchie
 Zt
 ZB
 Zb
@@ -21335,6 +21382,9 @@ DHC
 Dedicated
 Docs
 DSP
+Developing
+Dart
+Dennis
 ohQ
 oL
 ob
@@ -22516,6 +22566,8 @@ mermaidTooltip
 markerHeight
 markerWidth
 markerUnits
+microcontrollers
+mnemonics
 Ck
 CS
 Cm
@@ -23342,6 +23394,7 @@ Correcting
 Cameras
 Consoles
 Consumption
+COBOL
 vb
 vO
 vvF
@@ -24866,6 +24919,11 @@ circleStart
 crossEnd
 crossStart
 clusters
+communicates
+calling
+classes
+compile
+char
 Hu
 Hg
 HiL
@@ -25500,6 +25558,7 @@ Healthcare
 Hosted
 Human
 Humidity
+Humans
 hh
 hLR
 hI
@@ -26101,6 +26160,7 @@ hHZ
 hNgd
 hfede
 hsl
+header
 Xi
 XZ
 Xn
@@ -29738,6 +29798,8 @@ decodes
 dasharray
 dashed
 dotted
+debug
+declares
 AK
 AQ
 Aya
@@ -30629,6 +30691,7 @@ ALT
 Azure
 Amount
 Adjusts
+Airbag
 Jw
 Jg
 JT
@@ -32132,6 +32195,7 @@ WSN
 Wrangling
 WiFi
 Writes
+WhatsApp
 Ötl
 ÖC
 Öm

@@ -10,7 +10,6 @@ next:
 ---
 
 # Programming Essentials in C - Task One
-# Section 1 - أحمد علي أحمد علي عثمان
 
 ## Question 1
 

@@ -10,6 +10,7 @@ title: Python
 # Python
 
 - [Lectures](Lectures/index.md)
+
   - [Lecture One](Lectures/LectureOne.md)
   - [Lecture Two](Lectures/LectureTwo.md)
   - [Lecture Three](Lectures/LectureThree.md)
@@ -20,6 +21,7 @@ title: Python
   - [Lecture Eight](Lectures/LectureEight.md)
 
 - [Sections](Sections/index.md)
+
   - [Section One](Sections/SectionOne.md)
   - [Section Two](Sections/SectionTwo.md)
   - [Section Three](Sections/SectionThree.md)
@@ -28,6 +30,7 @@ title: Python
   - [Section Six](Sections/SectionSix.md)
 
 - [Assignments (Sheets)](Assignments/index.md)
+
   - [Sheet One](Assignments/AssignmentOne.md)
   - [Sheet Two](Assignments/AssignmentTwo.md)
 

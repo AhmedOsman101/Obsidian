@@ -3,7 +3,8 @@ title: Chapter One
 prev:
   text: "Chapters"
   link: "/Courses/Manara/NodeJs/Chapters/index"
-next: false
+next:
+  false
   # text: "Chapter Two"
   # link: "/Courses/Manara/NodeJs/Chapters/ChapterTwo/index"
 lastUpdated: false

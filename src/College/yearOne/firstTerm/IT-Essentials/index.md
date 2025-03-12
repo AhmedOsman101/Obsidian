@@ -10,6 +10,7 @@ lastUpdated: false
 # IT Essentials
 
 - [Lectures](Lectures/index.md)
+
   - [Lecture One](Lectures/LectureOne.md)
   - [Lecture Two](Lectures/LectureTwo.md)
   - [Lecture Three](Lectures/LectureThree.md)
@@ -21,6 +22,7 @@ lastUpdated: false
   - [Lecture Nine](Lectures/LectureNine.md)
 
 - [Sections](Sections/index.md)
+
   - [Section One](Sections/SectionOne.md)
   - [Section Two](Sections/SectionTwo.md)
   - [Section Three](Sections/SectionThree.md)
@@ -29,6 +31,7 @@ lastUpdated: false
   - [Section Six](Sections/SectionSix.md)
 
 - [Tasks](Assignments/index.md)
+
   - [Task One](Assignments/AssignmentOne.md)
   - [Task Two](Assignments/AssignmentTwo.md)
   - [Task Four](Assignments/AssignmentFour.md)

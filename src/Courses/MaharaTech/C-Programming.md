@@ -26,7 +26,7 @@ if (a == b) {
 }
 ```
 
-In a `switch` statement, the `case` labels must have exact matches, and such precision issues make it unreliable to use floating-point numbers. 
+In a `switch` statement, the `case` labels must have exact matches, and such precision issues make it unreliable to use floating-point numbers.
 
 ```C
 float a = 0.1;
@@ -41,7 +41,6 @@ switch(b) { // error: Statement requires expression of integer type ('float' inv
 Attempting to write a switch statement with a float would result in the following errors:
 
 ![](../imgs/figure.png)
-
 
 ---
 

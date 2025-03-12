@@ -3,7 +3,8 @@ title: Module 2
 prev:
   text: "Module 1"
   link: "/Courses/Manara/NodeJs/Chapters/ChapterOne/ModuleOne"
-next: false
+next:
+  false
   # text: "Module 3"
   # link: "/Courses/Manara/NodeJs/Chapters/ChapterOne/ModuleThree"
 ---

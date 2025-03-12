@@ -9,4 +9,3 @@ next: false
 ---
 
 # Programming Essentials in C - Lecture 2: Introduction to C
-

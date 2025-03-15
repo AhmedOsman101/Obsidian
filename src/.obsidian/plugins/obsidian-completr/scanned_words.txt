@@ -3058,6 +3058,7 @@ stdio
 singled
 signed
 struct
+specifiers
 ff
 fP
 fj
@@ -11712,6 +11713,7 @@ edgeLabels
 encapsulates
 executable
 enum
+encapsulate
 GO
 GQ
 Gk
@@ -16345,6 +16347,7 @@ Few
 FORTRAN
 Focuses
 Foundation
+Fortran
 xi
 xpF
 xwG
@@ -23395,6 +23398,7 @@ Cameras
 Consoles
 Consumption
 COBOL
+Cobol
 vb
 vO
 vvF
@@ -30692,6 +30696,7 @@ Azure
 Amount
 Adjusts
 Airbag
+Algol
 Jw
 Jg
 JT

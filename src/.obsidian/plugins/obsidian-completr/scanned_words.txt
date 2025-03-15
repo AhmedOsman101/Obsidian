@@ -672,6 +672,8 @@ Predictive
 Perl
 Portability
 Pointer
+Paradigm
+Parsing
 IHDR
 IDATx
 IO
@@ -1392,6 +1394,10 @@ IaaS
 Improving
 Instantly
 Intermediate
+Improves
+Immediate
+Int
+Increases
 pHYs
 pt
 pu
@@ -2172,6 +2178,8 @@ pointEnd
 pointStart
 paradigm
 produced
+pass
+polymorphism
 sbf
 sPv
 sC
@@ -3061,6 +3069,7 @@ signed
 struct
 specifiers
 semicolon
+subprograms
 ff
 fP
 fj
@@ -3737,6 +3746,7 @@ flowchartTitleText
 foreignObject
 formal
 finance
+focuses
 yq
 yh
 yS
@@ -6483,6 +6493,9 @@ MTb
 Moisture
 Managing
 Microwave
+Modifiability
+Missing
+Modifier
 Lj
 Lf
 LvVa
@@ -11719,6 +11732,7 @@ encapsulates
 executable
 enum
 encapsulate
+extends
 GO
 GQ
 Gk
@@ -12985,6 +12999,8 @@ ECECFF
 Eclipse
 Ends
 Enumeration
+Entire
+Enum
 Sal
 SQ
 SB
@@ -13765,6 +13781,11 @@ Swift
 Scala
 Sequences
 Stops
+Specifiers
+Secured
+Shown
+Semicolons
+Struct
 iH
 ic
 iP
@@ -14479,6 +14500,8 @@ interests
 icon
 interpretation
 ignores
+inheritance
+ignored
 tWA
 tW
 tM
@@ -16356,6 +16379,7 @@ FORTRAN
 Focuses
 Foundation
 Fortran
+Fix
 xi
 xpF
 xwG
@@ -18456,6 +18480,7 @@ NAM
 Nbd
 Netflix
 Notepad
+Needed
 lqQvz
 ln
 lN
@@ -19696,6 +19721,7 @@ Reads
 Responds
 READ
 Ritchie
+Reuse
 Zt
 ZB
 Zb
@@ -21396,6 +21422,7 @@ DSP
 Developing
 Dart
 Dennis
+Divided
 ohQ
 oL
 ob
@@ -22579,6 +22606,8 @@ markerWidth
 markerUnits
 microcontrollers
 mnemonics
+major
+modifiers
 Ck
 CS
 Cm
@@ -23408,6 +23437,7 @@ Consumption
 COBOL
 Cobol
 Clang
+Char
 vb
 vO
 vvF
@@ -23952,6 +23982,7 @@ vbCGx
 vusep
 viewBox
 verdana
+violates
 ck
 cr
 ce
@@ -24938,6 +24969,7 @@ classes
 compile
 char
 compilation
+converted
 Hu
 Hg
 HiL
@@ -27231,6 +27263,7 @@ gPUVa
 generated
 gaps
 grading
+grammatical
 KUYX
 KX
 KK
@@ -30709,6 +30742,7 @@ Adjusts
 Airbag
 Algol
 Approx
+Applies
 Jw
 Jg
 JT
@@ -31698,6 +31732,7 @@ QFFD
 QII
 QfFF
 Qmm
+Qualifiers
 WliB
 WWO
 WRY
@@ -32213,6 +32248,7 @@ Wrangling
 WiFi
 Writes
 WhatsApp
+Whitespace
 Ötl
 ÖC
 Öm

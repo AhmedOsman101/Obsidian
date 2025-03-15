@@ -15,7 +15,7 @@
               "state": {
                 "file": "College/yearOne/secondTerm/C-Essentials/Lectures/draft.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",

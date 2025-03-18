@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearOne/secondTerm/index.md",
+                "file": "College/yearOne/secondTerm/IntroToIoT/Lectures/draft.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "draft"
             }
           }
         ]
@@ -151,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/yearOne/secondTerm/index.md",
+                "file": "College/yearOne/secondTerm/IntroToIoT/Lectures/draft.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of draft"
             }
           },
           {
@@ -196,6 +196,11 @@
   },
   "active": "5a46fbaf73a883a6",
   "lastOpenFiles": [
+    "College/yearOne/secondTerm/IntroToIoT/Lectures/draft-2.md",
+    "College/yearOne/secondTerm/IntroToIoT/Lectures/draft.md",
+    "College/yearOne/secondTerm/IntroToIoT/Lectures/LectureTwo.md",
+    "Courses/MaharaTech/C-Programming.md",
+    "College/yearOne/secondTerm/index.md",
     "College/yearOne/secondTerm/C-Essentials/index.md",
     "College/yearOne/secondTerm/C-Essentials/Lectures/index.md",
     "College/yearOne/secondTerm/C-Essentials/Lectures/LectureTwo.md",
@@ -217,11 +222,9 @@
     "College/yearOne/secondTerm/C-Essentials/Tasks/imgs",
     "College/yearOne/secondTerm/C-Essentials/Tasks/TaskOne.mmd",
     "College/yearOne/secondTerm/C-Essentials/Lectures/TaskOne.mmd",
-    "College/yearOne/secondTerm/IntroToIoT/Lectures/draft.md",
     "College/yearOne/secondTerm/C-Essentials/Tasks/index.md",
     "College/yearOne/secondTerm/IntroToIoT/index.md",
     "College/yearOne/secondTerm/IntroToIoT/Lectures/index.md",
-    "College/yearOne/secondTerm/IntroToIoT/Lectures/LectureTwo.md",
     "College/yearOne/secondTerm/C-Essentials/Lectures/deepdeek-draft.md",
     "College/yearOne/secondTerm/C-Essentials/Lectures/chatgpt-draft.md",
     "College/yearOne/secondTerm/C-Essentials/Lectures/grok-draft.md",
@@ -237,10 +240,7 @@
     "College/yearOne/secondTerm/MS-Office/index.md",
     "College/yearOne/secondTerm/C-Essentials/Lectures/lectureOne.mmd",
     "College/yearOne/secondTerm/script.sh",
-    "College/yearOne/secondTerm/index.md",
     "College/index.md",
-    "College/yearOne/index.md",
-    "College/yearOne/firstTerm/Math/Lectures/LectureThree.md",
-    "College/yearOne/secondTerm/C-Essentials/Lectures/output.md"
+    "College/yearOne/index.md"
   ]
 }

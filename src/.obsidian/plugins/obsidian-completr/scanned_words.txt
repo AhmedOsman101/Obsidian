@@ -674,6 +674,7 @@ Portability
 Pointer
 Paradigm
 Parsing
+PEARSON
 IHDR
 IDATx
 IO
@@ -1398,6 +1399,10 @@ Improves
 Immediate
 Int
 Increases
+ICT
+Inter
+Imager
+InterIntegrated
 pHYs
 pt
 pu
@@ -2180,6 +2185,15 @@ paradigm
 produced
 pass
 polymorphism
+plugs
+priced
+phonon
+punch
+premium
+perhaps
+precise
+pull
+poweroff
 sbf
 sPv
 sC
@@ -3070,6 +3084,11 @@ struct
 specifiers
 semicolon
 subprograms
+sized
+squashed
+skills
+shields
+sudo
 ff
 fP
 fj
@@ -3747,6 +3766,10 @@ foreignObject
 formal
 finance
 focuses
+featured
+footprint
+formidable
+fairly
 yq
 yh
 yS
@@ -4640,6 +4663,8 @@ qEFF
 qXP
 qHx
 qoutes
+quite
+quad
 waq
 wc
 wav
@@ -5166,6 +5191,9 @@ wFh
 wZs
 wDAw
 wait
+wearables
+worker
+worry
 BU
 Bh
 BC
@@ -5824,6 +5852,10 @@ BASIC
 Bell
 Backslash
 Breakdown
+BTEC
+Broadcom
+BLE
+BOTH
 MC
 Ml
 MW
@@ -6496,6 +6528,9 @@ Microwave
 Modifiability
 Missing
 Modifier
+MicroSDHC
+Microcomputers
+MATE
 Lj
 Lf
 LvVa
@@ -7147,6 +7182,7 @@ Learn
 Lexical
 Linking
 Labs
+Lec
 al
 aj
 ar
@@ -8607,6 +8643,8 @@ Tutorial
 Temperature
 TaskTwo
 TVVnnn
+TeamViewer
+Thank
 uj
 uq
 uXm
@@ -9167,6 +9205,7 @@ userSpaceOnUse
 url
 union
 unsigned
+unplug
 OB
 Ox
 ONynT
@@ -10270,6 +10309,7 @@ UeD
 URVd
 Upload
 Utilizing
+United
 ra
 rO
 rV
@@ -10974,6 +11014,7 @@ refY
 refX
 recommendation
 reuse
+recommends
 eiO
 es
 ee
@@ -11733,6 +11774,8 @@ executable
 enum
 encapsulate
 extends
+ever
+extras
 GO
 GQ
 Gk
@@ -12302,6 +12345,7 @@ GPS
 Gather
 Gwv
 GCC
+GPIO
 Ex
 EZR
 EG
@@ -13001,6 +13045,7 @@ Ends
 Enumeration
 Entire
 Enum
+Essentially
 Sal
 SQ
 SB
@@ -13786,6 +13831,11 @@ Secured
 Shown
 Semicolons
 Struct
+Saeed
+SDHC
+SPI
+Snappy
+Strength
 iH
 ic
 iP
@@ -14502,6 +14552,8 @@ interpretation
 ignores
 inheritance
 ignored
+intension
+interfaced
 tWA
 tW
 tM
@@ -15186,6 +15238,9 @@ trebuchet
 thickness
 thick
 transform
+teaching
+thinker
+terminal
 nm
 nv
 nhuK
@@ -15686,6 +15741,7 @@ node
 none
 nowrap
 nodeLabel
+notably
 Fc
 Fe
 Fo
@@ -16380,6 +16436,7 @@ Focuses
 Foundation
 Fortran
 Fix
+February
 xi
 xpF
 xwG
@@ -17244,6 +17301,7 @@ jLu
 jtW
 jAu
 jif
+jack
 bo
 bi
 bn
@@ -17881,6 +17939,7 @@ blinking
 blink
 blueprint
 byte
+broad
 Nb
 NJu
 Nbsa
@@ -19722,6 +19781,8 @@ Responds
 READ
 Ritchie
 Reuse
+Raspbian
+RDC
 Zt
 ZB
 Zb
@@ -22608,6 +22669,7 @@ microcontrollers
 mnemonics
 major
 modifiers
+microSD
 Ck
 CS
 Cm
@@ -23438,6 +23500,7 @@ COBOL
 Cobol
 Clang
 Char
+Composite
 vb
 vO
 vvF
@@ -24970,6 +25033,9 @@ compile
 char
 compilation
 converted
+coupled
+candidate
+camera
 Hu
 Hg
 HiL
@@ -25605,6 +25671,7 @@ Hosted
 Human
 Humidity
 Humans
+Hardrive
 hh
 hLR
 hI
@@ -26687,6 +26754,7 @@ XXL
 Xne
 XXx
 XFH
+XRDP
 gR
 gQ
 go
@@ -27264,6 +27332,7 @@ generated
 gaps
 grading
 grammatical
+generalization
 KUYX
 KX
 KK
@@ -27806,6 +27875,7 @@ KHvEJ
 KHP
 KQX
 KBps
+Kingdom
 zC
 zl
 zk
@@ -29107,6 +29177,9 @@ VbB
 Visualization
 Variety
 Void
+Verifier
+VideoCore
+VNC
 dk
 dR
 dV
@@ -29848,6 +29921,7 @@ dashed
 dotted
 debug
 declares
+doing
 AK
 AQ
 Aya
@@ -30743,6 +30817,10 @@ Airbag
 Algol
 Approx
 Applies
+Amany
+AbdElSamea
+ARM
+ARMv
 Jw
 Jg
 JT
@@ -31280,6 +31358,7 @@ JFD
 JiFx
 JrR
 Jnnn
+Just
 Qv
 QL
 QD

@@ -31,7 +31,7 @@ Reference models, such as the **OSI** and **TCP/IP** models, describe data commu
 TCP/IP stands for Transmission Control Protocol/Internet Protocol.
 
 - **Purpose**:
-  - Framework for the Internet’s protocols.
+  - Framework for the Internet's protocols.
   - Organizes networking tasks into layers.
   - Layers prepare data for network transmission.
 

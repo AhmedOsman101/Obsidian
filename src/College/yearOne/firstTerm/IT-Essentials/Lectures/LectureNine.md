@@ -67,7 +67,7 @@ Manipulates individuals into revealing confidential information through psycholo
 
 - Never share credentials or leave them exposed.
 - Avoid opening emails from unknown sources.
-- Don’t share work-related information on social media.
+- Don't share work-related information on social media.
 - Lock computers when unattended.
 - Report suspicious individuals.
 
@@ -155,7 +155,7 @@ A **security policy** is a set of objectives designed to protect a network, its 
 
 ### Securing Devices and Data
 
-The goal is to create a **safe network environment** and protect the organization’s assets, including:
+The goal is to create a **safe network environment** and protect the organization's assets, including:
 
 - **Data**
 - **Employees**
@@ -209,7 +209,7 @@ Mantraps are used in high-security areas to limit access and prevent **intruding
 
 ## Data - Your Greatest Asset
 
-Data is one of an organization’s most valuable assets and includes research, sales, financial, employee, and customer data.
+Data is one of an organization's most valuable assets and includes research, sales, financial, employee, and customer data.
 
 - Data loss can occur due to theft, equipment failure, or disasters.
 - **Data loss or leakage** refers to lost, stolen, or publicly leaked data.

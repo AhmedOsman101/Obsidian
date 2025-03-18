@@ -177,7 +177,7 @@ void loop() {
 1. Install the Arduino IDE.
 2. Connect the Arduino board to the computer via USB.
 3. Write and upload the code.
-4. If you don’t have an Arduino board, use **TinkerCAD** for simulation (see below).
+4. If you don't have an Arduino board, use **TinkerCAD** for simulation (see below).
 
 ## TinkerCAD for Arduino Simulation
 

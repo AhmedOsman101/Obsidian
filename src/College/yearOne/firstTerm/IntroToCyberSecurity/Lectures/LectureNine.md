@@ -130,7 +130,7 @@ Also known as public-key cryptography, asymmetric encryption employs a pair of k
 2. **End-to-End Encryption (E2EE)**
 
    - Prevents third-party access to data, widely used in messaging systems.
-   - Data is encrypted at the sender’s end and decrypted only by the intended recipient.
+   - Data is encrypted at the sender's end and decrypted only by the intended recipient.
 
 3. **Data Storage**
 

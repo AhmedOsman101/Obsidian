@@ -52,7 +52,7 @@ An infinite loop occurs if the condition in a `while` loop always evaluates to `
 ```python
 a = 1
 while a == 1:  # This condition is always True
-  b = input("What’s your name? ")
+  b = input("What's your name? ")
   print(f"Hi {b}, welcome to the infinite loop!")
 # To terminate, use keyboard interrupt (Ctrl+C).
 ```

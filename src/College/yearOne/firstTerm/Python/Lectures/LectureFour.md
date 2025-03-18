@@ -74,7 +74,7 @@ In Python, errors can generally be categorized into three types: **syntax errors
 
 ### Syntax Errors
 
-A **syntax error** occurs when Python’s interpreter cannot translate a statement into machine code due to **incorrect syntax**. These errors are detected during the parsing phase, **before execution begins**.
+A **syntax error** occurs when Python's interpreter cannot translate a statement into machine code due to **incorrect syntax**. These errors are detected during the parsing phase, **before execution begins**.
 
 #### Examples of Syntax Errors
 

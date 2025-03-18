@@ -126,7 +126,7 @@ next:
 2. **Install the CPU**: Open the CPU socket latch, align the CPU, and slot it in carefully.
 3. **Install the CPU Cooler**: Mount the cooler on the CPU with brackets and thermal paste as needed.
 4. **Insert RAM**: Place RAM sticks in slots until they click.
-5. **Install Storage**: Secure the NVMe SSD onto the motherboard’s M.2 slot.
+5. **Install Storage**: Secure the NVMe SSD onto the motherboard's M.2 slot.
 6. **Mount the Motherboard**: Secure the motherboard to the case with screws.
 7. **Install GPU**: Slot the GPU into the PCIe x16 slot and secure with screws.
 8. **Connect the PSU**: Attach PSU cables to the motherboard, GPU, and storage.
@@ -139,4 +139,4 @@ next:
 
 ---
 
-This build ensures a well-rounded experience, balancing performance and cost. It’s optimized for high settings in 1080p and 1440p gaming while allowing for future upgrades. Each component has been carefully selected to achieve an efficient, reliable setup.
+This build ensures a well-rounded experience, balancing performance and cost. It's optimized for high settings in 1080p and 1440p gaming while allowing for future upgrades. Each component has been carefully selected to achieve an efficient, reliable setup.

@@ -221,7 +221,7 @@ print(my_dict)          # Output: {'name': 'Youssef', 'job': 'student', 'age': 1
 1. **`get(key, default=None)`**:
 
    - Returns the value associated with the given key.
-   - If the key doesn’t exist, it returns the specified `default` value (or `None` if not provided).
+   - If the key doesn't exist, it returns the specified `default` value (or `None` if not provided).
 
 2. **`items()`**:
 
@@ -234,7 +234,7 @@ print(my_dict)          # Output: {'name': 'Youssef', 'job': 'student', 'age': 1
 4. **`pop(key, default)`**:
 
    - Removes the specified key and returns its value.
-   - If the key doesn’t exist, it returns the `default` value if provided; otherwise, raises a `KeyError`.
+   - If the key doesn't exist, it returns the `default` value if provided; otherwise, raises a `KeyError`.
 
 5. **`values()`**:
    - Returns a view object containing all the values in the dictionary.

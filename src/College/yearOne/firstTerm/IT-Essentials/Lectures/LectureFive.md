@@ -168,16 +168,16 @@ Computers can connect to share data and resources via:
 
 ##### Twisted-Pair Category Ratings
 
-| **Cable Type**  | **Speed**                            | **Features**                                                                                |
-| --------------- | ------------------------------------ | ------------------------------------------------------------------------------------------- |
-| **Category 3**  | 100 Mb/s at 100 MHz                  | • Early widely adopted 4-pair UTP for Ethernet LANs.                                        |
-|                 |                                      | • Replaced by Cat 5 UTP, which is manufactured with higher standards for better data rates. |
-| **Category 5e** | 1 Gb/s at 100 MHz                    | • Higher standard than Cat 5 for improved data transfer rates.                              |
-|                 |                                      | • More twists per foot for better EMI and RFI prevention.                                   |
-| **Category 6**  | 1 Gb/s at 250 MHz (Cat 6a - 500 MHz) | • Higher standard than Cat 5e for better data transfer rates.                               |
-|                 |                                      | • More twists per foot and a possible plastic divider to reduce EMI and RFI.                |
-|                 |                                      | • Suitable for bandwidth-intensive applications like videoconferencing or gaming.           |
-|                 |                                      | • Cat 6a offers better insulation and performance than Cat 6.                               |
+| **Cable Type**  | **Speed**                            | **Features**                                                                              |
+| --------------- | ------------------------------------ | ----------------------------------------------------------------------------------------- |
+| **Category 3**  | 100 Mb/s at 100 MHz                  | Early widely adopted 4-pair UTP for Ethernet LANs.                                        |
+|                 |                                      | Replaced by Cat 5 UTP, which is manufactured with higher standards for better data rates. |
+| **Category 5e** | 1 Gb/s at 100 MHz                    | Higher standard than Cat 5 for improved data transfer rates.                              |
+|                 |                                      | More twists per foot for better EMI and RFI prevention.                                   |
+| **Category 6**  | 1 Gb/s at 250 MHz (Cat 6a - 500 MHz) | Higher standard than Cat 5e for better data transfer rates.                               |
+|                 |                                      | More twists per foot and a possible plastic divider to reduce EMI and RFI.                |
+|                 |                                      | Suitable for bandwidth-intensive applications like videoconferencing or gaming.           |
+|                 |                                      | Cat 6a offers better insulation and performance than Cat 6.                               |
 
 ---
 

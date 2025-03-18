@@ -105,7 +105,7 @@ The OS ensures efficient allocation of resources to applications by:
 2. **Single-user, Multi-tasking**: Allows one user to run multiple applications simultaneously (e.g., Windows, macOS).
 3. **Multi-user**: Supports multiple users with individual accounts and resource management (e.g., Linux, UNIX).
 4. **Real-time OS (RTOS)**: Designed for real-time applications like embedded systems and medical devices.
-5. **Distributed OS**: Manages independent computers and presents them as a single system (e.g., Google’s distributed systems).
+5. **Distributed OS**: Manages independent computers and presents them as a single system (e.g., Google's distributed systems).
 
 ---
 
@@ -133,7 +133,7 @@ The OS ensures efficient allocation of resources to applications by:
 
 3. **macOS**:
 
-   - Apple’s proprietary OS for Mac computers.
+   - Apple's proprietary OS for Mac computers.
    - Known for stability, security, and hardware integration.
 
 4. **Android**:
@@ -142,7 +142,7 @@ The OS ensures efficient allocation of resources to applications by:
 
 5. **iOS**:
 
-   - Apple’s mobile OS for iPhones and iPads, offering security and ecosystem integration.
+   - Apple's mobile OS for iPhones and iPads, offering security and ecosystem integration.
 
 ![](../imgs/figure%202.png)
 
@@ -351,7 +351,7 @@ When installing an OS, the storage device must be prepared to store the OS and a
 
 - Simplifies OS installation on multiple computers.
 - The base system is fully configured and duplicated sector by sector onto a new disk.
-- Use **Microsoft’s Sysprep tool** to remove unwanted settings before creating the final image.
+- Use **Microsoft's Sysprep tool** to remove unwanted settings before creating the final image.
 
 ![](../imgs/figure%206.png)
 

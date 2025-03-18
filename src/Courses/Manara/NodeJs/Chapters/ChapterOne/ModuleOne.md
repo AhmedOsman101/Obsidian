@@ -20,10 +20,10 @@ In web development, applications have two main parts: the client-side (frontend)
 
 ## How Does the Backend Communicate with the Client-Side?
 
-The backend and client-side work together to create a seamless experience for users. Here’s a simple analogy to explain their relationship:
+The backend and client-side work together to create a seamless experience for users. Here's a simple analogy to explain their relationship:
 
 - **Client-Side (Restaurant Floor):** Where users interact and experience the application directly. This includes the layout, buttons, and forms users see.
-- **Server-Side (Kitchen):** Where the application’s logic and data processing happen behind the scenes. Like a kitchen preparing orders, the backend processes requests and delivers responses.
+- **Server-Side (Kitchen):** Where the application's logic and data processing happen behind the scenes. Like a kitchen preparing orders, the backend processes requests and delivers responses.
 
 ### Interaction Steps
 
@@ -60,9 +60,9 @@ This communication allows for a smooth, interactive experience by efficiently sh
 
 ### Conclusion
 
-Understanding the backend and its communication with the client-side is essential for developers. The backend performs the core operations, ensuring web applications are functional and responsive to user actions. As we explore Node.js, we’ll see how it creates efficient, scalable backend solutions that power web applications.
+Understanding the backend and its communication with the client-side is essential for developers. The backend performs the core operations, ensuring web applications are functional and responsive to user actions. As we explore Node.js, we'll see how it creates efficient, scalable backend solutions that power web applications.
 
 ### Further Learning
 
-1. **[MDN Web Docs on Express/Node Introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)**: A detailed overview of Node’s main features.
+1. **[MDN Web Docs on Express/Node Introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)**: A detailed overview of Node's main features.
 2. **[Node.js Official Documentation](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)**: Explore Node.js in-depth with official resources and examples.

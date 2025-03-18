@@ -38,7 +38,7 @@ To defend against these threats, several proactive measures are utilized:
 
 Cybersecurity relies heavily on managing risks associated with cyber threats. Core principles of risk management include:
 
-1. **Risk Identification**: Recognizing potential threats, vulnerabilities, and risks to an organization’s assets.
+1. **Risk Identification**: Recognizing potential threats, vulnerabilities, and risks to an organization's assets.
 2. **Risk Assessment**: Analyzing the likelihood and impact of identified risks.
 3. **Risk Mitigation**: Implementing controls to minimize risks.
 4. **Risk Monitoring and Review**: Continuously observing and assessing the effectiveness of controls.
@@ -46,7 +46,7 @@ Cybersecurity relies heavily on managing risks associated with cyber threats. Co
 6. **Compliance and Regulatory Requirements**: Adhering to legal and industry standards.
 7. **Integration with Business Objectives**: Aligning risk management practices with organizational goals.
 
-**Importance**: Effective risk management ensures the **protection of information assets**, **business continuity**, and **minimization of security incidents**. It also supports the **resilience** of an organization’s information infrastructure.
+**Importance**: Effective risk management ensures the **protection of information assets**, **business continuity**, and **minimization of security incidents**. It also supports the **resilience** of an organization's information infrastructure.
 
 ### Types of Cyber Threat Actors and Motivations
 
@@ -91,7 +91,7 @@ Malware can be delivered through various means:
 
 ### Cyber Threat Environment
 
-The cyber threat environment consists of networks, devices, and methods that cyber actors use to target systems. The internet’s global nature allows these actors to attack from anywhere, impacting systems and data regardless of location.
+The cyber threat environment consists of networks, devices, and methods that cyber actors use to target systems. The internet's global nature allows these actors to attack from anywhere, impacting systems and data regardless of location.
 
 ### Operator Precedence in Risk Assessment
 

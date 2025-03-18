@@ -32,7 +32,7 @@ Phishing is a type of cybersecurity threat or social engineering tactic that tar
 1. **Spear Phishing**
 
    - Targets specific individuals within an organization.
-   - The email is personalized with the victim’s details (e.g., name, title, phone number) to increase believability.
+   - The email is personalized with the victim's details (e.g., name, title, phone number) to increase believability.
 
 ![](../imgs/figure8.png)
 

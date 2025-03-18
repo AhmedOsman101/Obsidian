@@ -41,7 +41,7 @@ Repeat the program from Task 1 to use loops, allowing the program to run repeate
 
 ## Task 4
 
-Create a program that entertains workers recording students’ grades during their break. The program should ask the user to enter the number of lines needed to print the following shape:
+Create a program that entertains workers recording students' grades during their break. The program should ask the user to enter the number of lines needed to print the following shape:
 
 ```
 *

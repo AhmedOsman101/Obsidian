@@ -77,7 +77,7 @@ Confidentiality protects against unauthorized or unintentional access to sensiti
 
 **Integrity in ATM Security:**
 
-- Integrity ensures that any transaction made via the ATM is accurately reflected in the user’s bank account.
+- Integrity ensures that any transaction made via the ATM is accurately reflected in the user's bank account.
 - It requires that data cannot be altered during processing, maintaining the correctness of exchanged data, including insertion, deletion, and modification.
 - Important data, such as withdrawal amounts and PIN information, must be recorded accurately to prevent tampering.
 - The ATM network must support the integrity of both stored and communicated data, protecting user-related information.

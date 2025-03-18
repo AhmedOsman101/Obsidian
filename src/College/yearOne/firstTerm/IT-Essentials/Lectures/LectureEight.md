@@ -24,7 +24,7 @@ next:
   - Modifying screen resolution
 - Customizations in Windows 7, 8, 8.1, and 10 can be accessed by right-clicking the desktop and selecting **Personalize**:
   - Change desktop icons, mouse pointers, and account picture
-  - Modify theme’s background, color, sound, and screensaver
+  - Modify theme's background, color, sound, and screensaver
 
 ---
 
@@ -362,7 +362,7 @@ If users do not want to completely shut down their computer, the following optio
 
 ### Sound
 
-- The **Sound Control Panel** allows configuration of audio devices and the computer’s sound scheme.
+- The **Sound Control Panel** allows configuration of audio devices and the computer's sound scheme.
   - Change notification sounds, like replacing a beep with a chime.
   - Choose which audio device is used for playback and recording.
 - This utility remains largely unchanged between Windows 7, 8, and 10.
@@ -398,7 +398,7 @@ If users do not want to completely shut down their computer, the following optio
 ### Programs and Features
 
 - Use the **Programs and Features** Control Panel item to uninstall applications.
-  - It’s important to uninstall programs via **Programs and Features** or the application’s uninstallation menu in the **Start** menu.
+  - It's important to uninstall programs via **Programs and Features** or the application's uninstallation menu in the **Start** menu.
   - Some programs can be **repaired** if they encounter issues.
   - Troubleshoot programs designed for older versions of Windows.
   - Manually install software from a network.

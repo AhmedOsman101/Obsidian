@@ -88,7 +88,7 @@ A **computer** can be defined as:
 - Must provide **sufficient power** for current and future additions.
 - Has an **input voltage selector** on the back.
 - Measured in **Wattage**.
-- **Ohm’s Law:**
+- **Ohm's Law:**
   - $\text{W} = \text{V} \times \text{A}$ (Watts = Volts $\times$ Amps)
 
 ### Connectors
@@ -272,7 +272,7 @@ A **computer** can be defined as:
 ### Cache
 
 - **SRAM** serves as **cache memory**, storing frequently accessed data for faster CPU retrieval compared to **DRAM** (main memory).
-- **Memory speed** directly affects the processor’s data processing capacity.
+- **Memory speed** directly affects the processor's data processing capacity.
 
 The fastest memory is typically **static RAM** (SRAM) which is used as
 cache memory for storing the most recently used data and instructions
@@ -572,7 +572,7 @@ These ports enable various data transfer and connectivity options for both inter
 
   - Used in computer games, simulators, and training applications with VR functionalities.
   - Creates a simulated, three-dimensional environment using computer technology.
-  - Completely encases the upper portion of users’ faces, blocking out ambient light.
+  - Completely encases the upper portion of users' faces, blocking out ambient light.
 
 - **Augmented Reality (AR)**:
   - Superimposes images and audio over the real world in real-time.

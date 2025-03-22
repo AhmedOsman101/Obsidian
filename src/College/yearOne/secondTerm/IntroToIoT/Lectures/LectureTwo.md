@@ -10,185 +10,180 @@ next: false
 
 # Introduction to IoT - Lecture 2
 
-## Outline
+## What is Raspberry Pi?
 
-1. Introduction to Embedded Systems
-2. Microprocessor vs. Microcontroller
-3. What is Arduino?
-4. Differences Between Arduino Boards
-5. Arduino Uno
-6. Arduino Sensors
-7. Arduino IDE
-8. Arduino and TinkerCAD
+Raspberry Pi is a credit-card-sized computer that plugs into a TV and a keyboard, functioning almost like a full-fledged computer. It was developed in the United Kingdom by the Raspberry Pi Foundation to promote computer science education in schools.
 
-## Introduction to Embedded Systems
+### Key Features:
 
-A computing system consists of a processor, memory, and I/O peripherals. It is divided into:
+- Fully featured microcomputer on a circuit board.
+- Uses Raspberry Pi OS (Linux-based) as the recommended operating system.
+- Small footprint ($9 \times 6$ cm) and affordable (priced between $5–35).
+- Can connect to a monitor, keyboard, and mouse.
+- Includes GPIO (General Purpose Input/Output) pins for interfacing with sensors and actuators.
+- Ideal for learning programming, IT, and technical skills.
+- Uses a microSD card as its hard drive.
 
-- **General-purpose systems**: Designed for multiple applications.
-- **Specific-purpose systems**: Designed for dedicated functions (embedded systems).
+## Raspberry Pi Models
 
-### Common Characteristics
+| Aspect/Model     | Raspberry Pi 1 Model A | Raspberry Pi 1 Model A+ | Raspberry Pi 1 Model B | Raspberry Pi 1 Model B+ | Raspberry Pi 2 Model B | Raspberry Pi 3 Model B | Raspberry Pi Zero  |
+| ---------------- | ---------------------- | ----------------------- | ---------------------- | ----------------------- | ---------------------- | ---------------------- | ------------------ |
+| **Release Date** | 2013                   | 2014                    | 2012                   | 2014                    | 2015                   | 2016                   | 2015               |
+| **SoC**          | Broadcom BCM2835       | Broadcom BCM2835        | Broadcom BCM2835       | Broadcom BCM2835        | Broadcom BCM2836       | Broadcom BCM2837       | Broadcom BCM2835   |
+| **CPU Speed**    | 700 MHz ARM-1176JZF-S  | 700 MHz ARM-1176JZF-S   | 700 MHz ARM-1176JZF-S  | 700 MHz ARM-1176JZF-S   | 900 MHz ARM-Cortex-A7  | 1.2 GHz ARM-Cortex-A53 | 1 GHz ARM1176JZF-S |
+| **Cores**        | 1                      | 1                       | 1                      | 1                       | 4                      | 4                      | 1                  |
+| **SDRAM**        | 256 MB                 | 256 MB                  | 512 MB                 | 512 MB                  | 1 GB                   | 1 GB                   | 512 MB             |
 
-- **Dependability**: Reliable operation.
-- **Single-functioned**: Executes a single program repeatedly.
-- **Tightly-constrained**: Low cost, low power, compact size, fast performance.
-- **Reactive and Real-time**: Instantly responds to environmental changes with no delay.
+## Raspberry Pi Features
 
-### Embedded System Workflow
+- Uses a **Broadcom SoC** with an **ARM CPU** and **VideoCore IV GPU**.
+- **CPU speeds** range from **700 MHz to 1.2 GHz**, with **256 MB to 1 GB RAM**.
+- **SD/MicroSD cards** store the OS and programs.
+- Includes **1 to 4 USB ports, HDMI, composite video output, and a 3.5mm audio jack**.
+- **GPIO pins** provide lower-level output for hardware interfacing.
+- **Networking**:
+  - **B-models** have **Ethernet**.
+  - **Pi 3 and Pi Zero** include **Wi-Fi (802.11n) and Bluetooth**.
 
-1. **Environment**: Provides real-world data.
-2. **Sensors**: Collect environmental data.
-3. **Analog-to-Digital Converter**: Converts sensor data into digital format.
-4. **Embedded Computing**: Processes data using processors and memory.
-5. **Output Data Flow**:
-   - Sent to **Display** for visualization.
-   - Sent to **Digital-to-Analog Converter** for actuator control.
-6. **Actuators**: Interact with the environment based on processed data.
+### Raspberry Pi 3 Highlights
 
-## Microprocessor (CPU)
+- **1.2GHz 64-bit quad-core ARMv8 CPU**.
+- **Built-in 802.11n Wi-Fi and Bluetooth 4.1 (BLE)**.
+- Ideal for **IoT projects**, with multiple sensor connectivity.
+- Features a **40-pin GPIO connector** for external sensors and hardware integration.
 
-A microprocessor is a single processor core that fetches, decodes, and executes instructions. It's suited for general-purpose computing but requires external memory (ROM/RAM), a memory decoder, an oscillator, and I/O ports to form a complete microcomputer.
+### Raspberry Pi Zero
 
-### Microprocessor Architecture Workflow
+- **Smallest Raspberry Pi** model.
+- **Less powerful** than the Pi 3 but ideal for **embedded projects** like wearables due to its **compact size**.
 
-1. **Instruction Fetcher**: Retrieves instructions from memory.
-2. **Instruction Decoder**: Interprets instructions.
-3. **Register Banks**: Store temporary data.
-4. **Arithmetic Logic Unit (ALU)**: Performs computations and logic operations.
-5. **Memory Interface**: Manages data exchange with memory.
+![](../imgs/figure7.png)
 
-## Microcontroller
+## Raspberry Pi Hardware
 
-A microcontroller is a compact system-on-chip with an integrated CPU, memory (RAM, ROM), and programmable I/O peripherals, designed for specific tasks.
+![](../imgs/figure8.png)
 
-## Microprocessor vs. Microcontroller
+## Raspberry Pi vs. Arduino
 
-| **Feature**           | **Microprocessor**                             | **Microcontroller**                     |
-| --------------------- | ---------------------------------------------- | --------------------------------------- |
-| **Usage**             | Computer systems and General-purpose computing | Embedded systems (e.g., appliances)     |
-| **Components**        | CPU only; external RAM, ROM, I/O needed        | Contains CPU, RAM, ROM, and peripherals |
-| **Circuit Size**      | Large and complex                              | Small and compact                       |
-| **Power Consumption** | High                                           | Low                                     |
-| **Registers**         | Few; relies on external memory (slower)        | Many; faster processing                 |
+| **Arduino**                                | **Raspberry Pi**                                  |
+| ------------------------------------------ | ------------------------------------------------- |
+| Development circuit board                  | Single-board computer                             |
+| Microcontroller-based                      | Microprocessor-based                              |
+| No OS                                      | Runs Raspberry Pi OS (Linux)                      |
+| Executes simple tasks                      | Can multitask with a full OS                      |
+| Uses Arduino Shields                       | Uses Raspberry Pi HATs (Hardware Attached on Top) |
+| Programmed in C/C++                        | Supports Python, Scratch, Ruby, C, C++            |
+| Logic voltage: 5V                          | Logic voltage: 3.3V                               |
+| Requires shields for internet connectivity | Built-in Wi-Fi and Ethernet                       |
+| Open-source: Can be modified by the public | Closed-source: Cannot be altered by the public    |
+| Standard boards cost **$16–$20**           | Standard boards cost **~$35**                     |
 
-## What is Arduino?
+## Strengths
 
-Arduino is an open-source microcontroller-based prototyping board programmed using the Arduino IDE. It supports simplified C++ programming and is widely used in robotics, automation, and IoT projects.
+### Arduino:
 
-## Different Types of Arduino
+- Analog input and PWM support
+- Real-time control for motors and sensors
 
-| **Arduino Board** | **Processor**     | **Memory**             | **Digital I/O** | **Analog I/O**     |
-| ----------------- | ----------------- | ---------------------- | --------------- | ------------------ |
-| Arduino Uno       | 16MHz ATmega328   | 2KB SRAM, 32KB flash   | 14              | 6 input, 0 output  |
-| Arduino Due       | 84MHz AT91SAM3X8E | 96KB SRAM, 512KB flash | 54              | 12 input, 2 output |
-| Arduino Mega      | 16MHz ATmega2560  | 8KB SRAM, 256KB flash  | 54              | 16 input, 0 output |
-| Arduino Leonardo  | 16MHz ATmega32u4  | 2.5KB SRAM, 32KB flash | 20              | 12 input, 0 output |
+### Raspberry Pi:
 
-### Differences Between Arduino Boards
+- Full Linux OS with multi-threading
+- Supports multiple programming languages
+- Ideal for IoT, AI, and web applications
 
-![Difference between Arduino boards](../imgs/figure1.png)
+### Raspberry Pi or Arduino
 
-## Arduino Uno
+- **Arduino**: Best for precise software timing and simple tasks.
+- **Raspberry Pi**: Ideal for internet connectivity, video display, and camera use.
+- **Both**: Can be used together via I2C or SPI for advanced projects.
 
-Arduino Uno is an entry-level microcontroller board based on the ATmega328, it's a beginner-friendly board in the Arduino family.
+## Getting Started with Raspberry Pi
 
-### Features
+### Hardware Requirements:
 
-- **14 Digital I/O Pins** (6 support PWM for analog-like control)
-- 6 Analog Inputs
-- **6 Analog Inputs**
-- **USB Connection**
-- **Power Jack**
-- **Reset Button**
-- **On-board LED**
-- **SCL/SDA Pins** (I2C communication and Serial Clock/Data)
+- **Essential:**
+  - Raspberry Pi board
+  - MicroSD card
+  - USB keyboard
+  - Display (HDMI, DVI, or Composite input)
+  - Power supply
+- **Recommended extras:**
+  - USB mouse
+  - Internet connection (LAN or Wi-Fi)
+  - Heat sink for the processor
+  - Protective case
 
-It's self-contained—connect via USB or power with an adapter/battery to start.
+### Operating System (OS):
 
-![Arduino Uno Components](../imgs/figure2.png)
+- The Raspberry Pi OS (formerly Raspbian) is recommended.
+- Can also run Ubuntu MATE, Windows 10 IoT Core, and other third-party OS.
+- Installed using the Raspberry Pi Imager tool.
 
-![Arduino Uno Board Components](../imgs/figure3.png)
+## Connecting to Wi-Fi
 
-## Arduino Sensors
+To connect your Raspberry Pi to Wi-Fi:
 
-Sensors detect environmental changes (e.g., temperature, pressure, light) and convert them into electronic signals. The sensor data is recorded and processed by the Arduino.
+1. Insert the microSD card.
+2. Connect a monitor, keyboard, and mouse.
+3. Power on the device and follow on-screen instructions to set up Wi-Fi.
 
-![Arduino Sensor Types](../imgs/figure4.png)
+## Using the Linux Terminal
 
-## Arduino IDE
+Raspberry Pi OS (Linux based) comes with a GUI but relies heavily on terminal commands for system management.
 
-Arduino is programmed using the **Arduino IDE**, an open-source platform for writing and uploading code to Arduino boards. It supports:
+### Updating Raspberry Pi OS:
 
-- **Operating Systems**: Windows, macOS, Linux
-- **Languages**: C, C++
-- **File Extension**: `.ino`
+```sh
+# Update package repositories
+sudo apt update
 
-![Arduino IDE Components](../imgs/figure5.png)
-
-Connect the board to the IDE via USB to upload code.
-
-### Useful Functions
-
-| **Function**     | **Description**                        |
-| ---------------- | -------------------------------------- |
-| `pinMode()`      | Sets pin as input or output            |
-| `digitalWrite()` | Sets digital pin high/low              |
-| `digitalRead()`  | Reads digital pin's state              |
-| `analogRead()`   | Reads analog pin value                 |
-| `analogWrite()`  | Writes PWM value (analog-like)         |
-| `delay()`        | Pauses execution (in milliseconds)     |
-| `millis()`       | Get the current time (in milliseconds) |
-
-## Blinking LED Example
-
-To implement a blinking LED using Arduino:
-
-1. Connect an LED to a digital pin.
-2. Use the Arduino IDE to write the following code:
-
-```cpp
-void setup() {
-  pinMode(13, OUTPUT); // Set pin 13 as output
-}
-
-void loop() {
-  digitalWrite(13, HIGH); // Turn LED ON
-  delay(1000);            // Wait 1 second
-  digitalWrite(13, LOW);  // Turn LED OFF
-  delay(1000);            // Wait 1 second
-}
+# Upgrade all installed packages
+sudo apt full-upgrade
 ```
 
-3. Upload the code to the Arduino board.
-4. The LED will blink every second.
+### Shutting Down Properly:
 
-## Getting Started with Arduino
+Unlike other devices, the Raspberry Pi has no **off** switch.
 
-### Requirements:
+- **Do not** unplug it directly.
+- Use the terminal to shut it down safely:
 
-- Arduino board
-- USB cable
-- DC power supply (optional)
-- Arduino IDE
+```sh
+sudo shutdown # or sudo poweroff
+```
 
-### Steps:
+This ensures a clean shutdown before unplugging the power source. To turn it back on, simply plug it in.
 
-1. Install the Arduino IDE.
-2. Connect the Arduino board to the computer via USB.
-3. Write and upload the code.
-4. If you don't have an Arduino board, use **TinkerCAD** for simulation (see below).
+## Remote Access
 
-## TinkerCAD for Arduino Simulation
+To remotely access your Raspberry Pi from a desktop computer, you can use:
 
-**TinkerCAD Circuits** allows you to simulate Arduino projects before implementing them on real hardware.
+- **SSH** – Command-line access
+- **Remote Desktop software**, such as:
+  - XRDP/RDC (not for root user)
+  - TeamViewer
+  - VNC
 
-**Features**:
+## Python with Raspberry Pi
 
-- Simulates Arduino circuits without physical components.
-- Supports block-based and text-based programming.
-- Export code to Arduino IDE for real boards.
+Python, an older language (1991) compared to C# (2000), Swift (2014), Java (1995), and PHP (1995), comes pre-installed on Raspberry Pi OS with the built-in Thonny editor for coding.
 
-### Learn More:
+### LED Blinking Example:
 
-[How to Use TINKERCAD For Beginners](https://www.youtube.com/watch?v=NbOkCnk73ZM)
+![](../imgs/figure9.png)
+
+```python
+from gpiozero import LED  # Import LED control from gpiozero
+from time import sleep    # Import sleep for delays
+
+pin = 16          # Define the GPIO pin where the LED is connected
+led = LED(pin)    # Create an LED object
+
+while True:       # Infinite loop to blink the LED
+  led.on()        # Turn the LED on
+  sleep(1)        # Wait for 1 second
+  led.off()       # Turn the LED off
+  sleep(1)        # Wait for 1 second
+```
+
+This simple script continuously blinks an LED connected to GPIO pin 16.

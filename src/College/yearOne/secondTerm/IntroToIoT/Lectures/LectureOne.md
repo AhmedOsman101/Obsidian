@@ -10,19 +10,6 @@ next:
 
 # Introduction to IoT - Lecture 1
 
-## Course Content
-
-- **Module 0**: Introduction to Internet of Things (IoT)
-- **Module 1**: Embedded systems and Arduino microcontroller
-- **Module 2**: Raspberry Pi
-- **Module 3**: IoT components including sensors and actuators
-- **Module 4**: IoT and Cloud Computing
-- **Module 5**: Machine-to-Machine communication, IoT levels, and deployment templates
-- **Module 6**: IoT protocols
-- **Module 7**: IoT and Big Data
-- **Module 8**: Big Data Analytics Techniques
-- **Module 9**: Fog and Edge Computing, IoT Use Cases
-
 ## Outline
 
 ### What is IoT?

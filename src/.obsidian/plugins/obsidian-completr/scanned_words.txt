@@ -701,6 +701,7 @@ PPx
 Protective
 Properly
 Powering
+Postfix
 IHDR
 IDATx
 IO
@@ -1471,6 +1472,7 @@ Ihhh
 IRN
 IBgg
 IDATs
+Implicit
 pHYs
 pt
 pu
@@ -2289,6 +2291,7 @@ pPB
 pdF
 promote
 prices
+percentage
 sbf
 sPv
 sC
@@ -3218,6 +3221,7 @@ sGG
 sjRaB
 safely
 script
+subtracts
 ff
 fP
 fj
@@ -3935,6 +3939,11 @@ fao
 fwz
 fledged
 fine
+front
+familiar
+falsetrueFalsefalsetruetrue
+falsefalseFalsefalsefalsefalse
+flipping
 yq
 yh
 yS
@@ -8388,6 +8397,9 @@ aVE
 apbV
 aTz
 acO
+aba
+abit
+anSimple
 Te
 Tn
 TA
@@ -9056,6 +9068,7 @@ Tcoq
 TRt
 TQB
 Top
+TrueFalse
 uj
 uq
 uXm
@@ -9657,6 +9670,7 @@ uZT
 uMP
 uGy
 unplugging
+userScore
 OB
 Ox
 ONynT
@@ -10240,6 +10254,9 @@ OmQ
 OzF
 ORBYj
 OWu
+OperatorsArithmetic
+OperatorDescriptionExample
+OperatorPost
 Uc
 Ue
 UXk
@@ -11544,6 +11561,8 @@ ruP
 rFw
 rft
 rJK
+risky
+relational
 eiO
 es
 ee
@@ -13683,6 +13702,9 @@ EAC
 EgW
 EQx
 Etc
+Explicit
+Especially
+Examplevariable
 Sal
 SQ
 SB
@@ -15257,6 +15279,9 @@ idDZ
 ihnn
 ijo
 iRe
+increases
+increment
+increments
 tWA
 tW
 tM
@@ -15979,6 +16004,8 @@ ttG
 toQ
 threading
 trouble
+truetrueTruetruetrueTrue
+truefalseFalsetruefalseTrue
 nm
 nv
 nhuK
@@ -16515,6 +16542,7 @@ nGNa
 nbPH
 ntuv
 ngO
+numerator
 Fc
 Fe
 Fo
@@ -17234,6 +17262,7 @@ Fee
 FcOFC
 FKs
 Fhhl
+FalseTrue
 xi
 xpF
 xwG
@@ -18819,6 +18848,7 @@ bQhr
 bToO
 bXk
 blinks
+baba
 Nb
 NJu
 Nbsa
@@ -20022,6 +20052,7 @@ lTT
 lSS
 lOQ
 lHM
+lose
 Rc
 Rt
 RO
@@ -20752,6 +20783,7 @@ RQm
 RtM
 RsP
 Release
+Relational
 Zt
 ZB
 Zb
@@ -22547,6 +22579,8 @@ DRP
 Doo
 DcQ
 Dagg
+Decrement
+Discussion
 ohQ
 oL
 ob
@@ -23093,6 +23127,9 @@ oBg
 oDDp
 oKZF
 orN
+operands
+operand
+optimizations
 mipte
 mRT
 mX
@@ -23784,6 +23821,7 @@ mfsd
 mhjj
 mIG
 multitask
+maxScore
 Ck
 CS
 Cm
@@ -24646,6 +24684,9 @@ CrB
 Ckj
 Cortex
 Closed
+Constants
+Called
+Complement
 vb
 vO
 vvF
@@ -26239,6 +26280,8 @@ clUJ
 cgN
 cXd
 cTUU
+conversion
+const
 Hu
 Hg
 HiL
@@ -31404,6 +31447,10 @@ djj
 dtMC
 dSi
 dGS
+doubling
+denominator
+decrement
+decrements
 AK
 AQ
 Aya
@@ -32332,6 +32379,7 @@ AReKs
 Ass
 Ade
 AGN
+Applied
 Jw
 Jg
 JT

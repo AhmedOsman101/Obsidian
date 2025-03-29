@@ -170,7 +170,7 @@ Python, an older language (1991) compared to C# (2000), Swift (2014), Java (1995
 
 ### LED Blinking Example:
 
-![](../imgs/figure9.png)
+This simple script continuously blinks an LED connected to GPIO pin 16.
 
 ```python
 from gpiozero import LED  # Import LED control from gpiozero
@@ -186,4 +186,4 @@ while True:       # Infinite loop to blink the LED
   sleep(1)        # Wait for 1 second
 ```
 
-This simple script continuously blinks an LED connected to GPIO pin 16.
+![](../imgs/figure9.png)

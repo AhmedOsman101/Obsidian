@@ -8,7 +8,7 @@ next: false
 #  link: "/College/yearOne/secondTerm/IntroToIot/Lectures/LectureFour"
 ---
 
-# Introduction to IoT - Lecture 2
+# Introduction to IoT - Lecture 3
 
 ## What is Raspberry Pi?
 

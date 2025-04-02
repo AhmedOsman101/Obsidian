@@ -15,7 +15,7 @@
               "state": {
                 "file": "College/yearOne/secondTerm/IntroToIoT/Lectures/LectureThree.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",

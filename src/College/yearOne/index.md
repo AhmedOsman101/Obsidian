@@ -18,7 +18,7 @@ lastUpdated: false
 
 - [Second Term](secondTerm/index.md)
   - [C Essentials](secondTerm/C-Essentials/index.md)
-  - [Introduction to IoT](secondTerm/IntroToIoT/index.md)
+  - [Introduction to IoT](secondTerm/IntroToIot/index.md)
   - [Cybersecurity Essentials](secondTerm/CybersecurityEssentials/index.md)
   - [Microsoft Office](secondTerm/MS-Office/index.md)
   - [Math](secondTerm/Math-II/index.md)

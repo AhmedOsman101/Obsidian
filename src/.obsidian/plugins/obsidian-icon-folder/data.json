@@ -45,7 +45,7 @@
   "College/yearOne/firstTerm/Math": "LiCalculator",
   "College/yearOne/firstTerm/Python": "FabPython",
   "College/yearOne/secondTerm/CybersecurityEssentials": "SiHackaday",
-  "College/yearOne/secondTerm/IntroToIoT": "SiArduino",
   "College/yearOne/secondTerm/Math-II": "LiCalculator",
-  "College/yearOne/secondTerm/MS-Office": "SiMicrosoftword"
+  "College/yearOne/secondTerm/MS-Office": "SiMicrosoftword",
+  "College/yearOne/secondTerm/IntroToIot": "SiArduino"
 }

@@ -150,7 +150,6 @@ Peripheral
 PCI
 Port
 Processor
-Pre
 Proper
 Pro
 Professional
@@ -1660,7 +1659,6 @@ process
 part
 primary
 project
-pre
 piping
 programming
 purposes
@@ -3369,6 +3367,8 @@ sEII
 scanf
 stream
 stdin
+specifying
+sentence
 ff
 fP
 fj
@@ -9462,6 +9462,7 @@ Transmissive
 Transmitter
 Trigger
 Trig
+Tells
 uj
 uq
 uXm
@@ -12046,6 +12047,7 @@ reliance
 rRG
 rFt
 rnN
+reads
 eiO
 es
 ee
@@ -12878,6 +12880,7 @@ eOZC
 ekS
 eligible
 employed
+expect
 GO
 GQ
 Gk
@@ -15118,6 +15121,8 @@ Sifb
 SgQS
 SoZ
 Scanf
+Specifier
+String
 iH
 ic
 iP
@@ -15892,6 +15897,7 @@ iWW
 iie
 incorporate
 interpret
+instruct
 tWA
 tW
 tM
@@ -22727,6 +22733,7 @@ kHz
 kHiQ
 khC
 kCH
+keeps
 Dp
 DI
 Db
@@ -23513,6 +23520,7 @@ DOLV
 DaTy
 DCi
 Declared
+Declaring
 ohQ
 oL
 ob
@@ -25804,6 +25812,7 @@ Consist
 Cvm
 CRz
 Cca
+Capturing
 vb
 vO
 vvF
@@ -27492,6 +27501,9 @@ cWZ
 cDFc
 codea
 casting
+complement
+cuts
+continuing
 Hu
 Hg
 HiL
@@ -28188,6 +28200,7 @@ HHdH
 HxC
 HXE
 Hand
+Happens
 hh
 hLR
 hI
@@ -30026,6 +30039,7 @@ gadget
 ground
 gRG
 gTtP
+grabs
 KUYX
 KX
 KK

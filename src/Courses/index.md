@@ -8,7 +8,7 @@ lastUpdated: false
 # Courses
 
 - [LinuxCrashCourse](./LinuxCrashCourse.md)
-- [Mastering Laravel 10, Database and Eloquent](Mastering_Laravel_10_Database_and_Eloquent.md)
+- [Mastering Laravel 10, Database and Eloquent](MasteringLaravel-10-DatabaseAndEloquent.md)
 
 - [Manara](./Manara/index.md)
   - [Node.js](Manara/NodeJs/Chapters/index.md)

@@ -1,7 +1,9 @@
+import compression from "vite-plugin-compression";
 import { defineConfig } from "vitepress";
 import { type UserConfig, withMermaid } from "vitepress-plugin-mermaid";
 import { withSidebar } from "vitepress-sidebar";
 import type { VitePressSidebarOptions } from "vitepress-sidebar/types";
+
 // https://vitepress.dev/reference/site-config
 
 const vitePressOptions: UserConfig = {
@@ -68,6 +70,25 @@ const vitePressOptions: UserConfig = {
 	mermaidPlugin: {
 		// optionally set additional config for plugin itself with MermaidPluginConfig
 	},
+	vite: {
+		build: {
+			rollupOptions: {
+				treeshake: "recommended",
+				output: {
+					manualChunks: (id) => {
+						if (id.includes("node_modules")) return "vendor";
+						return null;
+					},
+				},
+			},
+		},
+		plugins: [
+			compression({
+				algorithm: "gzip",
+				ext: ".gz",
+			}),
+		],
+	},
 };
 
 const vitePressSidebarOptions: VitePressSidebarOptions = {
@@ -76,7 +97,7 @@ const vitePressSidebarOptions: VitePressSidebarOptions = {
 	capitalizeFirst: true,
 	includeDotFiles: false,
 	includeEmptyFolder: false,
-	excludePattern: ["*draft.md"],
+	excludePattern: ["*draft*"],
 	hyphenToSpace: true,
 	underscoreToSpace: true,
 	includeRootIndexFile: false,
@@ -87,6 +108,7 @@ const vitePressSidebarOptions: VitePressSidebarOptions = {
 	excludeFilesByFrontmatterFieldName: "ignore",
 	frontmatterTitleFieldName: "title",
 	useFolderTitleFromIndexFile: true,
+	sortMenusOrderNumericallyFromTitle: true,
 };
 
 export default defineConfig(

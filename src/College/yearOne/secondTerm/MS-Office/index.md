@@ -6,7 +6,6 @@ next: false
 lastUpdated: false
 ---
 
-# Assignments
+# Microsoft Office
 
 - [Lectures](Lectures/index.md)
-  - [Lecture One](Lectures/LectureOne.md)

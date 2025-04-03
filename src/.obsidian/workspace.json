@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/index.md",
+                "file": "College/yearOne/secondTerm/IntroToIot/index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/index.md",
+                "file": "College/yearOne/secondTerm/IntroToIot/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -194,9 +194,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "6e6b30772217c8e6",
+  "active": "3dbe0140ce760f8c",
   "lastOpenFiles": [
     "College/yearOne/secondTerm/IntroToIoT/Lectures/index.md",
+    "College/yearOne/secondTerm/IntroToIot/index.md",
+    "Courses/index.md",
     "College/yearOne/secondTerm/IntroToIoT/Lectures",
     "College/yearOne/secondTerm/IntroToIoT",
     "College/yearOne/secondTerm/Math-II/index.md",
@@ -239,8 +241,6 @@
     "College/yearOne/secondTerm/C-Essentials/index.md",
     "College/yearOne/secondTerm/C-Essentials/Lectures/grok-draft.md",
     "project-draft.md",
-    "College/yearOne/secondTerm/IntroToIot/Lectures/index.md",
-    "Courses/MaharaTech/C-Programming.md",
     "College/yearOne/secondTerm/C-Essentials/Tasks/imgs"
   ]
 }

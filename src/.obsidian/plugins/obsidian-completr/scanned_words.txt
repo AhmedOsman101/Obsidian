@@ -708,6 +708,8 @@ Potential
 Priming
 Placement
 Powers
+Potentiometer
+Proximity
 IHDR
 IDATx
 IO
@@ -1481,6 +1483,7 @@ IDATs
 Implicit
 Irrigation
 Improvements
+Infrared
 pHYs
 pt
 pu
@@ -3248,6 +3251,10 @@ splashes
 smartphone
 schedules
 smarter
+shutting
+signaling
+sirens
+siren
 ff
 fP
 fj
@@ -3971,6 +3978,12 @@ falsetrueFalsefalsetruetrue
 falsefalseFalsefalsefalsefalse
 flipping
 female
+filtered
+feed
+fault
+filled
+fire
+furnace
 yq
 yh
 yS
@@ -5464,6 +5477,8 @@ wetter
 wet
 waste
 waters
+welded
+washing
 BU
 Bh
 BC
@@ -6172,6 +6187,8 @@ BOw
 Bww
 BCM
 Battery
+Bulbs
+Buzzer
 MC
 Ml
 MW
@@ -6896,6 +6913,11 @@ MCss
 MCoo
 MicroSD
 Mechanism
+Motor
+March
+Motion
+Motors
+Motorized
 Lj
 Lf
 LvVa
@@ -8441,6 +8463,9 @@ automated
 alerts
 automating
 activating
+analyzed
+amazing
+alarm
 Te
 Tn
 TA
@@ -9112,6 +9137,10 @@ Top
 TrueFalse
 Tubing
 Threshold
+Transistor
+Thermocouple
+Thermistors
+Thermistor
 uj
 uq
 uXm
@@ -9716,6 +9745,8 @@ unplugging
 userScore
 ultrasonic
 underwatering
+useless
+unless
 OB
 Ox
 ONynT
@@ -10882,6 +10913,7 @@ UUihj
 UUD
 Ual
 UNO
+Ultrasonic
 ra
 rO
 rV
@@ -11616,6 +11648,15 @@ requirement
 repeating
 rain
 rainfall
+reputation
+repeatability
+resistors
+rotatory
+rotate
+rollers
+really
+refrigerants
+rasping
 eiO
 es
 ee
@@ -13022,6 +13063,8 @@ GRn
 GDQ
 Gry
 Great
+Green
+Gas
 Ex
 EZR
 EG
@@ -13766,6 +13809,7 @@ Enhancements
 ESP
 Environmental
 Educational
+Electric
 Sal
 SQ
 SB
@@ -14595,6 +14639,8 @@ Safely
 Stopping
 SIG
 Solar
+Smoke
+Stepper
 iH
 ic
 iP
@@ -15349,6 +15395,7 @@ increment
 increments
 inversely
 irrigation
+indicators
 tWA
 tW
 tM
@@ -16077,6 +16124,15 @@ threshold
 tubing
 thresholds
 terminals
+thermocouple
+thermoelectric
+thermally
+thermistor
+thermistors
+temp
+translated
+torque
+turntables
 nm
 nv
 nhuK
@@ -16614,6 +16670,7 @@ nbPH
 ntuv
 ngO
 numerator
+notifies
 Fc
 Fe
 Fo
@@ -18244,6 +18301,7 @@ jKK
 jzKa
 jVgy
 jcw
+junctions
 bo
 bi
 bn
@@ -18921,6 +18979,13 @@ bXk
 blinks
 baba
 barrel
+biochemical
+bulbs
+buzzer
+buzzers
+bells
+beepers
+beeper
 Nb
 NJu
 Nbsa
@@ -19541,6 +19606,7 @@ Nct
 NIp
 NNNV
 Needs
+NPN
 lqQvz
 ln
 lN
@@ -20125,6 +20191,9 @@ lSS
 lOQ
 lHM
 lose
+laboratory
+linearity
+liquids
 Rc
 Rt
 RO
@@ -20860,6 +20929,8 @@ Resistive
 Relay
 Reservoir
 Rain
+Resistor
+RTD
 Zt
 ZB
 Zb
@@ -22661,6 +22732,7 @@ Discussion
 Detects
 Deactivation
 Diagram
+Detector
 ohQ
 oL
 ob
@@ -23211,6 +23283,8 @@ operands
 operand
 optimizations
 overwatering
+offer
+oven
 mipte
 mRT
 mX
@@ -23905,6 +23979,11 @@ multitask
 maxScore
 moisture
 male
+magnetism
+motor
+movement
+microwave
+motorized
 Ck
 CS
 Cm
@@ -24777,6 +24856,7 @@ COM
 Conservation
 Convenience
 Calibration
+Cold
 vb
 vO
 vvF
@@ -25350,6 +25430,7 @@ vvvbx
 vision
 vinyl
 valves
+ventilating
 ck
 cr
 ce
@@ -26392,6 +26473,10 @@ corrode
 conserves
 convenience
 careful
+correspond
+conductors
+conductive
+conditioning
 Hu
 Hg
 HiL
@@ -27066,6 +27151,7 @@ HeR
 Highlights
 HATs
 HIGH
+Hot
 hh
 hLR
 hI
@@ -27692,6 +27778,7 @@ hvG
 hotspot
 healthier
 hydration
+heating
 Xi
 XZ
 Xn
@@ -28821,6 +28908,10 @@ gDP
 gTp
 grounds
 grid
+gas
+gates
+gases
+gateways
 KUYX
 KX
 KK
@@ -31571,6 +31662,13 @@ drier
 dry
 duration
 draw
+deliver
+dissimilar
+diodes
+drums
+dishwashers
+describes
+differ
 AK
 AQ
 Aya
@@ -32506,6 +32604,8 @@ AOUT
 Automates
 Activated
 Adaptive
+Actuator
+AMWhy
 Jw
 Jg
 JT

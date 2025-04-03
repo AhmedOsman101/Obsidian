@@ -147,7 +147,7 @@ To implement a blinking LED using Arduino:
 1. Connect an LED to a digital pin.
 2. Use the Arduino IDE to write the following code:
 
-```cpp
+```c
 void setup() {
   pinMode(13, OUTPUT); // Set pin 13 as output
 }

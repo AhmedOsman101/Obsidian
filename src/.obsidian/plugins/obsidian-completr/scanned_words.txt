@@ -1388,7 +1388,7 @@ Initialization
 Iteration
 Introduce
 Initialize
-IntroToIoT
+IntroToIot
 Indicate
 Inadequate
 Indicating

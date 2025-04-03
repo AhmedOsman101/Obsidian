@@ -2399,6 +2399,10 @@ peak
 pisM
 pjC
 pOUT
+preincrement
+postincrement
+predecrement
+postdecrement
 sbf
 sPv
 sC
@@ -3362,6 +3366,9 @@ senses
 stepper
 siG
 sEII
+scanf
+stream
+stdin
 ff
 fP
 fj
@@ -4134,6 +4141,7 @@ falls
 facilitates
 fsN
 fNq
+fall
 yq
 yh
 yS
@@ -10677,6 +10685,8 @@ OAna
 OPO
 OYU
 Offer
+OperatorsRelationalLogical
+OperatorsBitwiseAssignment
 Uc
 Ue
 UXk
@@ -12866,6 +12876,8 @@ enuX
 eatn
 eOZC
 ekS
+eligible
+employed
 GO
 GQ
 Gk
@@ -13492,6 +13504,7 @@ Gateway
 GRKuC
 GfJ
 GjI
+Grading
 Ex
 EZR
 EG
@@ -14252,6 +14265,7 @@ Exhibit
 EcBJ
 EUS
 ENff
+ExampleArithmetic
 Sal
 SQ
 SB
@@ -15103,6 +15117,7 @@ SsA
 Sifb
 SgQS
 SoZ
+Scanf
 iH
 ic
 iP
@@ -17223,6 +17238,7 @@ nkZ
 nfi
 nzH
 nRE
+nonzero
 Fc
 Fe
 Fo
@@ -17967,6 +17983,7 @@ Foi
 FlGTRTd
 Fmf
 FCu
+FalseTrueOperatorsLogicalBitwise
 xi
 xpF
 xwG
@@ -23495,6 +23512,7 @@ DTR
 DOLV
 DaTy
 DCi
+Declared
 ohQ
 oL
 ob
@@ -24828,6 +24846,7 @@ mrO
 mvL
 msB
 mgE
+matched
 Ck
 CS
 Cm
@@ -26387,6 +26406,7 @@ vfEeU
 ventilation
 vEi
 vlu
+vote
 ck
 cr
 ce
@@ -27470,6 +27490,8 @@ car
 circulation
 cWZ
 cDFc
+codea
+casting
 Hu
 Hg
 HiL
@@ -28165,6 +28187,7 @@ HecVr
 HHdH
 HxC
 HXE
+Hand
 hh
 hLR
 hI
@@ -33857,6 +33880,7 @@ ARu
 AcxV
 AiH
 Arz
+AssignmentIncrement
 Jw
 Jg
 JT
@@ -34952,6 +34976,7 @@ QCC
 QPRd
 QQZ
 QVq
+QuizC
 WliB
 WWO
 WRY

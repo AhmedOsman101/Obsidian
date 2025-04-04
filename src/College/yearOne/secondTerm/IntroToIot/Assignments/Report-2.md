@@ -1,5 +1,18 @@
 # Smart Plant Irrigation System
 
+## 0. Team Members
+
+1. أحمد علي أحمد علي عثمان (section 1)
+2. أدم أحمد شوقي محمد (section 1)
+3. إسلام محمد سيد محمد (section 1)
+4. أحمد عويس قرني عبد الهادي (section 1)
+5. احمد محمد احمد محمد عامر (section 1)
+6. احمد حسن عبد الخالق مسعود احمد (section 1)
+7. أحمد محمد محمود عبدالرحمن (section 1)
+8. أنس محمد حنفي محمد (section 2)
+9. أمير طلعت السيد محمد (section 2)
+10. كوثر ناصر محمد خليل خضر (section 6)
+
 ## 1. Introduction
 
 The **Smart Plant Irrigation System** is an IoT-based project designed to automate plant watering by monitoring soil moisture levels. The system utilizes an **Arduino UNO**, a **soil moisture sensor**, and a **water pump** to ensure optimal soil hydration, reducing human effort and improving plant health.

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearOne/secondTerm/IntroToIot/index.md",
+                "file": "College/yearOne/secondTerm/IntroToIot/Assignments/Report-2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Report-2"
             }
           }
         ]
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 302.5,
+    "collapsed": true
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -151,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/yearOne/secondTerm/IntroToIot/index.md",
+                "file": "College/yearOne/secondTerm/IntroToIot/Assignments/Report-2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of Report-2"
             }
           },
           {
@@ -196,8 +197,10 @@
   },
   "active": "3dbe0140ce760f8c",
   "lastOpenFiles": [
-    "College/yearOne/secondTerm/IntroToIoT/Lectures/index.md",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/Report-1.md",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/Report-2.md",
     "College/yearOne/secondTerm/IntroToIot/index.md",
+    "College/yearOne/secondTerm/IntroToIoT/Lectures/index.md",
     "Courses/index.md",
     "College/yearOne/secondTerm/IntroToIoT/Lectures",
     "College/yearOne/secondTerm/IntroToIoT",
@@ -227,8 +230,6 @@
     "College/yearOne/secondTerm/IntroToIot/Lectures/LectureOne.md",
     "College/yearOne/secondTerm/IntroToIot/Lectures/LectureTwo.md",
     "College/yearOne/secondTerm/IntroToIot/Lectures/LectureThree.md",
-    "College/yearOne/secondTerm/IntroToIot/Assignments/Report-2.md",
-    "College/yearOne/secondTerm/IntroToIot/Assignments/Report-1.md",
     "College/yearOne/secondTerm/IntroToIot/imgs/figure5.png",
     "College/yearOne/secondTerm/IntroToIot/imgs/figure2.png",
     "College/yearOne/secondTerm/IntroToIot/imgs/figure4.png",

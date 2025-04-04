@@ -740,6 +740,9 @@ Phones
 Parking
 Photo
 PYf
+Publish
+Push
+Pull
 IHDR
 IDATx
 IO
@@ -5687,6 +5690,7 @@ wPZ
 wnNn
 wAs
 wAi
+wholly
 BU
 Bh
 BC
@@ -7164,6 +7168,7 @@ MLLH
 Machines
 Moves
 Msq
+Members
 Lj
 Lf
 LvVa
@@ -9463,6 +9468,8 @@ Transmitter
 Trigger
 Trig
 Tells
+Team
+Templates
 uj
 uq
 uXm
@@ -10688,6 +10695,8 @@ OYU
 Offer
 OperatorsRelationalLogical
 OperatorsBitwiseAssignment
+Online
+Oracle
 Uc
 Ue
 UXk
@@ -12049,6 +12058,7 @@ rFt
 rnN
 reads
 real
+respond
 eiO
 es
 ee
@@ -12882,6 +12892,7 @@ ekS
 eligible
 employed
 expect
+entails
 GO
 GQ
 Gk
@@ -14270,6 +14281,7 @@ EcBJ
 EUS
 ENff
 ExampleArithmetic
+Exclusive
 Sal
 SQ
 SB
@@ -15124,6 +15136,8 @@ SoZ
 Scanf
 Specifier
 String
+Subscribe
+Serve
 iH
 ic
 iP
@@ -21661,6 +21675,8 @@ Rrr
 RzO
 Riz
 RqCkqHr
+Regions
+RDS
 Zt
 ZB
 Zb
@@ -23522,6 +23538,7 @@ DaTy
 DCi
 Declared
 Declaring
+DynamoDB
 ohQ
 oL
 ob
@@ -24120,6 +24137,7 @@ oYS
 oQg
 oMD
 onC
+offered
 mipte
 mRT
 mX
@@ -32896,6 +32914,8 @@ dyH
 dVF
 dQT
 dWw
+designated
+datastore
 AK
 AQ
 Aya
@@ -33897,6 +33917,7 @@ AcxV
 AiH
 Arz
 AssignmentIncrement
+Autoscaling
 Jw
 Jg
 JT

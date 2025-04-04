@@ -3,9 +3,9 @@ title: Lecture 4
 prev:
   text: "Lecture Three"
   link: "/College/yearOne/secondTerm/IntroToIot/Lectures/LectureThree"
-next: false
-#  text: "Lecture Five"
-#  link: "/College/yearOne/secondTerm/IntroToIot/Lectures/LectureFive"
+next:
+  text: "Lecture Five"
+  link: "/College/yearOne/secondTerm/IntroToIot/Lectures/LectureFive"
 ---
 
 # Introduction to IoT - Lecture 4

@@ -5,3 +5,4 @@ draft.md
 *.mmd
 *.mermaid
 *draft*
+.vercel

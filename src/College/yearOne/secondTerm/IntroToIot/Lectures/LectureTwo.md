@@ -96,7 +96,6 @@ Arduino Uno is an entry-level microcontroller board based on the ATmega328, it's
 ### Features
 
 - **14 Digital I/O Pins** (6 support PWM for analog-like control)
-- 6 Analog Inputs
 - **6 Analog Inputs**
 - **USB Connection**
 - **Power Jack**
@@ -147,7 +146,7 @@ To implement a blinking LED using Arduino:
 1. Connect an LED to a digital pin.
 2. Use the Arduino IDE to write the following code:
 
-```c
+```c++
 void setup() {
   pinMode(13, OUTPUT); // Set pin 13 as output
 }

@@ -101,7 +101,7 @@ Sensors collect data, and actuators use this data to perform specific actions, e
 ## Why Actuators?
 
 - Sensors collect and provide data but cannot act on it.
-- Actuators interpret sensor data to control environments.
+- Actuators interpret sensors' data to control environments.
 - Example: Shutting down a gas flow when pressure falls below a threshold.
 
 ## Sensors vs. Actuators

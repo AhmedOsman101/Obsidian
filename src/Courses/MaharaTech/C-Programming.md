@@ -74,6 +74,7 @@ This table is listing the common `printf` format specifiers for various data typ
 | Literal `%`                   | `%%`             | Prints a percent sign                              | `printf("%%");`          |
 
 ### Notes:
+
 1. **Precision and Width**: You can modify these specifiers with width and precision, e.g., `%5.2f` for a float with 5 total characters and 2 after the decimal.
 2. **Platform Dependence**: Some specifiers (like `%lf` for `double`) may behave differently depending on the compiler or standard (e.g., C89 vs. C99).
 3. **Size Modifiers**: Use `h` (short), `l` (long), or `ll` (long long) to adjust for specific integer sizes.

@@ -1,14 +1,14 @@
 ---
-title: Lecture 5
+title: Lecture 6
 prev:
-  text: Lecture Four
-  link: /College/yearOne/secondTerm/IntroToIot/Lectures/LectureFour
-next:
-  text: Lecture Six
-  link: /College/yearOne/secondTerm/IntroToIot/Lectures/LectureSix
+  text: Lecture Five
+  link: /College/yearOne/secondTerm/IntroToIot/Lectures/LectureFive
+next: false
+#   text: Lecture Seven
+#   link: /College/yearOne/secondTerm/IntroToIot/Lectures/LectureSeven
 ---
 
-# Introduction to IoT - Lecture 5: IoT Communication Models and Levels
+# Introduction to IoT - Lecture 6: IoT Communication Models and Levels
 
 ## IoT Communication Models
 

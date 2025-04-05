@@ -1,6 +1,7 @@
 ---
 title: Lectures
 prev:
+  text: Introduction to IoT
   link: "/College/yearOne/secondTerm/IntroToIot/index"
 next: false
 lastUpdated: false

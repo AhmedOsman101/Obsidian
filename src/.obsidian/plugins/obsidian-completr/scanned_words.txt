@@ -745,6 +745,7 @@ Push
 Pull
 Publishers
 Producers
+Publisher
 IHDR
 IDATx
 IO
@@ -1533,6 +1534,8 @@ ITL
 Ihf
 IIhp
 IQo
+Initializing
+Inner
 pHYs
 pt
 pu
@@ -2411,6 +2414,8 @@ publisher
 producers
 push
 persistent
+published
+put
 sbf
 sPv
 sC
@@ -3381,6 +3386,9 @@ specifying
 sentence
 subscribe
 subscribed
+subscribers
+subscriber
+suite
 ff
 fP
 fj
@@ -4154,6 +4162,8 @@ facilitates
 fsN
 fNq
 fall
+formation
+forever
 yq
 yh
 yS
@@ -8797,6 +8807,8 @@ aHl
 aware
 analyzes
 amazon
+aggregates
+adjusts
 Te
 Tn
 TA
@@ -10718,6 +10730,7 @@ OperatorsRelationalLogical
 OperatorsBitwiseAssignment
 Online
 Oracle
+Outer
 Uc
 Ue
 UXk
@@ -12080,6 +12093,7 @@ rnN
 reads
 real
 respond
+regions
 eiO
 es
 ee
@@ -12914,6 +12928,9 @@ eligible
 employed
 expect
 entails
+encloses
+endless
+ending
 GO
 GQ
 Gk
@@ -14306,6 +14323,8 @@ ExampleArithmetic
 Exclusive
 Elastic
 ElastiCache
+ECS
+ECR
 Sal
 SQ
 SB
@@ -15164,6 +15183,7 @@ Subscribe
 Serve
 Snowball
 Snowmobile
+Subscribers
 iH
 ic
 iP
@@ -15939,6 +15959,8 @@ iie
 incorporate
 interpret
 instruct
+initialization
+init
 tWA
 tW
 tM
@@ -16702,6 +16724,9 @@ tFik
 tqk
 topics
 topic
+till
+tested
+terminated
 nm
 nv
 nhuK
@@ -18033,6 +18058,7 @@ FlGTRTd
 Fmf
 FCu
 FalseTrueOperatorsLogicalBitwise
+Factorial
 xi
 xpF
 xwG
@@ -20337,6 +20363,8 @@ NnN
 NVn
 Nowadays
 NST
+NoSQL
+Nesting
 lqQvz
 ln
 lN
@@ -20944,6 +20972,7 @@ laser
 llsJ
 loY
 locally
+launching
 Rc
 Rt
 RO
@@ -21710,6 +21739,7 @@ Regions
 RDS
 Route
 Redshift
+REST
 Zt
 ZB
 Zb
@@ -24172,6 +24202,8 @@ oMD
 onC
 offered
 observer
+observers
+outer
 mipte
 mRT
 mX
@@ -24910,6 +24942,7 @@ mgE
 matched
 mismatch
 modeling
+mismatched
 Ck
 CS
 Cm
@@ -25872,6 +25905,8 @@ Consumers
 Controller
 Container
 CloudFront
+Counter
+Counters
 vb
 vO
 vvF
@@ -26476,6 +26511,7 @@ vEi
 vlu
 vote
 visualized
+variant
 ck
 cr
 ce
@@ -27566,6 +27602,8 @@ cuts
 continuing
 crucial
 consumers
+consist
+construct
 Hu
 Hg
 HiL
@@ -32961,6 +32999,7 @@ dWw
 designated
 datastore
 decoupling
+decoupled
 AK
 AQ
 Aya
@@ -35062,6 +35101,7 @@ QQZ
 QVq
 QuizC
 Queues
+Quize
 WliB
 WWO
 WRY

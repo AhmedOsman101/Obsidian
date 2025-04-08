@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearOne/secondTerm/C-Essentials/Lectures/draft.md",
+                "file": "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureTwo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "draft"
+              "title": "LectureTwo"
             }
           }
         ]
@@ -151,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/yearOne/secondTerm/C-Essentials/Lectures/draft.md",
+                "file": "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureTwo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of draft"
+              "title": "Outline of LectureTwo"
             }
           },
           {
@@ -191,14 +191,25 @@
       "obsidian-importer:Open Importer": false,
       "obsidian-tts:Text to Speech": false,
       "oz-clear-unused-images:Clear Unused Images": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "28702d510ee250c8",
   "lastOpenFiles": [
+    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/draft-2.md",
+    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/draft.md",
+    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureTwo.md",
+    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureOne.md",
+    "College/yearOne/secondTerm/CybersecurityEssentials/imgs/figure-1.png",
+    "College/yearOne/secondTerm/CybersecurityEssentials/imgs",
+    "College/yearOne/secondTerm/CybersecurityEssentials/imgs/figure.png",
+    "Excalidraw/Drawing 2025-04-08 17.32.32.excalidraw.md",
+    "Excalidraw",
+    "College/yearOne/secondTerm/C-Essentials/Lectures/LectureOne.md",
+    "College/yearOne/secondTerm/C-Essentials/Lectures/draft.md",
     "College/yearOne/secondTerm/IntroToIot/index.md",
     "College/yearOne/secondTerm/IntroToIot/Lectures/index.md",
-    "College/yearOne/secondTerm/C-Essentials/Lectures/draft.md",
     "College/yearOne/secondTerm/C-Essentials/Lectures/LectureFive.md",
     "College/yearOne/secondTerm/C-Essentials/Lectures/LectureFour.md",
     "College/yearOne/secondTerm/IntroToIot/Lectures/LectureTwo.md",
@@ -217,8 +228,6 @@
     "College/yearOne/secondTerm/IntroToIot/Lectures/draft.mdfIAVmH.bck",
     "College/yearOne/secondTerm/IntroToIot/Lectures/draft.mdJb4Gx6.bck",
     "College/yearOne/secondTerm/IntroToIot/Lectures/draft.mdMqdnu7.bck",
-    "College/yearOne/secondTerm/IntroToIot/Lectures/draft.mdRGRQEG.bck",
-    "College/yearOne/secondTerm/IntroToIot/Lectures/draft.mdsE1Pt1.bck",
     "College/yearOne/secondTerm/IntroToIot/imgs/figure-3 1.png",
     "College/yearOne/secondTerm/IntroToIot/Lectures/Pasted image 20250404224844.png",
     "College/yearOne/secondTerm/IntroToIot/imgs/figure-2 1.png",
@@ -232,15 +241,6 @@
     "Courses/index.md",
     "College/yearOne/secondTerm/Math-II/index.md",
     "College/yearOne/secondTerm/CybersecurityEssentials/index.md",
-    "College/yearOne/secondTerm/MS-Office/index.md",
-    "College/yearOne/secondTerm/MS-Office/Lectures/index.md",
-    "College/yearOne/secondTerm/C-Essentials/Lectures/LectureThree.md",
-    "College/yearOne/secondTerm/C-Essentials/Lectures/draft-2.md",
-    "College/yearOne/firstTerm/Python/Lectures/LectureThree.md",
-    "College/yearOne/secondTerm/C-Essentials/Lectures/LectureTwo.md",
-    "College/yearOne/secondTerm/IntroToIot/imgs/figure.png",
-    "College/yearOne/secondTerm/IntroToIot/imgs/figure-3.png",
-    "College/yearOne/secondTerm/IntroToIot/imgs/figure-3.png",
-    "College/yearOne/secondTerm/IntroToIot/imgs/figure-2.png"
+    "College/yearOne/secondTerm/IntroToIot/imgs/figure.png"
   ]
 }

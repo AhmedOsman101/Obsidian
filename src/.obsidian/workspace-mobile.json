@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearOne/secondTerm/IntroToIot/Lectures/LectureFour.md",
-                "mode": "preview",
+                "file": "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/index.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "LectureFour"
+              "title": "index"
             }
           }
         ]
@@ -132,7 +132,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "College/yearOne/secondTerm/IntroToIot/Lectures/LectureFour.md",
+            "file": "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/index.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -146,6 +146,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -162,6 +163,8 @@
   },
   "active": "b7fc0699a9089aea",
   "lastOpenFiles": [
+    "College/yearOne/secondTerm/CybersecurityEssentials/index.md",
+    "College/yearOne/secondTerm/IntroToIot/Lectures/LectureFour.md",
     "College/yearOne/secondTerm/IntroToIot/Lectures/LectureThree.md",
     "College/yearOne/secondTerm/IntroToIot/Lectures/LectureTwo.md",
     "College/yearOne/secondTerm/IntroToIot/Lectures/LectureOne.md",

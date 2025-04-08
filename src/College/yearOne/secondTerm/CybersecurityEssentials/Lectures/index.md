@@ -7,3 +7,5 @@ lastUpdated: false
 ---
 
 # Lectures
+[Lecture One](LectureOne.md)
+[Lecture Two](LectureTwo.md)

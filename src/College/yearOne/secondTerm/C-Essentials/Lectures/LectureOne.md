@@ -283,7 +283,7 @@ flowchart TD
     Start(["Start"]) --> Check{"i < 5"}
 
     Check -- True -->
-    Smaller[/"PRINT i is small"/] -->
+    Smaller[/"PRINT i is smaller"/] -->
     End(["End"]);
 
     Check -- False -->
@@ -303,7 +303,7 @@ flowchart TD
     Start(["Start"]) --> Check{"Is i < 5?"}
 
     Check -- Yes -->
-    Smaller[/"PRINT i is small"/] -->
+    Smaller[/"PRINT i is smaller"/] -->
     End(["End"]);
 
     Check -- No -->
@@ -354,8 +354,8 @@ flowchart TD;
 flowchart TD;
   Start(["Start"]) -->
   Input[/"READ a, b, c"/] -->
-  Avg["Avg = (a + b + c) / 3"] -->
-  Print[/"PRINT a, b, c"/] -->
+  Avg["avg = (a + b + c) / 3"] -->
+  Print[/"PRINT avg"/] -->
   End(["End"])
 ```
 

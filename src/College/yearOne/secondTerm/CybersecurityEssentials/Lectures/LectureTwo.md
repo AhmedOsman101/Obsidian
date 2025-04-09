@@ -1,5 +1,5 @@
 ---
-title: Summary
+title: Lecture 2
 prev:
   text: "Lecture One"
   link: "/College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureOne"

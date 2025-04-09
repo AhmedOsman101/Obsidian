@@ -366,7 +366,7 @@ flowchart TD;
 ```mermaid
 flowchart TD
     Start(["Start"]) -->
-    Initialize["Initialize sum = 0, i = 1"] -->
+    Initialize["sum = 0, i = 1"] -->
 
     Condition{i <= 100}
 

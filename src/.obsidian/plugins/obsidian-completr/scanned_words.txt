@@ -757,6 +757,7 @@ Psq
 PkZX
 PzÖ
 PsAu
+Padding
 IHDR
 IDATx
 IO
@@ -1554,6 +1555,7 @@ Independence
 Ipy
 IOP
 IgJ
+Incident
 pHYs
 pt
 pu
@@ -2459,6 +2461,7 @@ pFq
 plo
 pdd
 pBS
+pieces
 sbf
 sPv
 sC
@@ -3456,6 +3459,7 @@ sUxx
 snAmq
 sYQ
 sqNP
+seemingly
 ff
 fP
 fj
@@ -9648,6 +9652,7 @@ Traffic
 Truncate
 TsA
 TopsQ
+Think
 uj
 uq
 uXm
@@ -10891,6 +10896,8 @@ OzS
 OFH
 Oxy
 Ohyq
+Occurs
+Obscures
 Uc
 Ue
 UXk
@@ -11491,6 +11498,7 @@ UHf
 Uniform
 UQBKs
 UVUa
+Unpredictable
 ra
 rO
 rV
@@ -14538,6 +14546,7 @@ EjW
 Ejx
 Epy
 Evaluated
+Enforces
 Sal
 SQ
 SB
@@ -17577,6 +17586,7 @@ npy
 neD
 nEZ
 ncf
+negatively
 Fc
 Fe
 Fo
@@ -22079,6 +22089,7 @@ Rzx
 RFL
 Reduction
 Regenerates
+Reversible
 Zt
 ZB
 Zb
@@ -26305,6 +26316,9 @@ Congruential
 Clt
 CJo
 Communicates
+Confirms
+Chooses
+Concatenate
 vb
 vO
 vvF
@@ -28028,6 +28042,7 @@ cPs
 cFh
 cMD
 colon
+computation
 Hu
 Hg
 HiL
@@ -34512,6 +34527,9 @@ Aep
 AnO
 AtT
 Addresses
+Attempt
+Authenticity
+Append
 Jw
 Jg
 JT

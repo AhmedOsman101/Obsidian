@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureTwo.md",
+                "file": "College/yearOne/secondTerm/C-Essentials/Lectures/draft-2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "LectureTwo"
+              "title": "draft-2"
             }
           }
         ]
@@ -151,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureTwo.md",
+                "file": "College/yearOne/secondTerm/C-Essentials/Lectures/draft-2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of LectureTwo"
+              "title": "Outline of draft-2"
             }
           },
           {
@@ -195,23 +195,28 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "28702d510ee250c8",
+  "active": "6e6b30772217c8e6",
   "lastOpenFiles": [
+    "College/yearOne/secondTerm/C-Essentials/imgs",
+    "College/yearOne/secondTerm/C-Essentials/Lectures/draft.md",
+    "College/yearOne/secondTerm/C-Essentials/Lectures/draft-2.md",
+    "College/yearOne/secondTerm/C-Essentials/Lectures/LectureFive.md",
+    "College/yearOne/secondTerm/C-Essentials/Lectures/LectureFour.md",
+    "College/yearOne/secondTerm/C-Essentials/Lectures/LectureThree.md",
+    "College/yearOne/secondTerm/C-Essentials/Lectures/LectureTwo.md",
+    "College/yearOne/secondTerm/C-Essentials/Lectures/LectureOne.md",
+    "College/yearOne/secondTerm/C-Essentials/imgs/figure.png",
+    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureTwo.md",
     "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/draft-2.md",
     "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/draft.md",
-    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureTwo.md",
     "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureOne.md",
     "College/yearOne/secondTerm/CybersecurityEssentials/imgs/figure-1.png",
     "College/yearOne/secondTerm/CybersecurityEssentials/imgs",
     "College/yearOne/secondTerm/CybersecurityEssentials/imgs/figure.png",
     "Excalidraw/Drawing 2025-04-08 17.32.32.excalidraw.md",
     "Excalidraw",
-    "College/yearOne/secondTerm/C-Essentials/Lectures/LectureOne.md",
-    "College/yearOne/secondTerm/C-Essentials/Lectures/draft.md",
     "College/yearOne/secondTerm/IntroToIot/index.md",
     "College/yearOne/secondTerm/IntroToIot/Lectures/index.md",
-    "College/yearOne/secondTerm/C-Essentials/Lectures/LectureFive.md",
-    "College/yearOne/secondTerm/C-Essentials/Lectures/LectureFour.md",
     "College/yearOne/secondTerm/IntroToIot/Lectures/LectureTwo.md",
     "College/yearOne/secondTerm/IntroToIot/Lectures/LectureFour.md",
     "College/yearOne/secondTerm/IntroToIot/Lectures/LectureThree.md",
@@ -237,10 +242,6 @@
     "College/yearOne/secondTerm/IntroToIot/Lectures/LectureFive.md",
     "College/yearOne/secondTerm/IntroToIot/Assignments/Report-2.md",
     "College/yearOne/secondTerm/IntroToIot/Assignments/Report-1.md",
-    "College/yearOne/secondTerm/IntroToIoT/Lectures/index.md",
-    "Courses/index.md",
-    "College/yearOne/secondTerm/Math-II/index.md",
-    "College/yearOne/secondTerm/CybersecurityEssentials/index.md",
     "College/yearOne/secondTerm/IntroToIot/imgs/figure.png"
   ]
 }

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/LinuxNotes/awk.md",
+                "file": "College/yearOne/secondTerm/C-Essentials/Tasks/TaskTwo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "awk"
+              "title": "TaskTwo"
             }
           }
         ]
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5,
-    "collapsed": true
+    "width": 302.5
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -152,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/LinuxNotes/awk.md",
+                "file": "College/yearOne/secondTerm/C-Essentials/Tasks/TaskTwo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of awk"
+              "title": "Outline of TaskTwo"
             }
           },
           {
@@ -198,6 +197,9 @@
   },
   "active": "28702d510ee250c8",
   "lastOpenFiles": [
+    "College/yearOne/secondTerm/C-Essentials/Tasks/TaskOne.md",
+    "College/yearOne/secondTerm/C-Essentials/Tasks/TaskTwo.md",
+    "Programming/LinuxNotes/awk.md",
     "Programming/LinuxNotes/awk.mdV9XVYs.bck",
     "Programming/LinuxNotes/awk.md8jc2Fq.bck",
     "Programming/LinuxNotes/awk.mdjZBGsh.bck",
@@ -208,9 +210,7 @@
     "Programming/LinuxNotes/awk.mdut0oVw.bck",
     "Programming/LinuxNotes/awk.mdZtGT69.bck",
     "Programming/LinuxNotes/awk.md6NFRPF.bck",
-    "Programming/LinuxNotes/awk.mdZLbGad.bck",
     "Programming/LinuxNotes/fzf.md",
-    "Programming/LinuxNotes/awk.md",
     "College/yearOne/secondTerm/C-Essentials/index.md",
     "College/yearOne/secondTerm/C-Essentials/Lectures/index.md",
     "College/yearOne/secondTerm/C-Essentials/Lectures/draft-2.md",
@@ -236,7 +236,6 @@
     "College/yearOne/secondTerm/IntroToIot/Lectures/LectureThree.md",
     "College/yearOne/secondTerm/IntroToIot/Lectures/draft-2.md",
     "College/yearOne/secondTerm/IntroToIot/Assignments/Report-1-draft.md",
-    "College/yearOne/secondTerm/IntroToIot/Assignments/Report-draft.md",
     "College/yearOne/secondTerm/IntroToIot/imgs/figure-3 1.png",
     "College/yearOne/secondTerm/IntroToIot/Lectures/Pasted image 20250404224844.png",
     "College/yearOne/secondTerm/IntroToIot/imgs/figure-2 1.png",

@@ -759,6 +759,8 @@ PzÖ
 PsAu
 Padding
 Palindrome
+PEM
+Plaintext
 IHDR
 IDATx
 IO
@@ -1557,6 +1559,9 @@ Ipy
 IOP
 IgJ
 Incident
+Implements
+Import
+Interactive
 pHYs
 pt
 pu
@@ -2463,6 +2468,8 @@ plo
 pdd
 pBS
 pieces
+primality
+primes
 sbf
 sPv
 sC
@@ -3463,6 +3470,8 @@ sqNP
 seemingly
 separators
 sorted
+structs
+saves
 ff
 fP
 fj
@@ -7314,6 +7323,7 @@ Mfp
 Mge
 Multiport
 Merge
+Miller
 Lj
 Lf
 LvVa
@@ -8041,6 +8051,7 @@ LgB
 Lsa
 LPwck
 Lacks
+LCG
 al
 aj
 ar
@@ -8960,6 +8971,9 @@ aoG
 aeB
 awk
 ascending
+author
+averages
+appending
 Te
 Tn
 TA
@@ -10905,6 +10919,7 @@ Oxy
 Ohyq
 Occurs
 Obscures
+Opens
 Uc
 Ue
 UXk
@@ -12288,6 +12303,8 @@ rvvb
 rWah
 rXO
 regex
+read
+recalculates
 eiO
 es
 ee
@@ -13140,6 +13157,8 @@ eLH
 efA
 eXz
 employing
+exponentiation
+export
 GO
 GQ
 Gk
@@ -14555,6 +14574,8 @@ Ejx
 Epy
 Evaluated
 Enforces
+Encode
+Effects
 Sal
 SQ
 SB
@@ -15429,6 +15450,7 @@ SPs
 Segmentation
 Stands
 Sort
+Student
 iH
 ic
 iP
@@ -17001,6 +17023,9 @@ tsA
 tQjAl
 tAn
 treats
+ties
+totient
+traverse
 nm
 nv
 nhuK
@@ -22100,6 +22125,10 @@ RFL
 Reduction
 Regenerates
 Reversible
+RsaTest
+Rabin
+Reject
+Recovered
 Zt
 ZB
 Zb
@@ -23987,6 +24016,8 @@ DLy
 DRy
 DFd
 Dialog
+Dependencies
+Declare
 ohQ
 oL
 ob
@@ -24599,6 +24630,7 @@ oHG
 oPsq
 ops
 oFD
+overwritten
 mipte
 mRT
 mX
@@ -25355,6 +25387,7 @@ mYb
 mWnGkW
 minimized
 merge
+member
 Ck
 CS
 Cm
@@ -26331,6 +26364,7 @@ Confirms
 Chooses
 Concatenate
 Count
+Ciphertext
 vb
 vO
 vvF
@@ -28056,6 +28090,11 @@ cMD
 colon
 computation
 coprime
+candidates
+ciphertext
+console
+calculateAverage
+contiguous
 Hu
 Hg
 HiL
@@ -29432,6 +29471,7 @@ hdsA
 hWB
 http
 harder
+harness
 Xi
 XZ
 Xn
@@ -33525,6 +33565,9 @@ dsa
 dFi
 dxy
 dialog
+decode
+demonstration
+demonstrate
 AK
 AQ
 Aya

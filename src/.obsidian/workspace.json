@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearOne/secondTerm/C-Essentials/Tasks/AssignmentTwo.md",
+                "file": "College/yearOne/secondTerm/C-Essentials/Tasks/draft.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "AssignmentTwo"
+              "title": "draft"
             }
           },
           {
@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearOne/secondTerm/C-Essentials/Tasks/draft.md",
+                "file": "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo-draft.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "draft"
+              "title": "AssignmentTwo-draft"
             }
           }
         ],
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/yearOne/secondTerm/C-Essentials/Tasks/draft.md",
+                "file": "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo-draft.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of draft"
+              "title": "Outline of AssignmentTwo-draft"
             }
           },
           {
@@ -213,24 +213,42 @@
   },
   "active": "2397652d24947ed4",
   "lastOpenFiles": [
-    "College/yearOne/secondTerm/C-Essentials/Tasks/AssignmentTwo.md",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo-draft.md1HyrZQ.bck",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo-draft.md7V7fAa.bck",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo-draft.md3eLRdq.bck",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo-draft.mdj132C0.bck",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo-draft.md10EN0H.bck",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo-draft.mdX1iAKy.bck",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo-draft.mdEPl0L7.bck",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo-draft.mdiiw0R4.bck",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo-draft.mdwFHUgK.bck",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/figure-24.png",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo-draft.mdhqD8Uw.bck",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo-draft.mdKz3NPQ.bck",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/figure-25.png",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/figure-24.png",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/figure-23.png",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/figure-22.png",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/figure-21.png",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/figure-20.png",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/figure-19.png",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/figure-18.png",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/figure-17.png",
     "College/yearOne/secondTerm/C-Essentials/Tasks/draft.md",
+    "College/yearOne/secondTerm/C-Essentials/Tasks/AssignmentTwo.md",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo-draft.md",
+    "College/yearOne/secondTerm/IntroToIot/Lectures/LectureFour.md",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/grok-draft.md",
+    "College/yearOne/secondTerm/IntroToIot/Lectures/LectureFive.md",
+    "College/yearOne/secondTerm/IntroToIot/Lectures/LectureSix.md",
+    "College/yearOne/secondTerm/IntroToIot/Lectures/LectureOne.md",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/Report-1-draft.md",
     "project-draft.md",
     "draft.md",
     "Programming/RSA.md",
     "College/yearOne/secondTerm/C-Essentials/Tasks/TaskTwo.md",
     "College/yearOne/secondTerm/C-Essentials/Tasks/TaskOne.md",
     "Programming/LinuxNotes/awk.md",
-    "Programming/LinuxNotes/awk.mdV9XVYs.bck",
-    "Programming/LinuxNotes/awk.md8jc2Fq.bck",
-    "Programming/LinuxNotes/awk.mdjZBGsh.bck",
-    "Programming/LinuxNotes/awk.mdz84OZ9.bck",
-    "Programming/LinuxNotes/awk.md1n9vmz.bck",
-    "Programming/LinuxNotes/awk.md40wmXN.bck",
-    "Programming/LinuxNotes/awk.mdHspN2t.bck",
-    "Programming/LinuxNotes/awk.mdut0oVw.bck",
-    "Programming/LinuxNotes/awk.mdZtGT69.bck",
-    "Programming/LinuxNotes/awk.md6NFRPF.bck",
     "Programming/LinuxNotes/fzf.md",
     "College/yearOne/secondTerm/C-Essentials/index.md",
     "College/yearOne/secondTerm/C-Essentials/Lectures/index.md",
@@ -240,24 +258,6 @@
     "College/yearOne/secondTerm/C-Essentials/Lectures/LectureFive.md",
     "College/yearOne/secondTerm/C-Essentials/Lectures/LectureFour.md",
     "College/yearOne/secondTerm/C-Essentials/Lectures/LectureThree.md",
-    "College/yearOne/secondTerm/C-Essentials/Lectures/LectureTwo.md",
-    "College/yearOne/secondTerm/C-Essentials/Lectures/LectureOne.md",
-    "College/yearOne/secondTerm/C-Essentials/imgs/figure.png",
-    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureTwo.md",
-    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/draft-2.md",
-    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/draft.md",
-    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureOne.md",
-    "College/yearOne/secondTerm/CybersecurityEssentials/imgs/figure-1.png",
-    "College/yearOne/secondTerm/CybersecurityEssentials/imgs/figure.png",
-    "Excalidraw/Drawing 2025-04-08 17.32.32.excalidraw.md",
-    "College/yearOne/secondTerm/IntroToIot/index.md",
-    "College/yearOne/secondTerm/IntroToIot/Lectures/index.md",
-    "College/yearOne/secondTerm/IntroToIot/imgs/figure-3 1.png",
-    "College/yearOne/secondTerm/IntroToIot/Lectures/Pasted image 20250404224844.png",
-    "College/yearOne/secondTerm/IntroToIot/imgs/figure-2 1.png",
-    "College/yearOne/secondTerm/IntroToIot/imgs/figure-1 1.png",
-    "College/yearOne/secondTerm/IntroToIot/imgs/figure 1.png",
-    "College/yearOne/secondTerm/IntroToIot/imgs/figure 1.png",
-    "College/yearOne/secondTerm/IntroToIot/imgs/figure.png"
+    "College/yearOne/secondTerm/C-Essentials/Lectures/LectureTwo.md"
   ]
 }

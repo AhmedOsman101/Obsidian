@@ -1,4 +1,10 @@
-# Student Information
+# Student details
+
+| Data    | Details                  |
+| :------ | :----------------------- |
+| Name    | ‎أحمد علي أحمد علي عثمان |
+| Code    | 20240592                 |
+| Section | 1                        |
 
 ## Task 1: Store and Display Total Marks Using a 2D Array
 

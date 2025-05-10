@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearOne/secondTerm/C-Essentials/Tasks/draft.md",
+                "file": "College/yearOne/secondTerm/MS-Office/Assignments/AssignmentTwo-draft.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "draft"
+              "title": "AssignmentTwo-draft"
             }
           },
           {
@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo-draft.md",
+                "file": "College/yearOne/secondTerm/C-Essentials/Tasks/AssignmentTwo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "AssignmentTwo-draft"
+              "title": "AssignmentTwo"
             }
           }
         ],
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo-draft.md",
+                "file": "College/yearOne/secondTerm/C-Essentials/Tasks/AssignmentTwo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AssignmentTwo-draft"
+              "title": "Outline of AssignmentTwo"
             }
           },
           {
@@ -213,6 +213,10 @@
   },
   "active": "2397652d24947ed4",
   "lastOpenFiles": [
+    "College/yearOne/secondTerm/MS-Office/Assignments/AssignmentTwo-draft.md",
+    "College/yearOne/secondTerm/C-Essentials/Tasks/draft.md",
+    "College/yearOne/secondTerm/C-Essentials/Tasks/AssignmentTwo.md",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo-draft.md",
     "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo-draft.md1HyrZQ.bck",
     "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo-draft.md7V7fAa.bck",
     "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo-draft.md3eLRdq.bck",
@@ -224,7 +228,6 @@
     "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo-draft.mdwFHUgK.bck",
     "College/yearOne/secondTerm/IntroToIot/Assignments/figure-24.png",
     "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo-draft.mdhqD8Uw.bck",
-    "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo-draft.mdKz3NPQ.bck",
     "College/yearOne/secondTerm/IntroToIot/Assignments/figure-25.png",
     "College/yearOne/secondTerm/IntroToIot/Assignments/figure-24.png",
     "College/yearOne/secondTerm/IntroToIot/Assignments/figure-23.png",
@@ -234,9 +237,6 @@
     "College/yearOne/secondTerm/IntroToIot/Assignments/figure-19.png",
     "College/yearOne/secondTerm/IntroToIot/Assignments/figure-18.png",
     "College/yearOne/secondTerm/IntroToIot/Assignments/figure-17.png",
-    "College/yearOne/secondTerm/C-Essentials/Tasks/draft.md",
-    "College/yearOne/secondTerm/C-Essentials/Tasks/AssignmentTwo.md",
-    "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo-draft.md",
     "College/yearOne/secondTerm/IntroToIot/Lectures/LectureFour.md",
     "College/yearOne/secondTerm/IntroToIot/Assignments/grok-draft.md",
     "College/yearOne/secondTerm/IntroToIot/Lectures/LectureFive.md",

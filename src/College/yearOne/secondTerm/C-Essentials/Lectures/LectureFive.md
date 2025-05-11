@@ -24,7 +24,7 @@ next: false
 
 ### Example
 
-```c
+```C
 char letter = 'A';
 
 // Print the uppercase alphabet from A to Z
@@ -41,7 +41,7 @@ while (letter <= 'Z') {
 
 ### Example
 
-```c
+```C
 int i = 6;
 
 // This loop runs once even though the condition is false
@@ -73,7 +73,7 @@ printf("End of the loop\n");
 
 **Syntax:**
 
-```c
+```C
 for (Initialization; Condition; Update) {
   // Loop body
 }
@@ -81,7 +81,7 @@ for (Initialization; Condition; Update) {
 
 ### Example 1: Basic for Loop
 
-```c
+```C
 for (int i = 0; i < 5; i++) {
   printf("i = %d\n", i);
 }
@@ -89,7 +89,7 @@ for (int i = 0; i < 5; i++) {
 
 ### Example 2: Initialization Before Loop
 
-```c
+```C
 int i = 0;
 
 for (; i < 5; i++) {
@@ -102,7 +102,7 @@ for (; i < 5; i++) {
 - Multiple variables can be initialized and updated in a `for` loop.
 - Only one condition is allowed to control the loop.
 
-```c
+```C
 for (int i = 0, j = 10; i < 5; i++, j--) {
   printf("i = %d, j = %d\n", i, j);
 }
@@ -119,7 +119,7 @@ Output:
 
 ### Example 4: Factorial Calculation
 
-```c
+```C
 int x = 5, factorial = 1;
 
 for (int i = 1; i <= x; i++) {
@@ -137,7 +137,7 @@ printf("%d! = %d\n", x, factorial);  // Output: 5! = 120
 
 ### Example: Multiplication Table
 
-```c
+```C
 // Print a 10x10 multiplication table
 for (int i = 1; i <= 10; i++) {
   for (int j = 1; j <= 10; j++) {
@@ -155,7 +155,7 @@ for (int i = 1; i <= 10; i++) {
 
 ### Example: Infinite Loop
 
-```c
+```C
 while (1) {
   printf("hello\n");  // Runs indefinitely
 }
@@ -171,7 +171,7 @@ while (1) {
 
 #### Example
 
-```c
+```C
 int i = 0, limit = 10;
 
 while (1) {
@@ -190,7 +190,7 @@ printf("i reached the limit\n");
 
 #### Example
 
-```c
+```C
 for (int i = 1; i <= 10; i++) {
   if (i % 2 != 0) continue;  // Skip odd numbers
 

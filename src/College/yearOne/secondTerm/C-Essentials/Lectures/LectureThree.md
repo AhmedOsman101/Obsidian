@@ -20,7 +20,7 @@ next:
 
 **Example:**
 
-```c
+```C
 const float PI = 3.14; // Constant float
 const int BIRTH_YEAR = 2005; // Constant integer
 
@@ -43,14 +43,14 @@ Implicit conversion is done automatically by the compiler when assigning a value
 
 **Example:**
 
-```c
+```C
 float num = 9; // Integer 9 is implicitly converted to float
 printf("%f", num); // Output: 9.000000
 ```
 
 Another example where `float` is automatically converted to `int`:
 
-```c
+```C
 int result = 5 / 2; // Integer division, drops decimal (2.5 -> 2)
 printf("Integer division: %d\n", result); // Output: 2
 ```
@@ -63,7 +63,7 @@ Explicit conversion (casting) is performed manually by specifying the target typ
 
 **Example:**
 
-```c
+```C
 float result = (float) 5 / 2; // Forces floating-point division
 printf("%f", result); // output: 2.500000
 ```
@@ -72,7 +72,7 @@ printf("%f", result); // output: 2.500000
 
 Calculate a user's score percentage in a game:
 
-```c
+```C
 const int MAX_SCORE = 500; // Maximum possible score
 int userScore = 423;       // User's score
 
@@ -100,7 +100,7 @@ Arithmetic operators perform basic math operations.
 
 **Example:**
 
-```c
+```C
 int a = 10, b = 3;
 printf("a: %d, b: %d\n", a, b);
 printf("Addition: %d\n", a + b); // 13
@@ -116,7 +116,7 @@ printf("Modulus: %d\n", a % b); // 1
 
 **Example:**
 
-```c
+```C
 char first = 'Z', second = 'M';
 int diff = first - second; // 90 - 77 = 13 (ASCII values)
 printf("Difference between '%c' and '%c': %d\n", first, second, diff);
@@ -137,7 +137,7 @@ Relational operators compare two values and return a boolean result (1 for true,
 
 **Example:**
 
-```c
+```C
 int x = 15, y = 10;
 printf("x == y: %d\n", x == y); // 0
 printf("x != y: %d\n", x != y); // 1
@@ -157,7 +157,7 @@ Logical operators combine conditions to produce a `true` (1) or `false` (0) resu
 
 **Example:**
 
-```c
+```C
 int phy = 50, maths = 60;
 if (phy >= 50 && maths >= 50) {
   printf("Result: Pass\n"); // Output: Pass
@@ -181,7 +181,7 @@ Bitwise operators manipulate individual bits of numbers.
 
 **Example:**
 
-```c
+```C
 unsigned int a = 60; // 0011 1100
 unsigned int b = 13; // 0000 1101
 printf("a & b: %d\n", a & b);  // 12 (0000 1100)
@@ -212,7 +212,7 @@ Assignment operators assign values to variables, often combined with arithmetic 
 
 **Example:**
 
-```c
+```C
 int a = 21, b;
 b = a;     printf("b = a: %d\n", b);    // 21
 b += a;    printf("b += a: %d\n", b);   // 42
@@ -234,7 +234,7 @@ These operators increment or decrement the value of a variable by 1.
 
 **Example:**
 
-```c
+```C
 int a = 5, pre, post;
 
 pre = ++a;

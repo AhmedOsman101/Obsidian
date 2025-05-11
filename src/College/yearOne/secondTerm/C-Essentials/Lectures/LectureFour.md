@@ -17,7 +17,7 @@ next:
 
 ### Syntax of `scanf()`
 
-```c
+```C
 int x;
 scanf("%d", &x);  // ("format_specifier", &variable)
 ```
@@ -37,7 +37,7 @@ scanf("%d", &x);  // ("format_specifier", &variable)
 
 ### Example
 
-```c
+```C
 int num;
 float decimal;
 
@@ -51,7 +51,7 @@ printf("Integer: %d, Decimal: %.2f\n", num, decimal);
 
 ### Code Example 1: Using `scanf`
 
-```c
+```C
 #include <stdio.h>
 
 int main() {
@@ -76,7 +76,7 @@ int main() {
 
 ### Code Example 2: Using `gets`
 
-```c
+```C
 #include <stdio.h>
 
 int main() {
@@ -112,7 +112,7 @@ int main() {
 
 #### Example
 
-```c
+```C
 int num = 4;
 
 if (num % 2 == 0) {
@@ -128,7 +128,7 @@ if (num % 2 == 0) {
 
 #### Example: Check if a Number is Even or Odd
 
-```c
+```C
 int num = 5;
 
 if (num % 2 == 0) {
@@ -146,7 +146,7 @@ if (num % 2 == 0) {
 
 #### Example
 
-```c
+```C
 int number;
 
 printf("Enter a number: ");
@@ -169,7 +169,7 @@ if (number > 0) {
 
 #### Example
 
-```c
+```C
 int time = 20;
 time < 18 ? printf("Good day.\n") : printf("Good evening.\n");  // Prints "Good evening."
 ```
@@ -182,7 +182,7 @@ time < 18 ? printf("Good day.\n") : printf("Good evening.\n");  // Prints "Good 
 
 #### Example: Checking if a Number is Positive and Even
 
-```c
+```C
 int num;
 
 printf("Enter an integer: ");
@@ -223,7 +223,7 @@ if (num > 0) {  // Check if the number is positive
 
 ### Example
 
-```c
+```C
 int choice;
 
 printf("Enter 1, 2, or 3: ");

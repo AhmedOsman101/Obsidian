@@ -161,7 +161,7 @@ Translates and executes code line-by-line.
 
 ### Hello World Example
 
-```c
+```C
 #include <stdio.h>
 
 int main() {
@@ -189,7 +189,7 @@ int main() {
 >
 > The body of `int main()` could also be written as:
 >
-> ```c
+> ```C
 > int main() { printf("Hello World!"); return 0; }
 > ```
 
@@ -199,7 +199,7 @@ Syntax errors occur when code violates C's grammatical rules.
 
 - **Example**: Missing semicolon.
 
-```c
+```C
 #include <stdio.h>
 
 int main() {
@@ -221,7 +221,7 @@ Escape sequences help format output in C:
 
 ### Example:
 
-```c
+```C
 #include <stdio.h>
 
 int main() {
@@ -243,14 +243,14 @@ Comments improve code readability and can prevent execution for testing.
 
 ### Single-line comment:
 
-```c
+```C
 // This is a comment
 printf("This will run!\n");
 ```
 
 ### Multi-line comment:
 
-```c
+```C
 /* This is
 a really
 long comment
@@ -283,7 +283,7 @@ printf("This will run!\n");
 
 - **Char**: Stores a single character (as an ASCII value).
 
-```c
+```C
 #include <stdio.h>
 
 int main() {
@@ -297,7 +297,7 @@ int main() {
 
 - **Int**: Stores whole numbers (typically 4 bytes in modern systems).
 
-```c
+```C
 #include <stdio.h>
 
 int main() {
@@ -311,7 +311,7 @@ int main() {
 
 - **Float**: Stores decimal numbers with precision up to 6-7 decimal places.
 
-```c
+```C
 #include <stdio.h>
 
 int main() {
@@ -325,7 +325,7 @@ int main() {
 
 - **Double**: Stores decimal numbers with precision up to 15-16 decimal places.
 
-```c
+```C
 #include <stdio.h>
 
 int main() {
@@ -349,7 +349,7 @@ int main() {
 
 - **Array**:
 
-```c
+```C
 #include <stdio.h>
 
 int main() {
@@ -363,7 +363,7 @@ int main() {
 
 - **Pointer**:
 
-```c
+```C
 #include <stdio.h>
 int main() {
   int x = 10;
@@ -383,7 +383,7 @@ Address: 0x7ffc5d361954
 
 - **Struct**:
 
-```c
+```C
 #include <stdio.h>
 
 struct Person {
@@ -402,7 +402,7 @@ int main() {
 
 - **Union**:
 
-```c
+```C
 #include <stdio.h>
 
 union Data {
@@ -422,7 +422,7 @@ int main() {
 
 - **Enum**:
 
-```c
+```C
 #include <stdio.h>
 
 enum Color {RED, GREEN, BLUE};
@@ -451,7 +451,7 @@ int main() {
 
 Calculate total cost using different data types:
 
-```c
+```C
 #include <stdio.h>
 int main() {
   int items = 50;           // Number of items

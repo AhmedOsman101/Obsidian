@@ -1,5 +1,5 @@
 ---
-title: Lecture 7-8
+title: Lecture 7~8
 prev:
   text: "Lecture Six"
   link: "/College/yearOne/secondTerm/C-Essentials/Lectures/LectureSix"
@@ -18,7 +18,7 @@ Structures (`struct`) in C allow you to group variables of different data types 
 
 Without structures, each related variable must be declared separately:
 
-```c
+```C
 int productID;
 char productName[50];
 float price;
@@ -27,7 +27,7 @@ int quantity;
 
 With structures, related variables are grouped together:
 
-```c
+```C
 struct Product {
   int ID;
   char name[50];
@@ -40,7 +40,7 @@ struct Product {
 
 Structure variables can be declared inside `main()` using the structure name:
 
-```c
+```C
 struct User {
   int id;
   char name;
@@ -56,7 +56,7 @@ int main() {
 
 You can declare variables directly when defining the structure:
 
-```c
+```C
 struct Product {
   int ID;
   char name[50];
@@ -69,7 +69,7 @@ struct Product {
 
 Use the dot (`.`) operator to access structure members:
 
-```c
+```C
 myUser.id = 1;
 myUser.age = 20;
 ```
@@ -78,16 +78,22 @@ myUser.age = 20;
 
 Strings are arrays of characters and cannot be assigned directly. Use `strcpy()` instead:
 
-```c
-#include <string.h> // you have to include string.h to access strcpy()
+```C
 strcpy(myUser.name, "Ahmad Othman");
 ```
+
+> [!NOTE]
+> You have to inlcude `string.h` header file to use `strcpy()`.
+>
+> ```C
+> #include <string.h>
+> ```
 
 ### Assigning Values at Declaration Time
 
 You can initialize structure members at declaration time:
 
-```c
+```C
 struct User myUser = { 1, "Ahmad Othman" };
 struct User secondUser = {
   .id = 2,
@@ -99,7 +105,7 @@ struct User secondUser = {
 
 You can assign one structure to another:
 
-```c
+```C
 struct User user2 = user1;
 ```
 
@@ -107,7 +113,7 @@ struct User user2 = user1;
 
 Use the dot operator or `strcpy()` for strings:
 
-```c
+```C
 myUser.id = 2;
 strcpy(myUser.name, "Test User");
 ```
@@ -129,13 +135,13 @@ strcpy(myUser.name, "Test User");
 
 Allows storing multiple records efficiently:
 
-```c
+```C
 struct User Users[3];
 ```
 
 Access individual elements and their members with:
 
-```c
+```C
 Users[0].id = 1;
 strcpy(Users[0].name, "Ahmad Othman");
 ```
@@ -156,7 +162,7 @@ Examples include `main()` and `printf()`.
 
 ### Create a Function
 
-```c
+```C
 void myFunction() {
   // Function Body
 }
@@ -166,7 +172,7 @@ void myFunction() {
 
 Call it using its name followed by `()`:
 
-```c
+```C
 myFunction();
 ```
 
@@ -174,7 +180,7 @@ myFunction();
 
 Functions can accept parameters:
 
-```c
+```C
 int sum(int a, int b) {
   return a + b;
 }
@@ -182,7 +188,7 @@ int sum(int a, int b) {
 
 Call and store return values:
 
-```c
+```C
 int result = sum(4, 6);
 ```
 
@@ -190,13 +196,13 @@ int result = sum(4, 6);
 
 Declaration:
 
-```c
+```C
 int sum(int a, int b);
 ```
 
 Definition:
 
-```c
+```C
 int sum(int a, int b) {
   return a + b;
 }
@@ -206,7 +212,7 @@ int sum(int a, int b) {
 
 Declare a function before it is used to avoid compilation errors:
 
-```c
+```C
 int function_b(int y); // Forward declaration
 
 int function_a(int x) {
@@ -223,7 +229,7 @@ int function_b(int y) {
 A recursive function calls itself to solve problems.
 Used to simplify complex problems like calculating the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence#Definition).
 
-```c
+```C
 #include <stdio.h>
 
 int fib(int n) {

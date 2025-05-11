@@ -790,6 +790,7 @@ ProductID
 ProductName
 Pick
 Playback
+Pass
 IHDR
 IDATx
 IO
@@ -1619,6 +1620,7 @@ InventoryID
 Inventory
 Interactivity
 Immediately
+Incrementing
 pHYs
 pt
 pu
@@ -2569,6 +2571,8 @@ presentation
 productID
 printf
 parameter
+pointed
+ptr
 sbf
 sPv
 sC
@@ -3623,6 +3627,8 @@ sheets
 strcpy
 studying
 screenCreate
+subtracted
+signifies
 ff
 fP
 fj
@@ -7631,6 +7637,7 @@ Macros
 Move
 Mark
 Mismatch
+Manipulate
 Lj
 Lf
 LvVa
@@ -9335,6 +9342,7 @@ aBS
 aqN
 animations
 advance
+asterisk
 Te
 Tn
 TA
@@ -12813,6 +12821,7 @@ references
 referenced
 referential
 recursion
+referencing
 eiO
 es
 ee
@@ -16092,6 +16101,7 @@ Shapes
 Skills
 Semantics
 Semicolon
+Similarly
 iH
 ic
 iP
@@ -17725,6 +17735,8 @@ thumbnails
 transitions
 todo
 tutorial
+trees
+taking
 nm
 nv
 nhuK
@@ -23052,6 +23064,7 @@ Recalculate
 Referential
 Recursive
 Recursion
+Referencing
 Zt
 ZB
 Zb
@@ -25036,6 +25049,9 @@ DepartmentName
 Detail
 Displaying
 Declaration
+Dereferencing
+Decrementing
+Dereference
 ohQ
 oL
 ob
@@ -35013,6 +35029,10 @@ determining
 detailing
 designing
 declaration
+dereferencing
+designate
+declaring
+dereference
 AK
 AQ
 Aya

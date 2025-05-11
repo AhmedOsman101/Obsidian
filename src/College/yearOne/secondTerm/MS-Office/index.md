@@ -1,5 +1,5 @@
 ---
-title: Assignments
+title: MS-Office
 prev:
   link: "/College/yearOne/secondTerm/index"
 next: false
@@ -8,4 +8,4 @@ lastUpdated: false
 
 # Microsoft Office
 
-- [Lectures](Lectures/index.md)
+- [Assignments](Assignments/index.md)

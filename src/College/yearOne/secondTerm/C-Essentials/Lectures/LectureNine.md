@@ -4,9 +4,8 @@ prev:
   text: "Lecture Seven & Eight"
   link: "/College/yearOne/secondTerm/C-Essentials/Lectures/LectureSevenToEight"
 next:
-  false
-  # text: "Lecture Ten"
-  # link: "/College/yearOne/secondTerm/C-Essentials/Lectures/LectureTen"
+  text: "Lecture Ten"
+  link: "/College/yearOne/secondTerm/C-Essentials/Lectures/LectureTen"
 ---
 
 # Programming Essentials in C - Lectures 9
@@ -33,7 +32,7 @@ To declare a pointer, use the dereferencing operator (`*`) with a valid C data t
 
 **Example:**
 
-```c
+```C
 int *intPtr;     // integer pointer
 float *floatPtr; // float pointer
 char *charPtr;   // char pointer
@@ -45,7 +44,7 @@ A pointer is initialized using the address-of operator (`&`) to assign it the ad
 
 **Example:**
 
-```c
+```C
 int var = 5;
 int *ptr = &var; // stores the address of `var` in memory
 
@@ -61,7 +60,7 @@ printf("%d => %d\n", var, *ptr); // dereference the pointer to access its value
 
 You can modify the value of a variable via its pointer.
 
-```c
+```C
 int var = 5;
 int *ptr = &var;
 
@@ -74,7 +73,7 @@ printf("%d => %d\n", var, *ptr); // 10 => 10
 
 **Printing the address of a variable:**
 
-```c
+```C
 int var = 5;
 int *ptr = &var;
 
@@ -108,7 +107,7 @@ int** ptrToptr = &ptr; // integer pointer to a pointer
 
 Incrementing a pointer moves it to the next memory location based on the data type size.
 
-```c
+```C
 int x = 10;
 int *y = &x;
 
@@ -131,7 +130,7 @@ Value of y after increment:  0x7ffc32820848
 
 #### Decrementing a pointer in an array
 
-```c
+```C
 int arr[] = { 10, 20, 30 };
 int* ptr = &arr[2];
 
@@ -145,7 +144,7 @@ for (int i = 0; i < 3; i++) {
 
 Adding or subtracting an integer to a pointer moves it forward or backward in memory.
 
-```c
+```C
 int arr[] = { 10, 20, 30, 40, 50 };
 int* ptr = arr; // points to arr[0]
 
@@ -166,7 +165,7 @@ for (int i = 0; i < 5; i++) {
 
 ## Reverse Printing a String Using Pointer
 
-```c
+```C
 #include <stdio.h>
 #include <string.h> // for strlen
 
@@ -197,7 +196,7 @@ Reversed string: retnioP
 
 A pointer to an array points to the whole array, not just its first element.
 
-```c
+```C
 int arr[5] = {10, 20, 30, 40, 50};
 
 int (*ptr)[5] = &arr; // Pointer to the entire array

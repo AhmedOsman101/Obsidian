@@ -3629,6 +3629,7 @@ studying
 screenCreate
 subtracted
 signifies
+sscanf
 ff
 fP
 fj
@@ -4437,6 +4438,14 @@ frl
 foreign
 finish
 flying
+fclose
+fprintf
+fptr
+fputs
+fwrite
+fgets
+fscanf
+fread
 yq
 yh
 yS
@@ -6079,6 +6088,7 @@ wrr
 wEJ
 wrong
 whom
+writes
 BU
 Bh
 BC
@@ -7638,6 +7648,7 @@ Move
 Mark
 Mismatch
 Manipulate
+Manual
 Lj
 Lf
 LvVa
@@ -8395,6 +8406,8 @@ Lake
 Lakes
 Lookup
 Layout
+LectureSevenToEight
+LectureTen
 al
 aj
 ar
@@ -9343,6 +9356,7 @@ aqN
 animations
 advance
 asterisk
+appends
 Te
 Tn
 TA
@@ -11384,6 +11398,7 @@ Orders
 OLE
 Option
 Optionally
+Opening
 Uc
 Ue
 UXk
@@ -12822,6 +12837,8 @@ referenced
 referential
 recursion
 referencing
+renaming
+requested
 eiO
 es
 ee
@@ -15180,6 +15197,7 @@ Edit
 EmployeeID
 Enforce
 Employee
+EOF
 Sal
 SQ
 SB
@@ -21588,6 +21606,7 @@ NNNP
 Negotiator
 Note
 Navigation
+Need
 lqQvz
 ln
 lN
@@ -24204,6 +24223,7 @@ kYN
 kcxg
 kLG
 kJg
+keep
 Dp
 DI
 Db
@@ -26481,6 +26501,7 @@ master
 masters
 mathematically
 myFunction
+myString
 Ck
 CS
 Cm
@@ -27494,6 +27515,7 @@ Columnar
 Combo
 Checked
 CelsiusFunction
+CSV
 vb
 vO
 vvF
@@ -35033,6 +35055,7 @@ dereferencing
 designate
 declaring
 dereference
+delimiters
 AK
 AQ
 Aya
@@ -36083,6 +36106,7 @@ Action
 Apr
 About
 Arguments
+Appends
 Jw
 Jg
 JT

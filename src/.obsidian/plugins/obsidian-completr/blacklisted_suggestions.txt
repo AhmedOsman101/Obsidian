@@ -4,3 +4,6 @@ cRuG
 CRubnHK
 pre
 Pre
+BIR
+Birth
+birthdays

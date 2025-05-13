@@ -3,9 +3,9 @@ title: Lecture 7
 prev:
   text: Lecture Six
   link: /College/yearOne/secondTerm/IntroToIot/Lectures/LectureSix
-next: false
-#   text: Lecture Eight
-#   link: /College/yearOne/secondTerm/IntroToIot/Lectures/LectureEight
+next:
+  text: Lecture Eight
+  link: /College/yearOne/secondTerm/IntroToIot/Lectures/LectureEight
 ---
 
 # Introduction to IoT - Lecture 7: Big Data

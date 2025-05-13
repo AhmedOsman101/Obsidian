@@ -796,6 +796,12 @@ Player
 Panot
 Planning
 Projects
+PDF
+Prediction
+Probabilistic
+Predicts
+Predictor
+Probability
 IHDR
 IDATx
 IO
@@ -1630,6 +1636,10 @@ Inflexible
 ISA
 Intelligenece
 Issue
+IDF
+Intercept
+Influential
+Interpretation
 pHYs
 pt
 pu
@@ -2590,6 +2600,11 @@ possibility
 pooling
 prem
 propose
+predict
+probabilistic
+probabilities
+predicts
+prediction
 sbf
 sPv
 sC
@@ -3653,6 +3668,11 @@ splitting
 statistics
 sample
 storytelling
+similarity
+species
+sigmoid
+stronger
+squares
 ff
 fP
 fj
@@ -4471,6 +4491,7 @@ fscanf
 fread
 filePtr
 frameworks
+foundational
 yq
 yh
 yS
@@ -6887,6 +6908,11 @@ Braces
 Bare
 BIRD
 Building
+Bayes
+Biology
+Basket
+Baseline
+Binomial
 MC
 Ml
 MW
@@ -7681,6 +7707,8 @@ Manual
 Market
 Mapper
 Modeling
+Mining
+MLE
 Lj
 Lf
 LvVa
@@ -8442,6 +8470,8 @@ LectureSevenToEight
 LectureTen
 Layered
 Lost
+Logistic
+Labeled
 al
 aj
 ar
@@ -9397,6 +9427,8 @@ anytime
 analytical
 audience
 actionable
+assignments
+assumes
 Te
 Tn
 TA
@@ -10131,6 +10163,10 @@ Thanks
 Terminologies
 Timeline
 Tailor
+Target
+Transformations
+Takeaway
+Transforms
 uj
 uq
 uXm
@@ -10796,6 +10832,7 @@ underneath
 unprocessed
 upfront
 unified
+unexplained
 OB
 Ox
 ONynT
@@ -11447,6 +11484,8 @@ Option
 Optionally
 Opening
 Operationalize
+Overlapping
+OLS
 Uc
 Ue
 UXk
@@ -12073,6 +12112,9 @@ Undeclared
 Underutilized
 Uncertainty
 Usefulness
+Unsupervised
+Unlabeled
+Unknown
 ra
 rO
 rV
@@ -12893,6 +12935,7 @@ requested
 replicate
 replication
 relevance
+ratios
 eiO
 es
 ee
@@ -13792,6 +13835,9 @@ emulation
 extract
 enablers
 emits
+exported
+estimation
+effects
 GO
 GQ
 Gk
@@ -15267,6 +15313,7 @@ ETL
 Executing
 Exploratory
 Extract
+Euclidean
 Sal
 SQ
 SB
@@ -16199,6 +16246,10 @@ Slave
 Schedules
 Splitting
 Shuffling
+Supervised
+Series
+Soft
+Sigmoid
 iH
 ic
 iP
@@ -17022,6 +17073,11 @@ initially
 initialized
 independence
 ingestion
+identifies
+influential
+influencing
+influence
+interpretability
 tWA
 tW
 tM
@@ -17840,6 +17896,9 @@ tightly
 thin
 tech
 timeline
+tries
+textual
+temporal
 nm
 nv
 nhuK
@@ -19259,6 +19318,8 @@ Fade
 FVM
 Funds
 Flink
+Forecast
+Fuzzy
 xi
 xpF
 xwG
@@ -21020,6 +21081,10 @@ bring
 benefits
 batch
 blend
+belongs
+buy
+bread
+butter
 Nb
 NJu
 Nbsa
@@ -21703,6 +21768,7 @@ Navigation
 Need
 NET
 NameNode
+Nature
 lqQvz
 ln
 lN
@@ -22349,6 +22415,8 @@ lookup
 linking
 live
 layered
+learns
+logistic
 Rc
 Rt
 RO
@@ -23188,6 +23256,8 @@ Reduce
 Reducers
 Reducing
 Reducer
+Regression
+Recompute
 Zt
 ZB
 Zb
@@ -25833,6 +25903,12 @@ oEI
 offical
 orchestration
 outline
+oscillate
+outcome
+observed
+outlined
+odds
+optimize
 mipte
 mRT
 mX
@@ -26627,6 +26703,8 @@ maintainable
 metadata
 mapper
 methodology
+metric
+maps
 Ck
 CS
 Cm
@@ -27647,6 +27725,11 @@ Clouds
 Capabilities
 Cassandra
 Composed
+Classify
+Classes
+Coefficients
+Captures
+Categorical
 vb
 vO
 vvF
@@ -28279,6 +28362,7 @@ vgR
 void
 virtualization
 vCU
+variability
 ck
 cr
 ce
@@ -29448,6 +29532,12 @@ considerable
 clickstreams
 commodity
 chunks
+convergence
+categorical
+classification
+classifying
+coefficients
+contextualized
 Hu
 Hg
 HiL
@@ -30892,6 +30982,8 @@ hdoop
 headings
 hyperlink
 highlight
+house
+holding
 Xi
 XZ
 Xn
@@ -32143,6 +32235,7 @@ genrate
 grand
 got
 government
+gene
 KUYX
 KX
 KK
@@ -35211,6 +35304,11 @@ dereference
 delimiters
 detached
 deliverables
+dendrogram
+discovering
+dataset
+diagnosis
+directional
 AK
 AQ
 Aya
@@ -36266,6 +36364,9 @@ Abstraction
 Analysts
 Aggregates
 Aggregated
+Apriori
+ARIMA
+Assumes
 Jw
 Jg
 JT
@@ -37431,6 +37532,8 @@ Qku
 QMT
 Queries
 QEMU
+Quantify
+Quantifies
 WliB
 WWO
 WRY

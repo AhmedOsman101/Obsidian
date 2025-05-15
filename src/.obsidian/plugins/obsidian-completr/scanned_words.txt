@@ -804,6 +804,7 @@ Predictor
 Probability
 Propagates
 PRNG
+Paid
 IHDR
 IDATx
 IO
@@ -2611,6 +2612,8 @@ prediction
 proofs
 presented
 patching
+plaintexts
+pmod
 sbf
 sPv
 sC
@@ -3682,6 +3685,7 @@ squares
 seed
 separation
 shareable
+susceptibility
 ff
 fP
 fj
@@ -9442,6 +9446,8 @@ actionable
 assignments
 assumes
 assessed
+apparent
+addressed
 Te
 Tn
 TA
@@ -13859,6 +13865,7 @@ exported
 estimation
 effects
 enforcing
+equiv
 GO
 GQ
 Gk
@@ -16275,6 +16282,9 @@ Supervised
 Series
 Soft
 Sigmoid
+Starts
+Separation
+Shareable
 iH
 ic
 iP
@@ -22450,6 +22460,7 @@ live
 layered
 learns
 logistic
+limitation
 Rc
 Rt
 RO
@@ -25946,6 +25957,7 @@ outlined
 odds
 optimize
 outlining
+oplus
 mipte
 mRT
 mX
@@ -26745,6 +26757,7 @@ maps
 multiplier
 multiplicative
 mandatory
+monolithic
 Ck
 CS
 Cm
@@ -27771,6 +27784,9 @@ Coefficients
 Captures
 Categorical
 Ciphers
+Continues
+Considers
+Child
 vb
 vO
 vvF
@@ -29585,6 +29601,8 @@ ciphers
 choosing
 compromised
 constraining
+ciphertexts
+cryptographically
 Hu
 Hg
 HiL
@@ -32285,6 +32303,7 @@ grand
 got
 government
 gene
+gcd
 KUYX
 KX
 KK

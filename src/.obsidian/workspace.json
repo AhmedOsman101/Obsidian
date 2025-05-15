@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/draft-2.md",
+                "file": "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/Lec-3-2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "draft-2"
+              "title": "Lec-3-2"
             }
           }
         ],
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/draft-2.md",
+                "file": "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/Lec-3-2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of draft-2"
+              "title": "Outline of Lec-3-2"
             }
           },
           {
@@ -213,8 +213,9 @@
   },
   "active": "e00cc70090ecf4c9",
   "lastOpenFiles": [
-    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/draft.md",
+    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/Lec-3-1.md",
     "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureThree.md",
+    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/Lec-3-2.md",
     "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/index.mdcs6vMt.bck",
     "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/index.md4FQHTG.bck",
     "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/index.mdAzuUms.bck",
@@ -227,7 +228,6 @@
     "College/yearOne/secondTerm/IntroToIot/Lectures/LectureEight.mdvMpIyx.bck",
     "College/yearOne/secondTerm/IntroToIot/Lectures/LectureNine.md",
     "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureTwo.md",
-    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/draft-2.md",
     "College/yearOne/secondTerm/IntroToIot/Lectures/draft.md",
     "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureOne.md",
     "College/yearOne/secondTerm/IntroToIot/Lectures/LectureEight.md",

@@ -322,7 +322,7 @@
         },
         "languageIcon": {
           "display": "always",
-          "displayColour": false
+          "displayColour": true
         },
         "externalReference": {
           "displayRepository": true,

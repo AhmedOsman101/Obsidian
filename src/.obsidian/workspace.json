@@ -13,22 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearOne/secondTerm/IntroToIot/Lectures/LectureNine.md",
+                "file": "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureThree.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "LectureNine"
+              "title": "LectureThree"
             }
           },
           {
-            "id": "730fc2b5013b035c",
+            "id": "e00cc70090ecf4c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearOne/secondTerm/IntroToIot/Lectures/draft.md",
+                "file": "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/draft.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -37,8 +37,7 @@
               "title": "draft"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 302.5,
+    "collapsed": true
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/yearOne/secondTerm/IntroToIot/Lectures/draft.md",
+                "file": "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureThree.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of draft"
+              "title": "Outline of LectureThree"
             }
           },
           {
@@ -211,22 +211,28 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "730fc2b5013b035c",
+  "active": "f5e311c9cc531486",
   "lastOpenFiles": [
+    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/index.mdcs6vMt.bck",
+    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/index.md4FQHTG.bck",
+    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/index.mdAzuUms.bck",
+    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/index.mduhfOwH.bck",
+    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/index.mdEka15d.bck",
+    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/index.mdoCEz93.bck",
+    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/index.mdZOZZZT.bck",
+    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/index.mdZFKt0C.bck",
+    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/index.mdYWHp4X.bck",
+    "College/yearOne/secondTerm/IntroToIot/Lectures/LectureEight.mdvMpIyx.bck",
+    "College/yearOne/secondTerm/IntroToIot/Lectures/LectureEight.mdrwXy8k.bck",
+    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/draft.md",
+    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureThree.md",
     "College/yearOne/secondTerm/IntroToIot/Lectures/LectureNine.md",
-    "College/yearOne/secondTerm/IntroToIot/Lectures/LectureEight.md",
+    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureTwo.md",
+    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/draft-2.md",
     "College/yearOne/secondTerm/IntroToIot/Lectures/draft.md",
+    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureOne.md",
+    "College/yearOne/secondTerm/IntroToIot/Lectures/LectureEight.md",
     "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo.md",
-    "College/yearOne/secondTerm/IntroToIot/Lectures/draft.mdrZcnxr.bck",
-    "College/yearOne/secondTerm/IntroToIot/Lectures/draft.md4YUMC1.bck",
-    "College/yearOne/secondTerm/IntroToIot/Lectures/draft.mdxM0MNe.bck",
-    "College/yearOne/secondTerm/IntroToIot/Lectures/draft.mdJYLqYQ.bck",
-    "College/yearOne/secondTerm/IntroToIot/Lectures/draft.md4l5Nlg.bck",
-    "College/yearOne/secondTerm/IntroToIot/Lectures/draft.mddmAKxx.bck",
-    "College/yearOne/secondTerm/IntroToIot/Lectures/draft.mdO63cne.bck",
-    "College/yearOne/secondTerm/IntroToIot/Lectures/draft.mdyTkcTK.bck",
-    "College/yearOne/secondTerm/IntroToIot/Lectures/draft.mdkRgHzb.bck",
-    "College/yearOne/secondTerm/IntroToIot/Lectures/draft.mdMIu12V.bck",
     "College/yearOne/secondTerm/IntroToIot/Lectures/LectureSeven.md",
     "College/yearOne/secondTerm/IntroToIot/Lectures/LectureSix.md",
     "College/yearOne/secondTerm/IntroToIot/Lectures/draft-2.md",
@@ -241,14 +247,9 @@
     "draft.md",
     "index.md",
     "project-draft.md",
-    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureTwo.md",
     "College/yearOne/secondTerm/C-Essentials/Lectures/LectureFive.md",
     "College/yearOne/secondTerm/IntroToIot/Assignments/index.md",
     "College/yearOne/secondTerm/MS-Office/index.md",
-    "College/yearOne/secondTerm/MS-Office/Assignments/index.md",
-    "College/yearOne/secondTerm/MS-Office/Assignments/AssignmentTwo.md",
-    "College/yearOne/secondTerm/C-Essentials/Tasks/AssignmentTwo.md",
-    "College/yearOne/secondTerm/C-Essentials/Tasks/draft.md",
     "College/yearOne/secondTerm/IntroToIot/Assignments/figure-24.png",
     "College/yearOne/secondTerm/IntroToIot/Assignments/figure-25.png",
     "College/yearOne/secondTerm/IntroToIot/Assignments/figure-24.png",
@@ -257,7 +258,6 @@
     "College/yearOne/secondTerm/IntroToIot/Assignments/figure-21.png",
     "College/yearOne/secondTerm/IntroToIot/Assignments/figure-20.png",
     "College/yearOne/secondTerm/IntroToIot/Assignments/figure-19.png",
-    "College/yearOne/secondTerm/IntroToIot/Assignments/figure-18.png",
-    "College/yearOne/secondTerm/IntroToIot/Lectures/LectureFour.md"
+    "College/yearOne/secondTerm/IntroToIot/Assignments/figure-18.png"
   ]
 }

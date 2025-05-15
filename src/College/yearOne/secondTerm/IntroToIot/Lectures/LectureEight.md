@@ -3,9 +3,9 @@ title: Lecture 8
 prev:
   text: Lecture Seven
   link: /College/yearOne/secondTerm/IntroToIot/Lectures/LectureSeven
-next: false
-  # text: Lecture Nine
-  # link: /College/yearOne/secondTerm/IntroToIot/Lectures/LectureNine
+next:
+  text: Lecture Nine
+  link: /College/yearOne/secondTerm/IntroToIot/Lectures/LectureNine
 ---
 
 # Introduction to IoT - Lecture 8: Big Data Analytics Techniques

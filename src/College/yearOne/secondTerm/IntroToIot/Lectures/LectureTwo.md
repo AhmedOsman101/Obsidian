@@ -8,18 +8,7 @@ next:
   link: "/College/yearOne/secondTerm/IntroToIot/Lectures/LectureThree"
 ---
 
-# Introduction to IoT - Lecture 2
-
-## Outline
-
-1. Introduction to Embedded Systems
-2. Microprocessor vs. Microcontroller
-3. What is Arduino?
-4. Differences Between Arduino Boards
-5. Arduino Uno
-6. Arduino Sensors
-7. Arduino IDE
-8. Arduino and TinkerCAD
+# Introduction to IoT - Lecture 
 
 ## Introduction to Embedded Systems
 

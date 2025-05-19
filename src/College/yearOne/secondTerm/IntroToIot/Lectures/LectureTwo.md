@@ -8,7 +8,7 @@ next:
   link: "/College/yearOne/secondTerm/IntroToIot/Lectures/LectureThree"
 ---
 
-# Introduction to IoT - Lecture 
+# Introduction to IoT - Lecture 2
 
 ## Introduction to Embedded Systems
 

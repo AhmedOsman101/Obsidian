@@ -1,12 +1,11 @@
 ---
-title: Task 1
+title: Task 2
 prev:
-  text: "Tasks"
-  link: "/College/yearOne/secondTerm/C-Essentials/Tasks/index"
+  text: "Task 1"
+  link: "/College/yearOne/secondTerm/C-Essentials/Tasks/TaskOne"
 next:
-  false
-  # text: "Task Two"
-  # link: "/College/yearOne/secondTerm/C-Essentials/Tasks/TaskTwo"
+  text: "Assignment Two"
+  link: "/College/yearOne/secondTerm/C-Essentials/Tasks/AssignmentTwo"
 ---
 
 # Programming Essentials in C - Task Two

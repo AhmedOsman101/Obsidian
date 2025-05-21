@@ -3,9 +3,9 @@ title: Lecture 5
 prev:
   text: "Lecture Four"
   link: "/College/yearOne/secondTerm/C-Essentials/Lectures/LectureFour"
-next: false
-#  text: "Lecture Six"
-#  link: "/College/yearOne/secondTerm/C-Essentials/Lectures/LectureSix"
+next:
+  text: "Lecture Six"
+  link: "/College/yearOne/secondTerm/C-Essentials/Lectures/LectureSix"
 ---
 
 # Programming Essentials in C - Lecture 5

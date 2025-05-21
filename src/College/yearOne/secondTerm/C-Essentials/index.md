@@ -1,7 +1,7 @@
 ---
 title: C Essentials
 prev:
-  text: Second Term
+  text: C Essentials
   link: "/College/yearOne/secondTerm/index"
 next: false
 lastUpdated: false
@@ -16,3 +16,11 @@ lastUpdated: false
   - [Lecture Four](Lectures/LectureFour.md)
   - [Lecture Five](Lectures/LectureFive.md)
   - [Lecture Six](Lectures/LectureSix.md)
+  - [Lecture Seven & Eight](Lectures/LectureSevenToEight.md)
+  - [Lecture Nine](Lectures/LectureNine.md)
+  - [Lecture Ten](Lectures/LectureTen.md)
+
+- [Tasks](Tasks/index.md)
+  - [Task One](Tasks/TasksOne.md)
+  - [Lecture Two](Tasks/TasksTwo.md)
+  - [Assignment Two](Tasks/AssignmentTwo.md)

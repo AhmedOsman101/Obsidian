@@ -4,9 +4,8 @@ prev:
   text: "Tasks"
   link: "/College/yearOne/secondTerm/C-Essentials/Tasks/index"
 next:
-  false
-  # text: "Task Two"
-  # link: "/College/yearOne/secondTerm/C-Essentials/Tasks/TaskTwo"
+  text: "Task Two"
+  link: "/College/yearOne/secondTerm/C-Essentials/Tasks/TaskTwo"
 ---
 
 # Programming Essentials in C - Task One

@@ -1,10 +1,12 @@
-# Student details
+---
+title: Assignment 2
+prev:
+  text: "Task Two"
+  link: "/College/yearOne/secondTerm/C-Essentials/Tasks/TaskTwo"
+next: false
+---
 
-| Data    | Details                  |
-| :------ | :----------------------- |
-| Name    | ‎أحمد علي أحمد علي عثمان |
-| Code    | 20240592                 |
-| Section | 1                        |
+# Programming Essentials in C - Assignment Two 
 
 ## Task 1: Store and Display Total Marks Using a 2D Array
 

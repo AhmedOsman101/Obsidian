@@ -96,8 +96,6 @@ SHA-1 produces a 160-bit (20-byte) message digest from input data, typically dis
 - **Right Shift (`>>`)**: Shifts bits right, discards least significant bits.
 - **Left Shift (`<<`)**: Shifts bits left, fills with zeroes.
 
-[See steps in action](https://hash-file.online/)
-
 ## Example: Encrypting "hi" using SHA-1
 
 1. **ASCII Conversion**: Convert each character to ASCII (h -> 104, i -> 105).

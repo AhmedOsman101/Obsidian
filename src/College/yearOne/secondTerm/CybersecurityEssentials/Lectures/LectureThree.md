@@ -68,10 +68,8 @@ next: false
 
 - Deterministic, not truly random.
 - Common Algorithm: **Linear Congruential Generator (LCG)**
-  - Parameters: modulus (m), multiplier (a), increment (c), seed (R₀)
-  - Example: m=8, a=5, c=1, R₀=5
-
----
+  - Parameters: modulus ($m$), multiplier ($a$), increment ($c$), seed ($R_0$)
+  - Example: $m=8, a=5, c=1, R_0=5$
 
 ## Two-Key Algorithms (Asymmetric Encryption)
 
@@ -85,14 +83,12 @@ next: false
 
 - Steps to generate keys:
   1. Choose primes `p` and `q`
-  2. Compute `n = p * q` and `ϕ(n) = (p−1)(q−1)`
-  3. Select `e` such that `1 < e < ϕ(n)` and `gcd(e, ϕ(n)) = 1`
-  4. Compute `d` such that `(d * e) ≡ 1 mod ϕ(n)`
+  2. Compute `n = p * q` and $\phi(n) = (p-1)(q-1)$
+  3. Select `e` such that $1 < e < \phi(n)$ and $\gcd(e, \phi(n)) = 1$
+  4. Compute `d` such that $(d \cdot e) \equiv 1 \mod \phi(n)$
 - Public Key: (n, e)
 - Private Key: (n, d)
 - Used in assignments with LCG to modify private key generation
-
----
 
 ## Operating System Security
 
@@ -111,8 +107,6 @@ next: false
 
 - Memory, I/O devices, programs, data, system hardware, bus, interrupt/status registers.
 
----
-
 ## Trusted Operating System Concepts
 
 - **Kernel**: Core part of the OS.
@@ -120,15 +114,11 @@ next: false
 - **Reference Monitor (RM)**: Mediates all access to protected objects.
 - **Trusted Computing Base (TCB)**: Core components enforcing security.
 
----
-
 ## Security Policy and Security Model
 
 - **Security Policy**: Defines desired security goals.
 - **Security Model**: Formal specification of the policy.
   - Enables formal proofs and system verification.
-
----
 
 ## Developing a Secure OS
 
@@ -139,8 +129,6 @@ next: false
 5. Conceptual design and verification
 6. Implementation and feedback loop for revisions
 
----
-
 ## Security Maintenance
 
 - **Continuous process**:
@@ -149,8 +137,6 @@ next: false
   - Patch and update software
   - Test regularly
 
----
-
 ## Linux/Unix Security
 
 - **Patch Management**: Done via `/etc`, application config trees, or dotfiles.
@@ -158,8 +144,6 @@ next: false
 - **Exploits**:
   - **Local**: Elevate privileges from within the system.
   - **Remote**: Exploitable via networked services.
-
----
 
 ## Windows Security
 

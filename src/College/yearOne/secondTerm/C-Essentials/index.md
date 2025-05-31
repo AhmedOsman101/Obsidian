@@ -16,3 +16,6 @@ lastUpdated: false
   - [Lecture Four](Lectures/LectureFour.md)
   - [Lecture Five](Lectures/LectureFive.md)
   - [Lecture Six](Lectures/LectureSix.md)
+  - [Lecture Seven & Eight](Lectures/LectureSevenToEight.md)
+  - [Lecture Nine](Lectures/LectureNine.md)
+  - [Lecture Ten](Lectures/LectureTen.md)

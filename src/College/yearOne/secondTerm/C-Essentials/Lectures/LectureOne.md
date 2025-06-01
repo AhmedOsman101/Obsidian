@@ -12,8 +12,7 @@ next:
 
 ## What is Problem-Solving?
 
-- Problem-solving is the process of identifying a problem, analyzing its causes, and finding effective solutions to
-  address it.
+- Problem-solving is the process of identifying a problem, analyzing its causes, and finding effective solutions to address it.
 - This skill is essential in various fields, from technology and business to everyday life situations.
 
 ## Key Steps in Problem-Solving
@@ -154,9 +153,6 @@ Flowcharts visually represent processes using symbols and arrows.
 - **Function**: Indicate the `START` or `END` of the program.
 
 ```mermaid
----
-title: Oval
----
 flowchart TD
     Start([START])
     End([End])
@@ -170,9 +166,6 @@ flowchart TD
 - **Function**: Input and output operations like `INPUT`, `READ`, and `PRINT`.
 
 ```mermaid
----
-title: Parallelogram
----
 flowchart TD
     Read[/READ age/]
 ```
@@ -184,9 +177,6 @@ flowchart TD
 - **Function**: Processing steps, such as storing values or performing arithmetic calculations.
 
 ```mermaid
----
-title: Rectangle
----
 flowchart LR
     Process[c = a + b]
 ```
@@ -198,10 +188,6 @@ flowchart LR
 - **Function**: Indicates decision-making (e.g., condition checks).
 
 ```mermaid
----
-title: Diamond
----
-
 flowchart TD
     Condition{age < 18}
 ```
@@ -213,10 +199,6 @@ flowchart TD
 - **Function**: On-page connectors, circles help join different parts of a flowchart on the same page.
 
 ```mermaid
----
-title: On-Page Connectors
----
-
 flowchart LR
     1((Part II)) --> 2([Start])
 ```

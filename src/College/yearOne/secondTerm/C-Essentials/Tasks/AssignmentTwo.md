@@ -6,7 +6,7 @@ prev:
 next: false
 ---
 
-# Programming Essentials in C - Assignment Two 
+# Programming Essentials in C - Assignment Two
 
 ## Task 1: Store and Display Total Marks Using a 2D Array
 

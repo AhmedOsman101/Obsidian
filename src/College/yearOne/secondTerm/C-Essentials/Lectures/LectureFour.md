@@ -17,7 +17,7 @@ next:
 
 ### Syntax of `scanf()`
 
-```C
+```c
 int x;
 scanf("%d", &x);  // ("format_specifier", &variable)
 ```
@@ -37,7 +37,7 @@ scanf("%d", &x);  // ("format_specifier", &variable)
 
 ### Example
 
-```C
+```c
 int num;
 float decimal;
 
@@ -51,18 +51,12 @@ printf("Integer: %d, Decimal: %.2f\n", num, decimal);
 
 ### Code Example 1: Using `scanf`
 
-```C
-#include <stdio.h>
+```c
+char name[50];  // Empty string with space for 50 characters
 
-int main() {
-  char name[50];  // Empty string with space for 50 characters
-
-  printf("Enter your full name (using scanf): ");
-  scanf("%s", name);  // Reads the name you type
-  printf("Name captured with scanf: %s\n", name);
-
-  return 0;
-}
+printf("Enter your full name (using scanf): ");
+scanf("%s", name);  // Reads the name you type
+printf("Name captured with scanf: %s\n", name);
 ```
 
 #### What Happens
@@ -76,18 +70,12 @@ int main() {
 
 ### Code Example 2: Using `gets`
 
-```C
-#include <stdio.h>
+```c
+char name[50];  // Empty string with space for 50 characters
 
-int main() {
-  char name[50];  // Empty string with space for 50 characters
-
-  printf("Enter your full name (using gets): ");
-  gets(name);  // Reads the name you type
-  printf("Name captured with gets: %s\n", name);
-
-  return 0;
-}
+printf("Enter your full name (using gets): ");
+gets(name);  // Reads the name you type
+printf("Name captured with gets: %s\n", name);
 ```
 
 #### What Happens
@@ -112,7 +100,7 @@ int main() {
 
 #### Example
 
-```C
+```c
 int num = 4;
 
 if (num % 2 == 0) {
@@ -128,7 +116,7 @@ if (num % 2 == 0) {
 
 #### Example: Check if a Number is Even or Odd
 
-```C
+```c
 int num = 5;
 
 if (num % 2 == 0) {
@@ -146,7 +134,7 @@ if (num % 2 == 0) {
 
 #### Example
 
-```C
+```c
 int number;
 
 printf("Enter a number: ");
@@ -169,9 +157,10 @@ if (number > 0) {
 
 #### Example
 
-```C
+```c
 int time = 20;
-time < 18 ? printf("Good day.\n") : printf("Good evening.\n");  // Prints "Good evening."
+// Prints "Good evening."
+time < 18 ? printf("Good morning.\n") : printf("Good night.\n");
 ```
 
 ---
@@ -182,7 +171,7 @@ time < 18 ? printf("Good day.\n") : printf("Good evening.\n");  // Prints "Good 
 
 #### Example: Checking if a Number is Positive and Even
 
-```C
+```c
 int num;
 
 printf("Enter an integer: ");
@@ -196,7 +185,7 @@ if (num > 0) {  // Check if the number is positive
   }
 } else if (num < 0) {
   printf("The number %d is negative.\n", num);
-} else {  // num == 0
+} else {
   printf("The number is zero.\n");
 }
 ```
@@ -204,7 +193,7 @@ if (num > 0) {  // Check if the number is positive
 ## Switch Statement
 
 - The `switch` statement checks a value and runs code based on which case matches.
-- It’s like a menu: pick an option, and it does that one thing.
+- It's like a menu: pick an option, and it does that one thing.
 
 ### How It Works
 
@@ -223,7 +212,7 @@ if (num > 0) {  // Check if the number is positive
 
 ### Example
 
-```C
+```c
 int choice;
 
 printf("Enter 1, 2, or 3: ");
@@ -241,5 +230,6 @@ switch (choice) {
     break;
   default:
     printf("Invalid choice.\n");
+    break;
 }
 ```

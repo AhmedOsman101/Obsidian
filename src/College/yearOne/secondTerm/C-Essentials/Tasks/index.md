@@ -7,6 +7,7 @@ lastUpdated: false
 ---
 
 # Tasks
-- [Task One](TasksOne.md)
-- [Lecture Two](TasksTwo.md)
+
+- [Task One](TaskOne.md)
+- [Task Two](TaskTwo.md)
 - [Assignment Two](AssignmentTwo.md)

@@ -32,7 +32,7 @@ To declare a pointer, use the dereferencing operator (`*`) with a valid C data t
 
 **Example:**
 
-```C
+```c
 int *intPtr;     // integer pointer
 float *floatPtr; // float pointer
 char *charPtr;   // char pointer
@@ -44,11 +44,13 @@ A pointer is initialized using the address-of operator (`&`) to assign it the ad
 
 **Example:**
 
-```C
+```c
 int var = 5;
-int *ptr = &var; // stores the address of `var` in memory
+// stores the address of `var` in memory
+int *ptr = &var;
 
-printf("%d => %d\n", var, *ptr); // dereference the pointer to access its value
+// dereference the pointer to access its value
+printf("%d => %d\n", var, *ptr); // 5 => 5
 ```
 
 ## Referencing and Dereferencing Pointers
@@ -60,7 +62,7 @@ printf("%d => %d\n", var, *ptr); // dereference the pointer to access its value
 
 You can modify the value of a variable via its pointer.
 
-```C
+```c
 int var = 5;
 int *ptr = &var;
 
@@ -73,7 +75,7 @@ printf("%d => %d\n", var, *ptr); // 10 => 10
 
 **Printing the address of a variable:**
 
-```C
+```c
 int var = 5;
 int *ptr = &var;
 
@@ -88,14 +90,14 @@ Output:
 
 ```
 value of &var: 0x7ffd5cbbef94
-value of ptr: 0x7ffd5cbbef94
+value of ptr:  0x7ffd5cbbef94
 ```
 
 ## Pointer to a Pointer
 
 A pointer can also store the address of another pointer.
 
-```C
+```c
 int var = 5; // integer variable
 int* ptr = &var; // integer pointer to a variable
 int** ptrToptr = &ptr; // integer pointer to a pointer
@@ -107,7 +109,7 @@ int** ptrToptr = &ptr; // integer pointer to a pointer
 
 Incrementing a pointer moves it to the next memory location based on the data type size.
 
-```C
+```c
 int x = 10;
 int *y = &x;
 
@@ -115,9 +117,6 @@ printf("Value of y before increment: %d\n", y);
 y++;
 printf("Value of y after increment: %d\n", y);
 ```
-
-> [!NOTE]
-> Memory addresses change with each run.
 
 **Output:**
 Pointer `y` increases by `sizeof(int)` (usually 4 bytes).
@@ -128,9 +127,12 @@ Value of y before increment: 0x7ffc32820844
 Value of y after increment:  0x7ffc32820848
 ```
 
+> [!NOTE]
+> Memory addresses change with each run.
+
 #### Decrementing a pointer in an array
 
-```C
+```c
 int arr[] = { 10, 20, 30 };
 int* ptr = &arr[2];
 
@@ -144,7 +146,7 @@ for (int i = 0; i < 3; i++) {
 
 Adding or subtracting an integer to a pointer moves it forward or backward in memory.
 
-```C
+```c
 int arr[] = { 10, 20, 30, 40, 50 };
 int* ptr = arr; // points to arr[0]
 
@@ -165,7 +167,7 @@ for (int i = 0; i < 5; i++) {
 
 ## Reverse Printing a String Using Pointer
 
-```C
+```c
 #include <stdio.h>
 #include <string.h> // for strlen
 
@@ -174,14 +176,12 @@ int main() {
   char* ptr = &str[strlen(str) - 1];
 
   printf("Reversed string: ");
-
   while (ptr >= str) {
     printf("%c", *ptr);
     ptr--;
   }
 
   printf("\n");
-
   return 0;
 }
 ```
@@ -196,8 +196,8 @@ Reversed string: retnioP
 
 A pointer to an array points to the whole array, not just its first element.
 
-```C
-int arr[5] = {10, 20, 30, 40, 50};
+```c
+int arr[5] = { 10, 20, 30, 40, 50 };
 
 int (*ptr)[5] = &arr; // Pointer to the entire array
 

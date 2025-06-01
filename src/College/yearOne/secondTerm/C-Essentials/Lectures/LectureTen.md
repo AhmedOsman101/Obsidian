@@ -45,7 +45,7 @@ When a program uses standard input/output operations, the data is lost once the 
 
 ## Declaring a File Pointer
 
-```C
+```c
 FILE *filePtr;
 ```
 
@@ -57,20 +57,20 @@ FILE *filePtr;
 The `fopen()` function opens or creates a file and returns a pointer to it.
 
 | Mode | Description                                      |
-| ---- | ------------------------------------------------ |
+| :--: | ------------------------------------------------ |
 | `w`  | Write mode. Creates file if it doesn't exist.    |
 | `a`  | Append mode. Adds data at the end of file.       |
 | `r`  | Read mode. Opens existing file for reading only. |
 
 ### Syntax
 
-```C
-FILE *filePtr = fopen("file.txt", "mode");
+```c
+FILE *filePtr = fopen("filepath", "mode");
 ```
 
 To use an absolute path:
 
-```C
+```c
 FILE *filePtr = fopen("/tmp/test/file.txt", "w");
 ```
 
@@ -82,7 +82,7 @@ Used to properly close the file and:
 - Free resources
 - Allow other processes access
 
-```C
+```c
 fclose(filePtr);
 ```
 
@@ -93,7 +93,7 @@ Use `w` mode to open a file for writing.
 - Overwrites existing content
 - Creates file if it doesn't exist
 
-```C
+```c
 #include <stdio.h>
 
 int main() {
@@ -129,7 +129,7 @@ int main() {
 
 Use `a` mode to preserve existing data and append new content at the end. If the file does not exist, it will be created.
 
-```C
+```c
 FILE *filePtr = fopen("data.txt", "a");
 ```
 
@@ -137,19 +137,19 @@ FILE *filePtr = fopen("data.txt", "a");
 
 Open the file in read mode:
 
-```C
+```c
 FILE *filePtr = fopen("file.txt", "r");
 ```
 
 Create a buffer to store read data:
 
-```C
+```c
 char content[255];
 ```
 
 ### Reading a Single Line
 
-```C
+```c
 fgets(content, 255, filePtr);
 printf("%s", content);
 ```
@@ -157,11 +157,19 @@ printf("%s", content);
 > [!Note]
 > `fgets()` reads only one line at a time.
 
+`fgets` could be used to read input from `stdin`:
+
+```c
+char name[20];
+fgets(name, 20, stdin); // read input from user
+printf("My name is: %s", name);
+```
+
 ### Reading All Lines
 
 Use a loop:
 
-```C
+```c
 while (fgets(content, 255, filePtr)) {
   printf("%s", content);
 }
@@ -172,7 +180,7 @@ while (fgets(content, 255, filePtr)) {
 - Reads formatted values (e.g., string + int)
 - Stops at whitespace or format mismatch
 
-```C
+```c
 fscanf(filePtr, "%s %d", name, &age);
 ```
 
@@ -181,7 +189,7 @@ fscanf(filePtr, "%s %d", name, &age);
 - Reads memory blocks
 - Used for structs or binary files
 
-```C
+```c
 fread(buffer, sizeof(type), count, filePtr);
 ```
 

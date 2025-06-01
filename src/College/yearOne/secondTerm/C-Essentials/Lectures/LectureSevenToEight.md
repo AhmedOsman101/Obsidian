@@ -18,7 +18,7 @@ Structures (`struct`) in C allow you to group variables of different data types 
 
 Without structures, each related variable must be declared separately:
 
-```C
+```c
 int productID;
 char productName[50];
 float price;
@@ -27,7 +27,7 @@ int quantity;
 
 With structures, related variables are grouped together:
 
-```C
+```c
 struct Product {
   int ID;
   char name[50];
@@ -40,7 +40,7 @@ struct Product {
 
 Structure variables can be declared inside `main()` using the structure name:
 
-```C
+```c
 struct User {
   int id;
   char name;
@@ -56,7 +56,7 @@ int main() {
 
 You can declare variables directly when defining the structure:
 
-```C
+```c
 struct Product {
   int ID;
   char name[50];
@@ -69,7 +69,7 @@ struct Product {
 
 Use the dot (`.`) operator to access structure members:
 
-```C
+```c
 myUser.id = 1;
 myUser.age = 20;
 ```
@@ -78,14 +78,14 @@ myUser.age = 20;
 
 Strings are arrays of characters and cannot be assigned directly. Use `strcpy()` instead:
 
-```C
+```c
 strcpy(myUser.name, "Ahmad Othman");
 ```
 
 > [!NOTE]
 > You have to inlcude `string.h` header file to use `strcpy()`.
 >
-> ```C
+> ```c
 > #include <string.h>
 > ```
 
@@ -93,7 +93,7 @@ strcpy(myUser.name, "Ahmad Othman");
 
 You can initialize structure members at declaration time:
 
-```C
+```c
 struct User myUser = { 1, "Ahmad Othman" };
 struct User secondUser = {
   .id = 2,
@@ -105,7 +105,7 @@ struct User secondUser = {
 
 You can assign one structure to another:
 
-```C
+```c
 struct User user2 = user1;
 ```
 
@@ -113,7 +113,7 @@ struct User user2 = user1;
 
 Use the dot operator or `strcpy()` for strings:
 
-```C
+```c
 myUser.id = 2;
 strcpy(myUser.name, "Test User");
 ```
@@ -129,19 +129,18 @@ strcpy(myUser.name, "Test User");
 | Use Case             | When dealing with similar data (e.g., list of marks). | When dealing with complex entities (e.g., employee records). |
 | Passing to Functions | Passed entirely or via pointers.                      | Passed entirely or via pointers.                             |
 | Best Used For        | Storing same-type values.                             | Storing attributes of an entity.                             |
-| Example              | `int numbers[5] = {10, 20, 30, 40, 50};`              | `struct Student { char name[50]; int age; float marks; };`   |
 
 ### Array of Structures
 
 Allows storing multiple records efficiently:
 
-```C
+```c
 struct User Users[3];
 ```
 
 Access individual elements and their members with:
 
-```C
+```c
 Users[0].id = 1;
 strcpy(Users[0].name, "Ahmad Othman");
 ```
@@ -162,7 +161,7 @@ Examples include `main()` and `printf()`.
 
 ### Create a Function
 
-```C
+```c
 void myFunction() {
   // Function Body
 }
@@ -172,7 +171,7 @@ void myFunction() {
 
 Call it using its name followed by `()`:
 
-```C
+```c
 myFunction();
 ```
 
@@ -180,7 +179,7 @@ myFunction();
 
 Functions can accept parameters:
 
-```C
+```c
 int sum(int a, int b) {
   return a + b;
 }
@@ -188,7 +187,7 @@ int sum(int a, int b) {
 
 Call and store return values:
 
-```C
+```c
 int result = sum(4, 6);
 ```
 
@@ -196,13 +195,13 @@ int result = sum(4, 6);
 
 Declaration:
 
-```C
+```c
 int sum(int a, int b);
 ```
 
 Definition:
 
-```C
+```c
 int sum(int a, int b) {
   return a + b;
 }
@@ -212,11 +211,12 @@ int sum(int a, int b) {
 
 Declare a function before it is used to avoid compilation errors:
 
-```C
+```c
 int function_b(int y); // Forward declaration
 
 int function_a(int x) {
-  return function_b(x + 1); // if function_b wasn't declared, this code would have caused an error
+  // if function_b wasn't declared, this code would have caused an error
+  return function_b(x + 1);
 }
 
 int function_b(int y) {
@@ -229,7 +229,7 @@ int function_b(int y) {
 A recursive function calls itself to solve problems.
 Used to simplify complex problems like calculating the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence#Definition).
 
-```C
+```c
 #include <stdio.h>
 
 int fib(int n) {
@@ -240,12 +240,12 @@ int fib(int n) {
 
 int main() {
   /*
-    f(6) = f(5) + f(4) = 5 + 3 = 8
-    f(5) = f(4) + f(3) = 3 + 2 = 5
-    f(4) = f(3) + f(2) = 2 + 1 = 3
-    f(3) = f(2) + f(1) = 1 + 1 = 2
-    f(2) = 1
     f(1) = 1
+    f(2) = 1
+    f(3) = f(2) + f(1) = 1 + 1 = 2
+    f(4) = f(3) + f(2) = 2 + 1 = 3
+    f(5) = f(4) + f(3) = 3 + 2 = 5
+    f(6) = f(5) + f(4) = 5 + 3 = 8
   */
   int n = 6, result = fib(n);
 

@@ -10,6 +10,7 @@ lastUpdated: false
 # C Essentials
 
 - [Lectures](Lectures/index.md)
+
   - [Lecture One](Lectures/LectureOne.md)
   - [Lecture Two](Lectures/LectureTwo.md)
   - [Lecture Three](Lectures/LectureThree.md)
@@ -21,6 +22,6 @@ lastUpdated: false
   - [Lecture Ten](Lectures/LectureTen.md)
 
 - [Tasks](Tasks/index.md)
-  - [Task One](Tasks/TasksOne.md)
-  - [Lecture Two](Tasks/TasksTwo.md)
+  - [Task One](Tasks/TaskOne.md)
+  - [Task Two](Tasks/TaskTwo.md)
   - [Assignment Two](Tasks/AssignmentTwo.md)

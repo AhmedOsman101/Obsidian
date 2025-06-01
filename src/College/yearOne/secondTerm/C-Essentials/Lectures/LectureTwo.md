@@ -149,7 +149,7 @@ Translates and executes code line-by-line.
 ### Getting Started
 
 - **Tools Needed**:
-  - Text editor (e.g., Notepad++).
+  - Text editor (e.g., Visual Studio Code, Notepad++).
   - Compiler (e.g., GCC, Clang).
 - **IDEs**: [Code::Blocks](https://www.codeblocks.org/downloads/), [Eclipse](https://www.eclipse.org/downloads/packages/release/2025-03/r/eclipse-ide-cc-developers), [Visual Studio](https://visualstudio.microsoft.com/vs/community/)
 
@@ -161,7 +161,7 @@ Translates and executes code line-by-line.
 
 ### Hello World Example
 
-```C
+```c
 #include <stdio.h>
 
 int main() {
@@ -189,7 +189,7 @@ int main() {
 >
 > The body of `int main()` could also be written as:
 >
-> ```C
+> ```c
 > int main() { printf("Hello World!"); return 0; }
 > ```
 
@@ -199,13 +199,8 @@ Syntax errors occur when code violates C's grammatical rules.
 
 - **Example**: Missing semicolon.
 
-```C
-#include <stdio.h>
-
-int main() {
-  printf("No semicolon here")  // Error: Missing semicolon
-  return 0;
-}
+```c
+printf("No semicolon here")  // Error: Missing semicolon
 ```
 
 - **Fix**: Add the semicolon: `printf("No semicolon here");`.
@@ -221,20 +216,15 @@ Escape sequences help format output in C:
 
 ### Example:
 
-```C
-#include <stdio.h>
-
-int main() {
-  printf("Hello, \nWorld!\tI'm Learning C\n");
-  return 0;
-}
+```c
+printf("Hello, \nWorld!\tI'm Learning \"C\" Language\n");
 ```
 
 #### Output:
 
 ```text
 Hello,
-World!        I'm Learning C
+World!	I'm Learning "C" Language
 ```
 
 ## Comments in C
@@ -243,14 +233,14 @@ Comments improve code readability and can prevent execution for testing.
 
 ### Single-line comment:
 
-```C
+```c
 // This is a comment
 printf("This will run!\n");
 ```
 
 ### Multi-line comment:
 
-```C
+```c
 /* This is
 a really
 long comment
@@ -283,56 +273,36 @@ printf("This will run!\n");
 
 - **Char**: Stores a single character (as an ASCII value).
 
-```C
-#include <stdio.h>
-
-int main() {
-  char c = 'A';  // Store a character
-  printf("Char: %c, ASCII: %d\n", c, c);
-  return 0;
-}
+```c
+char c = 'A';  // Store a character
+printf("Char: %c, ASCII: %d\n", c, c);
 ```
 
 - **Output**: `Char: A, ASCII: 65`
 
 - **Int**: Stores whole numbers (typically 4 bytes in modern systems).
 
-```C
-#include <stdio.h>
-
-int main() {
-  int num = 100;  // Store an integer
-  printf("Integer: %d\n", num);
-  return 0;
-}
+```c
+int num = 100;  // Store an integer
+printf("Integer: %d\n", num);
 ```
 
 - **Output**: `Integer: 100`
 
 - **Float**: Stores decimal numbers with precision up to 6-7 decimal places.
 
-```C
-#include <stdio.h>
-
-int main() {
-  float pi = 3.14159;  // Store a float
-  printf("Float: %.2f\n", pi);  // display 2 decimal places
-  return 0;
-}
+```c
+float pi = 3.14159;  // Store a float
+printf("Float: %.2f\n", pi);  // display 2 decimal places
 ```
 
 - **Output**: `Float: 3.14`
 
 - **Double**: Stores decimal numbers with precision up to 15-16 decimal places.
 
-```C
-#include <stdio.h>
-
-int main() {
-  double bigNum = 155000.789123;  // Store a double
-  printf("Double: %.6lf\n", bigNum);  // display 6 decimal places
-  return 0;
-}
+```c
+double bigNum = 155000.789123;  // Store a double
+printf("Double: %.6lf\n", bigNum);  // display 6 decimal places
 ```
 
 - **Output**: `Double: 155000.789123`
@@ -349,29 +319,21 @@ int main() {
 
 - **Array**:
 
-```C
-#include <stdio.h>
-
-int main() {
-  int nums[3] = {1, 2, 3};  // Array of 3 integers
-  printf("Array: %d, %d, %d\n", nums[0], nums[1], nums[2]);
-  return 0;
-}
+```c
+int nums[3] = { 1, 2, 3 };  // Array of 3 integers
+printf("Array: %d, %d, %d\n", nums[0], nums[1], nums[2]);
 ```
 
 - **Output**: `Array: 1, 2, 3`
 
 - **Pointer**:
 
-```C
-#include <stdio.h>
-int main() {
-  int x = 10;
-  int* ptr = &x;  // Pointer to x's address
-  printf("Value: %d\n", *ptr); // Dereferencing
-  printf("Address: %p\n", ptr); // The address may vary
-  return 0;
-}
+```c
+int x = 10;
+int* ptr = &x;  // Pointer to x's address
+
+printf("Value: %d\n", *ptr); // Dereferencing
+printf("Address: %p\n", ptr); // The address may vary
 ```
 
 - output:
@@ -383,7 +345,7 @@ Address: 0x7ffc5d361954
 
 - **Struct**:
 
-```C
+```c
 #include <stdio.h>
 
 struct Person {
@@ -402,7 +364,7 @@ int main() {
 
 - **Union**:
 
-```C
+```c
 #include <stdio.h>
 
 union Data {
@@ -422,10 +384,10 @@ int main() {
 
 - **Enum**:
 
-```C
+```c
 #include <stdio.h>
 
-enum Color {RED, GREEN, BLUE};
+enum Color { RED, GREEN, BLUE };
 
 int main() {
   enum Color myColor = GREEN;
@@ -451,17 +413,17 @@ int main() {
 
 Calculate total cost using different data types:
 
-```C
+```c
 #include <stdio.h>
 int main() {
-  int items = 50;           // Number of items
-  float cost_per_item = 9.99; // Cost per item
-  float total_cost = items * cost_per_item;  // Total cost
-  char currency = '$';       // Currency symbol
+  int items = 50; // Number of items
+  float costPerItem = 9.99;
+  float totalCost = items * costPerItem;
+  char currency = '$'; // Currency symbol
 
   printf("Items: %d\n", items);
-  printf("Cost per item: %.2f%c\n", cost_per_item, currency);
-  printf("Total cost: %.2f%c\n", total_cost, currency);
+  printf("Cost per item: %.2f%c\n", costPerItem, currency);
+  printf("Total cost: %.2f%c\n", totalCost, currency);
   return 0;
 }
 ```

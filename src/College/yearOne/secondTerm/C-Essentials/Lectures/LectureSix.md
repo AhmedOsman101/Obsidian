@@ -24,7 +24,7 @@ next:
 
 1.  **Missing Semicolon:**
 
-```C
+```c
 int x = 5
 printf("%d\n", x);
 ```
@@ -33,7 +33,7 @@ printf("%d\n", x);
 
 2.  **Undeclared Variable:**
 
-```C
+```c
 a = 10;
 printf("%d\n", a);
 ```
@@ -42,7 +42,7 @@ printf("%d\n", a);
 
 3.  **Mismatched Braces:**
 
-```C
+```c
 int main() {
     printf("Hello\n");
     if (5 > 2) {
@@ -57,7 +57,7 @@ int main() {
 
 1.  **Type Mismatch in Assignment:**
 
-```C
+```c
 int num = "hello";
 ```
 
@@ -65,7 +65,7 @@ int num = "hello";
 
 2.  **Dividing by Zero:**
 
-```C
+```c
 int a = 10;
 int b = 0;
 int result = a / b;
@@ -76,7 +76,7 @@ printf("%d\n", result);
 
 3.  **Using `printf` with Incorrect Format Specifier:**
 
-```C
+```c
 int value = 123;
 printf("%s\n", value);
 ```

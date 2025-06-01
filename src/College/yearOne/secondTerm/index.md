@@ -13,4 +13,3 @@ lastUpdated: false
 - [Introduction to IoT](IntroToIot/index.md)
 - [Cybersecurity Essentials](CybersecurityEssentials/index.md)
 - [Microsoft Office](MS-Office/index.md)
-- [Math](Math-II/index.md)

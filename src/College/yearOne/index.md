@@ -21,4 +21,3 @@ lastUpdated: false
   - [Introduction to IoT](secondTerm/IntroToIot/index.md)
   - [Cybersecurity Essentials](secondTerm/CybersecurityEssentials/index.md)
   - [Microsoft Office](secondTerm/MS-Office/index.md)
-  - [Math](secondTerm/Math-II/index.md)

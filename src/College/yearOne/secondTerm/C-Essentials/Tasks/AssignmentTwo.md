@@ -204,10 +204,10 @@ int main() {
 
   - Bundle together one or more variables, possibly of _different_ types, under a single name.
   - Each member can be accessed by name (`person.age`, `person.name`), improving clarity when you have logically related but type‑varying data.
-  - Memory layout may include padding to satisfy alignment, but you don’t lose the benefit of grouping.
+  - Memory layout may include padding to satisfy alignment, but you don't lose the benefit of grouping.
 
 > **When to prefer a `struct` over separate arrays?**
-> Use a `struct` when you’re modelling an entity that has multiple attributes—especially if those attributes are not all the same data type. With arrays you’d need parallel arrays (e.g. `ages[i]`, `names[i]`, `grades[i]`), which is error‑prone and scatters related data. A `struct` keeps each “record” intact, makes function interfaces cleaner, and aligns with best practices for data encapsulation.
+> Use a `struct` when you're modelling an entity that has multiple attributes—especially if those attributes are not all the same data type. With arrays you'd need parallel arrays (e.g. `ages[i]`, `names[i]`, `grades[i]`), which is error‑prone and scatters related data. A `struct` keeps each "record" intact, makes function interfaces cleaner, and aligns with best practices for data encapsulation.
 
 ```c
 #include <stdio.h>
@@ -227,7 +227,7 @@ int main() {
     { "Cara", 19, 3.9f }
   };
 
-  /* Print each student’s data */
+  /* Print each student's data */
   for (int i = 0; i < 3; i++) {
     printf(
       "Student %d: %s, age %d, GPA %.2f\n",

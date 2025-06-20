@@ -64,7 +64,7 @@ printf("Name captured with scanf: %s\n", name);
 - When you run this:
   - Type: `John Doe` and press Enter.
   - Output: `Name captured with scanf: John`
-- **Why?**: `scanf` only grabs the first word (`John`) and stops at the space. It can’t handle full names with spaces.
+- **Why?**: `scanf` only grabs the first word (`John`) and stops at the space. It can't handle full names with spaces.
 
 ---
 

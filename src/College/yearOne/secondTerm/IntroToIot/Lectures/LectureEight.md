@@ -114,7 +114,7 @@ $$ y = \beta*0 + \beta_1 x_1 + \beta_2 x_2 + \ldots + \beta*{p-1} x\_{p-1} + \va
 2. **Input Variables** ($x_j$): Features influencing $y$, e.g., $x_1, x_2, \dots$.
 3. **Intercept** ($\beta_0$): Baseline value of $y$ when all $x_j = 0$.
 4. **Coefficients** ($\beta_j$): Quantify the effect of each $x_j$ on $y$. For example, $\beta_1$ is the change in $y$ for a 1-unit increase in $x_1$, holding other variables constant.
-5. **Error Term** ($\varepsilon$): Captures unexplained variability, reflecting the model’s probabilistic nature (not deterministic).
+5. **Error Term** ($\varepsilon$): Captures unexplained variability, reflecting the model's probabilistic nature (not deterministic).
 
 ## Logistic Regression
 

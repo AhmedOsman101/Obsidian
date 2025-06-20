@@ -73,7 +73,7 @@ In a table `Orders` with fields `UnitPrice` (Currency) and `Quantity` (Number), 
 
 - **Primary Key:** A unique identifier for each record in a table (e.g., `EmployeeID` in an `Employees` table).
 - **Foreign Key:** A field in one table that links to the primary key of another table (e.g., `DepartmentID` in `Employees` linking to `Departments`).
-- **Candidate Key:** Any field (or set of fields) that could uniquely identify records but isn’t the primary key.
+- **Candidate Key:** Any field (or set of fields) that could uniquely identify records but isn't the primary key.
 - **Composite Key:** A primary key made of multiple fields (e.g., `OrderID` + `ProductID` in an order details table).
 
 **Types of Relationships:**
@@ -84,14 +84,14 @@ In a table `Orders` with fields `UnitPrice` (Currency) and `Quantity` (Number), 
 
 **Recursive Relationships:**
 
-A table relates to itself. For example, in an `Employees` table, a field `ManagerID` (foreign key) references `EmployeeID` (primary key) to show who manages whom. Employee 1 might manage Employee 2, where `ManagerID` of Employee 2 is Employee 1’s `EmployeeID`.
+A table relates to itself. For example, in an `Employees` table, a field `ManagerID` (foreign key) references `EmployeeID` (primary key) to show who manages whom. Employee 1 might manage Employee 2, where `ManagerID` of Employee 2 is Employee 1's `EmployeeID`.
 
 **Enforce Referential Integrity:**
 
-This ensures that relationships between tables remain valid. A foreign key value must match an existing primary key value, or be null, and you can’t delete a primary key record if it’s referenced elsewhere.
+This ensures that relationships between tables remain valid. A foreign key value must match an existing primary key value, or be null, and you can't delete a primary key record if it's referenced elsewhere.
 
 - **Example:** In `Departments` (DepartmentID, Name) and `Employees` (EmployeeID, DepartmentID), enabling referential integrity:
-  - Prevents adding an employee with a `DepartmentID` that doesn’t exist in `Departments`.
+  - Prevents adding an employee with a `DepartmentID` that doesn't exist in `Departments`.
   - Prevents deleting a department if employees are assigned to it.
   - **Cascade Update:** If `DepartmentID` changes in `Departments`, it updates in `Employees`.
   - **Cascade Delete:** Deleting a department deletes its employees.
@@ -139,7 +139,7 @@ A **form** in Access is a user interface for entering, viewing, or editing data 
 - Use the toolbox to add controls (text boxes, labels).
 - Bind controls to fields by setting their Control Source.
 
-3. **Layout View:** Adjust the form’s appearance while seeing live data.
+3. **Layout View:** Adjust the form's appearance while seeing live data.
 4. Save and test the form.
 
 ---
@@ -148,12 +148,12 @@ A **form** in Access is a user interface for entering, viewing, or editing data 
 
 **Record Source:**
 
-The **record source** in Form Design specifies the data source for the form, such as a table (e.g., `Employees`) or a query. It’s set in the Property Sheet under the **Data** tab, determining what data the form displays or edits.
+The **record source** in Form Design specifies the data source for the form, such as a table (e.g., `Employees`) or a query. It's set in the Property Sheet under the **Data** tab, determining what data the form displays or edits.
 
 **Selection Type: Form vs. Section:**
 
 - **Form:** Refers to properties affecting the entire form (e.g., record source, default view). In the Property Sheet, selecting "Form" shows options like `Record Source` or `Allow Edits`.
-- **Section:** Refers to specific parts of the form (e.g., Form Header, Detail, Form Footer). Selecting a section in the Property Sheet shows properties like `Height` or `Visible`, affecting only that section’s layout or behavior.
+- **Section:** Refers to specific parts of the form (e.g., Form Header, Detail, Form Footer). Selecting a section in the Property Sheet shows properties like `Height` or `Visible`, affecting only that section's layout or behavior.
 
 ---
 

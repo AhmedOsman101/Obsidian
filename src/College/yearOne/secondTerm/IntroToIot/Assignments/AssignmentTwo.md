@@ -175,7 +175,7 @@ Here are three prominent open-source cloud tools:
   - **Cons**: Limited features, smaller community.
   - **Use Case**: AWS-integrated environments.
 
-**Comparison**: OpenStack excels in flexibility but requires expertise. CloudStack is simpler but less versatile. Eucalyptus suits AWS users but lacks breadth. For SmartTech’s IoT needs, OpenStack might be ideal for scalability, despite its complexity.
+**Comparison**: OpenStack excels in flexibility but requires expertise. CloudStack is simpler but less versatile. Eucalyptus suits AWS users but lacks breadth. For SmartTech's IoT needs, OpenStack might be ideal for scalability, despite its complexity.
 
 ---
 

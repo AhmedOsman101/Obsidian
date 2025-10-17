@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "task-1",
+      "path": "College/yearTwo/firstTerm/Linux/tasks/task-1.md"
+    },
+    {
+      "basename": "figure",
+      "path": "College/yearTwo/firstTerm/Linux/tasks/figure.png"
+    },
+    {
+      "basename": "figure-7",
+      "path": "College/yearTwo/firstTerm/Linux/tasks/figure-7.png"
+    },
+    {
+      "basename": "figure-8",
+      "path": "College/yearTwo/firstTerm/Linux/tasks/figure-8.png"
+    },
+    {
+      "basename": "figure-9",
+      "path": "College/yearTwo/firstTerm/Linux/tasks/figure-9.png"
+    },
+    {
+      "basename": "figure-10",
+      "path": "College/yearTwo/firstTerm/Linux/tasks/figure-10.png"
+    },
+    {
+      "basename": "sheet-1",
+      "path": "College/yearTwo/firstTerm/DigitalEngineering/assignments/sheet-1.md"
+    },
+    {
+      "basename": "ModelExam",
+      "path": "College/yearOne/firstTerm/Math/Models/ModelExam.md"
+    },
+    {
+      "basename": "index",
+      "path": "College/yearOne/firstTerm/Math/Models/index.md"
+    },
+    {
       "basename": "draft",
       "path": "College/yearOne/secondTerm/C-Essentials/Lectures/draft.md"
     },
@@ -107,5 +143,6 @@
   ],
   "omittedPaths": [],
   "omittedTags": [],
+  "updateOn": "file-open",
   "omitBookmarks": false
 }

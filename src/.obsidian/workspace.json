@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/BitwiseOperations.md",
+                "file": "College/yearTwo/firstTerm/Linux/tasks/task-1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "BitwiseOperations"
+              "title": "task-1"
             }
           }
         ]
@@ -81,8 +81,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "recent-files"
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ]
@@ -151,27 +151,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/BitwiseOperations.md",
+                "file": "College/yearTwo/firstTerm/Linux/tasks/task-1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of BitwiseOperations"
-            }
-          },
-          {
-            "id": "ea1b794a5ca8241d",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "mermaid-toolbar-view"
+              "title": "Outline of task-1"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -196,9 +186,27 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6e6b30772217c8e6",
+  "active": "effddbaf8d86fd77",
   "lastOpenFiles": [
-    "College/yearTwo/firstTerm/DigitalEngineneering",
+    "College/yearTwo/firstTerm/Linux/tasks/figure.png",
+    "College/yearTwo/firstTerm/Linux/tasks/figure-7.png",
+    "College/yearTwo/firstTerm/Linux/tasks/figure-8.png",
+    "College/yearTwo/firstTerm/Linux/tasks/figure-9.png",
+    "College/yearTwo/firstTerm/Linux/tasks/figure-10.png",
+    "College/yearTwo/firstTerm/Linux/tasks/task-1.md",
+    "College/yearTwo/firstTerm/Linux/tasks/figure-11.png",
+    "College/yearTwo/firstTerm/Linux/tasks/figure-5.png",
+    "College/yearTwo/firstTerm/Linux/tasks/figure-4.png",
+    "College/yearTwo/firstTerm/Linux/tasks/figure-3.png",
+    "College/yearTwo/firstTerm/Linux/tasks/figure-2.png",
+    "College/yearTwo/firstTerm/DigitalEngineering/assignments/sheet-1.md",
+    "College/yearTwo/firstTerm/Linux/tasks",
+    "College/yearTwo/firstTerm/Linux",
+    "College/yearOne/firstTerm/Math/Models/ModelExam.md",
+    "College/yearOne/firstTerm/Math/Models/index.md",
+    "Programming/BitwiseOperations.md",
+    "College/yearTwo/firstTerm/DigitalEngineering/assignments",
+    "College/yearTwo/firstTerm/DigitalEngineering",
     "College/yearOne/secondTerm/C-Essentials/Lectures/draft.md",
     "draft.md",
     "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureThree.md",
@@ -210,10 +218,6 @@
     "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/index.mduhfOwH.bck",
     "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/index.mdEka15d.bck",
     "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/index.mdoCEz93.bck",
-    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/index.mdZOZZZT.bck",
-    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/index.mdZFKt0C.bck",
-    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/index.mdYWHp4X.bck",
-    "College/yearOne/secondTerm/IntroToIot/Lectures/LectureEight.mdvMpIyx.bck",
     "College/yearOne/secondTerm/IntroToIot/Lectures/LectureNine.md",
     "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureTwo.md",
     "College/yearOne/secondTerm/IntroToIot/Lectures/draft.md",
@@ -226,23 +230,8 @@
     "College/yearOne/secondTerm/C-Essentials/Lectures/LectureNine.md",
     "College/yearOne/secondTerm/C-Essentials/Lectures/LectureTen.md",
     "College/yearOne/secondTerm/C-Essentials/Lectures/draft-2.md",
-    "College/yearOne/secondTerm/C-Essentials/Lectures/figure.png",
     "College/yearOne/secondTerm/C-Essentials/Lectures/LectureSevenToEight.md",
     "College/yearOne/secondTerm/C-Essentials/Lectures/LectureSix.md",
-    "College/yearOne/secondTerm/C-Essentials/Lectures/index.md",
-    "index.md",
-    "project-draft.md",
-    "College/yearOne/secondTerm/C-Essentials/Lectures/LectureFive.md",
-    "College/yearOne/secondTerm/IntroToIot/Assignments/index.md",
-    "College/yearOne/secondTerm/MS-Office/index.md",
-    "College/yearOne/secondTerm/IntroToIot/Assignments/figure-24.png",
-    "College/yearOne/secondTerm/IntroToIot/Assignments/figure-25.png",
-    "College/yearOne/secondTerm/IntroToIot/Assignments/figure-24.png",
-    "College/yearOne/secondTerm/IntroToIot/Assignments/figure-23.png",
-    "College/yearOne/secondTerm/IntroToIot/Assignments/figure-22.png",
-    "College/yearOne/secondTerm/IntroToIot/Assignments/figure-21.png",
-    "College/yearOne/secondTerm/IntroToIot/Assignments/figure-20.png",
-    "College/yearOne/secondTerm/IntroToIot/Assignments/figure-19.png",
-    "College/yearOne/secondTerm/IntroToIot/Assignments/figure-18.png"
+    "College/yearOne/secondTerm/C-Essentials/Lectures/index.md"
   ]
 }

@@ -11,6 +11,7 @@
   "debug": true,
   "isTimestamp": false,
   "enabledCss": true,
+  "concurrency": "5",
   "prevConfig": {
     "pageSize": "Tabloid",
     "marginType": "0",

@@ -5,6 +5,10 @@
       "path": "College/yearTwo/firstTerm/Linux/tasks/task-1.md"
     },
     {
+      "basename": "sheet-1",
+      "path": "College/yearTwo/firstTerm/DigitalEngineering/assignments/sheet-1.md"
+    },
+    {
       "basename": "figure",
       "path": "College/yearTwo/firstTerm/Linux/tasks/figure.png"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "figure-10",
       "path": "College/yearTwo/firstTerm/Linux/tasks/figure-10.png"
-    },
-    {
-      "basename": "sheet-1",
-      "path": "College/yearTwo/firstTerm/DigitalEngineering/assignments/sheet-1.md"
     },
     {
       "basename": "ModelExam",

@@ -81,16 +81,15 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-ghost",
+              "title": "recent-files"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 302.5,
-    "collapsed": true
+    "width": 302.5
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -167,8 +166,8 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
+              "icon": "lucide-ghost",
+              "title": "mermaid-toolbar-view"
             }
           }
         ],
@@ -197,8 +196,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "effddbaf8d86fd77",
+  "active": "6e6b30772217c8e6",
   "lastOpenFiles": [
+    "College/yearTwo/firstTerm/DigitalEngineneering",
     "College/yearOne/secondTerm/C-Essentials/Lectures/draft.md",
     "draft.md",
     "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureThree.md",

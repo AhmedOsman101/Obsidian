@@ -52,6 +52,8 @@ $$
 \end{gather}
 $$
 
+<br><br><br>
+
 ### F. $0110 \space 1111_2$
 
 $$
@@ -85,21 +87,14 @@ $$
 
 ## 2. Convert the following decimal values to binary.
 
-|   n | $2^n$ |
-| --: | ----: |
-|   0 |     1 |
-|   1 |     2 |
-|   2 |     4 |
-|   3 |     8 |
-|   4 |    16 |
-|   5 |    32 |
-|   6 |    64 |
-|   7 |   128 |
-|   8 |   256 |
-|   9 |   512 |
-|  10 |  1024 |
-|  11 |  2048 |
-|  12 |  4096 |
+|   n | $2^n$ |   n | $2^n$ |
+| --: | ----: | --: | ----: |
+|   0 |     1 |   6 |    64 |
+|   1 |     2 |   7 |   128 |
+|   2 |     4 |   8 |   256 |
+|   3 |     8 |   9 |   512 |
+|   4 |    16 |  10 |  1024 |
+|   5 |    32 |  11 |  2048 |
 
 A. $37$
 
@@ -109,6 +104,8 @@ $$
 = 2^5 + 0 + 0 + 2^2 + 2^1 + 0 = 0010 \space 0110_2
 \end{gather}
 $$
+
+<br><br>
 
 B. $13$
 
@@ -190,10 +187,12 @@ $$
 ## 3.What is the largest decimal value that can be represented by:
 
 A. 8-bit binary number?
+
 $2^7 + 2^6 + 2^5 + 2^4 + 2^5 + 2^4 + 2^3 + 2^2 + 2^1 + 2^0 = 255_{10}$ or simply $2^8 - 1 = 255_{10}$
 
 B. 16-bit number?
-$2^16 - 1 = 65 536_{10}$
+
+$2^{16} - 1 = 65,536_{10}$
 
 ## 4. Convert each hex number to its decimal equivalent.
 
@@ -241,6 +240,8 @@ $$
 \\ 256 + 96 + 5 = 357_{10}
 \end{gather}
 $$
+
+<br><br><br>
 
 ### F. $ABCD0_{16}$
 
@@ -303,6 +304,8 @@ $$
 \end{gather}
 $$
 
+<br>
+
 ### D. $1024_{10}$
 
 $$
@@ -359,6 +362,8 @@ $$
 \end{gather}
 $$
 
+<br><br><br><br>
+
 ## 6. Convert each of the hex values from Problem 4 to binary.
 
 | Hex | Binary | Hex | Binary |
@@ -404,6 +409,8 @@ D_{16} \Rightarrow 1101_2 \\
 37FD_{16} = 0011\ 0111\ 1111\ 1101_2
 \end{gather}
 $$
+
+<br>
 
 ### D. $2000_{16}$
 
@@ -463,6 +470,8 @@ $$
 1204_{16} = 0001\ 0010\ 0000\ 0100_2
 \end{gather}
 $$
+
+<br><br><br><br>
 
 ## 7. Convert the binary numbers in Problem 1 to hex.
 
@@ -550,6 +559,8 @@ $$
 \end{gather}
 $$
 
+<br><br><br>
+
 ## 9. When a large decimal number is to be converted to binary, it is sometimes easier to convert it first to hex, and then from hex to binary. Try this procedure for $2133_{10}$ and compare it with the procedure used in Problem 2 (h).
 
 ### First: decimal to hex
@@ -590,6 +601,8 @@ $$
 \\ 144 + 2 = 146_{10}
 \end{gather}
 $$
+
+<br><br>
 
 ### B. $1A6_{16}$
 
@@ -654,6 +667,8 @@ $$
 \end{gather}
 $$
 
+<br><br><br><br><br><br>
+
 # 12. Convert these decimal values to hex.
 
 ### A. $75_{10}$
@@ -709,6 +724,8 @@ $$
 7245_{10} = 1CCD_{16}
 \end{gather}
 $$
+
+<br><br><br><br>
 
 ### F. $498_{10}$
 

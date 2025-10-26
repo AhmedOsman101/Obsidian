@@ -27,6 +27,8 @@ $$
 \end{gather}
 $$
 
+<br><br><br>
+
 ### B. $1001.1001_2$
 
 $$
@@ -132,6 +134,8 @@ $$
 **General rule:** $2^{bits} - 1$
 
 $2^{10} - 1 = 1023$
+
+<br><br>
 
 ## 8. What is the maximum number that we can count up to using 14 bits?
 

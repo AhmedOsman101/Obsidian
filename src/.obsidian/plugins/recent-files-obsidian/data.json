@@ -1,12 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "task-1",
-      "path": "College/yearTwo/firstTerm/Linux/tasks/task-1.md"
+      "basename": "task-2",
+      "path": "College/yearTwo/firstTerm/C++/tasks/task-2.md"
+    },
+    {
+      "basename": "ModelExam",
+      "path": "College/yearOne/firstTerm/Math/Models/ModelExam.md"
+    },
+    {
+      "basename": "LectureOne",
+      "path": "College/yearOne/firstTerm/Math/Lectures/LectureOne.md"
+    },
+    {
+      "basename": "AssignmentTwo",
+      "path": "College/yearOne/firstTerm/Python/Assignments/AssignmentTwo.md"
+    },
+    {
+      "basename": "AssignmentOne",
+      "path": "College/yearOne/firstTerm/Python/Assignments/AssignmentOne.md"
+    },
+    {
+      "basename": "index",
+      "path": "College/yearOne/firstTerm/Python/Exams/index.md"
+    },
+    {
+      "basename": "ExamTwo",
+      "path": "College/yearOne/firstTerm/Python/Exams/ExamTwo.md"
+    },
+    {
+      "basename": "TaskTwo",
+      "path": "College/yearOne/secondTerm/C-Essentials/Tasks/TaskTwo.md"
+    },
+    {
+      "basename": "TaskOne",
+      "path": "College/yearOne/secondTerm/C-Essentials/Tasks/TaskOne.md"
+    },
+    {
+      "basename": "draft",
+      "path": "College/yearOne/secondTerm/C-Essentials/Tasks/draft.md"
+    },
+    {
+      "basename": "index",
+      "path": "College/yearOne/secondTerm/C-Essentials/Tasks/index.md"
+    },
+    {
+      "basename": "figure",
+      "path": "College/yearOne/secondTerm/C-Essentials/imgs/figure.png"
+    },
+    {
+      "basename": "sheet-2",
+      "path": "College/yearTwo/firstTerm/DigitalEngineering/tasks/sheet-2.md"
     },
     {
       "basename": "sheet-1",
-      "path": "College/yearTwo/firstTerm/DigitalEngineering/assignments/sheet-1.md"
+      "path": "College/yearTwo/firstTerm/DigitalEngineering/tasks/sheet-1.md"
+    },
+    {
+      "basename": "task-1",
+      "path": "College/yearTwo/firstTerm/Linux/tasks/task-1.md"
     },
     {
       "basename": "figure",
@@ -27,10 +79,6 @@
     {
       "basename": "figure-10",
       "path": "College/yearTwo/firstTerm/Linux/tasks/figure-10.png"
-    },
-    {
-      "basename": "ModelExam",
-      "path": "College/yearOne/firstTerm/Math/Models/ModelExam.md"
     },
     {
       "basename": "index",

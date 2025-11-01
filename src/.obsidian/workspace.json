@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearTwo/firstTerm/C++/tasks/task-2.md",
-                "mode": "preview",
-                "source": false,
+                "file": "College/yearTwo/firstTerm/WebDevelopment/tasks/task-1.md",
+                "mode": "source",
+                "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "task-2"
+              "title": "task-1"
             }
           }
         ]
@@ -188,18 +188,26 @@
   },
   "active": "d1569c4448d5a563",
   "lastOpenFiles": [
-    "College/yearTwo/firstTerm/C++/tasks/sedc90yY8",
-    "College/yearTwo/firstTerm/C++/tasks/task-2.mdgzgqaa.bck",
-    "College/yearTwo/firstTerm/C++/tasks/task-2.mdhoPd9Q.bck",
-    "College/yearTwo/firstTerm/C++/tasks/task-2.mdhJ3LeP.bck",
-    "College/yearTwo/firstTerm/C++/tasks/task-2.md4IOXpj.bck",
-    "College/yearTwo/firstTerm/C++/tasks/task-2.mdJQwWhY.bck",
-    "College/yearTwo/firstTerm/C++/tasks/task-2.mdB9wVqg.bck",
-    "College/yearTwo/firstTerm/C++/tasks/task-2.md9EkhMo.bck",
-    "College/yearTwo/firstTerm/C++/tasks/task-2.mdOtA2PA.bck",
-    "College/yearTwo/firstTerm/C++/tasks/task-2.mdUkn2cp.bck",
-    "College/yearTwo/firstTerm/C++/tasks/task-2.md5WCBLW.bck",
+    "College/yearTwo/firstTerm/WebDevelopment/tasks/part-3.mdzLgvoI.bck",
+    "College/yearTwo/firstTerm/WebDevelopment/tasks/sedaIy6ik",
+    "College/yearTwo/firstTerm/WebDevelopment/tasks/part-3.mdsrEVgg.bck",
+    "College/yearTwo/firstTerm/WebDevelopment/tasks/part-3.mdn3FRut.bck",
+    "College/yearTwo/firstTerm/WebDevelopment/tasks/part-3.md4tqSOK.bck",
+    "College/yearTwo/firstTerm/WebDevelopment/tasks/part-3.mdR5oxZ4.bck",
+    "College/yearTwo/firstTerm/WebDevelopment/tasks/part-3.mdeCbj6H.bck",
+    "College/yearTwo/firstTerm/WebDevelopment/tasks/part-3.md4ht2Ep.bck",
+    "College/yearTwo/firstTerm/WebDevelopment/tasks/part-3.mdCzljMq.bck",
+    "College/yearTwo/firstTerm/WebDevelopment/tasks/part-3.md56eHwe.bck",
+    "College/yearTwo/firstTerm/WebDevelopment/tasks/part-3.mdFQs5gn.bck",
+    "College/yearTwo/firstTerm/WebDevelopment/tasks/part-6.md",
+    "College/yearTwo/firstTerm/WebDevelopment/tasks/part-5.md",
+    "College/yearTwo/firstTerm/WebDevelopment/tasks/part-4.md",
+    "College/yearTwo/firstTerm/WebDevelopment/tasks/part-3.md",
+    "College/yearTwo/firstTerm/WebDevelopment/tasks/part-2.md",
+    "College/yearTwo/firstTerm/WebDevelopment/tasks/part-1.md",
+    "College/yearTwo/firstTerm/WebDevelopment/tasks/figure.png",
     "College/yearTwo/firstTerm/C++/tasks/task-2.md",
+    "College/yearTwo/firstTerm/WebDevelopment/tasks/task-1.md",
     "College/yearOne/firstTerm/Math/Models/ModelExam.md",
     "College/yearOne/firstTerm/Math/Lectures/LectureOne.md",
     "College/yearOne/firstTerm/Python/Assignments/AssignmentTwo.md",
@@ -224,15 +232,7 @@
     "College/yearTwo/firstTerm/Linux/tasks/figure.png",
     "College/yearTwo/firstTerm/Linux/tasks/figure-7.png",
     "College/yearTwo/firstTerm/Linux/tasks/figure-8.png",
-    "College/yearTwo/firstTerm/Linux/tasks/figure-9.png",
     "College/yearOne/firstTerm/Math/Models/index.md",
-    "Programming/BitwiseOperations.md",
-    "College/yearOne/secondTerm/C-Essentials/Lectures/draft.md",
-    "draft.md",
-    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureThree.md",
-    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/Lec-3-1.md",
-    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/Lec-3-2.md",
-    "College/yearOne/secondTerm/IntroToIot/Lectures/LectureNine.md",
-    "College/yearOne/secondTerm/CybersecurityEssentials/Lectures/LectureTwo.md"
+    "Programming/BitwiseOperations.md"
   ]
 }

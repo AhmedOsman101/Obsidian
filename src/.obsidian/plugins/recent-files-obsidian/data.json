@@ -5,6 +5,26 @@
       "path": "College/yearTwo/firstTerm/WebDevelopment/tasks/task-1.md"
     },
     {
+      "basename": "figure-37",
+      "path": "College/yearTwo/firstTerm/WebDevelopment/tasks/figure-37.png"
+    },
+    {
+      "basename": "figure-39",
+      "path": "College/yearTwo/firstTerm/WebDevelopment/tasks/figure-39.png"
+    },
+    {
+      "basename": "figure-2",
+      "path": "College/yearTwo/firstTerm/WebDevelopment/tasks/figure-2.png"
+    },
+    {
+      "basename": "figure-1",
+      "path": "College/yearTwo/firstTerm/WebDevelopment/tasks/figure-1.png"
+    },
+    {
+      "basename": "figure",
+      "path": "College/yearTwo/firstTerm/WebDevelopment/tasks/figure.png"
+    },
+    {
       "basename": "task-2",
       "path": "College/yearTwo/firstTerm/C++/tasks/task-2.md"
     },
@@ -163,34 +183,6 @@
     {
       "basename": "LectureThree",
       "path": "College/IT-Essentials/Lectures/LectureThree.md"
-    },
-    {
-      "basename": "LectureOne",
-      "path": "College/IT-Essentials/LectureOne.md"
-    },
-    {
-      "basename": "adapterCards",
-      "path": "College/IT-Essentials/imgs/adapterCards.png"
-    },
-    {
-      "basename": "ram2",
-      "path": "College/IT-Essentials/imgs/ram2.png"
-    },
-    {
-      "basename": "motherboardForms",
-      "path": "College/IT-Essentials/imgs/motherboardForms.png"
-    },
-    {
-      "basename": "Cases",
-      "path": "College/IT-Essentials/imgs/Cases.png"
-    },
-    {
-      "basename": "motherboard",
-      "path": "College/IT-Essentials/imgs/motherboard.png"
-    },
-    {
-      "basename": "connectors",
-      "path": "College/IT-Essentials/imgs/connectors.png"
     }
   ],
   "omittedPaths": [],

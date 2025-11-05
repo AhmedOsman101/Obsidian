@@ -846,6 +846,10 @@ PRO
 PYIeu
 Pifz
 PbS
+People
+Prioritizes
+Prefixes
+Petabyte
 IHDR
 IDATx
 IO
@@ -1732,6 +1736,8 @@ ISu
 Ize
 IsV
 IxF
+Included
+Interrupts
 pHYs
 pt
 pu
@@ -2740,6 +2746,8 @@ pKd
 plQ
 pKc
 ppqs
+parity
+punches
 sbf
 sPv
 sC
@@ -3848,6 +3856,11 @@ selectable
 submittable
 sameh
 svy
+slave
+speedup
+secondary
+stoi
+sPalindrome
 ff
 fP
 fj
@@ -4705,6 +4718,8 @@ focusable
 fMZ
 fNez
 fNA
+frequent
+formulas
 yq
 yh
 yS
@@ -5239,6 +5254,7 @@ ype
 year
 yXc
 ycW
+years
 ql
 qu
 qb
@@ -6454,6 +6470,7 @@ widget
 wynCK
 wwq
 wBi
+waits
 BU
 Bh
 BC
@@ -8114,6 +8131,11 @@ MfJ
 Mqs
 MOK
 MLZ
+Manipulation
+Mainframe
+Multiprogrammed
+Multiprocessor
+Megabyte
 Lj
 Lf
 LvVa
@@ -8914,6 +8936,8 @@ LLaf
 Lets
 LWJCD
 LlS
+Loads
+Loosely
 al
 aj
 ar
@@ -9916,6 +9940,10 @@ autofocus
 anl
 aKv
 aoe
+abnormal
+allocating
+ascii
+annual
 Te
 Tn
 TA
@@ -10708,6 +10736,10 @@ TaskOne
 TJY
 TPV
 TNN
+Topics
+Triggered
+Terabyte
+Tax
 uj
 uq
 uXm
@@ -13638,6 +13670,10 @@ rKc
 readonly
 rbaO
 rax
+routines
+rbegin
+rend
+reversal
 eiO
 es
 ee
@@ -14584,6 +14620,7 @@ ejjj
 ecM
 editable
 eVB
+excessive
 GO
 GQ
 Gk
@@ -15291,6 +15328,9 @@ GPh
 GSq
 GDtW
 Gogf
+Goals
+Gigabyte
+Gregorian
 Ex
 EZR
 EG
@@ -17131,6 +17171,8 @@ Sbe
 SVQEYM
 SWVN
 SQD
+Scheduling
+Secondary
 iH
 ic
 iP
@@ -18007,6 +18049,9 @@ iSJ
 iNF
 ign
 iUHS
+iostream
+isPalindrome
+income
 tWA
 tW
 tM
@@ -19541,6 +19586,7 @@ nHj
 ngH
 nDed
 nWB
+nonvolatile
 Fc
 Fe
 Fo
@@ -22259,6 +22305,8 @@ bbbH
 billing
 bfb
 blT
+batched
+bool
 Nb
 NJu
 Nbsa
@@ -23681,6 +23729,9 @@ lzWZl
 lqI
 lud
 locale
+len
+lengths
+leap
 Rc
 Rt
 RO
@@ -25169,6 +25220,7 @@ ZvnK
 ZYM
 ZucI
 ZGz
+Zettabyte
 kn
 kHf
 kJ
@@ -26678,6 +26730,9 @@ Disables
 DCh
 DHD
 DLz
+Deadlocks
+Drivers
+Disks
 ohQ
 oL
 ob
@@ -27374,6 +27429,8 @@ ojb
 opM
 oTU
 oxb
+overflow
+optimization
 mipte
 mRT
 mX
@@ -28209,6 +28266,8 @@ month
 min
 minlength
 maxlength
+multiplexed
+multiprogramming
 Ck
 CS
 Cm
@@ -29279,6 +29338,10 @@ CutX
 CDx
 CPDQ
 Cgnb
+Computation
+Concurrent
+Caching
+Copies
 vb
 vO
 vvF
@@ -29960,6 +30023,7 @@ vxx
 validation
 vXO
 vRs
+volatility
 ck
 cr
 ce
@@ -31183,6 +31247,12 @@ cba
 czOM
 cHL
 cVM
+corrects
+completion
+considerations
+cmath
+cout
+cin
 Hu
 Hg
 HiL
@@ -34682,6 +34752,7 @@ Khh
 KKKjf
 KKKKSS
 KHHHOO
+Kilobyte
 zC
 zl
 zk
@@ -35712,6 +35783,8 @@ YrG
 Yje
 Ybia
 Ytg
+Yottabyte
+YYYY
 VLt
 Vfa
 Vr
@@ -37288,6 +37361,11 @@ dtR
 disappears
 defaults
 dJY
+defends
+diff
+diffString
+days
+dollars
 AK
 AQ
 Aya
@@ -38389,6 +38467,7 @@ AMoK
 Anq
 AHc
 AAq
+Authenticates
 Jw
 Jg
 JT

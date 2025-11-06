@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Lecture-1",
+      "path": "College/yearTwo/firstTerm/WebDevelopment/Lectures/Lecture-1.md"
+    },
+    {
       "basename": "Lecture-3",
       "path": "College/yearTwo/firstTerm/OS/Lectures/Lecture-3.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "LectureOne",
       "path": "College/IT-Essentials/Lectures/LectureOne.md"
-    },
-    {
-      "basename": "LectureFour",
-      "path": "College/IT-Essentials/Lectures/LectureFour.md"
     }
   ],
   "omittedPaths": [],

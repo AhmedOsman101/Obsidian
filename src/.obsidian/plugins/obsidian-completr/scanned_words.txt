@@ -850,6 +850,9 @@ People
 Prioritizes
 Prefixes
 Petabyte
+Preemptive
+Preemption
+Poor
 IHDR
 IDATx
 IO
@@ -1738,6 +1741,7 @@ IsV
 IxF
 Included
 Interrupts
+Implemented
 pHYs
 pt
 pu
@@ -2748,6 +2752,7 @@ pKc
 ppqs
 parity
 punches
+preemptive
 sbf
 sPv
 sC
@@ -3861,6 +3866,13 @@ speedup
 secondary
 stoi
 sPalindrome
+scheduling
+scheduler
+selects
+spent
+served
+suffers
+starvation
 ff
 fP
 fj
@@ -4720,6 +4732,8 @@ fNez
 fNA
 frequent
 formulas
+favor
+fair
 yq
 yh
 yS
@@ -5827,6 +5841,7 @@ quuu
 qLl
 qyE
 qUZ
+queue
 waq
 wc
 wav
@@ -6471,6 +6486,7 @@ wynCK
 wwq
 wBi
 waits
+waiting
 BU
 Bh
 BC
@@ -7289,6 +7305,7 @@ Bwk
 BfL
 BNXtu
 Bbb
+Burst
 MC
 Ml
 MW
@@ -8136,6 +8153,9 @@ Mainframe
 Multiprogrammed
 Multiprocessor
 Megabyte
+Metric
+Maximize
+Multilevel
 Lj
 Lf
 LvVa
@@ -8938,6 +8958,7 @@ LWJCD
 LlS
 Loads
 Loosely
+Leads
 al
 aj
 ar
@@ -9944,6 +9965,8 @@ abnormal
 allocating
 ascii
 annual
+allocates
+arrive
 Te
 Tn
 TA
@@ -10740,6 +10763,9 @@ Topics
 Triggered
 Terabyte
 Tax
+Throughput
+Turnaround
+Times
 uj
 uq
 uXm
@@ -11444,6 +11470,7 @@ uXx
 uyw
 uujZ
 uoL
+urgent
 OB
 Ox
 ONynT
@@ -12128,6 +12155,7 @@ OfeeQ
 OAI
 OkE
 OxyK
+Observation
 Uc
 Ue
 UXk
@@ -13674,6 +13702,7 @@ routines
 rbegin
 rend
 reversal
+releases
 eiO
 es
 ee
@@ -15331,6 +15360,7 @@ Gogf
 Goals
 Gigabyte
 Gregorian
+Gantt
 Ex
 EZR
 EG
@@ -16187,6 +16217,7 @@ Eslam
 Ewees
 EQVo
 Ena
+Exercise
 Sal
 SQ
 SB
@@ -17173,6 +17204,10 @@ SWVN
 SQD
 Scheduling
 Secondary
+Starvation
+Shortest
+Served
+SJF
 iH
 ic
 iP
@@ -20420,6 +20455,9 @@ Fsg
 FeM
 FfXYZP
 FBD
+FCFS
+Formulas
+Fair
 xi
 xpF
 xwG
@@ -22307,6 +22345,7 @@ bfb
 blT
 batched
 bool
+burst
 Nb
 NJu
 Nbsa
@@ -24614,6 +24653,10 @@ Resets
 Roaa
 Rawan
 RXF
+Rigid
+Round
+Robin
+Remaining
 Zt
 ZB
 Zb
@@ -26733,6 +26776,8 @@ DLz
 Deadlocks
 Drivers
 Disks
+Dispatcher
+Dispatch
 ohQ
 oL
 ob
@@ -28268,6 +28313,7 @@ minlength
 maxlength
 multiplexed
 multiprogramming
+multiprogrammed
 Ck
 CS
 Cm
@@ -29342,6 +29388,9 @@ Computation
 Concurrent
 Caching
 Copies
+Completion
+Come
+Chart
 vb
 vO
 vvF
@@ -30024,6 +30073,8 @@ validation
 vXO
 vRs
 volatility
+voluntarily
+varied
 ck
 cr
 ce
@@ -31253,6 +31304,7 @@ considerations
 cmath
 cout
 cin
+convoy
 Hu
 Hg
 HiL
@@ -37366,6 +37418,7 @@ diff
 diffString
 days
 dollars
+dispatcher
 AK
 AQ
 Aya
@@ -38468,6 +38521,7 @@ Anq
 AHc
 AAq
 Authenticates
+Arrival
 Jw
 Jg
 JT
@@ -39133,6 +39187,7 @@ JDNu
 JBU
 JABx
 JNNyL
+Jump
 Qv
 QL
 QD
@@ -39711,6 +39766,7 @@ QfC
 Qld
 QNg
 QMc
+Queue
 WliB
 WWO
 WRY
@@ -40325,6 +40381,7 @@ WFU
 WSV
 WCg
 WRG
+Waiting
 Ötl
 ÖC
 Öm

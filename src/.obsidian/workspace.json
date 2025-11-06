@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearTwo/firstTerm/OS/Lectures/Lecture-3.md",
+                "file": "College/yearTwo/firstTerm/WebDevelopment/Lectures/Lecture-1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Lecture-3"
+              "title": "Lecture-1"
             }
           }
         ]
@@ -188,6 +188,9 @@
   },
   "active": "74c74264a6d869a2",
   "lastOpenFiles": [
+    "College/yearTwo/firstTerm/OS/Lectures/Lecture-3.md",
+    "College/yearTwo/firstTerm/WebDevelopment/Lectures/Lecture-1.md",
+    "College/yearTwo/firstTerm/WebDevelopment/Lectures",
     "College/yearTwo/firstTerm/OS/Lectures/figure-14.png",
     "Programming/sedorcnhK",
     "Courses/MaharaTech/sedtGaleW",
@@ -198,9 +201,7 @@
     "College/yearTwo/firstTerm/DigitalEngineering/tasks/sedaa7fcJ",
     "College/yearTwo/firstTerm/C++/tasks/sedH2AT92",
     "College/yearOne/secondTerm/MS-Office/Assignments/sedTOkjcV",
-    "College/yearOne/secondTerm/IntroToIot/Lectures/sedNqV12P",
     "College/yearTwo/firstTerm/OS/Lectures/Lecture-2.md",
-    "College/yearTwo/firstTerm/OS/Lectures/Lecture-3.md",
     "College/yearTwo/firstTerm/OS/Lectures/figure-13.png",
     "College/yearTwo/firstTerm/OS/Lectures/figure-12.png",
     "College/yearTwo/firstTerm/OS/Lectures/figure-11.png",
@@ -210,7 +211,6 @@
     "College/yearTwo/firstTerm/OS/Lectures/figure-7.png",
     "College/yearTwo/firstTerm/OS/Lectures/figure-6.png",
     "College/yearTwo/firstTerm/OS/Lectures/figure-5.png",
-    "College/yearTwo/firstTerm/OS/Lectures/figure-4.png",
     "College/yearTwo/firstTerm/OS/Lectures/Lecture-1.md",
     "College/yearTwo/firstTerm/C++/tasks/task-3.md",
     "draft.md",

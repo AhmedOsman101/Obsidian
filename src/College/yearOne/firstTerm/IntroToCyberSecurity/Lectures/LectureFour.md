@@ -53,7 +53,6 @@ Cybersecurity relies heavily on managing risks associated with cyber threats. Co
 Cyber threat actors are individuals or groups with malicious intent to exploit vulnerabilities in systems. Their motivations and sophistication vary:
 
 - **Motivations**:
-
   - **Geopolitical**: Nation-states aiming for strategic advantage.
   - **Profit-driven**: Cybercriminals seeking financial gain.
   - **Ideological**: Hacktivists and terrorists promoting agendas.

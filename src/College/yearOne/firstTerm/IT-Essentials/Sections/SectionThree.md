@@ -44,7 +44,6 @@ To convert a decimal number to binary, repeatedly divide the decimal number by 2
 #### Example Conversions:
 
 1. Convert **6** to binary:
-
    - 6 ÷ 2 = 3 remainder 0
    - 3 ÷ 2 = 1 remainder 1
    - 1 ÷ 2 = 0 remainder 1
@@ -67,7 +66,6 @@ To convert a binary number to decimal, multiply each bit by the appropriate powe
 #### Example Conversions:
 
 1. Convert **0111** to decimal:
-
    - $0 × 2^3 + 1 × 2^2 + 1 × 2^1 + 1 × 2^0$
    - **Decimal result**: `7`
 
@@ -112,7 +110,6 @@ To convert an octal number to decimal, multiply each digit by 8 raised to the po
 #### Example Conversions:
 
 1. Convert **354** from octal to decimal:
-
    - $3 × 8^2 + 5 × 8^1 + 4 × 8^0$
    - **Decimal result**: `236`
 
@@ -156,7 +153,6 @@ To convert a hexadecimal number to decimal, multiply each digit by 16 raised to 
 #### Example Conversions:
 
 1. Convert **354** from hexadecimal to decimal:
-
    - $3 × 16^2 + 5 × 16^1 + 4 × 16^0$
    - **Decimal result**: `852`
 
@@ -169,7 +165,6 @@ To convert a hexadecimal number to decimal, multiply each digit by 16 raised to 
 ### Bonus Exercises
 
 1. Convert **2CB5** from hexadecimal to binary:
-
    - **Binary representation**: `0010 1100 1011 0101`
 
 2. Convert **1001 1010** from binary to octal:

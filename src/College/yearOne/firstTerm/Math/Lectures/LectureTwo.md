@@ -17,7 +17,6 @@ next:
 - **Definition**: A matrix $A$ is **symmetric** if $A^T = A$. In other words, the transpose of the matrix is equal to the matrix itself.
 
 - **Properties**:
-
   - A symmetric matrix must always be **square** (i.e., the number of rows must equal the number of columns).
   - The elements across the main diagonal of a symmetric matrix are symmetric with respect to the diagonal.
 
@@ -60,7 +59,6 @@ In this case, the matrix is symmetric because $A^T = A$.
 - **Definition**: A matrix $A$ is **skew-symmetric** if $A^T = -A$. In other words, the transpose of the matrix is the negative of the matrix.
 
 - **Properties**:
-
   - A skew-symmetric matrix must be **square** (i.e., the number of rows must equal the number of columns).
   - All diagonal entries of a skew-symmetric matrix must be **0**, because the transpose of the diagonal element must equal its negative, which is only possible if it is zero.
 

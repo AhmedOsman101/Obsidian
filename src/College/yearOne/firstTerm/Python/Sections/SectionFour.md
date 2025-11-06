@@ -112,7 +112,6 @@ flowchart TD
 There are two common ways to represent decisions in a flowchart:
 
 1. **Binary Questions**: The condition is framed as a question with two possible outcomes:
-
    - `Yes`
    - `No`
 

@@ -41,7 +41,6 @@ next:
 4. Once the account is created, it will appear under "Other users".
 
 5. **Change the account type to Administrator**:
-
    - Click on the newly created `AdminUser` account.
    - Select **Change account type**.
      ![](../imgs/taskSix11.png)

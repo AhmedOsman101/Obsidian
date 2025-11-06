@@ -149,17 +149,14 @@ print(fruits)  # Output: {'banana', 'apple', 'cherry'}
 ### Set Methods
 
 1. **`add(element)`**:
-
    - Adds an element to the set.
    - If the element is already in the set, it has no effect.
 
 2. **`discard(element)`**:
-
    - Removes the specified element from the set if it exists.
    - Does **not** raise an error if the element is missing (unlike `remove`).
 
 3. **`remove(element)`**:
-
    - Removes the specified element from the set.
    - Raises a `KeyError` if the element is not found.
 
@@ -219,20 +216,16 @@ print(my_dict)          # Output: {'name': 'Youssef', 'job': 'student', 'age': 1
 ### Dictionary Methods
 
 1. **`get(key, default=None)`**:
-
    - Returns the value associated with the given key.
    - If the key doesn't exist, it returns the specified `default` value (or `None` if not provided).
 
 2. **`items()`**:
-
    - Returns a view object containing key-value pairs `(key, value)`.
 
 3. **`keys()`**:
-
    - Returns a view object containing all the keys in the dictionary.
 
 4. **`pop(key, default)`**:
-
    - Removes the specified key and returns its value.
    - If the key doesn't exist, it returns the `default` value if provided; otherwise, raises a `KeyError`.
 

@@ -343,7 +343,6 @@ Magnetic media storage represents binary data using magnetized or non-magnetized
 #### Common Types of Magnetic Media Storage:
 
 - **Hard Disk Drive (HDD)**: Traditional storage with capacities ranging from gigabytes (GB) to terabytes (TB). HDDs have motors that spin magnetic platters and move drive heads. Speeds are measured in **revolutions per minute (RPM)**, with common speeds being:
-
   - 5400 RPM
   - 7200 RPM
   - 10,000 RPM
@@ -396,49 +395,39 @@ Input/output (I/O) ports allow a computer to connect to peripheral devices such 
 ![](../imgs/ports.png)
 
 - **Serial Port**
-
   - **Connector**: DB-9 or DB-25
   - **Usage**: Connecting devices like modems, mice, and older printers, transmitting one bit at a time.
 
 - **USB (Universal Serial Bus)**
-
   - **Functionality**: Standard for connecting hot-swappable devices, some can also be powered via USB.
   - **Usage**: Widely used for keyboards, mice, external storage, and printers.
 
 - **FireWire (IEEE-1394)**
-
   - **Functionality**: High-speed, hot-swappable; supports up to 63 devices, some powered via port.
   - **Usage**: Used with digital cameras, external drives, and audio/video equipment.
 
 - **Parallel Port (IEEE-1284)**
-
   - **Functionality**: Transmits 8 bits of data at once.
   - **Usage**: Primarily for older printers and scanners, before USB standardization.
 
 - **SCSI (Small Computer System Interface)**
-
   - **Data Rate**: Exceeds 320 Mbps, supports up to 15 devices; requires termination at chain endpoints.
   - **Usage**: High-performance connections for hard drives, scanners, and peripherals.
 
 - **Network Port (RJ-45)**
-
   - **Functionality**: Connects computers to networks; maximum cable length is 328 ft (100 m).
 
 - **Telephone Port (RJ-11)**
-
   - **Usage**: Connects a modem to a telephone line.
 
 - **BNC (Bayonet Neill–Concelman)**
-
   - **Usage**: Used for data networks over coaxial cables; common in video, broadcast, and some networking (e.g., 10BASE2 Ethernet).
 
 - **PS/2 Port**
-
   - **Connector**: 6-pin mini-DIN
   - **Usage**: Connects keyboards or mice.
 
 - **Audio Port**
-
   - **Usage**: Connects audio devices like headphones and speakers.
 
 - **Video Port**
@@ -464,7 +453,6 @@ These ports enable various data transfer and connectivity options for both inter
 ### Adapters and Converters
 
 - **Definition**: Adapters and converters are components used to bridge different connection standards in technology.
-
   - **Converter**: Performs the same function as an adapter but also translates signals from one technology to another.
   - **Adapter**: Physically connects one technology to another without altering the signal.
 
@@ -542,7 +530,6 @@ These ports enable various data transfer and connectivity options for both inter
 ### Monitors and Projectors
 
 - **Types of Monitor Technology**:
-
   - **Liquid Crystal Display (LCD)**: Commonly used in laptops and some projectors; available in two forms:
     - **Active Matrix**: Offers better response times and image quality.
     - **Passive Matrix**: Generally slower and used in older displays.
@@ -550,7 +537,6 @@ These ports enable various data transfer and connectivity options for both inter
   - **Organic LED (OLED)**: Uses a layer of organic material to emit light, providing superior color accuracy and contrast.
 
 - **Monitor Resolution**:
-
   - Refers to the level of image detail that can be reproduced; higher resolution settings yield better image quality.
   - **Factors Influencing Resolution**:
     - **Pixel**: The smallest unit of a digital image.
@@ -569,7 +555,6 @@ These ports enable various data transfer and connectivity options for both inter
 ### VR and AR Headsets
 
 - **Virtual Reality (VR) Headset**:
-
   - Used in computer games, simulators, and training applications with VR functionalities.
   - Creates a simulated, three-dimensional environment using computer technology.
   - Completely encases the upper portion of users' faces, blocking out ambient light.
@@ -595,7 +580,6 @@ These ports enable various data transfer and connectivity options for both inter
 ### Speakers and Headphones
 
 - **Speakers**: Auditory output devices that produce sound.
-
   - Integrated audio support is typically found in the motherboard or on an adapter card.
 
 - **Headphones**: Include earbuds and headset earphones, also functioning as auditory output devices.

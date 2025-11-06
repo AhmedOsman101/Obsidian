@@ -124,21 +124,17 @@ Also known as public-key cryptography, asymmetric encryption employs a pair of k
 #### Applications of Cryptography
 
 1. **Secure Communications**
-
    - Used to encrypt communications between entities, e.g., a web browser and server.
 
 2. **End-to-End Encryption (E2EE)**
-
    - Prevents third-party access to data, widely used in messaging systems.
    - Data is encrypted at the sender's end and decrypted only by the intended recipient.
 
 3. **Data Storage**
-
    - Ensures secure storage of sensitive data.
    - Example: Office 365 encrypts data during communication and access.
 
 4. **Password Storage**
-
    - Protects passwords from being read or hacked when stored in systems.
 
 ---

@@ -139,7 +139,6 @@ Bitwise shift operators move bits within the binary representation of an integer
 ## Floor Division and `ceil()` Function
 
 1. **Floor Division (`//`)**
-
    - Floor division divides and returns the integer part of the result; it removes anything after the decimal point.
 
    ```python
@@ -147,7 +146,6 @@ Bitwise shift operators move bits within the binary representation of an integer
    ```
 
 2. **`ceil()` Function**
-
    - The `ceil()` function, from Python's `math` module, rounds up to the nearest integer.
 
    ```python

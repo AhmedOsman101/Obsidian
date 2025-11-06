@@ -212,7 +212,6 @@ next: false
 ##### End-to-End Scenario
 
 1. A user on Computer A sends a print job to the printer.
-
    - **Layer 7:** User interacts with the print application.
    - **Layer 6:** Data is formatted and encrypted for secure transmission.
    - **Layer 5:** A session is established with the printer.
@@ -262,7 +261,6 @@ next: false
 ##### Implementation Example
 
 1. **Core Devices:**
-
    - A central **network switch**.
    - A **router** connected to the switch to provide internet access.
    - Ethernet cables for wired connections (Cat5e or Cat6 for better speeds).
@@ -349,7 +347,6 @@ next: false
 ###### c. IP Addressing
 
 1. **Router Configuration:**
-
    - Assign a static IP address `192.168.1.1` to the router's interface `GigabitEthernet0/0/0`.
    - Connect the switch to the router on the `GigabitEthernet0/0/0` interface (which we assigned an IP earlier).
 
@@ -359,12 +356,10 @@ next: false
 ###### d. Device Configuration
 
 - **PCs:**
-
   - Configure each PC with a static IP address from `192.168.1.4` to `192.168.1.13`.
   - Test connectivity with the router (click on the device -> desktop -> command prompt -> run `ping 192.168.1.1`).
 
 - **Server:**
-
   - Assign the static IP `192.168.1.2`.
   - Configure the default gateway to `192.168.1.1`.
 

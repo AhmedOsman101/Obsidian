@@ -15,7 +15,6 @@ next:
 **a. 157**
 
 - **Decimal to Binary**: Divide by 2 and track remainders:
-
   - $157 \div 2 = 78$ remainder 1
   - $78 \div 2 = 39$ remainder 0
   - $39 \div 2 = 19$ remainder 1
@@ -35,7 +34,6 @@ next:
 **b. 365**
 
 - **Decimal to Binary**:
-
   - $365 \div 2 = 182$ remainder 1
   - $182 \div 2 = 91$ remainder 0
   - $91 \div 2 = 45$ remainder 1

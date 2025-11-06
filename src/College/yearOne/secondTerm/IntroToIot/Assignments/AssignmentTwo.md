@@ -23,13 +23,11 @@ Using the following figure:
 Cloud computing offers three primary service models, each serving different needs:
 
 - **Infrastructure as a Service (IaaS)**:
-
   - Provides virtualized computing resources (e.g., servers, storage, networking).
   - Example: Amazon EC2.
   - Explanation: Users rent infrastructure and manage their own operating systems and applications, offering flexibility but requiring more technical oversight.
 
 - **Platform as a Service (PaaS)**:
-
   - Offers a platform for developing, testing, and deploying applications without managing underlying infrastructure.
   - Example: Google App Engine.
   - Explanation: Ideal for developers, as it simplifies app development by providing pre-configured tools and environments.
@@ -44,18 +42,15 @@ Cloud computing offers three primary service models, each serving different need
 Cloud deployment models define how cloud resources are hosted and accessed:
 
 - **Public Cloud**:
-
   - Resources are shared among multiple users over the internet.
   - Example: AWS.
   - Explanation: Cost-effective and scalable, but less control over data security.
 
 - **Private Cloud**:
-
   - Dedicated to a single organization, hosted on-site or by a provider.
   - Explanation: Offers greater security and customization, though at a higher cost.
 
 - **Hybrid Cloud**:
-
   - Combines public and private clouds, allowing data and applications to move between them.
   - Explanation: Balances cost and security, ideal for dynamic workloads.
 
@@ -159,13 +154,11 @@ Once running, the VM operates like a physical machine, supporting Big Data tools
 Here are three prominent open-source cloud tools:
 
 - **OpenStack**:
-
   - **Pros**: Modular, supports IaaS, widely adopted, large community.
   - **Cons**: Complex setup, steep learning curve.
   - **Use Case**: Large-scale, flexible cloud deployments.
 
 - **Apache CloudStack**:
-
   - **Pros**: Easy to deploy, user-friendly, good for IaaS.
   - **Cons**: Fewer features than OpenStack.
   - **Use Case**: Simpler private or public clouds.

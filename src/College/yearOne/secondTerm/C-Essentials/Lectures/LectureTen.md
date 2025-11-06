@@ -10,7 +10,7 @@ next: false
 
 ## File Handling in C
 
-File handling in C refers to performing operations such as creating, opening, reading, writing, appending, renaming, and deleting files using functions provided by the language. These operations allow data to persist beyond the program's execution time by interacting with files stored in the computer’s external memory.
+File handling in C refers to performing operations such as creating, opening, reading, writing, appending, renaming, and deleting files using functions provided by the language. These operations allow data to persist beyond the program's execution time by interacting with files stored in the computer's external memory.
 
 ## Basic File Operations in C
 
@@ -32,13 +32,11 @@ When a program uses standard input/output operations, the data is lost once the 
 ## Types of Files
 
 1. **Text File**
-
    - Stores data as ASCII characters
    - Each line ends with a newline (`\n`)
    - Common extension: `.txt`
 
 2. **Binary File**
-
    - Stores data in binary (0s and 1s)
    - Used for non-text data like images, executables
    - Examples: `.png`, `.exe`, `.jpg`

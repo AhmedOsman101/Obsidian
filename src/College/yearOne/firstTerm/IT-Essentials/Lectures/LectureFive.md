@@ -142,12 +142,10 @@ Computers can connect to share data and resources via:
 #### Twisted-Pair Cables
 
 - Types:
-
   - **Unshielded Twisted-Pair (UTP)**: Common, prone to EMI/RFI.
   - **Shielded Twisted-Pair (STP)**: Better protection but more expensive.
 
 - Wiring Schemes:
-
   - **T568A** and **T568B** define pinouts for cable ends.
   - Cable Types:
     - **Straight-through**: Same wiring on both ends; connects **unlike** devices.

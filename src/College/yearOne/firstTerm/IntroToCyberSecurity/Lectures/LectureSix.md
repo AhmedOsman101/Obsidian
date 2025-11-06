@@ -50,26 +50,22 @@ Cracking is the process of breaching software or system security, often using re
 ### Types of Cracking
 
 1. **Password Cracking**:
-
    - **Techniques**:
      - **Brute Force**: Tries all possible combinations.
      - **Dictionary**: Uses common words.
      - **Rainbow Table**: Precomputed hashes to find encrypted passwords.
 
 2. **Software Cracking**:
-
    - **Tools**:
      - **Keygen**: Generates valid serial numbers.
      - **Patch**: Modifies software to remove restrictions.
      - **Loader**: Bypasses security features.
 
 3. **Network Cracking**:
-
    - Targets local area networks (LAN) or wireless networks (Wi-Fi).
    - Easier to breach wireless networks due to proximity requirements.
 
 4. **Application Cracking**:
-
    - Modifies software to disable licensing or authentication mechanisms.
    - Exploits vulnerabilities to access sensitive data or execute code.
 
@@ -80,21 +76,17 @@ Cracking is the process of breaching software or system security, often using re
 ## How to Prevent Cracking
 
 1. **Keep Software Updated**:
-
    - Regular updates fix vulnerabilities.
    - Enable automatic updates.
 
 2. **Use Antivirus Software**:
-
    - Protects against malware and spyware.
    - Scans systems for infections.
 
 3. **Avoid Public Wi-Fi**:
-
    - Use VPNs to secure connections on public networks.
 
 4. **Use Unique Passwords**:
-
    - Avoid using the same password across accounts.
    - Ensure passwords are strong and secure.
 
@@ -125,19 +117,15 @@ Cracking is the process of breaching software or system security, often using re
 ## How to Protect Yourself from Hacking
 
 1. **Keep Software Updated**:
-
    - Regularly install updates for all devices and programs.
 
 2. **Use Unique Passwords**:
-
    - Avoid reusing passwords; create strong, unique ones for each account.
 
 3. **Enable HTTPS Encryption**:
-
    - Verify secure connections by checking for `https://` in URLs.
 
 4. **Avoid Suspicious Links and Ads**:
-
    - Do not click on strange links or pop-up ads.
 
 5. **Secure Default Settings**:

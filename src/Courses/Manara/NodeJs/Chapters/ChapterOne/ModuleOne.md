@@ -41,12 +41,10 @@ Here's a practical example of how the client-side and server-side communicate us
 **Scenario**: A user wants to check the weather for their location.
 
 1. **Client-Side Request**:
-
    - The user enters their city in a form and clicks "Check Weather".
    - The client-side (using JavaScript) sends an HTTP request to the server, asking for the weather information for that city.
 
 2. **Server-Side Processing**:
-
    - The backend server receives the request and may use Node.js to fetch data from a third-party weather API.
    - Node.js retrieves and processes the data, ensuring only relevant information is sent back.
 

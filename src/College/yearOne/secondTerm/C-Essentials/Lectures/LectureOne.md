@@ -81,7 +81,6 @@ A method to uncover root causes by repeatedly asking "why."
 **Example**:
 
 - **Problem**: A server crashes frequently.
-
   1. Why? CPU usage spiked.
   2. Why? A process consumed too much power.
   3. Why? Infinite loop in the code.
@@ -302,7 +301,6 @@ Requires a **termination condition** to stop the loop.
 #### Termination Condition Testing:
 
 1. **Pre-test Loop (while loop)**:
-
    - Condition checked **before** loop execution.
 
 ```mermaid

@@ -20,13 +20,11 @@ const isEven = (n: number): boolean => (n & 1) === 0;
 ### Explanation
 
 1. **Bitwise AND with 1**:
-
    - The least significant bit (LSB) of a number determines if it is even or odd.
    - If the LSB is `0`, the number is even.
    - If the LSB is `1`, the number is odd.
 
 2. **Operation**:
-
    - `n & 1` isolates the LSB.
    - If the result is `0`, the number is even.
 
@@ -38,7 +36,6 @@ const isEven = (n: number): boolean => (n & 1) === 0;
 ### Comparison with Modulus Approach
 
 - **Bitwise Approach**: `(n & 1) === 0`
-
   - Faster and more efficient because bitwise operations are computationally cheaper.
   - Directly checks the LSB without performing division or remainder operations.
 
@@ -71,16 +68,13 @@ const isPowerOfTwo = (x: number): boolean => x !== 0 && !(x & (x - 1));
 ### Explanation
 
 1. **Power of Two Property**:
-
    - A power of two in binary has exactly one bit set (e.g., `1` -> `001`, `2` -> `010`, `4` -> `100`).
 
 2. **Bitwise Trick**:
-
    - Subtracting `1` from a power of two flips all bits after the single set bit (e.g., `4 - 1 = 3` -> `100 & 011 = 0`).
    - For non-powers of two, `x & (x - 1)` will not be zero (e.g., `5 & 4 = 4`).
 
 3. **Operation**:
-
    - `x & (x - 1)` clears the lowest set bit in `x`.
    - If the result is `0` and `x` is not `0`, then `x` is a power of two.
 
@@ -92,7 +86,6 @@ const isPowerOfTwo = (x: number): boolean => x !== 0 && !(x & (x - 1));
 ### Comparison with Logarithmic Approach
 
 - **Bitwise Approach**: `x !== 0 && !(x & (x - 1))`
-
   - Extremely fast and efficient, leveraging bitwise properties.
   - Avoids floating-point inaccuracies or expensive logarithmic calculations.
 
@@ -237,16 +230,13 @@ const bitLen = (n: number): number => {
 ### Explanation
 
 1. **Initialization**:
-
    - Start with `length = 0` to count the number of bits.
 
 2. **Right Shift Operation**:
-
    - `n >>= 1` shifts the bits of `n` to the right by 1 position, effectively dividing `n` by 2.
    - This removes the least significant bit (LSB) of `n` in each iteration.
 
 3. **Counting Bits**:
-
    - Each right shift reduces the number of bits in `n` by 1.
    - Increment `length` by `1` for each shift until `n` becomes `0`.
 
@@ -292,12 +282,10 @@ const multiplyByPowerOfTwo = (x: number, n: number): number => x << n;
 ### Explanation
 
 1. **Left Shift Operation**:
-
    - Shifting a number `x` left by `n` positions is equivalent to multiplying `x` by $2^n$.
    - Each left shift doubles the value of `x`.
 
 2. **Example**:
-
    - $5 \times 2^3 = 5 \times 8 = 40$
    - In binary: `5` is `0b101`. Shifting left by `3` gives `0b101000`, which is `40`.
 
@@ -329,12 +317,10 @@ const divideByPowerOfTwo = (x: number, n: number): number => x >> n;
 ### Explanation
 
 1. **Right Shift Operation**:
-
    - Shifting a number `x` right by `n` positions is equivalent to dividing `x` by $2^n$ and truncating the result (floor division).
    - Each right shift halves the value of `x`.
 
 2. **Example**:
-
    - $40 \div 2^3 = 40 \div 8 = 5$
    - In binary: `40` is `0b101000`. Shifting right by `3` gives `0b101`, which is `5`.
 
@@ -355,12 +341,10 @@ console.log(divideByPowerOfTwo(10, 1)); // 5 (10 / 2^1)
 ### Key Points
 
 - **Left Shift (`<<`)**:
-
   - Use to multiply a number by $2^n$.
   - Example: `x << n` is equivalent to $x \times 2^n$.
 
 - **Right Shift (`>>`)**:
-
   - Use to divide a number by $2^n$ (with truncation).
   - Example: `x >> n` is equivalent to $\lfloor x \div 2^n \rfloor$.
 
@@ -373,12 +357,10 @@ console.log(divideByPowerOfTwo(10, 1)); // 5 (10 / 2^1)
 ### Edge Cases
 
 1. **Negative Numbers**:
-
    - Right shifts on negative numbers preserve the sign bit (arithmetic right shift).
    - Example: `-10 >> 1` results in `-5`.
 
 2. **Zero**:
-
    - Shifting `0` left or right always results in `0`.
 
 3. **Large Shifts**:
@@ -401,19 +383,16 @@ const getUnique = (arr: number[]): number => arr.reduce((a, b) => a ^ b, 0);
 ### Explanation
 
 1. **XOR Properties**:
-
    - XOR (`^`) is a bitwise operation with the following properties:
      - `a ^ a = 0` (any number XORed with itself results in 0).
      - `a ^ 0 = a` (any number XORed with 0 results in the number itself).
      - XOR is **commutative** and **associative**, meaning the order in which the operation is performed does not matter.
 
 2. **Behavior**:
-
    - When applying XOR across an array, pairs of identical numbers will cancel each other out (because of `a ^ a = 0`).
    - The only number that does not have a pair will remain after all XOR operations, as it will be XORed with `0` (which does not change the value).
 
 3. **Initial Value**:
-
    - The `reduce()` method initializes with `0` to start the XOR operation.
 
 4. **Time Complexity**:
@@ -436,7 +415,6 @@ console.log(getUnique(arr2)); // 5 (5 is the unique number)
 ### Comparison with Other Approaches
 
 - **Using a Hash Set**:
-
   - We could also solve this problem by using a hash set (or map) to track the counts of numbers, but this would require additional space, making it less efficient in terms of space complexity (`O(n)`).
   - **Space Complexity**: `O(n)`
   - **Time Complexity**: `O(n)`
@@ -451,11 +429,9 @@ console.log(getUnique(arr2)); // 5 (5 is the unique number)
 ### Edge Cases
 
 1. **Array with only one element**:
-
    - The XOR approach will work correctly, as it will return the only element.
 
 2. **Array with all elements being the same**:
-
    - If all elements are the same (even number of elements), the result will be `0`, indicating there is no unique number.
 
 3. **Empty array**:

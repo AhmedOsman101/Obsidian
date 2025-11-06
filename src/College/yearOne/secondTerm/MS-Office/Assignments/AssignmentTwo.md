@@ -198,13 +198,11 @@ A **report** in Access presents data from tables/queries in a formatted, often p
 ### P1: Explore MS PowerPoint and mention how to add a new slide, change the background of a single slide, and apply to all
 
 - **Add a New Slide:**
-
   - Go to the **Home** tab > **New Slide**.
   - Select a layout (e.g., Title and Content).
   - Alternatively, right-click in the slide thumbnail pane > **New Slide**.
 
 - **Change Background of a Single Slide:**
-
   - Select the slide in the thumbnail pane.
   - Go to **Design** tab > **Format Background**.
   - Choose a fill (e.g., Solid, Gradient), adjust settings.
@@ -225,17 +223,14 @@ A **report** in Access presents data from tables/queries in a formatted, often p
 ### P3: Explain how to insert a table, SmartArt, hyperlink, and create an interactive PowerPoint using Action Buttons to slide
 
 - **Insert a Table:**
-
   - Go to **Insert** tab > **Table**.
   - Select rows/columns from the grid or choose **Insert Table** for custom sizes.
 
 - **Insert SmartArt:**
-
   - Go to **Insert** tab > **SmartArt**.
   - Pick a type (e.g., Hierarchy), click OK, and add text.
 
 - **Insert a Hyperlink:**
-
   - Select text/object, go to **Insert** tab > **Hyperlink**.
   - Link to a web page, slide, or file, then click OK.
 

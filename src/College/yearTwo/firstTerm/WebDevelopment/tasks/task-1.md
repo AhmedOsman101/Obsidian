@@ -352,7 +352,7 @@ Makes an input uneditable but still selectable and submittable.
 <input type="text" value="Static text" readonly />
 ```
 
-- The value can’t be changed by the user.
+- The value can't be changed by the user.
 - Still included in form submission data.
 
 ![](figure-20.png)
@@ -361,7 +361,7 @@ Makes an input uneditable but still selectable and submittable.
 
 ## The `disabled` Attribute
 
-Disables an input completely — it’s not editable, focusable, or submitted.
+Disables an input completely — it's not editable, focusable, or submitted.
 
 ```html
 <input type="text" value="Disabled field" disabled />
@@ -608,7 +608,7 @@ Allows multi-line text input for messages, comments, or descriptions.
 <textarea id="message" name="message"></textarea>
 ```
 
-- Unlike `<input>`, it doesn’t use a `type` attribute.
+- Unlike `<input>`, it doesn't use a `type` attribute.
 - Text entered appears as plain text between the tags.
 
 ![](figure-35.png)

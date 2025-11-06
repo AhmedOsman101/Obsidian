@@ -146,13 +146,11 @@ print("ID of b:", id(b)) # ID of b: 139681763249040
 ## Types of Errors in Python
 
 - **Syntax Errors**
-
   - Occur when the **code does not follow the rules of the language**.
   - Example: Using curly brackets `{}` where angled brackets `[]` are needed.
   - **Result**: The program will not run at all.
 
 - **Runtime Errors**
-
   - Occur when **the code's syntax is correct**, but the **program does not run as expected** or encounters an issue during execution (program crashes).
   - Example: Dividing by zero in a program or using undefined variables.
   - **Result**: The program stops unexpectedly.
@@ -167,7 +165,6 @@ print("ID of b:", id(b)) # ID of b: 139681763249040
 ### Syntax Error
 
 - **Leaving out one parenthesis**
-
   - **Result**: A **SyntaxError** occurs because the parentheses are incomplete, violating Python's syntax rules for function calls.
 
 - **Leaving out both parentheses**

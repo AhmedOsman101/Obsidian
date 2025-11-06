@@ -122,26 +122,21 @@ The OS ensures efficient allocation of resources to applications by:
 ## Popular Operating Systems
 
 1. **Windows**:
-
    - Most widely used OS for personal computers.
    - Versions: Windows 7, 8, 10, 11.
 
 2. **Linux**:
-
    - Open-source and highly customizable.
    - Common distributions: Ubuntu, Fedora, CentOS, Debian, Arch.
 
 3. **macOS**:
-
    - Apple's proprietary OS for Mac computers.
    - Known for stability, security, and hardware integration.
 
 4. **Android**:
-
    - Mobile OS based on Linux, used in smartphones and tablets.
 
 5. **iOS**:
-
    - Apple's mobile OS for iPhones and iPads, offering security and ecosystem integration.
 
 ![](../imgs/figure%202.png)
@@ -203,7 +198,6 @@ The architecture determines the processing power and memory handling of a system
 ## Windows OS Upgrades
 
 1. **Upgrade Paths**:
-
    - Windows 7 and Windows 8 can be upgraded to Windows 10.
    - Windows Vista and Windows XP require a **clean installation** for Windows 10, as no direct upgrade path is available.
 
@@ -363,7 +357,6 @@ When installing an OS, the storage device must be prepared to store the OS and a
 ## Upgrade Methods
 
 1. **In-Place Upgrade**:
-
    - Retains data, applications, and drivers.
    - Automated via tools like **System Center Configuration Manager** or `setup.exe`.
    - Suitable for upgrading Windows 7 or 8 to Windows 10.

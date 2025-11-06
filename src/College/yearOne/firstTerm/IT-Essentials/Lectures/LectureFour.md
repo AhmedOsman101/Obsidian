@@ -135,7 +135,6 @@ Steps:
 #### Solving Problems on ASCII Code
 
 - **Example (Text to Binary)**:
-
   - **Step 1**: Convert characters in "computer" to ASCII values:
     - c → 99, o → 111, m → 109, p → 112, u → 117, t → 116, e → 101, r → 114.
   - **Step 2**: Convert ASCII values to binary (8-bit representation):

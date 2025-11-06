@@ -190,11 +190,9 @@ multiplication_table(10)
 The syntax `print(f"{i:2}")` uses **f-strings** in Python, which allow you to embed expressions directly into string literals. The part `{i:2}` inside the f-string specifies **string formatting** for the variable `i`. Here's a breakdown:
 
 1. **`f""`**:
-
    - This denotes a formatted string literal, or **f-string**. Expressions inside `{}` are evaluated and replaced with their values.
 
 2. **`i`**:
-
    - This is the variable whose value is being formatted.
 
 3. **`:2`**:

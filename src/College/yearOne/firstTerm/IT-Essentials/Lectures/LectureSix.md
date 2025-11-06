@@ -17,7 +17,6 @@ next:
 Reference models, such as the **OSI** and **TCP/IP** models, describe data communication processes.
 
 - **Open Standards**:
-
   - Developed by organizations like IEEE, IETF, and ISO.
   - Ensure compatibility across systems and platforms.
 
@@ -51,7 +50,6 @@ TCP/IP stands for Transmission Control Protocol/Internet Protocol.
 OSI Stand for Open Systems Interconnection.
 
 - **Purpose**:
-
   - Divides network communications into seven layers.
   - Used as a standard framework by most network vendors.
   - Combines **hardware** (lower layers) and **software** (higher layers) implementations.
@@ -383,7 +381,6 @@ Several organizations develop and maintain standards for networking and communic
 ## Bandwidth and Latency
 
 - **Bandwidth**: Data transmitted per second, measured in:
-
   - **bps**: Bits per second.
   - **Kbps**: Kilobits per second.
   - **Mbps**: Megabits per second.

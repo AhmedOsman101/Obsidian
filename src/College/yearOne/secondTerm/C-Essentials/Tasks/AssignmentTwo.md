@@ -195,13 +195,11 @@ int main() {
 ## Task 5: Compare Arrays and Structures
 
 - **Arrays**
-
   - Hold multiple elements of the _same_ type (e.g. all `int` or all `double`).
   - Laid out contiguously in memory—you can index into them (`arr[5]`) and perform pointer‑arithmetic.
   - Good when you need a simple list or table of values, all governed by the same operations.
 
 - **Structures**
-
   - Bundle together one or more variables, possibly of _different_ types, under a single name.
   - Each member can be accessed by name (`person.age`, `person.name`), improving clarity when you have logically related but type‑varying data.
   - Memory layout may include padding to satisfy alignment, but you don't lose the benefit of grouping.
@@ -243,7 +241,6 @@ int main() {
 ```
 
 - **Why this is better than parallel arrays**
-
   - You avoid mistakes like shifting one array and not the others.
   - Passing one `Student` to a function is simpler than passing three separate arrays plus an index.
   - The code is self‑documenting: `student.age` vs. `ages[i]`.

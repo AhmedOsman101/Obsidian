@@ -33,7 +33,6 @@ A programming language is a formal language used to communicate instructions to 
 Interact directly with hardware. Examples include:
 
 - **Machine Code**
-
   - Binary (0s and 1s) executed by the CPU.
   - Example: `10110000 01100001` (move data to a register).
   - Fast but hard to write/debug.
@@ -51,7 +50,6 @@ ADD AL, 1    ; Increment AL by 1
 Use English-like keywords, easier for humans to understand. Divided into:
 
 - **Structured Programming**
-
   - Breaks programs into functions/modules. The data is separated from its behavior.
   - Examples: C, Basic, Fortran, Cobol, Algol, Pascal.
 

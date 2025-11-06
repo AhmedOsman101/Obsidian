@@ -2,6 +2,8 @@
 
 ## Introduction
 
+![](figure-14.png)
+
 - **CPU scheduling** is fundamental in multiprogrammed systems — it determines which process uses the CPU at any given time.
 - A process execution cycle alternates between:
   - **CPU burst** – when the process uses the CPU.

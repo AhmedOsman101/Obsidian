@@ -1,4 +1,4 @@
-# Web Programming - Lecture 5 HTML Tables
+# Web Programming - Lecture 6: HTML Tables
 
 ## Introduction to Tables
 

@@ -125,10 +125,13 @@ Used for defining **terms and descriptions** (like glossaries).
 ```
 
 **Output:**
-**HTML**
-HyperText Markup Language
-**CSS**
-Cascading Style Sheets
+
+<dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language</dd>
+  <dt>CSS</dt>
+  <dd>Cascading Style Sheets</dd>
+</dl>
 
 ---
 
@@ -195,19 +198,27 @@ Lists can be **nested** by placing one list inside another `<li>`.
 
 ### Output (Simplified View)
 
-**Safety Tips for Canoeists**
-
-b. Be able to swim
-c. Wear a life jacket at all times
-d. Don’t stand up or move around. If canoe tips:
-
-- Hang on to the canoe
-- Use the canoe for support
-  Ⅳ. Be careful
-  Ⅴ. Do not look around
-- Swim to shore
-  e. Don’t overexert yourself
-  f. Use a bow light at night
+<h1 align="center">Safety Tips for Canoeists</h1>
+<ol type="a" start="2">
+  <li>Be able to swim</li>
+  <li>Wear a life jacket at all times</li>
+  <li>
+    Don't stand up or move around. If canoe tips:
+    <ul>
+      <li>Hang on to the canoe</li>
+      <li>
+        Use the canoe for support
+        <ol type="I" start="4">
+          <li>Be careful</li>
+          <li>Do not look around</li>
+        </ol>
+      </li>
+      <li>Swim to shore</li>
+    </ul>
+  </li>
+  <li>Don't overexert yourself</li>
+  <li>Use a bow light at night</li>
+</ol>
 
 ---
 

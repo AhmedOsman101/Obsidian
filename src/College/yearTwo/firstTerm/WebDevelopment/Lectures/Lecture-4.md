@@ -198,10 +198,12 @@ Lists can be **nested** by placing one list inside another `<li>`.
 
 ### Output (Simplified View)
 
-<center> **Safety Tips for Canoeists** </center>
+<center><b>Safety Tips for Canoeists </b> </center>
 
 b. Be able to swim
+
 c. Wear a life jacket at all times
+
 d. Don’t stand up or move around. If canoe tips:
 
 - Hang on to the canoe

@@ -1,4 +1,4 @@
-# Web Programming - Lecture 4
+# Web Programming - Lecture 4: Lists
 
 ## Lists in HTML
 

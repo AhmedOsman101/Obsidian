@@ -204,14 +204,13 @@ Lists can be **nested** by placing one list inside another `<li>`.
 b. Be able to swim
 c. Wear a life jacket at all times
 d. Don’t stand up or move around. If canoe tips:
-
-- Hang on to the canoe
-- Use the canoe for support
-  Ⅳ. Be careful
-  Ⅴ. Do not look around
-- Swim to shore
-  e. Don’t overexert yourself
-  f. Use a bow light at night
+		- Hang on to the canoe
+		- Use the canoe for support
+		  Ⅳ. Be careful
+		  Ⅴ. Do not look around
+		- Swim to shore
+e. Don’t overexert yourself
+f. Use a bow light at night
 
 ---
 

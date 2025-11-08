@@ -853,6 +853,8 @@ Petabyte
 Preemptive
 Preemption
 Poor
+Podcasting
+Personalized
 IHDR
 IDATx
 IO
@@ -1742,6 +1744,8 @@ IxF
 Included
 Interrupts
 Implemented
+Intelligence
+Intranet
 pHYs
 pt
 pu
@@ -3873,6 +3877,8 @@ spent
 served
 suffers
 starvation
+sorting
+seat
 ff
 fP
 fj
@@ -4734,6 +4740,7 @@ frequent
 formulas
 favor
 fair
+favorites
 yq
 yh
 yS
@@ -7306,6 +7313,7 @@ BfL
 BNXtu
 Bbb
 Burst
+Blogging
 MC
 Ml
 MW
@@ -8156,6 +8164,7 @@ Megabyte
 Metric
 Maximize
 Multilevel
+Markup
 Lj
 Lf
 LvVa
@@ -10766,6 +10775,8 @@ Tax
 Throughput
 Turnaround
 Times
+Tagging
+Tag
 uj
 uq
 uXm
@@ -12156,6 +12167,7 @@ OAI
 OkE
 OxyK
 Observation
+OWL
 Uc
 Ue
 UXk
@@ -13703,6 +13715,7 @@ rbegin
 rend
 reversal
 releases
+reasoning
 eiO
 es
 ee
@@ -14650,6 +14663,7 @@ ecM
 editable
 eVB
 excessive
+era
 GO
 GQ
 Gk
@@ -16218,6 +16232,7 @@ Ewees
 EQVo
 Ena
 Exercise
+Entertainment
 Sal
 SQ
 SB
@@ -17208,6 +17223,10 @@ Starvation
 Shortest
 Served
 SJF
+Site
+SSI
+Smarter
+SEO
 iH
 ic
 iP
@@ -18087,6 +18106,7 @@ iUHS
 iostream
 isPalindrome
 income
+infer
 tWA
 tW
 tM
@@ -20458,6 +20478,7 @@ FBD
 FCFS
 Formulas
 Fair
+FTTP
 xi
 xpF
 xwG
@@ -22346,6 +22367,8 @@ blT
 batched
 bool
 burst
+bookmarking
+bookmarks
 Nb
 NJu
 Nbsa
@@ -23077,6 +23100,7 @@ Nha
 Nqx
 NmY
 NffQ
+Nginx
 lqQvz
 ln
 lN
@@ -27476,6 +27500,7 @@ oTU
 oxb
 overflow
 optimization
+ontologies
 mipte
 mRT
 mX
@@ -29391,6 +29416,9 @@ Copies
 Completion
 Come
 Chart
+Commercial
+Curating
+Collaborative
 vb
 vO
 vvF
@@ -30075,6 +30103,7 @@ vRs
 volatility
 voluntarily
 varied
+voting
 ck
 cr
 ce
@@ -31305,6 +31334,9 @@ cmath
 cout
 cin
 convoy
+centered
+collectively
+caters
 Hu
 Hg
 HiL
@@ -32076,6 +32108,7 @@ HWWWu
 Hex
 HBPP
 HpL
+HyperText
 hh
 hLR
 hI
@@ -32822,6 +32855,8 @@ hint
 hRf
 hVm
 hFHc
+htm
+html
 Xi
 XZ
 Xn
@@ -38522,6 +38557,8 @@ AHc
 AAq
 Authenticates
 Arrival
+AJAX
+Artificial
 Jw
 Jg
 JT
@@ -40382,6 +40419,7 @@ WSV
 WCg
 WRG
 Waiting
+Warning
 Ötl
 ÖC
 Öm

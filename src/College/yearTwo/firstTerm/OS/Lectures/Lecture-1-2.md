@@ -1,4 +1,4 @@
-# Operating System Lecture 1: Introduction
+# Operating System Lecture 1-2: Introduction
 
 https://youtube.com/playlist?list=PLqPgC1TA0L1moyG1SsYV2tilN6Cttf7My&si=ca6qnkqhU6IhR5Rc
 

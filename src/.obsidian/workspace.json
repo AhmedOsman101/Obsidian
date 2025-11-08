@@ -13,13 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearTwo/firstTerm/WebDevelopment/Lectures/Lecture-1.md",
+                "file": "College/yearTwo/firstTerm/OS/Lectures/Lecture-4_1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Lecture-1"
+              "title": "Lecture-4_1"
+            }
+          },
+          {
+            "id": "40d7340714f6ea96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "College/yearTwo/firstTerm/OS/Lectures/Lecture-4_2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Lecture-4_2"
             }
           }
         ]
@@ -188,10 +203,14 @@
   },
   "active": "74c74264a6d869a2",
   "lastOpenFiles": [
+    "College/yearTwo/firstTerm/OS/Lectures/sed17j2gO",
+    "College/yearTwo/firstTerm/OS/Lectures/Lecture-4_2.md",
+    "College/yearTwo/firstTerm/OS/Lectures/Lecture-4_1.md",
     "College/yearTwo/firstTerm/OS/Lectures/Lecture-3.md",
+    "College/yearTwo/firstTerm/OS/Lectures/Lecture-1-2.md",
+    "College/yearTwo/firstTerm/OS/Lectures/figure-14.png",
     "College/yearTwo/firstTerm/WebDevelopment/Lectures/Lecture-1.md",
     "College/yearTwo/firstTerm/WebDevelopment/Lectures",
-    "College/yearTwo/firstTerm/OS/Lectures/figure-14.png",
     "Programming/sedorcnhK",
     "Courses/MaharaTech/sedtGaleW",
     "Courses/sedc8fbLJ",
@@ -201,7 +220,6 @@
     "College/yearTwo/firstTerm/DigitalEngineering/tasks/sedaa7fcJ",
     "College/yearTwo/firstTerm/C++/tasks/sedH2AT92",
     "College/yearOne/secondTerm/MS-Office/Assignments/sedTOkjcV",
-    "College/yearTwo/firstTerm/OS/Lectures/Lecture-2.md",
     "College/yearTwo/firstTerm/OS/Lectures/figure-13.png",
     "College/yearTwo/firstTerm/OS/Lectures/figure-12.png",
     "College/yearTwo/firstTerm/OS/Lectures/figure-11.png",
@@ -211,7 +229,6 @@
     "College/yearTwo/firstTerm/OS/Lectures/figure-7.png",
     "College/yearTwo/firstTerm/OS/Lectures/figure-6.png",
     "College/yearTwo/firstTerm/OS/Lectures/figure-5.png",
-    "College/yearTwo/firstTerm/OS/Lectures/Lecture-1.md",
     "College/yearTwo/firstTerm/C++/tasks/task-3.md",
     "draft.md",
     "College/yearTwo/firstTerm/WebDevelopment/tasks/task-1.md",
@@ -231,8 +248,6 @@
     "College/yearOne/firstTerm/Python/Exams/ExamTwo.md",
     "College/yearOne/secondTerm/C-Essentials/Tasks/TaskTwo.md",
     "College/yearOne/secondTerm/C-Essentials/Tasks/TaskOne.md",
-    "College/yearOne/secondTerm/C-Essentials/Tasks/draft.md",
-    "College/yearOne/secondTerm/C-Essentials/Tasks/index.md",
-    "College/yearTwo/firstTerm/DigitalEngineering/tasks/sheet-2.md"
+    "College/yearOne/secondTerm/C-Essentials/Tasks/draft.md"
   ]
 }

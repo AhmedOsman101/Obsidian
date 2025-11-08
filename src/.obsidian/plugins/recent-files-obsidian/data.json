@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Lecture-1",
-      "path": "College/yearTwo/firstTerm/WebDevelopment/Lectures/Lecture-1.md"
+      "basename": "Lecture-4_1",
+      "path": "College/yearTwo/firstTerm/OS/Lectures/Lecture-4_1.md"
+    },
+    {
+      "basename": "Lecture-4_2",
+      "path": "College/yearTwo/firstTerm/OS/Lectures/Lecture-4_2.md"
     },
     {
       "basename": "Lecture-3",
       "path": "College/yearTwo/firstTerm/OS/Lectures/Lecture-3.md"
     },
     {
-      "basename": "Lecture-2",
-      "path": "College/yearTwo/firstTerm/OS/Lectures/Lecture-2.md"
+      "basename": "Lecture-1-2",
+      "path": "College/yearTwo/firstTerm/OS/Lectures/Lecture-1-2.md"
+    },
+    {
+      "basename": "figure-14",
+      "path": "College/yearTwo/firstTerm/OS/Lectures/figure-14.png"
     },
     {
       "basename": "Lecture-1",
-      "path": "College/yearTwo/firstTerm/OS/Lectures/Lecture-1.md"
+      "path": "College/yearTwo/firstTerm/WebDevelopment/Lectures/Lecture-1.md"
     },
     {
       "basename": "task-3",
@@ -191,14 +199,6 @@
     {
       "basename": "AssignmentOne",
       "path": "College/IT-Essentials/Assignments/AssignmentOne.md"
-    },
-    {
-      "basename": "AssignmentTwo",
-      "path": "College/Python/Assignments/AssignmentTwo.md"
-    },
-    {
-      "basename": "LectureOne",
-      "path": "College/IT-Essentials/Lectures/LectureOne.md"
     }
   ],
   "omittedPaths": [],

@@ -1,214 +1,260 @@
-# Operating System Lecture 3: CPU Scheduling
+# Operating System Lecture 3: Processes and Threads
 
-## Introduction
+## What Is a Process?
 
-![](figure-14.png)
+**Definition:**
+A _process_ is a program in execution.
 
-- **CPU scheduling** is fundamental in multiprogrammed systems — it determines which process uses the CPU at any given time.
-- A process execution cycle alternates between:
-  - **CPU burst** – when the process uses the CPU.
-  - **I/O burst** – when the process waits for I/O operations.
-- The final CPU burst usually ends with a system call to terminate execution.
+**Required Resources:**
 
----
+- CPU time
+- Memory
+- Files
+- I/O devices
 
-## CPU Scheduling Overview
+These resources are allocated when the process is created or during execution.
 
-- The **short-term scheduler** selects a process from the **ready queue** and allocates the CPU to it.
-- Scheduling decisions occur when a process:
-  1. Switches from **running → waiting**
-  2. Switches from **running → ready**
-  3. Switches from **waiting → ready**
-  4. **Terminates**
+## Types of Processes
 
-- **Preemptive scheduling:** the scheduler can interrupt and switch processes.
-- **Non-preemptive scheduling:** the CPU is released only voluntarily (termination or waiting).
+- **Operating System processes** – execute system code.
+- **User processes** – execute user code.
 
----
+**Characteristics:**
 
-## Preemption
+- Processes can execute concurrently.
+- CPU(s) are multiplexed among them for productivity.
+- OS executes a variety of programs:
+  - **Batch systems:** jobs
+  - **Time-shared systems:** user programs or tasks
 
-- **Definition:** Temporarily removing a process from the CPU in favor of another (e.g., higher-priority or shorter job).
-- Used to improve responsiveness and ensure fair CPU distribution.
+## Process Management
 
----
+The operating system handles:
 
-## Non-Preemptive vs Preemptive Scheduling
+- Creation and deletion of user/system processes.
+- Process scheduling.
+- Synchronization, communication, and deadlock handling mechanisms.
 
-| Aspect          | Preemptive Scheduling                             | Non-Preemptive Scheduling                      |
-| --------------- | ------------------------------------------------- | ---------------------------------------------- |
-| CPU Allocation  | CPU assigned for a limited time                   | CPU held until termination or waiting          |
-| Interrupt       | Can interrupt a process anytime                   | Process runs until it voluntarily releases CPU |
-| Overhead        | Context switching overhead exists                 | No overhead of switching mid-execution         |
-| Starvation      | Possible if high-priority tasks frequently arrive | Possible if long jobs block short ones         |
-| Flexibility     | Flexible; can prioritize urgent processes         | Rigid; cannot interrupt current task           |
-| Cost            | Higher (due to switching)                         | Lower                                          |
-| CPU Utilization | Higher                                            | Lower                                          |
-| Waiting Time    | Lower                                             | Higher                                         |
-| Response Time   | Faster                                            | Slower                                         |
-| Examples        | Round Robin, Shortest Remaining Time First        | FCFS, Shortest Job First                       |
+## Process in Memory
 
----
+![](figure-2.png)
 
-## Dispatcher
+A process consists of:
 
-- The **dispatcher** transfers control of the CPU to the chosen process.  
-  Steps:
-  1. Context switch
-  2. Switch to user mode
-  3. Jump to the user program's next instruction
-- **Dispatch latency:** the time required to stop one process and start another.
+- **Text section** – program code.
+- **Data section** – global variables.
+- **Stack** – temporary data (function parameters, return addresses, local variables).
+- **Heap** – dynamically allocated memory.
+- **Current activity** – program counter and processor registers.
 
----
+## Program vs Process
 
-## Scheduling Criteria
+| Aspect   | Program                                                  | Process               |
+| -------- | -------------------------------------------------------- | --------------------- |
+| Nature   | Passive (on disk)                                        | Active (in execution) |
+| State    | Stored executable file                                   | Executing instance    |
+| Creation | Becomes process when loaded                              | Created via execution |
+| Example  | Multiple users running same program = multiple processes |
 
-| Metric              | Description                                       |
-| ------------------- | ------------------------------------------------- |
-| **CPU Utilization** | Keep CPU as busy as possible                      |
-| **Throughput**      | Number of processes completed per time unit       |
-| **Turnaround Time** | Total time from submission to completion          |
-| **Waiting Time**    | Time spent waiting in the ready queue             |
-| **Response Time**   | Time from request submission until first response |
+Execution can start via GUI interaction or command line.
 
-### Optimization Goals
+## Process States
 
-- Maximize:
-  - CPU Utilization
-  - Throughput
-- Minimize:
-  - Turnaround Time
-  - Waiting Time
-  - Response Time
+![](figure-3.png)
 
----
+As a process executes, it transitions through these states:
 
-## Scheduling Formulas
+| State          | Description                      |
+| -------------- | -------------------------------- |
+| **New**        | Being created                    |
+| **Running**    | Instructions are executing       |
+| **Waiting**    | Waiting for an event (e.g., I/O) |
+| **Ready**      | Waiting to be assigned to CPU    |
+| **Terminated** | Finished execution               |
 
-- **Turnaround Time** = Completion Time − Arrival Time
-- **Waiting Time** = Turnaround Time − Burst Time
-- **Throughput** = Total Processes ÷ Total Completion Time
+## Process Control Block (PCB)
 
----
+![](figure-4.png)
 
-## Scheduling Algorithms
+A PCB (or Task Control Block) holds all process-related information:
 
-1. **First-Come, First-Served (FCFS)**
-2. **Shortest Job First (SJF)**
-3. **Priority Scheduling**
-4. **Round Robin (RR)**
-5. **Multilevel Queue Scheduling**
-6. **Multilevel Feedback Queue Scheduling**
+- Process state
+- Program counter (next instruction)
+- CPU registers
+- CPU scheduling info (priority, queue pointers)
+- Memory management info (allocated memory)
+- Accounting info (CPU usage, elapsed time)
+- I/O status info (allocated devices, open files)
 
----
+## Context Switch
 
-## First-Come, First-Served (FCFS) Scheduling
+![](figure-5.png)
 
-- Processes are served in the order they arrive.
-- Implemented with a **FIFO queue**:
-  - Process Control Block (PCB) added to queue tail upon arrival.
-  - When CPU is free, process at the head gets executed.
+When switching CPU execution from one process to another:
 
-### Example 1
+- The OS **saves** the state of the old process and **loads** the new one.
+- The process state is represented in its PCB.
+- **Context-switch time** is **overhead** — no useful work occurs during it.
+- Dependent on hardware — systems with multiple register sets support faster switching.
 
-| Process | Burst Time |
-| ------- | ---------- |
-| P1      | 24         |
-| P2      | 3          |
-| P3      | 3          |
+## Process Scheduling
 
-**Order:** P1 → P2 → P3  
-**Gantt Chart:**
+![](figure-6.png)
 
-```
-| P1 |------------------------| P2 |---| P3 |---|
-0    24                       27   30
-```
+![](figure-7.png)
 
-**Waiting Times:**  
-P1 = 0, P2 = 24, P3 = 27  
-**Average Waiting Time:** (0 + 24 + 27) / 3 = **17**
+Goal: **Maximize CPU utilization** through efficient process switching.
 
----
+**Queues:**
 
-### Example 2
+- **Job queue:** all processes in the system.
+- **Ready queue:** processes in main memory, ready for execution.
+- **Device queues:** processes waiting for I/O devices.
 
-**Order:** P2 → P3 → P1  
-**Gantt Chart:**
+Processes migrate among these queues during execution.
 
-```
+## Schedulers
 
-| P2 |---| P3 |---| P1 |------------------------|
-0     3   6                            30
+| Scheduler            | Frequency             | Role                                |
+| -------------------- | --------------------- | ----------------------------------- |
+| **Short-term (CPU)** | Frequent (ms)         | Selects next process for CPU        |
+| **Long-term (Job)**  | Infrequent (s or min) | Controls degree of multiprogramming |
 
-```
+**Process types:**
 
-**Waiting Times:**  
-P1 = 6, P2 = 0, P3 = 3  
-**Average Waiting Time:** (6 + 0 + 3) / 3 = **3**
+- **I/O-bound:** spends more time in I/O, many short CPU bursts.
+- **CPU-bound:** spends more time computing, few long CPU bursts.
 
-**Observation:**
+### Medium-Term Scheduler
 
-- FCFS suffers from the **convoy effect**, where short processes wait behind long ones.
-- Leads to low CPU and device utilization in time-sharing systems.
+![](figure-8.png)
 
----
+- Used to reduce multiprogramming degree.
+- Performs **swapping**: temporarily removes processes from memory to disk.
 
-## FCFS Example Exercise
+## Threads
 
-| Process | Arrival | Priority | Burst |
-| ------- | ------- | -------- | ----- |
-| P1      | 0       | 20       | 10    |
-| P2      | 2       | 10       | 1     |
-| P3      | 4       | 58       | 2     |
-| P4      | 8       | 40       | 4     |
-| P5      | 12      | 30       | 3     |
+Initially, each process had a **single thread of execution**.
+To enable parallelism, a process may contain **multiple threads**, each with its own:
 
-**Gantt Chart:**
+- Program counter
+- Register set
+- Stack
 
-```
+All threads share:
 
-| P1 |----------| P2 |-| P3 |--| P4 |----| P5 |---|
-0    10         11   13  17   20
+- Code section
+- Data section
+- OS resources (e.g., open files, signals)
 
-```
+## What Is a Thread?
 
-### Turnaround Time
+A **thread** is the smallest unit of CPU execution.
+Each thread includes:
 
-| Process | End Time | Arrival | Turnaround |
-| ------- | -------- | ------- | ---------- |
-| P1      | 10       | 0       | 10         |
-| P2      | 11       | 2       | 9          |
-| P3      | 13       | 4       | 9          |
-| P4      | 17       | 8       | 9          |
-| P5      | 20       | 12      | 8          |
+- Thread ID
+- Program counter
+- Register set
+- Stack
 
-**Average Turnaround Time = 45 / 5 = 9**
+![](figure-9.png)
 
-### Waiting Time
+Threads within a process share:
 
-| Process | Turnaround | Burst | Waiting |
-| ------- | ---------- | ----- | ------- |
-| P1      | 10         | 10    | 0       |
-| P2      | 9          | 1     | 8       |
-| P3      | 9          | 2     | 7       |
-| P4      | 9          | 4     | 5       |
-| P5      | 8          | 3     | 5       |
+- Code
+- Data
+- OS resources
 
-**Average Waiting Time = 25 / 5 = 5**
+If multiple threads exist, the process can perform multiple tasks simultaneously.
 
-### Throughput
+## Examples
 
-Total time = 20  
-Processes = 5  
-**Throughput = 5 / 20 = 0.25 processes/unit time**
+### Example 1: Word Processor
 
----
+- One thread for UI and display.
+- One for user input (keystrokes).
+- One for background tasks (spelling/grammar check).
 
-## Summary of FCFS
+### Example 2: Web Server
 
-| Pros                         | Cons                                       |
-| ---------------------------- | ------------------------------------------ |
-| Simple and easy to implement | High average waiting time                  |
-| Suitable for batch systems   | Poor performance for varied burst times    |
-| Fair (no starvation)         | Not suitable for time-sharing environments |
+- Each client request handled by a separate thread.
+- Enables handling thousands of concurrent clients efficiently.
+- Single-threaded servers can only handle one client at a time.
+
+## Benefits of Multithreading
+
+- **Responsiveness:** UI remains active even if part of the process is blocked.
+- **Resource Sharing:** Threads share process resources easily.
+- **Economy:** Creating threads is cheaper than creating processes.
+- **Scalability:** Multiple threads can utilize multiprocessor systems efficiently.
+
+## Multithreading Models
+
+![](figure-10.png)
+
+### 1. Many-to-One
+
+![](figure-11.png)
+
+- Many user threads mapped to one kernel thread.
+- If one thread blocks, all block.
+- No parallelism on multicore systems.
+- **Examples:** Solaris Green Threads, GNU Portable Threads.
+
+### 2. One-to-One
+
+![](figure-12.png)
+
+- Each user thread maps to one kernel thread.
+- Higher concurrency than Many-to-One.
+- Limited number of threads per process due to overhead.
+- **Examples:** Windows, Linux, Solaris 9+.
+
+### 3. Many-to-Many
+
+![](figure-13.png)
+
+- Multiple user threads mapped to multiple kernel threads.
+- OS creates enough kernel threads to handle load.
+- **Examples:** Solaris (pre-v9), Windows ThreadFiber package.
+
+## Thread Cancellation
+
+Terminating a thread before it finishes execution.
+
+**Approaches:**
+
+1. **Asynchronous cancellation:** terminates thread immediately.
+   - Risk: may leave resources unreleased or shared data inconsistent.
+2. **Deferred cancellation:** thread periodically checks for cancellation signals.
+
+## Signal Handling
+
+Used in UNIX systems to notify a process of an event.
+
+**Mechanism:**
+
+- Signal generated by an event.
+- Delivered to a process.
+- Handled by:
+  - **Default handler** (provided by kernel)
+  - **User-defined handler** (overrides default)
+
+**Single-threaded:** signal delivered to process.
+**Multi-threaded:** delivery options include:
+
+- To the specific thread concerned.
+- To every thread in the process.
+- To specific designated threads.
+- To a single thread assigned to handle all signals.
+
+## Difference Between Process and Thread
+
+| Comparison Aspect       | Process                                         | Thread                                            |
+| ----------------------- | ----------------------------------------------- | ------------------------------------------------- |
+| Resource Usage          | Heavyweight, resource-intensive                 | Lightweight, less resource usage                  |
+| Switching               | Requires OS intervention                        | Does not require OS intervention                  |
+| Memory & File Resources | Each has its own memory and files               | Shares memory and open files                      |
+| Blocking Behavior       | One blocked process halts its execution only    | Other threads can continue even if one is blocked |
+| Resource Efficiency     | Uses more resources when multiple processes run | More efficient; uses fewer resources              |
+| Independence            | Operates independently                          | Threads can access and modify each other's data   |

@@ -176,7 +176,7 @@ Here are three prominent open-source cloud tools:
 
 ### Q6: Explain Types of Big Data and Big Data Job Roles
 
-#### **Types of Big Data**
+#### Types of Big Data
 
 - **Structured**:
   - Organized data (e.g., SQL databases).
@@ -188,7 +188,7 @@ Here are three prominent open-source cloud tools:
   - Raw, unorganized data (e.g., videos, text).
   - Example: Social media posts.
 
-#### **Big Data Job Roles**
+#### Big Data Job Roles
 
 - **Data Engineer**: Builds and maintains data pipelines.
 - **Data Analyst**: Interprets data for insights.
@@ -199,21 +199,21 @@ Here are three prominent open-source cloud tools:
 
 ### Q7: Identify the Data Analytics Lifecycle and Problems in Big Data with Advanced Techniques
 
-#### **Data Analytics Lifecycle**
+#### Data Analytics Lifecycle
 
 1. **Data Collection**: Gather data from IoT devices.
 2. **Data Preparation**: Clean and organize data.
 3. **Data Analysis**: Apply statistical or machine learning methods.
 4. **Data Visualization**: Present insights via dashboards.
 
-#### **Problems in Big Data**
+#### Problems in Big Data
 
 - **Volume**: Massive data size.
 - **Velocity**: High data generation speed.
 - **Variety**: Diverse data types.
 - **Veracity**: Data uncertainty or inaccuracy.
 
-#### **Advanced Techniques**
+#### Advanced Techniques
 
 - **Machine Learning**: Predictive models (e.g., regression).
 - **Deep Learning**: Complex pattern recognition (e.g., image analysis).
@@ -239,13 +239,13 @@ Here are three prominent open-source cloud tools:
 
 **Clustering**: Groups similar data points without predefined labels.
 
-#### **Types**
+#### Types
 
 - **Hierarchical**: Builds a tree of clusters (e.g., dendrograms).
 - **Partitioning**: Divides data into k clusters (e.g., k-means).
 - **Density-Based**: Groups based on data density (e.g., DBSCAN).
 
-#### **K-Means Algorithm**
+#### K-Means Algorithm
 
 1. Choose k (number of clusters).
 2. Randomly assign k centroids.

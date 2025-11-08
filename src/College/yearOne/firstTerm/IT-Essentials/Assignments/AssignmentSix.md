@@ -10,7 +10,7 @@ next:
 
 # Task Six
 
-## **Step 1: Open User Account Settings**
+## Step 1: Open User Account Settings
 
 1. **Log in to your Windows 11 system** using an account with administrative privileges.
 
@@ -25,7 +25,7 @@ next:
 
 ---
 
-## **Step 2: Create the "AdminUser" Account with Administrative Rights**
+## Step 2: Create the "AdminUser" Account with Administrative Rights
 
 1. Under the **Other users** section, click **Add account**.
    ![](../imgs/taskSix5.png)
@@ -50,7 +50,7 @@ next:
      ![](../imgs/taskSix12.png)
      ![](../imgs/taskSix13.png)
 
-## **Step 3: Create the "GuestUser" Account with Limited Permissions**
+## Step 3: Create the "GuestUser" Account with Limited Permissions
 
 1. Under **Other users**, click **Add account** again.
    ![](../imgs/taskSix14.png)
@@ -63,7 +63,7 @@ next:
 4. By default, **GuestUser** will be created as a **Standard User**.
    ![](../imgs/taskSix16.png)
 
-## **Summary**
+## Summary
 
 - **AdminUser**: Has full administrative rights—can install applications, manage settings, and access system files.
 - **GuestUser**: A standard user with limited permissions—restricted from installing applications or changing system settings.

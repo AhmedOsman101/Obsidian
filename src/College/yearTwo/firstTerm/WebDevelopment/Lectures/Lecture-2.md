@@ -4,7 +4,7 @@
 
 - The **`<head>`** section contains metadata about the page.
 - The **`<title>`** appears:
-  - On the browser’s top bar.
+  - On the browser's top bar.
   - In bookmarks and favorites lists.
   - As part of search engine indexing.
 
@@ -31,7 +31,7 @@
   - `BB` = blue intensity
 
 - Example:
-  `#00FF00` → green (no red, full green, no blue)
+  `#00FF00` -> green (no red, full green, no blue)
 
 ---
 
@@ -48,15 +48,12 @@
 | Cyan              | `#00FFFF` |
 | Yellow            | `#FFFF00` |
 | Aquamarine        | `#70DB93` |
-| Baker’s Chocolate | `#5C3317` |
+| Baker's Chocolate | `#5C3317` |
 | Violet            | `#9F5F9F` |
 | Brass             | `#B5A642` |
 | Copper            | `#B87333` |
 | Pink              | `#FF6EC7` |
 | Orange            | `#FF7F00` |
-
-> For interactive color selection:
-> [VGDesign’s Interactive Color Cube](http://www.vgdesign.com/color.html)
 
 ---
 
@@ -125,7 +122,7 @@ Example:
 
 ## Text Formatting in HTML
 
-Text formatting requires explicit HTML tags—**WYSIWYG doesn’t apply** directly.
+Text formatting requires explicit HTML tags—**WYSIWYG doesn't apply** directly.
 
 | Tag    | Purpose         |
 | ------ | --------------- |

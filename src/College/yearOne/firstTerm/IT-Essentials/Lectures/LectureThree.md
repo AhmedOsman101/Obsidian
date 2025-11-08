@@ -87,9 +87,9 @@ Binary: `1101`
 
 Example: Convert Decimal `168` to Binary:
 
-- $168 - 128 = 40$ → `1` in `128` position.
-- $40 - 32 = 8$ → `1` in `32` position.
-- $8 - 8 = 0$ → `1` in `8` position.
+- $168 - 128 = 40$ -> `1` in `128` position.
+- $40 - 32 = 8$ -> `1` in `32` position.
+- $8 - 8 = 0$ -> `1` in `8` position.
 
 Binary: `1010 1000`
 
@@ -126,27 +126,27 @@ Hexadecimal: `FF`
 
 1. Convert each octal digit to its 3-digit binary equivalent.
 
-Example: Octal `57` → Binary `101 111`.
+Example: Octal `57` -> Binary `101 111`.
 
 ### Binary to Octal Conversion
 
 1. Group binary digits into sets of three from the right.
 2. Convert each group to its octal equivalent.
 
-Example: Binary `110 101 011` → Octal `653`.
+Example: Binary `110 101 011` -> Octal `653`.
 
 ### Hexadecimal to Binary Conversion
 
 1. Convert each hexadecimal digit to its 4-bit binary equivalent.
 
-Example: Hexadecimal `2A3` → Binary `0010 1010 0011`.
+Example: Hexadecimal `2A3` -> Binary `0010 1010 0011`.
 
 ### Binary to Hexadecimal Conversion
 
 1. Group binary digits into sets of four.
 2. Convert each group to hexadecimal.
 
-Example: Binary `0001 1010 1101` → Hexadecimal `1AD`.
+Example: Binary `0001 1010 1101` -> Hexadecimal `1AD`.
 
 ## Summary
 

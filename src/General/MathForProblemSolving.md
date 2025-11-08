@@ -18,7 +18,7 @@ $$\log_b(x) = y$$
 
 ### Properties of logs:
 
-#### 1. **Product Rule**
+#### 1. Product Rule
 
 $$
 \log_b(x \cdot y) = \log_b(x) + \log_b(y)
@@ -41,7 +41,7 @@ $$
 
 ---
 
-#### 2. **Quotient Rule**
+#### 2. Quotient Rule
 
 $$
 \log_b\left(\frac{x}{y}\right) = \log_b(x) - \log_b(y)
@@ -64,7 +64,7 @@ $$
 
 ---
 
-#### 3. **Power Rule**
+#### 3. Power Rule
 
 $$
 \log_b(x^k) = k \cdot \log_b(x)
@@ -74,7 +74,7 @@ The logarithm of a number raised to an exponent is the exponent times the logari
 
 ---
 
-#### 4. **Change of Base Formula**
+#### 4. Change of Base Formula
 
 $$
 \log_b(x) = \frac{\log_k(x)}{\log_k(b)}
@@ -84,7 +84,7 @@ You can change the base of a logarithm using any positive base $k \neq 1$.
 
 ---
 
-#### 5. **Logarithm of 1**
+#### 5. Logarithm of 1
 
 $$
 \log_b(1) = 0
@@ -94,7 +94,7 @@ The logarithm of 1 to any base is 0.
 
 ---
 
-#### 6. **Logarithm of the Base**
+#### 6. Logarithm of the Base
 
 $$
 \log_b(b) = 1
@@ -104,7 +104,7 @@ The logarithm of a base to itself is 1.
 
 ---
 
-#### 7. **Inverse Property**
+#### 7. Inverse Property
 
 $$
 b^{\log_b(x)} = x
@@ -115,7 +115,7 @@ The base raised to its logarithm cancels out, leaving the argument $x$.
 
 ---
 
-#### 8. **Equality Property**
+#### 8. Equality Property
 
 If:
 $$\log_b(x) = \log_b(y)$$Then:
@@ -123,7 +123,7 @@ $$x = y$$
 
 ---
 
-#### 9. **Logarithmic Identity**
+#### 9. Logarithmic Identity
 
 For natural logarithms and exponential functions:
 
@@ -134,7 +134,7 @@ $$
 
 ---
 
-#### 10. **Base Conversion**
+#### 10. Base Conversion
 
 You can express logarithms in terms of common logarithms ($\log_{10}$) or natural logarithms ($\ln$):
 
@@ -144,7 +144,7 @@ $$
 
 ---
 
-#### 11. **Multiplicative Inverse Property**
+#### 11. Multiplicative Inverse Property
 
 $$
 \log_b\left(\frac{1}{x}\right) = -\log_b(x)

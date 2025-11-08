@@ -3,7 +3,7 @@
 ## What is a Web Site?
 
 A **website** is a collection of related web pages, images, videos, or other digital assets accessible via a **URL** (domain name or IP).
-It’s hosted on at least one **web server**, accessible through the Internet or a local network.
+It's hosted on at least one **web server**, accessible through the Internet or a local network.
 
 ---
 
@@ -18,7 +18,7 @@ It’s hosted on at least one **web server**, accessible through the Internet or
 
 ## Static Pages
 
-- Content served directly from the server’s file system
+- Content served directly from the server's file system
 - Often built using **Server Side Includes (SSI)** or **CGI**
 - Layout managed with **frames** and **tables**
 
@@ -126,7 +126,7 @@ The core language for creating web pages that include **text**, **graphics**, **
 - Tags are **keywords enclosed in angle brackets**.
   Example: `<i>italic</i>`
 - Many tags have both **opening** and **closing** forms.
-- Example: `<b>Warning</b>` → displays **Warning** in bold.
+- Example: `<b>Warning</b>` -> displays **Warning** in bold.
 
 ### Nested Tags
 

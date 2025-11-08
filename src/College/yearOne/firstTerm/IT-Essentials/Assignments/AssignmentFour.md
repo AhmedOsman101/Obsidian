@@ -12,7 +12,7 @@ next:
 
 The OSI (Open Systems Interconnection) model is a conceptual framework used to understand and standardize the functions of a communication system in seven distinct layers. Each layer of the OSI model performs specific functions and uses protocols to enable communication between two devices. Below is a breakdown of the protocols used at each layer and their primary function:
 
-## 1. **Physical Layer (Layer 1)**
+## 1. Physical Layer (Layer 1)
 
 **Protocols/Technologies**:
 
@@ -29,7 +29,7 @@ The Physical Layer is responsible for transmitting raw bits (0s and 1s) over a p
 **Contribution to Data Communication**:
 This layer ensures that data is physically transmitted over the appropriate medium. It handles aspects like voltage levels, timing of signal transmission, and the physical characteristics of cables or wireless signals.
 
-## 2. **Data Link Layer (Layer 2)**
+## 2. Data Link Layer (Layer 2)
 
 **Protocols/Technologies**:
 
@@ -45,7 +45,7 @@ The Data Link Layer is responsible for reliable point-to-point communication bet
 **Contribution to Data Communication**:
 This layer prepares data for transmission by adding headers (containing MAC addresses) and ensuring that any errors during transmission are detected and handled. It also manages access to the physical medium (e.g., through MAC protocols like CSMA/CD for Ethernet).
 
-## 3. **Network Layer (Layer 3)**
+## 3. Network Layer (Layer 3)
 
 **Protocols/Technologies**:
 
@@ -60,7 +60,7 @@ The Network Layer is responsible for routing packets across networks and ensurin
 **Contribution to Data Communication**:
 This layer routes packets based on IP addresses, ensuring that data can reach devices across different subnets and networks. It also manages fragmentation and reassembly of large packets to fit into smaller frames for transmission.
 
-## 4. **Transport Layer (Layer 4)**
+## 4. Transport Layer (Layer 4)
 
 **Protocols/Technologies**:
 
@@ -76,7 +76,7 @@ The Transport Layer is responsible for end-to-end communication, ensuring that d
 - **TCP** ensures reliable, ordered, and error-checked delivery of data (e.g., web traffic, email).
 - **UDP** provides a faster but unreliable transmission (e.g., video streaming, DNS queries). The Transport Layer breaks down data into smaller segments for transmission and reassembles them at the destination.
 
-## 5. **Session Layer (Layer 5)**
+## 5. Session Layer (Layer 5)
 
 **Protocols/Technologies**:
 
@@ -91,7 +91,7 @@ The Session Layer manages sessions or connections between applications. It is re
 **Contribution to Data Communication**:
 This layer ensures that sessions between applications are maintained, allowing continuous data exchanges during communication. It provides services like session recovery and checkpointing, allowing applications to resume if a session is interrupted.
 
-## 6. **Presentation Layer (Layer 6)**
+## 6. Presentation Layer (Layer 6)
 
 **Protocols/Technologies**:
 
@@ -106,7 +106,7 @@ The Presentation Layer is responsible for translating data between the applicati
 **Contribution to Data Communication**:
 This layer translates the data into a standard format (such as ASCII or JPEG) and encrypts or compresses data to ensure secure and efficient transmission. It ensures that the data sent from the application is in a compatible form for the receiver.
 
-## 7. **Application Layer (Layer 7)**
+## 7. Application Layer (Layer 7)
 
 **Protocols/Technologies**:
 

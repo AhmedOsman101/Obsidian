@@ -43,7 +43,7 @@
 ## Line Breaks (`<br>`)
 
 - `<br>` creates a single line break.
-- It’s an **empty tag** (no closing tag).
+- It's an **empty tag** (no closing tag).
 - Useful for forcing breaks within a paragraph.
 
 ### Example
@@ -136,7 +136,7 @@ Enhances page readability and appearance.
 
 - Makes text blink: `<blink>Text</blink>`
 - **Not supported** in most modern browsers.
-- Avoid using — it’s distracting and non-standard.
+- Avoid using — it's distracting and non-standard.
 
 ---
 

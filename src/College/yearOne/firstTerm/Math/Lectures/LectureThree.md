@@ -34,7 +34,7 @@ This determinant equation gives a polynomial in $\lambda$, called the **characte
 
 ---
 
-### **Example for a $2 \times 2$ Matrix:**
+### Example for a $2 \times 2$ Matrix:
 
 Let:
 
@@ -91,7 +91,7 @@ The eigenvalues are found by solving this quadratic equation.
 
 ---
 
-### **Example for a $3 \times 3$ Matrix:**
+### Example for a $3 \times 3$ Matrix:
 
 Let:
 
@@ -119,7 +119,7 @@ The Cayley-Hamilton theorem states that **every square matrix satisfies its own 
 
 ---
 
-### **For $2 \times 2$ Matrices:**
+### For $2 \times 2$ Matrices:
 
 The characteristic polynomial is:
 
@@ -136,7 +136,7 @@ Eigenvalues can be computed directly from the quadratic equation.
 
 ---
 
-### **For $3 \times 3$ Matrices:**
+### For $3 \times 3$ Matrices:
 
 For the matrix $A$:
 
@@ -169,7 +169,7 @@ Eigenvalues are obtained by solving the cubic characteristic equation.
 
 ## Examples:
 
-### **Example 1: Determinant Method for a $2 \times 2$ Matrix**
+### Example 1: Determinant Method for a $2 \times 2$ Matrix
 
 Let:
 
@@ -180,7 +180,7 @@ A = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-#### **Step 1: Write $A - \lambda I$:**
+#### Step 1: Write $A - \lambda I$:
 
 $$
 A - \lambda I = \begin{bmatrix}
@@ -189,7 +189,7 @@ A - \lambda I = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-#### **Step 2: Compute the determinant:**
+#### Step 2: Compute the determinant:
 
 $$
 |A - \lambda I| = \begin{vmatrix}
@@ -206,7 +206,7 @@ $$
 |A - \lambda I| = \lambda^2 - 7 \lambda + 12 - 2 = \lambda^2 - 7 \lambda + 10
 $$
 
-#### **Step 3: Solve for $\lambda$:**
+#### Step 3: Solve for $\lambda$:
 
 $$
 \lambda^2 - 7 \lambda + 10 = 0
@@ -224,7 +224,7 @@ $$
 \lambda_1 = 2, \quad \lambda_2 = 5
 $$
 
-## **Example 2: Cayley-Hamilton Method for a $2 \times 2$ Matrix**
+## Example 2: Cayley-Hamilton Method for a $2 \times 2$ Matrix
 
 Let:
 
@@ -235,7 +235,7 @@ A = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-#### **Step 1: Characteristic Polynomial:**
+#### Step 1: Characteristic Polynomial:
 
 $$
 \lambda^2 - S_1 \lambda + S_2 = 0
@@ -253,13 +253,13 @@ $$
 \lambda^2 - 7 \lambda + 10 = 0
 $$
 
-#### **Step 2: Use Polynomial to Solve for Eigenvalues:**
+#### Step 2: Use Polynomial to Solve for Eigenvalues:
 
 Substituting $\lambda = 2$ and $\lambda = 5$ satisfies the equation.
 
 ---
 
-### **Example 3: Determinant Method for a $3 \times 3$ Matrix**
+### Example 3: Determinant Method for a $3 \times 3$ Matrix
 
 Let:
 
@@ -271,7 +271,7 @@ A = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-#### **Step 1: Write $A - \lambda I$:**
+#### Step 1: Write $A - \lambda I$:
 
 $$
 A - \lambda I = \begin{bmatrix}
@@ -281,7 +281,7 @@ A - \lambda I = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-#### **Step 2: Compute the determinant:**
+#### Step 2: Compute the determinant:
 
 $$
 |A - \lambda I| = \begin{vmatrix}
@@ -351,7 +351,7 @@ $$
 = - \lambda^3 + 16 \lambda^2 - 81 \lambda + 126
 $$
 
-#### **Step 3: Solve for $\lambda$:**
+#### Step 3: Solve for $\lambda$:
 
 Solve the cubic $- \lambda^3 + 16 \lambda^2 - 81 \lambda + 126 = 0$ to find the eigenvalues (`mode` + `5` + `4` on calculator):
 
@@ -361,7 +361,7 @@ $$
 
 ---
 
-### **Example 4: Cayley-Hamilton Method for a $3 \times 3$ Matrix**
+### Example 4: Cayley-Hamilton Method for a $3 \times 3$ Matrix
 
 Let:
 
@@ -373,7 +373,7 @@ A = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-#### **Step 1: Characteristic Polynomial:**
+#### Step 1: Characteristic Polynomial:
 
 $$
 \lambda^3 - S_1 \lambda^2 + S_2 \lambda - S_3 = 0
@@ -408,7 +408,7 @@ $$
 \lambda^3 - 16 \lambda^2 + 81 \lambda - 126 = 0
 $$
 
-#### **Step 2: Solve for Eigenvalues:**
+#### Step 2: Solve for Eigenvalues:
 
 Solve the cubic $\lambda^3 - 16 \lambda^2 + 81 \lambda - 126 = 0$ to find the eigenvalues (`mode` + `5` + `4` on calculator):
 

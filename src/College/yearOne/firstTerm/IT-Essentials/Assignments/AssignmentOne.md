@@ -12,7 +12,7 @@ next:
 
 ## Suggested PC Build
 
-### 1. **Processor (CPU)**: **AMD Ryzen 5 5600X**
+### 1. Processor (CPU): AMD Ryzen 5 5600X
 
 - **Description**: The Ryzen 5 5600X is a 6-core, 12-thread processor known for its high performance in gaming and light content creation, making it ideal for most users without overspending.
 - **Specifications**:
@@ -24,7 +24,7 @@ next:
 
 ---
 
-### 2. **Graphics Card (GPU)**: **NVIDIA GeForce RTX 3060**
+### 2. Graphics Card (GPU): NVIDIA GeForce RTX 3060
 
 - **Description**: The RTX 3060 balances excellent gaming performance with support for ray tracing and DLSS, which enhance graphical detail and frame rates.
 - **Specifications**:
@@ -36,7 +36,7 @@ next:
 
 ---
 
-### 3. **Motherboard**: **MSI B450 Tomahawk Max**
+### 3. Motherboard: MSI B450 Tomahawk Max
 
 - **Description**: A robust B450 motherboard that offers stability and multiple connectivity options. It supports Ryzen CPUs and fast RAM for gaming performance.
 - **Specifications**:
@@ -48,7 +48,7 @@ next:
 
 ---
 
-### 4. **Memory (RAM)**: **Corsair Vengeance LPX 16GB (2x8GB) DDR4-3200**
+### 4. Memory (RAM): Corsair Vengeance LPX 16GB (2x8GB) DDR4-3200
 
 - **Description**: A dual-channel 16GB RAM kit optimized for gaming and multi-tasking. The 3200 MHz speed complements the Ryzen CPU.
 - **Specifications**:
@@ -60,7 +60,7 @@ next:
 
 ---
 
-### 5. **Storage**: **Crucial P3 1TB NVMe SSD**
+### 5. Storage: Crucial P3 1TB NVMe SSD
 
 - **Description**: A high-speed NVMe SSD that offers ample space and rapid read/write speeds for quick load times.
 - **Specifications**:
@@ -72,7 +72,7 @@ next:
 
 ---
 
-### 6. **Power Supply Unit (PSU)**: **EVGA 600 W1, 80+ White 600W**
+### 6. Power Supply Unit (PSU): EVGA 600 W1, 80+ White 600W
 
 - **Description**: A 600W PSU with an 80+ White efficiency rating, providing stable power delivery for all components.
 - **Specifications**:
@@ -84,7 +84,7 @@ next:
 
 ---
 
-### 7. **Case (Chassis)**: **NZXT H510**
+### 7. Case (Chassis): NZXT H510
 
 - **Description**: A mid-tower case with efficient airflow, a minimalist design, and two pre-installed fans.
 - **Specifications**:
@@ -96,7 +96,7 @@ next:
 
 ---
 
-### 8. **Cooling System**: **Cooler Master Hyper 212**
+### 8. Cooling System: Cooler Master Hyper 212
 
 - **Description**: An efficient air cooler that improves thermal performance compared to the stock cooler.
 - **Specifications**:
@@ -108,7 +108,7 @@ next:
 
 ---
 
-### 9. **Operating System (OS)**: **Windows 11 Pro**
+### 9. Operating System (OS): Windows 11 Pro
 
 - **Description**: Windows 11 Pro is the latest version of Microsoft's operating system, designed for performance, security, and compatibility with modern hardware. It offers an intuitive interface, optimized gaming features, and support for a wide range of productivity applications.
 - **Specifications**:
@@ -120,7 +120,7 @@ next:
 
 ---
 
-### **Assembly Steps**
+### Assembly Steps
 
 1. **Prepare the Case**: Open the case and organize screws/accessories.
 2. **Install the CPU**: Open the CPU socket latch, align the CPU, and slot it in carefully.
@@ -135,7 +135,7 @@ next:
 
 ---
 
-### **Total Estimated Cost**: **$700 - $800 (34,000 - 39,000 L.E)**
+### Total Estimated Cost: $700 - $800 (34,000 - 39,000 L.E)
 
 ---
 

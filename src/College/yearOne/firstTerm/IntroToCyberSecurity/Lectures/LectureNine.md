@@ -152,16 +152,16 @@ Also known as public-key cryptography, asymmetric encryption employs a pair of k
 
 1. Write the plaintext: **HELLO**.
 2. Apply the shift of 3 to each letter:
-   - H → K
-   - E → H
-   - L → O
-   - L → O
-   - O → R
+   - H -> K
+   - E -> H
+   - L -> O
+   - L -> O
+   - O -> R
 3. Result: **KHOOR**.
 
 ##### Decryption
 
-- Reverse the shift (3 positions back): **KHOOR → HELLO**.
+- Reverse the shift (3 positions back): **KHOOR -> HELLO**.
 
 ---
 

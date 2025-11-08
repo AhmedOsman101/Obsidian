@@ -196,32 +196,14 @@ Lists can be **nested** by placing one list inside another `<li>`.
 
 ---
 
-### Output (Simplified View)
-
-<center><b>Safety Tips for Canoeists </b> </center>
-
-
-b. Be able to swim
-c. Wear a life jacket at all times
-d. Don’t stand up or move around. If canoe tips:
-		- Hang on to the canoe
-		- Use the canoe for support
-		  Ⅳ. Be careful
-		  Ⅴ. Do not look around
-		- Swim to shore
-e. Don’t overexert yourself
-f. Use a bow light at night
-
----
-
 ### Summary of Key Points
 
-- `<ol>` → Ordered list (numbered)
-- `<ul>` → Unordered list (bulleted)
-- `<dl>` → Definition list (term and description)
-- `<li>` → List item
-- `<dt>` → Definition term
-- `<dd>` → Definition description
-- `type` → Controls bullet/number style
-- `start` → Controls starting number
+- `<ol>` -> Ordered list (numbered)
+- `<ul>` -> Unordered list (bulleted)
+- `<dl>` -> Definition list (term and description)
+- `<li>` -> List item
+- `<dt>` -> Definition term
+- `<dd>` -> Definition description
+- `type` -> Controls bullet/number style
+- `start` -> Controls starting number
 - Lists can be **nested** for structured information.

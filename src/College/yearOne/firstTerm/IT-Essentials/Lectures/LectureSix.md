@@ -108,7 +108,7 @@ Encapsulation involves wrapping data with protocol-specific headers and footers 
 
 ### TCP vs. UDP Protocols
 
-#### **TCP (Transmission Control Protocol)**
+#### TCP (Transmission Control Protocol)
 
 - **Features**:
   - Reliable, ensures data integrity.
@@ -116,7 +116,7 @@ Encapsulation involves wrapping data with protocol-specific headers and footers 
   - Resends unacknowledged data.
   - Maintains data sequencing.
 
-#### **UDP (User Datagram Protocol)**
+#### UDP (User Datagram Protocol)
 
 - **Features**:
   - Unreliable, best-effort delivery.

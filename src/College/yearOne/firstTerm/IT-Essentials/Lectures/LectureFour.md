@@ -18,7 +18,7 @@ next:
 2. **Binary Subtraction**: Binary subtraction involves borrowing, similar to decimal subtraction.
 3. **Binary Multiplication**: Binary multiplication is performed similar to decimal multiplication, shifting left as necessary.
 
-### 1. **Binary Addition**
+### 1. Binary Addition
 
 Binary addition works similarly to decimal addition, but only uses the digits 0 and 1. The key difference is that whenever a sum reaches 2, it "carries" a 1 to the next higher place (just as decimal addition carries at 10).
 
@@ -46,7 +46,7 @@ Steps:
 - Leftmost column: $1 + 1 = 1$ (no further carry needed)
 - Result: $11000$
 
-### 2. **Binary Subtraction**
+### 2. Binary Subtraction
 
 Binary subtraction works like decimal subtraction, but here we borrow only when subtracting 1 from 0. Borrowing in binary is simpler because any borrowed 1 turns the 0 into 10 in binary (the equivalent of 2 in decimal), making subtraction possible.
 
@@ -74,7 +74,7 @@ Steps:
 - Leftmost column: $1 - 1 = 0$
 - Result: $0010$
 
-### 3. **Binary Multiplication**
+### 3. Binary Multiplication
 
 Binary multiplication is similar to decimal multiplication, where we multiply and shift. Since binary has only two possible digits, multiplication is simplified to two cases:
 
@@ -108,7 +108,7 @@ Steps:
 - **Definition**: In BCD, each decimal digit (0–9) is represented using a 4-bit binary sequence.
 - **Example**: Converting the decimal number 27 to BCD:
   - **Step 1**: Separate the digits: 2 and 7.
-  - **Step 2**: Convert each digit to BCD: 2 → 0010, 7 → 0111.
+  - **Step 2**: Convert each digit to BCD: 2 -> 0010, 7 -> 0111.
   - **Result**: BCD representation of 27 is 0010 0111.
 
 #### Solving Problems on BCD
@@ -136,9 +136,9 @@ Steps:
 
 - **Example (Text to Binary)**:
   - **Step 1**: Convert characters in "computer" to ASCII values:
-    - c → 99, o → 111, m → 109, p → 112, u → 117, t → 116, e → 101, r → 114.
+    - c -> 99, o -> 111, m -> 109, p -> 112, u -> 117, t -> 116, e -> 101, r -> 114.
   - **Step 2**: Convert ASCII values to binary (8-bit representation):
-    - c → 01100011, o → 01101111, etc.
+    - c -> 01100011, o -> 01101111, etc.
   - **Step 3**: Combine to get the binary representation of "computer".
 
 - **Example (Binary to Text)**:

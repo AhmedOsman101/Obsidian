@@ -38,11 +38,11 @@ A **computer** can be defined as:
 - **Smartwatches**
 - **IoT devices**
 
-### **Basic Personal Computer System**
+### Basic Personal Computer System
 
 - A **computer system** consists of **hardware** and **software** components.
 
-#### **Hardware:**
+#### Hardware:
 
 - The **physical equipment** of a computer system, including:
   - Case
@@ -53,7 +53,7 @@ A **computer** can be defined as:
   - Speakers
   - Printers
 
-#### **Software:**
+#### Software:
 
 - The **operating system** and **programs**:
   - The **operating system** instructs the computer on how to operate.

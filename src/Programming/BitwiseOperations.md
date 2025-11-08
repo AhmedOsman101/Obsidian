@@ -6,7 +6,7 @@ next: false
 
 # Bitwise Operations
 
-## **1. Checking if a Number is Even**
+## 1. Checking if a Number is Even
 
 The function `isEven` checks whether a number `n` is even using a bitwise AND
 operation:
@@ -54,7 +54,7 @@ console.log(isEven(5)); // false (5 is odd)
 
 ---
 
-## **2. Checking if a Number is a Power of Two**
+## 2. Checking if a Number is a Power of Two
 
 The function `isPowerOfTwo` checks whether a number `x` is a power of two using
 bitwise operations:
@@ -105,7 +105,7 @@ console.log(isPowerOfTwo(0)); // false (0 is not a power of two)
 
 ---
 
-## **3. Accessing and Manipulating the $n^{th}$ Bit**
+## 3. Accessing and Manipulating the $n^{th}$ Bit
 
 ### Accessing the $n^{th}$ Bit
 
@@ -209,7 +209,7 @@ console.log(unsetBit(x, 3).toString(2)); // Output: 1010 (no change, bit already
 
 ---
 
-## **4. Calculating the Bit Length of a Number**
+## 4. Calculating the Bit Length of a Number
 
 The function `bitLen` calculates the number of bits required to represent a
 number `n` in binary. Here's how it works:
@@ -268,7 +268,7 @@ The function returns `4`, which is the correct number of bits for `10` (binary
 
 ---
 
-## **5. Multiplying a Number by $2^n$ Using Left Shifts**
+## 5. Multiplying a Number by $2^n$ Using Left Shifts
 
 The operation of multiplying a number `x` by $2^n$ can be efficiently performed
 using a **left shift** (`<<`):
@@ -303,7 +303,7 @@ console.log(multiplyByPowerOfTwo(10, 2)); // 40 (10 * 2^2)
 
 ---
 
-## **6. Dividing a Number by $2^n$ Using Right Shifts**
+## 6. Dividing a Number by $2^n$ Using Right Shifts
 
 The operation of dividing a number `x` by $2^n$ can be efficiently performed
 using a **right shift** (`>>`):
@@ -368,7 +368,7 @@ console.log(divideByPowerOfTwo(10, 1)); // 5 (10 / 2^1)
 
 ---
 
-## **7. Finding the Unique Number in an Array Using XOR**
+## 7. Finding the Unique Number in an Array Using XOR
 
 The following function `getUnique` finds the unique number in an array of
 numbers where every number except one appears twice. This is achieved using the

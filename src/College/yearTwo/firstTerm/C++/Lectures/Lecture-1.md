@@ -1,4 +1,4 @@
-# Lecture 1: Programming Essentials to C++
+# Lecture 1: Introduction to programming
 
 ## What Is Programming?
 
@@ -172,4 +172,3 @@ END
 - Algorithms provide structured solutions.
 - Pseudocode and flowcharts help design algorithms before implementation.
 - Key control structures: **Sequence**, **Decision**, and **Repetition**.
-

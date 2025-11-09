@@ -855,6 +855,7 @@ Preemption
 Poor
 Podcasting
 Personalized
+Pseudocode
 IHDR
 IDATx
 IO
@@ -2757,6 +2758,7 @@ ppqs
 parity
 punches
 preemptive
+pseudocode
 sbf
 sPv
 sC
@@ -3879,6 +3881,8 @@ suffers
 starvation
 sorting
 seat
+solves
+strict
 ff
 fP
 fj
@@ -8165,6 +8169,7 @@ Metric
 Maximize
 Multilevel
 Markup
+Modifications
 Lj
 Lf
 LvVa
@@ -8968,6 +8973,7 @@ LlS
 Loads
 Loosely
 Leads
+Looping
 al
 aj
 ar
@@ -9976,6 +9982,10 @@ ascii
 annual
 allocates
 arrive
+alternatives
+algorithmic
+analysts
+annotations
 Te
 Tn
 TA
@@ -10777,6 +10787,8 @@ Turnaround
 Times
 Tagging
 Tag
+Translate
+Terminator
 uj
 uq
 uXm
@@ -11482,6 +11494,7 @@ uyw
 uujZ
 uoL
 urgent
+universally
 OB
 Ox
 ONynT
@@ -12847,6 +12860,7 @@ URL
 Uze
 UHa
 UPx
+Unambiguous
 ra
 rO
 rV
@@ -13716,6 +13730,9 @@ rend
 reversal
 releases
 reasoning
+resemble
+redrawing
+reproduction
 eiO
 es
 ee
@@ -15375,6 +15392,7 @@ Goals
 Gigabyte
 Gregorian
 Gantt
+Generality
 Ex
 EZR
 EG
@@ -16233,6 +16251,8 @@ EQVo
 Ena
 Exercise
 Entertainment
+Executed
+Excessive
 Sal
 SQ
 SB
@@ -17227,6 +17247,9 @@ Site
 SSI
 Smarter
 SEO
+Stages
+Sequential
+Shape
 iH
 ic
 iP
@@ -18107,6 +18130,7 @@ iostream
 isPalindrome
 income
 infer
+incoming
 tWA
 tW
 tM
@@ -23101,6 +23125,7 @@ Nqx
 NmY
 NffQ
 Nginx
+Neat
 lqQvz
 ln
 lN
@@ -23795,6 +23820,8 @@ locale
 len
 lengths
 leap
+lengthy
+lecture
 Rc
 Rt
 RO
@@ -26802,6 +26829,9 @@ Drivers
 Disks
 Dispatcher
 Dispatch
+Desired
+Documentation
+Denotes
 ohQ
 oL
 ob
@@ -28339,6 +28369,8 @@ maxlength
 multiplexed
 multiprogramming
 multiprogrammed
+meaningful
+memorize
 Ck
 CS
 Cm
@@ -31337,6 +31369,11 @@ convoy
 centered
 collectively
 caters
+creativity
+completing
+clarify
+crossings
+cumbersome
 Hu
 Hg
 HiL
@@ -32109,6 +32146,7 @@ Hex
 HBPP
 HpL
 HyperText
+Hexagon
 hh
 hLR
 hI
@@ -34196,6 +34234,7 @@ gOe
 gwi
 gNs
 gzs
+grasp
 KUYX
 KX
 KK
@@ -37454,6 +37493,7 @@ diffString
 days
 dollars
 dispatcher
+distract
 AK
 AQ
 Aya
@@ -38559,6 +38599,10 @@ Authenticates
 Arrival
 AJAX
 Artificial
+Applicable
+Assist
+Aid
+Arrow
 Jw
 Jg
 JT
@@ -39804,6 +39848,7 @@ Qld
 QNg
 QMc
 Queue
+Qualities
 WliB
 WWO
 WRY
@@ -40420,6 +40465,9 @@ WCg
 WRG
 Waiting
 Warning
+Well
+Writing
+Welcome
 Ötl
 ÖC
 Öm

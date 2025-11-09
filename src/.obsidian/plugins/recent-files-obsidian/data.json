@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Lecture-3",
+      "path": "College/yearTwo/firstTerm/C++/Lectures/Lecture-3.md"
+    },
+    {
+      "basename": "Lecture-2",
+      "path": "College/yearTwo/firstTerm/C++/Lectures/Lecture-2.md"
+    },
+    {
       "basename": "Lecture-1",
       "path": "College/yearTwo/firstTerm/C++/Lectures/Lecture-1.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "AssignmentFive",
       "path": "College/IT-Essentials/Assignments/AssignmentFive.md"
-    },
-    {
-      "basename": "AssignmentFour",
-      "path": "College/IT-Essentials/Assignments/AssignmentFour.md"
-    },
-    {
-      "basename": "AssignmentTwo",
-      "path": "College/IT-Essentials/Assignments/AssignmentTwo.md"
     }
   ],
   "omittedPaths": [],

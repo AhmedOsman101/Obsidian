@@ -856,6 +856,11 @@ Poor
 Podcasting
 Personalized
 Pseudocode
+Perimeter
+Prefer
+Processed
+Prints
+Path
 IHDR
 IDATx
 IO
@@ -1747,6 +1752,7 @@ Interrupts
 Implemented
 Intelligence
 Intranet
+Inception
 pHYs
 pt
 pu
@@ -2759,6 +2765,10 @@ parity
 punches
 preemptive
 pseudocode
+phrases
+pwd
+parent
+prefix
 sbf
 sPv
 sC
@@ -3883,6 +3893,10 @@ sorting
 seat
 solves
 strict
+supercomputers
+scripts
+shebang
+subdirectory
 ff
 fP
 fj
@@ -4745,6 +4759,9 @@ formulas
 favor
 fair
 favorites
+freely
+filesystem
+filenames
 yq
 yh
 yS
@@ -6498,6 +6515,7 @@ wwq
 wBi
 waits
 waiting
+wanted
 BU
 Bh
 BC
@@ -7318,6 +7336,7 @@ BNXtu
 Bbb
 Burst
 Blogging
+Backed
 MC
 Ml
 MW
@@ -8170,6 +8189,7 @@ Maximize
 Multilevel
 Markup
 Modifications
+Multiprogramming
 Lj
 Lf
 LvVa
@@ -8974,6 +8994,11 @@ Loads
 Loosely
 Leads
 Looping
+Linus
+License
+Licensing
+Licensed
+Last
 al
 aj
 ar
@@ -9986,6 +10011,7 @@ alternatives
 algorithmic
 analysts
 annotations
+alike
 Te
 Tn
 TA
@@ -10789,6 +10815,8 @@ Tagging
 Tag
 Translate
 Terminator
+Translating
+Torvalds
 uj
 uq
 uXm
@@ -11495,6 +11523,7 @@ uujZ
 uoL
 urgent
 universally
+unshareable
 OB
 Ox
 ONynT
@@ -12181,6 +12210,8 @@ OkE
 OxyK
 Observation
 OWL
+Overload
+Owner
 Uc
 Ue
 UXk
@@ -12861,6 +12892,7 @@ Uze
 UHa
 UPx
 Unambiguous
+Utilities
 ra
 rO
 rV
@@ -13733,6 +13765,8 @@ reasoning
 resemble
 redrawing
 reproduction
+reproduce
+redistribute
 eiO
 es
 ee
@@ -14681,6 +14715,8 @@ editable
 eVB
 excessive
 era
+everyone
+executables
 GO
 GQ
 Gk
@@ -15393,6 +15429,11 @@ Gigabyte
 Gregorian
 Gantt
 Generality
+GPL
+GNOME
+Gentoo
+Games
+GRUB
 Ex
 EZR
 EG
@@ -16253,6 +16294,10 @@ Exercise
 Entertainment
 Executed
 Excessive
+Experience
+EXAMPLES
+Exit
+Excludes
 Sal
 SQ
 SB
@@ -17250,6 +17295,11 @@ SEO
 Stages
 Sequential
 Shape
+Superior
+Stability
+Scripts
+SYNOPSIS
+Sizes
 iH
 ic
 iP
@@ -18131,6 +18181,7 @@ isPalindrome
 income
 infer
 incoming
+inode
 tWA
 tW
 tM
@@ -20503,6 +20554,8 @@ FCFS
 Formulas
 Fair
 FTTP
+Fields
+Forces
 xi
 xpF
 xwG
@@ -22393,6 +22446,7 @@ bool
 burst
 bookmarking
 bookmarks
+bootloader
 Nb
 NJu
 Nbsa
@@ -23126,6 +23180,7 @@ NmY
 NffQ
 Nginx
 Neat
+NAME
 lqQvz
 ln
 lN
@@ -23822,6 +23877,7 @@ lengths
 leap
 lengthy
 lecture
+losing
 Rc
 Rt
 RO
@@ -24708,6 +24764,10 @@ Rigid
 Round
 Robin
 Remaining
+Resistant
+Rarely
+Recursively
+Renaming
 Zt
 ZB
 Zb
@@ -26832,6 +26892,10 @@ Dispatch
 Desired
 Documentation
 Denotes
+Documenting
+Developer
+DESCRIPTION
+Deletion
 ohQ
 oL
 ob
@@ -27531,6 +27595,11 @@ oxb
 overflow
 optimization
 ontologies
+obscure
+omit
+ownership
+omits
+overwriting
 mipte
 mRT
 mX
@@ -28371,6 +28440,8 @@ multiprogramming
 multiprogrammed
 meaningful
 memorize
+mainframes
+manuals
 Ck
 CS
 Cm
@@ -29451,6 +29522,11 @@ Chart
 Commercial
 Curating
 Collaborative
+Coding
+Correction
+Copying
+Coordinates
+Customizability
 vb
 vO
 vvF
@@ -31374,6 +31450,12 @@ completing
 clarify
 crossings
 cumbersome
+convertible
+cater
+concurrent
+communities
+conditionals
+confirmation
 Hu
 Hg
 HiL
@@ -32895,6 +32977,7 @@ hVm
 hFHc
 htm
 html
+hierarchy
 Xi
 XZ
 Xn
@@ -34879,6 +34962,7 @@ KKKjf
 KKKKSS
 KHHHOO
 Kilobyte
+KDE
 zC
 zl
 zk
@@ -35911,6 +35995,7 @@ Ybia
 Ytg
 Yottabyte
 YYYY
+Yocto
 VLt
 Vfa
 Vr
@@ -36550,6 +36635,7 @@ Visually
 VpT
 VAO
 VXYZ
+Verbose
 dk
 dR
 dV
@@ -37494,6 +37580,11 @@ days
 dollars
 dispatcher
 distract
+dominated
+developer
+distros
+declined
+dev
 AK
 AQ
 Aya
@@ -38603,6 +38694,9 @@ Applicable
 Assist
 Aid
 Arrow
+Aids
+Absolute
+Asks
 Jw
 Jg
 JT

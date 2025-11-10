@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "awk",
+      "path": "Programming/LinuxNotes/awk.md"
+    },
+    {
+      "basename": "fzf",
+      "path": "Programming/LinuxNotes/fzf.md"
+    },
+    {
+      "basename": "index",
+      "path": "General/index.md"
+    },
+    {
+      "basename": "MathForProblemSolving",
+      "path": "General/MathForProblemSolving.md"
+    },
+    {
+      "basename": "LinuxCrashCourse",
+      "path": "Courses/LinuxCrashCourse.md"
+    },
+    {
+      "basename": "index",
+      "path": "Programming/index.md"
+    },
+    {
+      "basename": "Lecture-2",
+      "path": "College/yearTwo/firstTerm/Linux/Lectures/Lecture-2.md"
+    },
+    {
+      "basename": "Lecture-3",
+      "path": "College/yearTwo/firstTerm/Linux/Lectures/Lecture-3.md"
+    },
+    {
+      "basename": "Lecture-1",
+      "path": "College/yearTwo/firstTerm/Linux/Lectures/Lecture-1.md"
+    },
+    {
       "basename": "Lecture-3",
       "path": "College/yearTwo/firstTerm/C++/Lectures/Lecture-3.md"
     },
@@ -163,42 +199,6 @@
     {
       "basename": "LectureThree",
       "path": "College/yearOne/secondTerm/C-Essentials/Lectures/LectureThree.md"
-    },
-    {
-      "basename": "LectureThree",
-      "path": "College/yearOne/firstTerm/Python/Lectures/LectureThree.md"
-    },
-    {
-      "basename": "index",
-      "path": "College/IT-Essentials/index.md"
-    },
-    {
-      "basename": "index",
-      "path": "College/IT-Essentials/Assignments/index.md"
-    },
-    {
-      "basename": "draft",
-      "path": "College/draft.md"
-    },
-    {
-      "basename": "image",
-      "path": "image.png"
-    },
-    {
-      "basename": "image-1",
-      "path": "image-1.png"
-    },
-    {
-      "basename": "image-2",
-      "path": "image-2.png"
-    },
-    {
-      "basename": "AssignmentSix",
-      "path": "College/IT-Essentials/Assignments/AssignmentSix.md"
-    },
-    {
-      "basename": "AssignmentFive",
-      "path": "College/IT-Essentials/Assignments/AssignmentFive.md"
     }
   ],
   "omittedPaths": [],

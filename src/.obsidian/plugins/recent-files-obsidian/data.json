@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Lecture-4",
+      "path": "College/yearTwo/firstTerm/DB/Lectures/Lecture-4.md"
+    },
+    {
+      "basename": "Lecture-3",
+      "path": "College/yearTwo/firstTerm/DB/Lectures/Lecture-3.md"
+    },
+    {
+      "basename": "Lecture-2",
+      "path": "College/yearTwo/firstTerm/DB/Lectures/Lecture-2.md"
+    },
+    {
       "basename": "awk",
       "path": "Programming/LinuxNotes/awk.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "index",
       "path": "College/yearOne/firstTerm/Math/Models/index.md"
-    },
-    {
-      "basename": "draft",
-      "path": "College/yearOne/secondTerm/C-Essentials/Lectures/draft.md"
-    },
-    {
-      "basename": "draft-2",
-      "path": "College/yearOne/secondTerm/C-Essentials/Lectures/draft-2.md"
-    },
-    {
-      "basename": "LectureThree",
-      "path": "College/yearOne/secondTerm/C-Essentials/Lectures/LectureThree.md"
     }
   ],
   "omittedPaths": [],

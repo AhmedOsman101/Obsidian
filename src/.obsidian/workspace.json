@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/LinuxNotes/awk.md",
+                "file": "College/yearTwo/firstTerm/DB/Lectures/Lecture-4.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "awk"
+              "title": "Lecture-4"
             }
           }
         ]
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5,
-    "collapsed": true
+    "width": 302.5
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -189,19 +188,25 @@
   },
   "active": "9714412f18f704b5",
   "lastOpenFiles": [
-    "College/yearTwo/firstTerm/Linux/Lectures/sedJZIU5B",
-    "College/yearTwo/firstTerm/Linux/Lectures/sedRrZztj",
-    "College/yearTwo/firstTerm/Linux/Lectures/sed68CS8n",
-    "College/yearTwo/firstTerm/Linux/Lectures/sedloBOzF",
-    "College/yearTwo/firstTerm/Linux/Lectures/sediyEFxL",
-    "College/yearTwo/firstTerm/Linux/Lectures/sedjfiPAg",
-    "College/yearTwo/firstTerm/Linux/Lectures/sedWxt35l",
-    "College/yearTwo/firstTerm/Linux/Lectures/seddHvyzb",
-    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-5.mdCc4s3z.bck",
-    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-5.md5EKtkf.bck",
-    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-5.md0YClok.bck",
-    "Programming/LinuxNotes/fzf.md",
+    "College/yearTwo/firstTerm/DB/Lectures/sedkiAxE9",
+    "College/yearTwo/firstTerm/DB/Lectures/sedJU5YFx",
+    "College/yearTwo/firstTerm/DB/Lectures/sedYzSPD7",
+    "College/yearTwo/firstTerm/DB/Lectures/Lecture-4.md0e5maz.bck",
+    "College/yearTwo/firstTerm/DB/Lectures/Lecture-4.mdr1Mwl7.bck",
+    "College/yearTwo/firstTerm/DB/Lectures/Lecture-4.mdiPdRNx.bck",
+    "College/yearTwo/firstTerm/DB/Lectures/normalization.mdOi7JAg.bck",
+    "College/yearTwo/firstTerm/DB/Lectures/normalization.mdyIbwur.bck",
+    "College/yearTwo/firstTerm/DB/Lectures/normalization.mdsnRMFe.bck",
+    "College/yearTwo/firstTerm/DB/Lectures/normalization.mdBatpT1.bck",
+    "College/yearTwo/firstTerm/DB/Lectures/normalization.mdlxGs3s.bck",
+    "College/yearTwo/firstTerm/DB/Lectures/Lecture-3.md",
+    "College/yearTwo/firstTerm/DB/Lectures/figure-3.png",
+    "College/yearTwo/firstTerm/DB/Lectures/figure-2.png",
+    "College/yearTwo/firstTerm/DB/Lectures/figure-1.png",
+    "College/yearTwo/firstTerm/DB/Lectures/figure.png",
+    "College/yearTwo/firstTerm/DB/Lectures/Lecture-2.md",
     "Programming/LinuxNotes/awk.md",
+    "Programming/LinuxNotes/fzf.md",
     "General/index.md",
     "General/MathForProblemSolving.md",
     "Courses/LinuxCrashCourse.md",
@@ -214,11 +219,7 @@
     "College/yearTwo/firstTerm/Linux/Lectures/figure-6.png",
     "College/yearTwo/firstTerm/Linux/Lectures/figure-5.png",
     "College/yearTwo/firstTerm/Linux/Lectures/figure-4.png",
-    "College/yearTwo/firstTerm/Linux/Lectures/figure-3.png",
     "College/yearTwo/firstTerm/Linux/Lectures/Lecture-1.md",
-    "College/yearTwo/firstTerm/Linux/Lectures/figure-2.png",
-    "College/yearTwo/firstTerm/Linux/Lectures/figure-1.png",
-    "College/yearTwo/firstTerm/Linux/Lectures/figure.png",
     "College/yearTwo/firstTerm/C++/Lectures/Lecture-3.md",
     "College/yearTwo/firstTerm/Linux/Lectures/Lecture-6.md",
     "College/yearTwo/firstTerm/Linux/Lectures/Lecture-5.md",
@@ -232,8 +233,6 @@
     "College/yearTwo/firstTerm/C++/Lectures/Lecture-4.md",
     "College/yearTwo/firstTerm/OS/Lectures/Lecture-4_2.md",
     "College/yearTwo/firstTerm/OS/Lectures/Lecture-4_1.md",
-    "College/yearTwo/firstTerm/OS/Lectures/Lecture-3.md",
-    "College/yearTwo/firstTerm/OS/Lectures/Lecture-1-2.md",
-    "College/yearTwo/firstTerm/WebDevelopment/Lectures/Lecture-1.md"
+    "College/yearTwo/firstTerm/OS/Lectures/Lecture-3.md"
   ]
 }

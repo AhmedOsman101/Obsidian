@@ -2790,6 +2790,7 @@ procedural
 participate
 participates
 poorly
+preserved
 sbf
 sPv
 sC
@@ -3925,6 +3926,8 @@ sells
 supplier
 superkey
 subsets
+squared
+showChoice
 ff
 fP
 fj
@@ -4791,6 +4794,7 @@ freely
 filesystem
 filenames
 functionally
+factorial
 yq
 yh
 yS
@@ -9045,6 +9049,7 @@ Licensed
 Last
 LicenseNo
 Lecturer
+Last
 al
 aj
 ar
@@ -10062,6 +10067,8 @@ abstracted
 attends
 anomalies
 atomic
+abstractions
+annotated
 Te
 Tn
 TA
@@ -10875,6 +10882,7 @@ Treatment
 TreatmentID
 TestID
 Transitive
+Talk
 uj
 uq
 uXm
@@ -14790,6 +14798,8 @@ everyone
 executables
 enroll
 existence
+exam
+explains
 GO
 GQ
 Gk
@@ -17395,6 +17405,8 @@ SerialNo
 Salary
 Split
 Street
+Swap
+Strict
 iH
 ic
 iP
@@ -24884,6 +24896,8 @@ Replacements
 Rough
 ReportNo
 Rasmus
+Reformatted
+Raising
 Zt
 ZB
 Zb
@@ -27740,6 +27754,7 @@ overwriting
 optimizes
 offs
 owns
+omitted
 mipte
 mRT
 mX
@@ -29678,6 +29693,7 @@ Constraints
 ChapterNumber
 ChapterTitle
 Cardinalities
+Coding
 vb
 vO
 vvF
@@ -38870,6 +38886,7 @@ Accident
 Anomalies
 Anomaly
 AccNo
+Argument
 Jw
 Jg
 JT

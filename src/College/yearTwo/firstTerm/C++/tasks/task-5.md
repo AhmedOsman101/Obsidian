@@ -219,3 +219,65 @@ int main() {
   return 0;
 }
 ```
+
+## Question (2) : Find the output of the following program:
+
+### A)
+
+![](figure-5.png)
+
+```
+129, a
+```
+
+### B) 
+
+![](figure-6.png)
+
+Error: Incrementing a read-only variable.
+
+```
+file.cpp: In function ‘int main()’:
+file.cpp:9:4: error: increment of read-only location ‘*(const int*)ptr’
+    9 |   (*ptr)++;
+      |   ~^~~~~
+```
+
+### C)
+
+![](figure-7.png)
+
+```
+14
+```
+
+### D)
+
+![](figure-7.png)
+
+```
+14
+```
+
+
+### E)
+
+![](figure-8.png)
+
+Error: Declaration of reference variable requires an initializer
+
+```
+file.cpp: In function ‘int main()’:
+file.cpp:6:21: error: ‘ra’ declared as reference but not initialized
+    6 |   int a = 10, *pa, &ra;
+      |                     ^~
+```
+
+### F) 
+
+![](figure-9.png)
+
+
+```
+10, 20, 30, 40, 50, 
+```

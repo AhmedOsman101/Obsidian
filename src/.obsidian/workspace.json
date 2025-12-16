@@ -15,7 +15,7 @@
               "state": {
                 "file": "College/yearTwo/firstTerm/C++/tasks/task-5.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
@@ -203,6 +203,11 @@
   },
   "active": "94daf8aaec763cb6",
   "lastOpenFiles": [
+    "College/yearTwo/firstTerm/C++/tasks/figure-9.png",
+    "College/yearTwo/firstTerm/C++/tasks/figure-8.png",
+    "College/yearTwo/firstTerm/C++/tasks/figure-7.png",
+    "College/yearTwo/firstTerm/C++/tasks/figure-6.png",
+    "College/yearTwo/firstTerm/C++/tasks/figure-5.png",
     "College/yearTwo/firstTerm/C++/tasks/task-5.pdf",
     "College/yearTwo/firstTerm/C++/tasks/task-4-draft.md",
     "College/yearTwo/firstTerm/WebDevelopment/Lectures/Lecture-6.md",
@@ -218,10 +223,6 @@
     "College/yearTwo/firstTerm/OS/Lectures/figure-7.png",
     "College/yearTwo/firstTerm/OS/Lectures/figure-6.png",
     "College/yearTwo/firstTerm/OS/Lectures/figure-5.png",
-    "College/yearTwo/firstTerm/OS/Lectures/figure-4.png",
-    "College/yearTwo/firstTerm/OS/Lectures/figure-3.png",
-    "College/yearTwo/firstTerm/OS/Lectures/figure-2.png",
-    "College/yearTwo/firstTerm/OS/Lectures/figure-14.png",
     "College/yearTwo/firstTerm/OS/Lectures/Lecture-4.md",
     "College/yearTwo/firstTerm/OS/Lectures/Lecture-3.md",
     "College/yearTwo/firstTerm/OS/Lectures/Lecture-1-2.md",
@@ -247,7 +248,6 @@
     "College/yearTwo/firstTerm/C++/Lectures/Lecture-2.md",
     "College/yearTwo/firstTerm/C++/Lectures",
     "College/yearTwo/firstTerm/C++/tasks/task-4.pdf",
-    "College/yearTwo/firstTerm/C++/tasks/task-4-draft.pdf",
-    "College/yearTwo/firstTerm/WebDevelopment/tasks/figure-23.png.crswap"
+    "College/yearTwo/firstTerm/C++/tasks/task-4-draft.pdf"
   ]
 }

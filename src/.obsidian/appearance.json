@@ -1,11 +1,11 @@
 {
   "textFontFamily": "Inter,JetBrainsMonoNF Nerd Font,FiraCode Nerd Font",
   "monospaceFontFamily": "JetBrainsMonoNF Nerd Font,FiraCode Nerd Font",
-  "cssTheme": "GitHub Theme",
+  "cssTheme": "Things",
   "theme": "obsidian",
   "enabledCssSnippets": [
-    "centerImage",
-    "centerTable"
+    "centerTable",
+    "centerImage"
   ],
   "interfaceFontFamily": "Inter Nerd Font Propo,Inter",
   "baseFontSize": 21,

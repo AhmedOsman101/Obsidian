@@ -846,6 +846,8 @@ PRO
 PYIeu
 Pifz
 PbS
+Parent
+PPID
 IHDR
 IDATx
 IO
@@ -1732,6 +1734,7 @@ ISu
 Ize
 IsV
 IxF
+Influence
 pHYs
 pt
 pu
@@ -2741,6 +2744,8 @@ plQ
 pKc
 ppqs
 preserved
+parent
+parented
 sbf
 sPv
 sC
@@ -3851,6 +3856,9 @@ sameh
 svy
 squared
 showChoice
+scheduling
+stopped
+suspended
 ff
 fP
 fj
@@ -4709,6 +4717,7 @@ fMZ
 fNez
 fNA
 factorial
+formulas
 yq
 yh
 yS
@@ -5243,6 +5252,8 @@ ype
 year
 yXc
 ycW
+years
+yet
 ql
 qu
 qb
@@ -8919,6 +8930,8 @@ Lets
 LWJCD
 LlS
 Last
+Locate
+Locates
 al
 aj
 ar
@@ -9923,6 +9936,9 @@ aKv
 aoe
 abstractions
 annotated
+annual
+accepted
+archive
 Te
 Tn
 TA
@@ -10716,6 +10732,8 @@ TJY
 TPV
 TNN
 Talk
+Tax
+TTY
 uj
 uq
 uXm
@@ -12105,6 +12123,8 @@ OfeeQ
 OAI
 OkE
 OxyK
+Orphan
+Overwrite
 Uc
 Ue
 UXk
@@ -12784,6 +12804,7 @@ URL
 Uze
 UHa
 UPx
+UID
 ra
 rO
 rV
@@ -13647,6 +13668,13 @@ rKc
 readonly
 rbaO
 rax
+reversal
+reaped
+redirection
+relying
+renice
+resumes
+recursively
 eiO
 es
 ee
@@ -14595,6 +14623,8 @@ editable
 eVB
 exam
 explains
+examining
+encodings
 GO
 GQ
 Gk
@@ -15302,6 +15332,7 @@ GPh
 GSq
 GDtW
 Gogf
+Gregorian
 Ex
 EZR
 EG
@@ -16158,6 +16189,7 @@ Eslam
 Ewees
 EQVo
 Ena
+Employ
 Sal
 SQ
 SB
@@ -18020,6 +18052,9 @@ iSJ
 iNF
 ign
 iUHS
+initializer
+income
+inherits
 tWA
 tW
 tM
@@ -19554,6 +19589,7 @@ nHj
 ngH
 nDed
 nWB
+nice
 Fc
 Fe
 Fo
@@ -20387,6 +20423,7 @@ Fsg
 FeM
 FfXYZP
 FBD
+Following
 xi
 xpF
 xwG
@@ -23694,6 +23731,10 @@ lzWZl
 lqI
 lud
 locale
+lengths
+leap
+linux
+listings
 Rc
 Rt
 RO
@@ -25184,6 +25225,7 @@ ZvnK
 ZYM
 ZucI
 ZGz
+Zombie
 kn
 kHf
 kJ
@@ -25799,6 +25841,7 @@ kPC
 kIl
 kGw
 kbW
+kill
 Dp
 DI
 Db
@@ -26693,6 +26736,8 @@ Disables
 DCh
 DHD
 DLz
+Daemon
+Daemons
 ohQ
 oL
 ob
@@ -27390,6 +27435,9 @@ opM
 oTU
 oxb
 omitted
+orphan
+orphaned
+occupying
 mipte
 mRT
 mX
@@ -28225,6 +28273,7 @@ month
 min
 minlength
 maxlength
+modifies
 Ck
 CS
 Cm
@@ -29296,6 +29345,7 @@ CDx
 CPDQ
 Cgnb
 Coding
+Compress
 vb
 vO
 vvF
@@ -31200,6 +31250,9 @@ cba
 czOM
 cHL
 cVM
+child
+concatenate
+conf
 Hu
 Hg
 HiL
@@ -35194,6 +35247,7 @@ ztVVVmmmCC
 zFDDh
 zzN
 ziad
+zombie
 YT
 Yh
 YDvhV
@@ -35729,6 +35783,7 @@ YrG
 Yje
 Ybia
 Ytg
+YYYY
 VLt
 Vfa
 Vr
@@ -37305,6 +37360,11 @@ dtR
 disappears
 defaults
 dJY
+days
+dollars
+descriptors
+daemon
+decompresses
 AK
 AQ
 Aya

@@ -1,15 +1,13 @@
-/* Full-width container and centered images */
+/* Images display at natural size but respect container bounds */
 .markdown-preview-view img {
-	display: block; /* Makes the image act as a block element */
-	margin: 0 auto; /* Centers the image horizontally */
-	max-width: 100%; /* Keeps images responsive */
-	padding: 4px;
-	border-radius: 8px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-	transition: transform 0.2s ease;
-}
-
-/* Optional: Centering with padding and hover effect */
-.markdown-preview-view img:hover {
-	transform: scale(1.05); /* Optional hover effect */
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; /* Won't exceed container width */
+  height: auto; /* Maintain aspect ratio */
+  width: auto; /* Display at natural size when smaller than max-width */
+  object-fit: scale-down;
+  padding: 4px;
+  border-radius: 8px;
+  /* border: 10px solid brown; */
+  transition: transform 0.2s ease;
 }

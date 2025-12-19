@@ -4,37 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "12f78652493e3084",
+        "id": "d1fbfc31228c059a",
         "type": "tabs",
         "children": [
           {
-            "id": "94daf8aaec763cb6",
+            "id": "6591ff7d38bff1a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearTwo/firstTerm/C++/tasks/task-5.md",
+                "file": "College/yearTwo/firstTerm/OS/Assignments/Assignment-2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "task-5"
-            }
-          },
-          {
-            "id": "1428c253e22767be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/yearTwo/firstTerm/C++/tasks/task-4-draft.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "task-4-draft"
+              "title": "Assignment-2"
             }
           }
         ]
@@ -201,53 +186,52 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "94daf8aaec763cb6",
+  "active": "6591ff7d38bff1a3",
   "lastOpenFiles": [
-    "College/yearTwo/firstTerm/C++/tasks/figure-9.png",
-    "College/yearTwo/firstTerm/C++/tasks/figure-8.png",
-    "College/yearTwo/firstTerm/C++/tasks/figure-7.png",
-    "College/yearTwo/firstTerm/C++/tasks/figure-6.png",
-    "College/yearTwo/firstTerm/C++/tasks/figure-5.png",
-    "College/yearTwo/firstTerm/C++/tasks/task-5.pdf",
+    "College/yearTwo/firstTerm/Linux/Assignments/Assignment-2.md",
+    "College/yearTwo/firstTerm/OS/Assignments/Assignment-2.md",
+    "College/yearTwo/firstTerm/Linux/Assignments/sedxaKdHo",
+    "College/yearTwo/firstTerm/Linux/Assignments/file.txt4XI7DY.bck",
+    "College/yearTwo/firstTerm/Linux/Assignments/file.txt",
+    "College/yearTwo/firstTerm/Linux/Assignments/sed3RkUgF",
+    "College/yearTwo/firstTerm/Linux/Assignments/sedseefQ8",
+    "College/yearTwo/firstTerm/Linux/Assignments/figure-8.png",
+    "College/yearTwo/firstTerm/Linux/Assignments/figure-7.png",
+    "College/yearTwo/firstTerm/Linux/Assignments/figure-6.png",
+    "College/yearTwo/firstTerm/Linux/Assignments/figure-5.png",
+    "College/yearTwo/firstTerm/Linux/Assignments/figure-4.png",
+    "College/yearTwo/firstTerm/Linux/Assignments/figure-3.png",
+    "College/yearTwo/firstTerm/Linux/Assignments/figure-2.png",
+    "College/yearTwo/firstTerm/Linux/Assignments/figure-1.png",
+    "College/yearTwo/firstTerm/Linux/Assignments/Assignment-2.mdBbk6ug.bck",
+    "College/yearTwo/firstTerm/Linux/Assignments/Assignment-2.mdJ40oG4.bck",
+    "College/yearTwo/firstTerm/Linux/Assignments/Assignment-2.mdaQ1q1R.bck",
+    "College/yearTwo/firstTerm/Linux/Assignments/Assignment-2.mdByYMCO.bck",
+    "College/yearTwo/firstTerm/Linux/Assignments/figure.png",
+    "draft.md",
+    "College/yearTwo/firstTerm/C++/tasks/task-3.md",
+    "College/yearOne/firstTerm/Python/Assignments/AssignmentTwo.md",
+    "College/yearOne/firstTerm/Python/Assignments/AssignmentOne.md",
+    "College/yearOne/firstTerm/Python/Exams/ExamTwo.md",
+    "College/yearOne/secondTerm/C-Essentials/Tasks/TaskTwo.md",
+    "College/yearOne/secondTerm/C-Essentials/Tasks/TaskOne.md",
+    "College/yearOne/secondTerm/C-Essentials/Tasks/AssignmentTwo.md",
+    "College/yearOne/secondTerm/IntroToIot/Assignments/AssignmentTwo.md",
+    "College/yearOne/secondTerm/MS-Office/Assignments/AssignmentTwo.md",
+    "College/draft.md",
+    "index.md",
+    "College/yearTwo/firstTerm/Linux/Assignments",
     "College/yearTwo/firstTerm/C++/tasks/task-4-draft.md",
+    "College/yearTwo/firstTerm/C++/tasks/task-5.md",
+    "College/yearTwo/firstTerm/C++/tasks/figure-9.png",
     "College/yearTwo/firstTerm/WebDevelopment/Lectures/Lecture-6.md",
     "College/yearTwo/firstTerm/WebDevelopment/Lectures/Lecture-5.md",
     "College/yearTwo/firstTerm/WebDevelopment/Lectures/Lecture-4.md",
     "College/yearTwo/firstTerm/WebDevelopment/Lectures/Lecture-3.md",
     "College/yearTwo/firstTerm/WebDevelopment/Lectures/Lecture-2.md",
     "College/yearTwo/firstTerm/WebDevelopment/Lectures/Lecture-1.md",
-    "College/yearTwo/firstTerm/WebDevelopment/Lectures",
-    "College/yearTwo/firstTerm/OS/Lectures/figure.png",
-    "College/yearTwo/firstTerm/OS/Lectures/figure-9.png",
-    "College/yearTwo/firstTerm/OS/Lectures/figure-8.png",
-    "College/yearTwo/firstTerm/OS/Lectures/figure-7.png",
-    "College/yearTwo/firstTerm/OS/Lectures/figure-6.png",
-    "College/yearTwo/firstTerm/OS/Lectures/figure-5.png",
     "College/yearTwo/firstTerm/OS/Lectures/Lecture-4.md",
     "College/yearTwo/firstTerm/OS/Lectures/Lecture-3.md",
-    "College/yearTwo/firstTerm/OS/Lectures/Lecture-1-2.md",
-    "College/yearTwo/firstTerm/OS/Lectures",
-    "College/yearTwo/firstTerm/OS",
-    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-5.md",
-    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-4.md",
-    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-3.md",
-    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-2.md",
-    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-1.md",
-    "College/yearTwo/firstTerm/Linux/Lectures",
-    "College/yearTwo/firstTerm/DB/Lectures/Lecture-4.md",
-    "College/yearTwo/firstTerm/DB/Lectures/Lecture-3.md",
-    "College/yearTwo/firstTerm/DB/Lectures/Lecture-2.md",
-    "College/yearTwo/firstTerm/DB/Lectures/Lecture-1.md",
-    "College/yearTwo/firstTerm/DB/Lectures",
-    "College/yearTwo/firstTerm/DB",
-    "College/yearTwo/firstTerm/C++/tasks/task-3.md",
-    "College/yearTwo/firstTerm/C++/Lectures/Lecture-6.md",
-    "College/yearTwo/firstTerm/C++/Lectures/Lecture-5.md",
-    "College/yearTwo/firstTerm/C++/Lectures/Lecture-4.md",
-    "College/yearTwo/firstTerm/C++/Lectures/Lecture-3.md",
-    "College/yearTwo/firstTerm/C++/Lectures/Lecture-2.md",
-    "College/yearTwo/firstTerm/C++/Lectures",
-    "College/yearTwo/firstTerm/C++/tasks/task-4.pdf",
-    "College/yearTwo/firstTerm/C++/tasks/task-4-draft.pdf"
+    "College/yearTwo/firstTerm/OS/Lectures/Lecture-1-2.md"
   ]
 }

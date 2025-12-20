@@ -1,7 +1,7 @@
 {
   "textFontFamily": "Inter,JetBrainsMonoNF Nerd Font,FiraCode Nerd Font",
   "monospaceFontFamily": "JetBrainsMonoNF Nerd Font,FiraCode Nerd Font",
-  "cssTheme": "Things",
+  "cssTheme": "GitHub Theme",
   "theme": "obsidian",
   "enabledCssSnippets": [
     "centerTable",

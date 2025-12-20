@@ -5,6 +5,14 @@
       "path": "College/yearTwo/firstTerm/OS/Assignments/Assignment-2.md"
     },
     {
+      "basename": "Assignment-2-normal",
+      "path": "College/yearTwo/firstTerm/OS/Assignments/Assignment-2-normal.md"
+    },
+    {
+      "basename": "Assignment-2 think",
+      "path": "College/yearTwo/firstTerm/OS/Assignments/Assignment-2 think.md"
+    },
+    {
       "basename": "Assignment-2",
       "path": "College/yearTwo/firstTerm/Linux/Assignments/Assignment-2.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "draft",
       "path": "College/yearOne/secondTerm/C-Essentials/Tasks/draft.md"
-    },
-    {
-      "basename": "index",
-      "path": "College/yearOne/secondTerm/C-Essentials/Tasks/index.md"
-    },
-    {
-      "basename": "figure",
-      "path": "College/yearOne/secondTerm/C-Essentials/imgs/figure.png"
     }
   ],
   "omittedPaths": [],

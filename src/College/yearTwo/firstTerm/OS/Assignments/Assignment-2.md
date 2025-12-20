@@ -11,196 +11,140 @@
 
 ## Task 1
 
-### 1) Describe the concept of process synchronization and its purpose.
+### 1. Describe the concept of process synchronization and its purpose.
 
-Process synchronization refers to the coordination of concurrent processes or threads that share common resources such as memory, files, or devices. In a multitasking operating system, multiple processes may execute simultaneously, which can lead to race conditions if access to shared data is not controlled.
+Process synchronization is the coordination of multiple processes or threads to ensure orderly execution and maintain data consistency when accessing shared resources. Its primary purposes are:
 
-The main purpose of process synchronization is to:
+- To prevent **race conditions**, where concurrent access to shared data leads to inconsistent results.
+- To enforce **mutual exclusion**, ensuring only one process accesses a critical resource at a time.
+- To enable **cooperation** among processes through signaling and waiting mechanisms.
+- To prevent **deadlocks** and **starvation**.
 
-- Ensure data consistency when multiple processes access shared resources.
-    
-- Prevent race conditions, where the final result depends on the execution order of processes.
-    
-- Maintain system stability and correctness.
-    
-- Guarantee fairness so that no process starves while waiting for a resource.
-    
+### 2. Discuss the classic process synchronization problems and compare the different approaches used to solve the critical section problem.
 
-Synchronization mechanisms enforce an execution order so that only one process at a time can access critical shared resources.
+**Classic Synchronization Problems:**
 
----
+1. **Bounded-Buffer Problem:**
+   - Involves a producer and consumer sharing a fixed-size buffer.
+   - Synchronization ensures the producer doesn't overflow and the consumer doesn't read empty buffers.
 
-### 2) Classic process synchronization problems and approaches to the critical section problem
+2. **Readers-Writers Problem:**
+   - Multiple readers can read simultaneously, but writers require exclusive access.
+   - Solutions must prevent starvation and ensure fairness.
 
-Classic process synchronization problems are theoretical models used to demonstrate common concurrency issues:
+3. **Dining-Philosophers Problem:**
+   - Philosophers share chopsticks; deadlock occurs if each picks up one chopstick and waits.
+   - Solutions include resource ordering, limiting concurrent access, or asymmetric picking.
 
-- **Producer–Consumer Problem**: One or more producers generate data and place it in a buffer, while consumers remove data from the buffer. Synchronization is required to prevent buffer overflow and underflow.
-    
-- **Readers–Writers Problem**: Multiple readers can access shared data simultaneously, but writers require exclusive access. The challenge is balancing fairness between readers and writers.
-    
-- **Dining Philosophers Problem**: Philosophers share forks (resources) and alternate between thinking and eating. Improper synchronization can cause deadlock or starvation.
-    
+**Approaches to Critical Section Problem:**
 
-To solve the **critical section problem**, several approaches are used:
+1. **Software Solutions**: Peterson's algorithm for two processes (uses `turn` and `flag` variables).
+2. **Hardware Solutions**: Atomic instructions like `test_and_set()` and `compare_and_swap()`.
+3. **OS-Level Solutions**:
+   - **Mutex Locks**: Simple binary locks with `acquire()` and `release()` operations (busy waiting).
+   - **Semaphores**: Integer-based signaling mechanism with `wait()` (P) and `signal()` (V) operations.
+   - **Monitors**: High-level abstraction providing mutual exclusion and condition variables.
 
-- **Software-based solutions** (e.g., Peterson’s algorithm):
-    
-    - Do not require special hardware.
-        
-    - Work well for two processes.
-        
-    - Not scalable and inefficient on modern multiprocessor systems.
-        
-- **Hardware-based solutions** (e.g., Test-and-Set, Compare-and-Swap):
-    
-    - Faster and suitable for multiprocessor systems.
-        
-    - Require hardware support.
-        
-    - Can lead to busy waiting.
-        
-- **Operating system–based solutions** (e.g., mutexes, semaphores):
-    
-    - Easier to use and scalable.
-        
-    - Avoid low-level hardware complexity.
-        
-    - Context switching may add overhead.
-        
+**Comparison:**
 
----
+| Approach                | Pros                                               | Cons                                    |
+| ----------------------- | -------------------------------------------------- | --------------------------------------- |
+| **Peterson's Solution** | No hardware support needed.                        | Limited to two processes; busy waiting. |
+| **Hardware Solutions**  | Simple, efficient for small sections.              | Busy waiting; low-level complexity.     |
+| **Mutex Locks**         | Easy to use; supported by OS.                      | Busy waiting in spinlocks.              |
+| **Semaphores**          | Flexible; can solve various problems.              | Incorrect use may lead to deadlock.     |
+| **Monitors**            | Reduces programmer errors; language-level support. | Not available in all languages.         |
 
-### 3) Definitions
+### 3. Define the following terms:
 
-- **Critical Section**: A section of code where a process accesses shared resources. Only one process is allowed to execute its critical section at a time.
-    
-- **Mutual Exclusion Locks (Mutexes)**: A locking mechanism that ensures mutual exclusion by allowing only one process or thread to hold the lock at any given time.
-    
-- **Semaphores**: Synchronization tools that use counters to control access to shared resources. They can be binary (0 or 1) or counting semaphores.
-    
+- **Critical Section:**  
+  A segment of code in which a process accesses shared resources. Only one process should execute its critical section at a time.
 
----
+- **Mutual Exclusion Locks (Mutex):**  
+  A synchronization mechanism that ensures only one thread or process can enter a critical section at a time. It provides `lock()` and `unlock()` operations.
+
+- **Semaphores:**  
+  An integer synchronization variable that controls access to shared resources via `wait()` (decrement) and `signal()` (increment) operations. Operations are atomic and can be **binary** (0/1) or **counting** (≥0). Used for signaling between processes
 
 ## Task 2
 
-### 4) Characteristics of deadlock and methods of detection and avoidance
+### 4. Describe the characteristics of deadlock and explain how deadlocks can be detected and avoided.
 
-A deadlock occurs when a group of processes are permanently blocked because each process is holding a resource and waiting for another resource held by another process.
+**Characteristics (Necessary Conditions):**
 
-Deadlock has four necessary conditions:
+1. **Mutual Exclusion**: Resources cannot be shared.
+2. **Hold and Wait**: Processes hold resources while waiting for others.
+3. **No Preemption**: Resources cannot be forcibly taken.
+4. **Circular Wait**: A cycle exists in the resource-wait graph.
 
-1. **Mutual Exclusion** – Resources cannot be shared.
-    
-2. **Hold and Wait** – Processes hold resources while waiting for others.
-    
-3. **No Preemption** – Resources cannot be forcibly taken.
-    
-4. **Circular Wait** – A circular chain of processes exists, each waiting for a resource held by the next.
-    
+**Deadlock Detection:**
 
-**Deadlock detection**:
+- **Resource-Allocation Graph (RAG):**  
+  If the graph contains a cycle, deadlock may exist (certain if only one instance per resource type).
+- **Wait-for Graph:**  
+  A simplified version of RAG for single-instance resources.
+- **Banker's Algorithm (Detection Version):**  
+  Use the **detection algorithm** with `Available`, `Allocation`, and `Request` matrices ( $O(m \times n^2)$ complexity). to check for safe states.
+- **Multiple Resource Types**:
+  Use the **detection algorithm** with `Available`, `Allocation`, and `Request` matrices (O(m×n²) complexity).
 
-- The operating system uses resource allocation graphs or detection algorithms to identify cycles.
-    
-- If a cycle exists, deadlock is present.
-    
+**Deadlock Avoidance**:
 
-**Deadlock avoidance**:
+- **Banker's Algorithm**: Requires processes to declare maximum resource needs in advance. It checks for **safe states** before allocating resources (i.e., there exists a sequence where all processes can finish).
+- **Resource-Allocation Graph Algorithm**: For single-instance resources, denies requests that create cycles.
 
-- The system ensures that deadlocks never occur by carefully allocating resources.
-    
-- The Banker’s Algorithm is commonly used, which checks whether resource allocation leads to a safe state.
-    
+### 5. Discuss the main techniques used to recover from deadlocks.
 
----
+1. **Process Termination**:
+   - **Abort all deadlocked processes:** simple but drastic.
+   - **Abort one process at a time** until deadlock is resolved. Selection criteria include priority, execution time, and resources held.
+2. **Resource Preemption**:
+   - **Victim Selection**: Choose a process based on cost, priority, or resource usage.
+   - **Rollback**: Restore the preempted process to a safe state and restart.
+   - **Starvation Prevention**: Limit how often a process is selected as a victim.
 
-### 5) Techniques used to recover from deadlocks
+### 6. Describe the low-level implementation of memory management, including the ideas of page tables and swapping.
 
-Once a deadlock is detected, recovery techniques include:
+**Page Tables**:
 
-- **Process termination**:
-    
-    - Abort all deadlocked processes, or
-        
-    - Abort one process at a time until the deadlock is resolved.
-        
-- **Resource preemption**:
-    
-    - Temporarily take resources from selected processes.
-        
-    - Roll back processes to a safe state and restart them later.
-        
+A data structure used by the MMU (Memory Management Unit) to translate **logical addresses** to **physical addresses**. Each entry maps a page number to a frame number. Can be hierarchical (multi-level) to save space.
 
-The choice of technique depends on factors such as process priority, execution time, and system impact.
+- Map logical addresses to physical frames.
+- Stored in main memory; accessed via **Page Table Base Register (PTBR)**.
+- **Translation Lookaside Buffers (TLBs)** cache recent translations to speed up access.
 
----
+**Swapping**:
 
-### 6) Low-level implementation of memory management, page tables, and swapping
+A process can be temporarily moved out of main memory to disk (backing store) and brought back later. Used when memory is overcommitted.
 
-Low-level memory management is handled by the operating system and hardware together. The OS manages physical memory (RAM) and provides each process with the illusion of having its own continuous address space.
+- Moves processes between main memory and secondary storage (backing store).
+- Used when memory is overcommitted; enables **virtual memory**.
+- **Roll-out, roll-in:** Used in priority-based scheduling.
+- **Swap time** depends on transfer speed and memory size.
 
-- **Page Tables**:
-    
-    - Logical (virtual) memory is divided into pages.
-        
-    - Physical memory is divided into frames.
-        
-    - Page tables map virtual page numbers to physical frame numbers.
-        
-    - This allows processes to use virtual memory efficiently and securely.
-        
-- **Swapping**:
-    
-    - When RAM is full, inactive pages or processes are moved to secondary storage (disk).
-        
-    - This frees physical memory for active processes.
-        
-    - Swapping increases memory utilization but is slower due to disk access time.
-        
-
----
-
-### 7) Segmentation, paging, and memory allocation strategies
+### 7. Explain how segmentation and paging work and outline the different memory allocation strategies.
 
 **Segmentation**:
 
-- Memory is divided into logical segments such as code, data, and stack.
-    
-- Each segment has a base address and a limit.
-    
-- Supports logical organization but may suffer from external fragmentation.
-    
+- Divides memory into **logical segments** (code, data, stack, etc.).
+- Uses a **segment table** with base and limit registers for address translation.
+- Logical address: `<segment-number, offset>`.
+- Supports protection and sharing but leads to **external fragmentation**.
+- **External fragmentation** is a problem.
 
 **Paging**:
 
-- Memory is divided into fixed-size pages and frames.
-    
-- Eliminates external fragmentation.
-    
-- May cause internal fragmentation.
-    
+- Divides memory into fixed-size **frames** and logical memory into **pages** of the same size.
+- Uses a **page table** for address translation.
+- Supports **shared pages** (e.g., code segments).
+- **Internal fragmentation** can occur (last page may not be fully used).
 
-**Memory allocation strategies**:
+**Memory Allocation Strategies:**
 
-- **First Fit**: Allocates the first block large enough for the request. Fast but may cause fragmentation.
-    
-- **Best Fit**: Allocates the smallest block that fits. Reduces wasted space but is slower.
-    
-- **Worst Fit**: Allocates the largest available block. Leaves large remaining spaces but is rarely efficient.
-    
-
----
-
-### Comparison of memory allocation techniques
-
-- Fixed partitioning is simple but inefficient.
-    
-- Dynamic partitioning improves flexibility but causes fragmentation.
-    
-- Paging eliminates external fragmentation but adds address translation overhead.
-    
-- Segmentation improves logical structure but requires complex management.
-    
-
-Overall, modern operating systems combine paging and segmentation to achieve efficient and flexible memory management.
-
+| Strategy         | Description                                          | Pros                            | Cons                                   |
+| ---------------- | ---------------------------------------------------- | ------------------------------- | -------------------------------------- |
+| **First-Fit**    | Allocate the first hole large enough.                | Fast, simple.                   | External fragmentation.                |
+| **Best-Fit**     | Allocate the smallest hole that fits.                | Reduces wasted space.           | Slow; leaves small fragments.          |
+| **Worst-Fit**    | Allocate the largest hole.                           | Leaves large leftover holes.    | Poor utilization; slow.                |
+| **Buddy System** | Divide memory into power-of-two blocks.              | Reduces external fragmentation. | Internal fragmentation.                |
+| **Compaction**   | Move processes to collect free space into one block. | Reduces external fragmentation. | Overhead; requires dynamic relocation. |

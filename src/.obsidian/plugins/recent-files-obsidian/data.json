@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Assignment-2",
-      "path": "College/yearTwo/firstTerm/OS/Assignments/Assignment-2.md"
+      "basename": "task-3",
+      "path": "College/yearTwo/firstTerm/DigitalEngineering/task-3.md"
+    },
+    {
+      "basename": "SUB",
+      "path": "SUB.md"
+    },
+    {
+      "basename": "figure-2",
+      "path": "College/yearTwo/firstTerm/DigitalEngineering/figure-2.png"
+    },
+    {
+      "basename": "SUM",
+      "path": "SUM.md"
+    },
+    {
+      "basename": "test 1 1",
+      "path": "test 1 1.md"
+    },
+    {
+      "basename": "draft",
+      "path": "College/draft.md"
+    },
+    {
+      "basename": "draft",
+      "path": "draft.md"
+    },
+    {
+      "basename": "index",
+      "path": "College/index.md"
     },
     {
       "basename": "Assignment-2-normal",
       "path": "College/yearTwo/firstTerm/OS/Assignments/Assignment-2-normal.md"
+    },
+    {
+      "basename": "Assignment-2",
+      "path": "College/yearTwo/firstTerm/OS/Assignments/Assignment-2.md"
     },
     {
       "basename": "Assignment-2 think",
@@ -15,10 +47,6 @@
     {
       "basename": "Assignment-2",
       "path": "College/yearTwo/firstTerm/Linux/Assignments/Assignment-2.md"
-    },
-    {
-      "basename": "draft",
-      "path": "draft.md"
     },
     {
       "basename": "task-3",
@@ -55,10 +83,6 @@
     {
       "basename": "AssignmentTwo",
       "path": "College/yearOne/secondTerm/MS-Office/Assignments/AssignmentTwo.md"
-    },
-    {
-      "basename": "draft",
-      "path": "College/draft.md"
     },
     {
       "basename": "index",
@@ -175,30 +199,6 @@
     {
       "basename": "figure-1",
       "path": "College/yearTwo/firstTerm/WebDevelopment/tasks/figure-1.png"
-    },
-    {
-      "basename": "figure",
-      "path": "College/yearTwo/firstTerm/WebDevelopment/tasks/figure.png"
-    },
-    {
-      "basename": "task-2",
-      "path": "College/yearTwo/firstTerm/C++/tasks/task-2.md"
-    },
-    {
-      "basename": "ModelExam",
-      "path": "College/yearOne/firstTerm/Math/Models/ModelExam.md"
-    },
-    {
-      "basename": "LectureOne",
-      "path": "College/yearOne/firstTerm/Math/Lectures/LectureOne.md"
-    },
-    {
-      "basename": "index",
-      "path": "College/yearOne/firstTerm/Python/Exams/index.md"
-    },
-    {
-      "basename": "draft",
-      "path": "College/yearOne/secondTerm/C-Essentials/Tasks/draft.md"
     }
   ],
   "omittedPaths": [],

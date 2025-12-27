@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearTwo/firstTerm/DigitalEngineering/task-3.md",
+                "file": "College/yearTwo/firstTerm/C++/Assignments/Assignment-2.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "task-3"
+              "title": "Assignment-2"
             }
           }
         ]
@@ -188,16 +188,24 @@
   },
   "active": "9afbda9a31fca6ff",
   "lastOpenFiles": [
-    "SUB.md",
-    "College/yearTwo/firstTerm/DigitalEngineering/figure-2.png",
+    "College/yearTwo/firstTerm/C++/Assignments/Assignment-2 1.md",
+    "College/yearTwo/firstTerm/C++/Assignments/showcollege.png",
+    "College/yearTwo/firstTerm/C++/Assignments/add-college.png",
+    "College/yearTwo/firstTerm/C++/Assignments/admin.png",
+    "College/yearTwo/firstTerm/C++/Assignments/login-2.png",
+    "College/yearTwo/firstTerm/C++/Assignments/login.png",
+    "College/yearTwo/firstTerm/C++/Assignments/Assignment-2.md",
+    "draft.md",
+    "College/yearTwo/firstTerm/C++/Assignments",
     "College/yearTwo/firstTerm/DigitalEngineering/task-3.md",
+    "test 1 1.md",
+    "SUB.md",
+    "SUM.md",
+    "College/yearTwo/firstTerm/DigitalEngineering/figure-2.png",
     "College/yearTwo/firstTerm/DigitalEngineering/figure-1.png",
     "College/yearTwo/firstTerm/DigitalEngineering/tasks/sed1yQ857",
     "College/yearTwo/firstTerm/DigitalEngineering/figure.png",
-    "SUM.md",
-    "test 1 1.md",
     "College/draft.md",
-    "draft.md",
     "College/index.md",
     "College/yearTwo/firstTerm/OS/Assignments/Assignment-2-normal.md",
     "College/yearTwo/firstTerm/OS/Assignments/Assignment-2.md",
@@ -211,14 +219,8 @@
     "College/yearTwo/firstTerm/Linux/Assignments/file.txt4XI7DY.bck",
     "College/yearTwo/firstTerm/Linux/Assignments/file.txt",
     "College/yearTwo/firstTerm/Linux/Assignments/sed3RkUgF",
-    "College/yearTwo/firstTerm/Linux/Assignments/sedseefQ8",
     "College/yearTwo/firstTerm/Linux/Assignments/figure-8.png",
     "College/yearTwo/firstTerm/Linux/Assignments/figure-7.png",
-    "College/yearTwo/firstTerm/Linux/Assignments/figure-6.png",
-    "College/yearTwo/firstTerm/Linux/Assignments/figure-5.png",
-    "College/yearTwo/firstTerm/Linux/Assignments/figure-4.png",
-    "College/yearTwo/firstTerm/Linux/Assignments/figure-3.png",
-    "College/yearTwo/firstTerm/Linux/Assignments/figure-2.png",
     "College/yearTwo/firstTerm/C++/tasks/task-3.md",
     "College/yearOne/firstTerm/Python/Assignments/AssignmentTwo.md",
     "College/yearOne/firstTerm/Python/Assignments/AssignmentOne.md",
@@ -230,8 +232,6 @@
     "College/yearOne/secondTerm/MS-Office/Assignments/AssignmentTwo.md",
     "index.md",
     "College/yearTwo/firstTerm/C++/tasks/task-4-draft.md",
-    "College/yearTwo/firstTerm/C++/tasks/task-5.md",
-    "College/yearTwo/firstTerm/WebDevelopment/Lectures/Lecture-6.md",
-    "College/yearTwo/firstTerm/WebDevelopment/Lectures/Lecture-5.md"
+    "College/yearTwo/firstTerm/C++/tasks/task-5.md"
   ]
 }

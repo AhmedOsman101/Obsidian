@@ -975,6 +975,8 @@ PHw
 Pbj
 Pur
 PQt
+Parameterized
+Professor
 IHDR
 IDATx
 IO
@@ -3170,6 +3172,8 @@ pawW
 pagW
 pWUwSQu
 pHrr
+periods
+persists
 sbf
 sPv
 sC
@@ -4403,6 +4407,8 @@ sYB
 spKT
 sSn
 sJk
+suit
+schedule
 ff
 fP
 fj
@@ -7501,6 +7507,7 @@ wqV
 wRq
 wgN
 wua
+weights
 BU
 Bh
 BC
@@ -9410,6 +9417,7 @@ MwP
 MOn
 MnxB
 Mpw
+Modularize
 Lj
 Lf
 LvVa
@@ -11442,6 +11450,7 @@ aZt
 aQU
 auJ
 aYD
+attendance
 Te
 Tn
 TA
@@ -15740,6 +15749,9 @@ rjwL
 raK
 rpq
 rSn
+resize
+returning
+resizable
 eiO
 es
 ee
@@ -19652,6 +19664,7 @@ SSN
 Stw
 Srs
 SOe
+SIS
 iH
 ic
 iP
@@ -21668,6 +21681,7 @@ tBU
 tLM
 tNG
 tzD
+transcripts
 nm
 nv
 nhuK
@@ -25747,6 +25761,7 @@ baJL
 bHe
 bZe
 bVP
+blueprints
 Nb
 NJu
 Nbsa
@@ -32686,6 +32701,7 @@ mvX
 mpA
 mXA
 mLe
+mixed
 Ck
 CS
 Cm
@@ -36018,6 +36034,7 @@ cnZ
 cLs
 cgO
 cIL
+catalog
 Hu
 Hg
 HiL
@@ -36908,6 +36925,9 @@ HFz
 HAWqJGnR
 HGTg
 HQy
+Homogeneous
+Heterogeneous
+Heap
 hh
 hLR
 hI
@@ -37809,6 +37829,7 @@ hkQ
 hTm
 hRMX
 hiX
+heap
 Xi
 XZ
 Xn

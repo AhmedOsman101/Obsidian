@@ -2,14 +2,10 @@
 
 The HTML `<form>` element creates a form for user input and acts as a container for input elements like text fields, checkboxes, radio buttons, and submit buttons. The `<input>` element is the most common form element.
 
----
-
 ## HTML Input Types
 
 The `<input>` element allows users to enter data.  
 Its appearance and behavior depend on the `type` attribute.
-
----
 
 ## Input Type: `text`
 
@@ -21,8 +17,6 @@ Used for short, single-line text input (like names or usernames).
 ```
 
 ![text input preview](figure-1.png)
-
----
 
 ## Input Type: `radio`
 
@@ -38,8 +32,6 @@ Multiple radio inputs share the same `name` value.
 
 ![radio buttons preview](figure-2.png)
 
----
-
 ## Input Type: `checkbox`
 
 Allows users to select **multiple options** independently.
@@ -54,8 +46,6 @@ Allows users to select **multiple options** independently.
 
 ![checkboxes preview](figure-3.png)
 
----
-
 ## Input Type: `checked`
 
 The `checked` attribute sets the default selected state for
@@ -67,8 +57,6 @@ The `checked` attribute sets the default selected state for
 ```
 
 ![](figure-4.png)
-
----
 
 ## Input Type: `submit`
 
@@ -83,8 +71,6 @@ Creates a button that sends the form data to the server.
 
 ![](figure-5.png)
 
----
-
 ## Input Type: `button`
 
 Defines a generic button that performs no default action
@@ -95,8 +81,6 @@ unless controlled by JavaScript.
 ```
 
 ![](figure-6.png)
-
----
 
 ## Combining Multiple Inputs
 
@@ -114,14 +98,10 @@ Forms often use different input types together for richer interactivity.
 
 ![](figure-7.png)
 
----
-
 ## Common Input Attributes
 
 Input attributes define how an input behaves, its default value,  
 and how it interacts with forms and users.
-
----
 
 ## The `value` Attribute
 
@@ -135,8 +115,6 @@ Specifies the default text or value pre-filled in an input.
 - The value is sent when the form is submitted.
 
 ![](figure-8.png)
-
----
 
 ## The `name` Attribute
 
@@ -153,8 +131,6 @@ Defines a key under which the input's value is sent in a form submission.
 - Without `name`, the input data won't be included in the request.
 
 ![](figure-9.png)
-
----
 
 ## The `required` Attribute
 
@@ -173,8 +149,6 @@ Makes an input field mandatory before submission.
 
 ![](figure-10.png)
 
----
-
 ## The `placeholder` Attribute
 
 Displays hint text inside the input field until the user types something.
@@ -187,8 +161,6 @@ Displays hint text inside the input field until the user types something.
 - It should **not** replace the label for accessibility reasons.
 
 ![](figure-11.png)
-
----
 
 ## Input Type: `password`
 
@@ -205,8 +177,6 @@ Used to enter hidden or sensitive data like passwords.
 - The value is still accessible to the browser and submitted normally.
 
 ![](figure-12.png)
-
----
 
 ## Combining Attributes
 
@@ -225,8 +195,6 @@ Most attributes can be combined to enhance usability.
 - Always use attributes intentionally to improve UX and validation.
 - Avoid unnecessary defaults or hidden states.
 
----
-
 ## Input Type: `hidden`
 
 Used to store data that users don't see or edit.  
@@ -243,8 +211,6 @@ Commonly used for IDs, tokens, or metadata in forms.
 
 ![](figure-13.png)
 
----
-
 ## Input Type: `color`
 
 Provides a color picker for selecting colors.
@@ -258,8 +224,6 @@ Provides a color picker for selecting colors.
 - Supported by most modern browsers.
 
 ![](figure-14.png)
-
----
 
 ## Input Type: `reset`
 
@@ -278,8 +242,6 @@ Resets all inputs in a form to their initial values.
 
 ![](figure-15.png)
 
----
-
 ## Input Type: `range`
 
 Creates a slider control for numeric values within a defined range.
@@ -294,8 +256,6 @@ Creates a slider control for numeric values within a defined range.
 
 ![](figure-16.png)
 
----
-
 ## The `min` and `max` Attributes
 
 Define numeric or date limits for applicable input types.
@@ -308,8 +268,6 @@ Define numeric or date limits for applicable input types.
 - Works with `number`, `range`, `date`, and similar types.
 
 ![](figure-17.png)
-
----
 
 ## The `step` Attribute
 
@@ -324,8 +282,6 @@ Specifies the increment between allowed values.
 - Works well for sliders and numeric fields.
 
 ![](figure-18.png)
-
----
 
 ## Input Type: `number`
 
@@ -342,8 +298,6 @@ Includes built-in validation and increment controls.
 
 ![](figure-19.png)
 
----
-
 ## The `readonly` Attribute
 
 Makes an input uneditable but still selectable and submittable.
@@ -357,8 +311,6 @@ Makes an input uneditable but still selectable and submittable.
 
 ![](figure-20.png)
 
----
-
 ## The `disabled` Attribute
 
 Disables an input completely — it's not editable, focusable, or submitted.
@@ -371,8 +323,6 @@ Disables an input completely — it's not editable, focusable, or submitted.
 - Visually appears grayed out.
 
 ![](figure-21.png)
-
----
 
 ## The `autofocus` Attribute
 
@@ -388,8 +338,6 @@ Automatically focuses an input when the page loads.
 
 ![](figure-22.png)
 
----
-
 ## The `minlength` and `maxlength` Attributes
 
 Control the minimum and maximum number of characters for text inputs.
@@ -403,8 +351,6 @@ Control the minimum and maximum number of characters for text inputs.
 - Works with `text`, `password`, `email`, and similar types.
 
 ![](figure-23.png)
-
----
 
 ## Input Type: `file`
 
@@ -423,8 +369,6 @@ Allows users to upload files from their device.
 
 ![](figure-24.png)
 
----
-
 ## Input Type: `search`
 
 Optimized for entering search queries.
@@ -437,8 +381,6 @@ Optimized for entering search queries.
 - Semantically indicates a search field to browsers and screen readers.
 
 ![](figure-25.png)
-
----
 
 ## Input Type: `url`
 
@@ -454,8 +396,6 @@ Used for entering web addresses.
 
 ![](figure-26.png)
 
----
-
 ## Input Type: `date`
 
 Lets users pick a date from a calendar widget.
@@ -470,8 +410,6 @@ Lets users pick a date from a calendar widget.
 
 ![](figure-27.png)
 
----
-
 ## Input Type: `month`
 
 Allows selection of a specific month and year.
@@ -485,8 +423,6 @@ Allows selection of a specific month and year.
 - Useful for billing cycles, reports, and schedules.
 
 ![](figure-28.png)
-
----
 
 ## Combining Date and Month Inputs
 
@@ -505,8 +441,6 @@ They can work together for more precise data entry.
 
 ![](figure-29.png)
 
----
-
 ## Input Type: `time`
 
 Used for selecting a time of day (hours and minutes).
@@ -519,8 +453,6 @@ Used for selecting a time of day (hours and minutes).
 - Can use `min`, `max`, and `step` to control valid times.
 
 ![](figure-30.png)
-
----
 
 ## The `<select>` Element
 
@@ -539,8 +471,6 @@ Creates a dropdown menu for selecting one or more options.
 
 ![](figure-31.png)
 
----
-
 ## The `<option>` Element
 
 Defines the available choices inside a `<select>` element.
@@ -557,8 +487,6 @@ Defines the available choices inside a `<select>` element.
 - The text between `<option>` tags is what users see.
 
 ![option tag preview](figure-32.png)
-
----
 
 ## The `label` for `<select>`
 
@@ -578,8 +506,6 @@ Associates a label with a dropdown menu for better accessibility.
 
 ![label for select preview](figure-33.png)
 
----
-
 ## The `selected` Attribute
 
 Specifies which `<option>` is pre-selected by default.
@@ -597,8 +523,6 @@ Specifies which `<option>` is pre-selected by default.
 
 ![](figure-34.png)
 
----
-
 ## The `<textarea>` Element
 
 Allows multi-line text input for messages, comments, or descriptions.
@@ -612,8 +536,6 @@ Allows multi-line text input for messages, comments, or descriptions.
 - Text entered appears as plain text between the tags.
 
 ![](figure-35.png)
-
----
 
 ## `cols` and `rows` Attributes
 
@@ -633,8 +555,6 @@ Define the visible width and height of a `<textarea>`.
 - The size can also be styled with CSS.
 
 ![](figure-36.png)
-
----
 
 ## Tasks
 

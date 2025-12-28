@@ -2,8 +2,6 @@
 
 # Question (1)
 
----
-
 ## Question (1-a)
 
 **Write a program to print the value of the address of the pointer to a variable whose value is input from user.**
@@ -24,8 +22,6 @@ int main() {
   return 0;
 }
 ```
-
----
 
 ## Question (1-b)
 
@@ -48,8 +44,6 @@ int main() {
 }
 ```
 
----
-
 ## Question (1-c)
 
 **Write a function which will take pointer and display the number on screen. Take number from user and print it on screen using that function.**
@@ -70,8 +64,6 @@ int main() {
   return 0;
 }
 ```
-
----
 
 ## Question (1-d)
 
@@ -106,8 +98,6 @@ int main() {
 
 # Question (2)
 
----
-
 ## Question (2-a)
 
 Given the string "A string." Print on one line the letter on the index 0, the pointer position and the letter t. undate the pointer to pointer +2. Then, in another line print the pointer and the letters r and g of the string (using the pointer).
@@ -126,8 +116,6 @@ int main() {
   return 0;
 }
 ```
-
----
 
 ## Question (2-b)
 
@@ -161,8 +149,6 @@ int main() {
 }
 ```
 
----
-
 ## Question (2-c)
 
 **Print size of different data types using pointers**
@@ -185,8 +171,6 @@ int main() {
   return 0;
 }
 ```
-
----
 
 ## Question (2-d)
 
@@ -230,15 +214,15 @@ int main() {
 129, a
 ```
 
-### B) 
+### B)
 
 ![](figure-6.png)
 
 Error: Incrementing a read-only variable.
 
 ```
-file.cpp: In function ‘int main()’:
-file.cpp:9:4: error: increment of read-only location ‘*(const int*)ptr’
+file.cpp: In function 'int main()':
+file.cpp:9:4: error: increment of read-only location '*(const int*)ptr'
     9 |   (*ptr)++;
       |   ~^~~~~
 ```
@@ -259,7 +243,6 @@ file.cpp:9:4: error: increment of read-only location ‘*(const int*)ptr’
 14
 ```
 
-
 ### E)
 
 ![](figure-8.png)
@@ -267,17 +250,16 @@ file.cpp:9:4: error: increment of read-only location ‘*(const int*)ptr’
 Error: Declaration of reference variable requires an initializer
 
 ```
-file.cpp: In function ‘int main()’:
-file.cpp:6:21: error: ‘ra’ declared as reference but not initialized
+file.cpp: In function 'int main()':
+file.cpp:6:21: error: 'ra' declared as reference but not initialized
     6 |   int a = 10, *pa, &ra;
       |                     ^~
 ```
 
-### F) 
+### F)
 
 ![](figure-9.png)
 
-
 ```
-10, 20, 30, 40, 50, 
+10, 20, 30, 40, 50,
 ```

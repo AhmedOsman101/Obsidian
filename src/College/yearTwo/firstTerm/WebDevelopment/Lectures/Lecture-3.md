@@ -20,8 +20,6 @@
 <h6>Heading 6</h6>
 ```
 
----
-
 ## Paragraphs
 
 - Use `<p>...</p>` to define paragraphs.
@@ -38,8 +36,6 @@
 <p>Paragraph 2...</p>
 ```
 
----
-
 ## Line Breaks (`<br>`)
 
 - `<br>` creates a single line break.
@@ -51,8 +47,6 @@
 ```html
 <p>Paragraph 1,<br />Line 2<br />Line 3</p>
 ```
-
----
 
 ## Horizontal Rule (`<hr>`)
 
@@ -74,8 +68,6 @@
 ```html
 <hr size="4" color="#0000FF" width="80%" align="center" />
 ```
-
----
 
 ## Character Formatting
 
@@ -104,8 +96,6 @@ Enhances page readability and appearance.
 - `color`: Named or hex code
 - `face`: Font family
 
----
-
 ## Text Alignment
 
 - The `align` attribute can be used with `<p>` or heading tags.
@@ -116,8 +106,6 @@ Enhances page readability and appearance.
 ```html
 <h1 align="center">The New York Times</h1>
 ```
-
----
 
 ## Comments
 
@@ -130,15 +118,11 @@ Enhances page readability and appearance.
 <!-- This is a comment -->
 ```
 
----
-
 ## The `<blink>` Tag (Deprecated)
 
 - Makes text blink: `<blink>Text</blink>`
 - **Not supported** in most modern browsers.
 - Avoid using — it's distracting and non-standard.
-
----
 
 ## Page Formatting
 
@@ -156,8 +140,6 @@ Enhances page readability and appearance.
   Page content here.
 </body>
 ```
-
----
 
 ## Inserting Images
 
@@ -181,8 +163,6 @@ Use the `<img>` tag:
 ```html
 <img src="satellite.jpg" alt="Picture of satellite" />
 ```
-
----
 
 ## Hyperlinks
 
@@ -212,8 +192,6 @@ Defined in `<body>` tag:
 | `link`    | Unvisited link color        | Blue       |
 | `vlink`   | Visited link color          | Purple     |
 | `alink`   | Active (clicked) link color | Red/Yellow |
-
----
 
 ## Anchors
 

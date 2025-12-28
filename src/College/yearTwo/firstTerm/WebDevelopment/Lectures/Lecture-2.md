@@ -10,8 +10,6 @@
 
 - The title should be **descriptive and keyword-rich** for better SEO visibility.
 
----
-
 ## Setting Document Properties
 
 - Document appearance is controlled via **attributes of the `<body>` tag**.
@@ -19,8 +17,6 @@
   - Page background color
   - Text color
   - Link colors (normal, visited, active states)
-
----
 
 ## Color Codes
 
@@ -54,8 +50,6 @@
 | Copper            | `#B87333` |
 | Pink              | `#FF6EC7` |
 | Orange            | `#FF7F00` |
-
----
 
 ## The `<body>` Element
 
@@ -118,8 +112,6 @@ Example:
 <body background="hi.gif" bgcolor="#FFFFFF"></body>
 ```
 
----
-
 ## Text Formatting in HTML
 
 Text formatting requires explicit HTML tags—**WYSIWYG doesn't apply** directly.
@@ -131,8 +123,6 @@ Text formatting requires explicit HTML tags—**WYSIWYG doesn't apply** directly
 | `<u>`  | Underlined text |
 | `<p>`  | New paragraph   |
 | `<br>` | Line break      |
-
----
 
 ## Changing the Font
 

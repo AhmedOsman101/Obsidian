@@ -9,8 +9,6 @@ HTML provides several types of lists to organize content:
 - **Definition lists (term/description pairs)**
 - **Nested lists (lists within lists)**
 
----
-
 ## Ordered Lists (`<ol>`)
 
 Used for **numbered sequences** of items.
@@ -66,8 +64,6 @@ Used for **numbered sequences** of items.
 **Output:**
 iii. Item one
 
----
-
 ## Unordered Lists (`<ul>`)
 
 Used for **bulleted** lists of items.
@@ -107,8 +103,6 @@ Used for **bulleted** lists of items.
 </ul>
 ```
 
----
-
 ## Definition Lists (`<dl>`)
 
 Used for defining **terms and descriptions** (like glossaries).
@@ -132,8 +126,6 @@ Used for defining **terms and descriptions** (like glossaries).
   <dt>CSS</dt>
   <dd>Cascading Style Sheets</dd>
 </dl>
-
----
 
 ## Nested Lists
 
@@ -163,8 +155,6 @@ Lists can be **nested** by placing one list inside another `<li>`.
   2. Nested item 2
 
 - List item 3
-
----
 
 ## Complex Example
 

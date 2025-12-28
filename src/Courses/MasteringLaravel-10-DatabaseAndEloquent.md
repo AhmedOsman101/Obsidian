@@ -106,8 +106,6 @@ $table->dropSoftDeletes(); // Drop the `deleted_at` column.
 $table->dropTimestamps(); // Drop the `created_at` and `updated_at` columns.
 ```
 
----
-
 ## Factories & Seeders:
 
 **Note:** Utilize seeders for crucial and necessary data, whereas factories should be used for generating fake data for testing purposes.
@@ -154,8 +152,6 @@ $data->each(function ($item) { // Loop over the collection with the callback
     ]);
 });
 ```
-
----
 
 ## Query Builder:
 
@@ -299,8 +295,6 @@ $q->incrementEach(['age' => 2, 'revenue' => 50]);
 // Increment the given column's values by the given amounts.
 ```
 
----
-
 ## Collections:
 
 `Collection` class provides a fluent, convenient wrapper for working with arrays of data. the `Collection` class allows you to chain its methods to perform fluent mapping and reducing of the underlying array. In general, collections are immutable, meaning every `Collection` method returns an entirely new `Collection` instance.
@@ -321,8 +315,6 @@ $collection->each(function (int $item, int $key) {
 	// actual functionality...
 });
 ```
-
----
 
 ## Miscellaneous:
 

@@ -19,8 +19,6 @@
 - Text areas
 - Submit and reset buttons
 
----
-
 ## The `<form>` Tag
 
 - Defines the form shell.
@@ -36,8 +34,6 @@ Example:
 </form>
 ```
 
----
-
 ## Text Boxes
 
 ```html
@@ -51,8 +47,6 @@ Example:
 - `size`: Width in characters.
 - `maxlength`: Maximum number of characters allowed.
 
----
-
 ## Text Areas
 
 ```html
@@ -63,8 +57,6 @@ Example:
 - `cols`: Width in characters.
 - `wrap`: Enables text wrapping.
 
----
-
 ## Radio Buttons
 
 ```html
@@ -74,8 +66,6 @@ Example:
 - All radio buttons in the same group must have the same `name`.
 - Only one can be selected at a time.
 
----
-
 ## Checkboxes
 
 ```html
@@ -84,8 +74,6 @@ Example:
 
 - Multiple checkboxes can be selected.
 - Use the same `name` to group them.
-
----
 
 ## Drop-down Menus
 
@@ -98,8 +86,6 @@ Example:
 - `size`: Height in lines.
 - `multiple`: Allows multiple selections.
 
----
-
 ## Submit Button
 
 ```html
@@ -109,8 +95,6 @@ Example:
 - Sends form data to the server.
 - Use `value` to customize the button text.
 
----
-
 ## Reset Button
 
 ```html
@@ -119,8 +103,6 @@ Example:
 
 - Clears all form fields.
 - Use `value` to customize the button text.
-
----
 
 ## Key Points
 

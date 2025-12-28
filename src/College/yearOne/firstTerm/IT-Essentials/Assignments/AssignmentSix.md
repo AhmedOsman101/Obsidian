@@ -23,8 +23,6 @@ next:
 ![](../imgs/taskSix3.png)
 ![](../imgs/taskSix4.png)
 
----
-
 ## Step 2: Create the "AdminUser" Account with Administrative Rights
 
 1. Under the **Other users** section, click **Add account**.

@@ -386,8 +386,6 @@ next: false
 ![](imgs/2024-12-20-18-13-09.png)
 ![](imgs/2024-12-20-18-44-09.png)
 
----
-
 ## Task No.02
 
 #### Q6: What are the basic functions of Operating system?

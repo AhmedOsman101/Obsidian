@@ -189,9 +189,6 @@ A **report** in Access presents data from tables/queries in a formatted, often p
 
 ### D1: Develop a program that can be used to solve a real-world problem using all the skills you have learned in MS-Access and mention in Task1 (all P and M)
 
-\[Team Project\]
-
----
 
 ## Task 2
 
@@ -270,4 +267,3 @@ A **report** in Access presents data from tables/queries in a formatted, often p
 
 ### D1: Design an impressive presentation to showcase the database project you developed using all the skills mentioned in all the previous tasks
 
-\[Team Project Presentation\]

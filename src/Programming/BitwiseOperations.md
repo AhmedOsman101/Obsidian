@@ -52,8 +52,6 @@ console.log(isEven(4)); // true (4 is even)
 console.log(isEven(5)); // false (5 is odd)
 ```
 
----
-
 ## 2. Checking if a Number is a Power of Two
 
 The function `isPowerOfTwo` checks whether a number `x` is a power of two using
@@ -102,8 +100,6 @@ console.log(isPowerOfTwo(8)); // true (8 is 2**3)
 console.log(isPowerOfTwo(5)); // false (5 is not a power of two)
 console.log(isPowerOfTwo(0)); // false (0 is not a power of two)
 ```
-
----
 
 ## 3. Accessing and Manipulating the $n^{th}$ Bit
 
@@ -207,8 +203,6 @@ console.log(unsetBit(x, 2).toString(2)); // Output: 1000 (unsets the second bit)
 console.log(unsetBit(x, 3).toString(2)); // Output: 1010 (no change, bit already unset)
 ```
 
----
-
 ## 4. Calculating the Bit Length of a Number
 
 The function `bitLen` calculates the number of bits required to represent a
@@ -266,8 +260,6 @@ The function returns `4`, which is the correct number of bits for `10` (binary
 - The loop continues until all bits are removed (`n = 0`), ensuring all bits are counted.
 - This method works for any positive integer and is efficient for bit-length calculation.
 
----
-
 ## 5. Multiplying a Number by $2^n$ Using Left Shifts
 
 The operation of multiplying a number `x` by $2^n$ can be efficiently performed
@@ -300,8 +292,6 @@ const multiplyByPowerOfTwo = (x: number, n: number): number => x << n;
 console.log(multiplyByPowerOfTwo(5, 3)); // 40 (5 * 2^3)
 console.log(multiplyByPowerOfTwo(10, 2)); // 40 (10 * 2^2)
 ```
-
----
 
 ## 6. Dividing a Number by $2^n$ Using Right Shifts
 
@@ -365,8 +355,6 @@ console.log(divideByPowerOfTwo(10, 1)); // 5 (10 / 2^1)
 
 3. **Large Shifts**:
    - Shifting beyond the bit length of the number results in `0` for positive numbers.
-
----
 
 ## 7. Finding the Unique Number in an Array Using XOR
 
@@ -436,8 +424,6 @@ console.log(getUnique(arr2)); // 5 (5 is the unique number)
 
 3. **Empty array**:
    - If the array is empty, the result will be `0`, since we initialize the accumulator to `0`.
-
----
 
 ## Example with Explanation:
 

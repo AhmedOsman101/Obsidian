@@ -170,8 +170,6 @@ Here are three prominent open-source cloud tools:
 
 **Comparison**: OpenStack excels in flexibility but requires expertise. CloudStack is simpler but less versatile. Eucalyptus suits AWS users but lacks breadth. For SmartTech's IoT needs, OpenStack might be ideal for scalability, despite its complexity.
 
----
-
 ## Task 2
 
 ### Q6: Explain Types of Big Data and Big Data Job Roles

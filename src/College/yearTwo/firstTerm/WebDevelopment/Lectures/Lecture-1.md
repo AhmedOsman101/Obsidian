@@ -5,8 +5,6 @@
 A **website** is a collection of related web pages, images, videos, or other digital assets accessible via a **URL** (domain name or IP).
 It's hosted on at least one **web server**, accessible through the Internet or a local network.
 
----
-
 ## Categories of Websites
 
 - **Personal Websites**
@@ -14,15 +12,11 @@ It's hosted on at least one **web server**, accessible through the Internet or a
 - **Organizational Websites** (government or non-profit)
 - **Entertainment Websites**
 
----
-
 ## Static Pages
 
 - Content served directly from the server's file system
 - Often built using **Server Side Includes (SSI)** or **CGI**
 - Layout managed with **frames** and **tables**
-
----
 
 ## Web 2.0
 
@@ -52,8 +46,6 @@ Also called **Library 2.0**, this era of the web focuses on **user-centered cont
 4. **APIs** – allow software-based interaction with services.
 5. **Broad accessibility** – caters to a wider variety of users.
 
----
-
 ## Web 3.0 (Semantic Web)
 
 Also known as the **Semantic Web**, Web 3.0 enables machines to **understand context and meaning** rather than just matching keywords.
@@ -77,8 +69,6 @@ Also known as the **Semantic Web**, Web 3.0 enables machines to **understand con
 4. **Data linking and interoperability**
 5. **Natural, human-like query processing**
 
----
-
 ## Types of Websites
 
 | Type                | Description                                                                                                                    |
@@ -86,16 +76,12 @@ Also known as the **Semantic Web**, Web 3.0 enables machines to **understand con
 | **Static Website**  | Displays the same pre-defined content for all users. Content is stored in HTML files (.htm/.html) and updated manually.        |
 | **Dynamic Website** | Content updates automatically from a database or external source each time the page loads (e.g., real-time seat availability). |
 
----
-
 ## Protocols
 
 - **HTTP** – HyperText Transfer Protocol
 - **HTTPS** – Secure HTTP
 - **FTTP** – File Transfer Protocol
 - **SSL** – Secure Sockets Layer
-
----
 
 ## Web Server
 
@@ -113,13 +99,9 @@ A **Web Server** is a computer that hosts and serves web content.
 - **Intranet Server:** Serves internal users within an organization.
 - **Internet Server:** Serves external/public users.
 
----
-
 ## HTML (HyperText Markup Language)
 
 The core language for creating web pages that include **text**, **graphics**, **audio**, and **video**.
-
----
 
 ## HTML Tags
 
@@ -136,8 +118,6 @@ When tags are nested, **close the inner tag first**:
 <h1><i>The Nation</i></h1>
 ```
 
----
-
 ## Structure of a Web Page
 
 All web pages follow a common structure:
@@ -152,8 +132,6 @@ All web pages follow a common structure:
   </body>
 </html>
 ```
-
----
 
 ## The `<title>` Tag
 

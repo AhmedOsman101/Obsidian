@@ -96,7 +96,7 @@ To evaluate and compare scheduling algorithms, several standard criteria are use
 
 - **Concept:** This algorithm schedules the process with the shortest estimated next CPU burst. It can be implemented as non-preemptive or preemptive.
 - **Optimality:** SJF is provably optimal as it gives the minimum possible average waiting time for a given set of processes.
-- **Challenge:** The primary difficulty is predicting the length of the next CPU burst. This is often done using exponential averaging of previous burst times with the formula: **τ_n+1 = α _ t_n + (1 − α) _ τ_n** (where τ is the predicted time, t is the actual time, and α is a weighting factor).
+- **Challenge:** The primary difficulty is predicting the length of the next CPU burst. This is often done using exponential averaging of previous burst times with the formula: $\tau_{n+1} = \alpha t_n + (1 - \alpha)\tau_n$ (where $\tau$ is the predicted time, $t$ is the actual time, and $\alpha$ is a weighting factor).
 - **Pros:**
   - Provably optimal in minimizing average waiting time.
 - **Cons:**

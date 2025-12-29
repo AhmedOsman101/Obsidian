@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "Lecture-7",
+      "path": "College/yearTwo/firstTerm/DB/Summaries/Lecture-7.md"
+    },
+    {
+      "basename": "Lecture-5",
+      "path": "College/yearTwo/firstTerm/DB/Summaries/Lecture-5.md"
+    },
+    {
+      "basename": "Lecture-5",
+      "path": "College/yearTwo/firstTerm/DB/Lectures/Lecture-5.md"
+    },
+    {
+      "basename": "Lecture-7",
+      "path": "College/yearTwo/firstTerm/DB/Lectures/Lecture-7.md"
+    },
+    {
+      "basename": "Lecture-1",
+      "path": "College/yearTwo/firstTerm/DB/Lectures/Lecture-1.md"
+    },
+    {
+      "basename": "Lecture-2",
+      "path": "College/yearTwo/firstTerm/DB/Lectures/Lecture-2.md"
+    },
+    {
+      "basename": "Lecture-3",
+      "path": "College/yearTwo/firstTerm/DB/Lectures/Lecture-3.md"
+    },
+    {
+      "basename": "Lecture-4",
+      "path": "College/yearTwo/firstTerm/DB/Lectures/Lecture-4.md"
+    },
+    {
       "basename": "Lecture-4",
       "path": "College/yearTwo/firstTerm/OS/Lectures/Lecture-4.md"
     },
@@ -133,18 +165,6 @@
       "path": "College/yearTwo/firstTerm/C++/tasks/task-5.md"
     },
     {
-      "basename": "Lecture-4",
-      "path": "College/yearTwo/firstTerm/DB/Lectures/Lecture-4.md"
-    },
-    {
-      "basename": "Lecture-3",
-      "path": "College/yearTwo/firstTerm/DB/Lectures/Lecture-3.md"
-    },
-    {
-      "basename": "Lecture-2",
-      "path": "College/yearTwo/firstTerm/DB/Lectures/Lecture-2.md"
-    },
-    {
       "basename": "awk",
       "path": "Programming/LinuxNotes/awk.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "Lecture-1",
       "path": "College/yearTwo/firstTerm/Linux/Lectures/Lecture-1.md"
-    },
-    {
-      "basename": "Lecture-3",
-      "path": "College/yearTwo/firstTerm/C++/Lectures/Lecture-3.md"
-    },
-    {
-      "basename": "Lecture-2",
-      "path": "College/yearTwo/firstTerm/C++/Lectures/Lecture-2.md"
-    },
-    {
-      "basename": "Lecture-1",
-      "path": "College/yearTwo/firstTerm/C++/Lectures/Lecture-1.md"
-    },
-    {
-      "basename": "Lecture-4_1",
-      "path": "College/yearTwo/firstTerm/OS/Lectures/Lecture-4_1.md"
-    },
-    {
-      "basename": "Lecture-4_2",
-      "path": "College/yearTwo/firstTerm/OS/Lectures/Lecture-4_2.md"
     }
   ],
   "omittedPaths": [],

@@ -154,5 +154,5 @@ Example: Binary `0001 1010 1101` -> Hexadecimal `1AD`.
 - **Decimal**: Base-10 system, standard in everyday life.
 - **Hexadecimal**: Base-16, using `0~9` and `A~F`, used in IPv6 and MAC addresses.
 - **Conversions**:
-  - **Binary ↔ Decimal ↔ Hexadecimal**: Often requires intermediate binary representation.
-  - **Decimal ↔ Octal ↔ Hexadecimal**: Follow division methods or positional notation.
+  - **Binary <-> Decimal <-> Hexadecimal**: Often requires intermediate binary representation.
+  - **Decimal <-> Octal <-> Hexadecimal**: Follow division methods or positional notation.

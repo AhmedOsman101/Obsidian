@@ -35,7 +35,7 @@ const vitePressOptions: UserConfig = {
       level: [2, 4],
     },
     footer: {
-      copyright: `Copyright © 2024-present <a href="https://github.com/AhmedOsman101">Ahmad Othman</a>`,
+      copyright: `Copyright (c) 2024-${new Date().getFullYear()} <a href="https://github.com/AhmedOsman101">Ahmad Othman</a>`,
     },
     lastUpdated: {
       text: "Last updated",
@@ -88,6 +88,9 @@ const vitePressOptions: UserConfig = {
         ext: ".gz",
       }),
     ],
+    server: {
+      host: true,
+    },
   },
 };
 

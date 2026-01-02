@@ -132,10 +132,10 @@ https://youtube.com/playlist?list=PLqPgC1TA0L1moyG1SsYV2tilN6Cttf7My&si=ca6qnkqh
 - **Bit**: Smallest data unit (1 or 0).
 - **Byte**: 8 bits, used to measure file and program sizes.
 - **Prefixes**:
-  - Kilobyte (KB): 2^10 bytes (1024 bytes).
-  - Megabyte (MB): 2^20 bytes (1024 KB).
-  - Gigabyte (GB): 2^30 bytes (1024 MB).
-  - Terabyte (TB): 2^40 bytes (1024 GB).
+  - Kilobyte (KB): $2^{10}$ bytes (1024 bytes).
+  - Megabyte (MB): $2^{20}$ bytes (1024 KB).
+  - Gigabyte (GB): $2^{30}$ bytes (1024 MB).
+  - Terabyte (TB): $2^{40}$ bytes (1024 GB).
   - Petabyte (PB), Exabyte (EB), Zettabyte (ZB), Yottabyte (YB) follow similarly.
 
 ## Storage Hierarchy

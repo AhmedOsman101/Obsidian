@@ -1,183 +1,227 @@
-# CPU Scheduling: An Exam-Ready Briefing
+# Lecture 4: CPU Scheduling
 
-## Executive Summary
+## 1. Fundamentals of CPU Scheduling
 
-This document provides a comprehensive overview of CPU scheduling, a fundamental concept in multiprogrammed operating systems responsible for determining which process utilizes the CPU. The core objective of scheduling is to optimize system performance by efficiently managing the execution order of processes from the ready queue. Scheduling decisions are broadly categorized as non-preemptive, where a process runs to completion or until it voluntarily releases the CPU, and preemptive, where the operating system can interrupt a running process to allocate the CPU to another, often higher-priority, task. Key performance metrics for evaluating scheduling algorithms include maximizing CPU utilization and throughput while minimizing turnaround time, waiting time, and response time.
+CPU scheduling is a fundamental concept in multiprogrammed operating systems. Its primary role is to determine which process gets to use the central processing unit (CPU) at any given time. In a system where multiple processes compete for CPU resources, scheduling is the essential mechanism that manages execution order to optimize overall system performance and efficiency. Without it, the CPU could not be effectively switched among processes, which is the basis of modern multitasking.
 
-The primary scheduling algorithms each present distinct trade-offs. First-Come, First-Served (FCFS) is simple but can lead to the convoy effect, where short processes are delayed by long ones. Shortest Job First (SJF) is provably optimal for minimizing average waiting time but suffers from the practical difficulty of predicting future CPU burst lengths and the risk of starvation for long processes. Its preemptive version, Shortest Remaining Time First (SRTF), improves responsiveness further. Priority Scheduling assigns a priority to each process but also risks starving low-priority tasks, a problem mitigated by aging. Round Robin (RR) provides fairness by giving each process a fixed time quantum, making it ideal for time-sharing systems, though its performance is highly sensitive to the quantum size and context-switching overhead. More advanced strategies like Multilevel Queue and Multilevel Feedback Queue scheduling offer greater flexibility by segmenting the ready queue and allowing processes to move between queues based on their behavior.
+A process's execution is characterized by an alternating cycle of two distinct states, or "bursts":
 
-## Thematic Breakdown
+- **CPU Burst:** This is the phase where the process is actively executing instructions on the CPU.
+- **I/O Burst:** This is the phase where the process is waiting for an I/O operation to complete, such as reading from a disk or receiving data from a network.
 
-### 1. Core Concepts of CPU Scheduling
+The responsibility of selecting the next process to run falls to the **Short-Term Scheduler**. This component of the operating system examines the processes residing in the ready queue and allocates the CPU to one of them based on a specific scheduling algorithm.
 
-CPU scheduling is the basis for multiprogramming, enabling the operating system to switch the CPU among multiple processes to increase efficiency and interactivity.
+CPU scheduling decisions are triggered by one of four specific events in a process's lifecycle. These events are critical as they determine whether the scheduling decision is a forced choice (non-preemptive) or one that allows for interruption (preemptive).
 
-#### The Process Execution Cycle
+- **Non-Preemptive Triggers (No choice):**
+  1. When a process switches from a **running** state to a **waiting** state (e.g., waiting for I/O).
+  2. When a process **terminates**.
+- **Preemptive Triggers (A choice exists):** 2. When a process switches from a **running** state to a **ready** state (e.g., due to an interrupt). 3. When a process switches from a **waiting** state to a **ready** state (e.g., I/O completion).
 
-A process's life cycle is an alternation between two states:
+These trigger points lead to two fundamental approaches to scheduling: non-preemptive and preemptive scheduling.
 
-- **CPU Burst:** The period when a process is actively executing on the CPU.
-- **I/O Burst:** The period when a process is waiting for an I/O operation to complete.
+## 2. Preemptive vs. Non-Preemptive Scheduling
 
-Execution begins with a CPU burst, followed by an I/O burst, then another CPU burst, and so on. The final CPU burst concludes with a system request to terminate the process.
+The choice between preemptive and non-preemptive scheduling represents a critical design decision in an operating system, fundamentally affecting system responsiveness and implementation complexity. This distinction centers on whether a running process can be forcibly interrupted by the operating system.
 
-#### The Short-Term Scheduler and Dispatcher
+### Preemptive Scheduling
 
-- The **Short-Term Scheduler** (or CPU scheduler) selects a process from the pool of processes in the ready queue and allocates the CPU to it.
-- The **Dispatcher** is the module that gives control of the CPU to the process selected by the short-term scheduler. This involves:
-  1. Switching context from the old process to the new one.
-  2. Switching to user mode.
-  3. Jumping to the proper location in the user program to restart its execution.
-- **Dispatch Latency** is the time it takes for the dispatcher to stop one process and start another. This represents the overhead of the scheduling process.
+In preemptive scheduling, the operating system can interrupt a process that is currently running and reallocate the CPU to a different process. This action, known as preemption, is typically triggered to serve a higher-priority process or to ensure fair distribution of CPU time among all processes. This model is more flexible and is crucial for providing good responsiveness in interactive systems, but it introduces complexities, especially when data is shared among processes or when an interrupt occurs during critical kernel activities.
 
-#### When Scheduling Occurs
+### Non-Preemptive Scheduling
 
-Scheduling decisions are made by the operating system when a process transitions between states:
+In non-preemptive scheduling, once a process is allocated the CPU, it retains control until it voluntarily releases it. A process gives up the CPU only when it either terminates or switches to a waiting state (for instance, to perform an I/O operation). This approach is simpler to implement but can lead to situations where short processes are stuck waiting behind a single long process.
 
-1.  **Running -> Waiting:** (e.g., waiting for I/O) - **Non-preemptive**
-2.  **Running -> Ready:** (e.g., an interrupt occurs) - **Preemptive**
-3.  **Waiting -> Ready:** (e.g., I/O completion) - **Preemptive**
-4.  **Terminates:** - **Non-preemptive**
+### Comparison of Scheduling Types
 
-When scheduling only occurs under conditions 1 and 4, the scheme is **non-preemptive**. If it can occur under all four conditions, it is **preemptive**.
+| Aspect              | Non-Preemptive                                      | Preemptive                                         |
+| ------------------- | --------------------------------------------------- | -------------------------------------------------- |
+| **CPU Allocation**  | Process keeps CPU until completion or I/O wait.     | CPU assigned for a limited time.                   |
+| **Interrupt**       | Process runs until it voluntarily releases the CPU. | Can interrupt a process at any time.               |
+| **Overhead**        | Low (No overhead of switching mid-execution).       | High (due to context switching).                   |
+| **Starvation**      | Possible if long jobs block short ones.             | Possible if high-priority tasks frequently arrive. |
+| **Synchronization** | Easier.                                             | Complex with shared data and kernel activities.    |
+| **Flexibility**     | None; cannot interrupt the current task.            | Flexible; can prioritize urgent processes.         |
+| **CPU Utilization** | Lower.                                              | Higher.                                            |
+| **Waiting Time**    | Higher.                                             | Lower.                                             |
+| **Response Time**   | Slower.                                             | Faster, but risk of race conditions.               |
+| **Examples**        | FCFS, Shortest Job First                            | Round Robin, Shortest Remaining Time First         |
 
-### 2. Preemptive vs. Non-Preemptive Scheduling
+### The Dispatcher and Dispatch Latency
 
-The distinction between preemptive and non-preemptive scheduling is a critical architectural choice that impacts system responsiveness, fairness, and complexity.
+Regardless of the scheduling type, the **Dispatcher** is the module that gives control of the CPU to the process selected by the short-term scheduler. This involves three key steps:
 
-- **Non-preemptive:** Once the CPU is allocated to a process, it cannot be taken away. The process keeps the CPU until it terminates or switches to the waiting state.
-- **Preemptive:** The CPU can interrupt a currently executing process and allocate it to a different one. This is crucial for ensuring responsiveness and fairness, especially for high-priority or interactive tasks.
+1. Performing a context switch.
+2. Switching the system from kernel mode to user mode.
+3. Jumping to the proper location in the user program to restart its execution.
 
-| Aspect              | Non-Preemptive                                                             | Preemptive                                                                     |
-| :------------------ | :------------------------------------------------------------------------- | :----------------------------------------------------------------------------- |
-| **CPU Allocation**  | Process retains the CPU until it completes its burst or waits for I/O.     | CPU is assigned for a limited time; can be interrupted.                        |
-| **Interrupts**      | Process runs until it voluntarily releases the CPU.                        | A running process can be interrupted at any time.                              |
-| **Overhead**        | Low (no overhead from switching mid-execution).                            | High (due to frequent context switching).                                      |
-| **Starvation**      | Possible if long jobs continuously occupy the CPU, blocking short ones.    | Possible if high-priority tasks arrive frequently, blocking low-priority ones. |
-| **Synchronization** | Easier, as data structures are not typically interrupted during updates.   | Complex, especially with shared data, risking race conditions.                 |
-| **Flexibility**     | Inflexible; cannot respond to urgent tasks until the current one finishes. | Flexible; can prioritize and execute urgent processes immediately.             |
-| **CPU Utilization** | Generally lower.                                                           | Generally higher.                                                              |
-| **Waiting Time**    | Higher on average.                                                         | Lower on average.                                                              |
-| **Response Time**   | Slower.                                                                    | Faster.                                                                        |
-| **Examples**        | FCFS, Non-preemptive SJF                                                   | Round Robin (RR), SRTF, Preemptive Priority                                    |
+The time it takes for the dispatcher to stop one process and start another is known as **Dispatch Latency**. Minimizing this latency is critical for overall system performance, especially in preemptive systems with frequent context switches.
 
-### 3. Performance Criteria and Metrics
+Understanding these scheduling types provides the foundation for evaluating their performance using a set of standardized criteria.
 
-To evaluate and compare scheduling algorithms, several standard criteria are used. The goal is to optimize these metrics according to system requirements.
+## 3. Performance Criteria and Metrics
 
-| Metric              | Description                                                                                           | Goal     |
-| :------------------ | :---------------------------------------------------------------------------------------------------- | :------- |
-| **CPU Utilization** | The percentage of time the CPU is busy executing processes.                                           | Maximize |
-| **Throughput**      | The number of processes completed per unit of time.                                                   | Maximize |
-| **Turnaround Time** | The total time from a process's submission to its completion.                                         | Minimize |
-| **Waiting Time**    | The total time a process spends waiting in the ready queue.                                           | Minimize |
-| **Response Time**   | The time from when a request is submitted until the first response is produced (not the full output). | Minimize |
+To compare different CPU scheduling algorithms effectively, a set of established performance criteria is used. These metrics provide a quantitative way to measure how well an algorithm meets its objectives, whether that is maximizing resource usage or minimizing wait times for users.
 
-#### Key Formulas for Calculation
+The five key scheduling criteria are:
 
-- **Turnaround Time = Completion Time − Arrival Time**
-- **Waiting Time = Turnaround Time − Burst Time**
-- **Throughput = Total Number of Processes / Total Completion Time**
+- **CPU Utilization:** This metric measures the percentage of time the CPU is busy executing processes. The goal is to **Maximize** CPU utilization.
+- **Throughput:** This is the number of processes completed per unit of time. The goal is to **Maximize** throughput.
+- **Turnaround Time:** This is the total time a process takes from its submission to its completion. The goal is to **Minimize** turnaround time.
+- **Waiting Time:** This is the total amount of time a process spends waiting in the ready queue. The goal is to **Minimize** waiting time.
+- **Response Time:** This is the time from when a request is submitted until the first response is produced (not the final output). This is particularly important for interactive systems. The goal is to **Minimize** response time.
 
-### 4. Core Scheduling Algorithms
+### Key Performance Formulas
 
-#### First-Come, First-Served (FCFS)
+To calculate these metrics, the following standard formulas are used:
 
-- **Concept:** A non-preemptive algorithm where processes are executed in the order they arrive. It is implemented with a simple FIFO (First-In, First-Out) queue.
-- **Key Issue:** The **Convoy Effect**, where a long, CPU-bound process can block many shorter, I/O-bound processes, leading to poor CPU and device utilization.
-- **Pros:**
-  - Simple to understand and implement.
-  - Inherently fair, as no process can starve.
-- **Cons:**
-  - Average waiting time is often high and highly variable.
-  - Inefficient for interactive or time-sharing systems.
+- **Turnaround Time** = Completion Time − Arrival Time
+- **Waiting Time** = Turnaround Time − Burst Time
+- **Throughput** = Total Processes / Total Completion Time
 
-#### Shortest Job First (SJF)
+These criteria and formulas provide the tools needed to analyze the specific algorithms designed to optimize them.
 
-- **Concept:** This algorithm schedules the process with the shortest estimated next CPU burst. It can be implemented as non-preemptive or preemptive.
-- **Optimality:** SJF is provably optimal as it gives the minimum possible average waiting time for a given set of processes.
-- **Challenge:** The primary difficulty is predicting the length of the next CPU burst. This is often done using exponential averaging of previous burst times with the formula: $\tau_{n+1} = \alpha t_n + (1 - \alpha)\tau_n$ (where $\tau$ is the predicted time, $t$ is the actual time, and $\alpha$ is a weighting factor).
-- **Pros:**
-  - Provably optimal in minimizing average waiting time.
-- **Cons:**
-  - Requires prediction of future burst times, which is difficult.
-  - Can lead to starvation for processes with long CPU bursts if shorter jobs are constantly arriving.
+## 4. Core Scheduling Algorithms
+
+Several core scheduling algorithms have been developed, each offering a different strategy for managing the ready queue. These algorithms come with unique performance trade-offs regarding efficiency, fairness, and complexity.
+
+### First-Come, First-Served (FCFS)
+
+#### Concept
+
+The First-Come, First-Served (FCFS) algorithm is the simplest scheduling policy. As its name implies, the process that requests the CPU first is allocated the CPU first. This is managed with a straightforward First-In, First-Out (FIFO) queue. When a process enters the ready queue, its Process Control Block (PCB) is linked to the tail of the queue.
+
+#### The Convoy Effect
+
+A significant drawback of FCFS is the **convoy effect**, where short processes get stuck waiting behind a long-running process, leading to high average waiting times.
+
+- **Example 1 (Poor Order):**
+  - Processes arrive in the order: P1 (Burst: 24), P2 (Burst: 3), P3 (Burst: 3).
+  - Waiting times are: P1=0, P2=24, P3=27.
+  - The average waiting time is (0 + 24 + 27) / 3 = **17**.
+- **Example 2 (Improved Order):**
+  - Processes arrive in the order: P2 (Burst: 3), P3 (Burst: 3), P1 (Burst: 24).
+  - Waiting times are: P2=0, P3=3, P1=6.
+  - The average waiting time is (0 + 3 + 6) / 3 = **3**.
+
+#### Advantages and Disadvantages
+
+| Advantages                                     | Disadvantages                                  |
+| ---------------------------------------------- | ---------------------------------------------- |
+| Easy to understand and implement.              | High average waiting time for short processes. |
+| Fair in the sense that it prevents starvation. | Poor CPU and device utilization.               |
+|                                                | It is troublesome for time-sharing systems.    |
+
+### Shortest Job First (SJF)
+
+#### Concept
+
+The Shortest Job First (SJF) algorithm associates each process with the length of its next CPU burst. When the CPU is free, it is allocated to the process with the shortest predicted burst time. SJF is considered **optimal** because it provides the minimum possible average waiting time for a given set of processes.
+
+#### The Challenge of Prediction
+
+The main difficulty with SJF is predicting the length of the next CPU burst. This is often done using exponential averaging of the process's previous burst times, calculated with the formula:
+
+`τ_n+1 = α*t_n + (1−α)*τ_n`
+
+Here, `t_n` is the actual length of the nth burst, `τ_n` is the predicted length of the nth burst, and `α` is a weighting factor.
+
+#### Disadvantages and Starvation
+
+The primary disadvantage of SJF is the risk of **starvation**. If a steady stream of short processes arrives, a long process may be indefinitely postponed and never get to execute.
 
 #### Shortest Remaining Time First (SRTF)
 
-- **Concept:** This is the preemptive version of SJF. If a new process arrives with a CPU burst shorter than the remaining time of the currently executing process, the scheduler preempts the current process and runs the new one.
-- **Pros:**
-  - Achieves a lower average waiting time than non-preemptive SJF.
-- **Cons:**
-  - Shares the same cons as SJF (burst time prediction, starvation).
-  - Incurs higher overhead due to more frequent context switching.
+Shortest Remaining Time First (SRTF) is the **preemptive** version of SJF. In SRTF, if a new process arrives with a CPU burst shorter than the remaining time of the currently executing process, the scheduler preempts the current process and allocates the CPU to the new, shorter process. While SRTF can achieve an even lower average waiting time, its primary disadvantages are the risk of starvation for longer jobs and the high overhead from excessive context switches.
 
-#### Priority Scheduling
+### Priority Scheduling
 
-- **Concept:** Each process is assigned a priority number. The CPU is allocated to the process with the highest priority (often represented by the smallest integer). This can be either preemptive or non-preemptive. SJF is a special case of priority scheduling where the priority is inversely proportional to the next CPU burst time.
-- **Key Issue:** Indefinite blocking or **starvation** of low-priority processes.
-- **Solution:** **Aging**, a technique where the priority of a process is gradually increased the longer it waits in the ready queue.
-- **Pros:**
-  - Provides flexibility to prioritize processes based on their importance.
-- **Cons:**
-  - Starvation is a significant risk without a mechanism like aging.
-  - Can be complex to manage priorities dynamically.
+#### Concept
 
-#### Round Robin (RR)
+Priority Scheduling assigns a priority number to each process. This algorithm can be either **preemptive** or **non-preemptive**. The CPU is allocated to the process with the highest priority (conventionally, the lowest integer represents the highest priority).
 
-- **Concept:** A preemptive algorithm designed for time-sharing systems. Each process is allocated a small, fixed unit of CPU time called a **time quantum** or **time slice** (typically 10-100 milliseconds). If the process is still running when the quantum expires, it is preempted and placed at the end of the ready queue.
-- **Performance:** Performance depends heavily on the size of the time quantum **q**:
-  - **Large q:** RR behaves like FCFS.
-  - **Small q:** Overhead from context switching can become excessive, degrading performance. A rule of thumb is that 80% of CPU bursts should be shorter than q.
-- **Pros:**
-  - Fair, as every process gets a share of the CPU.
-  - Avoids starvation.
-  - Provides better response time than many other algorithms.
-- **Cons:**
-  - Average turnaround time is often higher than in SJF.
-  - Performance is sensitive to the chosen quantum size.
+Notably, **SJF is a special case of priority scheduling**, where `priority = 1 / (next CPU burst time)`.
 
-### 5. Advanced Scheduling Strategies
+#### Issues and Solutions
 
-#### Multilevel Queue Scheduling
+The major problem with priority scheduling is **starvation**, where low-priority processes may never execute. A common solution to this problem is **aging**, a technique that gradually increases the priority of processes that have been waiting in the system for a long time.
 
-- **Concept:** The ready queue is partitioned into several separate queues. Processes are permanently assigned to one queue based on properties like memory size, priority, or process type (e.g., interactive vs. batch).
-- **Implementation:**
-  - Each queue has its own scheduling algorithm (e.g., RR for the foreground/interactive queue, FCFS for the background/batch queue).
-  - Scheduling must also occur between the queues, typically via:
-    - **Fixed Priority:** Serve all processes from the highest-priority queue first. This can lead to starvation.
-    - **Time Slice:** Each queue receives a certain percentage of the CPU time (e.g., 80% to foreground, 20% to background).
+### Round Robin (RR)
 
-#### Multilevel Feedback Queue Scheduling
+#### Concept
 
-- **Concept:** This is the most flexible but also most complex scheduling algorithm. It is similar to the multilevel queue, but it allows processes to move between queues.
-- **Functionality:**
-  - A process that uses too much CPU time can be **demoted** to a lower-priority queue.
-  - A process that waits too long in a low-priority queue can be **promoted** to a higher-priority queue (implementing aging).
-- **Parameters:** It is defined by several parameters, including the number of queues, the scheduling algorithm for each queue, the rules for promotion and demotion, and the rule for determining which queue a new process enters.
+Round Robin (RR) is designed especially for time-sharing systems. Each process is allocated a small, fixed unit of CPU time called a **time quantum (q)**, typically between 10 and 100 milliseconds. After a process has run for one time quantum, it is preempted and moved to the end of the ready queue.
 
-### 6. Evaluating Scheduling Algorithms
+#### Impact of Quantum Size
 
-Choosing the right algorithm requires a method for evaluating its performance under specific conditions.
+The performance of RR is highly dependent on the size of the time quantum:
 
-- **1. Deterministic Modeling:** An analytical method that takes a predetermined workload (a fixed set of processes and their burst times) and calculates the performance of each algorithm for that specific workload. It is simple and fast but only provides insights for the exact inputs used.
-- **2. Queueing Models:** The system is modeled as a network of servers and queues (e.g., CPU queue, I/O device queues). Using mathematical formulas and arrival/service rate distributions, one can calculate metrics like average queue length and waiting time. **Little's Formula (n = λ × W)** is a key component, relating the average queue length (n) to the arrival rate (λ) and average waiting time (W).
-- **3. Simulation:** A more flexible and accurate approach where a software model of the system is created. The simulation is driven by either randomly generated data or by **trace tapes**—real data recorded from actual systems. This allows for detailed analysis under a wide range of conditions.
-- **4. Implementation:** The most accurate method involves coding the algorithm and running it in a real operating system. However, this is costly, complex, and disruptive to users. The results are also highly dependent on the specific system environment and workload at the time of testing.
+- A **large quantum** makes RR behave like the FCFS algorithm.
+- A **very small quantum** results in high context-switching overhead, which can degrade overall system performance.
 
-## Quick Review Checklist
+#### Key Characteristics
 
-- **Scheduling Triggers:** Scheduling happens when a process switches: (1) running->waiting, (2) running->ready, (3) waiting->ready, or (4) terminates. Preemptive scheduling can act on all four; non-preemptive only on 1 and 4.
-- **Convoy Effect:** The core weakness of FCFS, where long processes block short ones.
-- **Starvation:** The core weakness of SJF and Priority scheduling, where low-priority or long jobs may never run.
-- **Aging:** The primary solution to starvation; it increases a process's priority over time.
-- **SJF Optimality:** SJF is theoretically optimal for minimizing average waiting time but is impractical due to the need to predict the future.
-- **SRTF:** The preemptive version of SJF.
-- **Time Quantum (q):** The central parameter of Round Robin (RR). Too large, it acts like FCFS. Too small, context-switch overhead dominates.
-- **Formulas to Memorize:**
-  - Turnaround Time = Completion Time - Arrival Time
-  - Waiting Time = Turnaround Time - Burst Time
-- **Multilevel Queues:**
-  - **Standard:** Processes are fixed in one queue.
-  - **Feedback:** Processes can move between queues (enables aging and behavior-based scheduling).
-- **Evaluation Trade-off:** Accuracy increases from Deterministic Modeling -> Queueing Models -> Simulation -> Implementation, but so does cost and complexity.
+The defining characteristic of Round Robin is its fairness. It ensures that every process gets a share of the CPU, which prevents starvation and provides good response times for interactive users.
+
+These core algorithms form the building blocks for more sophisticated scheduling strategies.
+
+## 5. Advanced Scheduling Algorithms
+
+Advanced scheduling algorithms address the limitations of simpler models by creating more complex queue structures. This allows the operating system to categorize processes and handle them with different policies, improving overall system performance and fairness.
+
+### Multilevel Queue Scheduling
+
+#### Structure
+
+In Multilevel Queue Scheduling, the ready queue is partitioned into several separate queues. Processes are permanently assigned to one queue upon entry, often based on their characteristics, such as being interactive (foreground) or batch (background). Each queue has its own scheduling algorithm. For example:
+
+- **Foreground Queue:** Round Robin (RR) for responsiveness.
+- **Background Queue:** First-Come, First-Served (FCFS) for batch processing.
+
+#### Scheduling Between Queues
+
+Scheduling must also occur _between_ the queues. Two common methods are:
+
+1. **Fixed Priority:** The scheduler serves all processes from a high-priority queue (e.g., foreground) before moving to a lower-priority queue (e.g., background). This approach carries a risk of starvation for the lower-priority queues.
+2. **Time Slice:** Each queue is allocated a certain percentage of the CPU time. For instance, the foreground queue might get 80% of the CPU time to schedule its processes with RR, while the background queue gets the remaining 20% to use with FCFS.
+
+### Multilevel Feedback Queue Scheduling
+
+#### Key Feature
+
+The Multilevel Feedback Queue Scheduling algorithm enhances the multilevel queue approach by allowing processes to **move between queues**. This is its defining feature. A process's queue assignment can change based on its CPU usage behavior.
+
+#### Preventing Starvation
+
+This ability for processes to move between queues provides a powerful mechanism for implementing **aging**. If a process waits too long in a lower-priority queue, it can be moved to a higher-priority queue to prevent starvation.
+
+#### Defining Parameters
+
+This algorithm is highly configurable. A concrete example helps illustrate how it works. Consider a system with three queues:
+
+- **Q0:** Round Robin with an 8-millisecond time quantum.
+- **Q1:** Round Robin with a 16-millisecond time quantum.
+- **Q2:** First-Come, First-Served (FCFS).
+
+A new process enters Q0. It gets 8ms of CPU time. If it doesn't finish, it's demoted to Q1. In Q1, it gets 16ms of CPU time. If it still doesn't complete, it's demoted to Q2, where it will run to completion under FCFS rules. This structure is defined by several parameters:
+
+- The number of queues.
+- The scheduling algorithm for each queue.
+- The method used to determine when to upgrade a process (promotion).
+- The method used to determine when to demote a process.
+- The rule that determines which queue a process will enter initially.
+
+Having explored these different algorithms, the final step is to understand how to evaluate which one is best suited for a particular system.
+
+## 6. Evaluating Scheduling Algorithms
+
+Choosing the most effective scheduling algorithm for a specific operating system or workload requires formal evaluation methods. These techniques help system designers analyze the performance of different algorithms under various conditions.
+
+The four primary evaluation methods are:
+
+- **Deterministic Modeling:** This analytical method evaluates algorithm performance for a specific, predetermined workload. It is simple and fast, but its results are only valid for the exact input values used.
+- **Queueing Models:** This method represents the computer system as a network of queues. Using mathematical formulas like **Little's Formula (**`**n = λ × W**`**)**, it calculates performance metrics. For example, if 7 processes arrive on average every second (λ=7) and there are normally 14 processes in the queue (n=14), the average waiting time is 2 seconds (W=2).
+- **Simulation:** This technique involves creating a programmed model of the system that emulates its behavior. The simulation is run with data that is either generated randomly or derived from real-world trace data, providing a more accurate and flexible analysis than purely mathematical models.
+- **Implementation:** This is the most accurate evaluation method. It involves coding the scheduling algorithm and running it within a real operating system. While it provides definitive results, this method is costly, time-consuming, and its results are highly dependent on the specific system environment and workload.
+
+Ultimately, CPU scheduling is a critical function of the operating system that involves a constant trade-off between performance, fairness, and complexity. The optimal algorithm for any given situation depends entirely on the specific requirements of the system and the nature of the processes it must manage.

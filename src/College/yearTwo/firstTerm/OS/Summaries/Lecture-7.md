@@ -27,8 +27,6 @@ A deadlock situation can only arise if four specific conditions hold simultaneou
 
 While the four conditions tell us _what_ a deadlock is, the resource-allocation graph gives us a way to _see_ it in a running system.
 
----
-
 ## 2. Visualizing System State: The Resource-Allocation Graph
 
 A Resource-Allocation Graph is a directed graph that provides a visual representation of the state of resource allocation in a system. It is a powerful tool for modeling the relationships between processes and resources, which helps in identifying the conditions that could lead to a deadlock.
@@ -52,8 +50,6 @@ By analyzing the structure of the resource-allocation graph, we can draw importa
   - If there are **several instances** per resource type, a cycle only indicates the _possibility_ of a deadlock.
 
 Visualizing system states helps us understand deadlocks, but an operating system needs concrete strategies for handling them when they arise.
-
----
 
 ## 3. Strategies for Handling Deadlocks
 
@@ -143,8 +139,6 @@ Once a deadlock has been detected, the system must recover. There are two primar
   1. **Selecting a victim:** Deciding which process and which resources to preempt, typically based on minimizing cost.
   2. **Rollback:** The process that loses its resource must be rolled back to a previous safe state and restarted from there.
   3. **Starvation:** It is possible that the same process is always chosen as the victim and never completes its task. This can be prevented by including the number of rollbacks in the cost factor for selecting a victim.
-
----
 
 ## 4. Key Takeaways for the Exam
 

@@ -62,17 +62,17 @@ if (condition1) {
 
 ### Comparison and Logical Operators
 
-| Operator | Description      | Example            |            |       |     |        |
-| -------- | ---------------- | ------------------ | ---------- | ----- | --- | ------ |
-| `==`     | Equal to         | x == y             |            |       |     |        |
-| `!=`     | Not equal        | x != y             |            |       |     |        |
-| `>`      | Greater than     | x > y              |            |       |     |        |
-| `<`      | Less than        | x < y              |            |       |     |        |
-| `>=`     | Greater or equal | x >= y             |            |       |     |        |
-| `<=`     | Less or equal    | x <= y             |            |       |     |        |
-| `&&`     | Logical AND      | a > 4 && a < 10    |            |       |     |        |
-| `        |                  | `                  | Logical OR | a < 9 |     | a < 10 |
-| `!`      | Logical NOT      | !(a < 7 && a < 15) |            |       |     |        |
+| **Operator** | **Description**  | **Example**          |
+| ------------ | ---------------- | -------------------- |
+| `==`         | Equal to         | `x == y`             |
+| `!=`         | Not equal        | `x != y`             |
+| `>`          | Greater than     | `x > y`              |
+| `<`          | Less than        | `x < y`              |
+| `>=`         | Greater or equal | `x >= y`             |
+| `<=`         | Less or equal    | `x <= y`             |
+| `&&`         | Logical AND      | `a > 4 && a < 10`    |
+| `\|`         | Logical OR       | `a < 9 \| a < 10`    |
+| `!`          | Logical NOT      | `!(a < 7 && a < 15)` |
 
 ### The `switch` Statement
 
@@ -196,9 +196,9 @@ for (int i = 0; i <= 10; i += 2) {
 ## 3. Factorial Calculation
 
 **Formula:**
-[
-n! = n × (n - 1) × (n - 2) × ... × 1
-]
+$$
+n! = n \times (n - 1) \times (n - 2) \times ... \times 1
+$$
 
 **Example Program:**
 

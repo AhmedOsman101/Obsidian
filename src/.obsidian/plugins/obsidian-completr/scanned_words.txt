@@ -1076,6 +1076,7 @@ Pitfalls
 Prior
 Places
 Philosopher
+Pseudocode
 IHDR
 IDATx
 IO
@@ -4790,6 +4791,11 @@ signaled
 sleep
 synchronizing
 spend
+sits
+stalls
+stub
+searched
+solves
 ff
 fP
 fj
@@ -11130,6 +11136,9 @@ LBK
 LzMAK
 LCnI
 LsK
+Loading
+Looping
+Ladder
 al
 aj
 ar
@@ -12335,6 +12344,7 @@ aSt
 aRY
 apart
 avoiding
+alternatives
 Te
 Tn
 TA
@@ -13325,6 +13335,7 @@ TGHj
 TwV
 Terminology
 Tends
+Triangle
 uj
 uq
 uXm
@@ -16981,6 +16992,9 @@ rfj
 rwAo
 releasing
 resumed
+reside
+replaces
+resides
 eiO
 es
 ee
@@ -19024,6 +19038,7 @@ GbF
 GGB
 GjG
 GIM
+Generality
 Ex
 EZR
 EG
@@ -21290,6 +21305,9 @@ SYKHE
 SQN
 SJG
 Scheduled
+Symbolic
+Sizes
+Sequential
 iH
 ic
 iP
@@ -24255,6 +24273,7 @@ nyoHf
 nBMF
 nFl
 neighbor
+noncontiguous
 Fc
 Fe
 Fo
@@ -29529,6 +29548,7 @@ lykMa
 lRtky
 lpi
 lmjS
+loader
 Rc
 Rt
 RO
@@ -30627,6 +30647,7 @@ RVG
 RKg
 RCE
 RUxJ
+Relocatable
 Zt
 ZB
 Zb
@@ -33320,6 +33341,7 @@ DhG
 DiH
 DnB
 DwJ
+Desired
 ohQ
 oL
 ob
@@ -35202,6 +35224,10 @@ mCj
 mQb
 mRE
 multiprocessing
+mitigate
+million
+meaningful
+memorize
 Ck
 CS
 Cm
@@ -36521,6 +36547,7 @@ CTC
 CcG
 CuD
 Classical
+Conditionals
 vb
 vO
 vvF
@@ -38786,6 +38813,8 @@ cCqD
 cSY
 cut
 coordinating
+constraint
+creativity
 Hu
 Hg
 HiL
@@ -46513,6 +46542,7 @@ demonstrating
 discussed
 demonstrates
 directives
+dominant
 AK
 AQ
 Aya
@@ -47844,6 +47874,9 @@ ADM
 AeJ
 Assisted
 Abstractions
+Absolute
+Applicable
+Angled
 Jw
 Jg
 JT
@@ -50258,6 +50291,8 @@ WCN
 WnH
 Woe
 WKV
+Writing
+Welcome
 Ötl
 ÖC
 Öm

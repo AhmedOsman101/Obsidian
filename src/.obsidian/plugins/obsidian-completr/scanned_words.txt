@@ -2242,6 +2242,8 @@ Inconsistency
 Inheritance
 Introduciton
 Iterate
+INPUT
+Initalize
 pHYs
 pt
 pu
@@ -9077,6 +9079,7 @@ BjGxH
 BGCgC
 Bjarne
 Bounds
+BEGIN
 MC
 Ml
 MW
@@ -15098,6 +15101,7 @@ OKR
 Overloading
 Omitting
 Omit
+OUTPUT
 Uc
 Ue
 UXk
@@ -20129,6 +20133,10 @@ Excessive
 Exception
 Exclude
 Excluded
+END
+ELSE
+ENDIF
+ENDWHILE
 Sal
 SQ
 SB
@@ -30710,6 +30718,7 @@ Reproduction
 Resolving
 Resizable
 Rounds
+Reassign
 Zt
 ZB
 Zb
@@ -37450,6 +37459,7 @@ vet
 vhi
 vPj
 vYyoxzsilua
+varname
 ck
 cr
 ce
@@ -50385,6 +50395,7 @@ WKV
 Writing
 Welcome
 Wavy
+WHILE
 Ötl
 ÖC
 Öm

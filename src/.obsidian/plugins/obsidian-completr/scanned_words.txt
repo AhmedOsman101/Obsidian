@@ -1077,6 +1077,11 @@ Prior
 Places
 Philosopher
 Pseudocode
+Programmer
+Polymorphism
+Phase
+Preprocessing
+Placed
 IHDR
 IDATx
 IO
@@ -2234,6 +2239,9 @@ IZQ
 IaF
 IqK
 Inconsistency
+Inheritance
+Introduciton
+Iterate
 pHYs
 pt
 pu
@@ -3468,6 +3476,11 @@ pCv
 phases
 practically
 perfectly
+pseudocode
+preprocessed
+preprocessor
+prefix
+programmatically
 sbf
 sPv
 sC
@@ -4796,6 +4809,9 @@ stalls
 stub
 searched
 solves
+shapes
+separating
+subsequent
 ff
 fP
 fj
@@ -5851,6 +5867,9 @@ fGk
 flawlessly
 formalize
 foolproof
+fixing
+fullName
+firstName
 yq
 yh
 yS
@@ -9056,6 +9075,8 @@ BWS
 BsO
 BjGxH
 BGCgC
+Bjarne
+Bounds
 MC
 Ml
 MW
@@ -10130,6 +10151,8 @@ MaNBP
 MmKuG
 MBI
 MsJ
+Made
+Member
 Lj
 Lf
 LvVa
@@ -12345,6 +12368,10 @@ aRY
 apart
 avoiding
 alternatives
+answering
+agnostic
+agreed
+aid
 Te
 Tn
 TA
@@ -13336,6 +13363,9 @@ TwV
 Terminology
 Tends
 Triangle
+Translating
+Terminator
+Treats
 uj
 uq
 uXm
@@ -14226,6 +14256,8 @@ uAED
 uiohKa
 undergoes
 uniprocessor
+uncheck
+unnamed
 OB
 Ox
 ONynT
@@ -15063,6 +15095,9 @@ OjPLS
 OpN
 OyQ
 OKR
+Overloading
+Omitting
+Omit
 Uc
 Ue
 UXk
@@ -15903,6 +15938,7 @@ UPO
 UdH
 ULUHRYS
 UnV
+Unambiguity
 ra
 rO
 rV
@@ -16995,6 +17031,7 @@ resumed
 reside
 replaces
 resides
+redrawing
 eiO
 es
 ee
@@ -18139,6 +18176,7 @@ eLSnF
 eFWJ
 eLe
 eGc
+exclude
 GO
 GQ
 Gk
@@ -19039,6 +19077,8 @@ GGB
 GjG
 GIM
 Generality
+Graphically
+Gen
 Ex
 EZR
 EG
@@ -20085,6 +20125,10 @@ EXC
 ESAl
 Exit
 Executed
+Excessive
+Exception
+Exclude
+Excluded
 Sal
 SQ
 SB
@@ -21308,6 +21352,13 @@ Scheduled
 Symbolic
 Sizes
 Sequential
+Shape
+Signifies
+Stroustrup
+Shortcut
+Stays
+Sufficient
+Separating
 iH
 ic
 iP
@@ -23437,6 +23488,9 @@ tVy
 tLc
 tjo
 theirs
+tedious
+traced
+template
 nm
 nv
 nhuK
@@ -25338,6 +25392,7 @@ FYELF
 FPC
 FtH
 Formalizing
+Failure
 xi
 xpF
 xwG
@@ -26761,6 +26816,7 @@ jskRg
 jvnSi
 jUo
 jIe
+joined
 bo
 bi
 bn
@@ -27763,6 +27819,7 @@ bSIJ
 bHZ
 bounded
 bugs
+bottomed
 Nb
 NJu
 Nbsa
@@ -29549,6 +29606,7 @@ lRtky
 lpi
 lmjS
 loader
+lastName
 Rc
 Rt
 RO
@@ -30648,6 +30706,10 @@ RKg
 RCE
 RUxJ
 Relocatable
+Reproduction
+Resolving
+Resizable
+Rounds
 Zt
 ZB
 Zb
@@ -33342,6 +33404,12 @@ DiH
 DnB
 DwJ
 Desired
+Documenting
+Documentation
+Dev
+Detected
+Debugger
+Debug
 ohQ
 oL
 ob
@@ -34200,6 +34268,7 @@ oLX
 ori
 ohq
 okc
+obscure
 mipte
 mRT
 mX
@@ -35228,6 +35297,9 @@ mitigate
 million
 meaningful
 memorize
+memorizing
+meanings
+mistake
 Ck
 CS
 Cm
@@ -36548,6 +36620,12 @@ CcG
 CuD
 Classical
 Conditionals
+Compiling
+Compilation
+Console
+Concatenation
+Calling
+Comes
 vb
 vO
 vvF
@@ -38815,6 +38893,10 @@ cut
 coordinating
 constraint
 creativity
+confusing
+catch
+cin
+cmath
 Hu
 Hg
 HiL
@@ -39824,6 +39906,7 @@ HYFhE
 HUH
 HlM
 HjAl
+Hexagon
 hh
 hLR
 hI
@@ -43242,6 +43325,7 @@ KBK
 KyAD
 KaOXR
 KjGn
+Keyword
 zC
 zl
 zk
@@ -46543,6 +46627,12 @@ discussed
 demonstrates
 directives
 dominant
+depicts
+disrupting
+distant
+deallocate
+declarations
+decimals
 AK
 AQ
 Aya
@@ -47877,6 +47967,7 @@ Abstractions
 Absolute
 Applicable
 Angled
+Arrow
 Jw
 Jg
 JT
@@ -50293,6 +50384,7 @@ Woe
 WKV
 Writing
 Welcome
+Wavy
 Ötl
 ÖC
 Öm

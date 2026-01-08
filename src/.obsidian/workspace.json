@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearTwo/firstTerm/C++/Summaries/self-study-topics.md",
+                "file": "College/yearTwo/firstTerm/C++/Summaries/Lecture-5.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "self-study-topics"
+              "title": "Lecture-5"
             }
           }
         ]
@@ -186,26 +186,27 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3751e9a2dcd50eaf",
+  "active": "6e6b30772217c8e6",
   "lastOpenFiles": [
-    "College/yearTwo/firstTerm/C++/Summaries/Lecture-8-9.md",
-    "College/yearTwo/firstTerm/C++/Summaries/self-study-topics.md",
-    "College/yearTwo/firstTerm/C++/Summaries/Lecture-7.md",
-    "College/yearTwo/firstTerm/C++/Summaries/Lecture-6.md",
-    "College/yearTwo/firstTerm/C++/Summaries/Lecture-5.md",
+    "College/yearTwo/firstTerm/C++/Summaries/sedSK0RUU",
+    "College/yearTwo/firstTerm/C++/Summaries/Lecture-8-9.mdhmOOVp.bck",
+    "College/yearTwo/firstTerm/C++/Summaries/Lecture-8-9.mdCkZbgv.bck",
+    "College/yearTwo/firstTerm/C++/Summaries/Lecture-8-9.mdTitfuV.bck",
+    "College/yearTwo/firstTerm/C++/Summaries/Lecture-8-9.md0zMc7p.bck",
+    "College/yearTwo/firstTerm/C++/Summaries/Lecture-6.mdgELZJC.bck",
+    "College/yearTwo/firstTerm/C++/Summaries/Lecture-6.mdHxZbn0.bck",
+    "College/yearTwo/firstTerm/C++/Summaries/Lecture-6.mdXhYj95.bck",
+    "College/yearTwo/firstTerm/C++/Summaries/Lecture-5.md35LRUY.bck",
+    "College/yearTwo/firstTerm/C++/Summaries/Lecture-5.mdfa70XP.bck",
+    "College/yearTwo/firstTerm/C++/Summaries/Lecture-5.mduhEOXg.bck",
     "College/yearTwo/firstTerm/C++/Summaries/Lecture-4.md",
     "College/yearTwo/firstTerm/C++/Summaries/Lecture-1-3.md",
+    "College/yearTwo/firstTerm/C++/Summaries/Lecture-6.md",
+    "College/yearTwo/firstTerm/C++/Summaries/Lecture-5.md",
+    "College/yearTwo/firstTerm/C++/Summaries/self-study-topics.md",
+    "College/yearTwo/firstTerm/C++/Summaries/Lecture-8-9.md",
+    "College/yearTwo/firstTerm/C++/Summaries/Lecture-7.md",
     "College/yearTwo/firstTerm/C++/Summaries/Lecture-8.md",
-    "College/yearTwo/firstTerm/C++/Summaries/Lecture-9.mdaG5i3V.bck",
-    "College/yearTwo/firstTerm/C++/Summaries/Lecture-9.mdILkuEm.bck",
-    "College/yearTwo/firstTerm/C++/Summaries/Lecture-9.mdrtiJlk.bck",
-    "College/yearTwo/firstTerm/C++/Summaries/Lecture-9.md9MY5WY.bck",
-    "College/yearTwo/firstTerm/C++/Summaries/Lecture-9.mdGxutEl.bck",
-    "College/yearTwo/firstTerm/C++/Summaries/Lecture-8.mdFfNAWT.bck",
-    "College/yearTwo/firstTerm/C++/Summaries/Lecture-4.mdRqPhXw.bck",
-    "College/yearTwo/firstTerm/C++/Summaries/sed9o60rp",
-    "College/yearTwo/firstTerm/C++/Summaries/Lecture-7.mdW4po49.bck",
-    "College/yearTwo/firstTerm/C++/Summaries/Lecture-7.mdrSyOU2.bck",
     "College/yearTwo/firstTerm/C++/Lectures/Lecture-6.md",
     "College/yearTwo/firstTerm/C++/Summaries/Lecture-4..9.md",
     "College/yearTwo/firstTerm/C++/Summaries/Lecture-1-2-3.md",
@@ -223,7 +224,6 @@
     "College/yearTwo/firstTerm/OS/Summaries/Lecture-1-2.md",
     "College/yearTwo/firstTerm/OS/Summaries/Lecture-7.md",
     "College/yearTwo/firstTerm/OS/Summaries_1/Lecture-8.md",
-    "College/yearTwo/firstTerm/OS/Summaries_1/Lecture-7.md",
     "College/yearTwo/firstTerm/C++/Assignments/showcollege.png",
     "College/yearTwo/firstTerm/C++/Assignments/add-college.png",
     "College/yearTwo/firstTerm/C++/Assignments/admin.png",

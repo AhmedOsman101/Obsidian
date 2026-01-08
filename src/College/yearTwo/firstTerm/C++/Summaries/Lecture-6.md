@@ -44,12 +44,12 @@ Used to combine conditional statements.
 | Operator | Name        | Description                                                 | Example              |
 | -------- | ----------- | ----------------------------------------------------------- | -------------------- |
 | `&&`     | Logical AND | Returns `true` if both statements are true.                 | `a < 8 && a < 12`    |
-| `        |             | `                                                           | Logical OR           |
+| `\|`     | Logical OR  | Returns `true` if **one** of the statements is true.        | `x < 5 \| x > 10`    |
 | `!`      | Logical NOT | Reverses the result; returns `false` if the result is true. | `!(a < 7 && a < 15)` |
 
 #### Mathematical Functions (`<cmath>`)
 
-- `**floor(x)**`: Rounds a number **down** to the nearest integer.
+- `floor(x)`: Rounds a number **down** to the nearest integer.
   - `floor(4.99)` results in `4`
   - `floor(-3.7)` results in `-4`
 

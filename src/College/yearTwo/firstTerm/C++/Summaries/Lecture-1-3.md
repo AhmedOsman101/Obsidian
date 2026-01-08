@@ -75,29 +75,30 @@ Pseudocode consists of **Keywords**, **Sections**, and **Statements**.
 
 #### Program start/end
 
-BEGIN, END: Start and end of a program.
+`BEGIN`: Start of a program.
+`END`: End of a program.
 
 #### Conditionals
 
-IF condition Then: Start of an if statement.
-ELSE: else block.
-ELSE IF condition Then: else-if block.
-ENDIF: End of an if statement.
+`IF condition Then`: Start of an if statement.
+`ELSE`: else block.
+`ELSE IF condition Then`: else-if block.
+`ENDIF`: End of an if statement.
 
 #### I/O
 
-INPUT varname1, varname2: Take user input.
-OUTPUT "Some text", variable_name: Print output.
+`INPUT varname1, varname2`: Take user input.
+`OUTPUT "Some text ", variable_name`: Print output.
 
 #### Variables
 
-SET var = value: Initalize a variable.
-var = new_value: Reassign/modify a variable.
+`SET var = value`: Initalize a variable.
+`var = new_value`: Reassign/modify a variable.
 
 #### Loops
 
-WHILE condition DO: Start a while loop
-ENDWHILE: End a while loop
+`WHILE condition DO`: Start a while loop
+`ENDWHILE`: End a while loop
 
 ### Advantages and Disadvantages
 
@@ -142,7 +143,7 @@ END
 
 3. **Repetition (Looping) Statements:**
    - **Definition:** An instruction or sequence of instructions is repeated several times. Also known as iteration.
-   - `**While**` **Loop:** Repeats a set of statements as long as a specified condition is true.
+   - **While Loop:** Repeats a set of statements as long as a specified condition is true.
    - **Example (Print "Welcome" five times):**
 
 ```python

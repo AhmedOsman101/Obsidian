@@ -28,9 +28,11 @@
 | **Start Debugging**         | `F5`        | Yes               | No (by default)     | To find and fix bugs.                         |
 | **Start Without Debugging** | `Ctrl + F5` | No                | Yes                 | To run the program and view the final output. |
 
-_**Note:**_ _To prevent the console from closing immediately when using_ `_F5_`_, navigate to_ `_Tools > Options > Debugging_` _and uncheck "Automatically close the console when debugging stops."_
+> [!NOTE]
+> To prevent the console from closing immediately when using `F5`, navigate to `Tools > Options > Debugging`.
+> Uncheck "Automatically close the console when debugging stops."
 
-**Resolving** `**main()**` **Function Conflicts:** A project can only have one `main()` function in the build. To keep multiple files with `main()` in a project, you must exclude all but one from the build process.
+**Resolving** `main()` **Function Conflicts:** A project can only have one `main()` function in the build. To keep multiple files with `main()` in a project, you must exclude all but one from the build process.
 
 **Steps to Exclude a File from Build:**
 
@@ -43,13 +45,13 @@ _**Note:**_ _To prevent the console from closing immediately when using_ `_F5_`_
 
 ### Visual Studio Project Structure
 
-| File Extension / Name         | Description                                                                                                              |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| `**.cpp**`                    | The source file containing the actual C++ code (functions, `main()`, logic).                                             |
-| `**.sln**` (Solution File)    | Organizes and manages one or more projects. Contains references to project files and build configurations.               |
-| `**.vcxproj**` (Project File) | An XML file containing all project settings, including source files, compiler options, and build instructions.           |
-| `**.vcxproj.filters**`        | Controls the visual organization of files in Solution Explorer (e.g., "Source Files" folder). Does not affect the build. |
-| `**.vcxproj.user**`           | Stores user-specific settings like debugging options. Not typically shared.                                              |
+| File Extension / Name      | Description                                                                                                              |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `*.cpp`                    | The source file containing the actual C++ code (functions, `main()`, logic).                                             |
+| `*.sln` (Solution File)    | Organizes and manages one or more projects. Contains references to project files and build configurations.               |
+| `*.vcxproj` (Project File) | An XML file containing all project settings, including source files, compiler options, and build instructions.           |
+| `*.vcxproj.filters`        | Controls the visual organization of files in Solution Explorer (e.g., "Source Files" folder). Does not affect the build. |
+| `*.vcxproj.user`           | Stores user-specific settings like debugging options. Not typically shared.                                              |
 
 ### Core C++ Syntax
 

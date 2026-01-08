@@ -8,7 +8,7 @@
 - **Syntax Components:**
   - **Declaration:** Specifies the function's return type, name, and parameters.
   - **Definition:** The body of the function, containing the code to be executed.
-- `**void**` **Keyword:** Used as the return type to indicate that the function does not return any value.
+- `void` **Keyword:** Used as the return type to indicate that the function does not return any value.
 
 #### Basic Syntax
 

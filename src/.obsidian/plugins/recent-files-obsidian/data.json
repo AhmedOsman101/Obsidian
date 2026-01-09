@@ -9,6 +9,34 @@
       "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/AllLectures.md"
     },
     {
+      "basename": "figure-14",
+      "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/figure-14.png"
+    },
+    {
+      "basename": "SectionFour",
+      "path": "College/yearOne/firstTerm/IT-Essentials/Sections/SectionFour.md"
+    },
+    {
+      "basename": "SectionThree",
+      "path": "College/yearOne/firstTerm/IT-Essentials/Sections/SectionThree.md"
+    },
+    {
+      "basename": "SectionTwo",
+      "path": "College/yearOne/firstTerm/IT-Essentials/Sections/SectionTwo.md"
+    },
+    {
+      "basename": "LectureThree",
+      "path": "College/yearOne/firstTerm/IT-Essentials/Lectures/LectureThree.md"
+    },
+    {
+      "basename": "LectureTwo",
+      "path": "College/yearOne/firstTerm/IT-Essentials/Lectures/LectureTwo.md"
+    },
+    {
+      "basename": "LectureOne",
+      "path": "College/yearOne/firstTerm/IT-Essentials/Lectures/LectureOne.md"
+    },
+    {
       "basename": "figure-6",
       "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/figure-6.png"
     },
@@ -171,30 +199,6 @@
     {
       "basename": "Assignment-2 1",
       "path": "College/yearTwo/firstTerm/C++/Assignments/Assignment-2 1.md"
-    },
-    {
-      "basename": "draft",
-      "path": "draft.md"
-    },
-    {
-      "basename": "task-3",
-      "path": "College/yearTwo/firstTerm/DigitalEngineering/tasks/task-3.md"
-    },
-    {
-      "basename": "figure-2 1",
-      "path": "College/yearTwo/firstTerm/DigitalEngineering/tasks/figure-2 1.png"
-    },
-    {
-      "basename": "draft",
-      "path": "College/draft.md"
-    },
-    {
-      "basename": "index",
-      "path": "College/index.md"
-    },
-    {
-      "basename": "Assignment-2-normal",
-      "path": "College/yearTwo/firstTerm/OS/Assignments/Assignment-2-normal.md"
     }
   ],
   "omittedPaths": [],

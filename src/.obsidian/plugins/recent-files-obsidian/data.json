@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Lecture-5",
-      "path": "College/yearTwo/firstTerm/C++/Summaries/Lecture-5.md"
+      "basename": "NumberSystems",
+      "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/NumberSystems.md"
     },
     {
-      "basename": "Lecture-4",
-      "path": "College/yearTwo/firstTerm/C++/Summaries/Lecture-4.md"
+      "basename": "AllLectures",
+      "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/AllLectures.md"
     },
     {
-      "basename": "Lecture-1-3",
-      "path": "College/yearTwo/firstTerm/C++/Summaries/Lecture-1-3.md"
+      "basename": "figure-6",
+      "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/figure-6.png"
     },
     {
-      "basename": "Lecture-6",
-      "path": "College/yearTwo/firstTerm/C++/Summaries/Lecture-6.md"
+      "basename": "figure",
+      "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/figure.png"
+    },
+    {
+      "basename": "Lectures & self-study topics summary C++",
+      "path": "College/yearTwo/firstTerm/C++/Summaries/Lectures & self-study topics summary C++.md"
     },
     {
       "basename": "self-study-topics",
@@ -27,6 +31,22 @@
     {
       "basename": "Lecture-7",
       "path": "College/yearTwo/firstTerm/C++/Summaries/Lecture-7.md"
+    },
+    {
+      "basename": "Lecture-6",
+      "path": "College/yearTwo/firstTerm/C++/Summaries/Lecture-6.md"
+    },
+    {
+      "basename": "Lecture-5",
+      "path": "College/yearTwo/firstTerm/C++/Summaries/Lecture-5.md"
+    },
+    {
+      "basename": "Lecture-4",
+      "path": "College/yearTwo/firstTerm/C++/Summaries/Lecture-4.md"
+    },
+    {
+      "basename": "Lecture-1-3",
+      "path": "College/yearTwo/firstTerm/C++/Summaries/Lecture-1-3.md"
     },
     {
       "basename": "Lecture-6",
@@ -158,11 +178,11 @@
     },
     {
       "basename": "task-3",
-      "path": "College/yearTwo/firstTerm/DigitalEngineering/task-3.md"
+      "path": "College/yearTwo/firstTerm/DigitalEngineering/tasks/task-3.md"
     },
     {
-      "basename": "figure-2",
-      "path": "College/yearTwo/firstTerm/DigitalEngineering/figure-2.png"
+      "basename": "figure-2 1",
+      "path": "College/yearTwo/firstTerm/DigitalEngineering/tasks/figure-2 1.png"
     },
     {
       "basename": "draft",
@@ -175,30 +195,6 @@
     {
       "basename": "Assignment-2-normal",
       "path": "College/yearTwo/firstTerm/OS/Assignments/Assignment-2-normal.md"
-    },
-    {
-      "basename": "Assignment-2",
-      "path": "College/yearTwo/firstTerm/OS/Assignments/Assignment-2.md"
-    },
-    {
-      "basename": "Assignment-2 think",
-      "path": "College/yearTwo/firstTerm/OS/Assignments/Assignment-2 think.md"
-    },
-    {
-      "basename": "Assignment-2",
-      "path": "College/yearTwo/firstTerm/Linux/Assignments/Assignment-2.md"
-    },
-    {
-      "basename": "task-3",
-      "path": "College/yearTwo/firstTerm/C++/tasks/task-3.md"
-    },
-    {
-      "basename": "AssignmentTwo",
-      "path": "College/yearOne/firstTerm/Python/Assignments/AssignmentTwo.md"
-    },
-    {
-      "basename": "AssignmentOne",
-      "path": "College/yearOne/firstTerm/Python/Assignments/AssignmentOne.md"
     }
   ],
   "omittedPaths": [],

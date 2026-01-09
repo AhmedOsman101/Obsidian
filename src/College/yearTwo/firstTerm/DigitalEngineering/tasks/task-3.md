@@ -56,12 +56,12 @@
 
 ## TinkerCAD
 
-![](figure.png)
+![](figure%201.png)
 
 <br><br><br>
 
 ## Circuit Images
 
-![](figure-1.png)
+![](figure-1%201.png)
 
-![](figure-2.png)
+![](figure-2%201.png)

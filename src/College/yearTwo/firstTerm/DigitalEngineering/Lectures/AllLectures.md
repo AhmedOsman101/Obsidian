@@ -1180,24 +1180,20 @@ $$
 
 For a 3-to-8 decoder with inputs $x, y, z$, the outputs $D_0$ through $D_7$ correspond to the minterms of the inputs:
 
-- $D_0 = x'y'z'$ (Binary 000)
-- $D_1 = x'y'z$ (Binary 001)
-- $D_2 = x'yz'$ (Binary 010)
-- $D_3 = x'yz$ (Binary 011)
-- $D_4 = xy'z'$ (Binary 100)
-- $D_5 = xy'z$ (Binary 101)
-- $D_6 = xyz'$ (Binary 110)
+- $D_0 = \overline{x}\overline{y}\overline{z}$ (Binary 000)
+- $D_1 = \overline{x}\overline{y}z$ (Binary 001)
+- $D_2 = \overline{x}y\overline{z}$ (Binary 010)
+- $D_3 = \overline{x}yz$ (Binary 011)
+- $D_4 = x\overline{y}\overline{z}$ (Binary 100)
+- $D_5 = x\overline{y}z$ (Binary 101)
+- $D_6 = xy\overline{z}$ (Binary 110)
 - $D_7 = xyz$ (Binary 111)
 
 ### Formulas for Decoder Logic
 
-Since you are working with LaTeX in Markdown, here is how you would formally represent the output logic for a specific line (e.g., $D_5$):
+Here is how you would formally represent the output logic for a specific line (e.g., $D_5$): 
 
 $$D_5 = x \cdot \overline{y} \cdot z$$
-
-Or using the "prime" notation seen in your image:
-
-$$D_5 = x y' z$$
 
 ### Design a 2-bit multiplier using decoder
 

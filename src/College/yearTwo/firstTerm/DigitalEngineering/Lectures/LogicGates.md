@@ -68,7 +68,7 @@ $$
 **Expressions:**
 
 $$
-X = \bar{A} \quad \text{or} \quad X = A'
+X = \overbar{A} \quad \text{or} \quad X = A'
 $$
 
 ![](figure-19.png)
@@ -82,14 +82,54 @@ $$
 
 **NOR Gate - 7402**
 
+**Formula:**
+
+$$
+\begin{gather}
+A \ \text{nor}\  B
+\\\\
+= \overline{(A \ + \ B)}
+\\\\
+= \overline{A} \cdot \overline{B}
+\end{gather}
+$$
+
 - Equivalent to **OR + NOT**.
 - OR output HIGH -> **NOR output LOW**.
+
+|  A  |  B  | $\overline{A + B}$ |
+| :-: | :-: | :----------------: |
+|  0  |  0  |         1          |
+|  0  |  1  |         0          |
+|  1  |  0  |         0          |
+|  1  |  1  |         0          |
+
 - Output is HIGH **only when all inputs are LOW**.
 
 **NAND Gate - 7400**
 
+**Formula:**
+
+$$
+\begin{gather}
+A \ \text{nand}\  B
+\\\\
+= \overline{(A \ \cdot \ B)}
+\\\\
+= \overline{A} + \overline{B}
+\end{gather}
+$$
+
 - Equivalent to **AND + NOT**.
 - AND output HIGH -> **NAND output LOW**.
+
+|  A  |  B  | $\overline{A \cdot B}$ |
+| :-: | :-: | :--------------------: |
+|  0  |  0  |           1            |
+|  0  |  1  |           1            |
+|  1  |  0  |           1            |
+|  1  |  1  |           0            |
+
 - Output is LOW **only when all inputs are HIGH**.
 
 ## Exclusive-OR (XOR Gate - 7486) and Exclusive-NOR (XNOR Gate - 74266) Circuits
@@ -100,7 +140,14 @@ $$
 
 ## XOR Gate
 
-- Output is **HIGH** when the two inputs are at **opposite logic levels**.
+|  A  |  B  | $A \oplus B$ |
+| :-: | :-: | :----------: |
+|  0  |  0  |      0       |
+|  0  |  1  |      1       |
+|  1  |  0  |      1       |
+|  1  |  1  |      0       |
+
+- Output is **HIGH** when the two inputs are **different**.
 - XOR gates have **only two inputs** (no 3- or 4-input versions).
 - XOR operation is:
   - **Commutative**
@@ -115,13 +162,32 @@ $$
 
 ![](figure-47.png)
 ![](figure-48.png)
+![](figure-49.png)
 
 ## Exclusive-NOR (XNOR) Gate
 
 - Produces the **complement of XOR** output.
-- Output is HIGH when inputs are at the **same logic level**.
 
-![](figure-49.png)
+**Formula:**
+
+$$
+\begin{gather}
+A \ \text{xnor}\  B = \overline{(A \ \oplus \ B)}
+\\
+= A \ \odot \ B
+\\
+=  A \cdot B + \overline{A} \cdot \overline{B}
+\end{gather}
+$$
+
+|  A  |  B  | $A \odot B$ |
+| :-: | :-: | :---------: |
+|  0  |  0  |      1      |
+|  0  |  1  |      0      |
+|  1  |  0  |      0      |
+|  1  |  1  |      1      |
+
+- Output is HIGH when inputs are at the **same**.
 
 ## Algebraic Description of Logic Circuits
 

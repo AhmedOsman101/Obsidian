@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/draft.md",
+                "file": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/All.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "draft"
+              "title": "All"
             }
           },
           {
@@ -203,8 +203,9 @@
   },
   "active": "b35f258eef5ca3d3",
   "lastOpenFiles": [
-    "College/yearTwo/firstTerm/DigitalEngineering/Lectures/LogicGates.md",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/draft.md",
+    "College/yearTwo/firstTerm/DigitalEngineering/Lectures/All.md",
+    "College/yearTwo/firstTerm/DigitalEngineering/Lectures/LogicGates.md",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/NumberSystems.md",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/AnalogAndDigital.md",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/draft.mdskoErx.bck",

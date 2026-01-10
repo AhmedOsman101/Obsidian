@@ -16,7 +16,7 @@
     "pageSize": "Tabloid",
     "marginType": "1",
     "showTitle": false,
-    "open": false,
+    "open": true,
     "scale": 100,
     "landscape": false,
     "marginTop": "0",

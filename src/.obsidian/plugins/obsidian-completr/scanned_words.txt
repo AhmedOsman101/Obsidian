@@ -6024,6 +6024,7 @@ fractions
 fewest
 feeding
 fXL
+flags
 yq
 yh
 yS
@@ -9347,6 +9348,8 @@ Bubble
 Bubbles
 Bistate
 Borrow
+Bout
+Bin
 MC
 Ml
 MW
@@ -12751,6 +12754,7 @@ adjacency
 alphanumeric
 activates
 adder
+adders
 Te
 Tn
 TA
@@ -15540,6 +15544,8 @@ OabuC
 OwS
 OKM
 Observations
+Operands
+Overflow
 Uc
 Ue
 UXk
@@ -21962,6 +21968,7 @@ SCCCQM
 SgL
 SqX
 SEw
+Scales
 iH
 ic
 iP
@@ -39961,6 +39968,7 @@ circuitry
 conditionally
 cvI
 cEc
+comp
 Hu
 Hg
 HiL
@@ -49285,6 +49293,7 @@ Attaching
 Adders
 Adder
 AKCCC
+ALUs
 Jw
 Jg
 JT

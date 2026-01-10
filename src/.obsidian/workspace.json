@@ -28,16 +28,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/draft.md",
-                "mode": "source",
+                "file": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/AllLectures.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "draft"
+              "title": "AllLectures"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,15 +202,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b35f258eef5ca3d3",
+  "active": "c82f6f8d8e3f3b15",
   "lastOpenFiles": [
+    "College/yearTwo/firstTerm/DigitalEngineering/Lectures/draft.md",
+    "College/yearTwo/firstTerm/DigitalEngineering/Lectures/DigitalCircuits.md",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/sed6xYkZX",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/AllLectures.mdsi1nok.bck",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/figure-66.png",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/figure-65.png",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/figure-64.png",
-    "College/yearTwo/firstTerm/DigitalEngineering/Lectures/draft.md",
-    "College/yearTwo/firstTerm/DigitalEngineering/Lectures/DigitalCircuits.md",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/AllLectures.md",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/figure-63.png",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/LogicGates.md",
@@ -221,7 +222,6 @@
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/AllLectures.md2sZoLu.bck",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/DigitalCircuits.mdKms2YI.bck",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/DigitalCircuits.mdJAlWX1.bck",
-    "College/yearTwo/firstTerm/DigitalEngineering/Lectures/DigitalCircuits.mdyc0oHX.bck",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/figure-62.png",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/figure-61.png",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/figure-60.png",

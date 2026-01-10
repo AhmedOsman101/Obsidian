@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "DigitalCircuits",
+      "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/DigitalCircuits.md"
+    },
+    {
+      "basename": "draft",
+      "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/draft.md"
+    },
+    {
+      "basename": "AllLectures",
+      "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/AllLectures.md"
+    },
+    {
+      "basename": "figure-63",
+      "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/figure-63.png"
+    },
+    {
       "basename": "LogicGates",
       "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/LogicGates.md"
     },
@@ -11,10 +27,6 @@
     {
       "basename": "NumberSystems",
       "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/NumberSystems.md"
-    },
-    {
-      "basename": "draft",
-      "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/draft.md"
     },
     {
       "basename": "All",
@@ -187,18 +199,6 @@
     {
       "basename": "Lecture-5",
       "path": "College/yearTwo/firstTerm/DB/Summaries/Lecture-5.md"
-    },
-    {
-      "basename": "Lecture-5",
-      "path": "College/yearTwo/firstTerm/DB/Lectures/Lecture-5.md"
-    },
-    {
-      "basename": "Lecture-7",
-      "path": "College/yearTwo/firstTerm/DB/Lectures/Lecture-7.md"
-    },
-    {
-      "basename": "Lecture-2",
-      "path": "College/yearTwo/firstTerm/DB/Lectures/Lecture-2.md"
     }
   ],
   "omittedPaths": [],

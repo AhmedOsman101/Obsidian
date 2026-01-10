@@ -1105,6 +1105,7 @@ PDAs
 Prefer
 PoS
 Parity
+PKC
 IHDR
 IDATx
 IO
@@ -2308,6 +2309,12 @@ IOx
 Inverter
 Invert
 Indicated
+INVERTER
+IZz
+IeV
+IeB
+IBP
+ImE
 pHYs
 pt
 pu
@@ -4933,6 +4940,8 @@ simplification
 subscript
 successive
 shaft
+subtractor
+sccc
 ff
 fP
 fj
@@ -6013,6 +6022,8 @@ fIDATw
 fridge
 fractions
 fewest
+feeding
+fXL
 yq
 yh
 yS
@@ -6715,6 +6726,7 @@ ywr
 yDN
 ycSFoD
 yAn
+yrE
 ql
 qu
 qb
@@ -7456,6 +7468,7 @@ qSE
 qVED
 qttt
 quads
+qgqqq
 waq
 wc
 wav
@@ -8242,6 +8255,8 @@ wbgU
 wFM
 wfM
 wrtt
+wnl
+wDCCC
 BU
 Bh
 BC
@@ -9331,6 +9346,7 @@ Bubbled
 Bubble
 Bubbles
 Bistate
+Borrow
 MC
 Ml
 MW
@@ -10446,6 +10462,10 @@ Maxterms
 Minterm
 Maxterm
 Maps
+Multiplexers
+Multiplexer
+MUX
+MXF
 Lj
 Lf
 LvVa
@@ -11485,6 +11505,9 @@ LzM
 LSJL
 LCCCQ
 Labeling
+LaTeX
+LMLL
+Leo
 al
 aj
 ar
@@ -12726,6 +12749,8 @@ antilock
 avometers
 adjacency
 alphanumeric
+activates
+adder
 Te
 Tn
 TA
@@ -13733,6 +13758,16 @@ TrV
 TLv
 Tan
 Theorems
+TTL
+Those
+Technical
+Tbp
+TgM
+TGGGtvtf
+TcU
+Tykkg
+TJKq
+TNj
 uj
 uq
 uXm
@@ -16369,6 +16404,8 @@ UrM
 UQN
 Universality
 Unasserted
+Uia
+UuGn
 ra
 rO
 rV
@@ -17487,6 +17524,9 @@ rYc
 rssS
 rolls
 rhr
+ripple
+ryE
+rjVa
 eiO
 es
 ee
@@ -18658,6 +18698,10 @@ extensively
 encodes
 expressing
 encoders
+encoder
+enZ
+ezp
+eKc
 GO
 GQ
 Gk
@@ -19582,6 +19626,9 @@ Gates
 Gate
 Glitch
 Guideline
+GZo
+Gkkk
+GIC
 Ex
 EZR
 EG
@@ -20652,6 +20699,10 @@ Eku
 EGp
 Eivv
 EvJ
+Encoders
+Encoder
+EIx
+EiiiF
 Sal
 SQ
 SB
@@ -21903,6 +21954,14 @@ Signals
 SoP
 Sums
 Simplification
+Subtractors
+Subtractor
+SUw
+Syv
+SCCCQM
+SgL
+SqX
+SEw
 iH
 ic
 iP
@@ -23018,6 +23077,10 @@ iEDZc
 instantaneous
 inhibit
 inverted
+inverter
+inverters
+invert
+iMu
 tWA
 tW
 tM
@@ -24074,6 +24137,10 @@ tsK
 transistors
 truth
 transition
+trZ
+tPU
+tqqq
+toKu
 nm
 nv
 nhuK
@@ -24929,6 +24996,7 @@ neY
 nBMf
 negatives
 nibble
+nVG
 Fc
 Fe
 Fo
@@ -26011,6 +26079,7 @@ FKafb
 Fuj
 Fgg
 FLMMe
+Figure
 xi
 xpF
 xwG
@@ -27473,6 +27542,13 @@ jzi
 jui
 jBt
 jvo
+juhmpp
+jgV
+jbG
+jYm
+jXA
+jXBC
+jOOO
 bo
 bi
 bn
@@ -29449,6 +29525,8 @@ NGy
 NDEV
 NUu
 NAND
+NUS
+Nkz
 lqQvz
 ln
 lN
@@ -30341,6 +30419,7 @@ lUA
 lVzF
 leftmost
 lllp
+llK
 Rc
 Rt
 RO
@@ -31463,6 +31542,7 @@ RJf
 RtV
 RGb
 RoJl
+RiKCim
 Zt
 ZB
 Zb
@@ -33032,6 +33112,7 @@ kQfJDK
 kof
 kWWACD
 kyno
+kVt
 Dp
 DI
 Db
@@ -34252,6 +34333,7 @@ Dhnwb
 DOOOZ
 DeMorgan
 Deriving
+Decoders
 ohQ
 oL
 ob
@@ -36205,6 +36287,9 @@ microcomputers
 mpjey
 maxterm
 minterms
+markdown
+multiplexers
+mAbt
 Ck
 CS
 Cm
@@ -37548,6 +37633,11 @@ Cbrs
 CCCi
 Commutative
 Checker
+Combinational
+Comparators
+Cout
+Cbi
+Ccb
 vb
 vO
 vvF
@@ -38386,6 +38476,7 @@ vsv
 vjz
 vyQv
 vop
+vlF
 ck
 cr
 ce
@@ -39865,6 +39956,11 @@ cube
 constructed
 complementing
 complemented
+combinational
+circuitry
+conditionally
+cvI
+cEc
 Hu
 Hg
 HiL
@@ -41872,6 +41968,8 @@ hrGH
 hsB
 hnnFGG
 hGs
+hhlh
+hVP
 Xi
 XZ
 Xn
@@ -42660,6 +42758,8 @@ XTLt
 XIyy
 XNOR
 XYZ
+XTG
+XVR
 gR
 gQ
 go
@@ -45080,6 +45180,8 @@ zzzD
 zon
 zHY
 zurR
+zjY
+zGs
 YT
 Yh
 YDvhV
@@ -46603,6 +46705,7 @@ Vtn
 VPE
 Vqp
 VFG
+Vfl
 dk
 dR
 dV
@@ -47809,6 +47912,7 @@ dBW
 dBWaH
 drawn
 dzz
+dpGGGl
 AK
 AQ
 Aya
@@ -49178,6 +49282,9 @@ Asserted
 Adjacent
 Alphanumeric
 Attaching
+Adders
+Adder
+AKCCC
 Jw
 Jg
 JT
@@ -50082,6 +50189,7 @@ JCHJU
 JfAMpKcrP
 JIZ
 JDQ
+JhE
 Qv
 QL
 QD
@@ -50870,6 +50978,9 @@ QYD
 QRDnA
 QQq
 QRc
+QMf
+QSC
+QOu
 WliB
 WWO
 WRY
@@ -51664,6 +51775,8 @@ WAzF
 WSSS
 WyQ
 WQf
+WrS
+Wooo
 Ötl
 ÖC
 Öm

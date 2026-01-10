@@ -541,7 +541,7 @@ $$
 **Expressions:**
 
 $$
-X = \overbar{A} \quad \text{or} \quad X = A'
+X = \overline{A} \quad \text{or} \quad X = A'
 $$
 
 ![](figure-19.png)

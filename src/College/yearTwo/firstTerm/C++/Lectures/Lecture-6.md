@@ -196,6 +196,7 @@ for (int i = 0; i <= 10; i += 2) {
 ## 3. Factorial Calculation
 
 **Formula:**
+
 $$
 n! = n \times (n - 1) \times (n - 2) \times ... \times 1
 $$

@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "draft",
+      "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/draft.md"
+    },
+    {
+      "basename": "LogicGates",
+      "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/LogicGates.md"
+    },
+    {
       "basename": "NumberSystems",
       "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/NumberSystems.md"
     },
     {
-      "basename": "AllLectures",
-      "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/AllLectures.md"
+      "basename": "AnalogAndDigital",
+      "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/AnalogAndDigital.md"
     },
     {
       "basename": "figure-14",
@@ -191,14 +199,6 @@
     {
       "basename": "Lecture-3",
       "path": "College/yearTwo/firstTerm/OS/Lectures/Lecture-3.md"
-    },
-    {
-      "basename": "Assignment-2",
-      "path": "College/yearTwo/firstTerm/C++/Assignments/Assignment-2.md"
-    },
-    {
-      "basename": "Assignment-2 1",
-      "path": "College/yearTwo/firstTerm/C++/Assignments/Assignment-2 1.md"
     }
   ],
   "omittedPaths": [],

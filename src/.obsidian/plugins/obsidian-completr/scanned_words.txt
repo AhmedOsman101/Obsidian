@@ -1102,6 +1102,9 @@ Pguj
 PAP
 PXTkTM
 PDAs
+Prefer
+PoS
+Parity
 IHDR
 IDATx
 IO
@@ -2302,6 +2305,9 @@ Ixfo
 IHz
 Isa
 IOx
+Inverter
+Invert
+Indicated
 pHYs
 pt
 pu
@@ -4922,6 +4928,11 @@ sEZ
 slh
 sfax
 swa
+synonymously
+simplification
+subscript
+successive
+shaft
 ff
 fP
 fj
@@ -6000,6 +6011,8 @@ frnI
 fkB
 fIDATw
 fridge
+fractions
+fewest
 yq
 yh
 yS
@@ -7442,6 +7455,7 @@ qCo
 qSE
 qVED
 qttt
+quads
 waq
 wc
 wav
@@ -9313,6 +9327,10 @@ BRL
 BDz
 BRT
 Bsss
+Bubbled
+Bubble
+Bubbles
+Bistate
 MC
 Ml
 MW
@@ -10423,6 +10441,11 @@ MsV
 Mnv
 MrRR
 MSB
+Minterms
+Maxterms
+Minterm
+Maxterm
+Maps
 Lj
 Lf
 LvVa
@@ -11461,6 +11484,7 @@ LFjftnwG
 LzM
 LSJL
 LCCCQ
+Labeling
 al
 aj
 ar
@@ -12700,6 +12724,8 @@ aXnJD
 aQn
 antilock
 avometers
+adjacency
+alphanumeric
 Te
 Tn
 TA
@@ -13706,6 +13732,7 @@ TIT
 TrV
 TLv
 Tan
+Theorems
 uj
 uq
 uXm
@@ -14613,6 +14640,9 @@ uDY
 uBtU
 uSd
 udQUU
+universal
+uncomplemented
+unspecified
 OB
 Ox
 ONynT
@@ -15474,6 +15504,7 @@ OfY
 OabuC
 OwS
 OKM
+Observations
 Uc
 Ue
 UXk
@@ -16336,6 +16367,8 @@ Uto
 Utrr
 UrM
 UQN
+Universality
+Unasserted
 ra
 rO
 rV
@@ -18623,6 +18656,8 @@ eQJa
 eLWS
 extensively
 encodes
+expressing
+encoders
 GO
 GQ
 Gk
@@ -19543,6 +19578,10 @@ GTz
 GOSDX
 GVkh
 GnP
+Gates
+Gate
+Glitch
+Guideline
 Ex
 EZR
 EG
@@ -21860,6 +21899,10 @@ SnE
 SKk
 SMI
 SVt
+Signals
+SoP
+Sums
+Simplification
 iH
 ic
 iP
@@ -22973,6 +23016,8 @@ iKA
 icWs
 iEDZc
 instantaneous
+inhibit
+inverted
 tWA
 tW
 tM
@@ -24026,6 +24071,9 @@ tnc
 tJA
 tbCy
 tsK
+transistors
+truth
+transition
 nm
 nv
 nhuK
@@ -24879,6 +24927,8 @@ nsWMy
 nZTav
 neY
 nBMf
+negatives
+nibble
 Fc
 Fe
 Fo
@@ -28440,6 +28490,9 @@ bprR
 bpYp
 braking
 bCf
+briefly
+bubbles
+bubble
 Nb
 NJu
 Nbsa
@@ -29395,6 +29448,7 @@ NED
 NGy
 NDEV
 NUu
+NAND
 lqQvz
 ln
 lN
@@ -34196,6 +34250,8 @@ Ditt
 DAa
 Dhnwb
 DOOOZ
+DeMorgan
+Deriving
 ohQ
 oL
 ob
@@ -35070,6 +35126,8 @@ ovCS
 otpp
 obc
 onnFGG
+overbar
+octets
 mipte
 mRT
 mX
@@ -36145,6 +36203,8 @@ measurements
 mmmmmm
 microcomputers
 mpjey
+maxterm
+minterms
 Ck
 CS
 Cm
@@ -37486,6 +37546,7 @@ CYg
 CWh
 Cbrs
 CCCi
+Commutative
 vb
 vO
 vvF
@@ -39799,6 +39860,10 @@ counterpart
 cSAMP
 cccX
 cuu
+cube
+constructed
+complementing
+complemented
 Hu
 Hg
 HiL
@@ -42592,6 +42657,8 @@ XMA
 XYj
 XTLt
 XIyy
+XNOR
+XYZ
 gR
 gQ
 go
@@ -43507,6 +43574,7 @@ gFq
 gqci
 gUD
 geRvB
+glitch
 KUYX
 KX
 KK
@@ -44358,6 +44426,7 @@ KIsi
 KYJ
 KSW
 KxD
+Karnaugh
 zC
 zl
 zk
@@ -49101,6 +49170,12 @@ ADvww
 Ayl
 AAy
 ADt
+Associative
+Algebraic
+Alternate
+Asserted
+Adjacent
+Alphanumeric
 Jw
 Jg
 JT

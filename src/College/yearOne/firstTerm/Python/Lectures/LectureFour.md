@@ -87,7 +87,7 @@ if x = 5:
     dividend = eval(input('Enter numbers to divide: '))  # Unexpected indent.
 
 # SyntaxError: invalid character (U+2018)
-dividend = eval(input(‘Enter numbers to divide: ’))  # Incorrect quotes (smart quotes).
+dividend = eval(input('Enter numbers to divide: '))  # Incorrect quotes (smart quotes).
 
 # Correct syntax:
 dividend = eval(input('Enter numbers to divide:'))  # Correct usage of quotes and indentation.

@@ -4,41 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "6e04c522fd5dfa9b",
+        "id": "3d3948963a99cecf",
         "type": "tabs",
         "children": [
           {
-            "id": "b35f258eef5ca3d3",
+            "id": "8d7cd2cd4abe916b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/DigitalCircuits.md",
+                "file": "College/yearTwo/firstTerm/C++/Summaries/CLI-code-example.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "DigitalCircuits"
-            }
-          },
-          {
-            "id": "c82f6f8d8e3f3b15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/AllLectures.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "AllLectures"
+              "title": "CLI-code-example"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5,
-    "collapsed": true
+    "width": 302.5
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -203,16 +186,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c82f6f8d8e3f3b15",
+  "active": "8d7cd2cd4abe916b",
   "lastOpenFiles": [
-    "College/yearTwo/firstTerm/DigitalEngineering/Lectures/draft.md",
+    "College/yearTwo/firstTerm/C++/Summaries/CLI-code-example.md",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/DigitalCircuits.md",
+    "College/yearTwo/firstTerm/C++/Summaries/Lectures & self-study topics summary C++.md",
+    "College/yearTwo/firstTerm/DigitalEngineering/Lectures/draft.md",
+    "College/yearTwo/firstTerm/DigitalEngineering/Lectures/AllLectures.md",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/sed6xYkZX",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/AllLectures.mdsi1nok.bck",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/figure-66.png",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/figure-65.png",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/figure-64.png",
-    "College/yearTwo/firstTerm/DigitalEngineering/Lectures/AllLectures.md",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/figure-63.png",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/LogicGates.md",
     "College/yearTwo/firstTerm/DigitalEngineering/Lectures/sedU6poIE",
@@ -239,7 +224,6 @@
     "College/yearOne/firstTerm/IT-Essentials/Lectures/LectureThree.md",
     "College/yearOne/firstTerm/IT-Essentials/Lectures/LectureTwo.md",
     "College/yearOne/firstTerm/IT-Essentials/Lectures/LectureOne.md",
-    "College/yearTwo/firstTerm/C++/Summaries/Lectures & self-study topics summary C++.md",
     "College/yearTwo/firstTerm/C++/Summaries/self-study-topics.md",
     "College/yearTwo/firstTerm/C++/Summaries/Lecture-8-9.md",
     "College/yearTwo/firstTerm/C++/Summaries/Lecture-7.md",

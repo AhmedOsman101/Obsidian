@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "AllLectures",
-      "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/AllLectures.md"
+      "basename": "CLI-code-example",
+      "path": "College/yearTwo/firstTerm/C++/Summaries/CLI-code-example.md"
+    },
+    {
+      "basename": "DigitalCircuits",
+      "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/DigitalCircuits.md"
+    },
+    {
+      "basename": "Lectures & self-study topics summary C++",
+      "path": "College/yearTwo/firstTerm/C++/Summaries/Lectures & self-study topics summary C++.md"
     },
     {
       "basename": "draft",
       "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/draft.md"
     },
     {
-      "basename": "DigitalCircuits",
-      "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/DigitalCircuits.md"
+      "basename": "AllLectures",
+      "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/AllLectures.md"
     },
     {
       "basename": "figure-63",
@@ -71,10 +79,6 @@
     {
       "basename": "figure",
       "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/figure.png"
-    },
-    {
-      "basename": "Lectures & self-study topics summary C++",
-      "path": "College/yearTwo/firstTerm/C++/Summaries/Lectures & self-study topics summary C++.md"
     },
     {
       "basename": "self-study-topics",
@@ -195,10 +199,6 @@
     {
       "basename": "Lecture-7",
       "path": "College/yearTwo/firstTerm/DB/Summaries/Lecture-7.md"
-    },
-    {
-      "basename": "Lecture-5",
-      "path": "College/yearTwo/firstTerm/DB/Summaries/Lecture-5.md"
     }
   ],
   "omittedPaths": [],

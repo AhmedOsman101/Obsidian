@@ -245,7 +245,7 @@ Each loop must have a termination condition, which can be tested at two differen
 
 ---
 
-# Lecture 4: Introduciton to C++
+# Lecture 4: Introduction to C++
 
 ### Core Concepts
 
@@ -289,9 +289,9 @@ Each loop must have a termination condition, which can be tested at two differen
 
 The process transforms a C++ source file (`.cpp`) into an executable file (`.exe`) through several distinct phases.
 
-| Phase # | Phase Name                | Description                                                                       | Output File              |
+| Phase   | Phase Name                | Description                                                                       | Output File              |
 | ------- | ------------------------- | --------------------------------------------------------------------------------- | ------------------------ |
-| 1       | **Preprocessing**         | Handles directives starting with `#` (e.g., `#include`, `#define`).               | `.i` (preprocessed file) |
+| 1       | **Preprocessing**         | Handles directives starting with `#` (e.g., `#include`, `#define`).            | `.i` (preprocessed file) |
 | 2       | **Lexical Analysis**      | Breaks the source code into units called tokens (keywords, identifiers, etc.).    | (internal)               |
 | 3       | **Syntax Analysis**       | Checks if the tokens follow the grammatical rules of C++.                         | (internal)               |
 | 4       | **Semantic Analysis**     | Checks the logical meaning, such as variable declarations and type compatibility. | (internal)               |
@@ -498,7 +498,7 @@ Used to determine the logic between variables or values.
 | Operator | Name        | Description                                                 | Example              |
 | -------- | ----------- | ----------------------------------------------------------- | -------------------- |
 | `&&`     | Logical AND | Returns `true` if **both** statements are true.             | `x < 10 && x > 5`    |
-| `\|`     | Logical OR  | Returns `true` if **one** of the statements is true.        | `x < 5 \| x > 10`    |
+| `\|\|`     | Logical OR  | Returns `true` if **one** of the statements is true.        | `x < 5 \|\| x > 10`    |
 | `!`      | Logical NOT | Reverses the result; returns `false` if the result is true. | `!(x < 5 && x < 10)` |
 
 ### String Manipulation
@@ -576,7 +576,7 @@ Used to combine conditional statements.
 | Operator | Name        | Description                                                 | Example              |
 | -------- | ----------- | ----------------------------------------------------------- | -------------------- |
 | `&&`     | Logical AND | Returns `true` if both statements are true.                 | `a < 8 && a < 12`    |
-| `\|`     | Logical OR  | Returns `true` if **one** of the statements is true.        | `x < 5 \| x > 10`    |
+| `\|\|`     | Logical OR  | Returns `true` if **one** of the statements is true.        | `x < 5 \|\| x > 10`    |
 | `!`      | Logical NOT | Reverses the result; returns `false` if the result is true. | `!(a < 7 && a < 15)` |
 
 #### Mathematical Functions (`<cmath>`)

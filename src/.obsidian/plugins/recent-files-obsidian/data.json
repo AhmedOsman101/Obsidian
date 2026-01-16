@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Lecture-2",
+      "path": "College/yearTwo/firstTerm/Linux/Lectures/Lecture-2.md"
+    },
+    {
+      "basename": "Lecture-1",
+      "path": "College/yearTwo/firstTerm/Linux/Lectures/Lecture-1.md"
+    },
+    {
       "basename": "CLI-code-example",
       "path": "College/yearTwo/firstTerm/C++/Summaries/CLI-code-example.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "q1",
       "path": "College/yearTwo/firstTerm/DB/Questions/q1.md"
-    },
-    {
-      "basename": "q2",
-      "path": "College/yearTwo/firstTerm/DB/Questions/q2.md"
-    },
-    {
-      "basename": "Lecture-7",
-      "path": "College/yearTwo/firstTerm/DB/Summaries/Lecture-7.md"
     }
   ],
   "omittedPaths": [],

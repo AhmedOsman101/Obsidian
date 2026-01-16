@@ -1106,6 +1106,8 @@ Prefer
 PoS
 Parity
 PKC
+Prints
+Path
 IHDR
 IDATx
 IO
@@ -2315,6 +2317,7 @@ IeV
 IeB
 IBP
 ImE
+Inception
 pHYs
 pt
 pu
@@ -3574,6 +3577,7 @@ pEDo
 pFs
 pMQ
 pTo
+pwd
 sbf
 sPv
 sC
@@ -4942,6 +4946,13 @@ successive
 shaft
 subtractor
 sccc
+supercomputers
+sch
+systemd
+scripts
+shebang
+subdirectory
+sorting
 ff
 fP
 fj
@@ -6025,6 +6036,9 @@ fewest
 feeding
 fXL
 flags
+freely
+filesystem
+filenames
 yq
 yh
 yS
@@ -8258,6 +8272,7 @@ wfM
 wrtt
 wnl
 wDCCC
+wanted
 BU
 Bh
 BC
@@ -9350,6 +9365,8 @@ Bistate
 Borrow
 Bout
 Bin
+Backed
+Binaries
 MC
 Ml
 MW
@@ -11511,6 +11528,11 @@ Labeling
 LaTeX
 LMLL
 Leo
+Linus
+License
+LILO
+Licensing
+Licensed
 al
 aj
 ar
@@ -12755,6 +12777,8 @@ alphanumeric
 activates
 adder
 adders
+afford
+alike
 Te
 Tn
 TA
@@ -13772,6 +13796,7 @@ TcU
 Tykkg
 TJKq
 TNj
+Torvalds
 uj
 uq
 uXm
@@ -14682,6 +14707,7 @@ udQUU
 universal
 uncomplemented
 unspecified
+unshareable
 OB
 Ox
 ONynT
@@ -15546,6 +15572,8 @@ OKM
 Observations
 Operands
 Overflow
+Origin
+Owner
 Uc
 Ue
 UXk
@@ -16412,6 +16440,7 @@ Universality
 Unasserted
 Uia
 UuGn
+Utilities
 ra
 rO
 rV
@@ -17533,6 +17562,7 @@ rhr
 ripple
 ryE
 rjVa
+redistribute
 eiO
 es
 ee
@@ -18708,6 +18738,8 @@ encoder
 enZ
 ezp
 eKc
+everyone
+executables
 GO
 GQ
 Gk
@@ -19635,6 +19667,12 @@ Guideline
 GZo
 Gkkk
 GIC
+GPL
+GNOME
+Gnome
+GRUB
+Gentoo
+Games
 Ex
 EZR
 EG
@@ -20709,6 +20747,9 @@ Encoders
 Encoder
 EIx
 EiiiF
+Experience
+EXAMPLES
+Excludes
 Sal
 SQ
 SB
@@ -21969,6 +22010,12 @@ SgL
 SqX
 SEw
 Scales
+Superior
+September
+Stability
+Scripts
+SYNOPSIS
+Specs
 iH
 ic
 iP
@@ -23088,6 +23135,7 @@ inverter
 inverters
 invert
 iMu
+inode
 tWA
 tW
 tM
@@ -26087,6 +26135,9 @@ Fuj
 Fgg
 FLMMe
 Figure
+Families
+Fields
+Forces
 xi
 xpF
 xwG
@@ -28576,6 +28627,8 @@ bCf
 briefly
 bubbles
 bubble
+bash
+bootloader
 Nb
 NJu
 Nbsa
@@ -29534,6 +29587,7 @@ NUu
 NAND
 NUS
 Nkz
+NAME
 lqQvz
 ln
 lN
@@ -30427,6 +30481,8 @@ lVzF
 leftmost
 lllp
 llK
+licensed
+losing
 Rc
 Rt
 RO
@@ -31550,6 +31606,11 @@ RtV
 RGb
 RoJl
 RiKCim
+Resistant
+Rarely
+Removable
+Recursively
+Renaming
 Zt
 ZB
 Zb
@@ -34341,6 +34402,8 @@ DOOOZ
 DeMorgan
 Deriving
 Decoders
+Developer
+DESCRIPTION
 ohQ
 oL
 ob
@@ -35217,6 +35280,9 @@ obc
 onnFGG
 overbar
 octets
+org
+omit
+omits
 mipte
 mRT
 mX
@@ -36297,6 +36363,8 @@ minterms
 markdown
 multiplexers
 mAbt
+mangers
+manuals
 Ck
 CS
 Cm
@@ -37645,6 +37713,9 @@ Comparators
 Cout
 Cbi
 Ccb
+Coordinates
+Collaboration
+Customizability
 vb
 vO
 vvF
@@ -39969,6 +40040,11 @@ conditionally
 cvI
 cEc
 comp
+cater
+componentes
+communities
+conditionals
+confirmation
 Hu
 Hg
 HiL
@@ -41027,6 +41103,7 @@ HaH
 HXVrj
 HNJZ
 HKMsww
+Helsinki
 hh
 hLR
 hI
@@ -42768,6 +42845,7 @@ XNOR
 XYZ
 XTG
 XVR
+Xfree
 gR
 gQ
 go
@@ -44536,6 +44614,7 @@ KYJ
 KSW
 KxD
 Karnaugh
+KDE
 zC
 zl
 zk
@@ -45878,6 +45957,7 @@ YXf
 YNu
 YjHÄ
 YÄ
+Yocto
 VLt
 Vfa
 Vr
@@ -46714,6 +46794,7 @@ VPE
 Vqp
 VFG
 Vfl
+Verbose
 dk
 dR
 dV
@@ -47921,6 +48002,10 @@ dBWaH
 drawn
 dzz
 dpGGGl
+developer
+distros
+declined
+dev
 AK
 AQ
 Aya

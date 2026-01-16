@@ -33,7 +33,7 @@ A **directory** is a container for system and data files — essentially a folde
 | `/`       | The **root directory**, top of the Linux file hierarchy. Every directory is a subdirectory of `/`. |
 | `/root`   | The **home directory** of the system administrator (root user).                                    |
 
-## /boot
+## The `/boot` Directory
 
 - Contains essential boot files, including the **Linux kernel** and **bootloader** (e.g. GRUB).
 - Required for system startup; losing this directory prevents the OS from booting.
@@ -266,6 +266,10 @@ mv [options] old_name new_name
 Used for batch renaming of multiple files or directories.
 May need to be installed depending on the distribution.
 
+### Example
+
+![](figure-10.png)
+
 ### Installation
 
 ```bash
@@ -275,6 +279,6 @@ sudo apt install rename
 # Fedora
 sudo yum install prename
 
-# Arch Linux
+# Arch Linux (btw)
 sudo pacman -S rename
 ```

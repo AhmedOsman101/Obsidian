@@ -1112,6 +1112,9 @@ Prompts
 Powerful
 Pressing
 Paste
+Preserve
+PATH
+Piped
 IHDR
 IDATx
 IO
@@ -2324,6 +2327,7 @@ ImE
 Inception
 IMproved
 Invoked
+Identifier
 pHYs
 pt
 pu
@@ -3587,6 +3591,7 @@ pwd
 pasting
 plbce
 plcce
+pipe
 sbf
 sPv
 sC
@@ -4963,6 +4968,8 @@ shebang
 subdirectory
 sorting
 superuser
+suppresses
+stats
 ff
 fP
 fj
@@ -6051,6 +6058,7 @@ filesystem
 filenames
 formatter
 fact
+filesystems
 yq
 yh
 yS
@@ -8289,6 +8297,7 @@ wanted
 wrapscan
 wraps
 wrap
+wildcard
 BU
 Bh
 BC
@@ -9383,6 +9392,7 @@ Bout
 Bin
 Backed
 Binaries
+Beyond
 MC
 Ml
 MW
@@ -17588,6 +17598,7 @@ rjVa
 redistribute
 restriction
 remembering
+recognized
 eiO
 es
 ee
@@ -18769,6 +18780,7 @@ expiry
 expiration
 echo
 esac
+existent
 GO
 GQ
 Gk
@@ -22055,6 +22067,8 @@ Scroll
 Searching
 Subcategories
 Shebang
+Suppress
+Searches
 iH
 ic
 iP
@@ -23178,6 +23192,7 @@ inode
 inherit
 indent
 innermost
+ignoring
 tWA
 tW
 tM
@@ -25095,6 +25110,7 @@ nBMf
 negatives
 nibble
 nVG
+newest
 Fc
 Fe
 Fo
@@ -26181,6 +26197,7 @@ Figure
 Families
 Fields
 Forces
+Forcefully
 xi
 xpF
 xwG
@@ -28673,6 +28690,7 @@ bubble
 bash
 bootloader
 bin
+blank
 Nb
 NJu
 Nbsa
@@ -31657,6 +31675,7 @@ Recursively
 Renaming
 Restricts
 Redo
+Redirects
 Zt
 ZB
 Zb
@@ -34453,6 +34472,7 @@ Developer
 DESCRIPTION
 Discard
 Determining
+Determination
 ohQ
 oL
 ob
@@ -37774,6 +37794,7 @@ Customizability
 Cursor
 Cut
 Correct
+Consequently
 vb
 vO
 vvF
@@ -38615,6 +38636,7 @@ vop
 vlF
 vim
 val
+verbose
 ck
 cr
 ce
@@ -40106,6 +40128,7 @@ communities
 conditionals
 confirmation
 chroot
+classifies
 Hu
 Hg
 HiL
@@ -46858,6 +46881,7 @@ Vqp
 VFG
 Vfl
 Verbose
+Viewing
 dk
 dR
 dV
@@ -48069,6 +48093,7 @@ developer
 distros
 declined
 dev
+dest
 AK
 AQ
 Aya

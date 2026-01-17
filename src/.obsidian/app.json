@@ -51,5 +51,5 @@
   "readableLineLength": false,
   "newFileLocation": "current",
   "attachmentFolderPath": "./",
-  "vimMode": true
+  "vimMode": false
 }

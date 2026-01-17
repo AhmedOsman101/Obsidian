@@ -85,6 +85,7 @@ pwd -P # Resolve all symlinks
 
 - **cd** stands for _Change Directory_.
 - Used to move between directories.
+- Available as a shell built-in.
 
 ### Syntax
 
@@ -98,8 +99,8 @@ cd [directory]
 cd /         # Move to the root directory
 cd           # Move to home directory
 cd ~         # Move to home directory
-cd ..        # Move to parent directory
 cd Documents # Move to a subdirectory
+cd ..        # Move to parent directory
 ```
 
 ### Absolute vs Relative Paths
@@ -125,19 +126,19 @@ ls [options] [directory]
 
 ### Common Options
 
-| Option | Description                                      |
-| ------ | ------------------------------------------------ |
-| `-l`   | Long listing format with detailed info.          |
-| `-a`   | Include hidden files (`.` prefix).               |
-| `-A`   | Show hidden files but omit `.` and `..`.         |
-| `-t`   | Sort by modification time.                       |
-| `-r`   | Reverse the sorting order.                       |
-| `-R`   | Recursive listing including subdirectories.      |
-| `-S`   | Sort by file size.                               |
-| `-i`   | Show inode numbers.                              |
-| `-g`   | Show group ownership instead of file owner.      |
-| `-h`   | Show human-readable sizes (e.g., KB, MB).        |
-| `-d`   | List directories themselves, not their contents. |
+| Option                 | Description                                      |
+| ---------------------- | ------------------------------------------------ |
+| `-a, --all`            | Include hidden files (`.` prefix).               |
+| `-A, --almost-all`     | Show hidden files but omit `.` and `..`.         |
+| `-d, --directory`      | List directories themselves, not their contents. |
+| `-g`                   | Show group ownership instead of file owner.      |
+| `-h, --human-readable` | Show human-readable sizes (e.g., KB, MB).        |
+| `-i, --inode`          | Show inode numbers.                              |
+| `-l`                   | Long listing format with detailed info.          |
+| `-r, --reverse`        | Reverse the sorting order.                       |
+| `-R, --recursive`      | Recursive listing including subdirectories.      |
+| `-S`                   | Sort by file size, largest first                 |
+| `-t`                   | Sort by modification time, newest first.         |
 
 ### `ls -l` Format Fields
 
@@ -153,6 +154,13 @@ ls [options] [directory]
 
 **Custom Block Sizes:**
 
+| Unit          | Unit          |
+| ------------- | ------------- |
+| K = Kilobyte  | M = Megabyte  |
+| G = Gigabyte  | T = Terabyte  |
+| P = Petabyte  | E = Exabyte   |
+| Z = Zettabyte | Y = Yottabyte |
+
 ```bash
 ls -l --block-size=M  # Display sizes in megabytes
 ```
@@ -162,7 +170,7 @@ ls -l --block-size=M  # Display sizes in megabytes
 ### Hidden Files and Directories
 
 - Hidden files start with a dot (`.`), e.g., `.bashrc`.
-- `ls -a`: Lists all files including `.` and `..`.
+- `ls -a`: Lists all files including `.` (current directory) and `..` (parent directory).
 - `ls -A`: Lists hidden files but omits `.` and `..`.
 
 **Reasons for Hidden Files:**
@@ -177,9 +185,11 @@ ls -l --block-size=M  # Display sizes in megabytes
 - `ls ../` -> Lists parent directory contents.
 
 - `ls -g` -> Excludes owner column from output.
+
   ![](figure-8.png)
 
 - `ls -R` -> Recursively lists subdirectories.
+
   ![](figure-9.png)
 
 ## `mkdir` Command
@@ -209,7 +219,7 @@ mkdir [options] directory_name
 ```bash
 mkdir new_folder
 mkdir -p dir1/dir2/dir3
-mkdir -m 755 secure_dir
+mkdir -m 755 secure_dir # Create a new directory with rwx-rw-rw- permissions
 ```
 
 ## `rmdir` Command
@@ -240,7 +250,7 @@ Deletes a directory and its empty parent directories.
 
 ## Renaming Directories
 
-Linux uses the `mv` command to rename directories (and files).
+Linux uses the `mv` command to move or rename directories (and files).
 
 There is no dedicated rename command.
 
@@ -273,12 +283,12 @@ May need to be installed depending on the distribution.
 ### Installation
 
 ```bash
+# Arch Linux (btw)
+sudo pacman -S rename
+
 # Debian / Ubuntu
 sudo apt install rename
 
 # Fedora
 sudo yum install prename
-
-# Arch Linux (btw)
-sudo pacman -S rename
 ```

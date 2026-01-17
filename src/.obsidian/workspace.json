@@ -4,22 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "502bdb73354c3504",
+        "id": "41fadf7c7b7af92e",
         "type": "tabs",
         "children": [
           {
-            "id": "5fd33f7d3071c1c9",
+            "id": "3c78f9f4f157e374",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearTwo/firstTerm/Linux/Lectures/Lecture-7.md",
+                "file": "College/yearTwo/firstTerm/Linux/Lectures/Lecture-8.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Lecture-7"
+              "title": "Lecture-8"
+            }
+          },
+          {
+            "id": "be4df496e9ed417d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "College/yearTwo/firstTerm/Linux/Lectures/draft.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "draft"
             }
           }
         ]
@@ -186,36 +201,36 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5fd33f7d3071c1c9",
+  "active": "3c78f9f4f157e374",
   "lastOpenFiles": [
-    "College/yearTwo/firstTerm/Linux/Lectures/draft.mdauJv4Y.bck",
-    "College/yearTwo/firstTerm/Linux/Lectures/draft.mdLuIzeN.bck",
-    "College/yearTwo/firstTerm/Linux/Lectures/draft.md4bPxs2.bck",
-    "College/yearTwo/firstTerm/Linux/Lectures/draft.md70hmDO.bck",
-    "College/yearTwo/firstTerm/Linux/Lectures/draft.mdrSOpiz.bck",
-    "College/yearTwo/firstTerm/Linux/Lectures/draft.mduGtgUk.bck",
-    "College/yearTwo/firstTerm/Linux/Lectures/draft.mdBaM9SD.bck",
-    "College/yearTwo/firstTerm/Linux/Lectures/draft.mdfxuvdD.bck",
-    "College/yearTwo/firstTerm/Linux/Lectures/draft.mde7E4q5.bck",
-    "College/yearTwo/firstTerm/Linux/Lectures/draft.mdCT5BD6.bck",
-    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-7.md8NQX6I.bck",
+    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-8.mdBTPdNH.bck",
+    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-8.md4LJ6Io.bck",
+    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-8.md7X5hJ4.bck",
+    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-8.mdfQ0v9N.bck",
+    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-8.md5uvqnY.bck",
+    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-8.mdOpeTtZ.bck",
+    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-8.mdc6gwzg.bck",
+    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-8.mdJdMN6e.bck",
+    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-8.mdBesxEa.bck",
+    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-8.mdeP0irE.bck",
+    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-8.mdPv4Vau.bck",
+    "College/yearTwo/firstTerm/Linux/Lectures/figure-33.png",
+    "College/yearTwo/firstTerm/Linux/Lectures/figure-32.png",
+    "College/yearTwo/firstTerm/Linux/Lectures/figure-31.png",
+    "College/yearTwo/firstTerm/Linux/Lectures/figure-30.png",
+    "College/yearTwo/firstTerm/Linux/Lectures/figure-29.png",
+    "College/yearTwo/firstTerm/Linux/Lectures/figure-28.png",
+    "College/yearTwo/firstTerm/Linux/Lectures/figure-27.png",
+    "College/yearTwo/firstTerm/Linux/Lectures/draft.md",
+    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-8.md",
+    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-7.md",
     "College/yearTwo/firstTerm/Linux/Lectures/figure-26.png",
     "College/yearTwo/firstTerm/Linux/Lectures/figure-25.png",
     "College/yearTwo/firstTerm/Linux/Lectures/figure-24.png",
-    "College/yearTwo/firstTerm/Linux/Lectures/figure-23.png",
-    "College/yearTwo/firstTerm/Linux/Lectures/figure-22.png",
-    "College/yearTwo/firstTerm/Linux/Lectures/figure-21.png",
-    "College/yearTwo/firstTerm/Linux/Lectures/figure-20.png",
-    "College/yearTwo/firstTerm/Linux/Lectures/figure-19.png",
-    "College/yearTwo/firstTerm/Linux/Lectures/figure-18.png",
-    "College/yearTwo/firstTerm/Linux/Lectures/figure-17.png",
     "College/yearTwo/firstTerm/Linux/Lectures/Lecture-3.md",
     "College/yearTwo/firstTerm/Linux/Lectures/Lecture-9.md",
-    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-8.md",
-    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-7.md",
     "College/yearTwo/firstTerm/Linux/Lectures/Lecture-2.md",
     "College/yearTwo/firstTerm/Linux/Lectures/Lecture-6.md",
-    "College/yearTwo/firstTerm/Linux/Lectures/draft.md",
     "public/draft.md",
     "College/yearTwo/firstTerm/Linux/Lectures/Lecture-5.md",
     "College/yearTwo/firstTerm/Linux/Lectures/Lecture-4.md",

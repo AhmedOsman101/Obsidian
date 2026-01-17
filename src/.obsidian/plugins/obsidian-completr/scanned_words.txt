@@ -1115,6 +1115,7 @@ Paste
 Preserve
 PATH
 Piped
+Prioritizing
 IHDR
 IDATx
 IO
@@ -2328,6 +2329,7 @@ Inception
 IMproved
 Invoked
 Identifier
+Init
 pHYs
 pt
 pu
@@ -3592,6 +3594,8 @@ pasting
 plbce
 plcce
 pipe
+philosophies
+preceded
 sbf
 sPv
 sC
@@ -4970,6 +4974,8 @@ sorting
 superuser
 suppresses
 stats
+scroll
+ser
 ff
 fP
 fj
@@ -6059,6 +6065,7 @@ filenames
 formatter
 fact
 filesystems
+forceful
 yq
 yh
 yS
@@ -9393,6 +9400,8 @@ Bin
 Backed
 Binaries
 Beyond
+Brings
+BSD
 MC
 Ml
 MW
@@ -11560,6 +11569,7 @@ License
 LILO
 Licensing
 Licensed
+Listing
 al
 aj
 ar
@@ -12806,6 +12816,7 @@ adder
 adders
 afford
 alike
+ampersand
 Te
 Tn
 TA
@@ -13826,6 +13837,7 @@ TNj
 Torvalds
 TENEX
 TOPS
+Tracking
 uj
 uq
 uXm
@@ -17599,6 +17611,7 @@ redistribute
 restriction
 remembering
 recognized
+reassigned
 eiO
 es
 ee
@@ -22069,6 +22082,8 @@ Subcategories
 Shebang
 Suppress
 Searches
+STIME
+Suspends
 iH
 ic
 iP
@@ -23193,6 +23208,8 @@ inherit
 indent
 innermost
 ignoring
+initiated
+ignorable
 tWA
 tW
 tM
@@ -24254,6 +24271,8 @@ tPU
 tqqq
 toKu
 tcsh
+telling
+terminology
 nm
 nv
 nhuK
@@ -25111,6 +25130,7 @@ negatives
 nibble
 nVG
 newest
+niceness
 Fc
 Fe
 Fo
@@ -29650,6 +29670,7 @@ NAND
 NUS
 Nkz
 NAME
+Nice
 lqQvz
 ln
 lN
@@ -33247,6 +33268,7 @@ kWWACD
 kyno
 kVt
 ksh
+killed
 Dp
 DI
 Db
@@ -35352,6 +35374,7 @@ octets
 org
 omit
 omits
+originate
 mipte
 mRT
 mX
@@ -37795,6 +37818,7 @@ Cursor
 Cut
 Correct
 Consequently
+Consumes
 vb
 vO
 vvF
@@ -40129,6 +40153,7 @@ conditionals
 confirmation
 chroot
 classifies
+cumulative
 Hu
 Hg
 HiL
@@ -42140,6 +42165,7 @@ hnnFGG
 hGs
 hhlh
 hVP
+hyphen
 Xi
 XZ
 Xn
@@ -44701,6 +44727,8 @@ KxD
 Karnaugh
 KDE
 Keystrokes
+Kill
+Keystroke
 zC
 zl
 zk
@@ -48094,6 +48122,8 @@ distros
 declined
 dev
 dest
+dead
+daemons
 AK
 AQ
 Aya
@@ -49468,6 +49498,7 @@ Adder
 AKCCC
 ALUs
 Automate
+Adopted
 Jw
 Jg
 JT

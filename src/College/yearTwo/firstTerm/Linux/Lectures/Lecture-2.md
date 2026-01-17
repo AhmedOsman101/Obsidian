@@ -15,16 +15,16 @@ A **directory** is a container for system and data files — essentially a folde
 
 ![](figure-3.png)
 
-| Directory | Purpose             | Directory | Purpose               |
-| :-------: | ------------------- | :-------: | --------------------- |
-|  `/bin`   | User Binaries       |  `/sbin`  | System Binaries       |
-|  `/etc`   | Configuration Files |  `/dev`   | Device Files          |
-|  `/proc`  | Process Information |  `/var`   | Variable Files        |
-|  `/tmp`   | Temporary Files     |  `/usr`   | User Programs         |
-|  `/home`  | Home Directories    |  `/boot`  | Boot Loader Files     |
-|  `/lib`   | System Libraries    |  `/opt`   | Optional Applications |
-|  `/mnt`   | Mount Directory     | `/media`  | Removable Devices     |
-|  `/srv`   | Service Data        |           |                       |
+| Directory | Purpose              | Directory | Purpose                |
+| :-------: | -------------------- | :-------: | ---------------------- |
+|  `/bin`   | User Binaries.       |  `/sbin`  | System Binaries.       |
+|  `/etc`   | Configuration Files. |  `/dev`   | Device Files.          |
+|  `/proc`  | Process Information. |  `/var`   | Variable Files.        |
+|  `/tmp`   | Temporary Files.     |  `/usr`   | User Programs.         |
+|  `/home`  | Home Directories.    |  `/boot`  | Boot Loader Files.     |
+|  `/lib`   | System Libraries.    |  `/opt`   | Optional Applications. |
+|  `/mnt`   | Mount Directory.     | `/media`  | Removable Devices.     |
+|  `/srv`   | Service Data.        |  `/run`   | Volatile runtime data. |
 
 ## Difference Between `/` and `/root`
 
@@ -132,8 +132,8 @@ ls [options] [directory]
 | `-A`   | Show hidden files but omit `.` and `..`.         |
 | `-t`   | Sort by modification time.                       |
 | `-r`   | Reverse the sorting order.                       |
-| `-S`   | Sort by file size.                               |
 | `-R`   | Recursive listing including subdirectories.      |
+| `-S`   | Sort by file size.                               |
 | `-i`   | Show inode numbers.                              |
 | `-g`   | Show group ownership instead of file owner.      |
 | `-h`   | Show human-readable sizes (e.g., KB, MB).        |

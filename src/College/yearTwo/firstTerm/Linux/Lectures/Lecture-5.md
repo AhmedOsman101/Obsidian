@@ -20,6 +20,7 @@
 
 ```bash
 #!/bin/sh
+
 echo "Hello World"
 ```
 
@@ -89,7 +90,7 @@ echo $SHELL
 - Example:
 
 ```bash
-#!/bin/bash
+#!/usr/bin/env bash
 ```
 
 - The file must be made executable before running.
@@ -112,7 +113,9 @@ echo "Hello $name"
 Once declared as read-only, a variable cannot be changed:
 
 ```bash
-readonly var="constant"
+readonly var1="constant"
+# Or
+declare -r var2="constant"
 ```
 
 ### Reading Variables from Input
@@ -191,10 +194,10 @@ echo ${arr[@]}   # Outputs all elements
 Use backticks or `$()`:
 
 ```bash
-today=$(date)
+today=$(date) # Prefered syntax
 echo "Today is $today"
 
-year=`date +%Y`
+year=`date +%Y` # Old syntax
 echo "Year is $year"
 ```
 
@@ -266,6 +269,7 @@ Used for multi-condition checks:
 case $var in
   1) echo "One" ;;
   2) echo "Two" ;;
+  ?) echo "Missing" ;;
   *) echo "Other" ;;
 esac
 ```
@@ -371,7 +375,7 @@ myfunc() {
 myfunc "Othman"
 ```
 
-## Example Script
+## Example Script: Factorial
 
 ```bash
 #!/usr/bin/env bash

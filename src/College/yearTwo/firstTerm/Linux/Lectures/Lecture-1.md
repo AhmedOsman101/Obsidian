@@ -210,6 +210,7 @@ chmod u+x script.sh
 
 ```bash
 #!/bin/bash
+
 rm *.txt # remove all text files
 ls -l
 ```

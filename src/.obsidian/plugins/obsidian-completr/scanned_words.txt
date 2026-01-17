@@ -1108,6 +1108,10 @@ Parity
 PKC
 Prints
 Path
+Prompts
+Powerful
+Pressing
+Paste
 IHDR
 IDATx
 IO
@@ -2318,6 +2322,8 @@ IeB
 IBP
 ImE
 Inception
+IMproved
+Invoked
 pHYs
 pt
 pu
@@ -3578,6 +3584,9 @@ pFs
 pMQ
 pTo
 pwd
+pasting
+plbce
+plcce
 sbf
 sPv
 sC
@@ -4953,6 +4962,7 @@ scripts
 shebang
 subdirectory
 sorting
+superuser
 ff
 fP
 fj
@@ -6039,6 +6049,8 @@ flags
 freely
 filesystem
 filenames
+formatter
+fact
 yq
 yh
 yS
@@ -6742,6 +6754,7 @@ yDN
 ycSFoD
 yAn
 yrE
+yank
 ql
 qu
 qb
@@ -8273,6 +8286,9 @@ wrtt
 wnl
 wDCCC
 wanted
+wrapscan
+wraps
+wrap
 BU
 Bh
 BC
@@ -10486,6 +10502,7 @@ Multiplexers
 Multiplexer
 MUX
 MXF
+Movement
 Lj
 Lf
 LvVa
@@ -13797,6 +13814,8 @@ Tykkg
 TJKq
 TNj
 Torvalds
+TENEX
+TOPS
 uj
 uq
 uXm
@@ -14708,6 +14727,7 @@ universal
 uncomplemented
 unspecified
 unshareable
+unencrypted
 OB
 Ox
 ONynT
@@ -15574,6 +15594,7 @@ Operands
 Overflow
 Origin
 Owner
+Others
 Uc
 Ue
 UXk
@@ -16441,6 +16462,8 @@ Unasserted
 Uia
 UuGn
 Utilities
+Usages
+Undo
 ra
 rO
 rV
@@ -17563,6 +17586,8 @@ ripple
 ryE
 rjVa
 redistribute
+restriction
+remembering
 eiO
 es
 ee
@@ -18740,6 +18765,10 @@ ezp
 eKc
 everyone
 executables
+expiry
+expiration
+echo
+esac
 GO
 GQ
 Gk
@@ -19673,6 +19702,7 @@ Gnome
 GRUB
 Gentoo
 Games
+GID
 Ex
 EZR
 EG
@@ -20750,6 +20780,8 @@ EiiiF
 Experience
 EXAMPLES
 Excludes
+Entered
+Editing
 Sal
 SQ
 SB
@@ -22016,6 +22048,13 @@ Stability
 Scripts
 SYNOPSIS
 Specs
+Superuser
+SELinux
+Scrolling
+Scroll
+Searching
+Subcategories
+Shebang
 iH
 ic
 iP
@@ -23136,6 +23175,9 @@ inverters
 invert
 iMu
 inode
+inherit
+indent
+innermost
 tWA
 tW
 tM
@@ -24196,6 +24238,7 @@ trZ
 tPU
 tqqq
 toKu
+tcsh
 nm
 nv
 nhuK
@@ -28629,6 +28672,7 @@ bubbles
 bubble
 bash
 bootloader
+bin
 Nb
 NJu
 Nbsa
@@ -31611,6 +31655,8 @@ Rarely
 Removable
 Recursively
 Renaming
+Restricts
+Redo
 Zt
 ZB
 Zb
@@ -33181,6 +33227,7 @@ kof
 kWWACD
 kyno
 kVt
+ksh
 Dp
 DI
 Db
@@ -34404,6 +34451,8 @@ Deriving
 Decoders
 Developer
 DESCRIPTION
+Discard
+Determining
 ohQ
 oL
 ob
@@ -36365,6 +36414,12 @@ multiplexers
 mAbt
 mangers
 manuals
+mail
+memberships
+margins
+modifier
+margin
+myfunc
 Ck
 CS
 Cm
@@ -37716,6 +37771,9 @@ Ccb
 Coordinates
 Collaboration
 Customizability
+Cursor
+Cut
+Correct
 vb
 vO
 vvF
@@ -38555,6 +38613,8 @@ vjz
 vyQv
 vop
 vlF
+vim
+val
 ck
 cr
 ce
@@ -40045,6 +40105,7 @@ componentes
 communities
 conditionals
 confirmation
+chroot
 Hu
 Hg
 HiL
@@ -41104,6 +41165,7 @@ HXVrj
 HNJZ
 HKMsww
 Helsinki
+Harder
 hh
 hLR
 hI
@@ -44615,6 +44677,7 @@ KSW
 KxD
 Karnaugh
 KDE
+Keystrokes
 zC
 zl
 zk
@@ -49379,6 +49442,7 @@ Adders
 Adder
 AKCCC
 ALUs
+Automate
 Jw
 Jg
 JT
@@ -50284,6 +50348,8 @@ JfAMpKcrP
 JIZ
 JDQ
 JhE
+Joining
+Join
 Qv
 QL
 QD
@@ -51075,6 +51141,7 @@ QRc
 QMf
 QSC
 QOu
+Quit
 WliB
 WWO
 WRY

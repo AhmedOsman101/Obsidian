@@ -6066,6 +6066,7 @@ formatter
 fact
 filesystems
 forceful
+friend
 yq
 yh
 yS
@@ -12817,6 +12818,7 @@ adders
 afford
 alike
 ampersand
+alphabetically
 Te
 Tn
 TA
@@ -17612,6 +17614,7 @@ restriction
 remembering
 recognized
 reassigned
+redirected
 eiO
 es
 ee
@@ -23210,6 +23213,7 @@ innermost
 ignoring
 initiated
 ignorable
+indexing
 tWA
 tW
 tM
@@ -31697,6 +31701,7 @@ Renaming
 Restricts
 Redo
 Redirects
+Redirection
 Zt
 ZB
 Zb
@@ -34495,6 +34500,8 @@ DESCRIPTION
 Discard
 Determining
 Determination
+Decompression
+Decompressing
 ohQ
 oL
 ob
@@ -37819,6 +37826,7 @@ Cut
 Correct
 Consequently
 Consumes
+Compression
 vb
 vO
 vvF
@@ -48124,6 +48132,7 @@ dev
 dest
 dead
 daemons
+descriptor
 AK
 AQ
 Aya

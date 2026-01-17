@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Lecture-8",
-      "path": "College/yearTwo/firstTerm/Linux/Lectures/Lecture-8.md"
+      "basename": "Lecture-9",
+      "path": "College/yearTwo/firstTerm/Linux/Lectures/Lecture-9.md"
     },
     {
       "basename": "draft",
       "path": "College/yearTwo/firstTerm/Linux/Lectures/draft.md"
+    },
+    {
+      "basename": "Lecture-8",
+      "path": "College/yearTwo/firstTerm/Linux/Lectures/Lecture-8.md"
     },
     {
       "basename": "Lecture-7",
@@ -195,10 +199,6 @@
     {
       "basename": "Lecture-1-2",
       "path": "College/yearTwo/firstTerm/OS/Summaries/Lecture-1-2.md"
-    },
-    {
-      "basename": "Lecture-7",
-      "path": "College/yearTwo/firstTerm/OS/Summaries/Lecture-7.md"
     }
   ],
   "omittedPaths": [],

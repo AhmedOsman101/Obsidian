@@ -13,9 +13,9 @@
   "enabledCss": true,
   "concurrency": "5",
   "prevConfig": {
-    "pageSize": "Custom",
+    "pageSize": "Tabloid",
     "marginType": "1",
-    "showTitle": true,
+    "showTitle": false,
     "open": true,
     "scale": 100,
     "landscape": false,
@@ -26,7 +26,7 @@
     "displayHeader": false,
     "displayFooter": false,
     "cssSnippet": "0",
-    "pageHeight": "1300",
+    "pageHeight": "24700",
     "pageWidth": "250"
   }
 }

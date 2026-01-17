@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearTwo/firstTerm/Linux/Lectures/Lecture-9.md",
+                "file": "College/yearTwo/firstTerm/Linux/Lectures/AllLectures.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Lecture-9"
+              "title": "AllLectures"
             }
           },
           {
@@ -203,6 +203,7 @@
   },
   "active": "3c78f9f4f157e374",
   "lastOpenFiles": [
+    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-9.md",
     "College/yearTwo/firstTerm/Linux/Lectures/draft.md2EW7py.bck",
     "College/yearTwo/firstTerm/Linux/Lectures/draft.mdcNCfsC.bck",
     "College/yearTwo/firstTerm/Linux/Lectures/Lecture-9.md1DifeJ.bck",
@@ -213,7 +214,6 @@
     "College/yearTwo/firstTerm/Linux/Lectures/Lecture-9.mdNsSwpg.bck",
     "College/yearTwo/firstTerm/Linux/Lectures/Lecture-9.mdhDlefT.bck",
     "College/yearTwo/firstTerm/Linux/Lectures/Lecture-9.mdhQN5n2.bck",
-    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-9.md2WAkzG.bck",
     "College/yearTwo/firstTerm/Linux/Lectures/figure-49.png",
     "College/yearTwo/firstTerm/Linux/Lectures/figure-48.png",
     "College/yearTwo/firstTerm/Linux/Lectures/figure-47.png",
@@ -225,7 +225,6 @@
     "College/yearTwo/firstTerm/Linux/Lectures/figure-42.png",
     "College/yearTwo/firstTerm/Linux/Lectures/figure-41.png",
     "College/yearTwo/firstTerm/Linux/Lectures/draft.md",
-    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-9.md",
     "College/yearTwo/firstTerm/Linux/Lectures/Lecture-8.md",
     "College/yearTwo/firstTerm/Linux/Lectures/Lecture-7.md",
     "College/yearTwo/firstTerm/Linux/Lectures/Lecture-3.md",

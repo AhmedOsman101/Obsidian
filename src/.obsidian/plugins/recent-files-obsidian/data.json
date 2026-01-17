@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "AllLectures",
+      "path": "College/yearTwo/firstTerm/Linux/Lectures/AllLectures.md"
+    },
+    {
       "basename": "Lecture-9",
       "path": "College/yearTwo/firstTerm/Linux/Lectures/Lecture-9.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Lecture-1-2",
       "path": "College/yearTwo/firstTerm/OS/Lectures/Lecture-1-2.md"
-    },
-    {
-      "basename": "Lecture-1-2",
-      "path": "College/yearTwo/firstTerm/OS/Summaries/Lecture-1-2.md"
     }
   ],
   "omittedPaths": [],

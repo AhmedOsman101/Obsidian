@@ -3596,6 +3596,7 @@ plcce
 pipe
 philosophies
 preceded
+ppid
 sbf
 sPv
 sC
@@ -4976,6 +4977,9 @@ suppresses
 stats
 scroll
 ser
+stdout
+sshd
+sed
 ff
 fP
 fj
@@ -6067,6 +6071,7 @@ fact
 filesystems
 forceful
 friend
+facebook
 yq
 yh
 yS
@@ -8306,6 +8311,9 @@ wrapscan
 wraps
 wrap
 wildcard
+wget
+whois
+wlan
 BU
 Bh
 BC
@@ -12819,6 +12827,10 @@ afford
 alike
 ampersand
 alphabetically
+arp
+addr
+atnp
+aux
 Te
 Tn
 TA
@@ -13840,6 +13852,7 @@ Torvalds
 TENEX
 TOPS
 Tracking
+TIME
 uj
 uq
 uXm
@@ -14752,6 +14765,8 @@ uncomplemented
 unspecified
 unshareable
 unencrypted
+updatedb
+uniq
 OB
 Ox
 ONynT
@@ -17615,6 +17630,7 @@ remembering
 recognized
 reassigned
 redirected
+route
 eiO
 es
 ee
@@ -18797,6 +18813,7 @@ expiration
 echo
 esac
 existent
+eth
 GO
 GQ
 Gk
@@ -20810,6 +20827,7 @@ EXAMPLES
 Excludes
 Entered
 Editing
+ESTABLISHED
 Sal
 SQ
 SB
@@ -23214,6 +23232,9 @@ ignoring
 initiated
 ignorable
 indexing
+ifconfig
+iwconfig
+ifplugstatus
 tWA
 tW
 tM
@@ -24277,6 +24298,10 @@ toKu
 tcsh
 telling
 terminology
+tac
+traceroute
+tracepath
+tee
 nm
 nv
 nhuK
@@ -25135,6 +25160,10 @@ nibble
 nVG
 newest
 niceness
+netstat
+nslookup
+netmask
+nlpt
 Fc
 Fe
 Fo
@@ -28715,6 +28744,8 @@ bash
 bootloader
 bin
 blank
+bak
+banner
 Nb
 NJu
 Nbsa
@@ -34502,6 +34533,7 @@ Determining
 Determination
 Decompression
 Decompressing
+Demo
 ohQ
 oL
 ob
@@ -35382,6 +35414,7 @@ org
 omit
 omits
 originate
+outlook
 mipte
 mRT
 mX
@@ -36470,6 +36503,8 @@ margins
 modifier
 margin
 myfunc
+msg
+mtr
 Ck
 CS
 Cm
@@ -37827,6 +37862,9 @@ Correct
 Consequently
 Consumes
 Compression
+CTRL
+Ctrl
+CMD
 vb
 vO
 vvF
@@ -40162,6 +40200,9 @@ confirmation
 chroot
 classifies
 cumulative
+cmd
+curl
+cron
 Hu
 Hg
 HiL
@@ -42174,6 +42215,7 @@ hGs
 hhlh
 hVP
 hyphen
+hostnamectl
 Xi
 XZ
 Xn
@@ -43881,6 +43923,9 @@ gqci
 gUD
 geRvB
 glitch
+git
+gzip
+gunzip
 KUYX
 KX
 KK
@@ -48133,6 +48178,7 @@ dest
 dead
 daemons
 descriptor
+demo
 AK
 AQ
 Aya
@@ -49508,6 +49554,7 @@ AKCCC
 ALUs
 Automate
 Adopted
+Ability
 Jw
 Jg
 JT

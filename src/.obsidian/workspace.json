@@ -4,37 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "41fadf7c7b7af92e",
+        "id": "6f0f81199e0a4f1b",
         "type": "tabs",
         "children": [
           {
-            "id": "3c78f9f4f157e374",
+            "id": "6e525bd4f56ef0fe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/yearTwo/firstTerm/Linux/Lectures/AllLectures.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "AllLectures"
-            }
-          },
-          {
-            "id": "be4df496e9ed417d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/yearTwo/firstTerm/Linux/Lectures/draft.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "draft"
+              "title": "New tab"
             }
           }
         ]
@@ -201,8 +181,29 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3c78f9f4f157e374",
+  "active": "6e6b30772217c8e6",
   "lastOpenFiles": [
+    "College/yearTwo/firstTerm/WebDevelopment/Summaries/Summaries.pdf",
+    "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lab-l.md",
+    "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lab-k.md",
+    "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lab-j.md",
+    "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lab-i.md",
+    "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lab-h.md",
+    "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lab-g.md",
+    "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lab-f.md",
+    "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lab-e.md",
+    "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lab-d.md",
+    "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lab-c.md",
+    "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lab-b.md",
+    "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lab-a.md",
+    "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lecture-5.md",
+    "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lecture-6.md",
+    "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lecture-4.md",
+    "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lab-8.md",
+    "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lecture-2.md",
+    "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lecture-1.md",
+    "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lecture-3.md",
+    "College/yearTwo/firstTerm/Linux/Lectures/AllLectures.md",
     "College/yearTwo/firstTerm/Linux/Lectures/Lecture-9.md",
     "College/yearTwo/firstTerm/Linux/Lectures/draft.md2EW7py.bck",
     "College/yearTwo/firstTerm/Linux/Lectures/draft.mdcNCfsC.bck",
@@ -227,26 +228,6 @@
     "College/yearTwo/firstTerm/Linux/Lectures/draft.md",
     "College/yearTwo/firstTerm/Linux/Lectures/Lecture-8.md",
     "College/yearTwo/firstTerm/Linux/Lectures/Lecture-7.md",
-    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-3.md",
-    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-2.md",
-    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-6.md",
-    "public/draft.md",
-    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-5.md",
-    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-4.md",
-    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-1.md",
-    "College/yearTwo/firstTerm/C++/Summaries/CLI-code-example.md",
-    "College/yearTwo/firstTerm/DigitalEngineering/Lectures/DigitalCircuits.md",
-    "College/yearTwo/firstTerm/C++/Summaries/Lectures & self-study topics summary C++.md",
-    "College/yearTwo/firstTerm/DigitalEngineering/Lectures/draft.md",
-    "College/yearTwo/firstTerm/DigitalEngineering/Lectures/AllLectures.md",
-    "College/yearTwo/firstTerm/DigitalEngineering/Lectures/LogicGates.md",
-    "College/yearOne/firstTerm/Math/Lectures/LectureFour.md",
-    "College/yearTwo/firstTerm/DigitalEngineering/Lectures/NumberSystems.md",
-    "College/yearTwo/firstTerm/DigitalEngineering/Lectures/All.md",
-    "College/yearTwo/firstTerm/DigitalEngineering/Lectures/AnalogAndDigital.md",
-    "College/yearOne/firstTerm/IT-Essentials/Sections/SectionFour.md",
-    "College/yearOne/firstTerm/IT-Essentials/Sections/SectionThree.md",
-    "College/yearOne/firstTerm/IT-Essentials/Sections/SectionTwo.md",
-    "College/yearOne/firstTerm/IT-Essentials/Lectures/LectureThree.md"
+    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-3.md"
   ]
 }

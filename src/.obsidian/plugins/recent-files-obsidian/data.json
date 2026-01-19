@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Lecture-5",
+      "path": "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lecture-5.md"
+    },
+    {
+      "basename": "Lecture-6",
+      "path": "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lecture-6.md"
+    },
+    {
+      "basename": "Lecture-4",
+      "path": "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lecture-4.md"
+    },
+    {
+      "basename": "Lecture-2",
+      "path": "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lecture-2.md"
+    },
+    {
+      "basename": "Lecture-1",
+      "path": "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lecture-1.md"
+    },
+    {
+      "basename": "Lecture-3",
+      "path": "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lecture-3.md"
+    },
+    {
       "basename": "AllLectures",
       "path": "College/yearTwo/firstTerm/Linux/Lectures/AllLectures.md"
     },
@@ -171,34 +195,6 @@
     {
       "basename": "Lecture-7",
       "path": "College/yearTwo/firstTerm/OS/Summaries-second-attempt/Lecture-7.md"
-    },
-    {
-      "basename": "Lecture-6",
-      "path": "College/yearTwo/firstTerm/OS/Summaries-second-attempt/Lecture-6.md"
-    },
-    {
-      "basename": "Lecture-5",
-      "path": "College/yearTwo/firstTerm/OS/Summaries-second-attempt/Lecture-5.md"
-    },
-    {
-      "basename": "Lecture-5",
-      "path": "College/yearTwo/firstTerm/OS/Summaries/Lecture-5.md"
-    },
-    {
-      "basename": "Lecture-4",
-      "path": "College/yearTwo/firstTerm/OS/Summaries-second-attempt/Lecture-4.md"
-    },
-    {
-      "basename": "Lecture-3",
-      "path": "College/yearTwo/firstTerm/OS/Summaries-second-attempt/Lecture-3.md"
-    },
-    {
-      "basename": "Lecture-1-2",
-      "path": "College/yearTwo/firstTerm/OS/Summaries-second-attempt/Lecture-1-2.md"
-    },
-    {
-      "basename": "Lecture-1-2",
-      "path": "College/yearTwo/firstTerm/OS/Lectures/Lecture-1-2.md"
     }
   ],
   "omittedPaths": [],

@@ -1116,6 +1116,9 @@ Preserve
 PATH
 Piped
 Prioritizing
+Paragraphs
+Purple
+Pink
 IHDR
 IDATx
 IO
@@ -2330,6 +2333,8 @@ IMproved
 Invoked
 Identifier
 Init
+Indian
+Intranet
 pHYs
 pt
 pu
@@ -3597,6 +3602,8 @@ pipe
 philosophies
 preceded
 ppid
+paragraph
+purple
 sbf
 sPv
 sC
@@ -4980,6 +4987,14 @@ ser
 stdout
 sshd
 sed
+seat
+sparingly
+styling
+selectors
+swim
+stand
+shaded
+structural
 ff
 fP
 fj
@@ -6072,6 +6087,9 @@ filesystems
 forceful
 friend
 facebook
+favorites
+footer
+flush
 yq
 yh
 yS
@@ -8314,6 +8332,7 @@ wildcard
 wget
 whois
 wlan
+wikis
 BU
 Bh
 BC
@@ -9411,6 +9430,12 @@ Binaries
 Beyond
 Brings
 BSD
+Bookmarks
+BODY
+Blink
+Blue
+Backgrounds
+Border
 MC
 Ml
 MW
@@ -10531,6 +10556,11 @@ Multiplexer
 MUX
 MXF
 Movement
+Markup
+Maroon
+Magenta
+MAXLENGTH
+MULTIPLE
 Lj
 Lf
 LvVa
@@ -11579,6 +11609,7 @@ LILO
 Licensing
 Licensed
 Listing
+Lime
 al
 aj
 ar
@@ -13853,6 +13884,8 @@ TENEX
 TOPS
 Tracking
 TIME
+Tag
+Teal
 uj
 uq
 uXm
@@ -14767,6 +14800,7 @@ unshareable
 unencrypted
 updatedb
 uniq
+unvisited
 OB
 Ox
 ONynT
@@ -15634,6 +15668,10 @@ Overflow
 Origin
 Owner
 Others
+OWL
+Olive
+Orange
+Opacity
 Uc
 Ue
 UXk
@@ -16503,6 +16541,7 @@ UuGn
 Utilities
 Usages
 Undo
+Understands
 ra
 rO
 rV
@@ -17631,6 +17670,7 @@ recognized
 reassigned
 redirected
 route
+reasoning
 eiO
 es
 ee
@@ -20828,6 +20868,7 @@ Excludes
 Entered
 Editing
 ESTABLISHED
+Entertainment
 Sal
 SQ
 SB
@@ -22105,6 +22146,16 @@ Suppress
 Searches
 STIME
 Suspends
+Styling
+Silver
+Selector
+Selectors
+Spacing
+Sizing
+Spanning
+Structural
+Submit
+SIZE
 iH
 ic
 iP
@@ -23235,6 +23286,7 @@ indexing
 ifconfig
 iwconfig
 ifplugstatus
+italics
 tWA
 tW
 tM
@@ -24302,6 +24354,7 @@ tac
 traceroute
 tracepath
 tee
+transparent
 nm
 nv
 nhuK
@@ -25164,6 +25217,7 @@ netstat
 nslookup
 netmask
 nlpt
+nesting
 Fc
 Fe
 Fo
@@ -26251,6 +26305,9 @@ Families
 Fields
 Forces
 Forcefully
+Favorites
+Font
+Fuchsia
 xi
 xpF
 xwG
@@ -27720,6 +27777,7 @@ jYm
 jXA
 jXBC
 jOOO
+jacket
 bo
 bi
 bn
@@ -28746,6 +28804,9 @@ bin
 blank
 bak
 banner
+blogs
+bookmarks
+bulleted
 Nb
 NJu
 Nbsa
@@ -29706,6 +29767,8 @@ NUS
 Nkz
 NAME
 Nice
+Navy
+Netscape
 lqQvz
 ln
 lN
@@ -31733,6 +31796,12 @@ Restricts
 Redo
 Redirects
 Redirection
+Railways
+RGB
+Red
+Roman
+Rowspan
+ROWS
 Zt
 ZB
 Zb
@@ -34534,6 +34603,7 @@ Determination
 Decompression
 Decompressing
 Demo
+Destination
 ohQ
 oL
 ob
@@ -35415,6 +35485,8 @@ omit
 omits
 originate
 outlook
+ontologies
+opaque
 mipte
 mRT
 mX
@@ -36505,6 +36577,9 @@ margin
 myfunc
 msg
 mtr
+monospaced
+mystyle
+merged
 Ck
 CS
 Cm
@@ -37865,6 +37940,15 @@ Compression
 CTRL
 Ctrl
 CMD
+Commercial
+Comment
+Cyan
+Cell
+Caption
+Caution
+Colspan
+COLS
+Checkbox
 vb
 vO
 vvF
@@ -38707,6 +38791,7 @@ vlF
 vim
 val
 verbose
+visited
 ck
 cr
 ce
@@ -40203,6 +40288,9 @@ cumulative
 cmd
 curl
 cron
+centered
+canoe
+cells
 Hu
 Hg
 HiL
@@ -41263,6 +41351,10 @@ HNJZ
 HKMsww
 Helsinki
 Harder
+Hosting
+HyperText
+Headings
+Hang
 hh
 hLR
 hI
@@ -46125,6 +46217,7 @@ YNu
 YjHÄ
 YÄ
 Yocto
+Yellow
 VLt
 Vfa
 Vr
@@ -48179,6 +48272,7 @@ dead
 daemons
 descriptor
 demo
+descriptive
 AK
 AQ
 Aya
@@ -49555,6 +49649,10 @@ ALUs
 Automate
 Adopted
 Ability
+AJAX
+Alignment
+Anchors
+Aqua
 Jw
 Jg
 JT
@@ -52050,6 +52148,11 @@ WyQ
 WQf
 WrS
 Wooo
+Warning
+Wear
+Wrap
+Wrapping
+WRAP
 Ötl
 ÖC
 Öm

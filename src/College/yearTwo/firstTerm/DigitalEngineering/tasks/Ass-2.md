@@ -56,12 +56,16 @@
 
 ## TinkerCAD
 
-![](figure%201.png)
+![](figure-3.png)
 
 <br><br><br>
 
+## Logic Circuit Design
+
+![](figure-4.png)
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 ## Circuit Images
 
-![](figure-1%201.png)
-
-![](figure-2%201.png)
+![](figure-5.png)

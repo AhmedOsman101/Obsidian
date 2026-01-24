@@ -7,3 +7,5 @@ Pre
 BIR
 Birth
 birthdays
+NAND
+TinkerCAD

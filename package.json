@@ -38,5 +38,5 @@
       "lodash-es@>=4.0.0 <=4.17.22": ">=4.17.23"
     }
   },
-  "packageManager": "pnpm@10.26.2"
+  "packageManager": "pnpm@10.28.1"
 }

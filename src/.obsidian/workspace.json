@@ -8,33 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6e525bd4f56ef0fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/yearTwo/firstTerm/DigitalEngineering/tasks/Ass-2.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Ass-2"
-            }
-          },
-          {
             "id": "af8ed312b5e2c2fa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/yearTwo/firstTerm/DigitalEngineering/tasks/task-3.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "task-3"
+              "title": "New tab"
             }
           }
         ]
@@ -201,19 +181,28 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6e6b30772217c8e6",
+  "active": "af8ed312b5e2c2fa",
   "lastOpenFiles": [
+    "College/yearTwo/firstTerm/DigitalEngineering/sheets/sheet.pdf",
+    "College/yearTwo/firstTerm/DigitalEngineering/sheets/sheet-2.md",
+    "College/yearTwo/firstTerm/DigitalEngineering/sheets/sheet-1.md",
+    "College/yearTwo/firstTerm/DigitalEngineering/sheets/figure-2.png",
+    "College/yearTwo/firstTerm/DigitalEngineering/sheets/figure-1.png",
+    "College/yearTwo/firstTerm/DigitalEngineering/sheets",
+    "College/yearTwo/firstTerm/DigitalEngineering/tasks/Ass-2.md",
+    "College/yearTwo/firstTerm/DigitalEngineering/Assingments/figure-5.jpg",
+    "College/yearTwo/firstTerm/DigitalEngineering/Assingments/figure-3.png",
+    "College/yearTwo/firstTerm/DigitalEngineering/Assingments/figure-4.png",
+    "College/yearTwo/firstTerm/DigitalEngineering/Assingments/Ass-2.md",
+    "College/yearTwo/firstTerm/DigitalEngineering/tasks/figure-5.jpg",
     "College/yearTwo/firstTerm/DigitalEngineering/tasks/figure-4.png",
     "College/yearTwo/firstTerm/DigitalEngineering/Assingments/Ass-1.md",
-    "College/yearTwo/firstTerm/DigitalEngineering/tasks/Ass-2.md",
     "College/yearTwo/firstTerm/DigitalEngineering/tasks/figure-5.png",
     "College/yearTwo/firstTerm/DigitalEngineering/tasks/figure-1 1.png",
     "College/yearTwo/firstTerm/DigitalEngineering/tasks/figure-5.png.fdmdownload",
     "College/yearTwo/firstTerm/DigitalEngineering/tasks/figure-2 1.png",
     "College/yearTwo/firstTerm/DigitalEngineering/tasks/sheet-2.md",
     "College/yearTwo/firstTerm/DigitalEngineering/tasks/sheet-1.md",
-    "College/yearTwo/firstTerm/DigitalEngineering/Assingments/Ass1-TinkerCad.png",
-    "College/yearTwo/firstTerm/DigitalEngineering/Assingments/Ass1-NAND.png",
     "College/yearTwo/firstTerm/WebDevelopment/Summaries/Summaries.pdf",
     "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lab-l.md",
     "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lab-k.md",
@@ -233,21 +222,12 @@
     "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lab-8.md",
     "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lecture-2.md",
     "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lecture-1.md",
-    "College/yearTwo/firstTerm/WebDevelopment/Summaries/Lecture-3.md",
-    "College/yearTwo/firstTerm/Linux/Lectures/AllLectures.md",
-    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-9.md",
     "College/yearTwo/firstTerm/Linux/Lectures/draft.md2EW7py.bck",
     "College/yearTwo/firstTerm/Linux/Lectures/draft.mdcNCfsC.bck",
     "College/yearTwo/firstTerm/Linux/Lectures/Lecture-9.md1DifeJ.bck",
     "College/yearTwo/firstTerm/Linux/Lectures/Lecture-9.mdE5Nvx3.bck",
     "College/yearTwo/firstTerm/Linux/Lectures/Lecture-9.mdXCdSaC.bck",
     "College/yearTwo/firstTerm/Linux/Lectures/Lecture-9.mdoZKdVX.bck",
-    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-9.mdlkNeco.bck",
-    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-9.mdNsSwpg.bck",
-    "College/yearTwo/firstTerm/Linux/Lectures/figure-49.png",
-    "College/yearTwo/firstTerm/Linux/Lectures/figure-48.png",
-    "College/yearTwo/firstTerm/Linux/Lectures/figure-47.png",
-    "College/yearTwo/firstTerm/Linux/Lectures/figure-46.png",
-    "College/yearTwo/firstTerm/Linux/Lectures/figure-45.png"
+    "College/yearTwo/firstTerm/Linux/Lectures/Lecture-9.mdlkNeco.bck"
   ]
 }

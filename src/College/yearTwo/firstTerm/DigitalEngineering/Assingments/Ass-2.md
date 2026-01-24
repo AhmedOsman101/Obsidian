@@ -68,4 +68,4 @@
 
 ## Circuit Images
 
-![](figure-5.png)
+![](figure-5.jpg)

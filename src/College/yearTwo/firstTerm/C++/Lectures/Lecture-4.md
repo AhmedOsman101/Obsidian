@@ -1,3 +1,13 @@
+---
+prev:
+  text: "Lecture 3"
+  link: "/College/yearTwo/firstTerm/C++/Lectures/Lecture-3"
+next:
+  text: "Lecture 5"
+  link: "/College/yearTwo/firstTerm/C++/Lectures/Lecture-5"
+title: Lecture 4
+---
+
 # Lecture 4: Introduction to C++
 
 ## 1. Introduction to C++

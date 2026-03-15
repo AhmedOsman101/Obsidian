@@ -1,3 +1,11 @@
+---
+prev:
+  text: "Digital Circuits"
+  link: "/College/yearTwo/firstTerm/DigitalEngineering/Lectures/DigitalCircuits"
+next: false
+title: Analog and Digital
+---
+
 # Digital Engineering Summary
 
 ## Analog vs. Digital

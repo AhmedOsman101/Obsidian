@@ -1,3 +1,11 @@
+---
+prev:
+  text: "Lecture 5"
+  link: "/College/yearTwo/firstTerm/WebDevelopment/Lectures/Lecture-5"
+next: false
+title: Lecture 6
+---
+
 # Web Programming - Lecture 6: HTML Tables
 
 ## Introduction to Tables

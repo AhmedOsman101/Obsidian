@@ -1,3 +1,11 @@
+---
+prev:
+  text: "Lecture 5"
+  link: "/College/yearTwo/firstTerm/C++/Lectures/Lecture-5"
+next: false
+title: Lecture 6
+---
+
 # Lecture 6: Loops and Conditionals
 
 ## 1. Conditional Statements

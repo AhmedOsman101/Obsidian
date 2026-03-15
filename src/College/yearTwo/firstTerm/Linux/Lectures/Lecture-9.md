@@ -1,3 +1,11 @@
+---
+prev:
+  text: "Lecture 8"
+  link: "/College/yearTwo/firstTerm/Linux/Lectures/Lecture-8"
+next: false
+title: Lecture 9
+---
+
 # Lecture 9: Linux Filters & Commands
 
 ## Filters

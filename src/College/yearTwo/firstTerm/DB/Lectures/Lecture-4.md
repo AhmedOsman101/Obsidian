@@ -1,3 +1,13 @@
+---
+prev:
+  text: "Lecture 3"
+  link: "/College/yearTwo/firstTerm/DB/Lectures/Lecture-3"
+next:
+  text: "Lecture 5"
+  link: "/College/yearTwo/firstTerm/DB/Lectures/Lecture-5"
+title: Lecture 4
+---
+
 # Lecture 4: Normalization
 
 ## Normalization

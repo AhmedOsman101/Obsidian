@@ -1,3 +1,13 @@
+---
+prev:
+  text: "Lecture 6"
+  link: "/College/yearTwo/firstTerm/Linux/Lectures/Lecture-6"
+next:
+  text: "Lecture 8"
+  link: "/College/yearTwo/firstTerm/Linux/Lectures/Lecture-8"
+title: Lecture 7
+---
+
 # Lecture 7: Networking Commands
 
 ## 1. Command Overview

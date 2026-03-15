@@ -1,3 +1,13 @@
+---
+prev:
+  text: "Lecture 4"
+  link: "/College/yearTwo/firstTerm/WebDevelopment/Lectures/Lecture-4"
+next:
+  text: "Lecture 6"
+  link: "/College/yearTwo/firstTerm/WebDevelopment/Lectures/Lecture-6"
+title: Lecture 5
+---
+
 # Web Programming - Lecture 5: HTML Forms
 
 ## What are Forms?

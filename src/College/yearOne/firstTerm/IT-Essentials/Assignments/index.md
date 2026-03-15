@@ -9,8 +9,8 @@ lastUpdated: false
 
 # Assignments
 
-- [Task One](AssignmentOne.md)
-- [Task Two](AssignmentTwo.md)
-- [Task Four](AssignmentFour.md)
-- [Task Five](AssignmentFive.md)
-- [Task Six](AssignmentSix.md)
+- [Task One](Assignment-1.md)
+- [Task Two](Assignment-2.md)
+- [Task Four](Assignment-4.md)
+- [Task Five](Assignment-5.md)
+- [Task Six](Assignment-6.md)

@@ -8,4 +8,4 @@ lastUpdated: false
 
 # Assignments
 
-- [Assignment Two](AssignmentTwo.md)
+- [Assignment Two](Assignment-2.md)

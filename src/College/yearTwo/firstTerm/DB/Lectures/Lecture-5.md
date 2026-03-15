@@ -1,3 +1,13 @@
+---
+prev:
+  text: "Lecture 4"
+  link: "/College/yearTwo/firstTerm/DB/Lectures/Lecture-4"
+next:
+  text: "Lecture 7"
+  link: "/College/yearTwo/firstTerm/DB/Lectures/Lecture-7"
+title: Lecture 5
+---
+
 ## Lecture 5: Relational Algebra
 
 ## 1. Relational Query Languages

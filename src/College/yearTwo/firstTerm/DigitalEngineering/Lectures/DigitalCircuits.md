@@ -1,3 +1,13 @@
+---
+prev:
+  text: "Logic Gates"
+  link: "/College/yearTwo/firstTerm/DigitalEngineering/Lectures/LogicGates"
+next:
+  text: "Analog and Digital"
+  link: "/College/yearTwo/firstTerm/DigitalEngineering/Lectures/AnalogAndDigital"
+title: Digital Circuits
+---
+
 ## Exclusive-OR (XOR) Gate
 
 - Output **active-HIGH (=1)** when **exactly one input is HIGH**.

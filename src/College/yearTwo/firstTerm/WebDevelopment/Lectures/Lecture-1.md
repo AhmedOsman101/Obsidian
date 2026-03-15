@@ -1,3 +1,11 @@
+---
+prev: false
+next:
+  text: "Lecture 2"
+  link: "/College/yearTwo/firstTerm/WebDevelopment/Lectures/Lecture-2"
+title: Lecture 1
+---
+
 # Web Programming - Lecture 1
 
 ## What is a Web Site?

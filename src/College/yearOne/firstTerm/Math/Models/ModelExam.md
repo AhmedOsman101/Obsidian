@@ -249,7 +249,7 @@ adj(C) = \begin{bmatrix}
 \end{gather}
 $$
 
-Applying the [Sign rule](../Lectures/LectureTwo.md#sign-rule-for-determinants):
+Applying the [Sign rule](../Lectures/Lecture-2.md#sign-rule-for-determinants):
 
 $$
 \begin{gather}
@@ -294,7 +294,7 @@ $$
 
 **Solve the previous system using:**
 
-### 1. [Cramer's Method](../Lectures/LectureTwo.md#cramer-s-rule-for-solving-systems-of-equations)
+### 1. [Cramer's Method](../Lectures/Lecture-2.md#cramer-s-rule-for-solving-systems-of-equations)
 
 $$
 \begin{gather}
@@ -336,7 +336,7 @@ $$
 
 ---
 
-### 2. [Inverse Matrix Method](../Lectures/LectureTwo.md#inverse-and-systems-of-equations)
+### 2. [Inverse Matrix Method](../Lectures/Lecture-2.md#inverse-and-systems-of-equations)
 
 $$
 \begin{gather}

@@ -9,7 +9,7 @@ lastUpdated: false
 
 # Lectures
 
-- [Lecture One](LectureOne.md)
-- [Lecture Two](LectureTwo.md)
-- [Lecture Three](LectureThree.md)
-- [Lecture Four](LectureFour.md)
+- [Lecture 1](Lecture-1.md)
+- [Lecture 2](Lecture-2.md)
+- [Lecture 3](Lecture-3.md)
+- [Lecture 4](Lecture-4.md)

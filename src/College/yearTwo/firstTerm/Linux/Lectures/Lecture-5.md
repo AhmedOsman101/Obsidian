@@ -1,3 +1,13 @@
+---
+prev:
+  text: "Lecture 4"
+  link: "/College/yearTwo/firstTerm/Linux/Lectures/Lecture-4"
+next:
+  text: "Lecture 6"
+  link: "/College/yearTwo/firstTerm/Linux/Lectures/Lecture-6"
+title: Lecture 5
+---
+
 # Shell Scripts
 
 ## Introduction to Shell Scripts

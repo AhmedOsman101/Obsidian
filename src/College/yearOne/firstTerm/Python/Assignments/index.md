@@ -9,5 +9,5 @@ title: Assignments
 
 # Assignments
 
-- [Sheet One](AssignmentOne.md)
-- [Sheet Two](AssignmentTwo.md)
+- [Sheet One](Assignment-1.md)
+- [Sheet Two](Assignment-2.md)

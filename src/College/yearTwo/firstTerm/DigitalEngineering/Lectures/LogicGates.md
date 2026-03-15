@@ -1,3 +1,13 @@
+---
+prev:
+  text: "Number Systems"
+  link: "/College/yearTwo/firstTerm/DigitalEngineering/Lectures/NumberSystems"
+next:
+  text: "Digital Circuits"
+  link: "/College/yearTwo/firstTerm/DigitalEngineering/Lectures/DigitalCircuits"
+title: Logic Gates
+---
+
 ## Boolean Constants and Variables
 
 - Boolean values are **binary only**: `0` or `1`.

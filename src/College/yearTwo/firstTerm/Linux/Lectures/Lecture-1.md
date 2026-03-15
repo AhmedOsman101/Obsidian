@@ -1,3 +1,11 @@
+---
+prev: false
+next:
+  text: "Lecture 2"
+  link: "/College/yearTwo/firstTerm/Linux/Lectures/Lecture-2"
+title: Lecture 1
+---
+
 # Lecture 1: Introduction to Linux
 
 ## What is an Operating System?

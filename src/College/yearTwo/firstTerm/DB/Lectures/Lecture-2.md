@@ -1,3 +1,13 @@
+---
+prev:
+  text: "Lecture 1"
+  link: "/College/yearTwo/firstTerm/DB/Lectures/Lecture-1"
+next:
+  text: "Lecture 3"
+  link: "/College/yearTwo/firstTerm/DB/Lectures/Lecture-3"
+title: Lecture 2
+---
+
 # Lecture 2: Database Management Systems (DBMS)
 
 ## What is a DBMS?

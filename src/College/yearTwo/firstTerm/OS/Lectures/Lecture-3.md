@@ -1,3 +1,13 @@
+---
+prev:
+  text: "Lecture 1~2"
+  link: "/College/yearTwo/firstTerm/OS/Lectures/Lecture-1-2"
+next:
+  text: "Lecture 4"
+  link: "/College/yearTwo/firstTerm/OS/Lectures/Lecture-4"
+title: Lecture 3
+---
+
 # Operating System Lecture 3: Processes and Threads
 
 ## What Is a Process?

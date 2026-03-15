@@ -1,3 +1,13 @@
+---
+prev:
+  text: "C++"
+  link: "/College/yearTwo/firstTerm/C++/index"
+next:
+  text: "Lecture 2"
+  link: "/College/yearTwo/firstTerm/C++/Lectures/Lecture-2"
+title: Lecture 1
+---
+
 # Lecture 1: Introduction to programming
 
 ## What Is Programming?

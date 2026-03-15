@@ -1,3 +1,11 @@
+---
+prev:
+  text: "Lecture 5"
+  link: "/College/yearTwo/firstTerm/DB/Lectures/Lecture-5"
+next: false
+title: Lecture 7
+---
+
 # Lecture 7: RDBMS vs. NoSQL — Exam Preparation Summary
 
 ## 1. Database Evolution

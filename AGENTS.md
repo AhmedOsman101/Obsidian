@@ -150,7 +150,7 @@ next:
 ---
 prev:
   text: "Lecture Seven"
-  link: "/College/yearOne/firstTerm/Python/Lectures/LectureSeven"
+  link: "/College/yearOne/firstTerm/Python/Lectures/Lecture-7"
 next: false
 title: Lecture 8
 ---
@@ -163,10 +163,10 @@ title: Lecture 8
 title: Lecture 7~8
 prev:
   text: "Lecture Six"
-  link: "/College/yearOne/secondTerm/C-Essentials/Lectures/LectureSix"
+  link: "/College/yearOne/secondTerm/C-Essentials/Lectures/Lecture-6"
 next:
   text: "Lecture Nine"
-  link: "/College/yearOne/secondTerm/C-Essentials/Lectures/LectureNine"
+  link: "/College/yearOne/secondTerm/C-Essentials/Lectures/Lecture-9"
 ---
 ```
 
@@ -177,10 +177,10 @@ Or using `&`:
 title: Lecture 6
 prev:
   text: "Lecture Five"
-  link: "/College/yearOne/secondTerm/C-Essentials/Lectures/LectureFive"
+  link: "/College/yearOne/secondTerm/C-Essentials/Lectures/Lecture-5"
 next:
   text: "Lecture Seven & Eight"
-  link: "/College/yearOne/secondTerm/C-Essentials/Lectures/LectureSevenToEight"
+  link: "/College/yearOne/secondTerm/C-Essentials/Lectures/Lecture-7-8"
 ---
 ```
 

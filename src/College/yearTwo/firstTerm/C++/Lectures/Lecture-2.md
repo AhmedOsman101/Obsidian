@@ -1,3 +1,13 @@
+---
+prev:
+  text: "Lecture 1"
+  link: "/College/yearTwo/firstTerm/C++/Lectures/Lecture-1"
+next:
+  text: "Lecture 3"
+  link: "/College/yearTwo/firstTerm/C++/Lectures/Lecture-3"
+title: Lecture 2
+---
+
 # Lecture 2: Flowchart and Algorithm
 
 ## Problem Solving

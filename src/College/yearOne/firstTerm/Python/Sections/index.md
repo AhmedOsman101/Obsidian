@@ -9,9 +9,9 @@ title: Sections
 
 # Sections
 
-- [Section One](SectionOne.md)
-- [Section Two](SectionTwo.md)
-- [Section Three](SectionThree.md)
-- [Section Four](SectionFour.md)
-- [Section Five](SectionFive.md)
-- [Section Six](SectionSix.md)
+- [Section 1](Section-1.md)
+- [Section 2](Section-2.md)
+- [Section 3](Section-3.md)
+- [Section 4](Section-4.md)
+- [Section 5](Section-5.md)
+- [Section 6](Section-6.md)

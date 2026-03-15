@@ -1,3 +1,11 @@
+---
+prev:
+  text: "Lecture 3"
+  link: "/College/yearTwo/firstTerm/OS/Lectures/Lecture-3"
+next: false
+title: Lecture 4
+---
+
 # Operating System - Lecture 4: CPU Scheduling
 
 ## Introduction

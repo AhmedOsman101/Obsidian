@@ -1,3 +1,13 @@
+---
+prev:
+  text: "Digital Engineering"
+  link: "/College/yearTwo/firstTerm/DigitalEngineering/index"
+next:
+  text: "Logic Gates"
+  link: "/College/yearTwo/firstTerm/DigitalEngineering/Lectures/LogicGates"
+title: Number Systems
+---
+
 ## Digital Number Systems
 
 ## Introduction to Numbering Systems

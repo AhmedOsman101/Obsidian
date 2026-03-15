@@ -1,3 +1,13 @@
+---
+prev:
+  text: "Lecture 5"
+  link: "/College/yearTwo/firstTerm/Linux/Lectures/Lecture-5"
+next:
+  text: "Lecture 7"
+  link: "/College/yearTwo/firstTerm/Linux/Lectures/Lecture-7"
+title: Lecture 6
+---
+
 # Lecture 6: Linux Files
 
 ## 1. Core Concepts

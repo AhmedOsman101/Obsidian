@@ -1,3 +1,11 @@
+---
+prev: false
+next:
+  text: "Lecture 2"
+  link: "/College/yearTwo/firstTerm/DB/Lectures/Lecture-2"
+title: Lecture 1
+---
+
 # Lecture 1: Database Systems
 
 ## Data, Information, and Knowledge

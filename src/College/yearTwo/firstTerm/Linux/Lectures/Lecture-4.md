@@ -1,3 +1,13 @@
+---
+prev:
+  text: "Lecture 3"
+  link: "/College/yearTwo/firstTerm/Linux/Lectures/Lecture-3"
+next:
+  text: "Lecture 5"
+  link: "/College/yearTwo/firstTerm/Linux/Lectures/Lecture-5"
+title: Lecture 4
+---
+
 # Vi Text Editor
 
 ## Introduction to the Vi Editor

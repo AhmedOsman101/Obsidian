@@ -1,6 +1,50 @@
 {
   "recentFiles": [
     {
+      "basename": "index",
+      "path": "College/yearTwo/secondTerm/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "College/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "College/yearTwo/secondTerm/WebDev2/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "College/yearTwo/secondTerm/Java/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "College/yearTwo/secondTerm/DBProgramming/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "College/yearTwo/secondTerm/DataStructures/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "College/yearTwo/secondTerm/CCNA/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "College/yearTwo/secondTerm/CCNA/Sections/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "College/yearTwo/secondTerm/CCNA/Assignments/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "College/yearTwo/secondTerm/CCNA/Exams/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "College/yearTwo/secondTerm/CCNA/Lectures/index.md"
+    },
+    {
       "basename": "Ass-1",
       "path": "College/yearTwo/firstTerm/DigitalEngineering/Assingments/Ass-1.md"
     },
@@ -155,30 +199,6 @@
     {
       "basename": "figure",
       "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/figure.png"
-    },
-    {
-      "basename": "self-study-topics",
-      "path": "College/yearTwo/firstTerm/C++/Summaries/self-study-topics.md"
-    },
-    {
-      "basename": "Lecture-8-9",
-      "path": "College/yearTwo/firstTerm/C++/Summaries/Lecture-8-9.md"
-    },
-    {
-      "basename": "Lecture-7",
-      "path": "College/yearTwo/firstTerm/C++/Summaries/Lecture-7.md"
-    },
-    {
-      "basename": "Lecture-6",
-      "path": "College/yearTwo/firstTerm/C++/Summaries/Lecture-6.md"
-    },
-    {
-      "basename": "Lecture-5",
-      "path": "College/yearTwo/firstTerm/C++/Summaries/Lecture-5.md"
-    },
-    {
-      "basename": "Lecture-4",
-      "path": "College/yearTwo/firstTerm/C++/Summaries/Lecture-4.md"
     }
   ],
   "omittedPaths": [],

@@ -269,7 +269,7 @@ Several organizations develop and maintain standards for networking and communic
 | **File Server**           | Stores and shares files using protocols like FTP, SFTP, and SCP.                   |
 | **Web Server**            | Serves web pages using HTTP (port 80) and HTTPS (port 443).                        |
 | **Mail Server**           | Handles email storage and communication using SMTP, POP, and IMAP.                 |
-| **Proxy Server**          | Acts on behalf of clients, caching frequently accessed web pages.                   |
+| **Proxy Server**          | Acts on behalf of clients, caching frequently accessed web pages.                  |
 | **Authentication Server** | Provides Authentication, Authorization, and Accounting (AAA) for network access.   |
 | **Syslog Server**         | Collects and stores log messages from network devices for monitoring and analysis. |
 

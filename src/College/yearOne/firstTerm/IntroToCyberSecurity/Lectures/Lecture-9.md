@@ -110,7 +110,7 @@ Also known as public-key cryptography, asymmetric encryption employs a pair of k
 | **Techniques**           | An older encryption technique.                                            | A modern encryption technique.                                |
 | **Confidentiality**      | Higher risk of compromise due to a shared key.                            | No key sharing required, enhancing confidentiality.           |
 | **Speed**                | Faster encryption and decryption.                                         | Slower encryption and decryption due to complex computations. |
-| **Algorithms**           | Examples: RC4, AES, DES, 3DES, QUAD.                                      | Examples: RSA, Diffie-Hellman, ECC.                          |
+| **Algorithms**           | Examples: RC4, AES, DES, 3DES, QUAD.                                      | Examples: RSA, Diffie-Hellman, ECC.                           |
 
 ---
 

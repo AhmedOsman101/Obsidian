@@ -29,7 +29,7 @@ next:
 - **Binary to Hexadecimal**: Group binary digits in sets of 4 (from right):
   - **1001 1101** = **9D** in hexadecimal.
 
-**b.  250**
+**b. 250**
 
 - **Decimal to Binary**: Divide by 2 and track remainders:
   - $250 \div 2 = 125$ remainder 0
@@ -46,7 +46,7 @@ next:
 - **Binary to Hexadecimal**: Group binary digits in sets of 4:
   - **1111 1010** = **FA** in hexadecimal.
 
-**c.  124**
+**c. 124**
 
 - **Decimal to Binary**: Divide by 2 and track remainders:
   - $124 \div 2 = 62$ remainder 0
@@ -66,7 +66,7 @@ next:
 
 **a. 11100110**
 
-- **Binary to Decimal**: 
+- **Binary to Decimal**:
   - $1 \times 2^7 + 1 \times 2^6 + 1 \times 2^5 + 0 \times 2^4 + 0 \times 2^3 + 1 \times 2^2 + 1 \times 2^1 + 0 \times 2^0$
   - $= 128 + 64 + 32 + 0 + 0 + 4 + 2 + 0 = 230$
 
@@ -77,7 +77,7 @@ next:
 
 **b. 10101010**
 
-- **Binary to Decimal**: 
+- **Binary to Decimal**:
   - $1 \times 2^7 + 0 \times 2^6 + 1 \times 2^5 + 0 \times 2^4 + 1 \times 2^3 + 0 \times 2^2 + 1 \times 2^1 + 0 \times 2^0$
   - $= 128 + 0 + 32 + 0 + 8 + 0 + 2 + 0 = 170$
 
@@ -88,7 +88,7 @@ next:
 
 **c. 11110000**
 
-- **Binary to Decimal**: 
+- **Binary to Decimal**:
   - $1 \times 2^7 + 1 \times 2^6 + 1 \times 2^5 + 1 \times 2^4 + 0 \times 2^3 + 0 \times 2^2 + 0 \times 2^1 + 0 \times 2^0$
   - $= 128 + 64 + 32 + 16 + 0 + 0 + 0 + 0 = 240$
 
@@ -101,7 +101,7 @@ next:
 
 **a. 9C**
 
-- **Hexadecimal to Binary**: 
+- **Hexadecimal to Binary**:
   - $9$ = **1001**
   - $C$ = **1100**
   - So, **9C** = **10011100** in binary.
@@ -112,7 +112,7 @@ next:
 
 **b. FF**
 
-- **Hexadecimal to Binary**: 
+- **Hexadecimal to Binary**:
   - $F$ = **1111**
   - $F$ = **1111**
   - So, **FF** = **11111111** in binary.
@@ -123,7 +123,7 @@ next:
 
 **c. 2A**
 
-- **Hexadecimal to Binary**: 
+- **Hexadecimal to Binary**:
   - $2$ = **0010**
   - $A$ = **1010**
   - So, **2A** = **00101010** in binary.
@@ -156,7 +156,7 @@ Result: **100011** (35 in decimal)
 
 Result: **00110** (6 in decimal)
 
-**c. 1011 * 101**
+**c. 1011 \* 101**
 
 ```
        1011

@@ -140,9 +140,9 @@ To calculate the determinant of a $3 \times 3$ matrix, you can use the **sign ru
 
 $$
 \begin{vmatrix}
-+ & - & + \\ 
++ & - & + \\
 
-- & + & - \\ 
+- & + & - \\
 
 + & - & +
 \end{vmatrix}

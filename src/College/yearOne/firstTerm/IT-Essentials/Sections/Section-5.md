@@ -163,7 +163,7 @@ Defines the physical connection of devices in a network.
 | **Storage**          | Distributed storage across computers     | Central backing store accessible to all      |
 | **Backup**           | Must be done separately on each computer | Done centrally on the server                 |
 | **Scalability**      | Limited scalability                      | Supports hundreds/thousands of users         |
-| **Setup**            | Easy to set up, best for small setups  | More complex, suited for large organizations |
+| **Setup**            | Easy to set up, best for small setups    | More complex, suited for large organizations |
 
 ## Reference Models
 

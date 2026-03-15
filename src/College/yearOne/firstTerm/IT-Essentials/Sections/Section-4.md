@@ -149,9 +149,9 @@ BCD is useful for applications where decimal representation is important, such a
   <summary>Convert the decimal number 45 into binary, octal, and hexadecimal.</summary>
   <b>Solution:</b>
 
-  - Binary: $45 \to 101101$
-  - Octal: $45 \to 55$
-  - Hexadecimal: $45 \to 2D$
+- Binary: $45 \to 101101$
+- Octal: $45 \to 55$
+- Hexadecimal: $45 \to 2D$
 </details>
 
 ### 2. Binary Addition
@@ -160,15 +160,15 @@ BCD is useful for applications where decimal representation is important, such a
   <summary>Add the binary numbers 1011 and 1101.</summary>
   <b>Solution:</b>
 
-  ```
-          1011
-        + 1101
-        ------
-        11000 (Binary)
+```
+        1011
+      + 1101
+      ------
+      11000 (Binary)
 
-  ```
+```
 
-  Decimal equivalent: $11 + 13 = 24$
+Decimal equivalent: $11 + 13 = 24$
 
 </details>
 

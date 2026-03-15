@@ -161,7 +161,7 @@ The architecture determines the processing power and memory handling of a system
 | ---------------------------- | --------------------------------- | ---------------------------------------------- |
 | **Data Processing Capacity** | Processes 32 bits at a time.      | Processes 64 bits at a time.                   |
 | **RAM Addressing Limit**     | Up to 4 GB.                       | Over 16 EB (practical limits: 128 GB to 2 TB). |
-| **Software Compatibility**   | Only 32-bit programs.             | Both 32-bit and 64-bit programs.              |
+| **Software Compatibility**   | Only 32-bit programs.             | Both 32-bit and 64-bit programs.               |
 | **Performance**              | Limited to smaller data sizes.    | Faster with larger datasets and multitasking.  |
 | **Examples of Processors**   | Intel Pentium, AMD Athlon 32-bit. | Intel Core i5/i7/i9, Apple M1.                 |
 

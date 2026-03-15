@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Run mdfmt on all markdown files
+gitRoot="$(git rev-parse --show-toplevel || echo .)"
+
+# Run mdfmt on src/ directory
+[[ -f "${HOME}/scripts/mdfmt" ]] && "${HOME}/scripts/mdfmt" "${gitRoot}"

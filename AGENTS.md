@@ -9,20 +9,20 @@ Each course follows this structure:
 ```
 CourseName/
 ├── Lectures/
-│   ├── LectureOne.md
-│   ├── LectureTwo.md
+│   ├── Lecture-1.md
+│   ├── Lecture-2.md
 │   └── index.md
 ├── Sections/
-│   ├── SectionOne.md
-│   ├── SectionTwo.md
+│   ├── Section-1.md
+│   ├── Section-2.md
 │   └── index.md
 ├── Assignments/
-│   ├── AssignmentOne.md
-│   ├── AssignmentTwo.md
+│   ├── Assignment-1.md
+│   ├── Assignment-2.md
 │   └── index.md
 ├── Exams/
-│   ├── ExamOne.md
-│   ├── ExamTwo.md
+│   ├── Exam-1.md
+│   ├── Exam-2.md
 │   └── index.md
 ├── imgs/
 └── index.md
@@ -45,23 +45,23 @@ title: CourseName
 # CourseName
 
 - [Lectures](Lectures/index.md)
-  - [Lecture One](Lectures/LectureOne.md)
-  - [Lecture Two](Lectures/LectureTwo.md)
+  - [Lecture One](Lectures/Lecture-1.md)
+  - [Lecture Two](Lectures/Lecture-2.md)
     ...
 
 - [Sections](Sections/index.md)
-  - [Section One](Sections/SectionOne.md)
-  - [Section Two](Sections/SectionTwo.md)
+  - [Section One](Sections/Section-1.md)
+  - [Section Two](Sections/Section-2.md)
     ...
 
 - [Assignments](Assignments/index.md)
-  - [Assignment One](Assignments/AssignmentOne.md)
-  - [Assignment Two](Assignments/AssignmentTwo.md)
+  - [Assignment One](Assignments/Assignment-1.md)
+  - [Assignment Two](Assignments/Assignment-2.md)
     ...
 
 - [Exams](Exams/index.md)
-  - [Exam One](Exams/ExamOne.md)
-  - [Exam Two](Exams/ExamTwo.md)
+  - [Exam One](Exams/Exam-1.md)
+  - [Exam Two](Exams/Exam-2.md)
     ...
 ```
 
@@ -79,9 +79,9 @@ title: Lectures
 
 # Lectures
 
-- [Lecture One](LectureOne.md)
-- [Lecture Two](LectureTwo.md)
-  ...
+- [Lecture One](Lecture-1.md)
+- [Lecture Two](Lecture-2.md)
+...
 ```
 
 ## Navigation Patterns
@@ -93,15 +93,52 @@ Standard lectures use `prev` and `next` links for sequential navigation:
 ```markdown
 ---
 prev:
-  text: "Lecture Six"
-  link: "/College/yearOne/firstTerm/Python/Lectures/LectureSix"
+  text: "Lecture 6"
+  link: "/College/yearOne/firstTerm/Python/Lectures/Lecture-6"
 next:
-  text: "Lecture Eight"
-  link: "/College/yearOne/firstTerm/Python/Lectures/LectureEight"
+  text: "Lecture 8"
+  link: "/College/yearOne/firstTerm/Python/Lectures/Lecture-8"
 title: Lecture 7
 ---
 
 # Programming Essentials in Python Lecture 7
+```
+
+**Last lecture in a term:**
+```markdown
+---
+prev:
+  text: "Lecture 7"
+  link: "/College/yearOne/firstTerm/Python/Lectures/Lecture-7"
+next: false
+title: Lecture 8
+---
+```
+
+**Combined lectures (two lectures in one file):**
+```markdown
+---
+title: Lecture 7~8
+prev:
+  text: "Lecture 6"
+  link: "/College/yearOne/secondTerm/C-Essentials/Lectures/Lecture-6"
+next:
+  text: "Lecture 9"
+  link: "/College/yearOne/secondTerm/C-Essentials/Lectures/Lecture-9"
+---
+```
+
+Or using `&`:
+```markdown
+---
+title: Lecture 6
+prev:
+  text: "Lecture 5"
+  link: "/College/yearOne/secondTerm/C-Essentials/Lectures/Lecture-5"
+next:
+  text: "Lecture 7 & 8"
+  link: "/College/yearOne/secondTerm/C-Essentials/Lectures/Lecture-7-8"
+---
 ```
 
 **Last lecture in a term:**
@@ -147,11 +184,12 @@ next:
 ### Key Navigation Rules
 
 1. **Link format**: Use absolute paths WITHOUT `.md` extension
-   - ✅ `/College/yearOne/firstTerm/Python/Lectures/LectureOne`
-   - ❌ `/College/yearOne/firstTerm/Python/Lectures/LectureOne.md`
+   - ✅ `/College/yearOne/firstTerm/Python/Lectures/Lecture-1`
+   - ❌ `/College/yearOne/firstTerm/Python/Lectures/Lecture-1.md`
 
 2. **Combined lectures**: When two lectures are combined into one file:
-   - Use `~` or `&` in title: `Lecture 7~8` or `Lecture Seven & Eight`
+   - Use `~` or `&` in title: `Lecture 7~8` or `Lecture 7-8`
+   - Filename: `Lecture-7-8.md`
    - Update prev/next links to point to the combined file
 
 3. **Last item**: Set `next: false` for the final item in any section
@@ -186,20 +224,22 @@ Lecture titles follow these patterns:
 | `next`        | Next page (usually `false`) | `next: false`                                     |
 | `lastUpdated` | Show last updated timestamp | `lastUpdated: false`                              |
 
-### Optional Fields
-
-| Field  | Description                         | Example                       |
-| ------ | ----------------------------------- | ----------------------------- |
-| `tags` | Array of tags for cross-referencing | `tags: [python, programming]` |
-
 ## Naming Conventions
 
 ### Files
 
-- Use PascalCase for lecture/section/assignment names:
-  - `LectureOne.md` (not `Lecture1.md` or `lecture-1.md`)
-  - `AssignmentOne.md`
-  - `SectionTwo.md`
+Use hyphenated lowercase format for all note files:
+
+| Type | Pattern | Examples |
+|------|---------|----------|
+| Lectures | `Lecture-x.md` or `Lecture-x-y.md` | `Lecture-1.md`, `Lecture-7-8.md` |
+| Sections | `Section-x.md` | `Section-1.md`, `Section-2.md` |
+| Assignments | `Assignment-x.md` | `Assignment-1.md`, `Assignment-2.md` |
+| Exams | `Exam-x.md` | `Exam-1.md`, `Exam-2.md` |
+
+**Combined lectures**: When two lectures are in one file:
+- Use hyphen: `Lecture-7-8.md` (preferred)
+- Or use `&`: `Lecture-7-8.md` (alternative)
 
 ### Folders
 

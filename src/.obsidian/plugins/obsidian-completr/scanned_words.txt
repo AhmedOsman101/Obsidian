@@ -1220,6 +1220,8 @@ PZlH
 Pto
 PzN
 PMT
+Platforms
+Payload
 IHDR
 IDATx
 IO
@@ -2527,6 +2529,8 @@ IOnfJ
 ICdY
 ISm
 Ihc
+Impractical
+Internetworking
 pHYs
 pt
 pu
@@ -3915,6 +3919,7 @@ pLm
 pXf
 pAP
 pkhY
+permitting
 sbf
 sPv
 sC
@@ -5411,6 +5416,10 @@ sYxp
 sib
 szu
 suo
+splits
+sides
+standardizing
+sequenced
 ff
 fP
 fj
@@ -6618,6 +6627,7 @@ fDa
 fjdN
 fTccge
 fGY
+forwarded
 yq
 yh
 yS
@@ -9174,6 +9184,8 @@ wej
 wZr
 wKZ
 wwU
+wasting
+workgroups
 BU
 Bh
 BC
@@ -10345,6 +10357,7 @@ Bhd
 BnRv
 BSm
 BUr
+BaseT
 MC
 Ml
 MW
@@ -11584,6 +11597,9 @@ MvR
 MBe
 MFR
 MwNv
+MANs
+Messages
+Multicast
 Lj
 Lf
 LvVa
@@ -14077,6 +14093,11 @@ aSQ
 amJ
 aHv
 aUQR
+acknowledged
+arrived
+agree
+appropriately
+anycast
 Te
 Tn
 TA
@@ -15200,6 +15221,7 @@ TQec
 TOV
 TmE
 ToZ
+Timeout
 uj
 uq
 uXm
@@ -18176,6 +18198,8 @@ UXR
 UjO
 UcpJ
 UQj
+Unacknowledged
+Unicast
 ra
 rO
 rV
@@ -19408,6 +19432,14 @@ rsO
 rYCI
 raZ
 rMvlg
+receivers
+rerouted
+retransmitted
+retransmits
+reframes
+replies
+recipients
+retransmission
 eiO
 es
 ee
@@ -20684,6 +20716,7 @@ eIA
 eBW
 edpM
 ejf
+excluding
 GO
 GQ
 Gk
@@ -22889,6 +22922,7 @@ ETK
 EGS
 EtN
 ECP
+EIGRP
 Sal
 SQ
 SB
@@ -24275,6 +24309,10 @@ Stb
 SKIa
 SrH
 SjR
+Servers
+Stars
+Sublayer
+Suites
 iH
 ic
 iP
@@ -25513,6 +25551,8 @@ iOI
 iPQ
 igY
 ijG
+impulses
+internetwork
 tWA
 tW
 tM
@@ -26697,6 +26737,12 @@ tUN
 tFS
 tJu
 tLm
+transmitters
+territory
+talk
+timer
+trailers
+timeouts
 nm
 nv
 nhuK
@@ -27688,6 +27734,7 @@ nZY
 nsH
 nbxTGTu
 nViLV
+noting
 Fc
 Fe
 Fo
@@ -28867,6 +28914,8 @@ Fhji
 FGn
 FfE
 FIze
+Forward
+Forwarding
 xi
 xpF
 xwG
@@ -31657,6 +31706,7 @@ bZfQ
 bWd
 bfe
 bez
+broadcasts
 Nb
 NJu
 Nbsa
@@ -34993,6 +35043,9 @@ RYM
 Rhc
 RtjN
 RTd
+Received
+Routed
+Reversing
 Zt
 ZB
 Zb
@@ -38081,6 +38134,10 @@ DNq
 DEx
 DataStructures
 DBProgramming
+Daisy
+DEC
+Decoding
+Distinction
 ohQ
 oL
 ob
@@ -39064,6 +39121,7 @@ oVs
 oys
 osT
 oiq
+overflowing
 mipte
 mRT
 mX
@@ -40263,6 +40321,8 @@ mjE
 mvt
 mXl
 mCy
+miles
+multicast
 Ck
 CS
 Cm
@@ -41730,6 +41790,9 @@ CgD
 CYA
 CHN
 CCNA
+Centralizes
+Confined
+Confirmation
 vb
 vO
 vvF
@@ -44291,6 +44354,12 @@ ckh
 czc
 csn
 cÄ
+centralization
+chaining
+couldn
+congestion
+consults
+corrupting
 Hu
 Hg
 HiL
@@ -45451,6 +45520,7 @@ Hmy
 HghJO
 HEg
 HfUV
+Hop
 hh
 hLR
 hI
@@ -46529,6 +46599,7 @@ hAZRvc
 hqj
 hLSy
 hjT
+hierarchically
 Xi
 XZ
 Xn
@@ -48452,6 +48523,8 @@ gjp
 gxYu
 gUc
 glE
+geographic
+govern
 KUYX
 KX
 KK
@@ -53190,6 +53263,8 @@ dLL
 dhJB
 dmO
 ddy
+desktops
+dropped
 AK
 AQ
 Aya
@@ -54669,6 +54744,7 @@ AUc
 ANT
 AzG
 ArY
+Acknowledgment
 Jw
 Jg
 JT
@@ -56573,6 +56649,7 @@ QsU
 Qjo
 QOl
 QaD
+QoS
 WliB
 WWO
 WRY

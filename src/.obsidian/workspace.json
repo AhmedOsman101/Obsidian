@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "159fff8b4b558e69",
+        "id": "79fb3ca2402eeaf5",
         "type": "tabs",
         "children": [
           {
-            "id": "8cecbf40e3c43632",
+            "id": "26bfb031884eeff9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "College/yearTwo/secondTerm/CCNA/Lectures/Lecture-2.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Lecture-2"
             }
           }
         ]
@@ -76,8 +81,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-ghost",
+              "title": "recent-files"
             }
           }
         ]
@@ -180,9 +185,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8cecbf40e3c43632",
+  "active": "26bfb031884eeff9",
   "lastOpenFiles": [
+    "College/yearTwo/secondTerm/CCNA/Lectures/Lecture-1.md",
+    "College/yearTwo/secondTerm/CCNA/Lectures/Lecture-4.md",
+    "College/yearTwo/secondTerm/CCNA/Lectures/Lecture-3.md",
+    "College/yearTwo/secondTerm/CCNA/Lectures/Lecture-2.md",
+    "College/yearTwo/secondTerm/CCNA/Lectures/LectureFour.md",
+    "College/yearTwo/secondTerm/CCNA/Lectures/LectureThree.md",
+    "College/yearTwo/secondTerm/CCNA/Lectures/LectureTwo.md",
+    "College/yearTwo/secondTerm/CCNA/Lectures/LectureOne.md",
     "Untitled.md",
+    "College/yearTwo/secondTerm/CCNA/Lectures/index.md",
     "College/yearOne/firstTerm/IntroToCyberSecurity/Lectures/LectureNine.md",
     "College/yearOne/firstTerm/IntroToCyberSecurity/Lectures/LectureFour.md",
     "College/yearOne/firstTerm/IntroToCyberSecurity/Lectures/LectureFive.md",
@@ -209,15 +223,6 @@
     "College/yearTwo/secondTerm/DataStructures/index.md",
     "College/yearTwo/secondTerm/CCNA/index.md",
     "College/yearTwo/secondTerm/CCNA/Sections/index.md",
-    "College/yearTwo/secondTerm/CCNA/Assignments/index.md",
-    "College/yearTwo/secondTerm/CCNA/Exams/index.md",
-    "College/yearTwo/secondTerm/CCNA/Lectures/index.md",
-    "College/yearTwo/secondTerm/WebDev2/Exams/index.md",
-    "College/yearTwo/secondTerm/WebDev2/Assignments/index.md",
-    "College/yearTwo/secondTerm/WebDev2/Sections/index.md",
-    "College/yearTwo/secondTerm/WebDev2/Lectures/index.md",
-    "College/yearTwo/secondTerm/Java/Exams/index.md",
-    "College/yearTwo/secondTerm/Java/Assignments/index.md",
     "College/yearTwo/firstTerm/DigitalEngineering/sheets/figure-2.png",
     "College/yearTwo/firstTerm/DigitalEngineering/sheets/figure-1.png",
     "College/yearTwo/firstTerm/DigitalEngineering/Assingments/figure-5.jpg",

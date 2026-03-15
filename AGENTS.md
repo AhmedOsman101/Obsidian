@@ -2,8 +2,6 @@
 
 This document defines the standardized structure for course notes in the Obsidian vault, optimized for VitePress deployment.
 
----
-
 ## Directory Structure
 
 Each course follows this structure:
@@ -29,8 +27,6 @@ CourseName/
 ├── imgs/
 └── index.md
 ```
-
----
 
 ## Index File Patterns
 
@@ -87,8 +83,6 @@ title: Lectures
 - [Lecture Two](LectureTwo.md)
   ...
 ```
-
----
 
 ## Navigation Patterns
 
@@ -198,8 +192,6 @@ Lecture titles follow these patterns:
 | ------ | ----------------------------------- | ----------------------------- |
 | `tags` | Array of tags for cross-referencing | `tags: [python, programming]` |
 
----
-
 ## Naming Conventions
 
 ### Files
@@ -227,8 +219,6 @@ For courses with long names, use shortened versions that display well on mobile:
 | Database Programming         | DBProgramming  |
 | Web Development II           | WebDev2        |
 
----
-
 ## Build & Deployment
 
 ### Commands
@@ -243,8 +233,6 @@ For courses with long names, use shortened versions that display well on mobile:
 
 Husky is configured to run `mdfmt` on markdown files before each commit.
 
----
-
 ## Best Practices
 
 1. **Always include frontmatter** - Required for navigation and VitePress features
@@ -255,8 +243,6 @@ Husky is configured to run `mdfmt` on markdown files before each commit.
 6. **Enable lastUpdated** - Set to `true` for time-sensitive content
 7. **Use KaTeX for math** - Use `$...$` for inline math, `$$...$$` for block math
 8. **Use Mermaid for diagrams** - Use \`\`\`mermaid blocks for flowcharts
-
----
 
 ## VitePress Configuration
 

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ef70652ab512b09c",
+        "id": "159fff8b4b558e69",
         "type": "tabs",
         "children": [
           {
-            "id": "cafcc19e2292d78b",
+            "id": "8cecbf40e3c43632",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -180,8 +180,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6e6b30772217c8e6",
+  "active": "8cecbf40e3c43632",
   "lastOpenFiles": [
+    "Untitled.md",
+    "College/yearOne/firstTerm/IntroToCyberSecurity/Lectures/LectureNine.md",
+    "College/yearOne/firstTerm/IntroToCyberSecurity/Lectures/LectureFour.md",
+    "College/yearOne/firstTerm/IntroToCyberSecurity/Lectures/LectureFive.md",
     "College/yearOne/firstTerm/IntroToCyberSecurity/index.md",
     "College/yearTwo/firstTerm/DB/Lectures/sedzoMmzJ",
     "College/yearOne/secondTerm/IntroToIot/Lectures/sedSErGL8",
@@ -214,10 +218,6 @@
     "College/yearTwo/secondTerm/WebDev2/Lectures/index.md",
     "College/yearTwo/secondTerm/Java/Exams/index.md",
     "College/yearTwo/secondTerm/Java/Assignments/index.md",
-    "College/yearTwo/secondTerm/Java/Sections/index.md",
-    "College/yearTwo/secondTerm/Java/Lectures/index.md",
-    "College/yearTwo/secondTerm/DBProgramming/Exams/index.md",
-    "College/yearTwo/secondTerm/DBProgramming/Assignments/index.md",
     "College/yearTwo/firstTerm/DigitalEngineering/sheets/figure-2.png",
     "College/yearTwo/firstTerm/DigitalEngineering/sheets/figure-1.png",
     "College/yearTwo/firstTerm/DigitalEngineering/Assingments/figure-5.jpg",

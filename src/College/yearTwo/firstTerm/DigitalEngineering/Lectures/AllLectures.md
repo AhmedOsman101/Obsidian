@@ -1281,7 +1281,7 @@ For a 2-to-1 MUX, the select line $S$ determines which input ($I_0$ or $I_1$) is
 
 For a 4-to-1 MUX, two select lines ($S_1, S_0$) are required to choose between the four available inputs.
 
-| **S1​** | **S0​** | **Y** |
+| **S1 ** | **S0 ** | **Y** |
 | ------- | ------- | ----- |
 | 0       | 0       | $I_0$ |
 | 0       | 1       | $I_1$ |

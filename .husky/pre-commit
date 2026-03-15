@@ -3,5 +3,11 @@
 # Run mdfmt on all markdown files
 gitRoot="$(git rev-parse --show-toplevel || echo .)"
 
+format() {
+	if [[ -f "${HOME}/scripts/mdfmt" ]]; then
+		"${HOME}/scripts/mdfmt" "$@" &>/dev/null
+	fi
+}
+
 # Run mdfmt on src/ directory
-[[ -f "${HOME}/scripts/mdfmt" ]] && "${HOME}/scripts/mdfmt" "${gitRoot}"
+format "${gitRoot}" && echo "Formatted files successfully"

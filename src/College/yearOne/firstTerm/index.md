@@ -3,7 +3,9 @@ title: First Term
 prev:
   text: Year One
   link: "/College/yearOne/index"
-next: false
+next:
+  text: "Second Term"
+  link: "/College/yearTwo/secondTerm/index"
 lastUpdated: false
 ---
 

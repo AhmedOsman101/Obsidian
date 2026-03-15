@@ -72,4 +72,3 @@ All pages should contain:
 ```
 
 - **Title importance:** Affects search‑engine ranking; appears in Favorites, History, Bookmarks.
-

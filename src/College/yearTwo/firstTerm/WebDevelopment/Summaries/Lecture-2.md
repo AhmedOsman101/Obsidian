@@ -88,4 +88,3 @@ Example:
 ```html
 <font size="4" face="Courier" color="red">...</font>
 ```
-

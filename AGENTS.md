@@ -81,7 +81,7 @@ title: Lectures
 
 - [Lecture One](Lecture-1.md)
 - [Lecture Two](Lecture-2.md)
-...
+  ...
 ```
 
 ## Navigation Patterns
@@ -105,6 +105,7 @@ title: Lecture 7
 ```
 
 **Last lecture in a term:**
+
 ```markdown
 ---
 prev:
@@ -116,6 +117,7 @@ title: Lecture 8
 ```
 
 **Combined lectures (two lectures in one file):**
+
 ```markdown
 ---
 title: Lecture 7~8
@@ -129,6 +131,7 @@ next:
 ```
 
 Or using `&`:
+
 ```markdown
 ---
 title: Lecture 6
@@ -230,14 +233,15 @@ Lecture titles follow these patterns:
 
 Use hyphenated lowercase format for all note files:
 
-| Type | Pattern | Examples |
-|------|---------|----------|
-| Lectures | `Lecture-x.md` or `Lecture-x-y.md` | `Lecture-1.md`, `Lecture-7-8.md` |
-| Sections | `Section-x.md` | `Section-1.md`, `Section-2.md` |
-| Assignments | `Assignment-x.md` | `Assignment-1.md`, `Assignment-2.md` |
-| Exams | `Exam-x.md` | `Exam-1.md`, `Exam-2.md` |
+| Type        | Pattern                            | Examples                             |
+| ----------- | ---------------------------------- | ------------------------------------ |
+| Lectures    | `Lecture-x.md` or `Lecture-x-y.md` | `Lecture-1.md`, `Lecture-7-8.md`     |
+| Sections    | `Section-x.md`                     | `Section-1.md`, `Section-2.md`       |
+| Assignments | `Assignment-x.md`                  | `Assignment-1.md`, `Assignment-2.md` |
+| Exams       | `Exam-x.md`                        | `Exam-1.md`, `Exam-2.md`             |
 
 **Combined lectures**: When two lectures are in one file:
+
 - Use hyphen: `Lecture-7-8.md` (preferred)
 - Or use `&`: `Lecture-7-8.md` (alternative)
 

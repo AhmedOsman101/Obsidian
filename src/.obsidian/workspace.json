@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f4015208696fe5bf",
+        "id": "ef70652ab512b09c",
         "type": "tabs",
         "children": [
           {
-            "id": "49c56abf5e3c32da",
+            "id": "cafcc19e2292d78b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -180,8 +180,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "49c56abf5e3c32da",
+  "active": "6e6b30772217c8e6",
   "lastOpenFiles": [
+    "College/yearOne/firstTerm/IntroToCyberSecurity/index.md",
     "College/yearTwo/firstTerm/DB/Lectures/sedzoMmzJ",
     "College/yearOne/secondTerm/IntroToIot/Lectures/sedSErGL8",
     "College/yearOne/secondTerm/C-Essentials/Lectures/sedOuIQgp",
@@ -192,7 +193,6 @@
     "College/yearOne/secondTerm/IntroToIot/Lectures/sed57RgwE",
     "Courses/Manara/NodeJs/Chapters/ChapterOne/sedfPjefO",
     "College/yearTwo/firstTerm/DB/Lectures/sedgvx5tl",
-    "College/yearOne/firstTerm/IntroToCyberSecurity/Lectures/sedLpvbdM",
     "templates/section.md",
     "templates/exam-prep.md",
     "templates/assignment.md",

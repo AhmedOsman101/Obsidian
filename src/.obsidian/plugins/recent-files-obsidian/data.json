@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "LectureFive",
+      "path": "College/yearOne/firstTerm/IntroToCyberSecurity/Lectures/LectureFive.md"
+    },
+    {
+      "basename": "index",
+      "path": "College/yearOne/firstTerm/IntroToCyberSecurity/index.md"
+    },
+    {
       "basename": "index",
       "path": "College/yearTwo/secondTerm/index.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "LectureOne",
       "path": "College/yearOne/firstTerm/IT-Essentials/Lectures/LectureOne.md"
-    },
-    {
-      "basename": "figure-6",
-      "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/figure-6.png"
-    },
-    {
-      "basename": "figure",
-      "path": "College/yearTwo/firstTerm/DigitalEngineering/Lectures/figure.png"
     }
   ],
   "omittedPaths": [],

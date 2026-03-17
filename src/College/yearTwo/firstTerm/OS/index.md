@@ -18,4 +18,3 @@ lastUpdated: false
   - [Assignment Two](Assignments/Assignment-2.md)
   - [Assignment Two Normal](Assignments/Assignment-2-normal.md)
   - [Assignment Two Think](Assignments/Assignment-2-think.md)
-

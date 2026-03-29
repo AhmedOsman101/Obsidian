@@ -10,5 +10,5 @@ title: Task 1
 
 # Java Programming Task 1
 
-## Questions
+## Question 1
 

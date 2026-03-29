@@ -19,7 +19,7 @@ Write a Java program that reads a number from the user and checks whether the nu
 
 ### Example
 
-$153 \rightarrow 1^3 + 5^3 + 3^3$ 
+$153 \rightarrow 1^3 + 5^3 + 3^3$
 $1 + 125 + 27 = 153$
 
 ## Question 2
@@ -29,7 +29,6 @@ Write a java program that take a number from user then check this number is posi
 ## Output
 
 ![](imgs/figure.png)
-
 
 ## Answers
 
@@ -85,6 +84,3 @@ public class Main {
   }
 }
 ```
-
-
-

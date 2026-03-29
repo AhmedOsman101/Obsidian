@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "79fb3ca2402eeaf5",
+        "id": "38bc3b5087180b03",
         "type": "tabs",
         "children": [
           {
-            "id": "26bfb031884eeff9",
+            "id": "952c2b9c5edb91e6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "College/yearTwo/secondTerm/CCNA/Lectures/Lecture-2.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Lecture-2"
+              "title": "New tab"
             }
           }
         ]
@@ -185,8 +180,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "26bfb031884eeff9",
+  "active": "952c2b9c5edb91e6",
   "lastOpenFiles": [
+    "College/yearTwo/firstTerm/OS/Assignments/Assignment-2-think.md",
+    "College/yearTwo/secondTerm/Java/Tasks/Task-2.md",
+    "College/yearTwo/secondTerm/Java/Tasks/Task-1.md",
+    "College/yearTwo/secondTerm/Java/Tasks/index.md",
+    "College/yearTwo/secondTerm/Java/Tasks/Assignment-2.md",
+    "College/yearTwo/secondTerm/Java/Tasks/Assignment-1.md",
+    "College/yearTwo/secondTerm/Java/Tasks",
+    "College/yearTwo/secondTerm/Java/Assignments/Assignment-2.md",
+    "College/yearTwo/secondTerm/Java/Assignments/Assignment-1.md",
+    "College/yearTwo/secondTerm/CCNA/Lectures/Lecture-2.md",
     "College/yearTwo/firstTerm/WebDevelopment/Assignments/index.md",
     "College/yearTwo/firstTerm/DigitalEngineering/Assignments/index.md",
     "College/yearTwo/firstTerm/DB/Assignments/index.md",
@@ -204,15 +209,6 @@
     "College/yearTwo/firstTerm/C++/Sections/index.md",
     "College/yearTwo/firstTerm/OS/Assignments/index.md",
     "College/yearTwo/firstTerm/Linux/Assignments/index.md",
-    "College/yearTwo/firstTerm/C++/Assignments/index.md",
-    "College/yearTwo/firstTerm/OS/Lectures/index.md",
-    "College/yearTwo/firstTerm/DigitalEngineering/Lectures/index.md",
-    "College/yearTwo/firstTerm/WebDevelopment/index.md",
-    "College/yearTwo/firstTerm/OS/index.md",
-    "College/yearTwo/firstTerm/Linux/index.md",
-    "College/yearTwo/firstTerm/DigitalEngineering/index.md",
-    "College/yearTwo/firstTerm/DB/index.md",
-    "College/yearTwo/firstTerm/C++/index.md",
     "College/yearTwo/firstTerm/DB/Lectures/sedzoMmzJ",
     "College/yearOne/secondTerm/IntroToIot/Lectures/sedSErGL8",
     "College/yearOne/secondTerm/C-Essentials/Lectures/sedOuIQgp",
@@ -222,7 +218,6 @@
     "College/yearTwo/firstTerm/OS/Lectures/sedV77Pcy",
     "College/yearOne/secondTerm/IntroToIot/Lectures/sed57RgwE",
     "Courses/Manara/NodeJs/Chapters/ChapterOne/sedfPjefO",
-    "College/yearTwo/firstTerm/DB/Lectures/sedgvx5tl",
     "College/yearTwo/firstTerm/DigitalEngineering/sheets/figure-2.png",
     "College/yearTwo/firstTerm/DigitalEngineering/sheets/figure-1.png",
     "College/yearTwo/firstTerm/DigitalEngineering/Assingments/figure-5.jpg",

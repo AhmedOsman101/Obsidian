@@ -4,7 +4,10 @@ prev:
   link: "/College/yearTwo/secondTerm/Java/index"
 next: false
 lastUpdated: false
-title: Assignments
+title: Tasks
 ---
 
-# Assignments
+# Tasks
+
+- [Task One](Task-1.md)
+- [Task Two](Task-2.md)

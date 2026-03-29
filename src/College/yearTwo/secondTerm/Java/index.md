@@ -11,5 +11,7 @@ lastUpdated: false
 
 - [Lectures](Lectures/index.md)
 - [Sections](Sections/index.md)
-- [Assignments](Assignments/index.md)
+- [Tasks](Tasks/index.md)
+  - [Task One](Tasks/Task-1.md)
+  - [Task Two](Tasks/Task-2.md)
 - [Exams](Exams/index.md)

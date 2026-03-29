@@ -16,9 +16,9 @@ CourseName/
 │   ├── Section-1.md
 │   ├── Section-2.md
 │   └── index.md
-├── Assignments/
-│   ├── Assignment-1.md
-│   ├── Assignment-2.md
+├── Assignments/ (or Tasks/)
+│   ├── Assignment-1.md (or Task-1.md)
+│   ├── Assignment-2.md (or Task-2.md)
 │   └── index.md
 ├── Exams/
 │   ├── Exam-1.md
@@ -238,6 +238,7 @@ Use hyphenated lowercase format for all note files:
 | Lectures    | `Lecture-x.md` or `Lecture-x-y.md` | `Lecture-1.md`, `Lecture-7-8.md`     |
 | Sections    | `Section-x.md`                     | `Section-1.md`, `Section-2.md`       |
 | Assignments | `Assignment-x.md`                  | `Assignment-1.md`, `Assignment-2.md` |
+| Tasks       | `Task-x.md`                        | `Task-1.md`, `Task-2.md`             |
 | Exams       | `Exam-x.md`                        | `Exam-1.md`, `Exam-2.md`             |
 
 **Combined lectures**: When two lectures are in one file:

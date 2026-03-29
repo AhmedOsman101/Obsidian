@@ -11,4 +11,4 @@ lastUpdated: false
 
 - [Assignment 2](Assignment-2)
 - [Assignment 2 Normal](Assignment-2-normal)
-- [Assignment 2 Think](Assignment-2%20think)
+- [Assignment 2 Think](Assignment-2-think)

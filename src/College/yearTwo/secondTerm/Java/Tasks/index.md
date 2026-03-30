@@ -11,3 +11,4 @@ title: Tasks
 
 - [Task One](Task-1.md)
 - [Task Two](Task-2.md)
+- [Task Three](Task-3.md)

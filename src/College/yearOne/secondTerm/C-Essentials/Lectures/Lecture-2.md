@@ -40,7 +40,7 @@ Interact directly with hardware. Examples include:
 - **Assembly Language**
   - Human-readable mnemonics for machine code, converted by an assembler.
 
-```assembly
+```asm
 MOV AL, 61h  ; Load 61 (hex) into register AL
 ADD AL, 1    ; Increment AL by 1
 ```

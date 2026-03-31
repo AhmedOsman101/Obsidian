@@ -51,8 +51,6 @@ Include a title in both the header and on the page.
 </html>
 ```
 
----
-
 ## PHP Arrays Ex.2
 
 **Initial array:** Tokyo, Mexico City, New York City, Mumbai, Seoul, Shanghai, Lagos, Buenos Aires, Cairo, London

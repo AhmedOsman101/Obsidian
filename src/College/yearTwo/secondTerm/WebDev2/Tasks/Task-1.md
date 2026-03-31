@@ -79,6 +79,7 @@ echo "<br>";
 echo "$x % $y = " . $x % $y;
 echo "<br>";
 ```
+
 ## PHP Exercise 3: Arithmetic-Assignment Operators
 
 - **Task**: Reproduce a specific output using only one variable and arithmetic-assignment operators (no simple arithmetic operators).

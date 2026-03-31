@@ -148,7 +148,7 @@ Used when the program must choose between alternatives based on a condition.
 ```text
 BEGIN
   INPUT number1, number2
-  IF number2 ≠ 0 THEN
+  IF number2 != 0 THEN
     result = number1 / number2
     OUTPUT "The result is: ", result
   ELSE

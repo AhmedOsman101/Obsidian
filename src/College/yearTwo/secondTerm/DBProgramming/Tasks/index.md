@@ -4,7 +4,7 @@ prev:
   link: "/College/yearTwo/secondTerm/DBProgramming/index"
 next: false
 lastUpdated: false
-title: Assignments
+title: Tasks
 ---
 
-# Assignments
+# Tasks

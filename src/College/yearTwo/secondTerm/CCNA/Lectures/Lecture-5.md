@@ -215,7 +215,7 @@ They are immune to EMI/RFI and carry the highest bandwidth over the longest dist
 ## Process Flow: End-to-End Transmission
 
 ```mermaid
-flowchart LR
+flowchart TD
 A[Data Link Frame] --> B[Physical Layer Encoding]
 B --> C[Signaling on Medium]
 C --> D[Transmission]

@@ -2539,6 +2539,7 @@ Ihc
 Impractical
 Internetworking
 Ivgw
+Insulation
 pHYs
 pt
 pu
@@ -3930,6 +3931,8 @@ pkhY
 permitting
 php
 piS
+payload
+pulses
 sbf
 sPv
 sC
@@ -5435,6 +5438,10 @@ sleet
 snow
 sen
 srM
+specifics
+sec
+strands
+stringent
 ff
 fP
 fj
@@ -9216,6 +9223,7 @@ wTx
 wuw
 wuBY
 wrp
+weakens
 BU
 Bh
 BC
@@ -10394,6 +10402,7 @@ BID
 Bhz
 BfG
 BhS
+Braided
 MC
 Ml
 MW
@@ -11642,6 +11651,10 @@ MDt
 Muc
 MoK
 MkkS
+MDIX
+Metallic
+Multimode
+Matters
 Lj
 Lf
 LvVa
@@ -14146,6 +14159,10 @@ anycast
 aJO
 aXS
 aLEy
+attenuation
+antennas
+aqua
+adapts
 Te
 Tn
 TA
@@ -15276,6 +15293,8 @@ TtL
 TAEEW
 TpQGS
 TKD
+Terabits
+Twisting
 uj
 uq
 uXm
@@ -16293,6 +16312,8 @@ ubq
 uUe
 ueU
 uTgZ
+upward
+undersea
 OB
 Ox
 ONynT
@@ -17266,6 +17287,7 @@ OxWG
 Oef
 Oqs
 OOOss
+Opposite
 Uc
 Ue
 UXk
@@ -19514,6 +19536,10 @@ rqA
 rEq
 rcwD
 rJg
+recognizable
+resists
+residential
+reconstructs
 eiO
 es
 ee
@@ -21816,6 +21842,7 @@ GOE
 Gye
 GgbA
 GKJ
+Goodput
 Ex
 EZR
 EG
@@ -23007,6 +23034,7 @@ EDQQ
 EOAB
 EEEiiiqq
 ERi
+Easiest
 Sal
 SQ
 SB
@@ -24403,6 +24431,11 @@ Skd
 See
 STt
 SGl
+Signaling
+Shielding
+Shorter
+Submarine
+Spec
 iH
 ic
 iP
@@ -25645,6 +25678,11 @@ impulses
 internetwork
 isT
 iZy
+inexpensive
+induce
+immune
+immunity
+interceptable
 tWA
 tW
 tM
@@ -26837,6 +26875,9 @@ trailers
 timeouts
 tuuuO
 tvDa
+twist
+twisting
+transoceanic
 nm
 nv
 nhuK
@@ -29020,6 +29061,8 @@ FEn
 FoXGD
 FRJD
 FwG
+Foil
+FTTH
 xi
 xpF
 xwG
@@ -31825,6 +31868,7 @@ broadcasts
 bcm
 bTF
 bStL
+braid
 Nb
 NJu
 Nbsa
@@ -33943,6 +33987,7 @@ lPee
 loW
 lnd
 lhl
+longest
 Rc
 Rt
 RO
@@ -35186,6 +35231,7 @@ RYaa
 RWKyyyIIIQQ
 RYiff
 RunI
+Rollover
 Zt
 ZB
 Zb
@@ -39282,6 +39328,7 @@ oNZOt
 oem
 otd
 oPkk
+obstacles
 mipte
 mRT
 mX
@@ -40486,6 +40533,8 @@ multicast
 mIuUr
 mIuUzz
 mdg
+microns
+multipoint
 Ck
 CS
 Cm
@@ -41960,6 +42009,8 @@ Constraint
 Calcutta
 CxWWRR
 CFn
+Constrained
+Crosstalk
 vb
 vO
 vvF
@@ -44540,6 +44591,8 @@ cellpadding
 cellspacing
 coLl
 cbbz
+currents
+crosstalk
 Hu
 Hg
 HiL
@@ -45705,6 +45758,7 @@ Hint
 HVU
 Hlij
 Hdgk
+Haul
 hh
 hLR
 hI
@@ -46792,6 +46846,7 @@ hjK
 hbADZ
 hYj
 hXDEy
+harsh
 Xi
 XZ
 Xn
@@ -48725,6 +48780,8 @@ geographic
 govern
 gUUU
 gef
+goodput
+glass
 KUYX
 KX
 KK
@@ -53490,6 +53547,9 @@ dLX
 dRY
 dHQ
 dHvgu
+delays
+distort
+dispersion
 AK
 AQ
 Aya
@@ -54976,6 +55036,9 @@ Angeles
 AZEEo
 AzP
 ATf
+Affected
+Attenuation
+Antennas
 Jw
 Jg
 JT
@@ -55985,6 +56048,7 @@ Jhkc
 Jhhx
 JMu
 JzTTtzfv
+Jacket
 Qv
 QL
 QD
@@ -57811,6 +57875,9 @@ WnW
 WSM
 Wjj
 Wgmm
+Woven
+WLANs
+WiMAX
 Ötl
 ÖC
 Öm

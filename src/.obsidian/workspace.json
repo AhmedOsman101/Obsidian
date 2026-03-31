@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearTwo/secondTerm/Java/Tasks/Task-3.md",
+                "file": "College/yearTwo/secondTerm/CCNA/Lectures/Lecture-5.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Task-3"
+              "title": "Lecture-5"
             }
           }
         ]
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 302.5,
+    "collapsed": true
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -187,8 +188,10 @@
   },
   "active": "952c2b9c5edb91e6",
   "lastOpenFiles": [
-    "College/yearTwo/secondTerm/Java/Tasks/imgs/figure-2.png",
+    "College/yearTwo/secondTerm/CCNA/Lectures/index.md",
+    "College/yearTwo/secondTerm/CCNA/Lectures/Lecture-1.md",
     "College/yearTwo/secondTerm/Java/Tasks/Task-3.md",
+    "College/yearTwo/secondTerm/Java/Tasks/imgs/figure-2.png",
     "College/yearTwo/secondTerm/Java/Tasks/figure.png",
     "College/yearTwo/secondTerm/WebDev2/Tasks/Task-4.md",
     "College/yearTwo/secondTerm/WebDev2/Tasks/Task-2.md",
@@ -218,7 +221,6 @@
     "College/yearTwo/firstTerm/OS/Exams/index.md",
     "College/yearTwo/firstTerm/Linux/Exams/index.md",
     "College/yearTwo/firstTerm/DigitalEngineering/Exams/index.md",
-    "College/yearTwo/firstTerm/DB/Exams/index.md",
     "College/yearTwo/firstTerm/DB/Lectures/sedzoMmzJ",
     "College/yearOne/secondTerm/IntroToIot/Lectures/sedSErGL8",
     "College/yearOne/secondTerm/C-Essentials/Lectures/sedOuIQgp",

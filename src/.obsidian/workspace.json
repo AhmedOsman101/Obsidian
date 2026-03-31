@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "38bc3b5087180b03",
+        "id": "af33c20e9a96932a",
         "type": "tabs",
         "children": [
           {
-            "id": "952c2b9c5edb91e6",
+            "id": "d350833f5dbfd6c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearTwo/secondTerm/CCNA/Lectures/Lecture-5.md",
+                "file": "College/yearTwo/secondTerm/WebDev2/Lectures/Lecture-1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Lecture-5"
+              "title": "Lecture-1"
             }
           }
         ]
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5,
-    "collapsed": true
+    "width": 302.5
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -186,8 +185,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "952c2b9c5edb91e6",
+  "active": "d350833f5dbfd6c9",
   "lastOpenFiles": [
+    "College/yearTwo/secondTerm/WebDev2/Lectures/Lecture-4.md",
+    "College/yearTwo/secondTerm/WebDev2/Lectures/Lecture-3.md",
+    "College/yearTwo/secondTerm/WebDev2/Lectures/Lecture-2.md",
+    "College/yearTwo/secondTerm/WebDev2/Lectures/Lecture-1.md",
+    "College/yearTwo/secondTerm/CCNA/Lectures/Lecture-5.md",
     "College/yearTwo/secondTerm/CCNA/Lectures/index.md",
     "College/yearTwo/secondTerm/CCNA/Lectures/Lecture-1.md",
     "College/yearTwo/secondTerm/Java/Tasks/Task-3.md",
@@ -216,11 +220,6 @@
     "College/yearTwo/secondTerm/CCNA/Lectures/Lecture-2.md",
     "College/yearTwo/firstTerm/WebDevelopment/Assignments/index.md",
     "College/yearTwo/firstTerm/DigitalEngineering/Assignments/index.md",
-    "College/yearTwo/firstTerm/DB/Assignments/index.md",
-    "College/yearTwo/firstTerm/WebDevelopment/Exams/index.md",
-    "College/yearTwo/firstTerm/OS/Exams/index.md",
-    "College/yearTwo/firstTerm/Linux/Exams/index.md",
-    "College/yearTwo/firstTerm/DigitalEngineering/Exams/index.md",
     "College/yearTwo/firstTerm/DB/Lectures/sedzoMmzJ",
     "College/yearOne/secondTerm/IntroToIot/Lectures/sedSErGL8",
     "College/yearOne/secondTerm/C-Essentials/Lectures/sedOuIQgp",

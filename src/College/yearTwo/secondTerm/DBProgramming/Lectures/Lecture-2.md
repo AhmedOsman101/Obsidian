@@ -11,4 +11,3 @@ title: Lecture 2
 # Database Programming - Lecture 2
 
 ## Content
-

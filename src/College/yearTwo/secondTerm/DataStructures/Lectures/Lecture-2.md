@@ -11,4 +11,3 @@ title: Lecture 2
 # Data Structures - Lecture 2
 
 ## Content
-

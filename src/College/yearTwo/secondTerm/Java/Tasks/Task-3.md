@@ -64,7 +64,7 @@ public class Main {
 
     stdout.print("  Enter the power: ");
     int power = stdin.nextInt();
-    
+
     int result = 1;
     for (int i = 0; i < power; i++) {
       result *= base;

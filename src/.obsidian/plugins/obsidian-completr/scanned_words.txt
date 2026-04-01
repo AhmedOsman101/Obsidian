@@ -1229,6 +1229,10 @@ PcSSgg
 PxDTm
 PTTT
 PGZ
+Preprocessor
+PCRE
+PREG
+Package
 IHDR
 IDATx
 IO
@@ -2540,6 +2544,9 @@ Impractical
 Internetworking
 Ivgw
 Insulation
+Invisible
+Independent
+Instantiation
 pHYs
 pt
 pu
@@ -3933,6 +3940,10 @@ php
 piS
 payload
 pulses
+parse
+params
+primitives
+pitfall
 sbf
 sPv
 sC
@@ -5442,6 +5453,16 @@ specifics
 sec
 strands
 stringent
+substring
+suppressed
+submissions
+submits
+silently
+scrollable
+silent
+superglobal
+stays
+skipping
 ff
 fP
 fj
@@ -6653,6 +6674,7 @@ forwarded
 fAA
 fck
 fffZk
+falsy
 yq
 yh
 yS
@@ -8325,6 +8347,7 @@ qUk
 qtk
 quC
 qaaQEEy
+quantifiers
 waq
 wc
 wav
@@ -9224,6 +9247,7 @@ wuw
 wuBY
 wrp
 weakens
+warnings
 BU
 Bh
 BC
@@ -10403,6 +10427,7 @@ Bhz
 BfG
 BhS
 Braided
+Bypassable
 MC
 Ml
 MW
@@ -11655,6 +11680,9 @@ MDIX
 Metallic
 Multimode
 Matters
+Masked
+Mutually
+Multidimensional
 Lj
 Lf
 LvVa
@@ -12818,6 +12846,8 @@ LGm
 Lagos
 Los
 LVS
+Literal
+Lexicographic
 al
 aj
 ar
@@ -14163,6 +14193,8 @@ attenuation
 antennas
 aqua
 adapts
+attrs
+anchors
 Te
 Tn
 TA
@@ -15295,6 +15327,12 @@ TpQGS
 TKD
 Terabits
 Twisting
+TRUE
+Traps
+Toggleable
+Tokenize
+Testable
+Trap
 uj
 uq
 uXm
@@ -18290,6 +18328,8 @@ UHs
 UUMDj
 Uwi
 UVZr
+Undefined
+Usability
 ra
 rO
 rV
@@ -19540,6 +19580,10 @@ recognizable
 resists
 residential
 reconstructs
+renders
+reject
+rat
+reopened
 eiO
 es
 ee
@@ -20820,6 +20864,9 @@ excluding
 eSM
 ekl
 erB
+equality
+enhancement
+escaping
 GO
 GQ
 Gk
@@ -21843,6 +21890,8 @@ Gye
 GgbA
 GKJ
 Goodput
+Generic
+GET
 Ex
 EZR
 EG
@@ -23035,6 +23084,8 @@ EOAB
 EEEiiiqq
 ERi
 Easiest
+Embedding
+Exactly
 Sal
 SQ
 SB
@@ -24436,6 +24487,9 @@ Shielding
 Shorter
 Submarine
 Spec
+Submission
+Submitted
+Sanitize
 iH
 ic
 iP
@@ -25683,6 +25737,12 @@ induce
 immune
 immunity
 interceptable
+indistinguishable
+irrelevant
+intention
+interspersed
+intentional
+imported
 tWA
 tW
 tM
@@ -26878,6 +26938,7 @@ tvDa
 twist
 twisting
 transoceanic
+treat
 nm
 nv
 nhuK
@@ -27876,6 +27937,9 @@ nniio
 nvv
 nse
 nXu
+nowhere
+newlines
+negation
 Fc
 Fe
 Fo
@@ -29063,6 +29127,8 @@ FRJD
 FwG
 Foil
 FTTH
+FALSE
+Fall
 xi
 xpF
 xwG
@@ -30747,6 +30813,7 @@ jmmm
 jTv
 juOo
 jcomZ
+juggling
 bo
 bi
 bn
@@ -31869,6 +31936,7 @@ bcm
 bTF
 bStL
 braid
+bat
 Nb
 NJu
 Nbsa
@@ -32961,6 +33029,7 @@ Nii
 NtP
 NvVNv
 Nxs
+Nuances
 lqQvz
 ln
 lN
@@ -33988,6 +34057,7 @@ loW
 lnd
 lhl
 longest
+literally
 Rc
 Rt
 RO
@@ -35232,6 +35302,8 @@ RWKyyyIIIQQ
 RYiff
 RunI
 Rollover
+Renders
+Regex
 Zt
 ZB
 Zb
@@ -36161,6 +36233,7 @@ ZZR
 ZWG
 ZXZ
 ZWWZZ
+ZIP
 kn
 kHf
 kJ
@@ -39329,6 +39402,8 @@ oem
 otd
 oPkk
 obstacles
+omitting
+omission
 mipte
 mRT
 mX
@@ -40535,6 +40610,8 @@ mIuUzz
 mdg
 microns
 multipoint
+multidimensional
+mismatches
 Ck
 CS
 Cm
@@ -42011,6 +42088,9 @@ CxWWRR
 CFn
 Constrained
 Crosstalk
+Casting
+Clears
+Checkboxes
 vb
 vO
 vvF
@@ -44593,6 +44673,10 @@ coLl
 cbbz
 currents
 crosstalk
+chars
+concatenates
+catches
+craft
 Hu
 Hg
 HiL
@@ -47758,6 +47842,7 @@ XlI
 XwOSS
 XGA
 XUu
+XHTML
 gR
 gQ
 go
@@ -53550,6 +53635,8 @@ dHvgu
 delays
 distort
 dispersion
+delimited
+dialects
 AK
 AQ
 Aya
@@ -55039,6 +55126,10 @@ ATf
 Affected
 Attenuation
 Antennas
+Accessibility
+Alias
+Authoritative
+Anchor
 Jw
 Jg
 JT
@@ -56954,6 +57045,7 @@ QoS
 QkJo
 Qge
 QmuuuUeUuU
+Quantifiers
 WliB
 WWO
 WRY

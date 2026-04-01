@@ -8,7 +8,7 @@ next:
 title: Lecture 1
 ---
 
-# Lecture 1: Server-Side Basics & PHP Syntax
+# Web Development II - Lecture 1
 
 ## The Web Request Lifecycle
 

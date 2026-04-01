@@ -9,4 +9,3 @@ title: Lecture 6
 # Database Programming - Lecture 6
 
 ## Content
-

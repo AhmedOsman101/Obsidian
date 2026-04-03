@@ -13,10 +13,10 @@
   "enabledCss": true,
   "concurrency": "5",
   "prevConfig": {
-    "pageSize": "Tabloid",
+    "pageSize": "A1",
     "marginType": "1",
     "showTitle": false,
-    "open": false,
+    "open": true,
     "scale": 100,
     "landscape": false,
     "marginTop": "0",

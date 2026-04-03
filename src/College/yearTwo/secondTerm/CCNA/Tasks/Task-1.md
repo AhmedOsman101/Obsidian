@@ -205,14 +205,15 @@ Hubs are **not used** in this design. As stated in Lecture 1, hubs broadcast dat
 
 1. **Router**:
    - Enter CLI and configure:
-     ```
-     enable
-     configure terminal
-     interface GigabitEthernet0/0
-     ip address 192.168.1.1 255.255.255.0
-     no shutdown
-     exit
-     ```
+
+```bash
+enable
+configure terminal
+interface GigabitEthernet0/0
+ip address 192.168.1.1 255.255.255.0
+no shutdown
+exit
+```
 
 2. **Server**:
    - IP: 192.168.1.2
@@ -231,40 +232,3 @@ Hubs are **not used** in this design. As stated in Lecture 1, hubs broadcast dat
 2. Run `ping 192.168.1.1` to test gateway connectivity.
 3. Run `ping 192.168.1.2` to test server connectivity.
 4. Run `ping` between PCs on different switches to verify inter-switch communication.
-
----
-
-## 7. Network Topology Diagram
-
-```
-                        ┌──────────────┐
-                        │   Router     │
-                        │ 192.168.1.1  │
-                        │  (Cisco 2911)│
-                        └──────┬───────┘
-                               │ (Straight-through)
-                        ┌──────┴───────┐
-                        │   Switch 0   │
-                        │  (2960-24)   │
-                        └──┬───┬───┬───┘
-              (Crossover)  │   │   │
-              ┌────────────┘   │   └─── PCs 1-17
-              │                │       (Straight-through)
-        ┌─────┴──────┐    ┌────┴──────┐
-        │  Switch 1  │    │  Server   │
-        │ (2960-24)  │    │192.168.1.2│
-        └──┬─────┬───┘    └───────────┘
-           │     │
-    (Crossover) │
-    ┌───────────┘
-    │
-┌───┴──────┐
-│ Switch 2 │
-│(2960-24) │
-└──┬───┬───┘
-   │   │
-   │   └─── PCs 35-50
-   │       (Straight-through)
-   └─── PCs 18-34
-         (Straight-through)
-```

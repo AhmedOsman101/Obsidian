@@ -15,7 +15,7 @@
               "state": {
                 "file": "College/yearTwo/secondTerm/CCNA/Tasks/Task-1.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
@@ -187,6 +187,7 @@
   },
   "active": "bb4e6aef1f6c199c",
   "lastOpenFiles": [
+    "College/yearTwo/secondTerm/CCNA/Tasks/draft.md",
     "College/yearTwo/secondTerm/CCNA/Tasks/PacketTracer-Steps.md2k6VXA.bck",
     "College/yearTwo/secondTerm/CCNA/Tasks/PacketTracer-Steps.mdHxYPhA.bck",
     "College/yearTwo/secondTerm/CCNA/Tasks/CompanyNetwork.pkt~",
@@ -206,7 +207,6 @@
     "templates/studentDetails.md",
     "College/yearTwo/secondTerm/CCNA/Tasks/index.md",
     "College/yearTwo/secondTerm/Java/Tasks/Task-3.5.md",
-    "College/yearTwo/secondTerm/Java/Tasks/presentation.pptx",
     "College/yearTwo/secondTerm/WebDev2/Tasks/Task-2.md",
     "College/yearTwo/secondTerm/Java/Lectures/Lecture-5.md",
     "College/yearTwo/secondTerm/Java/Lectures/Lecture-4.md",

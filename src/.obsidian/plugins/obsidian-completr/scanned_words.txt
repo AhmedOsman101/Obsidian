@@ -3963,6 +3963,7 @@ pnh
 pTTdd
 pqXXhDD
 pwL
+pkt
 sbf
 sPv
 sC
@@ -10470,6 +10471,7 @@ BHrrr
 BpB
 BpBr
 BtD
+Briefly
 MC
 Ml
 MW
@@ -20961,6 +20963,8 @@ exclusively
 eaaQ
 effVWW
 efbL
+ensured
+explanation
 GO
 GQ
 Gk
@@ -30961,6 +30965,8 @@ jcomZ
 juggling
 jNx
 jjli
+justify
+justification
 bo
 bi
 bn
@@ -44885,6 +44891,7 @@ cGvv
 companies
 confined
 comfortably
+chose
 Hu
 Hg
 HiL

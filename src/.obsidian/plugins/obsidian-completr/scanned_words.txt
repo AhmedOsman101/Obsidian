@@ -1238,6 +1238,7 @@ Practices
 Pool
 Pmdbb
 PWWWX
+Patterns
 IHDR
 IDATx
 IO
@@ -3964,6 +3965,7 @@ pTTdd
 pqXXhDD
 pwL
 pkt
+propagates
 sbf
 sPv
 sC
@@ -6702,6 +6704,7 @@ fck
 fffZk
 falsy
 feG
+forget
 yq
 yh
 yS
@@ -9284,6 +9287,7 @@ wasteful
 wpx
 wJz
 wYFFF
+writable
 BU
 Bh
 BC
@@ -19675,6 +19679,7 @@ rAAAqq
 rjx
 rIl
 ryU
+resized
 eiO
 es
 ee
@@ -20965,6 +20970,7 @@ effVWW
 efbL
 ensured
 explanation
+escaped
 GO
 GQ
 Gk
@@ -25863,6 +25869,7 @@ iSfffuuuUU
 iCW
 ihP
 iXL
+inspect
 tWA
 tW
 tM
@@ -27067,6 +27074,7 @@ tXU
 tUNB
 tNyw
 tpB
+throw
 nm
 nv
 nhuK
@@ -30967,6 +30975,8 @@ jNx
 jjli
 justify
 justification
+jagged
+jumps
 bo
 bi
 bn
@@ -32096,6 +32106,7 @@ bBl
 bqEeE
 bqm
 broadcasting
+backslashes
 Nb
 NJu
 Nbsa
@@ -44892,6 +44903,7 @@ companies
 confined
 comfortably
 chose
+cleanup
 Hu
 Hg
 HiL
@@ -49089,6 +49101,7 @@ goodput
 glass
 gfg
 gBpB
+gracefully
 KUYX
 KX
 KK

@@ -1239,6 +1239,7 @@ Pool
 Pmdbb
 PWWWX
 Patterns
+PRIMARY
 IHDR
 IDATx
 IO
@@ -2561,6 +2562,9 @@ Iqqq
 Iww
 Iab
 IIDAT
+Inspection
+Inspect
+Inspecting
 pHYs
 pt
 pu
@@ -3966,6 +3970,7 @@ pqXXhDD
 pwL
 pkt
 propagates
+pads
 sbf
 sPv
 sC
@@ -5494,6 +5499,10 @@ sOjjJjj
 separates
 spreads
 schemas
+safer
+shortcut
+synonym
+scoped
 ff
 fP
 fj
@@ -9291,6 +9300,7 @@ wpx
 wJz
 wYFFF
 writable
+wildcards
 BU
 Bh
 BC
@@ -10480,6 +10490,11 @@ BpBr
 BtD
 Briefly
 Boundary
+BIGINT
+BIT
+BLOB
+Boundaries
+BETWEEN
 MC
 Ml
 MW
@@ -11744,6 +11759,10 @@ MPz
 MHKE
 MDb
 Mgmt
+MEDIUMINT
+MEDIUMTEXT
+MEDIUMBLOB
+MODIFY
 Lj
 Lf
 LvVa
@@ -12913,6 +12932,11 @@ Lights
 Lyc
 LqxYod
 LGw
+LONGTEXT
+LONGBLOB
+Lifetime
+LIKE
+LIMIT
 al
 aj
 ar
@@ -14261,6 +14285,11 @@ adapts
 attrs
 anchors
 aäq
+arbitrary
+aggregations
+aggregated
+aggregation
+aliases
 Te
 Tn
 TA
@@ -15407,6 +15436,15 @@ TJDz
 Trei
 Them
 TCL
+TINYINT
+TINYTEXT
+TEXT
+TINYBLOB
+TIMESTAMP
+TABLES
+TRUNCATE
+TEMPORARY
+Tool
 uj
 uq
 uXm
@@ -16437,6 +16475,8 @@ uaaAII
 uplinks
 unrelated
 uniqueness
+undone
+unsorted
 OB
 Ox
 ONynT
@@ -17415,6 +17455,7 @@ Orpt
 Ocb
 OEl
 OMQZ
+ORDER
 Uc
 Ue
 UXk
@@ -18424,6 +18465,10 @@ Ubcm
 UZZJ
 Uplink
 Usable
+UTC
+USE
+UNIQUE
+UNKNOWN
 ra
 rO
 rV
@@ -19689,6 +19734,9 @@ rIl
 ryU
 resized
 rigidity
+renames
+restrict
+reordered
 eiO
 es
 ee
@@ -20982,6 +21030,7 @@ explanation
 escaped
 excludes
 exporting
+emphasizes
 GO
 GQ
 Gk
@@ -22009,6 +22058,7 @@ Generic
 GET
 Garbage
 GigabitEthernet
+GROUP
 Ex
 EZR
 EG
@@ -23208,6 +23258,9 @@ EXEC
 Ejjjd
 Ekl
 EttTMMM
+Exact
+ENUM
+EXPLAIN
 Sal
 SQ
 SB
@@ -24620,6 +24673,12 @@ SMl
 SjK
 SEEE
 SkrSRR
+SMALLINT
+SHOW
+SYSTEM
+SELECT
+Sorting
+SUM
 iH
 ic
 iP
@@ -25882,6 +25941,9 @@ ihP
 iXL
 inspect
 importing
+import
+inspection
+inspected
 tWA
 tW
 tM
@@ -27087,6 +27149,7 @@ tUNB
 tNyw
 tpB
 throw
+timed
 nm
 nv
 nhuK
@@ -29294,6 +29357,10 @@ Fjkk
 Fxx
 FEF
 Firebase
+FLOAT
+FULL
+FIRST
+FOREIGN
 xi
 xpF
 xwG
@@ -32120,6 +32187,8 @@ bqEeE
 bqm
 broadcasting
 backslashes
+boundaries
+boundary
 Nb
 NJu
 Nbsa
@@ -35500,6 +35569,7 @@ Ramadan
 Rename
 RvG
 References
+RENAME
 Zt
 ZB
 Zb
@@ -38618,6 +38688,17 @@ DJh
 DTv
 DtM
 DCL
+DOUBLE
+DECIMAL
+DATE
+DATETIME
+DATABASE
+DATABASES
+DROP
+DESCRIBE
+DESC
+Distinguishes
+DISTINCT
 ohQ
 oL
 ob
@@ -39616,6 +39697,7 @@ olllYY
 oFg
 oWTT
 opposites
+optionally
 mipte
 mRT
 mX
@@ -40828,6 +40910,9 @@ marp
 mZs
 mkK
 mYkW
+money
+malformed
+mysqldump
 Ck
 CS
 Cm
@@ -42317,6 +42402,11 @@ CpB
 CeB
 CTrPv
 CnQI
+CHAR
+COLUMNS
+Clause
+COUNT
+Clauses
 vb
 vO
 vvF
@@ -44921,6 +45011,10 @@ comfortably
 chose
 cleanup
 compliant
+clause
+corrected
+clauses
+collation
 Hu
 Hg
 HiL
@@ -46088,6 +46182,7 @@ Hlij
 Hdgk
 Haul
 Hdff
+HAVING
 hh
 hLR
 hI
@@ -50076,6 +50171,7 @@ KZZZ
 Kfgg
 KKKi
 Kmmmmm
+KEY
 zC
 zl
 zk
@@ -51638,6 +51734,7 @@ YZZT
 Yqqq
 YRPP
 YllLGGGM
+YEAR
 VLt
 Vfa
 Vr
@@ -52578,6 +52675,7 @@ VhI
 VTx
 Vno
 VTY
+VARCHAR
 dk
 dR
 dV
@@ -53907,6 +54005,9 @@ dEE
 dHt
 difAA
 degradation
+durations
+destructive
+descending
 AK
 AQ
 Aya
@@ -55410,6 +55511,10 @@ AAAJ
 AfffHH
 Atd
 AaaAff
+Approximate
+AFTER
+Aggregation
+Aggregate
 Jw
 Jg
 JT
@@ -56427,6 +56532,8 @@ Jjf
 JcXe
 JUQQ
 JMP
+JOIN
+JOINs
 Qv
 QL
 QD
@@ -58260,6 +58367,8 @@ WLANs
 WiMAX
 Wrong
 Wxxx
+Whole
+WHERE
 Ötl
 ÖC
 Öm

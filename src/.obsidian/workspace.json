@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearTwo/secondTerm/DBProgramming/Lectures/Lecture-1.md",
+                "file": "College/yearTwo/secondTerm/DBProgramming/Lectures/Lecture-5.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Lecture-1"
+              "title": "Lecture-5"
             }
           }
         ]
@@ -187,6 +187,12 @@
   },
   "active": "bb4e6aef1f6c199c",
   "lastOpenFiles": [
+    "College/yearTwo/secondTerm/DBProgramming/Lectures/Lecture-6.md",
+    "College/yearTwo/secondTerm/DBProgramming/Lectures/Lecture-5.md",
+    "College/yearTwo/secondTerm/DBProgramming/Lectures/Lecture-4.md",
+    "College/yearTwo/secondTerm/DBProgramming/Lectures/Lecture-3.md",
+    "College/yearTwo/secondTerm/DBProgramming/Lectures/Lecture-2.md",
+    "College/yearTwo/secondTerm/DBProgramming/Lectures/Lecture-1.md",
     "College/yearTwo/secondTerm/Java/Lectures/Lecture-6.md",
     "College/yearTwo/secondTerm/Java/Lectures/Lecture-5.md",
     "College/yearTwo/secondTerm/CCNA/Tasks/Task-1.md",
@@ -218,12 +224,6 @@
     "College/yearTwo/secondTerm/Java/Lectures/Lecture-1.md",
     "College/yearTwo/secondTerm/WebDev2/Lectures/Lecture-4.md",
     "College/yearTwo/secondTerm/WebDev2/Lectures/Lecture-3.md",
-    "College/yearTwo/secondTerm/WebDev2/Lectures/Lecture-2.md",
-    "College/yearTwo/secondTerm/WebDev2/Lectures/Lecture-1.md",
-    "College/yearTwo/secondTerm/CCNA/Lectures/Lecture-5.md",
-    "College/yearTwo/secondTerm/CCNA/Lectures/index.md",
-    "College/yearTwo/secondTerm/CCNA/Lectures/Lecture-1.md",
-    "College/yearTwo/secondTerm/Java/Tasks/Task-3.md",
     "College/yearTwo/secondTerm/Java/Tasks/imgs/figure-2.png",
     "College/yearTwo/secondTerm/Java/Tasks/figure.png",
     "College/yearTwo/secondTerm/Java/Tasks/imgs/figure-1.png",

@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "02f26b787f9760ed",
+        "id": "60c392e2a1cad03a",
         "type": "tabs",
         "children": [
           {
-            "id": "bb4e6aef1f6c199c",
+            "id": "54e6f419507f2825",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearTwo/secondTerm/DBProgramming/Lectures/Lecture-5.md",
+                "file": "College/yearTwo/secondTerm/DBProgramming/Tasks/Task-1.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Lecture-5"
+              "title": "Task-1"
             }
           }
         ]
@@ -185,10 +185,23 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bb4e6aef1f6c199c",
+  "active": "54e6f419507f2825",
   "lastOpenFiles": [
-    "College/yearTwo/secondTerm/DBProgramming/Lectures/Lecture-6.md",
+    "College/yearTwo/secondTerm/DBProgramming/Tasks/figure-18.png",
+    "College/yearTwo/secondTerm/DBProgramming/Tasks/figure-17.png",
+    "College/yearTwo/secondTerm/DBProgramming/Tasks/figure-16.png",
+    "College/yearTwo/secondTerm/DBProgramming/Tasks/figure-15.png",
+    "College/yearTwo/secondTerm/DBProgramming/Tasks/figure-14.png",
+    "College/yearTwo/secondTerm/DBProgramming/Tasks/figure-13.png",
+    "College/yearTwo/secondTerm/DBProgramming/Tasks/figure-12.png",
+    "College/yearTwo/secondTerm/DBProgramming/Tasks/figure-11.png",
+    "College/yearTwo/secondTerm/DBProgramming/Tasks/figure-10.png",
+    "College/yearTwo/secondTerm/DBProgramming/Tasks/figure-9.png",
+    "College/yearTwo/secondTerm/DBProgramming/Tasks/figure-8.png",
+    "College/yearTwo/secondTerm/DBProgramming/Tasks/Task-1.md",
+    "College/yearTwo/secondTerm/Java/Tasks/Task-1.md",
     "College/yearTwo/secondTerm/DBProgramming/Lectures/Lecture-5.md",
+    "College/yearTwo/secondTerm/DBProgramming/Lectures/Lecture-6.md",
     "College/yearTwo/secondTerm/DBProgramming/Lectures/Lecture-4.md",
     "College/yearTwo/secondTerm/DBProgramming/Lectures/Lecture-3.md",
     "College/yearTwo/secondTerm/DBProgramming/Lectures/Lecture-2.md",
@@ -208,7 +221,6 @@
     "College/yearTwo/secondTerm/CCNA/Tasks/CompanyNetwork.pkt.bak.pkt~",
     "College/yearTwo/secondTerm/CCNA/Tasks/CompanyNetwork.pkt.bak.bak",
     "College/yearTwo/secondTerm/CCNA/Tasks/CompanyNetwork.pkt.bak.pkt",
-    "College/yearTwo/secondTerm/CCNA/Tasks/img.png",
     "College/yearTwo/secondTerm/CCNA/Tasks/CompanyNetwork",
     "College/yearTwo/secondTerm/CCNA/Tasks/CompanyNetwork.bak",
     "College/yearTwo/secondTerm/CCNA/Tasks/CompanyNetwork.pkt",
@@ -220,18 +232,6 @@
     "College/yearTwo/secondTerm/WebDev2/Tasks/Task-2.md",
     "College/yearTwo/secondTerm/Java/Lectures/Lecture-4.md",
     "College/yearTwo/secondTerm/Java/Lectures/Lecture-3.md",
-    "College/yearTwo/secondTerm/Java/Lectures/Lecture-2.md",
-    "College/yearTwo/secondTerm/Java/Lectures/Lecture-1.md",
-    "College/yearTwo/secondTerm/WebDev2/Lectures/Lecture-4.md",
-    "College/yearTwo/secondTerm/WebDev2/Lectures/Lecture-3.md",
-    "College/yearTwo/secondTerm/Java/Tasks/imgs/figure-2.png",
-    "College/yearTwo/secondTerm/Java/Tasks/figure.png",
-    "College/yearTwo/secondTerm/Java/Tasks/imgs/figure-1.png",
-    "College/yearTwo/secondTerm/Java/Tasks/imgs/figure.png",
-    "College/yearTwo/firstTerm/DigitalEngineering/sheets/figure-2.png",
-    "College/yearTwo/firstTerm/DigitalEngineering/sheets/figure-1.png",
-    "College/yearTwo/firstTerm/DigitalEngineering/Assingments/figure-5.jpg",
-    "College/yearTwo/firstTerm/DigitalEngineering/Assingments/figure-3.png",
-    "College/yearTwo/firstTerm/DigitalEngineering/Assingments/figure-4.png"
+    "College/yearTwo/secondTerm/Java/Lectures/Lecture-2.md"
   ]
 }

@@ -49,7 +49,7 @@ int StackEmpty(StackType s) {
 **StackFull** for linked stacks always returns false (0) because the stack grows dynamically until memory exhaustion.
 
 > [!IMPORTANT]
-> *Linked stacks never overflow due to size limits—only system memory exhaustion causes failure. Always check malloc() return value in production code.*
+> _Linked stacks never overflow due to size limits—only system memory exhaustion causes failure. Always check malloc() return value in production code._
 
 **Push** adds a new node at the top of the stack.
 
@@ -141,7 +141,7 @@ void Dequeue(EntryType *item, QueueType *q) {
 ```
 
 > [!WARNING]
-> *After dequeuing the last element, both front and rear must be set to NULL. Otherwise, the queue appears to have a rear but no front, causing inconsistent state.*
+> _After dequeuing the last element, both front and rear must be set to NULL. Otherwise, the queue appears to have a rear but no front, causing inconsistent state._
 
 ## Clear Operations
 
@@ -172,12 +172,12 @@ void ClearQueue(QueueType *q) {
 
 ## Array vs. Linked Implementation Comparison
 
-| Feature | Array Stack/Queue | Linked Stack/Queue |
-| ------- | ---------------- | ------------------ |
-| Size limit | Fixed (MAX) | Unlimited (dynamic) |
-| Overflow | Yes (when full) | No (memory-dependent) |
-| Memory efficiency | Fixed allocation | Per-node overhead |
-| Implementation complexity | Simpler | Requires malloc/free |
-| Random access | O(1) | O(n) |
+| Feature                   | Array Stack/Queue | Linked Stack/Queue    |
+| ------------------------- | ----------------- | --------------------- |
+| Size limit                | Fixed (MAX)       | Unlimited (dynamic)   |
+| Overflow                  | Yes (when full)   | No (memory-dependent) |
+| Memory efficiency         | Fixed allocation  | Per-node overhead     |
+| Implementation complexity | Simpler           | Requires malloc/free  |
+| Random access             | O(1)              | O(n)                  |
 
 The choice depends on whether the maximum size is known (array preferred for simplicity) or unknown (linked preferred for flexibility).

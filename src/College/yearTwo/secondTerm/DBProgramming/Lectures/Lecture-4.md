@@ -36,7 +36,7 @@ The **WHERE** clause filters rows based on specified conditions before they are 
 
 ## MySQL DISTINCT Clause for Unique Results
 
-The **DISTINCT** clause eliminates duplicate rows from the result set, returning only unique values. This matters because it prevents redundant data in reports and aggregations. Syntax: `SELECT DISTINCT column1, column2 FROM table;`. When applied to multiple columns, uniqueness is determined by the combination of values across all specified columns. DISTINCT must appear immediately after SELECT and before column names. It cannot be used with * in the same SELECT clause without specifying columns.
+The **DISTINCT** clause eliminates duplicate rows from the result set, returning only unique values. This matters because it prevents redundant data in reports and aggregations. Syntax: `SELECT DISTINCT column1, column2 FROM table;`. When applied to multiple columns, uniqueness is determined by the combination of values across all specified columns. DISTINCT must appear immediately after SELECT and before column names. It cannot be used with \* in the same SELECT clause without specifying columns.
 
 ## MySQL ORDER BY Clause for Sorting
 
@@ -48,7 +48,7 @@ The **GROUP BY** clause groups rows with identical values in specified columns i
 
 ## MySQL HAVING Clause for Group Filtering
 
-The **HAVING** clause filters groups after aggregation, analogous to WHERE but for grouped data. This matters because WHERE cannot filter on aggregate results. Syntax: `SELECT columns FROM table GROUP BY column HAVING condition;`. HAVING conditions can include aggregate functions like `HAVING COUNT(*) > 5` or `HAVING AVG(salary) > 50000`. Logical flow: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT. HAVING is applied after GROUP BY creates the groups but before final result ordering.
+The **HAVING** clause filters groups after aggregation, analogous to WHERE but for grouped data. This matters because WHERE cannot filter on aggregate results. Syntax: `SELECT columns FROM table GROUP BY column HAVING condition;`. HAVING conditions can include aggregate functions like `HAVING COUNT(*) > 5` or `HAVING AVG(salary) > 50000`. Logical flow: FROM -> WHERE -> GROUP BY -> HAVING -> SELECT -> ORDER BY -> LIMIT. HAVING is applied after GROUP BY creates the groups but before final result ordering.
 
 ## MySQL FROM Clause and Table Sources
 
@@ -57,6 +57,7 @@ The **FROM** clause specifies the source tables for data retrieval. This matters
 ## Query Execution Order in MySQL
 
 Understanding query execution order prevents logical errors in complex statements. This matters because writing conditions in the wrong clause produces incorrect results. The standard MySQL SELECT execution order is:
+
 1. FROM & JOINs - define working table set
 2. WHERE - filter rows from working set
 3. GROUP BY - create groups from filtered rows
@@ -64,4 +65,4 @@ Understanding query execution order prevents logical errors in complex statement
 5. SELECT - compute expressions and apply DISTINCT
 6. ORDER BY - sort the final result set
 7. LIMIT - restrict number of returned rows
-Clauses must appear in this order; syntax errors occur if reordered.
+   Clauses must appear in this order; syntax errors occur if reordered.

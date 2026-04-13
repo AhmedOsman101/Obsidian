@@ -15,7 +15,7 @@ A **constraint** is a rule enforced on table columns that restricts what values 
 MySQL classifies constraints into two levels. **Column-level constraints** apply only to a single column and limit that column's data. **Table-level constraints** apply to the entire table and can constrain multiple columns together.
 
 > [!IMPORTANT]
-> *A constraint violation causes the entire operation to fail. No partial data is inserted when a constraint is violated.*
+> _A constraint violation causes the entire operation to fail. No partial data is inserted when a constraint is violated._
 
 ## NOT NULL and DEFAULT Constraints
 
@@ -39,10 +39,10 @@ CREATE TABLE employees (
 
 **PRIMARY KEY** uniquely identifies each row and has two rules: the column must contain unique values and cannot be NULL. A table can have only one PRIMARY KEY, which may consist of multiple columns forming a **composite key**. The primary key combines NOT NULL and UNIQUE automatically.
 
-| Constraint | Unique values | Allows NULL | Table limit |
-| ---------- | ------------- | ----------- | ------------ |
-| **UNIQUE** | Yes | Yes (per column) | Multiple |
-| **PRIMARY KEY** | Yes | No | One only |
+| Constraint      | Unique values | Allows NULL      | Table limit |
+| --------------- | ------------- | ---------------- | ----------- |
+| **UNIQUE**      | Yes           | Yes (per column) | Multiple    |
+| **PRIMARY KEY** | Yes           | No               | One only    |
 
 ```sql
 -- Purpose: Define PRIMARY KEY and UNIQUE at table level
@@ -71,7 +71,7 @@ CREATE TABLE orders (
 ```
 
 > [!WARNING]
-> *A foreign key column and its referenced primary key must have compatible data types. Mismatched types cause creation errors.*
+> _A foreign key column and its referenced primary key must have compatible data types. Mismatched types cause creation errors._
 
 ## CHECK and INDEX Constraints
 
@@ -114,12 +114,12 @@ A **JOIN** combines rows from two or more tables based on a related column. This
 
 **CROSS JOIN** produces the Cartesian product: every row from the first table combined with every row from the second. The result size equals rows in table A × rows in table B.
 
-| Join type | Non-matching rows | Result size |
-| --------- | ----------------- | ------------ |
-| **INNER** | Both excluded | Matching only |
-| **LEFT** | Left preserved, NULL on right | All left + matches |
+| Join type | Non-matching rows             | Result size         |
+| --------- | ----------------------------- | ------------------- |
+| **INNER** | Both excluded                 | Matching only       |
+| **LEFT**  | Left preserved, NULL on right | All left + matches  |
 | **RIGHT** | Right preserved, NULL on left | All right + matches |
-| **CROSS** | None excluded | A × B rows |
+| **CROSS** | None excluded                 | A × B rows          |
 
 ```sql
 -- Purpose: Example joins
@@ -150,4 +150,4 @@ FLUSH PRIVILEGES;
 **SET PASSWORD** or **ALTER USER** changes an existing user's password.
 
 > [!NOTE]
-> *The `@hostname` part of a username determines where they can connect from. `'user'@'localhost'` allows only local connections; `'user'@'%'` allows any host.*
+> _The `@hostname` part of a username determines where they can connect from. `'user'@'localhost'` allows only local connections; `'user'@'%'` allows any host._

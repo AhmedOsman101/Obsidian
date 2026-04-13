@@ -21,18 +21,18 @@ An **expression** is a collection of operators and operands representing a speci
 Converting infix to postfix uses the **shunting yard algorithm**:
 
 1. Scan infix from left to right
-2. If operand → add to output
-3. If `(` → push to stack
-4. If `)` → pop until `(`
-5. If operator → pop higher/equal precedence operators, then push current
+2. If operand -> add to output
+3. If `(` -> push to stack
+4. If `)` -> pop until `(`
+5. If operator -> pop higher/equal precedence operators, then push current
 
 **Operator precedence** determines evaluation order:
 
-| Operator | Precedence | Associativity |
-| -------- | ---------- | -------------- |
-| `+`, `-` | 1 (lowest) | Left to Right |
-| `*`, `/` | 2 (medium) | Left to Right |
-| `^` | 3 (highest) | Right to Left |
+| Operator | Precedence  | Associativity |
+| -------- | ----------- | ------------- |
+| `+`, `-` | 1 (lowest)  | Left to Right |
+| `*`, `/` | 2 (medium)  | Left to Right |
+| `^`      | 3 (highest) | Right to Left |
 
 ```c
 // Purpose: Example infix to postfix
@@ -41,22 +41,22 @@ Converting infix to postfix uses the **shunting yard algorithm**:
 ```
 
 > [!IMPORTANT]
-> *When popping for precedence, stop at `(`—never pop past an opening parenthesis.*
+> _When popping for precedence, stop at `(`—never pop past an opening parenthesis._
 
 ## Postfix Evaluation
 
 **Postfix evaluation** using a stack follows this algorithm:
 
 1. Scan postfix left to right
-2. If operand → push to stack
-3. If operator → pop two operands, compute (first pop is operand2), push result
-4. At end → final value in stack
+2. If operand -> push to stack
+3. If operator -> pop two operands, compute (first pop is operand2), push result
+4. At end -> final value in stack
 
 ```c
 // Purpose: Evaluate 5 3 + 8 2 - *
-// Steps: push(5), push(3), + → pop 3, pop 5, push(8)
-//        push(8), push(2), - → pop 2, pop 8, push(6)
-//        * → pop 6, pop 8, push(48)
+// Steps: push(5), push(3), + -> pop 3, pop 5, push(8)
+//        push(8), push(2), - -> pop 2, pop 8, push(6)
+//        * -> pop 6, pop 8, push(48)
 // Result: 48
 ```
 
@@ -72,10 +72,10 @@ int factorial(int n) {
 }
 ```
 
-The call stack for `factorial(4)` grows: main → f(4) → f(3) → f(2) → f(1), then unwinds returning values.
+The call stack for `factorial(4)` grows: main -> f(4) -> f(3) -> f(2) -> f(1), then unwinds returning values.
 
 > [!WARNING]
-> *Excessive recursion depth causes stack overflow. Always have a base case that terminates.*
+> _Excessive recursion depth causes stack overflow. Always have a base case that terminates._
 
 ## Parentheses Matching
 
@@ -83,7 +83,7 @@ Stack-based algorithm scans expression, pushing opening brackets and popping to 
 
 ```c
 // Purpose: Check if parentheses are balanced
-// Scan: ( → push, a → skip, + → skip, ( → push, b → skip, ) → pop (matches
+// Scan: ( -> push, a -> skip, + -> skip, ( -> push, b -> skip, ) -> pop (matches
 // At end, stack should be empty for valid expression
 ```
 
@@ -92,6 +92,7 @@ If the stack is not empty at the end, or a mismatch occurs, the expression is in
 ## Backtracking and Undo Operations
 
 Stacks store previous states for **backtracking**. Applications include:
+
 - Text editor undo/redo
 - Maze solving
 - Depth-first search (DFS)
@@ -101,11 +102,11 @@ Each operation pushes the current state; undo pops the previous state.
 
 ## Summary: Stack Application Use Cases
 
-| Application | Stack Use |
-| ----------- | --------- |
-| Expression evaluation | Store operators, operands |
-| Recursion | Store return addresses, local variables |
-| Backtracking | Store previous states |
-| Function calls | Stack frames |
-| Parentheses matching | Store opening brackets |
-| DFS | Store unvisited nodes |
+| Application           | Stack Use                               |
+| --------------------- | --------------------------------------- |
+| Expression evaluation | Store operators, operands               |
+| Recursion             | Store return addresses, local variables |
+| Backtracking          | Store previous states                   |
+| Function calls        | Stack frames                            |
+| Parentheses matching  | Store opening brackets                  |
+| DFS                   | Store unvisited nodes                   |

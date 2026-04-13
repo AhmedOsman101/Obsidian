@@ -35,18 +35,18 @@ typedef struct {
 
 **Linked lists** allocate memory for each node individually. Insertion and deletion at any position are O(1) operations if you have a pointer to that position. However, accessing element at index n requires traversing from the head—O(n) time. Memory usage is higher per element due to pointer storage.
 
-| Feature | Array List | Linked List |
-| ------- | ---------- | ------------ |
-| Random access | O(1) | O(n) |
-| Insert at position | O(n) | O(1)* |
-| Delete at position | O(n) | O(1)* |
-| Memory allocation | Fixed upfront | Dynamic per node |
-| Memory per element | Data only | Data + pointer |
+| Feature            | Array List    | Linked List      |
+| ------------------ | ------------- | ---------------- |
+| Random access      | O(1)          | O(n)             |
+| Insert at position | O(n)          | O(1)\*           |
+| Delete at position | O(n)          | O(1)\*           |
+| Memory allocation  | Fixed upfront | Dynamic per node |
+| Memory per element | Data only     | Data + pointer   |
 
-*O(1) only if pointer to position is available
+\*O(1) only if pointer to position is available
 
 > [!IMPORTANT]
-> *Linked lists never "overflow" due to size limits—memory allocation fails only when the system runs out of heap space.*
+> _Linked lists never "overflow" due to size limits—memory allocation fails only when the system runs out of heap space._
 
 ## Linked List Operations
 
@@ -120,7 +120,7 @@ void Retrieve(ListType *L, EntryType *item, int pos) {
 ```
 
 > [!WARNING]
-> *When deleting the last node (position = size-1), the previous node's next pointer becomes NULL. Always ensure the new tail's next is set correctly.*
+> _When deleting the last node (position = size-1), the previous node's next pointer becomes NULL. Always ensure the new tail's next is set correctly._
 
 ## Clear Operation
 

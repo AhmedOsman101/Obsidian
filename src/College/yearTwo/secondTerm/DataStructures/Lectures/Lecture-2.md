@@ -27,7 +27,7 @@ typedef Node *ListType;
 ```
 
 > [!IMPORTANT]
-> *Unlike arrays, linked lists cannot access elements by index directly. Traversing to position n requires O(n) time.*
+> _Unlike arrays, linked lists cannot access elements by index directly. Traversing to position n requires O(n) time._
 
 ## Array-Based Lists vs. Linked Lists
 
@@ -35,15 +35,15 @@ typedef Node *ListType;
 
 **Linked lists** allocate memory for each node individually. Insertion and deletion at any position are O(1) operations if you have a pointer to that position. However, accessing element at index n requires traversing from the head—O(n) time. Memory usage is higher per element due to pointer storage.
 
-| Feature | Array List | Linked List |
-| ------- | ---------- | ------------ |
-| Random access | O(1) | O(n) |
-| Insert at position | O(n) | O(1)* |
-| Delete at position | O(n) | O(1)* |
-| Memory allocation | Fixed upfront | Dynamic per node |
-| Memory per element | Data only | Data + pointer |
+| Feature            | Array List    | Linked List      |
+| ------------------ | ------------- | ---------------- |
+| Random access      | O(1)          | O(n)             |
+| Insert at position | O(n)          | O(1)\*           |
+| Delete at position | O(n)          | O(1)\*           |
+| Memory allocation  | Fixed upfront | Dynamic per node |
+| Memory per element | Data only     | Data + pointer   |
 
-*O(1) only if pointer to position is available
+\*O(1) only if pointer to position is available
 
 ## Linked List Operations
 
@@ -68,7 +68,7 @@ int EmptyList(ListType L) {
 **FullList** for linked lists always returns false (0) because memory allocation fails only when the system runs out of memory, not at a predictable threshold.
 
 > [!WARNING]
-> *In linked lists, `FullList` is not meaningful—memory allocation fails unpredictably. Check for allocation failure after malloc() instead.*
+> _In linked lists, `FullList` is not meaningful—memory allocation fails unpredictably. Check for allocation failure after malloc() instead._
 
 ## Insertion and Deletion in Linked Lists
 
@@ -118,7 +118,7 @@ void Pop(EntryType *item, StackType *s) {
 ```
 
 > [!NOTE]
-> *Linked stacks never overflow (unless system memory exhausts), unlike array-based stacks limited by MAX size.*
+> _Linked stacks never overflow (unless system memory exhausts), unlike array-based stacks limited by MAX size._
 
 ## Linked Queue Implementation
 

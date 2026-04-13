@@ -35,7 +35,7 @@ void printRev(ListType L) {
 ```
 
 > [!IMPORTANT]
-> *This approach uses O(n) extra space but does not modify the original list. The alternative of reversing pointers in-place would change the structure.*
+> _This approach uses O(n) extra space but does not modify the original list. The alternative of reversing pointers in-place would change the structure._
 
 ## Doubly Linked Lists: Definition and Structure
 
@@ -91,15 +91,15 @@ void Insert(dLType *dl, EntryType e) {
 ```
 
 > [!WARNING]
-> *Insertion requires updating four pointers: the new node's next and prev, and both neighbors' pointers. Missing any update breaks the chain.*
+> _Insertion requires updating four pointers: the new node's next and prev, and both neighbors' pointers. Missing any update breaks the chain._
 
 ## Circular Linked Lists
 
 A **circular linked list** has the last node pointing back to the first node instead of NULL. This matters for scenarios requiring continuous traversal, such as round-robin scheduling.
 
-| Type | Last node points to | Use case |
-| ---- | ------------------- | -------- |
-| Singly circular | First node | Round-robin scheduling |
-| Doubly circular | First node (both directions) | Cyclic buffers |
+| Type            | Last node points to          | Use case               |
+| --------------- | ---------------------------- | ---------------------- |
+| Singly circular | First node                   | Round-robin scheduling |
+| Doubly circular | First node (both directions) | Cyclic buffers         |
 
 The key difference: termination check compares to NULL, but in circular lists you must track when you've returned to the starting point.

@@ -19,12 +19,13 @@ The search, insertion, and deletion time for a binary tree depends on the tree's
 An **AVL tree** (invented by Adelson-Velsky and Landis in 1962) is a self-balancing binary search tree where the difference between the heights of left and right subtrees for every node is 0, 1, or -1. This property guarantees the maximum height is O(log n), making all operations O(log n).
 
 The **balance factor** of a node is calculated as: `height(right subtree) - height(left subtree)`. A node is:
+
 - **Balanced** if balance factor is -1, 0, or 1
 - **Left-heavy** if balance factor is -1
 - **Right-heavy** if balance factor is +1
 
 > [!IMPORTANT]
-> *A node with balance factor -2 or +2 requires rebalancing. AVL trees maintain balance by rotating nodes after insertions and deletions.*
+> _A node with balance factor -2 or +2 requires rebalancing. AVL trees maintain balance by rotating nodes after insertions and deletions._
 
 ## AVL Rotations
 
@@ -38,12 +39,12 @@ Four rotation types fix imbalances:
 
 **RL Rotation (Double Rotation)**: Occurs when a node A has balance factor +2 and its right child B has balance factor -1. This is a right-left case. Fix by performing a single right rotation at B, then a single left rotation at A.
 
-| Imbalance Type | Rotation Needed | Description |
-| -------------- | --------------- | ----------- |
-| LL | Single right rotation | Left child has left-heavy subtree |
-| RR | Single left rotation | Right child has right-heavy subtree |
-| LR | Double rotation | Left child has right-heavy subtree |
-| RL | Double rotation | Right child has left-heavy subtree |
+| Imbalance Type | Rotation Needed       | Description                         |
+| -------------- | --------------------- | ----------------------------------- |
+| LL             | Single right rotation | Left child has left-heavy subtree   |
+| RR             | Single left rotation  | Right child has right-heavy subtree |
+| LR             | Double rotation       | Left child has right-heavy subtree  |
+| RL             | Double rotation       | Right child has left-heavy subtree  |
 
 ## Implementing AVL Trees
 
@@ -60,10 +61,10 @@ class AVLTree extends BST {
 ## AVL Tree Complexity Analysis
 
 | Operation | Time Complexity |
-| --------- | ---------------- |
-| Search | O(log n) |
-| Insert | O(log n) |
-| Delete | O(log n) |
+| --------- | --------------- |
+| Search    | O(log n)        |
+| Insert    | O(log n)        |
+| Delete    | O(log n)        |
 
 The guaranteed O(log n) performance comes from the height constraint—AVL trees cannot become skewed enough to degrade to O(n).
 
@@ -72,6 +73,7 @@ The guaranteed O(log n) performance comes from the height constraint—AVL trees
 **B-Trees** are self-balancing trees optimized for disk access, commonly used in databases and file systems. Unlike AVL trees which are binary (max 2 children), B-Trees can have many children per node, reducing tree height for large datasets.
 
 Key B-Tree properties:
+
 - All leaves are at the same level
 - A node can have multiple keys and children
 - Optimized for systems with large block sizes

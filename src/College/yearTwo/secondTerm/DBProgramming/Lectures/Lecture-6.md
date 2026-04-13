@@ -22,7 +22,7 @@ SELECT CONCAT(first_name, ' ', last_name) AS full_name FROM users;
 **REPLACE(string, old_text, new_text)** replaces every occurrence of old_text within string with new_text. This matters for correcting typos, normalizing values, or removing unwanted characters. The function is case-sensitive and replaces all matches, not just the first one.
 
 > [!IMPORTANT]
-> *REPLACE() replaces every occurrence in the entire string, not just the first match. For selective replacement, combine it with LOCATE().*
+> _REPLACE() replaces every occurrence in the entire string, not just the first match. For selective replacement, combine it with LOCATE()._
 
 ## Finding and Extracting Text
 
@@ -38,14 +38,14 @@ INSERT(title, LOCATE(' ', title), 0, '2024 ')
 ```
 
 > [!WARNING]
-> *The string INSERT() function differs from the SQL INSERT statement. INSERT() modifies text; INSERT statement adds rows to tables.*
+> _The string INSERT() function differs from the SQL INSERT statement. INSERT() modifies text; INSERT statement adds rows to tables._
 
 **LEFT(string, n)** returns the first n characters from the left of string. **RIGHT(string, n)** returns the last n characters from the right. **MID(string, position, length)** extracts characters starting at position for the given length. These matter for fixed-format data such as extracting area codes, product codes, or date parts from combined fields.
 
-| Function | Returns | Starting point |
-| -------- | ------- | -------------- |
-| **LEFT(str, n)** | First n characters | Left edge |
-| **RIGHT(str, n)** | Last n characters | Right edge |
+| Function               | Returns                  | Starting point     |
+| ---------------------- | ------------------------ | ------------------ |
+| **LEFT(str, n)**       | First n characters       | Left edge          |
+| **RIGHT(str, n)**      | Last n characters        | Right edge         |
 | **MID(str, pos, len)** | Characters from position | Specified position |
 
 ## Transforming and Reversing Text
@@ -72,12 +72,12 @@ SELECT LCASE('HELLO') AS lower, UCASE('hello') AS upper,
 
 **TRUNCATE(number, decimals)** removes digits after the specified decimal position without rounding. This matters when exact truncation is required rather than rounding, such as removing precision beyond allowed decimal places.
 
-| Function | Behavior | Use case |
-| -------- | -------- | -------- |
-| **FLOOR(n)** | Round down | Count complete units |
-| **CEILING(n)** | Round up | Require full units |
-| **ROUND(n, d)** | Standard rounding | Currency values |
-| **TRUNCATE(n, d)** | Cut off digits | Remove excess precision |
+| Function           | Behavior          | Use case                |
+| ------------------ | ----------------- | ----------------------- |
+| **FLOOR(n)**       | Round down        | Count complete units    |
+| **CEILING(n)**     | Round up          | Require full units      |
+| **ROUND(n, d)**    | Standard rounding | Currency values         |
+| **TRUNCATE(n, d)** | Cut off digits    | Remove excess precision |
 
 ```sql
 -- Purpose: Apply numeric functions
@@ -101,11 +101,11 @@ SELECT NOW() AS now, CURDATE() AS today,
 ```
 
 > [!NOTE]
-> *DATE_ADD and DATE_SUB require the INTERVAL keyword followed by a value and unit, like `INTERVAL 30 DAY`. Omitting INTERVAL causes a syntax error.*
+> _DATE_ADD and DATE_SUB require the INTERVAL keyword followed by a value and unit, like `INTERVAL 30 DAY`. Omitting INTERVAL causes a syntax error._
 
 ## User-Defined Functions
 
 A **user-defined function (UDF)** is a custom function created in a programming language like C or C++ and added to the MySQL server. Once registered, UDFs can be called like built-in functions in queries. This matters when built-in functions cannot accomplish specific transformations or calculations required by the application. Creating a UDF requires server-level permissions and follows a specific registration process beyond SQL syntax.
 
 > [!IMPORTANT]
-> *UDFs extend MySQL capabilities but require external programming knowledge and server configuration. The exam focus remains on built-in functions.*
+> _UDFs extend MySQL capabilities but require external programming knowledge and server configuration. The exam focus remains on built-in functions._

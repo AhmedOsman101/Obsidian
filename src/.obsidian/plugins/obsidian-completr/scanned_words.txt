@@ -1240,6 +1240,8 @@ Pmdbb
 PWWWX
 Patterns
 PRIMARY
+PXE
+Puq
 IHDR
 IDATx
 IO
@@ -2565,6 +2567,9 @@ IIDAT
 Inspection
 Inspect
 Inspecting
+IFNULL
+Ignores
+INTERVAL
 pHYs
 pt
 pu
@@ -3971,6 +3976,8 @@ pwL
 pkt
 propagates
 pads
+puuS
+paid
 sbf
 sPv
 sC
@@ -5503,6 +5510,7 @@ safer
 shortcut
 synonym
 scoped
+scoring
 ff
 fP
 fj
@@ -6717,6 +6725,8 @@ fffZk
 falsy
 feG
 forget
+firstlast
+fJO
 yq
 yh
 yS
@@ -7533,6 +7543,10 @@ yearTwo
 yET
 ySy
 yJDB
+yFEEVF
+yIK
+ytL
+youngest
 ql
 qu
 qb
@@ -8395,6 +8409,7 @@ qXp
 qRUUU
 qgB
 qqqAAA
+qgYi
 waq
 wc
 wav
@@ -9301,6 +9316,7 @@ wJz
 wYFFF
 writable
 wildcards
+wins
 BU
 Bh
 BC
@@ -11763,6 +11779,8 @@ MEDIUMINT
 MEDIUMTEXT
 MEDIUMBLOB
 MODIFY
+MOD
+MONTH
 Lj
 Lf
 LvVa
@@ -12937,6 +12955,11 @@ LONGBLOB
 Lifetime
 LIKE
 LIMIT
+LENGTH
+LOWER
+LKOKKMK
+LDM
+LYo
 al
 aj
 ar
@@ -14290,6 +14313,7 @@ aggregations
 aggregated
 aggregation
 aliases
+aZfff
 Te
 Tn
 TA
@@ -15445,6 +15469,8 @@ TABLES
 TRUNCATE
 TEMPORARY
 Tool
+TRIM
+THEN
 uj
 uq
 uXm
@@ -17456,6 +17482,7 @@ Ocb
 OEl
 OMQZ
 ORDER
+ODaa
 Uc
 Ue
 UXk
@@ -18469,6 +18496,8 @@ UTC
 USE
 UNIQUE
 UNKNOWN
+UPPER
+UvA
 ra
 rO
 rV
@@ -19737,6 +19766,9 @@ rigidity
 renames
 restrict
 reordered
+rYo
+rrR
+rRR
 eiO
 es
 ee
@@ -21031,6 +21063,9 @@ escaped
 excludes
 exporting
 emphasizes
+expr
+ekil
+eMdT
 GO
 GQ
 Gk
@@ -24679,6 +24714,8 @@ SYSTEM
 SELECT
 Sorting
 SUM
+SUBSTRING
+Ssyj
 iH
 ic
 iP
@@ -25944,6 +25981,9 @@ importing
 import
 inspection
 inspected
+interval
+iKV
+iYV
 tWA
 tW
 tM
@@ -27150,6 +27190,7 @@ tNyw
 tpB
 throw
 timed
+tHD
 nm
 nv
 nhuK
@@ -28159,6 +28200,7 @@ nrr
 nnnQQ
 nwc
 ngjkk
+ndcbb
 Fc
 Fe
 Fo
@@ -29361,6 +29403,7 @@ FLOAT
 FULL
 FIRST
 FOREIGN
+FLOOR
 xi
 xpF
 xwG
@@ -30126,6 +30169,10 @@ xxxvv
 xrF
 xbn
 xIM
+xhvVv
+xzU
+xxTe
+xOd
 jY
 jHnQ
 jO
@@ -32189,6 +32236,7 @@ broadcasting
 backslashes
 boundaries
 boundary
+bMJr
 Nb
 NJu
 Nbsa
@@ -33287,6 +33335,10 @@ NVRAM
 NNNR
 Nxp
 NCT
+NULLs
+NOW
+NULLIF
+NTR
 lqQvz
 ln
 lN
@@ -34318,6 +34370,8 @@ literally
 lights
 lmmCCC
 lUP
+lXV
+ldT
 Rc
 Rt
 RO
@@ -35570,6 +35624,8 @@ Rename
 RvG
 References
 RENAME
+ROUND
+Rpe
 Zt
 ZB
 Zb
@@ -36506,6 +36562,8 @@ ZoM
 ZUUE
 ZFz
 ZYYTd
+ZAAAAII
+ZMu
 kn
 kHf
 kJ
@@ -37365,6 +37423,7 @@ kVl
 kyzKJ
 kkkN
 kii
+kXzdd
 Dp
 DI
 Db
@@ -38699,6 +38758,11 @@ DESCRIBE
 DESC
 Distinguishes
 DISTINCT
+DAY
+DATEDIFF
+Days
+DDQ
+DmMzd
 ohQ
 oL
 ob
@@ -39698,6 +39762,8 @@ oFg
 oWTT
 opposites
 optionally
+oOd
+oya
 mipte
 mRT
 mX
@@ -40913,6 +40979,7 @@ mYkW
 money
 malformed
 mysqldump
+mQvDh
 Ck
 CS
 Cm
@@ -42407,6 +42474,11 @@ COLUMNS
 Clause
 COUNT
 Clauses
+CASE
+CONCAT
+CEIL
+CURDATE
+CURTIME
 vb
 vO
 vvF
@@ -43389,6 +43461,8 @@ vvvR
 vssSor
 vAE
 viw
+vJeeU
+vLD
 ck
 cr
 ce
@@ -45015,6 +45089,9 @@ clause
 corrected
 clauses
 collation
+cleaning
+cond
+cGK
 Hu
 Hg
 HiL
@@ -46183,6 +46260,7 @@ Hdgk
 Haul
 Hdff
 HAVING
+HHhh
 hh
 hLR
 hI
@@ -47274,6 +47352,7 @@ harsh
 hGMiq
 hqN
 hww
+hello
 Xi
 XZ
 Xn
@@ -48187,6 +48266,7 @@ XGA
 XUu
 XHTML
 XZZfdd
+XQQa
 gR
 gQ
 go
@@ -49214,6 +49294,8 @@ glass
 gfg
 gBpB
 gracefully
+geeN
+gNM
 KUYX
 KX
 KK
@@ -50172,6 +50254,9 @@ Kfgg
 KKKi
 Kmmmmm
 KEY
+KxMU
+KBB
+Keg
 zC
 zl
 zk
@@ -50934,6 +51019,8 @@ zrB
 zLm
 znl
 zrS
+ziii
+zDD
 YT
 Yh
 YDvhV
@@ -55515,6 +55602,8 @@ Approximate
 AFTER
 Aggregation
 Aggregate
+ABS
+AAAI
 Jw
 Jg
 JT
@@ -56534,6 +56623,8 @@ JUQQ
 JMP
 JOIN
 JOINs
+Jpb
+JeRb
 Qv
 QL
 QD
@@ -57441,6 +57532,8 @@ Qge
 QmuuuUeUuU
 Quantifiers
 QcPp
+QAJw
+QDx
 WliB
 WWO
 WRY
@@ -58369,6 +58462,7 @@ Wrong
 Wxxx
 Whole
 WHERE
+WHEN
 Ötl
 ÖC
 Öm

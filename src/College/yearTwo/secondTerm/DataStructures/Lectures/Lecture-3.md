@@ -17,7 +17,7 @@ A **stack** is a linear data structure that follows the **LIFO** (Last In, First
 The fundamental operations are **push** (add to top) and **pop** (remove from top). A **peek** or **top** operation views the top element without removing it. The stack also needs **isEmpty** and **isFull** status checks.
 
 > [!IMPORTANT]
-> *The top element is the most recently pushed element. Popping always removes the newest item first.*
+> _The top element is the most recently pushed element. Popping always removes the newest item first._
 
 ## Stack Implementation: Array-Based
 
@@ -94,7 +94,7 @@ EntryType StackTop(StackType *s) {
 ```
 
 > [!WARNING]
-> *Calling StackTop on an empty stack returns garbage. Always check StackEmpty() first.*
+> _Calling StackTop on an empty stack returns garbage. Always check StackEmpty() first._
 
 ## Stack Applications: Reverse Text
 
@@ -118,11 +118,11 @@ This works because the stack's LIFO property reverses the order: the first chara
 
 ## Stack vs. Queue Comparison
 
-| Feature | Stack | Queue |
-| ------- | ----- | ----- |
-| Order | LIFO (Last In, First Out) | FIFO (First In, First Out) |
-| Operations | push, pop | enqueue, dequeue |
-| Access point | One end (top) | Two ends (front, rear) |
-| Use cases | Function calls, undo | Task scheduling, BFS |
+| Feature      | Stack                     | Queue                      |
+| ------------ | ------------------------- | -------------------------- |
+| Order        | LIFO (Last In, First Out) | FIFO (First In, First Out) |
+| Operations   | push, pop                 | enqueue, dequeue           |
+| Access point | One end (top)             | Two ends (front, rear)     |
+| Use cases    | Function calls, undo      | Task scheduling, BFS       |
 
 The course covers queues in the next lecture, but understanding the contrast helps clarify when each structure is appropriate.

@@ -22,11 +22,11 @@ A heap is a **complete binary tree**—all levels are completely filled except p
 
 Both operations take O(log n) time because the tree height is O(log n).
 
-| Operation | Time Complexity |
-| --------- | ---------------- |
-| Insert | O(log n) |
-| Delete Max/Min | O(log n) |
-| Get Max/Min | O(1) |
+| Operation      | Time Complexity |
+| -------------- | --------------- |
+| Insert         | O(log n)        |
+| Delete Max/Min | O(log n)        |
+| Get Max/Min    | O(1)            |
 
 ## Priority Queues
 
@@ -45,24 +45,25 @@ In a **max priority queue**, higher numerical values represent higher priority. 
 **Heap sort** uses a heap to sort elements. Build a max-heap from the array, then repeatedly extract the maximum (root) and place it at the end of the unsorted portion.
 
 Algorithm:
+
 1. Build max-heap from unsorted array: O(n)
 2. Repeat n times: swap root with last element, reduce heap size, heapify down: O(n log n)
 
 Total time complexity: O(n log n) in all cases. Space complexity: O(1) if done in-place.
 
 > [!IMPORTANT]
-> *Heap sort is O(n log n) in worst, average, and best cases—unlike quicksort which degrades to O(n²) in worst case.*
+> _Heap sort is O(n log n) in worst, average, and best cases—unlike quicksort which degrades to O(n²) in worst case._
 
 ## Graphs: Definition and Types
 
 A **graph** is a non-linear data structure consisting of vertices (nodes) connected by edges. This matters because graphs model relationships like road networks, social connections, and web page links.
 
-| Graph Type | Description |
-| ---------- | ----------- |
+| Graph Type     | Description                                              |
+| -------------- | -------------------------------------------------------- |
 | **Undirected** | Edges have no direction; relationships are bidirectional |
-| **Directed** | Edges have direction; relationships are one-way |
-| **Weighted** | Edges have associated costs or distances |
-| **Unweighted** | All edges have equal weight |
+| **Directed**   | Edges have direction; relationships are one-way          |
+| **Weighted**   | Edges have associated costs or distances                 |
+| **Unweighted** | All edges have equal weight                              |
 
 ## Graph Representation
 
@@ -72,10 +73,10 @@ Two common ways to represent graphs:
 
 **Adjacency List**: An array of lists where each vertex has a list of its neighbors. Space: O(V + E). Good for sparse graphs.
 
-| Representation | Space | Edge Check | Iterate Neighbors |
-| -------------- | ----- | ---------- | ----------------- |
-| Adjacency Matrix | O(V²) | O(1) | O(V) |
-| Adjacency List | O(V+E) | O(degree) | O(degree) |
+| Representation   | Space  | Edge Check | Iterate Neighbors |
+| ---------------- | ------ | ---------- | ----------------- |
+| Adjacency Matrix | O(V²)  | O(1)       | O(V)              |
+| Adjacency List   | O(V+E) | O(degree)  | O(degree)         |
 
 ## Graph Traversals
 
@@ -89,11 +90,12 @@ Two common ways to represent graphs:
 ```
 
 > [!WARNING]
-> *BFS finds shortest path in unweighted graphs. DFS may not find the shortest path but uses less memory in some implementations.*
+> _BFS finds shortest path in unweighted graphs. DFS may not find the shortest path but uses less memory in some implementations._
 
 ## Minimum Spanning Tree
 
 A **spanning tree** connects all vertices without cycles using exactly V-1 edges. A **minimum spanning tree (MST)** has the minimum total edge weight. Key algorithms:
+
 - **Prim's algorithm**: Grow MST from a starting vertex
 - **Kruskal's algorithm**: Add smallest edges that don't form cycles
 

@@ -18,48 +18,49 @@ Formally, a tree consists of a collection of nodes. If not empty, it has a **roo
 
 ## Tree Terminology
 
-| Term | Definition |
-| ---- | ---------- |
-| **Node** | An object containing a data value and references to children |
-| **Root** | Topmost node of the tree |
-| **Leaf** | A node with no children |
-| **Parent** | A node that refers to this node |
-| **Child** | A node that this node refers to |
-| **Sibling** | Nodes with a common parent |
-| **Path** | A sequence of edges connecting nodes |
-| **Size** | Number of nodes in the tree |
-| **Height** | Number of edges on the longest path from node to a leaf |
-| **Depth** | Number of edges from node to the root |
-| **Level** | Length of the path from root to a given node |
-| **Degree** | Maximum number of subtrees of any node |
+| Term        | Definition                                                   |
+| ----------- | ------------------------------------------------------------ |
+| **Node**    | An object containing a data value and references to children |
+| **Root**    | Topmost node of the tree                                     |
+| **Leaf**    | A node with no children                                      |
+| **Parent**  | A node that refers to this node                              |
+| **Child**   | A node that this node refers to                              |
+| **Sibling** | Nodes with a common parent                                   |
+| **Path**    | A sequence of edges connecting nodes                         |
+| **Size**    | Number of nodes in the tree                                  |
+| **Height**  | Number of edges on the longest path from node to a leaf      |
+| **Depth**   | Number of edges from node to the root                        |
+| **Level**   | Length of the path from root to a given node                 |
+| **Degree**  | Maximum number of subtrees of any node                       |
 
 > [!IMPORTANT]
-> *Height counts edges, not nodes. A single node has height 0. Depth counts edges from root—so root has depth 0.*
+> _Height counts edges, not nodes. A single node has height 0. Depth counts edges from root—so root has depth 0._
 
 ## Binary Trees
 
 A **binary tree** is a tree in which no node can have more than two children (degree ≤ 2). Each node has a **left successor** and a **right successor**, which may be empty.
 
 Binary trees can be classified by shape:
+
 - **Left skewed**: Only left children exist
 - **Right skewed**: Only right children exist
 - **Full (strictly) binary tree**: Every node other than leaves has exactly two children
 - **Complete binary tree**: Every level, except possibly the last, is completely filled
 
-| Type | Definition |
-| ---- | ---------- |
-| **Full Binary Tree** | Each node has 0 or 2 children |
+| Type                     | Definition                                                     |
+| ------------------------ | -------------------------------------------------------------- |
+| **Full Binary Tree**     | Each node has 0 or 2 children                                  |
 | **Complete Binary Tree** | All levels fully filled except last, which fills left to right |
 
 ## Binary Tree Traversals
 
 **Traversal** examines each node in a systematic order. The three common traversals differ in when the root is processed:
 
-| Traversal | Order | Acronym |
-| --------- | ----- | -------- |
-| **Pre-order** | Root, Left, Right | VLR |
-| **In-order** | Left, Root, Right | LVR |
-| **Post-order** | Left, Right, Root | LRV |
+| Traversal      | Order             | Acronym |
+| -------------- | ----------------- | ------- |
+| **Pre-order**  | Root, Left, Right | VLR     |
+| **In-order**   | Left, Root, Right | LVR     |
+| **Post-order** | Left, Right, Root | LRV     |
 
 ```c
 // Purpose: In-order traversal (LVR)
@@ -150,7 +151,7 @@ int Height(TreeType t) {
 ```
 
 > [!WARNING]
-> *Height returns edge count, not node count. A single node has height 0.*
+> _Height returns edge count, not node count. A single node has height 0._
 
 **ClearTree** frees all nodes using post-order traversal.
 

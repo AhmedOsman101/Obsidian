@@ -23,9 +23,10 @@ The key property that makes BSTs efficient is the ordering: knowing whether to g
 **Insert** follows the search path until finding the correct leaf position, then adds the new node there.
 
 **Delete** has three cases:
-1. Node is a leaf → simply remove it
-2. Node has one child → bypass the node by connecting parent to child
-3. Node has two children → find the inorder successor (smallest in right subtree) or predecessor (largest in left subtree), replace the node's value, then delete the successor/predecessor
+
+1. Node is a leaf -> simply remove it
+2. Node has one child -> bypass the node by connecting parent to child
+3. Node has two children -> find the inorder successor (smallest in right subtree) or predecessor (largest in left subtree), replace the node's value, then delete the successor/predecessor
 
 ## AVL Trees: Self-Balancing BSTs
 
@@ -37,12 +38,12 @@ The balance factor determines whether rebalancing is needed after insertion or d
 
 When an insertion or deletion causes a node's balance factor to become -2 or +2, **rotation** rebalances the tree. Four rotation types exist:
 
-| Rotation | Condition | Action |
-| -------- | --------- | ------ |
-| **LL** | Left-left imbalance at node A | Single right rotation at A |
-| **RR** | Right-right imbalance at node A | Single left rotation at A |
-| **LR** | Left-right imbalance at node A | Double rotation: left at B, then right at A |
-| **RL** | Right-left imbalance at node A | Double rotation: right at B, then left at A |
+| Rotation | Condition                       | Action                                      |
+| -------- | ------------------------------- | ------------------------------------------- |
+| **LL**   | Left-left imbalance at node A   | Single right rotation at A                  |
+| **RR**   | Right-right imbalance at node A | Single left rotation at A                   |
+| **LR**   | Left-right imbalance at node A  | Double rotation: left at B, then right at A |
+| **RL**   | Right-left imbalance at node A  | Double rotation: right at B, then left at A |
 
 **LL Rotation**: A has balance factor -2, left child B has balance -1 or 0. Rotate A right.
 
@@ -53,7 +54,7 @@ When an insertion or deletion causes a node's balance factor to become -2 or +2,
 **RL Rotation**: A has balance factor +2, right child B has balance -1. First rotate B right, then rotate A left.
 
 > [!IMPORTANT]
-> *Single rotations fix LL and RR imbalances. Double rotations (two single rotations) fix the cross patterns LR and RL.*
+> _Single rotations fix LL and RR imbalances. Double rotations (two single rotations) fix the cross patterns LR and RL._
 
 ## Hash Tables: Definition and Purpose
 
@@ -79,22 +80,23 @@ A good hash function distributes keys uniformly across the table to minimize **c
 A **collision** occurs when two different keys hash to the same index. Two main handling approaches exist:
 
 **Open addressing** finds another open slot within the table:
+
 - **Linear probing**: Check consecutive slots (index, index+1, index+2...)
 - **Quadratic probing**: Check slots at index + 1², index + 2², index + 3²...
 - **Double hashing**: Uses a secondary hash function to determine step size
 
 **Separate chaining** places all entries with the same hash index in a linked list (bucket). Each bucket can hold multiple entries.
 
-| Method | Collision strategy | Pros | Cons |
-| ------ | ------------------ | ----- | ----- |
-| Linear probing | Sequential search | Simple | Primary clustering |
-| Quadratic probing | Quadratic jump | Avoids clustering | Secondary clustering |
-| Double hashing | Secondary hash | Best distribution | More computation |
-| Separate chaining | Linked list per bucket | No size limit | Extra memory for pointers |
+| Method            | Collision strategy     | Pros              | Cons                      |
+| ----------------- | ---------------------- | ----------------- | ------------------------- |
+| Linear probing    | Sequential search      | Simple            | Primary clustering        |
+| Quadratic probing | Quadratic jump         | Avoids clustering | Secondary clustering      |
+| Double hashing    | Secondary hash         | Best distribution | More computation          |
+| Separate chaining | Linked list per bucket | No size limit     | Extra memory for pointers |
 
 ## Load Factor and Rehashing
 
 The **load factor** (entries / table size) measures how full the table is. When the load factor exceeds a threshold (typically 0.75), rehashing creates a larger table and rehashes all entries to reduce collisions.
 
 > [!WARNING]
-> *High load factor increases collision probability. Maintain load factor below 0.7 for good performance.*
+> _High load factor increases collision probability. Maintain load factor below 0.7 for good performance._

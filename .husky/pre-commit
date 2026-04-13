@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-printf 'Auditting...\n'
-pnpm audit --fix &&
-  pnpm install &&
-  git add package.json pnpm-lock.yaml
+{
+  pnpm audit --fix &
+  pnpm install &
+  git add pnpm-{workspace,lock}.yaml &
+} &>/dev/null

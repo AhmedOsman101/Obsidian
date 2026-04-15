@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Othman Notes logo</title>
+  <desc id="desc">Rounded square with a stylized letter O and a book spine line.</desc>
+  <rect x="8" y="8" width="112" height="112" rx="24" fill="#1f2937" />
+  <rect x="24" y="24" width="80" height="80" rx="18" fill="#f9fafb" />
+  <path d="M64 39c-13.807 0-25 11.193-25 25s11.193 25 25 25 25-11.193 25-25-11.193-25-25-25Zm0 12c7.18 0 13 5.82 13 13s-5.82 13-13 13-13-5.82-13-13 5.82-13 13-13Z" fill="#111827" />
+  <rect x="88" y="34" width="6" height="60" rx="3" fill="#2563eb" />
+</svg>

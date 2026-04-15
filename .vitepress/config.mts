@@ -5,7 +5,7 @@ import type { VitePressSidebarOptions } from "vitepress-sidebar/types";
 // https://vitepress.dev/reference/site-config
 
 const vitePressOptions = defineConfig({
-  title: "Othman Blog",
+  title: "Othman Notes",
   description: "A Website for all of my notes and thoughts",
   srcDir: "src",
   lastUpdated: true,
@@ -26,6 +26,8 @@ const vitePressOptions = defineConfig({
     math: true,
   },
   themeConfig: {
+    logo: "/logo.svg",
+    siteTitle: "Othman Notes",
     search: {
       provider: "local",
     },
@@ -60,6 +62,21 @@ const vitePressOptions = defineConfig({
         link: "https://www.linkedin.com/in/ahmad-ali-othman-5b503324a/",
       },
     ],
+    editLink: {
+      pattern: "https://github.com/AhmedOsman101/Obsidian/edit/main/src/:path",
+      text: "Edit this page",
+    },
+    // docFooter: {
+    //   prev: "Previous page",
+    //   next: "Next page",
+    // },
+    darkModeSwitchLabel: "Appearance",
+    lightModeSwitchTitle: "Switch to light theme",
+    darkModeSwitchTitle: "Switch to dark theme",
+    sidebarMenuLabel: "Menu",
+    returnToTopLabel: "Return to top",
+    skipToContentLabel: "Skip to content",
+    externalLinkIcon: true,
   },
   mermaid: {
     // refer https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults for options
@@ -71,13 +88,9 @@ const vitePressOptions = defineConfig({
   vite: {
     build: {
       chunkSizeWarningLimit: 3072,
-      rolldownOptions: {
-        treeshake: true,
-      },
+      rolldownOptions: { treeshake: true },
     },
-    server: {
-      host: true,
-    },
+    server: { host: true },
   },
 });
 

@@ -1,3 +1,7 @@
+---
+search: false
+---
+
 # Digital Engineering Summary
 
 ## Analog vs. Digital

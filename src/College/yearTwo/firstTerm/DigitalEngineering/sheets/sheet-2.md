@@ -1,3 +1,7 @@
+---
+search: false
+---
+
 # Ahmad Ali Ahmad Othman - Section 1 - Sheet 2
 
 ## 1. Convert these binary numbers to decimal.

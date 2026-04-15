@@ -1,12 +1,10 @@
-import compression from "vite-plugin-compression";
 import { defineConfig } from "vitepress";
-import { type UserConfig, withMermaid } from "vitepress-plugin-mermaid";
 import { withSidebar } from "vitepress-sidebar";
 import type { VitePressSidebarOptions } from "vitepress-sidebar/types";
 
 // https://vitepress.dev/reference/site-config
 
-const vitePressOptions: UserConfig = {
+const vitePressOptions = defineConfig({
   title: "Othman Blog",
   description: "A Website for all of my notes and thoughts",
   srcDir: "src",
@@ -72,27 +70,16 @@ const vitePressOptions: UserConfig = {
   },
   vite: {
     build: {
-      rollupOptions: {
+      chunkSizeWarningLimit: 3072,
+      rolldownOptions: {
         treeshake: true,
-        output: {
-          manualChunks: id => {
-            if (id.includes("node_modules")) return "vendor";
-            return null;
-          },
-        },
       },
     },
-    plugins: [
-      compression({
-        algorithm: "gzip",
-        ext: ".gz",
-      }),
-    ],
     server: {
       host: true,
     },
   },
-};
+});
 
 const vitePressSidebarOptions: VitePressSidebarOptions = {
   documentRootPath: "/src",
@@ -114,6 +101,4 @@ const vitePressSidebarOptions: VitePressSidebarOptions = {
   sortMenusOrderNumericallyFromTitle: true,
 };
 
-export default defineConfig(
-  withSidebar(withMermaid(vitePressOptions), vitePressSidebarOptions)
-);
+export default withSidebar(vitePressOptions, vitePressSidebarOptions);

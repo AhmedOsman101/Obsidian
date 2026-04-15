@@ -16,6 +16,8 @@ lastUpdated: false
   - [Lecture 4](Lectures/Lecture-4.md)
   - [Lecture 5](Lectures/Lecture-5.md)
 - [Sections](Sections/index.md)
+- [Assignments](Assignments/index.md)
+  - [Assignment 1](Assignments/Assignment-1.md)
 - [Tasks](Tasks/index.md)
   - [Task 1](Tasks/Task-1.md)
 - [Exams](Exams/index.md)

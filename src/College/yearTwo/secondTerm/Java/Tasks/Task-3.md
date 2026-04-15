@@ -3,7 +3,9 @@ title: Task 3
 prev:
   text: "Task Two"
   link: "/College/yearTwo/secondTerm/Java/Tasks/Task-2"
-next: false
+next:
+  text: "Task Four"
+  link: "/College/yearTwo/secondTerm/Java/Tasks/Task-4"
 ---
 
 | Name    | ‎أحمد علي أحمد علي عثمان |

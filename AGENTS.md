@@ -289,6 +289,45 @@ Husky is configured to run `mdfmt` on markdown files before each commit.
 7. **Use KaTeX for math** - Use `$...$` for inline math, `$$...$$` for block math
 8. **Use Mermaid for diagrams** - Use \`\`\`mermaid blocks for flowcharts
 
+## General Rules
+
+### Source Material Rules
+
+1. **Use source material only** - Do not invent lecture, task, or assignment content when no source file is available.
+2. **If source material is missing, ask the user** - Request the PDF, Markdown, image, or pasted text instead of guessing.
+3. **Prefer `pdftotext file.pdf -` for PDF extraction** when shell extraction is needed, because it produced cleaner text than direct PDF parsing for some lecture/task sheets.
+4. **Treat the file number as authoritative** - If a PDF slide title says the wrong lecture number, follow the file name (`Lecture-7.pdf`, etc.), not the mismatched slide title.
+
+### Readability and Length Validation
+
+1. **Target**: approximately `750-800` words for a quick lecture review when possible.
+2. **Hard ceiling**: an `8 min read` result from `readtime`.
+3. **Validation method**: always validate using raw stdin with `readtime < file.md`.
+4. **`readtime` is on PATH** - prefer `readtime < file.md`; no absolute script path is needed.
+5. **Do not manually strip code blocks before `readtime`** - pass the raw Markdown file content.
+
+### Code and Syntax Formatting
+
+1. **Use 2-space indentation in code blocks** for generated note content.
+2. **Always include fenced code blocks with a language tag** when showing code or commands.
+3. **Add a short purpose comment above or within code blocks when helpful**, especially in exam-oriented summaries.
+4. **Use Linux paths in examples by default** when adapting course material for this vault, especially `/home/othman/Documents/...`.
+
+### Navigation and Progression Rules
+
+1. **Proceed in order** when filling missing lecture sequences; do not skip unfinished intermediate lectures.
+2. **Whenever a new file is added, update neighboring `prev`/`next` frontmatter** if needed.
+3. **Whenever a new file is added, update the relevant subfolder index and course index**.
+4. **Use `next: false` only for the final item in a sequence**.
+
+### Tasks and Assignments Pattern
+
+Use these patterns when creating coursework notes from task or assignment sheets:
+
+1. **Preserve the prompt faithfully** - rewrite for clarity if needed, but do not change the requirement.
+2. **Assignment files** must include explicit answer areas with placeholders.
+3. **For answer placeholders, use heading-based sections** such as `### Answer`, `#### Your Answer`, or per-device/per-part headings.
+
 ## VitePress Configuration
 
 The site uses:

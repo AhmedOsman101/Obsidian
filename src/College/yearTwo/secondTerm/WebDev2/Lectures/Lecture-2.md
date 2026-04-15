@@ -95,20 +95,20 @@ A **regular expression (regex)** is a pattern used to match text; PHP supports t
 
 **Embedded PHP** = PHP tags interspersed within HTML. The preferred style minimizes `print`/`echo` inside PHP blocks and uses **expression blocks** for output.
 
-```php
-<?= expression ?>     // shorthand — evaluates and prints expression
-// Equivalent to: <?php print expression; ?>
+```text
+&lt;?= expression ?&gt;     // shorthand — evaluates and prints expression
+// Equivalent to: &lt;?php print expression; ?&gt;
 
-<h2>Answer: <?= 6 * 7 ?></h2>   // outputs: Answer: 42
+&lt;h2&gt;Answer: &lt;?= 6 * 7 ?&gt;&lt;/h2&gt;   // outputs: Answer: 42
 ```
 
-> [!CAUTION] `<? $i ?>` (missing `=`) is a **silent failure** — it runs but produces no output. `<?php` without `?>` closing before HTML causes parse errors labeled "unexpected `$end`".
+> [!CAUTION] ``&lt;? $i ?&gt;`` (missing `=`) is a **silent failure** — it runs but produces no output. ``&lt;?php`` without ``?&gt;`` closing before HTML causes parse errors labeled "unexpected `$end`".
 
 Expression blocks can embed _inside HTML tag names_:
 
-```php
-<h<?= $i ?>>Heading level <?= $i ?></h<?= $i ?>>
-// i=1 -> <h1>Heading level 1</h1>
+```text
+&lt;h&lt;?= $i ?&gt;&gt;Heading level &lt;?= $i ?&gt;&lt;/h&lt;?= $i ?&gt;&gt;
+// i=1 -> &lt;h1&gt;Heading level 1&lt;/h1&gt;
 ```
 
 ## Functions

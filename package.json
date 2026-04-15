@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@markslides/markdown-it-mermaid": "^0.3.7",
+    "@types/node": "^25.6.0",
     "husky": "^9.1.7",
     "markdown-it-mathjax3": "^4.3.2",
     "mermaid": "^11.14.0",

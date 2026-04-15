@@ -27,11 +27,11 @@ flowchart TD
     D --> E[Dynamic response returned]
 ```
 
-> [!NOTE] The `action` attribute of `<form>` determines _where_ the query string is sent. Without `action`, form data goes nowhere useful.
+> [!NOTE] The `action` attribute of `&lt;form&gt;` determines _where_ the query string is sent. Without `action`, form data goes nowhere useful.
 
-## The `<form>` Element
+## `&lt;form&gt;` Element
 
-**`<form>`** = a container for UI controls that collects and submits user input as a query string to a server URL.
+**`&lt;form&gt;`** = a container for UI controls that collects and submits user input as a query string to a server URL.
 
 ```html
 <form action="http://destination.com/process.php">
@@ -47,9 +47,9 @@ flowchart TD
 - Best practice: wrap controls in `<div>` for valid block-level structure
 - _A form without `action` silently submits to the current page_
 
-## `<input>` — The Universal Control
+## `&lt;input&gt;` — The Universal Control
 
-**`<input>`** is an inline, **self-closing** element that renders as different controls based on its `type` attribute. The `name` attribute becomes the query parameter key sent to the server — _omitting `name` means the field is never submitted_.
+**`&lt;input&gt;`** is an inline, **self-closing** element that renders as different controls based on its `type` attribute. The `name` attribute becomes the query parameter key sent to the server — _omitting `name` means the field is never submitted_.
 
 | `type` value | Renders as                        |
 | ------------ | --------------------------------- |
@@ -92,9 +92,9 @@ flowchart TD
 
 > [!CAUTION] Radio buttons without a `value` attribute submit `"on"` regardless of which button is selected — all buttons in a group would submit the same value, making them indistinguishable server-side.
 
-## `<textarea>` vs. `<input type="text">`
+## `&lt;textarea&gt;` vs. `&lt;input type="text"&gt;`
 
-| Feature         | `<textarea>`               | `<input type="text">` |
+| Feature         | `&lt;textarea&gt;`         | `&lt;input type="text"&gt;` |
 | --------------- | -------------------------- | --------------------- |
 | Lines           | Multi-line                 | Single-line           |
 | Size attrs      | `rows` + `cols` (required) | `size` (optional)     |
@@ -107,11 +107,11 @@ Initial text here.
 </textarea>
 ```
 
-> [!CAUTION] Any whitespace between `<textarea>` tags appears as initial content in the box — indentation or newlines in your HTML source become visible text to the user.
+> [!CAUTION] Any whitespace between `&lt;textarea&gt;` tags appears as initial content in the box — indentation or newlines in your HTML source become visible text to the user.
 
-## `<select>`, `<option>`, `<optgroup>`
+## `&lt;select&gt;`, `&lt;option&gt;`, `&lt;optgroup&gt;`
 
-**`<select>`** = a dropdown (or scrollable list) where `<option>` tags define each choice. It works because the browser submits the `value` of the selected `<option>` (or the text content if no `value` is set) under the `select`'s `name`.
+**`&lt;select&gt;`** = a dropdown (or scrollable list) where `&lt;option&gt;` tags define each choice. It works because the browser submits the `value` of the selected `&lt;option&gt;` (or the text content if no `value` is set) under the `select`'s `name`.
 
 ```html
 <!-- Single-select dropdown -->
@@ -129,11 +129,11 @@ Initial text here.
 
 **`<optgroup label="...">`** visually groups options under a bold label — the group itself is _not_ selectable.
 
-> [!IMPORTANT] Multi-select requires **two** changes together: `multiple="multiple"` on `<select>` AND `[]` appended to the `name` (e.g., `name="picks[]"`). Missing either means only one value is ever received by the server.
+> [!IMPORTANT] Multi-select requires **two** changes together: `multiple="multiple"` on `&lt;select&gt;` AND `[]` appended to the `name` (e.g., `name="picks[]"`). Missing either means only one value is ever received by the server.
 
-## `<label>` — Accessibility & Usability
+## `&lt;label&gt;` — Accessibility & Usability
 
-**`<label>`** links descriptive text to a control so clicking the text activates the control — critical for checkboxes and radio buttons where click targets are small.
+**`&lt;label&gt;`** links descriptive text to a control so clicking the text activates the control — critical for checkboxes and radio buttons where click targets are small.
 
 ```html
 <!-- Wrapping method — no extra attribute needed -->
@@ -144,4 +144,4 @@ Initial text here.
 <input type="radio" id="visaBtn" name="cc" value="visa" />
 ```
 
-`<label>` is also a valid CSS selector target, allowing style rules to visually style the entire label region on selection.
+`&lt;label&gt;` is also a valid CSS selector target, allowing style rules to visually style the entire label region on selection.

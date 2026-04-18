@@ -1,10 +1,11 @@
 import { defineConfig } from "vitepress";
+import { type UserConfig, withMermaid } from "vitepress-plugin-mermaid";
 import { withSidebar } from "vitepress-sidebar";
 import type { VitePressSidebarOptions } from "vitepress-sidebar/types";
 
 // https://vitepress.dev/reference/site-config
 
-const vitePressOptions = defineConfig({
+const vitePressOptions: UserConfig = { 
   title: "Othman Notes",
   description: "A Website for all of my notes and thoughts",
   srcDir: "src",
@@ -92,7 +93,7 @@ const vitePressOptions = defineConfig({
     },
     server: { host: true },
   },
-});
+};
 
 const vitePressSidebarOptions: VitePressSidebarOptions = {
   documentRootPath: "/src",
@@ -114,4 +115,6 @@ const vitePressSidebarOptions: VitePressSidebarOptions = {
   sortMenusOrderNumericallyFromTitle: true,
 };
 
-export default withSidebar(vitePressOptions, vitePressSidebarOptions);
+export default defineConfig(
+  withSidebar(withMermaid(vitePressOptions), vitePressSidebarOptions)
+);

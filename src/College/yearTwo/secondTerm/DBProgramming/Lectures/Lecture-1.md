@@ -26,7 +26,13 @@ A **database** is an organized collection of **related data** used to **store, r
 
 ## Database Types and When to Use Them
 
-The lecture separates database types by **storage location**, **schema rigidity**, and **scalability**. A **centralized database** stores data in one main system. A **distributed database** spreads data across connected systems. A **relational database** stores data in tables and uses **SQL**. A **NoSQL database** is built for **scalability**, **flexibility**, and **unstructured or semi-structured data**, so it does not depend on fixed schemas. A **cloud database** stores data in a cloud environment for scalable online access.
+The lecture separates database types by **storage location**, **schema rigidity**, and **scalability**.
+  
+- A **centralized database** stores data in one main system.  
+- A **distributed database** spreads data across connected systems.  
+- A **relational database** stores data in tables and uses **SQL**.  
+- A **NoSQL database** is built for **scalability**, **flexibility**, and **unstructured or semi-structured data**, so it does not depend on fixed schemas.  
+- A **cloud database** stores data in a cloud environment for scalable online access. 
 
 | Type            | Best Fit                   | Example           |
 | --------------- | -------------------------- | ----------------- |

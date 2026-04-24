@@ -20,21 +20,23 @@ next: false
 
 ### A. What is the CIDR notation for this subnet mask?
 
-### Answer
-
-#### Your Answer
+`/16`
 
 ### B. Identify the Network portion and the Host portion of this address.
 
-### Answer
+Network portion: first 16 bits (`172.16`)
 
-#### Your Answer
+Host portion: last 16 bits (the last two octets)
+
+NNNNNNNN.NNNNNNNN.HHHHHHHH.HHHHHHHH
+11111111.11111111.00000000.00000000
+Network.Network.Host.Host
 
 ### C. Calculate the total number of available IP addresses for hosts in this network.
 
-### Answer
+The rule is: $\text{Number of usable host IPs} = 2^{\text{Number of host bits}} - 2$
 
-#### Your Answer
+We have 16 host bits, so the number of usable IPs is $2^{16} - 2 = 65534$ IPs.
 
 ## Question 2
 
@@ -42,15 +44,17 @@ next: false
 
 ### A. Represent the number `255` in `8-bit` binary format.
 
-### Answer
-
-#### Your Answer
+$255_{10} = 11111111_2$
 
 ### B. Which portion of the IP address (which octets) represents the network part in this example?
 
-### Answer
+Network portion: first 24 bits (`192.168.1`)
 
-#### Your Answer
+Host portion: last 8 bits (the last octet)
+
+NNNNNNNN.NNNNNNNN.NNNNNNNN.HHHHHHHH
+11111111.11111111.11111111.00000000
+Network.Network.Network.Host
 
 ## Question 3
 
@@ -60,27 +64,49 @@ next: false
 - **Device 1, 2, and 3:** `(Assign unique IP addresses, the correct Subnet Mask, and the Default Gateway)`
 - **DNS:** Provide a common DNS server address to allow these devices to resolve domain names.
 
-### Answer
+### Complete Network
 
-## Router
+Network used: 192.168.1.0/24 (Class C)
 
-### Your Answer
+![](figure-3.png)
 
-## Device 1
+### Router
 
-### Your Answer
+- IP Address: 192.168.1.1
+- Subnet Mask: 255.255.255.0
+- Default Gateway: N/A
 
-## Device 2
+### Switch
 
-### Your Answer
+The router is connected from `GigabitEthernet0/0` to the switch on `GigabitEthernet0/1`.
 
-## Device 3
+### Device 1
 
-### Your Answer
+- IP Address: 192.168.1.2
+- Subnet Mask: 255.255.255.0
+- Default Gateway: 192.168.1.1
 
-## DNS
+![](figure.png)
 
-### Your Answer
+### Device 2
+
+- IP Address: 192.168.1.3
+- Subnet Mask: 255.255.255.0
+- Default Gateway: 192.168.1.1
+
+![](figure-1.png)
+
+### Device 3
+
+- IP Address: 192.168.1.4
+- Subnet Mask: 255.255.255.0
+- Default Gateway: 192.168.1.1
+
+![](figure-2.png)
+
+### DNS
+
+- DNS Server: 8.8.8.8
 
 ## Question 4
 
@@ -88,7 +114,9 @@ next: false
 
 ### Answer
 
-#### Your Answer
+A **Static IP address** is an IP address that is configured manually on a device and stays fixed unless it is changed by the administrator.
+
+A **Dynamic IP address** is assigned automatically by **DHCP**. It can change over time, depending on the DHCP configuration.
 
 ## Question 5
 
@@ -96,4 +124,6 @@ next: false
 
 ### Answer
 
-#### Your Answer
+It is beneficial because routers connect different networks and, by default, **do not forward broadcast packets**. This helps reduce unnecessary broadcast traffic between network segments.
+
+It also improves control and organization, because routers use **logical addresses (IP)** to determine where packets should go and can apply **security rules** such as access lists on interfaces.

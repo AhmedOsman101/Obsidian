@@ -3978,6 +3978,8 @@ propagates
 pads
 puuS
 paid
+pushed
+popped
 sbf
 sPv
 sC
@@ -5511,6 +5513,7 @@ shortcut
 synonym
 scoped
 scoring
+stacks
 ff
 fP
 fj
@@ -12960,6 +12963,7 @@ LOWER
 LKOKKMK
 LDM
 LYo
+LIFO
 al
 aj
 ar
@@ -19770,6 +19774,7 @@ reordered
 rYo
 rrR
 rRR
+rear
 eiO
 es
 ee
@@ -21067,6 +21072,7 @@ emphasizes
 expr
 ekil
 eMdT
+enqueue
 GO
 GQ
 Gk
@@ -24717,6 +24723,7 @@ Sorting
 SUM
 SUBSTRING
 Ssyj
+Stacks
 iH
 ic
 iP
@@ -35631,6 +35638,7 @@ RENAME
 ROUND
 Rpe
 Represent
+Rear
 Zt
 ZB
 Zb
@@ -40986,6 +40994,7 @@ money
 malformed
 mysqldump
 mQvDh
+mentions
 Ck
 CS
 Cm
@@ -54104,6 +54113,8 @@ degradation
 durations
 destructive
 descending
+distinguishes
+dequeue
 AK
 AQ
 Aya

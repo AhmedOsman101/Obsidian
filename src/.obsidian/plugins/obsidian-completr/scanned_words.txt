@@ -1242,6 +1242,7 @@ Patterns
 PRIMARY
 PXE
 Puq
+Participation
 IHDR
 IDATx
 IO
@@ -2570,6 +2571,7 @@ Inspecting
 IFNULL
 Ignores
 INTERVAL
+Indegree
 pHYs
 pt
 pu
@@ -3980,6 +3982,10 @@ puuS
 paid
 pushed
 popped
+predecessor
+planning
+precedes
+pointing
 sbf
 sPv
 sC
@@ -5514,6 +5520,16 @@ synonym
 scoped
 scoring
 stacks
+singly
+subtree
+subtrees
+skewed
+spanning
+subgraphs
+subgraph
+strongly
+sizing
+successor
 ff
 fP
 fj
@@ -6730,6 +6746,7 @@ feG
 forget
 firstlast
 fJO
+fingerprint
 yq
 yh
 yS
@@ -9320,6 +9337,8 @@ wYFFF
 writable
 wildcards
 wins
+weeks
+worth
 BU
 Bh
 BC
@@ -10514,6 +10533,8 @@ BIT
 BLOB
 Boundaries
 BETWEEN
+Breadth
+BST
 MC
 Ml
 MW
@@ -11784,6 +11805,7 @@ MEDIUMBLOB
 MODIFY
 MOD
 MONTH
+Midterm
 Lj
 Lf
 LvVa
@@ -12964,6 +12986,9 @@ LKOKKMK
 LDM
 LYo
 LIFO
+Leiserson
+Linearithmic
+Leaf
 al
 aj
 ar
@@ -14318,6 +14343,10 @@ aggregated
 aggregation
 aliases
 aZfff
+algebraic
+arcs
+artificial
+acyclic
 Te
 Tn
 TA
@@ -15475,6 +15504,13 @@ TEMPORARY
 Tool
 TRIM
 THEN
+Traversing
+Trees
+Traversal
+Traversals
+Throughout
+Tamassia
+Topmost
 uj
 uq
 uXm
@@ -16507,6 +16543,9 @@ unrelated
 uniqueness
 undone
 unsorted
+unidirectional
+undirected
+underlies
 OB
 Ox
 ONynT
@@ -17488,6 +17527,8 @@ OMQZ
 ORDER
 ODaa
 Octets
+Outdegree
+Ordinary
 Uc
 Ue
 UXk
@@ -18503,6 +18544,7 @@ UNIQUE
 UNKNOWN
 UPPER
 UvA
+Undirected
 ra
 rO
 rV
@@ -19775,6 +19817,9 @@ rYo
 rrR
 rRR
 rear
+revisit
+restructuring
+robin
 eiO
 es
 ee
@@ -21073,6 +21118,7 @@ expr
 ekil
 eMdT
 enqueue
+explanations
 GO
 GQ
 Gk
@@ -22101,6 +22147,7 @@ GET
 Garbage
 GigabitEthernet
 GROUP
+Goodrich
 Ex
 EZR
 EG
@@ -24724,6 +24771,15 @@ SUM
 SUBSTRING
 Ssyj
 Stacks
+Singly
+Siblings
+Strictly
+Subgraph
+Strongly
+Sparse
+Sunday
+Stein
+Sibling
 iH
 ic
 iP
@@ -25992,6 +26048,7 @@ inspected
 interval
 iKV
 iYV
+incentivize
 tWA
 tW
 tM
@@ -27199,6 +27256,12 @@ tpB
 throw
 timed
 tHD
+traversed
+topmost
+traverses
+theory
+textbooks
+traversals
 nm
 nv
 nhuK
@@ -28210,6 +28273,8 @@ nwc
 ngjkk
 ndcbb
 nnnnnnnn
+navigating
+nonempty
 Fc
 Fe
 Fo
@@ -29413,6 +29478,8 @@ FULL
 FIRST
 FOREIGN
 FLOOR
+Fibonacci
+Fill
 xi
 xpF
 xwG
@@ -32247,6 +32314,7 @@ boundaries
 boundary
 bMJr
 beneficial
+bible
 Nb
 NJu
 Nbsa
@@ -34383,6 +34451,8 @@ lmmCCC
 lUP
 lXV
 ldT
+leaf
+leetcode
 Rc
 Rt
 RO
@@ -35639,6 +35709,7 @@ ROUND
 Rpe
 Represent
 Rear
+Removal
 Zt
 ZB
 Zb
@@ -38776,6 +38847,12 @@ DATEDIFF
 Days
 DDQ
 DmMzd
+Doubly
+Depth
+Detailed
+Directed
+Degree
+Dense
 ohQ
 oL
 ob
@@ -40995,6 +41072,10 @@ malformed
 mysqldump
 mQvDh
 mentions
+mixture
+maximal
+manipulated
+midterm
 Ck
 CS
 Cm
@@ -42495,6 +42576,15 @@ CEIL
 CURDATE
 CURTIME
 CIDR
+Compared
+Children
+Calendar
+Cormen
+CLRS
+CreateList
+Cyclic
+CreateTree
+ClearTree
 vb
 vO
 vvF
@@ -43479,6 +43569,8 @@ vAE
 viw
 vJeeU
 vLD
+viewer
+vertex
 ck
 cr
 ce
@@ -45108,6 +45200,9 @@ collation
 cleaning
 cond
 cGK
+children
+chooses
+comprise
 Hu
 Hg
 HiL
@@ -46278,6 +46373,8 @@ Hdff
 HAVING
 HHhh
 HHHHHHHH
+Height
+Heaps
 hh
 hLR
 hI
@@ -47371,6 +47468,8 @@ hqN
 hww
 hello
 hhhhhhhh
+hackerrank
+hierarchies
 Xi
 XZ
 Xn
@@ -49314,6 +49413,7 @@ gBpB
 gracefully
 geeN
 gNM
+geeksforgeeks
 KUYX
 KX
 KK
@@ -52781,6 +52881,7 @@ VTx
 Vno
 VTY
 VARCHAR
+Versus
 dk
 dR
 dV
@@ -54115,6 +54216,13 @@ destructive
 descending
 distinguishes
 dequeue
+doubly
+disjoint
+descend
+dispose
+digraph
+dense
+deadline
 AK
 AQ
 Aya
@@ -55624,6 +55732,11 @@ Aggregation
 Aggregate
 ABS
 AAAI
+Ancestor
+Adjacency
+AVL
+Academic
+Acronym
 Jw
 Jg
 JT
@@ -57554,6 +57667,8 @@ Quantifiers
 QcPp
 QAJw
 QDx
+Quizzes
+Quadratic
 WliB
 WWO
 WRY
@@ -58483,6 +58598,8 @@ Wxxx
 Whole
 WHERE
 WHEN
+Week
+Weekly
 Ötl
 ÖC
 Öm

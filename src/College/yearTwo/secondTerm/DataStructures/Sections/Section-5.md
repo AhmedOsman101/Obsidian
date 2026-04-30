@@ -66,7 +66,7 @@ It can be understood as filling the tree level by level:
 2. Fill every level fully from left to right.
 3. In the last level, add nodes from the left side first.
 
-## Binary Tree Versus Ordinary Tree
+## Binary Tree vs. Ordinary Tree
 
 If a binary tree has only left subtrees, it is called a **left-skewed binary tree**.
 

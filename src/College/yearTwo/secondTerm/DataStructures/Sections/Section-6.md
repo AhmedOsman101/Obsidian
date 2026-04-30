@@ -8,15 +8,6 @@ title: Section 6
 
 # Data Structures - Section 6
 
-## Quiz
-
-The section opens with a short quiz prompt:
-
-```txt
-Create a binary search tree for:
-50, 30, 70, 20, 40, 60, 80
-```
-
 ## What Is a Graph?
 
 A **graph** is a data structure that consists of a set of **nodes** and a set of **edges** that relate the nodes to each other.

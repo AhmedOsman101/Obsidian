@@ -169,23 +169,102 @@ class Stack {
 
 ### 2.1 Explain a concrete data structure for a First In First Out (FIFO) and illustrate the main applications of it?
 
-#### Your Answer
+The queue data structure follows the first-in-first-out (FIFO) principle, where the first item to be inserted will be the first to be removed.
+Applications of queue include:
+
+- **CPU Scheduling:** Processes waiting for CPU time are managed in a queue (Round Robin scheduling)
+- **GitHub Actions:** Actions are queued so that they run in order and don't break.
+- **Music Queue:** In music apps like Spotify or YouTube Music, the songs queue run in the order they were added.
+- **Call Center Systems:** Incoming calls are queued and handled by the next available agent
+- Any application that requires in-order access of data.
 
 ---
 
 ### 2.2 Define the operation of linked list and compare between the different types of linked lists?
 
-#### Your Answer
+A linked list is a data structure that stores data as nodes with a pointer to the next node (and optionally with a pointer to the previous node).
+
+There are 2 types of linked lists:
+
+- Single Linked List: Uses a node and a pointer to the next node
+- Doubly Linked List: Uses a node and a pointer to the next and previous nodes
 
 ---
 
 ### 2.3 Apply the queues using C++ or Java accurately?
 
-#### Your Answer
 
 ```java
-// Queue implementation
+class Queue {
+  private int front;
+  private int rear;
+  private int length;
+  private int[] items;
 
+  public SimpleQueue(int length) {
+    this.front = -1;
+    this.rear = -1;
+    this.length = length;
+    this.items = new int[length];
+  }
+
+  public void enqueue(int item) {
+    if (this.isFull()) System.err.println("Queue is full!");
+    else {
+      if (this.front == -1) this.front = 0;
+      this.rear++;
+      this.items[this.rear] = item;
+    }
+  }
+
+  public int dequeue() {
+    if (this.isEmpty()) {
+      System.err.println("Queue is empty!");
+      return -1;
+    } else {
+      int f = this.items[this.front];
+      if (++this.front > this.rear) {
+        this.front = -1;
+        this.rear = -1;
+      }
+
+      return f;
+    }
+  }
+
+  public int size() {
+    if (this.isEmpty()) return 0;
+    return this.rear - this.front + 1;
+  }
+
+  public int front() {
+    if (this.isEmpty()) {
+      System.err.println("Queue is empty!");
+      return -1;
+    } return this.items[this.front];
+  }
+
+  public int back() {
+    if (this.isEmpty()) {
+      System.err.println("Queue is empty!");
+      return -1;
+    } return this.items[this.rear];
+  }
+
+  public boolean isEmpty() {
+    return this.front == -1;
+  }
+
+  public boolean isFull() {
+    return this.rear == this.length - 1;
+  }
+
+  public void display() {
+    System.out.print("[");
+    for (int i = this.front; i <= this.rear; i++) System.out.printf(" %d", this.items[i]);
+    System.out.println(" ]");
+  }
+}
 ```
 
 ---
@@ -237,18 +316,62 @@ Given the following array:
 
 ### 4.1 Apply any sorting technique to sort the array elements in C++ and apply a sequential search algorithm to search for the value 30.
 
-#### Your Answer
+> [!note] 
+> The sorting method modifies the original array.
 
 ```cpp
-// Sorting implementation
+#include <iostream>
 
+using namespace std;
+
+void bubbleSort(int arr[], int length) {
+  for (int i = 0; i < length; i++) {
+    bool isSorted = true;
+    for (int j = 0; j < length - i - 1; j++) {
+      if (arr[j] > arr[j + 1]) {
+        int temp = arr[j];
+        arr[j] = arr[j + 1];
+        arr[j + 1] = temp;
+        isSorted = false;
+      }
+    }
+    // if we didn't swap anything, then the array is already sorted.
+    if (isSorted) break;
+  }
+}
+
+int search(int arr[], int length, int value) {
+  for (int i = 0; i < length; i++) {
+    if (arr[i] == value) return i;
+  }
+  return -1; // -1 means not found
+}
+
+int main() {
+  int arr[10] = {20, 50, 10, 5, 30, 8, 9, 10, 6, 2};
+  
+  for (auto i : arr) printf("%d ", i);
+  
+  int index = search(arr, 10, 30);
+  if (index == -1) cout << "\nValue 30 was not found!\n\n";
+  else printf("\nValue 30 was found at index %d\n\n", index);
+  
+  bubbleSort(arr, 10);
+  cout << "Sorted Array:\n";
+  for (auto i : arr) printf("%d ", i);
+  printf("\n");
+
+  return 0;
+}
 ```
 
-```cpp
-// Sequential search for value 30
+**Output:**
 
-```
-
+![](figure-1.png)
 ### 4.2 Illustrate how to calculate the complexity of the previous programs? And discuss how to evaluate the complexity of these algorithms?
 
-#### Your Answer
+1. Bubble Sort
+
+
+
+2. Sequential Search

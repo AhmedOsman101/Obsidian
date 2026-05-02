@@ -2574,6 +2574,7 @@ INTERVAL
 Indegree
 INNER
 INOUT
+Illustrate
 pHYs
 pt
 pu
@@ -5533,6 +5534,8 @@ strongly
 sizing
 successor
 salaries
+scrambled
+songs
 ff
 fP
 fj
@@ -8433,6 +8436,7 @@ qRUUU
 qgB
 qqqAAA
 qgYi
+queued
 waq
 wc
 wav
@@ -11810,6 +11814,7 @@ MODIFY
 MOD
 MONTH
 Midterm
+Music
 Lj
 Lf
 LvVa
@@ -15516,6 +15521,7 @@ Traversals
 Throughout
 Tamassia
 Topmost
+Theta
 uj
 uq
 uXm
@@ -16551,6 +16557,7 @@ unsorted
 unidirectional
 undirected
 underlies
+undo
 OB
 Ox
 ONynT
@@ -17536,6 +17543,7 @@ Outdegree
 Ordinary
 OUTER
 OUT
+Omega
 Uc
 Ue
 UXk
@@ -24788,6 +24796,7 @@ Sparse
 Sunday
 Stein
 Sibling
+Spotify
 iH
 ic
 iP
@@ -26058,6 +26067,7 @@ iKV
 iYV
 incentivize
 inserts
+instant
 tWA
 tW
 tM
@@ -27271,6 +27281,8 @@ traverses
 theory
 textbooks
 traversals
+tight
+toLowercase
 nm
 nv
 nhuK
@@ -28284,6 +28296,7 @@ ndcbb
 nnnnnnnn
 navigating
 nonempty
+notations
 Fc
 Fe
 Fo
@@ -38864,6 +38877,8 @@ Detailed
 Directed
 Degree
 Dense
+Dijkstra
+Differentiate
 ohQ
 oL
 ob
@@ -41087,6 +41102,7 @@ mixture
 maximal
 manipulated
 midterm
+meant
 Ck
 CS
 Cm
@@ -51952,6 +51968,7 @@ Yqqq
 YRPP
 YllLGGGM
 YEAR
+YouTube
 VLt
 Vfa
 Vr
@@ -55750,6 +55767,7 @@ Adjacency
 AVL
 Academic
 Acronym
+Asymptotic
 Jw
 Jg
 JT

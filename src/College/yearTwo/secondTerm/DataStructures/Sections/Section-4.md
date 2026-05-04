@@ -28,13 +28,13 @@ It is used to store data in a way that allows for **fast insertion and deletion*
 
 The source lists these basic linked list operations:
 
-| Operation | Description |
-| --------- | ----------- |
-| Creation | Used to create a linked list |
-| Insertion | Used to insert a new node at a specified location: first, last, or a specified position |
-| Deletion | Used to delete a node at a specified location: first, last, or a specified position |
-| Traversing | The process of going through all the nodes from one end to another end of a linked list |
-| Concatenation | The process of appending the second list to the end of the first list |
+| Operation     | Description                                                                             |
+| ------------- | --------------------------------------------------------------------------------------- |
+| Creation      | Used to create a linked list                                                            |
+| Insertion     | Used to insert a new node at a specified location: first, last, or a specified position |
+| Deletion      | Used to delete a node at a specified location: first, last, or a specified position     |
+| Traversing    | The process of going through all the nodes from one end to another end of a linked list |
+| Concatenation | The process of appending the second list to the end of the first list                   |
 
 ## Class Implementation
 

@@ -28,9 +28,9 @@ The two basic operations are:
 
 Queues are divided into two main types:
 
-| Type | Description |
-| --- | --- |
-| **Static Queue** | Fixed size, often implemented using an array |
+| Type              | Description                                                   |
+| ----------------- | ------------------------------------------------------------- |
+| **Static Queue**  | Fixed size, often implemented using an array                  |
 | **Dynamic Queue** | Size changes as needed, often implemented using a linked list |
 
 ## Static Queue
@@ -117,14 +117,14 @@ The section also refers to including the queue library:
 
 Common queue operations are:
 
-| Function | Description |
-| --- | --- |
-| `push()` | Inserts an element at the back of the queue |
-| `pop()` | Removes an element from the front of the queue |
-| `front()` | Returns the first element of the queue |
-| `back()` | Returns the last element of the queue |
-| `size()` | Returns the number of elements in the queue |
-| `empty()` | Returns `true` if the queue is empty |
+| Function  | Description                                    |
+| --------- | ---------------------------------------------- |
+| `push()`  | Inserts an element at the back of the queue    |
+| `pop()`   | Removes an element from the front of the queue |
+| `front()` | Returns the first element of the queue         |
+| `back()`  | Returns the last element of the queue          |
+| `size()`  | Returns the number of elements in the queue    |
+| `empty()` | Returns `true` if the queue is empty           |
 
 ### Example
 

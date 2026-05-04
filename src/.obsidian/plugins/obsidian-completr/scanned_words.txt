@@ -1243,6 +1243,7 @@ PRIMARY
 PXE
 Puq
 Participation
+Prim
 IHDR
 IDATx
 IO
@@ -2575,6 +2576,7 @@ Indegree
 INNER
 INOUT
 Illustrate
+Incoming
 pHYs
 pt
 pu
@@ -9346,6 +9348,7 @@ wildcards
 wins
 weeks
 worth
+weighted
 BU
 Bh
 BC
@@ -10543,6 +10546,7 @@ BETWEEN
 Breadth
 BST
 BEFORE
+BFS
 MC
 Ml
 MW
@@ -14357,6 +14361,7 @@ algebraic
 arcs
 artificial
 acyclic
+agent
 Te
 Tn
 TA
@@ -24797,6 +24802,7 @@ Sunday
 Stein
 Sibling
 Spotify
+Sorted
 iH
 ic
 iP
@@ -27283,6 +27289,7 @@ textbooks
 traversals
 tight
 toLowercase
+tentative
 nm
 nv
 nhuK
@@ -38879,6 +38886,7 @@ Degree
 Dense
 Dijkstra
 Differentiate
+DFS
 ohQ
 oL
 ob
@@ -45230,6 +45238,7 @@ cGK
 children
 chooses
 comprise
+cheapest
 Hu
 Hg
 HiL
@@ -50403,6 +50412,7 @@ KEY
 KxMU
 KBB
 Keg
+Kruskal
 zC
 zl
 zk
@@ -52911,6 +52921,8 @@ Vno
 VTY
 VARCHAR
 Versus
+Visit
+Visited
 dk
 dR
 dV
@@ -54253,6 +54265,8 @@ digraph
 dense
 deadline
 decrease
+dist
+disconnected
 AK
 AQ
 Aya
@@ -55768,6 +55782,7 @@ AVL
 Academic
 Acronym
 Asymptotic
+Arbitrary
 Jw
 Jg
 JT

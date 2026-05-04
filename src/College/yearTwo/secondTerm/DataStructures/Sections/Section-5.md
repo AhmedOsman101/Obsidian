@@ -19,21 +19,21 @@ A **tree** is a collection of nodes arranged in a hierarchical structure such th
 
 ## Terms and Definitions
 
-| Term | Definition |
-| --- | --- |
-| Root | The topmost node in a tree. It has no parent. |
-| Node | A single element in a tree that may contain a value and links to children. |
-| Parent | A node that has one or more children. |
-| Children | Nodes that descend from a parent node. |
-| Leaves | Nodes with no children, also called terminal nodes. |
-| Internal Node | A node that has at least one child and is not the root or a leaf. |
-| Siblings | Nodes that share the same parent. |
-| Ancestor | Any node along the path from a node to the root. |
-| Height | The number of edges in the longest path from the root to any leaf. |
-| Depth | The number of edges from the root to a specific node. |
-| Edges | Connections between nodes from parent to child. |
-| Outdegree | The number of children a node has. |
-| Indegree | The number of incoming edges to a node. In a tree it is always 1 except for the root. |
+| Term          | Definition                                                                            |
+| ------------- | ------------------------------------------------------------------------------------- |
+| Root          | The topmost node in a tree. It has no parent.                                         |
+| Node          | A single element in a tree that may contain a value and links to children.            |
+| Parent        | A node that has one or more children.                                                 |
+| Children      | Nodes that descend from a parent node.                                                |
+| Leaves        | Nodes with no children, also called terminal nodes.                                   |
+| Internal Node | A node that has at least one child and is not the root or a leaf.                     |
+| Siblings      | Nodes that share the same parent.                                                     |
+| Ancestor      | Any node along the path from a node to the root.                                      |
+| Height        | The number of edges in the longest path from the root to any leaf.                    |
+| Depth         | The number of edges from the root to a specific node.                                 |
+| Edges         | Connections between nodes from parent to child.                                       |
+| Outdegree     | The number of children a node has.                                                    |
+| Indegree      | The number of incoming edges to a node. In a tree it is always 1 except for the root. |
 
 ## Binary Trees
 
@@ -163,10 +163,10 @@ It can be divided into two stages:
 
 ### Removal Cases
 
-| Case | Action |
-| --- | --- |
-| Node has no children | Set the corresponding link of the parent to `NULL` and dispose the node. |
-| Node has one child | Link the single child, with its subtree, directly to the parent of the removed node. |
+| Case                  | Action                                                                                                          |
+| --------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Node has no children  | Set the corresponding link of the parent to `NULL` and dispose the node.                                        |
+| Node has one child    | Link the single child, with its subtree, directly to the parent of the removed node.                            |
 | Node has two children | Choose the minimum element from the right subtree, replace the node by that value, then continue restructuring. |
 
 > [!IMPORTANT]

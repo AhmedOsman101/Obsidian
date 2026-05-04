@@ -20,12 +20,12 @@ Linked lists allow efficient insertion or removal of elements from any position 
 
 The source compares linked lists and arrays as follows:
 
-| Feature | Linked List | Array |
-| --- | --- | --- |
-| Data structure | Non-contiguous | Contiguous |
-| Memory allocation | Dynamic | Static |
-| Insertion/Deletion | Efficient | Inefficient |
-| Access | Sequential | Random |
+| Feature            | Linked List    | Array       |
+| ------------------ | -------------- | ----------- |
+| Data structure     | Non-contiguous | Contiguous  |
+| Memory allocation  | Dynamic        | Static      |
+| Insertion/Deletion | Efficient      | Inefficient |
+| Access             | Sequential     | Random      |
 
 ## Operations on Linked List
 

@@ -29,10 +29,10 @@ Two important indexing rules are given in the lab:
 
 The source distinguishes between two common array types:
 
-| Type | Description |
-| --- | --- |
-| **Single-dimensional array** | Elements are arranged in list form |
-| **Multi-dimensional array** | Elements are arranged in tabular form |
+| Type                         | Description                           |
+| ---------------------------- | ------------------------------------- |
+| **Single-dimensional array** | Elements are arranged in list form    |
+| **Multi-dimensional array**  | Elements are arranged in tabular form |
 
 ## Declaring Arrays
 
@@ -138,22 +138,22 @@ Because of this behavior, a stack follows **Last In First Out (LIFO)**. The last
 
 The source lists the following stack operations:
 
-| Function | Description |
-| --- | --- |
-| `isEmpty()` | Returns `true` if the stack contains no elements |
-| `isFull()` | Returns `true` if the stack is full; useful for static stacks |
-| `size()` | Returns the size of the stack |
-| `top()` | Returns a reference to the top-most element |
-| `push(g)` | Adds element `g` at the top of the stack |
-| `pop()` | Deletes the most recently entered element |
+| Function    | Description                                                   |
+| ----------- | ------------------------------------------------------------- |
+| `isEmpty()` | Returns `true` if the stack contains no elements              |
+| `isFull()`  | Returns `true` if the stack is full; useful for static stacks |
+| `size()`    | Returns the size of the stack                                 |
+| `top()`     | Returns a reference to the top-most element                   |
+| `push(g)`   | Adds element `g` at the top of the stack                      |
+| `pop()`     | Deletes the most recently entered element                     |
 
 ## Stack Types
 
 The lab divides stacks into two types:
 
-| Type | Description |
-| --- | --- |
-| **Static stack** | Fixed size, often implemented using an array |
+| Type              | Description                                                  |
+| ----------------- | ------------------------------------------------------------ |
+| **Static stack**  | Fixed size, often implemented using an array                 |
 | **Dynamic stack** | Size varies as needed, often implemented using a linked list |
 
 ## Static Stack Using an Array

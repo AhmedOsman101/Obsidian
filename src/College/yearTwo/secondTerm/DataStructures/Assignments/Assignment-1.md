@@ -1,10 +1,15 @@
 ---
 title: Assignment 1
 prev:
-  text: "Sections"
+  text: "Assignments"
   link: "/College/yearTwo/secondTerm/DataStructures/Assignment/index"
 next: false
 ---
+
+| Name    | أحمد علي أحمد علي عثمان |
+| :------ | :---------------------- |
+| Code    | 20240592                |
+| Section | 1                       |
 
 # Data Structures Assignment 1
 
@@ -12,15 +17,15 @@ next: false
 
 ### 1.1 Explain the definition of Asymptotic notations (Big O, Big Omega, Big Theta)
 
-Asymptotic notation is a way of describing the performance of a given algorithm or operation.
+Asymptotic notation is a way of describing the performance of an algorithm or operation.
 
-It can be used with time or space.
-Example: The operation of adding two numbers would always be **O(1)** which means constant time (nearly instant).
-While an algorithm like Binary Search would take **O(log n)** which means it varies depending on how many elements are in the array.
+It can be used to describe either time complexity or space complexity.
+For example, adding two numbers is always **O(1)**, which means constant time.
+On the other hand, an algorithm such as binary search takes **O(log n)** time, which means its running time depends on the number of elements in the array.
 
-Big O: The **Worst Case**, in the worst scenario (e.g. Sorting an array that's completely scrambled: sorting the array `[6, 5, 4, 3, 2, 1]`). This describes the maximum time an algorithm could take, the algorithm will never perform worse than this.
-Big Omega: The **Best Case**, in the best scenario (e.g. Sorting an array already sorted array: `[1, 2, 3, 4, 5, 6]`). This describes the minimum time an algorithm takes. It cannot run faster than that.
-Big Theta: The **Average Case**, in the average/normal scenario (e.g. Sorting an array that's partially sorted: `[1, 4, 2, 3, 6, 5]`).
+Big O describes the **upper bound** or **worst-case** growth of an algorithm. For example, when sorting a completely unsorted array such as `[6, 5, 4, 3, 2, 1]`, Big O tells us the maximum amount of work the algorithm may need.
+Big Omega describes the **lower bound** or **best-case** growth of an algorithm. For example, when sorting an already sorted array such as `[1, 2, 3, 4, 5, 6]`, Big Omega tells us the minimum amount of work the algorithm needs.
+Big Theta describes the **tight bound** of an algorithm. This means the algorithm grows at the same rate from both above and below, so it gives the most accurate description of its actual growth rate.
 
 **Comparison Table:**
 
@@ -34,11 +39,11 @@ Big Theta: The **Average Case**, in the average/normal scenario (e.g. Sorting an
 
 ### 1.2 Illustrate the main applications of stack?
 
-Stacks could be used in a wide variety of applications. That includes:
+Stacks are used in a wide variety of applications, including:
 
-- Undo/Redo menus: The programs stores the operations you did in a stack, when you press **undo** it applies the last action you performed.
-- Browser History: The browser keeps track of what pages you visited in a stack as well. When you click Back button it goes to the last visited webpage.
-- Call Stack in programming languages: Your code uses `join(map(split("HELLO"), toLowercase))`. These functions would be called from inside out: split -> map -> toLowercase -> join.
+- Undo/Redo menus: The program stores the operations you perform in a stack. When you press **Undo**, it applies the last action first.
+- Browser history: The browser keeps track of visited pages in a stack. When you click the Back button, it returns to the most recently visited page.
+- Call stack in programming languages: When functions call other functions, the system stores them in a stack so they return in the correct order. Example: When calling these functions `join(map(split("HELLO"), toLowercase))`, they would be executed from inside out: `split` -> `map` -> `toLowercase` -> `join`.
 
 ---
 
@@ -163,36 +168,52 @@ class Stack {
 }
 ```
 
----
-
 ## Task 2
 
 ### 2.1 Explain a concrete data structure for a First In First Out (FIFO) and illustrate the main applications of it?
 
-The queue data structure follows the first-in-first-out (FIFO) principle, where the first item to be inserted will be the first to be removed.
-Applications of queue include:
+The queue data structure follows the First In, First Out (FIFO) principle, where the first item inserted is the first item removed.
+Applications of queues include:
 
-- **CPU Scheduling:** Processes waiting for CPU time are managed in a queue (Round Robin scheduling)
-- **GitHub Actions:** Actions are queued so that they run in order and don't break.
-- **Music Queue:** In music apps like Spotify or YouTube Music, the songs queue run in the order they were added.
-- **Call Center Systems:** Incoming calls are queued and handled by the next available agent
-- Any application that requires in-order access of data.
+- **CPU scheduling:** Processes waiting for CPU time are managed in a queue, such as in Round Robin scheduling.
+- **GitHub Actions:** Jobs are queued so they run in order.
+- **Music queue:** In applications such as Spotify or YouTube Music, songs are played in the order they were added.
+- **Call center systems:** Incoming calls are queued and handled by the next available agent.
+- Any application that requires data to be processed in arrival order.
 
 ---
 
 ### 2.2 Define the operation of linked list and compare between the different types of linked lists?
 
-A linked list is a data structure that stores data as nodes with a pointer to the next node (and optionally with a pointer to the previous node).
+A linked list is a data structure that stores data in nodes, where each node contains the data and a pointer to the next node, and sometimes a pointer to the previous node.
 
-There are 2 types of linked lists:
+The main operations of a linked list are:
 
-- Single Linked List: Uses a node and a pointer to the next node
-- Doubly Linked List: Uses a node and a pointer to the next and previous nodes
+- Creation: initialize the list so that the head points to `null`.
+- Insertion: add a new node at the beginning, at the end, or at a specific position.
+- Deletion: remove a node from the beginning, end, or a specific position.
+- Traversal: move through the list node by node to display or process all elements.
+- Searching: check nodes one by one until the required value is found.
+
+There are several types of linked lists:
+
+- Singly Linked List: Uses a node and a pointer to the `next` node.
+- Doubly Linked List: Uses a node and pointers to the `next` and `previous` nodes.
+- Circular Linked List: The last node points back to the first node instead of `null`.
+- Doubly Circular Linked List: Each node has `next` and `previous` links, and the list forms a circle.
+
+Comparison between the types:
+
+| Type                        | Traversal                              | Memory usage | Advantage                                         | Disadvantage                      |
+| --------------------------- | -------------------------------------- | ------------ | ------------------------------------------------- | --------------------------------- |
+| Singly linked list          | Forward only                           | Low          | Simple and easy to implement                      | Cannot move backward              |
+| Doubly linked list          | Forward and backward                   | Higher       | Easier insertion and deletion around a known node | Uses extra memory                 |
+| Circular linked list        | Forward in repeated cycle              | Low          | Useful for round-robin processing                 | Must be careful to stop traversal |
+| Doubly circular linked list | Forward and backward in repeated cycle | Highest      | Very flexible navigation                          | Most complex type                 |
 
 ---
 
 ### 2.3 Apply the queues using C++ or Java accurately?
-
 
 ```java
 class Queue {
@@ -201,7 +222,7 @@ class Queue {
   private int length;
   private int[] items;
 
-  public SimpleQueue(int length) {
+  public Queue(int length) {
     this.front = -1;
     this.rear = -1;
     this.length = length;
@@ -267,8 +288,6 @@ class Queue {
 }
 ```
 
----
-
 ## Task 3
 
 ### 3.1 Illustrate what is meant by minimum spanning tree and Dijkstra algorithms, apply both algorithms on the mentioned graph
@@ -290,21 +309,123 @@ graph LR
   4 --- |3| 6
 ```
 
-#### Your Answer
+#### Minimum Spanning Tree
 
-**Minimum Spanning Tree:**
+A minimum spanning tree is a set of edges that connects all vertices in a connected weighted graph without forming a cycle and with the minimum possible total weight.
 
----
+Using Kruskal's algorithm, we sort the edges from the smallest weight to the largest weight and choose the smallest edge each time without creating a cycle.
 
-**Dijkstra Algorithm:**
+Sorted edges:
 
----
+- `1-2 = 1`
+- `2-5 = 3`
+- `4-6 = 3`
+- `2-4 = 4`
+- `1-3 = 5`
+- `3-4 = 5`
+- `2-3 = 6`
+- `1-4 = 7`
+- `4-5 = 8`
+- `1-5 = 9`
+- `3-6 = 10`
+
+Choose the edges in order while avoiding cycles:
+
+- `1-2 = 1`
+- `2-5 = 3`
+- `4-6 = 3`
+- `2-4 = 4`
+- `1-3 = 5`
+
+Now all 6 vertices are connected using `6 - 1 = 5` edges, so the MST is complete.
+
+Total weight of the minimum spanning tree:
+
+`1 + 3 + 3 + 4 + 5 = 16`
+
+#### Dijkstra Algorithm
+
+Dijkstra's algorithm finds the shortest path from one source vertex to all other vertices in a graph with non-negative edge weights.
+
+Assume the source vertex is `1`.
+
+Initial distances:
+
+- `d(1) = 0`
+- `d(2) = infinity`
+- `d(3) = infinity`
+- `d(4) = infinity`
+- `d(5) = infinity`
+- `d(6) = infinity`
+
+Step 1: Start from vertex `1`
+
+- `d(2) = 1`
+- `d(3) = 5`
+- `d(4) = 7`
+- `d(5) = 9`
+
+Step 2: Visit vertex `2` because it has the smallest temporary distance
+
+- `d(3) = min(5, 1 + 6) = 5`
+- `d(4) = min(7, 1 + 4) = 5`
+- `d(5) = min(9, 1 + 3) = 4`
+
+Step 3: Visit vertex `5`
+
+- `d(4) = min(5, 4 + 8) = 5`
+
+Step 4: Visit vertex `3`
+
+- `d(4) = min(5, 5 + 5) = 5`
+- `d(6) = min(infinity, 5 + 10) = 15`
+
+Step 5: Visit vertex `4`
+
+- `d(6) = min(15, 5 + 3) = 8`
+
+Step 6: Visit vertex `6`
+
+- No shorter path is found
+
+Final shortest distances from vertex `1`:
+
+- `1 = 0`
+- `2 = 1`
+- `5 = 4`
+- `3 = 5`
+- `4 = 5`
+- `6 = 8`
+
+So the shortest path from `1` to `6` is:
+
+`1 -> 2 -> 4 -> 6`
+
+with total cost:
+
+`1 + 4 + 3 = 8`
 
 ### 3.2 Differentiate between Graph and trees.
 
-#### Your Answer
+A tree is a special type of graph. It is connected, has no cycles, and usually has a root that gives it a hierarchical structure.
 
----
+A graph is a more general structure made of vertices and edges. It may be directed or undirected, weighted or unweighted, connected or disconnected, and it may contain cycles.
+
+Main differences:
+
+| Feature                   | Tree                              | Graph                            |
+| ------------------------- | --------------------------------- | -------------------------------- |
+| Structure                 | Hierarchical                      | General network                  |
+| Cycles                    | Not allowed                       | May exist                        |
+| Root node                 | Usually present                   | Not required                     |
+| Connectivity              | Always connected                  | May be connected or disconnected |
+| Number of edges           | For `n` vertices, exactly `n - 1` | No fixed rule                    |
+| Path between two vertices | Exactly one path                  | One, many, or no path            |
+
+Applications of trees include file systems, binary search trees, and expression trees.
+Applications of graphs include maps, communication networks, and route planning.
+
+Therefore, every tree is a graph, but not every graph is a tree.
 
 ## Task 4
 
@@ -316,7 +437,7 @@ Given the following array:
 
 ### 4.1 Apply any sorting technique to sort the array elements in C++ and apply a sequential search algorithm to search for the value 30.
 
-> [!note] 
+> [!NOTE]
 > The sorting method modifies the original array.
 
 ```cpp
@@ -349,13 +470,13 @@ int search(int arr[], int length, int value) {
 
 int main() {
   int arr[10] = {20, 50, 10, 5, 30, 8, 9, 10, 6, 2};
-  
+
   for (auto i : arr) printf("%d ", i);
-  
+
   int index = search(arr, 10, 30);
   if (index == -1) cout << "\nValue 30 was not found!\n\n";
   else printf("\nValue 30 was found at index %d\n\n", index);
-  
+
   bubbleSort(arr, 10);
   cout << "Sorted Array:\n";
   for (auto i : arr) printf("%d ", i);
@@ -368,10 +489,38 @@ int main() {
 **Output:**
 
 ![](figure-1.png)
+
 ### 4.2 Illustrate how to calculate the complexity of the previous programs? And discuss how to evaluate the complexity of these algorithms?
 
-1. Bubble Sort
+Searching techniques are methods used to locate a required value in a data set.
 
+- Sequential search checks the elements one by one from the beginning until the required value is found or the list ends.
+- Binary search works only on a sorted array and repeatedly divides the search space into two halves, so it is faster than sequential search for large sorted data sets.
 
+Sorting techniques are methods used to arrange data in ascending or descending order. Examples include bubble sort, selection sort, insertion sort, merge sort, quick sort, and heap sort.
 
-2. Sequential Search
+To calculate complexity, we study how the number of operations grows when the input size `n` increases.
+
+#### 1. Bubble Sort
+
+Bubble sort uses two loops. The outer loop repeats passes over the array, and the inner loop compares adjacent elements and swaps them when needed.
+
+- Worst case time complexity: `O(n^2)` because there can be about `n(n - 1) / 2` comparisons.
+- Best case time complexity: `O(n)` when the array is already sorted and no swaps are needed.
+- Average case time complexity: `O(n^2)`.
+- Space complexity: `O(1)` because it sorts inside the same array.
+
+#### 2. Sequential Search
+
+Sequential search checks each item one by one.
+
+- Best case time complexity: `O(1)` when the value is the first element.
+- Worst case time complexity: `O(n)` when the value is the last element or does not exist.
+- Average case time complexity: `O(n)` because about half of the list may need to be checked.
+- Space complexity: `O(1)` because only a few extra variables are used.
+
+Asymptotic analysis helps evaluate algorithms in the following ways:
+
+- It helps compare algorithms without depending on computer speed or programming language.
+- It shows how an algorithm behaves for small and large inputs.
+- It helps choose the better algorithm for a specific problem.

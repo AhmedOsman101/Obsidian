@@ -23,9 +23,10 @@ It can be used to describe either time complexity or space complexity.
 For example, adding two numbers is always **O(1)**, which means constant time.
 On the other hand, an algorithm such as binary search takes **O(log n)** time, which means its running time depends on the number of elements in the array.
 
-Big O describes the **upper bound** or **worst-case** growth of an algorithm. For example, when sorting a completely unsorted array such as `[6, 5, 4, 3, 2, 1]`, Big O tells us the maximum amount of work the algorithm may need.
-Big Omega describes the **lower bound** or **best-case** growth of an algorithm. For example, when sorting an already sorted array such as `[1, 2, 3, 4, 5, 6]`, Big Omega tells us the minimum amount of work the algorithm needs.
-Big Theta describes the **tight bound** of an algorithm. This means the algorithm grows at the same rate from both above and below, so it gives the most accurate description of its actual growth rate.
+- **Big O**: describes the **upper bound** or **worst-case** growth of an algorithm. For example, when sorting a completely unsorted array such as `[6, 5, 4, 3, 2, 1]`, Big O tells us the maximum amount of work the algorithm may need.
+- **Big Omega**: describes the **lower bound** or **best-case** growth of an algorithm. For example, when sorting an already sorted array such as `[1, 2, 3, 4, 5, 6]`, Big Omega tells us the minimum amount of work the algorithm needs.
+- **Big Theta**: describes the **tight bound** of an algorithm. This means the algorithm grows at the same rate from both above and below, so it gives the most accurate description of its actual growth rate.
+  For example, if an algorithm always scans every element in an array once, then its running time is `Θ(n)`. If another algorithm may need up to `n^2` comparisons, then its running time is `O(n^2)`.
 
 **Comparison Table:**
 
@@ -39,11 +40,11 @@ Big Theta describes the **tight bound** of an algorithm. This means the algorith
 
 ### 1.2 Illustrate the main applications of stack?
 
-Stacks are used in a wide variety of applications, including:
+Stacks are used in many applications because they follow the **Last In, First Out (LIFO)** rule. The most common uses are:
 
-- Undo/Redo menus: The program stores the operations you perform in a stack. When you press **Undo**, it applies the last action first.
-- Browser history: The browser keeps track of visited pages in a stack. When you click the Back button, it returns to the most recently visited page.
-- Call stack in programming languages: When functions call other functions, the system stores them in a stack so they return in the correct order. Example: When calling these functions `join(map(split("HELLO"), toLowercase))`, they would be executed from inside out: `split` -> `map` -> `toLowercase` -> `join`.
+- **Function calls and recursion:** Programming languages use a call stack to store active function calls. The last function called is the first one to return. Example: When calling these functions `join(map(split("HELLO"), toLowercase))`, they would be executed from inside out: `split` -> `map` -> `toLowercase` -> `join`.
+- **Undo/Redo operations:** Text editors and design applications store recent actions in a stack so the last action can be undone first.
+- **Browser history:** The browser keeps track of visited pages in a stack. When you click the Back button, it returns to the most recently visited page.
 
 ---
 
@@ -172,7 +173,11 @@ class Stack {
 
 ### 2.1 Explain a concrete data structure for a First In First Out (FIFO) and illustrate the main applications of it?
 
-The queue data structure follows the First In, First Out (FIFO) principle, where the first item inserted is the first item removed.
+The concrete data structure used for **First In, First Out (FIFO)** processing is the **queue**.
+
+A queue inserts data from the **rear** and removes data from the **front**, so the first element added is the first one removed.
+The main operations are `enqueue` to insert an element, `dequeue` to remove an element, and `front/peek` to read the first element without deleting it.
+
 Applications of queues include:
 
 - **CPU scheduling:** Processes waiting for CPU time are managed in a queue, such as in Round Robin scheduling.
@@ -185,7 +190,7 @@ Applications of queues include:
 
 ### 2.2 Define the operation of linked list and compare between the different types of linked lists?
 
-A linked list is a data structure that stores data in nodes, where each node contains the data and a pointer to the next node, and sometimes a pointer to the previous node.
+A linked list is a linear data structure that stores data in nodes, where each node contains the data and one or more links to other nodes. Unlike an array, linked-list elements are not stored in consecutive memory locations.
 
 The main operations of a linked list are:
 
@@ -194,6 +199,7 @@ The main operations of a linked list are:
 - Deletion: remove a node from the beginning, end, or a specific position.
 - Traversal: move through the list node by node to display or process all elements.
 - Searching: check nodes one by one until the required value is found.
+- Updating: change the value stored in a node when needed.
 
 There are several types of linked lists:
 
@@ -407,7 +413,7 @@ with total cost:
 
 ### 3.2 Differentiate between Graph and trees.
 
-A tree is a special type of graph. It is connected, has no cycles, and usually has a root that gives it a hierarchical structure.
+A tree is a special type of graph. It is connected and has no cycles. In many computer-science applications, a tree is also treated as a hierarchical structure with a root node.
 
 A graph is a more general structure made of vertices and edges. It may be directed or undirected, weighted or unweighted, connected or disconnected, and it may contain cycles.
 
@@ -499,7 +505,7 @@ Searching techniques are methods used to locate a required value in a data set.
 
 Sorting techniques are methods used to arrange data in ascending or descending order. Examples include bubble sort, selection sort, insertion sort, merge sort, quick sort, and heap sort.
 
-To calculate complexity, we study how the number of operations grows when the input size `n` increases.
+To calculate complexity, we study how the number of operations grows when the input size `n` increases. This is usually expressed using asymptotic notation such as `O`, `Ω`, and `Θ`.
 
 #### 1. Bubble Sort
 
@@ -522,5 +528,9 @@ Sequential search checks each item one by one.
 Asymptotic analysis helps evaluate algorithms in the following ways:
 
 - It helps compare algorithms without depending on computer speed or programming language.
-- It shows how an algorithm behaves for small and large inputs.
+- It shows how an algorithm behaves as the input size becomes small or large.
 - It helps choose the better algorithm for a specific problem.
+- It shows the trade-off between time complexity and space complexity.
+- It helps explain why an algorithm that is acceptable for small input may become inefficient for large input.
+
+Therefore, for the previous programs, sequential search is simpler but slower on large data sets than faster search methods such as binary search, while bubble sort is easy to implement but inefficient compared with algorithms such as merge sort or quick sort for large arrays.

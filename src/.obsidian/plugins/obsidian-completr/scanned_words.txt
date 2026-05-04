@@ -1244,6 +1244,8 @@ PXE
 Puq
 Participation
 Prim
+Pub
+Patients
 IHDR
 IDATx
 IO
@@ -2577,6 +2579,7 @@ INNER
 INOUT
 Illustrate
 Incoming
+INSERT
 pHYs
 pt
 pu
@@ -3991,6 +3994,10 @@ predecessor
 planning
 precedes
 pointing
+proposed
+prescription
+prescriptions
+played
 sbf
 sPv
 sC
@@ -5538,6 +5545,9 @@ successor
 salaries
 scrambled
 songs
+specialization
+sql
+summaries
 ff
 fP
 fj
@@ -9349,6 +9359,7 @@ wins
 weeks
 worth
 weighted
+worlds
 BU
 Bh
 BC
@@ -10547,6 +10558,7 @@ Breadth
 BST
 BEFORE
 BFS
+Billing
 MC
 Ml
 MW
@@ -14362,6 +14374,9 @@ arcs
 artificial
 acyclic
 agent
+appointments
+appointment
+adaptable
 Te
 Tn
 TA
@@ -16563,6 +16578,7 @@ unidirectional
 undirected
 underlies
 undo
+unweighted
 OB
 Ox
 ONynT
@@ -17549,6 +17565,8 @@ Ordinary
 OUTER
 OUT
 Omega
+Offs
+Our
 Uc
 Ue
 UXk
@@ -18566,6 +18584,7 @@ UPPER
 UvA
 Undirected
 UPDATE
+UNION
 ra
 rO
 rV
@@ -19841,6 +19860,9 @@ rear
 revisit
 restructuring
 robin
+referrals
+referral
+reception
 eiO
 es
 ee
@@ -22169,6 +22191,7 @@ Garbage
 GigabitEthernet
 GROUP
 Goodrich
+GRANT
 Ex
 EZR
 EG
@@ -24803,6 +24826,8 @@ Stein
 Sibling
 Spotify
 Sorted
+Simplest
+Sessions
 iH
 ic
 iP
@@ -26074,6 +26099,7 @@ iYV
 incentivize
 inserts
 instant
+intervals
 tWA
 tW
 tM
@@ -27290,6 +27316,7 @@ traversals
 tight
 toLowercase
 tentative
+treatments
 nm
 nv
 nhuK
@@ -28304,6 +28331,7 @@ nnnnnnnn
 navigating
 nonempty
 notations
+natively
 Fc
 Fe
 Fo
@@ -32344,6 +32372,9 @@ boundary
 bMJr
 beneficial
 bible
+bill
+booking
+birth
 Nb
 NJu
 Nbsa
@@ -35741,6 +35772,9 @@ Rear
 Removal
 RIGHT
 Retrieve
+REVOKE
+Rigid
+RESTful
 Zt
 ZB
 Zb
@@ -38887,6 +38921,7 @@ Dense
 Dijkstra
 Differentiate
 DFS
+Doctors
 ohQ
 oL
 ob
@@ -41111,6 +41146,7 @@ maximal
 manipulated
 midterm
 meant
+monthly
 Ck
 CS
 Cm
@@ -42620,6 +42656,7 @@ CreateList
 Cyclic
 CreateTree
 ClearTree
+CouchDB
 vb
 vO
 vvF
@@ -43606,6 +43643,7 @@ vJeeU
 vLD
 viewer
 vertex
+visit
 ck
 cr
 ce
@@ -45239,6 +45277,7 @@ children
 chooses
 comprise
 cheapest
+clinical
 Hu
 Hg
 HiL
@@ -47507,6 +47546,7 @@ hhhhhhhh
 hackerrank
 hierarchies
 hired
+hospital
 Xi
 XZ
 Xn
@@ -49451,6 +49491,7 @@ gracefully
 geeN
 gNM
 geeksforgeeks
+gender
 KUYX
 KX
 KK
@@ -54267,6 +54308,10 @@ deadline
 decrease
 dist
 disconnected
+develops
+doctors
+doctor
+deletions
 AK
 AQ
 Aya
@@ -55783,6 +55828,7 @@ Academic
 Acronym
 Asymptotic
 Arbitrary
+Appointments
 Jw
 Jg
 JT
@@ -56804,6 +56850,7 @@ JOIN
 JOINs
 Jpb
 JeRb
+Jobs
 Qv
 QL
 QD
@@ -58646,6 +58693,7 @@ WHERE
 WHEN
 Week
 Weekly
+Workbench
 Ötl
 ÖC
 Öm

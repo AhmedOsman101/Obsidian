@@ -22,6 +22,8 @@ The suitable topology here is **Extended Star Topology**.
 
 In a normal **Star Topology**, devices connect to a central switch or hub. The **Extended Star** is the same idea but with more than one switch connected together. This makes more sense for a company with 300 employees in different departments.
 
+In the Packet Tracer design, I used **4 switches for each department** and connected about **19 PCs per switch**. This gives a result a little over 300 devices, but it is used to represent the 300 employees in a simple way.
+
 ### 2. Why Extended Star Was Chosen Over Bus or Ring
 
 It is better than **Bus** or **Ring** for these reasons:
@@ -40,8 +42,14 @@ It is better than **Ring topology** because ring networks are not as easy to exp
 #### Router
 
 - Place **one router** at the edge of the network.
-- It works as the **Layer 3 device** that connects networks and separates broadcast domains.
-- It also handles routing between VLANs and can connect the LAN to outside networks.
+- It connects the network to other networks if needed.
+- It can also work with the DHCP setup.
+
+#### Server
+
+- Place **one server** near the core part of the network.
+- In this design, the server is used for **DHCP**.
+- The server IP is `192.168.1.2`.
 
 #### Core Switch
 
@@ -50,15 +58,16 @@ It is better than **Ring topology** because ring networks are not as easy to exp
 
 #### Access Switches
 
-- Place **access switches** in each department area.
+- Place **4 access switches** in each department area.
 - Departments like **HR**, **Technical Support**, **Management**, and **Accounting** connect to these switches.
+- Each switch has about **19 PCs** connected to it.
 - This keeps cabling organized and supports future growth.
 
 #### Wireless Access Points
 
 - Place **access points** in areas where mobile devices or guest wireless access are required.
 - They should be placed in central areas for better coverage.
-- A separate **Guest WiFi VLAN** can be used to improve security.
+- They are added to show where wireless coverage would be placed in the company.
 
 ### 4. Medium Selection: Fiber Optic vs UTP
 
@@ -81,6 +90,8 @@ UTP is better for this part because it is cheaper, easier to install, and common
 ### Suggested Building Design
 
 ![](figure-4.png)
+
+In the practical design, the network uses a simple **DHCP** setup so the PCs can receive IP addresses automatically instead of entering them one by one. This made the Packet Tracer work easier because the devices could be copied and pasted after one working setup was finished.
 
 ## Task 4
 

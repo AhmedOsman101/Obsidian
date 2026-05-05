@@ -80,21 +80,7 @@ UTP is better for this part because it is cheaper, easier to install, and common
 
 ### Suggested Building Design
 
-```text
-Internet/WAN
-    |
-  Router
-    |
-Core Switch
- |    |    |    |
-HR   Tech  Mgmt  Accounting
-SW   SW    SW    SW
- |    |     |      |
-PCs  PCs   PCs    PCs
-
-Guest WiFi Access Point(s) connected to switch infrastructure
-Server segment connected near the core
-```
+![](figure-4.png)
 
 ## Task 4
 

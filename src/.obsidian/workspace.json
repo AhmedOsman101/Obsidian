@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearTwo/secondTerm/CCNA/Assignments/PacketTracer-Steps-Assignment-2.draft.md",
+                "file": "draft.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "PacketTracer-Steps-Assignment-2.draft"
+              "title": "draft"
             }
           },
           {
@@ -37,8 +37,7 @@
               "title": "Assignment-2"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5,
-    "collapsed": true
+    "width": 302.5
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -202,12 +200,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "87669371e2a1f9bb",
+  "active": "54e6f419507f2825",
   "lastOpenFiles": [
-    "College/yearTwo/secondTerm/CCNA/Assignments/figure-4.png",
     "College/yearTwo/secondTerm/CCNA/Assignments/PacketTracer-Steps-Assignment-2.draft.md",
-    "College/yearTwo/secondTerm/CCNA/Tasks/PacketTracer-Steps.draft.md",
     "College/yearTwo/secondTerm/CCNA/Assignments/Assignment-2.md",
+    "College/yearTwo/secondTerm/CCNA/Assignments/figure-4.png",
+    "College/yearTwo/secondTerm/CCNA/Tasks/PacketTracer-Steps.draft.md",
     "College/yearTwo/firstTerm/C++/tasks/figure.png",
     "College/yearTwo/firstTerm/C++/tasks/figure-4.png",
     "College/yearTwo/firstTerm/C++/tasks/figure-3.png",
@@ -217,7 +215,6 @@
     "College/yearTwo/firstTerm/C++/Assignments/login.png",
     "College/yearTwo/firstTerm/C++/Assignments/login-2.png",
     "College/yearTwo/firstTerm/C++/Assignments/admin.png",
-    "College/yearTwo/firstTerm/C++/Assignments/add-college.png",
     "College/yearTwo/secondTerm/CCNA/models.json",
     "College/yearTwo/secondTerm/DataStructures/Assignments/Assignment-1.md",
     "College/yearTwo/secondTerm/DataStructures/Assignments/Assignment-1.mdcF7xXW.bck",

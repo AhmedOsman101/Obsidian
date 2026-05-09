@@ -1247,6 +1247,8 @@ Prim
 Pub
 Patients
 Plan
+PDO
+Parser
 IHDR
 IDATx
 IO
@@ -4001,6 +4003,8 @@ prescriptions
 played
 portals
 pasted
+parses
+persons
 sbf
 sPv
 sC
@@ -5554,6 +5558,7 @@ summaries
 subinterfaces
 subnetting
 screenshot
+sold
 ff
 fP
 fj
@@ -11842,6 +11847,7 @@ MOD
 MONTH
 Midterm
 Music
+MySQLi
 Lj
 Lf
 LvVa
@@ -19880,6 +19886,7 @@ referrals
 referral
 reception
 redraw
+rtl
 eiO
 es
 ee
@@ -23412,6 +23419,7 @@ EttTMMM
 Exact
 ENUM
 EXPLAIN
+Expat
 Sal
 SQ
 SB
@@ -24849,6 +24857,7 @@ Sessions
 Subnetting
 Stick
 Successful
+SimpleXML
 iH
 ic
 iP
@@ -37601,6 +37610,7 @@ kyzKJ
 kkkN
 kii
 kXzdd
+keeping
 Dp
 DI
 Db
@@ -45307,6 +45317,7 @@ chooses
 comprise
 cheapest
 clinical
+cookie
 Hu
 Hg
 HiL
@@ -46479,6 +46490,7 @@ HHhh
 HHHHHHHH
 Height
 Heaps
+HereDoc
 hh
 hLR
 hI
@@ -54347,6 +54359,7 @@ doctors
 doctor
 deletions
 discussing
+dir
 AK
 AQ
 Aya

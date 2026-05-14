@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearTwo/secondTerm/WebDev2/Tasks/Task-5.md",
+                "file": "College/yearTwo/secondTerm/WebDev2/Lectures/Lecture-4.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Task-5"
+              "title": "Lecture-4"
             }
           }
         ]
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5,
-    "collapsed": true
+    "width": 302.5
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -188,10 +187,20 @@
   },
   "active": "abeae770fed764c0",
   "lastOpenFiles": [
+    "College/yearTwo/secondTerm/WebDev2/Lectures/Lecture-3.md",
+    "College/yearTwo/secondTerm/WebDev2/Lectures/Lecture-2.md",
+    "College/yearTwo/secondTerm/WebDev2/Lectures/Lecture-4.md",
+    "College/yearTwo/secondTerm/WebDev2/Lectures/Lecture-1.md",
+    "College/yearTwo/secondTerm/WebDev2/Lectures/sedFQuRhI",
+    "College/yearTwo/secondTerm/WebDev2/Lectures/sedkHQ29s",
+    "College/yearTwo/secondTerm/WebDev2/Lectures/sedR7lOS0",
+    "College/yearTwo/secondTerm/WebDev2/Lectures/sedDLtgdp",
+    "College/yearTwo/secondTerm/WebDev2/Lectures/sedmtvJ48",
+    "College/yearTwo/secondTerm/WebDev2/Lectures/sedIAp64C",
+    "College/yearTwo/secondTerm/WebDev2/Tasks/Task-5.md",
     "College/yearTwo/secondTerm/DataStructures/Assignments/Assignment-1.md",
     "draft.md",
     "index.md",
-    "College/yearTwo/secondTerm/WebDev2/Tasks/Task-5.md",
     "College/yearTwo/secondTerm/CCNA/Assignments/Assignment-1.md",
     "Untitled/database.png",
     "Untitled/migration.png",
@@ -210,12 +219,6 @@
     "College/yearTwo/secondTerm/CCNA/models.json",
     "College/yearTwo/secondTerm/DataStructures/Assignments/Assignment-1.mdcF7xXW.bck",
     "College/yearTwo/secondTerm/DataStructures/Assignments/Assignment-1.mddQwSts.bck",
-    "College/yearTwo/secondTerm/DataStructures/Assignments/Assignment-1.mdWTJyvN.bck",
-    "College/yearTwo/secondTerm/DataStructures/Assignments/Assignment-1.mdGdaE8v.bck",
-    "College/yearTwo/secondTerm/DataStructures/Assignments/Assignment-1.mdLjz53A.bck",
-    "College/yearTwo/secondTerm/DataStructures/Assignments/Assignment-1.mdAqs7GR.bck",
-    "College/yearTwo/secondTerm/DataStructures/Assignments/Assignment-1.mdEoWRbL.bck",
-    "College/yearTwo/secondTerm/DataStructures/Assignments/Assignment-1.mdJwKJbe.bck",
     "College/yearTwo/secondTerm/DBProgramming/Tasks/Task-3.md",
     "College/yearTwo/secondTerm/DBProgramming/Tasks/Task-2.md",
     "College/yearTwo/secondTerm/DBProgramming/Tasks/Task-1.md",
@@ -229,10 +232,6 @@
     "College/yearTwo/secondTerm/DataStructures/Sections/Section-2.md",
     "College/yearTwo/secondTerm/DataStructures/Sections/Section-1.md",
     "College/yearTwo/secondTerm/CCNA/Notes.md",
-    "College/yearTwo/secondTerm/Java/Tasks/Task-1.md",
-    "College/yearTwo/secondTerm/DBProgramming/Lectures/Lecture-5.md",
-    "College/yearTwo/secondTerm/DBProgramming/Lectures/Lecture-6.md",
-    "College/yearTwo/secondTerm/DBProgramming/Lectures/Lecture-4.md",
-    "College/yearTwo/secondTerm/DBProgramming/Lectures/Lecture-3.md"
+    "College/yearTwo/secondTerm/Java/Tasks/Task-1.md"
   ]
 }

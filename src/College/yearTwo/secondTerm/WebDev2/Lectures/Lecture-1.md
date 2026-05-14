@@ -39,9 +39,7 @@ graph LR
 ### Hello World & Embedding
 
 ```php
-<?php
 print "Hello, world!"; // Outputs to browser
-?>
 ```
 
 - **`print`** outputs text. `\n` is for source formatting, not HTML line breaks.

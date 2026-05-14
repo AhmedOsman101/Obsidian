@@ -21,7 +21,8 @@ $a2[] = "Ooh!";                        // append — no index needed
 $a2[0] = "replaced";                   // set by index (zero-based)
 ```
 
-> [!CAUTION] `$a[]= value` appends; `$a[0] = value` overwrites index 0. Using a numeric index that skips positions creates sparse arrays — `count()` reflects actual elements, _not_ the highest index + 1 in sparse cases.
+> [!CAUTION]
+> `$a[]= value` appends; `$a[0] = value` overwrites index 0. Using a numeric index that skips positions creates sparse arrays — `count()` reflects actual elements, _not_ the highest index + 1 in sparse cases.
 
 ### Array Functions by Category
 
@@ -45,7 +46,8 @@ for ($i = 0; $i < count($arr); $i++) { echo $arr[$i]; }
 foreach ($arr as $item) { echo $item; }
 ```
 
-> [!NOTE] `foreach` cannot be used to _modify_ the original array by default. To modify in-place, use `foreach ($arr as &$item)` (pass by reference) or use a `for` loop with index assignment.
+> [!NOTE]
+> `foreach` cannot be used to _modify_ the original array by default. To modify in-place, use `foreach ($arr as &$item)` (pass by reference) or use a `for` loop with index assignment.
 
 ## Multidimensional Arrays
 
@@ -75,7 +77,8 @@ All string functions are case-sensitive unless the function name contains `case`
 | `str_replace($find, $rep, $str)` | Replace all occurrences                      | `replace`             |
 | `substr_replace`                 | Replace within a positional range            | —                     |
 
-> [!IMPORTANT] `strpos` returns `FALSE` (not `-1`) if not found. _Always use `=== FALSE`_ (strict equality) to check, because position `0` is falsy and `== FALSE` would incorrectly treat a match at index 0 as "not found."
+> [!IMPORTANT]
+> `strpos` returns `FALSE` (not `-1`) if not found. _Always use `=== FALSE`_ (strict equality) to check, because position `0` is falsy and `== FALSE` would incorrectly treat a match at index 0 as "not found."
 
 ## Regular Expressions
 
@@ -95,20 +98,21 @@ A **regular expression (regex)** is a pattern used to match text; PHP supports t
 
 **Embedded PHP** = PHP tags interspersed within HTML. The preferred style minimizes `print`/`echo` inside PHP blocks and uses **expression blocks** for output.
 
-```text
-&lt;?= expression ?&gt;     // shorthand — evaluates and prints expression
-// Equivalent to: &lt;?php print expression; ?&gt;
+```php
+<\?= expression \?>     // shorthand — evaluates and prints expression
+// Equivalent to: <\?php print expression; \?>
 
-&lt;h2&gt;Answer: &lt;?= 6 * 7 ?&gt;&lt;/h2&gt;   // outputs: Answer: 42
+<h2>Answer: <\?= 6 * 7 \?></h2>   // outputs: Answer: 42
 ```
 
-> [!CAUTION] ``&lt;? $i ?&gt;`` (missing `=`) is a **silent failure** — it runs but produces no output. ``&lt;?php`` without ``?&gt;`` closing before HTML causes parse errors labeled "unexpected `$end`".
+> [!CAUTION]
+> `<\? $i \?>` (missing `=`) is a **silent failure** — it runs but produces no output. `<\?php` without `\?>` closing before HTML causes parse errors labeled "unexpected `$end`".
 
 Expression blocks can embed _inside HTML tag names_:
 
-```text
-&lt;h&lt;?= $i ?&gt;&gt;Heading level &lt;?= $i ?&gt;&lt;/h&lt;?= $i ?&gt;&gt;
-// i=1 -> &lt;h1&gt;Heading level 1&lt;/h1&gt;
+```php
+<h<\?= $i \?>>Heading level <\?= $i \?></h<\?= $i ?>>
+// i=1 -> <h1>Heading level 1</h1>
 ```
 
 ## Functions
@@ -129,4 +133,5 @@ print_separated("hello");        // uses default ", "
 print_separated("hello", "-");   // overrides default
 ```
 
-> [!NOTE] Unlike Java, PHP functions do not declare return types or parameter types. Type errors surface at runtime, not compile time — a common source of silent bugs.
+> [!NOTE]
+> Unlike Java, PHP functions do not declare return types or parameter types. Type errors surface at runtime, not compile time — a common source of silent bugs.

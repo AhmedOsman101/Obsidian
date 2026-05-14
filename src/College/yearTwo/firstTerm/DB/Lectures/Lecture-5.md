@@ -200,7 +200,7 @@ Result:
 - **Order matters** in difference:
 
 ```
-A − B ≠ B − A
+A − B != B − A
 ```
 
 ## 9. Final Exam-Focused Summary

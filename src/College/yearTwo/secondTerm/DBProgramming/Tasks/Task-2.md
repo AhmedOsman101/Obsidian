@@ -60,7 +60,7 @@ FOREIGN KEY (dept_id) REFERENCES Departments(dept_id);
 
 -- 5 departments
 
-INSERT INTO Departments (dept_name) VALUES 
+INSERT INTO Departments (dept_name) VALUES
   ('Computer Science'),
   ('Mathematics'),
   ('Physics'),
@@ -146,7 +146,7 @@ RIGHT JOIN Departments d ON s.dept_id = d.dept_id;
 ```sql
 SELECT s.student_name, d.dept_name
 FROM Students s
-FULL OUTER JOIN Departments d 
+FULL OUTER JOIN Departments d
 ON s.dept_id = d.dept_id;
 ```
 
@@ -246,7 +246,6 @@ SELECT @total;
 **Output:**
 
 ![](figure-26.png)
-
 
 ---
 

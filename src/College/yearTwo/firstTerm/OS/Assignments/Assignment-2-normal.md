@@ -21,7 +21,7 @@
 
 ---
 
-### **2. Discuss the classic process synchronization problems and compare the different approaches used to solve the critical section problem.**
+### 2. Discuss the classic process synchronization problems and compare the different approaches used to solve the critical section problem.
 
 **Classic Synchronization Problems:**
 
@@ -89,7 +89,7 @@
 
 ---
 
-### **5. Discuss the main techniques used to recover from deadlocks.**
+### 5. Discuss the main techniques used to recover from deadlocks.
 
 **Two Main Recovery Techniques:**
 
@@ -104,7 +104,7 @@
 
 ---
 
-### **6. Describe the low-level implementation of memory management, including the ideas of page tables and swapping.**
+### 6. Describe the low-level implementation of memory management, including the ideas of page tables and swapping.
 
 **Memory Management Implementation:**
 
@@ -118,7 +118,7 @@
 
 ---
 
-### **7. Explain how segmentation and paging work and outline the different memory allocation strategies.**
+### 7. Explain how segmentation and paging work and outline the different memory allocation strategies.
 
 **Segmentation:**
 

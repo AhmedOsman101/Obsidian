@@ -21,7 +21,8 @@ title: Lecture 4
 | **Security** | _Bypassable_ — user can disable JS | Authoritative — cannot be skipped |
 | **Best for** | UX convenience                     | Data integrity & security         |
 
-> [!IMPORTANT] Client-side validation alone is **never sufficient**. A user can disable JavaScript or craft a manual HTTP request, bypassing it entirely. Server-side validation is mandatory; client-side is an optional UX enhancement.
+> [!IMPORTANT]
+> Client-side validation alone is **never sufficient**. A user can disable JavaScript or craft a manual HTTP request, bypassing it entirely. Server-side validation is mandatory; client-side is an optional UX enhancement.
 
 **Best practice:** implement **both** — client-side for speed, server-side for security.
 
@@ -43,7 +44,8 @@ if (!$city || strlen($state) != 2 || strlen($zip) != 5) {
 }
 ```
 
-> [!CAUTION] `!$city` is TRUE if `$city` is empty string, `"0"`, `NULL`, or not set — all falsy. This is intentional for "blank field" checks, but _will incorrectly reject the string `"0"` as a city name_. Use `!isset($city) || $city === ""` for strict blank-only checks.
+> [!CAUTION]
+> `!$city` is TRUE if `$city` is empty string, `"0"`, `NULL`, or not set — all falsy. This is intentional for "blank field" checks, but _will incorrectly reject the string `"0"` as a city name_. Use `!isset($city) || $city === ""` for strict blank-only checks.
 
 ## Regular Expressions (Perl-Compatible / PREG)
 
@@ -89,7 +91,8 @@ A **regular expression (regex)** is a pattern that describes a set of matching s
 - **`()`** = grouping for quantifiers or OR scope: `/(very){2}/`
 - **`\`** = escape literal special characters: `/\./` matches a literal dot
 
-> [!CAUTION] Inside `[]` (character sets), most special characters lose their meaning and match literally — _except_ `^` (negation when first), `-` (range), and `\` (escape). So `/[+*?]/` matches literal `+`, `*`, or `?` without escaping.
+> [!CAUTION]
+> Inside `[]` (character sets), most special characters lose their meaning and match literally — _except_ `^` (negation when first), `-` (range), and `\` (escape). So `/[+*?]/` matches literal `+`, `*`, or `?` without escaping.
 
 ## PHP PREG Functions
 
@@ -110,7 +113,8 @@ preg_split("/[ ]+/", $str)
 | `preg_replace(regex, repl, str)` | New string     | Sanitize/transform input       |
 | `preg_split(regex, str)`         | Array          | Tokenize on complex delimiters |
 
-> [!NOTE] `preg_match` stops at the **first** match — it does not count or find all occurrences. To find all matches, use `preg_match_all`.
+> [!NOTE]
+> `preg_match` stops at the **first** match — it does not count or find all occurrences. To find all matches, use `preg_match_all`.
 
 ## Validation Pattern: Combining `$_REQUEST` + PREG
 
@@ -125,4 +129,5 @@ if (!preg_match("/^[A-Z]{2}$/", $state)) {
 }
 ```
 
-> [!IMPORTANT] Anchor with `^` and `$` when validating whole-field values. Without anchors, `/[A-Z]{2}/` matches `"aXYz"` because it finds "XY" inside the string — it does **not** require the entire string to be 2 uppercase letters.
+> [!IMPORTANT]
+> Anchor with `^` and `$` when validating whole-field values. Without anchors, `/[A-Z]{2}/` matches `"aXYz"` because it finds "XY" inside the string — it does **not** require the entire string to be 2 uppercase letters.

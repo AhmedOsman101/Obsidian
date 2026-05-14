@@ -49,10 +49,10 @@ flowchart TD
 
 Switches use **ASICs (application-specific integrated circuits)** to make fast forwarding decisions. The lecture gives two forwarding methods, and the exam trap is speed versus error handling.
 
-| Method | How it works | Main tradeoff |
-| --- | --- | --- |
-| **Store-and-forward** | Receives the entire frame before forwarding | Higher delay, better validation |
-| **Cut-through** | Starts forwarding as soon as destination MAC is read | Lower delay, weaker error protection |
+| Method                | How it works                                         | Main tradeoff                        |
+| --------------------- | ---------------------------------------------------- | ------------------------------------ |
+| **Store-and-forward** | Receives the entire frame before forwarding          | Higher delay, better validation      |
+| **Cut-through**       | Starts forwarding as soon as destination MAC is read | Lower delay, weaker error protection |
 
 **Store-and-forward switching** is Cisco's preferred method because it checks the whole frame before forwarding it. **Cut-through switching** is used when very low latency is the priority, so the switch sacrifices some checking to forward faster.
 
@@ -72,13 +72,13 @@ This method discards bad frames and can handle different ingress and egress spee
 
 The **fragment-free** variation checks that the frame is at least **64 bytes**, which eliminates **runts**. That check improves on basic cut-through, but it still does not provide full FCS validation.
 
-| Feature | **Store-and-forward** | **Cut-through** |
-| --- | --- | --- |
-| Frame reception | Entire frame | Partial frame |
-| FCS check | Yes | No |
-| Error propagation | Lower | Higher |
-| Speed mismatch support | Yes | No |
-| Best use | Reliability | Very low latency |
+| Feature                | **Store-and-forward** | **Cut-through**  |
+| ---------------------- | --------------------- | ---------------- |
+| Frame reception        | Entire frame          | Partial frame    |
+| FCS check              | Yes                   | No               |
+| Error propagation      | Lower                 | Higher           |
+| Speed mismatch support | Yes                   | No               |
+| Best use               | Reliability           | Very low latency |
 
 ## Collision Domains
 
@@ -90,7 +90,7 @@ Switches reduce congestion by separating traffic, and with **full duplex** links
 - **Half-duplex**: collisions are possible.
 - More devices in one collision domain: more contention and more retransmissions.
 
-*Collision does not happen between two devices connected to different switch ports.* That is the key switch advantage compared with shared-media behavior.
+_Collision does not happen between two devices connected to different switch ports._ That is the key switch advantage compared with shared-media behavior.
 
 > [!IMPORTANT]
 > Most devices use **auto-negotiation** by default for duplex and speed, so mismatched duplex settings can affect whether collisions occur.
@@ -103,12 +103,12 @@ Only a **Layer 3 device**, such as a **router**, breaks a broadcast domain. The 
 
 If the number of devices in the broadcast domain increases, the number of broadcasts also increases, and performance can drop because all hosts must process those broadcast frames.
 
-| Topic | **Broadcast domain** | **Collision domain** |
-| --- | --- | --- |
-| Traffic type | Broadcast traffic | Simultaneous transmissions on shared media |
-| Broken by | **Router / Layer 3 device** | **Switch ports** and full-duplex links |
-| Effect of growth | More broadcast load | More collision risk |
-| Switch behavior | Floods broadcast frames | Separates ports to reduce collisions |
+| Topic            | **Broadcast domain**        | **Collision domain**                       |
+| ---------------- | --------------------------- | ------------------------------------------ |
+| Traffic type     | Broadcast traffic           | Simultaneous transmissions on shared media |
+| Broken by        | **Router / Layer 3 device** | **Switch ports** and full-duplex links     |
+| Effect of growth | More broadcast load         | More collision risk                        |
+| Switch behavior  | Floods broadcast frames     | Separates ports to reduce collisions       |
 
 ```text
 # Purpose: exam memory rule for domains

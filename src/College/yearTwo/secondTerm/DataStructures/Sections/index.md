@@ -15,3 +15,4 @@ title: Sections
 - [Section 4](Section-4.md)
 - [Section 5](Section-5.md)
 - [Section 6](Section-6.md)
+- [Section 7](Section-7.md)

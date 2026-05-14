@@ -16,13 +16,13 @@ An **aggregate function** returns one summarized value from many rows. This matt
 
 **`MIN()`** returns the smallest value in the selected column, while **`MAX()`** returns the largest. **`COUNT()`** returns the number of rows matching a criterion. **`AVG()`** returns the average of a numeric column, and **`SUM()`** returns the total of a numeric column. The boundary is important: `AVG()` and `SUM()` are numeric summaries, while `MIN()` and `MAX()` depend on the column's ordering rules.
 
-| Function | Result returned | Common trap |
-| -------- | --------------- | ----------- |
-| **`MIN()`** | Smallest value | Not the row itself unless selected separately |
-| **`MAX()`** | Largest value | Same trap as `MIN()` |
-| **`COUNT()`** | Number of matching rows | May ignore `NULL` values in a counted column |
-| **`AVG()`** | Average numeric value | Ignores `NULL` values |
-| **`SUM()`** | Total numeric value | Ignores `NULL` values |
+| Function      | Result returned         | Common trap                                   |
+| ------------- | ----------------------- | --------------------------------------------- |
+| **`MIN()`**   | Smallest value          | Not the row itself unless selected separately |
+| **`MAX()`**   | Largest value           | Same trap as `MIN()`                          |
+| **`COUNT()`** | Number of matching rows | May ignore `NULL` values in a counted column  |
+| **`AVG()`**   | Average numeric value   | Ignores `NULL` values                         |
+| **`SUM()`**   | Total numeric value     | Ignores `NULL` values                         |
 
 ## NULL Behavior in Aggregate Functions
 
@@ -83,10 +83,10 @@ The **`IFNULL()`** function returns an alternative value when the expression is 
 
 The **`NULLIF()`** function returns `NULL` if two expressions are equal; otherwise, it returns the first expression. This matters because it can convert a known unwanted match into null for later handling. The boundary is that `IFNULL()` replaces nulls, while `NULLIF()` can create a null when equality occurs.
 
-| Function | What it does | Typical use |
-| -------- | ------------ | ----------- |
-| **`IFNULL(expr, alt)`** | Replaces null with `alt` | Show default value |
-| **`NULLIF(expr1, expr2)`** | Returns `NULL` if equal | Suppress matching value |
+| Function                   | What it does             | Typical use             |
+| -------------------------- | ------------------------ | ----------------------- |
+| **`IFNULL(expr, alt)`**    | Replaces null with `alt` | Show default value      |
+| **`NULLIF(expr1, expr2)`** | Returns `NULL` if equal  | Suppress matching value |
 
 ## String Functions: Join, Replace, Insert, and Extract
 

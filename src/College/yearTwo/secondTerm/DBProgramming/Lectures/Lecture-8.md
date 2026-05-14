@@ -35,10 +35,10 @@ CALL procedure_name();
 
 This matters because the parameter mode defines where data starts and where it finishes after execution.
 
-| Parameter mode | Value enters procedure | Value leaves procedure | Typical use |
-| -------------- | ---------------------- | ---------------------- | ----------- |
+| Parameter mode | Value enters procedure | Value leaves procedure | Typical use         |
+| -------------- | ---------------------- | ---------------------- | ------------------- |
 | **IN**         | Yes                    | No                     | Search/filter input |
-| **OUT**        | No                     | Yes                    | Return one result |
+| **OUT**        | No                     | Yes                    | Return one result   |
 | **INOUT**      | Yes                    | Yes                    | Modify passed value |
 
 > [!WARNING]
@@ -80,11 +80,11 @@ Trigger administration uses **`CREATE TRIGGER`**, **`SHOW TRIGGERS`**, and **`DR
 
 A **view** is a **virtual table** based on the result set of an SQL statement. It has rows and columns like a real table, but its fields come from one or more real tables, so the view stores the query definition rather than independent base data. Views are used to structure data, restrict access, and summarize data for reports.
 
-| Object | Stores executable logic | Runs automatically | Accepts parameters | Acts like a table |
-| ------ | ----------------------- | ------------------ | ------------------ | ----------------- |
-| **Procedure** | Yes | No | Yes | No |
-| **Trigger**   | Yes | Yes | No | No |
-| **View**      | No  | No | No | Yes, virtually |
+| Object        | Stores executable logic | Runs automatically | Accepts parameters | Acts like a table |
+| ------------- | ----------------------- | ------------------ | ------------------ | ----------------- |
+| **Procedure** | Yes                     | No                 | Yes                | No                |
+| **Trigger**   | Yes                     | Yes                | No                 | No                |
+| **View**      | No                      | No                 | No                 | Yes, virtually    |
 
 ## View Rules and Indexes
 

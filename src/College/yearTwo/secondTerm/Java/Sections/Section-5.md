@@ -41,14 +41,14 @@ for (int i = 0; i < a.length; i++) {
 }
 ```
 
-| Concept | Meaning | Boundary |
-| --- | --- | --- |
-| **`a.length`** | number of elements | Property, not a method |
-| **Index** | element position | Valid indices are `0` to `length - 1` |
-| **Traversal** | visiting each element | Stop before `i == a.length` |
+| Concept        | Meaning               | Boundary                              |
+| -------------- | --------------------- | ------------------------------------- |
+| **`a.length`** | number of elements    | Property, not a method                |
+| **Index**      | element position      | Valid indices are `0` to `length - 1` |
+| **Traversal**  | visiting each element | Stop before `i == a.length`           |
 
 > [!WARNING]
-> *Using `i <= a.length` causes an invalid final index.* The last valid index is always `a.length - 1`.
+> _Using `i <= a.length` causes an invalid final index._ The last valid index is always `a.length - 1`.
 
 ## Two-Dimensional and Jagged Arrays
 
@@ -80,10 +80,10 @@ arr[1] = new int[4];
 arr[2] = new int[2];
 ```
 
-| Array form | Row sizes | Initialization rule |
-| --- | --- | --- |
-| **Regular 2D array** | same number of columns | allocate rows and columns together |
-| **Jagged array** | different columns per row | allocate each row separately |
+| Array form           | Row sizes                 | Initialization rule                |
+| -------------------- | ------------------------- | ---------------------------------- |
+| **Regular 2D array** | same number of columns    | allocate rows and columns together |
+| **Jagged array**     | different columns per row | allocate each row separately       |
 
 ## `for-each` Traversal and Array Access
 
@@ -100,7 +100,7 @@ for (int i : arr) {
 Why this works: each iteration copies the current element into the loop variable, then executes the body. The loop continues until the last element is processed.
 
 > [!NOTE]
-> *`for-each` is good for reading elements, but it does not expose index positions directly.* If index-based logic is needed, use a standard `for` loop.
+> _`for-each` is good for reading elements, but it does not expose index positions directly._ If index-based logic is needed, use a standard `for` loop.
 
 ## Passing, Anonymous, and Returned Arrays
 
@@ -132,7 +132,7 @@ static int[] get() {
 ```
 
 > [!IMPORTANT]
-> *Anonymous arrays are useful when the array is needed for one call only and does not need a named variable.*
+> _Anonymous arrays are useful when the array is needed for one call only and does not need a named variable._
 
 ## Exceptions and Matrix Operations
 
@@ -174,4 +174,4 @@ arr[arr.length - 1] = first;
 - **Rotation logic**: save the first element before shifting, or its value will be lost.
 
 > [!WARNING]
-> *In left rotation, if the first element is not saved before shifting, it is overwritten and cannot be restored at the end.*
+> _In left rotation, if the first element is not saved before shifting, it is overwritten and cannot be restored at the end._

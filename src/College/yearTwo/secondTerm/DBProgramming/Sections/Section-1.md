@@ -16,11 +16,11 @@ title: Section 1
 
 The boundary is important for exams: SQL is the language, while **MySQL** is a relational database program that uses SQL queries. SQL defines commands; MySQL executes them.
 
-| Term | Meaning | Boundary |
-| ---- | ------- | -------- |
-| **SQL** | Language for database operations | Not the database software itself |
-| **Relational database** | Data stored in related tables | Not graph, document, or key-value storage |
-| **MySQL** | Open-source relational DBMS | Uses SQL rather than replacing it |
+| Term                    | Meaning                          | Boundary                                  |
+| ----------------------- | -------------------------------- | ----------------------------------------- |
+| **SQL**                 | Language for database operations | Not the database software itself          |
+| **Relational database** | Data stored in related tables    | Not graph, document, or key-value storage |
+| **MySQL**               | Open-source relational DBMS      | Uses SQL rather than replacing it         |
 
 ## SQL System Components and Data Units
 
@@ -73,13 +73,13 @@ SQL commands are grouped by purpose. **Data Definition Language (DDL)** designs 
 
 **Data Control Language (DCL)** manages access rights, such as **`GRANT`**, while **Transaction Control Language (TCL)** manages transaction outcomes, such as **`ROLLBACK`** to undo an erroneous transaction. The exam trap is confusing structure commands with data commands.
 
-| Category | Main purpose | Example command | Key boundary |
-| -------- | ------------ | --------------- | ------------ |
-| **DDL** | Define structure | **`CREATE`** | Changes objects, not row content |
-| **DQL** | Retrieve data | **`SELECT`** | Reads without defining structure |
-| **DML** | Insert or modify data | **`INSERT`** | Changes records |
-| **DCL** | Control permissions | **`GRANT`** | Manages user access |
-| **TCL** | Control transactions | **`ROLLBACK`** | Reverses transaction effects |
+| Category | Main purpose          | Example command | Key boundary                     |
+| -------- | --------------------- | --------------- | -------------------------------- |
+| **DDL**  | Define structure      | **`CREATE`**    | Changes objects, not row content |
+| **DQL**  | Retrieve data         | **`SELECT`**    | Reads without defining structure |
+| **DML**  | Insert or modify data | **`INSERT`**    | Changes records                  |
+| **DCL**  | Control permissions   | **`GRANT`**     | Manages user access              |
+| **TCL**  | Control transactions  | **`ROLLBACK`**  | Reverses transaction effects     |
 
 ## Normalization, Integrity, and Security
 

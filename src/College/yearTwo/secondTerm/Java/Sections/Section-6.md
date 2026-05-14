@@ -39,14 +39,14 @@ Why this works: Java separates risky code from recovery code so the program can 
 
 Java allows **multiple catch blocks** with one `try` block when different exceptions require different handling. The section gives two important exam rules. First, **only one exception occurs at a time**, so **only one catch block executes** for that failure. Second, catch blocks must be ordered from the **most specific** type to the **most general** type.
 
-| Rule | Meaning | Exam trap |
-| --- | --- | --- |
-| **One exception at a time** | one thrown error selects one handler | Do not expect all catches to run |
-| **Specific before general** | narrower type goes first | `ArithmeticException` before `Exception` |
-| **`catch` after `try`** | handler follows risky code | `catch` cannot stand alone |
+| Rule                        | Meaning                              | Exam trap                                |
+| --------------------------- | ------------------------------------ | ---------------------------------------- |
+| **One exception at a time** | one thrown error selects one handler | Do not expect all catches to run         |
+| **Specific before general** | narrower type goes first             | `ArithmeticException` before `Exception` |
+| **`catch` after `try`**     | handler follows risky code           | `catch` cannot stand alone               |
 
 > [!WARNING]
-> *If a general catch like `Exception` appears before a specific one like `ArithmeticException`, the ordering is wrong for the rule shown in the section.*
+> _If a general catch like `Exception` appears before a specific one like `ArithmeticException`, the ordering is wrong for the rule shown in the section._
 
 ## File Handling and Java Streams
 
@@ -54,10 +54,10 @@ Java allows **multiple catch blocks** with one `try` block when different except
 
 There are two stream categories in the source:
 
-| Stream type | Used for | Example classes |
-| --- | --- | --- |
-| **Byte Stream** | byte-oriented data such as images, audio, and binary files | `FileInputStream`, `FileOutputStream` |
-| **Character Stream** | character-oriented data such as text files | `FileReader`, `FileWriter`, `BufferedReader`, `BufferedWriter` |
+| Stream type          | Used for                                                   | Example classes                                                |
+| -------------------- | ---------------------------------------------------------- | -------------------------------------------------------------- |
+| **Byte Stream**      | byte-oriented data such as images, audio, and binary files | `FileInputStream`, `FileOutputStream`                          |
+| **Character Stream** | character-oriented data such as text files                 | `FileReader`, `FileWriter`, `BufferedReader`, `BufferedWriter` |
 
 Why this distinction matters: the data type of the file content decides which stream family is appropriate, especially when comparing text processing with binary data processing.
 
@@ -65,20 +65,20 @@ Why this distinction matters: the data type of the file content decides which st
 
 The **`File`** class is used to work with file paths and file properties. The lecture highlights several methods that are common in direct exam questions. You should know both the method name and its exact purpose.
 
-| Method | Purpose |
-| --- | --- |
-| **`canRead()`** | checks whether the file can be read |
-| **`canWrite()`** | checks whether the file can be written |
-| **`createNewFile()`** | creates a new empty file |
-| **`exists()`** | checks whether the file is present |
-| **`delete()`** | deletes the file |
-| **`mkdir()`** | creates a new directory |
-| **`length()`** | returns file size in bytes |
-| **`getName()`** | returns the file name |
-| **`getAbsolutePath()`** | returns the absolute path |
+| Method                  | Purpose                                |
+| ----------------------- | -------------------------------------- |
+| **`canRead()`**         | checks whether the file can be read    |
+| **`canWrite()`**        | checks whether the file can be written |
+| **`createNewFile()`**   | creates a new empty file               |
+| **`exists()`**          | checks whether the file is present     |
+| **`delete()`**          | deletes the file                       |
+| **`mkdir()`**           | creates a new directory                |
+| **`length()`**          | returns file size in bytes             |
+| **`getName()`**         | returns the file name                  |
+| **`getAbsolutePath()`** | returns the absolute path              |
 
 > [!NOTE]
-> *`length()` returns the file size in bytes, not the number of lines or characters as written on the page.*
+> _`length()` returns the file size in bytes, not the number of lines or characters as written on the page._
 
 ## Core File Operations in the Examples
 
@@ -97,7 +97,7 @@ dataReader.close();
 
 ## File-Handling Flow and Common Exam Checks
 
-The section’s file examples follow a repeated decision pattern: create or open a `File` object, test a condition, perform the action, then report success or failure. This pattern is useful because most file operations can fail due to missing files or input/output problems.
+The section's file examples follow a repeated decision pattern: create or open a `File` object, test a condition, perform the action, then report success or failure. This pattern is useful because most file operations can fail due to missing files or input/output problems.
 
 ```mermaid
 flowchart TD
@@ -113,4 +113,4 @@ flowchart TD
 - **Writing** may throw `IOException`.
 
 > [!WARNING]
-> *Do not forget `close()` after using `FileWriter` or `Scanner` in the shown examples, because the lecture code explicitly closes both resources after use.*
+> _Do not forget `close()` after using `FileWriter` or `Scanner` in the shown examples, because the lecture code explicitly closes both resources after use._

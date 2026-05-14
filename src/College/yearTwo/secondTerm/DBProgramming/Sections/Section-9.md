@@ -14,14 +14,14 @@ A **`JOIN`** clause combines rows from two or more tables based on a related col
 
 The key boundary is that a join does **not** merge tables permanently. It builds a result set by matching rows, and each join type differs in how it handles unmatched rows.
 
-| Join type | What it returns | Key boundary |
-| --------- | --------------- | ------------ |
-| **`INNER JOIN`** | Only matching rows in both tables | Unmatched rows are excluded |
-| **`LEFT JOIN`** | All rows from left table + matching right rows | Left side always appears |
-| **`RIGHT JOIN`** | All rows from right table + matching left rows | Right side always appears |
-| **`FULL OUTER JOIN`** | All rows from both tables | Can produce a very large result |
-| **`SELF JOIN`** | A table joined with itself | Requires aliases |
-| **`CROSS JOIN`** | Every row of table1 with every row of table2 | Row counts multiply |
+| Join type             | What it returns                                | Key boundary                    |
+| --------------------- | ---------------------------------------------- | ------------------------------- |
+| **`INNER JOIN`**      | Only matching rows in both tables              | Unmatched rows are excluded     |
+| **`LEFT JOIN`**       | All rows from left table + matching right rows | Left side always appears        |
+| **`RIGHT JOIN`**      | All rows from right table + matching left rows | Right side always appears       |
+| **`FULL OUTER JOIN`** | All rows from both tables                      | Can produce a very large result |
+| **`SELF JOIN`**       | A table joined with itself                     | Requires aliases                |
+| **`CROSS JOIN`**      | Every row of table1 with every row of table2   | Row counts multiply             |
 
 ## INNER JOIN: Keep Only Matches
 
@@ -52,12 +52,12 @@ INNER JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID);
 
 **`LEFT JOIN`** returns all records from the left table and matching records from the right table. If no right-side match exists, the left row still appears. **`RIGHT JOIN`** does the opposite.
 
-The exam question is usually: *which table must always be preserved?* If all customers must appear, use `LEFT JOIN` with `Customers` on the left. If all employees must appear, use `RIGHT JOIN` with `Employees` on the right.
+The exam question is usually: _which table must always be preserved?_ If all customers must appear, use `LEFT JOIN` with `Customers` on the left. If all employees must appear, use `RIGHT JOIN` with `Employees` on the right.
 
-| Join | Guaranteed rows | Typical example |
-| ---- | ---------------- | --------------- |
-| **`LEFT JOIN`** | Every row from left table | All customers, with any orders they may have |
-| **`RIGHT JOIN`** | Every row from right table | All employees, with any orders they placed |
+| Join             | Guaranteed rows            | Typical example                              |
+| ---------------- | -------------------------- | -------------------------------------------- |
+| **`LEFT JOIN`**  | Every row from left table  | All customers, with any orders they may have |
+| **`RIGHT JOIN`** | Every row from right table | All employees, with any orders they placed   |
 
 ```sql
 -- Purpose: Return all customers, with matching orders if they exist
@@ -126,11 +126,11 @@ CROSS JOIN Shippers;
 
 The final slide briefly revisits the **stored procedure**. A **procedure** is a collection of pre-compiled SQL statements stored inside the database. It contains a **name**, a **parameter list**, and SQL statements. The section also repeats the three parameter modes: **`IN`**, **`OUT`**, and **`INOUT`**.
 
-| Parameter type | Direction | Meaning |
-| -------------- | --------- | ------- |
-| **`IN`** | Into procedure | Supplies an input value |
-| **`OUT`** | Out of procedure | Returns a value |
-| **`INOUT`** | Both directions | Receives and returns a value |
+| Parameter type | Direction        | Meaning                      |
+| -------------- | ---------------- | ---------------------------- |
+| **`IN`**       | Into procedure   | Supplies an input value      |
+| **`OUT`**      | Out of procedure | Returns a value              |
+| **`INOUT`**    | Both directions  | Receives and returns a value |
 
 ```sql
 -- Purpose: Show the main stored procedure structure
@@ -142,10 +142,10 @@ END;
 
 ## High-Yield Contrast Pairs
 
-| Pair | Key difference |
-| ---- | -------------- |
-| **`INNER JOIN`** vs. **`LEFT JOIN`** | Inner keeps only matches; left preserves all left rows |
-| **`LEFT JOIN`** vs. **`RIGHT JOIN`** | Preserved side changes from left to right |
-| **`RIGHT JOIN`** vs. **`FULL OUTER JOIN`** | Right preserves one side; full preserves both |
-| **`SELF JOIN`** vs. **`CROSS JOIN`** | Self reuses one table; cross pairs every row of two tables |
-| **`IN`** vs. **`OUT`** vs. **`INOUT`** | Input only, output only, or both |
+| Pair                                       | Key difference                                             |
+| ------------------------------------------ | ---------------------------------------------------------- |
+| **`INNER JOIN`** vs. **`LEFT JOIN`**       | Inner keeps only matches; left preserves all left rows     |
+| **`LEFT JOIN`** vs. **`RIGHT JOIN`**       | Preserved side changes from left to right                  |
+| **`RIGHT JOIN`** vs. **`FULL OUTER JOIN`** | Right preserves one side; full preserves both              |
+| **`SELF JOIN`** vs. **`CROSS JOIN`**       | Self reuses one table; cross pairs every row of two tables |
+| **`IN`** vs. **`OUT`** vs. **`INOUT`**     | Input only, output only, or both                           |

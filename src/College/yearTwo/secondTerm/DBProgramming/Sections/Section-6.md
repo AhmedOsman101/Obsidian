@@ -33,11 +33,11 @@ The **`WHERE`** clause extracts only records that fulfill a specified condition.
 
 `WHERE` conditions are often combined with **`AND`**, **`OR`**, and **`NOT`**. **`AND`** requires all connected conditions to be true. **`OR`** requires at least one condition to be true. **`NOT`** reverses the truth of a condition. Parentheses matter in complex expressions because they control grouping and therefore the final logic.
 
-| Operator | Result rule | Exam trap |
-| -------- | ----------- | --------- |
+| Operator  | Result rule                 | Exam trap                 |
+| --------- | --------------------------- | ------------------------- |
 | **`AND`** | All conditions must be true | Stronger filter than `OR` |
-| **`OR`** | Any condition may be true | Can return many more rows |
-| **`NOT`** | Reverses the condition | Must be placed carefully |
+| **`OR`**  | Any condition may be true   | Can return many more rows |
+| **`NOT`** | Reverses the condition      | Must be placed carefully  |
 
 > [!IMPORTANT]
 > _In complex filters, parentheses decide how `AND` and `OR` combine; without them, the meaning may change._

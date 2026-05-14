@@ -43,16 +43,16 @@ public class ScannerExample1 {
 
 Each **`Scanner` method** reads a specific kind of token. Choosing the wrong method causes wrong parsing.
 
-| Method | Reads | Main boundary |
-| --- | --- | --- |
-| **`nextByte()`** | next token as `byte` | Not for large integers |
-| **`nextShort()`** | next token as `short` | Not for text |
-| **`nextInt()`** | next token as `int` | Not for decimals |
-| **`nextLong()`** | next token as `long` | Larger integer range |
-| **`nextFloat()`** | next token as `float` | Decimal input |
+| Method             | Reads                  | Main boundary                  |
+| ------------------ | ---------------------- | ------------------------------ |
+| **`nextByte()`**   | next token as `byte`   | Not for large integers         |
+| **`nextShort()`**  | next token as `short`  | Not for text                   |
+| **`nextInt()`**    | next token as `int`    | Not for decimals               |
+| **`nextLong()`**   | next token as `long`   | Larger integer range           |
+| **`nextFloat()`**  | next token as `float`  | Decimal input                  |
 | **`nextDouble()`** | next token as `double` | Higher-precision decimal input |
-| **`next()`** | next complete token | Stops at whitespace |
-| **`nextLine()`** | full line of text | Keeps spaces |
+| **`next()`**       | next complete token    | Stops at whitespace            |
+| **`nextLine()`**   | full line of text      | Keeps spaces                   |
 
 ```java
 // Purpose: read multiple data types in one program.
@@ -72,19 +72,19 @@ public class ScannerExample2 {
 ```
 
 > [!WARNING]
-> *If the input contains spaces, **`next()`** stops at the first space. For full names or full sentences, use **`nextLine()`** instead.*
+> _If the input contains spaces, **`next()`** stops at the first space. For full names or full sentences, use **`nextLine()`** instead._
 
 ## Unary Operators and Evaluation Order
 
 **Unary operators** act on one operand only. The section emphasizes **`+`**, **`-`**, **`++`**, and **`--`**. The key exam boundary is **prefix vs. postfix** evaluation: **prefix** changes the variable before use, while **postfix** uses the current value first and then changes it.
 
-| Operator | Meaning | Order rule |
-| --- | --- | --- |
-| **`+`** | positive value | Keeps sign positive |
-| **`-`** | negative value | Reverses sign |
-| **`++x`** | pre-increment | Increment first, then use |
+| Operator  | Meaning        | Order rule                |
+| --------- | -------------- | ------------------------- |
+| **`+`**   | positive value | Keeps sign positive       |
+| **`-`**   | negative value | Reverses sign             |
+| **`++x`** | pre-increment  | Increment first, then use |
 | **`x++`** | post-increment | Use first, then increment |
-| **`--x`** | pre-decrement | Decrement first, then use |
+| **`--x`** | pre-decrement  | Decrement first, then use |
 | **`x--`** | post-decrement | Use first, then decrement |
 
 ```java
@@ -98,20 +98,20 @@ int y = b++;
 Why this matters: after `int x = ++a;`, both `a` and `x` become `6`, but after `int y = b++;`, `y` is `5` and `b` becomes `6` afterward.
 
 > [!NOTE]
-> *String concatenation also depends on evaluation order.* `"i + j = " + i + j` joins text left to right, while `"i + j = " + (i + j)` forces arithmetic first.
+> _String concatenation also depends on evaluation order._ `"i + j = " + i + j` joins text left to right, while `"i + j = " + (i + j)` forces arithmetic first.
 
 ## Relational Operators and Boolean Results
 
 **Relational operators** compare two operands and produce a **Boolean** result: either **`true`** or **`false`**. They answer whether a relationship holds.
 
-| Operator | Meaning |
-| --- | --- |
-| **`<`** | less than |
-| **`>`** | greater than |
-| **`<=`** | less than or equal |
+| Operator | Meaning               |
+| -------- | --------------------- |
+| **`<`**  | less than             |
+| **`>`**  | greater than          |
+| **`<=`** | less than or equal    |
 | **`>=`** | greater than or equal |
-| **`==`** | equal to |
-| **`!=`** | not equal to |
+| **`==`** | equal to              |
+| **`!=`** | not equal to          |
 
 ```java
 // Purpose: compare two values and print Boolean results.
@@ -133,12 +133,12 @@ Why this matters: decision statements such as **`if`** depend on Boolean results
 
 The section focuses on **`if` statements**, which execute code only when a condition is true. Java uses four forms:
 
-| Form | When to use | Boundary |
-| --- | --- | --- |
-| **Simple `if`** | One action only when condition is true | No false branch |
-| **`if-else`** | Choose between two paths | Exactly one branch runs |
-| **`if-else-if` ladder** | Test multiple conditions in order | First true condition stops further checks |
-| **Nested `if`** | Test a second condition inside another condition | Inner test depends on outer test |
+| Form                    | When to use                                      | Boundary                                  |
+| ----------------------- | ------------------------------------------------ | ----------------------------------------- |
+| **Simple `if`**         | One action only when condition is true           | No false branch                           |
+| **`if-else`**           | Choose between two paths                         | Exactly one branch runs                   |
+| **`if-else-if` ladder** | Test multiple conditions in order                | First true condition stops further checks |
+| **Nested `if`**         | Test a second condition inside another condition | Inner test depends on outer test          |
 
 > [!IMPORTANT]
 > **`if` conditions must evaluate to a Boolean value.** If the condition is false, the `if` body is skipped.
@@ -169,7 +169,7 @@ flowchart TD
 4. In nested `if`, the inner check runs only after the outer check passes.
 
 > [!WARNING]
-> *In an `if-else-if` ladder, later conditions are ignored after the first true one. Order can therefore change the final result.*
+> _In an `if-else-if` ladder, later conditions are ignored after the first true one. Order can therefore change the final result._
 
 ## Exam Tasks: Number Logic Patterns
 

@@ -31,10 +31,10 @@ A **column alias** changes how a result column is displayed, while a **table ali
 
 If two or more columns are combined into one result, a column alias is often used to label the combined expression. If two or more tables are involved, table aliases reduce repetition and make each column source easier to identify. In joined queries, using aliases can prevent ambiguity when tables share column names.
 
-| Alias type | Applied to | Main benefit | Boundary |
-| ---------- | ---------- | ------------ | -------- |
-| **Column alias** | Result column | Better output name | Does not shorten table references |
-| **Table alias** | Table in query | Shorter query syntax | Does not rename table permanently |
+| Alias type       | Applied to     | Main benefit         | Boundary                          |
+| ---------------- | -------------- | -------------------- | --------------------------------- |
+| **Column alias** | Result column  | Better output name   | Does not shorten table references |
+| **Table alias**  | Table in query | Shorter query syntax | Does not rename table permanently |
 
 ## GROUP BY and Aggregate Logic
 
@@ -79,10 +79,10 @@ flowchart TD
   D --> E[Remember endpoints are included]
 ```
 
-| Operator | Best use | Includes endpoints? |
-| -------- | -------- | ------------------- |
-| **IN** | Exact listed values | Not a range |
-| **BETWEEN** | Continuous range | **Yes** |
+| Operator    | Best use            | Includes endpoints? |
+| ----------- | ------------------- | ------------------- |
+| **IN**      | Exact listed values | Not a range         |
+| **BETWEEN** | Continuous range    | **Yes**             |
 
 ## LIKE and Wildcard Pattern Matching
 

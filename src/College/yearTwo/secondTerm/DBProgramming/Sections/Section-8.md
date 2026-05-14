@@ -38,10 +38,10 @@ The **`CHECK`** constraint is used to limit the value range that can be placed i
 
 There are two important boundaries in the slides. If a `CHECK` constraint is defined on a **single column**, it controls valid values for that column only. If it is defined at the **table level**, it can use more than one column and enforce a condition involving multiple values in the same row.
 
-| CHECK usage | Scope | Example meaning |
-| ----------- | ----- | --------------- |
-| **Column-level CHECK** | One column | `Age >= 18` |
-| **Table-level CHECK** | One or more columns together | Rule depends on several values |
+| CHECK usage            | Scope                        | Example meaning                |
+| ---------------------- | ---------------------------- | ------------------------------ |
+| **Column-level CHECK** | One column                   | `Age >= 18`                    |
+| **Table-level CHECK**  | One or more columns together | Rule depends on several values |
 
 ```sql
 -- Purpose: Enforce a valid age during table creation
@@ -73,10 +73,10 @@ The **`CREATE INDEX`** statement is used to create indexes on tables. An **index
 
 The main tradeoff is also stated clearly in the lecture: updating a table with indexes takes more time than updating a table without indexes, because the index must also be updated. This means indexes should be created on columns that are **frequently searched**, not everywhere.
 
-| Index type | Duplicate values | Main effect |
-| ---------- | ---------------- | ----------- |
-| **`CREATE INDEX`** | Allowed | Improves search speed |
-| **`CREATE UNIQUE INDEX`** | Not allowed | Improves speed and prevents duplicates |
+| Index type                | Duplicate values | Main effect                            |
+| ------------------------- | ---------------- | -------------------------------------- |
+| **`CREATE INDEX`**        | Allowed          | Improves search speed                  |
+| **`CREATE UNIQUE INDEX`** | Not allowed      | Improves speed and prevents duplicates |
 
 ```sql
 -- Purpose: Create a normal index on one column
@@ -138,10 +138,10 @@ VALUES ('Lars', 'Monsen');
 
 ## High-Yield Contrast Pairs
 
-| Pair | Key difference |
-| ---- | -------------- |
-| **`LIMIT`** vs. **`WHERE`** | `LIMIT` restricts row count; `WHERE` filters by condition |
-| **Column CHECK** vs. **Table CHECK** | One controls a single column; the other can compare multiple columns |
-| **`CREATE INDEX`** vs. **`CREATE UNIQUE INDEX`** | Normal index allows duplicates; unique index blocks them |
-| **Index speed** vs. **Index cost** | Faster retrieval but slower updates |
-| **Manual key entry** vs. **`AUTO_INCREMENT`** | User enters the key manually vs. database generates it |
+| Pair                                             | Key difference                                                       |
+| ------------------------------------------------ | -------------------------------------------------------------------- |
+| **`LIMIT`** vs. **`WHERE`**                      | `LIMIT` restricts row count; `WHERE` filters by condition            |
+| **Column CHECK** vs. **Table CHECK**             | One controls a single column; the other can compare multiple columns |
+| **`CREATE INDEX`** vs. **`CREATE UNIQUE INDEX`** | Normal index allows duplicates; unique index blocks them             |
+| **Index speed** vs. **Index cost**               | Faster retrieval but slower updates                                  |
+| **Manual key entry** vs. **`AUTO_INCREMENT`**    | User enters the key manually vs. database generates it               |

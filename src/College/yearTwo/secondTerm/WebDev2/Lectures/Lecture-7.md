@@ -8,142 +8,131 @@ title: Lecture 7
 
 # Web Development II - Lecture 7
 
-## Include Files and Server-Side Reuse
+## Ajax and the Shift from Synchronous to Asynchronous Communication
 
-A **PHP include file** is a separate file whose contents are inserted into another PHP file **before** the server executes the script. This works because the PHP engine expands the included file into the current script, so shared page fragments such as menus can be reused without duplicating code.
+**Synchronous web communication** means the user must wait while a new page loads after each request. This is the classic **click-wait-refresh** model of ordinary web pages. **Asynchronous web communication** means data can load in the background while the user continues interacting with the current page. This matters because it changes the web from a sequence of page replacements into a more continuous interface.
 
-```php
-<!-- Reuse a shared menu inside the current page -->
-<div class="leftmenu">
-  <?php include("menu.php"); ?>
-</div>
-```
+**Ajax** stands for **Asynchronous JavaScript and XML**. It is _not_ a programming language; it is a technique for using **JavaScript** to request server data in the background and update the page dynamically. That works because JavaScript can send a request independently of full-page navigation, then modify the page through the **DOM** after the response arrives.
 
-| Construct | Behavior | Boundary |
-| --- | --- | --- |
-| **`include()`** | Generates a warning if file fails | Script continues |
-| **`require()`** | Generates a fatal error if file fails | Script stops |
+| Communication model | User experience    | Page behavior                 | Exam boundary             |
+| ------------------- | ------------------ | ----------------------------- | ------------------------- |
+| **Synchronous**     | User waits         | Whole page reloads            | Traditional request cycle |
+| **Asynchronous**    | User keeps working | Current page updates in place | Ajax-style interaction    |
 
 > [!IMPORTANT]
-> Use **`require()`** when the file is essential to correct execution, and **`include()`** when failure should not terminate the script.
+> **Ajax** does not eliminate server communication. _It changes when and how the page updates_, not whether the server is involved.
 
-## File Reading, Writing, and Whole-File Operations
+## Web Applications and Why Ajax Matters
 
-PHP supports direct file operations for reading and writing complete files. **`file()`** returns the file as an **array of lines**, while **`file_get_contents()`** returns the **entire file as one string**. This distinction matters because line-by-line processing and whole-text processing solve different problems.
+A **web application** is a dynamic website that imitates the feel of a desktop application. Its defining boundary is that the user experiences one continuous interface instead of disconnected page loads. Ajax supports this by fetching new data without forcing the entire document to refresh.
 
-```php
-// Read full file, transform it, then overwrite the file
-$text = file_get_contents("poem.txt");
-$text = strrev($text);
-file_put_contents("poem.txt", $text);
-```
+Examples given in the lecture include **Gmail**, **Google Maps**, **Google Docs**, **Google Spreadsheets**, **Flickr**, and **A9**. These examples matter because they show the main purpose of Ajax: preserving interaction continuity while background communication happens. A common exam distinction is that Ajax is about **interaction style**, not about a specific syntax feature.
 
-**`file_put_contents()`** writes a string to a file and replaces prior contents unless the **`FILE_APPEND`** flag is used.
+## `XMLHttpRequest` and the Basic Ajax Lifecycle
 
-```php
-// Append a new line instead of replacing the file
-$new_text = "P.S. ILY, GTG TTYL!~";
-file_put_contents("poem.txt", $new_text, FILE_APPEND);
-```
+The browser provides **`XMLHttpRequest`**, an object that can fetch files from a web server. Its major benefit is that it can run **asynchronously**, so the request happens in the background and becomes transparent to the user. Once data returns, JavaScript can insert that result into the current page using the **DOM**.
 
-> [!CAUTION]
-> **`file()`** keeps each trailing newline in the returned strings. If that extra `\n` is undesirable, use **`FILE_IGNORE_NEW_LINES`** as the second argument.
+### Ajax Request Sequence
 
-## Arrays from Files and String-Array Conversion
+1. The user triggers an **event**, such as a click.
+2. The event handler creates an **`XMLHttpRequest`** object.
+3. The request is sent to the server.
+4. The server retrieves the needed data and sends it back.
+5. The request object fires an event when the response arrives.
+6. A **callback** function processes the response and updates the page.
 
-When a file has a fixed number of lines, PHP can combine **`file()`** with **`list()`**. **`list($a, $b, ...)`** unpacks array elements into variables in order, so the file format must match the expected length exactly.
+This order matters because the callback cannot run until the response exists; asynchronous code separates request creation from response handling.
 
-```php
-// Unpack a known 3-line file into named variables
-list($name, $phone, $ssn) = file("personal.txt");
-```
-
-PHP also converts between strings and arrays with **`explode()`** and **`implode()`**.
-
-| Function | Direction | Why it works |
-| --- | --- | --- |
-| **`explode(delimiter, string)`** | String -> array | Splits at each delimiter |
-| **`implode(delimiter, array)`** | Array -> string | Joins elements with delimiter between them |
-
-```php
-// Split each line into title and author
-foreach (file("books.txt") as $book) {
-  list($title, $author) = explode(",", $book);
-}
+```mermaid
+flowchart TD
+  A[User action] --> B[JavaScript event handler]
+  B --> C[Ajax request sent]
+  C --> D[Server processes request]
+  D --> E[Response returns]
+  E --> F[Callback runs]
+  F --> G[DOM updated]
 ```
 
 > [!CAUTION]
-> _Do not use `list()` unless the source format is predictable._ Missing or extra pieces shift values into the wrong variables.
+> _Do not confuse the request with the callback._ Sending the request starts the process; the page update happens later, after the response event fires.
 
-## Reading Directories and Matching File Patterns
+## Why the Lecture Uses Prototype Instead of Raw `XMLHttpRequest`
 
-PHP can inspect directories with **`scandir()`** and **`glob()`**. **`scandir()`** returns the names of all entries in a directory, while **`glob()`** returns the paths of files that match a pattern. This difference matters because `glob()` filters during retrieval, while `scandir()` returns everything.
+Although **`XMLHttpRequest`** is powerful, the lecture says it is **clunky** and has browser compatibility issues. The course therefore uses **Prototype**, which wraps Ajax behavior in a simpler interface. This matters because the exam may ask why the wrapper is preferred: the answer is easier syntax plus reduced browser-specific handling.
 
-```php
-// Process only files whose names match the pattern
-$poems = glob("poetry/poem*.dat");
-foreach ($poems as $poemfile) {
-  $text = file_get_contents($poemfile);
-  file_put_contents($poemfile, strrev($text));
-  print basename($poemfile);
-}
+The core Prototype pattern is **`new Ajax.Request(...)`**, which constructs an Ajax request object.
+
+```js
+// Send an Ajax request through Prototype
+new Ajax.Request("url", {
+  method: "get",
+  onSuccess: handleRequest,
+  onFailure: ajaxFailure,
+  onException: ajaxFailure,
+});
 ```
 
-| Function | Returns | Exam trap |
-| --- | --- | --- |
-| **`scandir(folder)`** | File names only | Includes `.` and `..` |
-| **`glob(pattern)`** | Matching paths | Supports `*` wildcard |
-| **`basename(path)`** | File name without directory | Useful after `glob()` |
+The constructor takes two parameters:
 
-> [!NOTE]
-> If `scandir()` output shows **`.`** and **`..`**, those are directory entries, not normal content files.
+1. The **URL** to fetch as a string.
+2. An **options object** written as `{ key: value }` pairs.
 
-## Exceptions and Control Flow Interruption
+## Request Options, Response Properties, and Failure Handling
 
-An **exception** is an abnormal condition that changes the normal flow of execution. When an exception is triggered, the current code path stops and control moves to an exception handler. In PHP, an exception is created with **`throw new Exception(...)`** and handled with **`try`** and **`catch`**.
+The **`method`** option controls how the request is sent; the default is **`"post"`**. The **`parameters`** option passes query data to the server as name-value pairs. Important request events are **`onSuccess`**, **`onFailure`**, and **`onException`**. These work by attaching functions that run only under those conditions.
 
-```php
-// Throw an exception when input is invalid
-function checkStr($str) {
-  if (strcmp($str, "correct") != 0) {
-    throw new Exception("String is not correct!");
+| Option or property | Meaning                             | Exam note                      |
+| ------------------ | ----------------------------------- | ------------------------------ |
+| **`method`**       | HTTP method such as `get` or `post` | Default is `post`              |
+| **`parameters`**   | Data sent to server                 | Written as object pairs        |
+| **`onSuccess`**    | Request succeeded                   | Normal callback path           |
+| **`onFailure`**    | Request failed                      | Handles unsuccessful response  |
+| **`onException`**  | Syntax/security/etc. error          | Different from normal failure  |
+| **`status`**       | HTTP status code                    | `200` means OK                 |
+| **`statusText`**   | Text for status code                | Human-readable response status |
+| **`responseText`** | Entire response as string           | Most direct text access        |
+| **`responseXML`**  | Entire response as XML DOM tree     | Use when response is XML       |
+
+```js
+// Show detailed failure information for debugging
+function ajaxFailure(ajax, exception) {
+  alert(
+    "Error making Ajax request:\n\nServer status:\n" +
+      ajax.status +
+      " " +
+      ajax.statusText +
+      "\n\nServer response text:\n" +
+      ajax.responseText
+  );
+  if (exception) {
+    throw exception;
   }
-  return true;
 }
+```
 
-try {
-  checkStr("wrong");
-  echo "If you see this, the string is correct";
-} catch (Exception $e) {
-  echo "Message: " . $e->getMessage();
-}
+## POST Requests, Security Restrictions, and `Ajax.Updater`
+
+A **POST request** with Prototype uses **`Ajax.Request`** again, but the data is passed in **`parameters`** and the method is `post` or omitted because `post` is the default.
+
+```js
+// Send named values to the server with POST
+new Ajax.Request("url", {
+  method: "post",
+  parameters: { name: value, otherName: otherValue },
+  onSuccess: handleRequest,
+});
 ```
 
 > [!IMPORTANT]
-> Once **`throw`** runs, later statements in the `try` block are skipped until control reaches a matching **`catch`** block.
+> **`XMLHttpRequest`** has security restrictions: it cannot run from a page opened directly from the hard drive, it must run from a **web server**, and it can fetch files only from the **same site** as the page. _This same-origin rule is a major exam condition._
 
-## Cookies, Sessions, and Stateful Web Data
+**`Ajax.Updater`** is a specialized Prototype helper that fetches content and inserts it directly into an element as **`innerHTML`**. Use it when the goal is immediate page injection rather than manual response processing.
 
-**HTTP is stateless**, meaning each request is independent unless extra state is stored. A **cookie** is a small piece of information stored on the **client machine** and sent back to the same website on later requests. A **session** combines server-side stored data with a client-side identifier, so the browser sends only a reference and the server loads the full session data.
-
-| Feature | **Cookie** | **Session** |
-| --- | --- | --- |
-| Storage location | Client | Server |
-| Client access to stored data | Yes | No direct access |
-| Size | Small | Can be much larger |
-| Data sent on requests | Actual cookie data | Session ID only |
-| Server cluster friendliness | Works smoothly | Needs server-side coordination |
-
-```php
-// Create, read, and store state data
-setcookie("user", "Harry Poter", time() + 3600);
-echo $_COOKIE["user"];
-
-session_start();
-$_SESSION["FirstName"] = "Jim";
+```js
+// Fetch server content and inject it into the target element
+new Ajax.Updater("id", "url", {
+  method: "get",
+});
 ```
 
-**`setcookie(name, value, expire, path, domain)`** creates a cookie. Session work starts with **`session_start()`**, and session values are stored in the **`$_SESSION`** superglobal array.
-
-> [!CAUTION]
-> **Sessions** are more private than **cookies** because the main data lives on the server. The client usually sends only the session identifier, not the stored session contents themselves.
+Compared with **`Ajax.Request`**, **`Ajax.Updater`** is more specific: it automatically updates one page element, while **`Ajax.Request`** gives lower-level control over the response.

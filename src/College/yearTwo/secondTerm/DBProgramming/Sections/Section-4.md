@@ -14,14 +14,14 @@ title: Section 4
 
 A **PRIMARY KEY** is a constraint that uniquely identifies each record in a table. This matters because the database needs one reliable way to distinguish every row from every other row. A primary key must contain **unique values** and cannot contain **`NULL`** values, so it combines uniqueness with mandatory presence.
 
-The lecture’s key boundary is that a table can have only **one** primary key, but that one key may contain **one column** or **multiple columns**. If multiple columns are used together, the result is a **composite primary key**. This does not mean the table has several primary keys; it still has one primary key made from multiple fields.
+The lecture's key boundary is that a table can have only **one** primary key, but that one key may contain **one column** or **multiple columns**. If multiple columns are used together, the result is a **composite primary key**. This does not mean the table has several primary keys; it still has one primary key made from multiple fields.
 
-| Property | **PRIMARY KEY** rule |
-| -------- | -------------------- |
-| Uniqueness | Required |
-| `NULL` allowed | No |
-| Count per table | One only |
-| Columns used | One or many |
+| Property        | **PRIMARY KEY** rule |
+| --------------- | -------------------- |
+| Uniqueness      | Required             |
+| `NULL` allowed  | No                   |
+| Count per table | One only             |
+| Columns used    | One or many          |
 
 ## PRIMARY KEY on CREATE TABLE vs. ALTER TABLE
 
@@ -65,10 +65,10 @@ A foreign key can be created during **`CREATE TABLE`** or later with **`ALTER TA
 
 The lecture also includes dropping a foreign key constraint. That removes the enforced relationship rule, so later child values are no longer checked against the parent key. The exam trap is confusing relationship enforcement with physical data copying; the foreign key stores a reference, not a copy of the parent row.
 
-| Constraint | Main purpose | Depends on another table? |
-| ---------- | ------------ | ------------------------- |
-| **PRIMARY KEY** | Identify each row uniquely | No |
-| **FOREIGN KEY** | Protect table relationships | Yes |
+| Constraint      | Main purpose                | Depends on another table? |
+| --------------- | --------------------------- | ------------------------- |
+| **PRIMARY KEY** | Identify each row uniquely  | No                        |
+| **FOREIGN KEY** | Protect table relationships | Yes                       |
 
 ## SQL Statements and SELECT Basics
 

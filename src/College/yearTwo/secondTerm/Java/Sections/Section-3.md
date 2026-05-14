@@ -14,12 +14,12 @@ title: Section 3
 
 **`switch`** is a **control flow statement** that selects one branch of code by testing whether an expression is equal to one of several **`case`** values. It is used for equality checking only, which is why it works well for fixed known values but not for relational conditions such as `>` or `<`.
 
-| Part | Role | Boundary |
-| --- | --- | --- |
-| **`switch(expression)`** | value being tested | Must produce a supported switch type |
-| **`case value:`** | branch for one exact value | Value must be literal or constant |
-| **`break;`** | exits the switch | Optional, but missing it causes fall-through |
-| **`default:`** | runs if no case matches | Optional |
+| Part                     | Role                       | Boundary                                     |
+| ------------------------ | -------------------------- | -------------------------------------------- |
+| **`switch(expression)`** | value being tested         | Must produce a supported switch type         |
+| **`case value:`**        | branch for one exact value | Value must be literal or constant            |
+| **`break;`**             | exits the switch           | Optional, but missing it causes fall-through |
+| **`default:`**           | runs if no case matches    | Optional                                     |
 
 ```java
 // Purpose: choose a branch based on one exact value.
@@ -56,16 +56,16 @@ flowchart TD
 ```
 
 > [!WARNING]
-> *Missing **`break`** does not skip the next case; it executes it.* This is the main switch exam trap.
+> _Missing **`break`** does not skip the next case; it executes it._ This is the main switch exam trap.
 
 ## Classic `switch` vs. Java 12 `switch` Expression
 
 Before Java 12, `switch` was mainly a statement that assigned or printed values through case blocks. Starting from Java 12, Java also supports a **switch expression**, which can directly return a value. The relationship matters because both forms choose by equality, but the newer form is shorter and expression-based.
 
-| Form | Syntax style | Output behavior |
-| --- | --- | --- |
+| Form                         | Syntax style                    | Output behavior     |
+| ---------------------------- | ------------------------------- | ------------------- |
 | **Classic switch statement** | `case x:` with optional `break` | Executes statements |
-| **Switch expression** | `case x -> value` | Returns a value |
+| **Switch expression**        | `case x -> value`               | Returns a value     |
 
 ```java
 // Purpose: assign a result using switch expression syntax.
@@ -96,7 +96,7 @@ for (int i = 1; i <= 10; i++) {
 5. Repeat from the condition check.
 
 > [!NOTE]
-> *Initialization, condition, and increment are individually optional in syntax, but removing the termination logic can create an infinite loop.*
+> _Initialization, condition, and increment are individually optional in syntax, but removing the termination logic can create an infinite loop._
 
 ## Nested, Labelled, and Infinite `for` Loops
 
@@ -113,11 +113,11 @@ for (int i = 1; i <= 3; i++) {
 
 **Labelled loop** adds a label name before a loop so control statements can target that loop directly. **Infinite `for` loop** uses `for(;;)` and never stops unless an external action, `break`, or exception ends it.
 
-| Loop form | Main use | Boundary |
-| --- | --- | --- |
-| **Nested for** | Repeated inner work for each outer pass | Inner loop restarts each outer iteration |
-| **Labelled for** | Direct control of a named outer loop | Mostly useful with `break` or `continue` |
-| **Infinite for** | Continuous repetition | No built-in termination condition |
+| Loop form        | Main use                                | Boundary                                 |
+| ---------------- | --------------------------------------- | ---------------------------------------- |
+| **Nested for**   | Repeated inner work for each outer pass | Inner loop restarts each outer iteration |
+| **Labelled for** | Direct control of a named outer loop    | Mostly useful with `break` or `continue` |
+| **Infinite for** | Continuous repetition                   | No built-in termination condition        |
 
 ## `break` Statement in Loops and `switch`
 
@@ -136,7 +136,7 @@ for (int i = 1; i <= 10; i++) {
 Why this matters: if `break` appears when `i == 5`, the loop ends before printing `5`, so the output stops at `4`.
 
 > [!WARNING]
-> *Inside nested loops, plain **`break`** does not stop every loop.* It stops only the current inner loop unless a label is used.
+> _Inside nested loops, plain **`break`** does not stop every loop._ It stops only the current inner loop unless a label is used.
 
 ## `for-each` Loop and Task Patterns
 

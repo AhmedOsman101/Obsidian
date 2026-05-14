@@ -43,12 +43,12 @@ Why this matters: a flowchart shows **sequence** and **branching**, so each symb
 
 ### Java Platforms
 
-| Platform | Main use | Includes / built on | Excludes |
-| --- | --- | --- | --- |
-| **Java SE** | Core Java programming | APIs such as `java.lang`, OOP, `String` | Enterprise-specific APIs |
+| Platform    | Main use                        | Includes / built on                                                 | Excludes                        |
+| ----------- | ------------------------------- | ------------------------------------------------------------------- | ------------------------------- |
+| **Java SE** | Core Java programming           | APIs such as `java.lang`, OOP, `String`                             | Enterprise-specific APIs        |
 | **Java EE** | Web and enterprise applications | Built on **Java SE**; includes Servlet, JSP, Web Services, EJB, JPA | Not the basic core-only edition |
-| **Java ME** | Mobile-focused development | Micro platform | Full enterprise stack |
-| **JavaFX** | Rich Internet applications | Lightweight UI API | General backend platform |
+| **Java ME** | Mobile-focused development      | Micro platform                                                      | Full enterprise stack           |
+| **JavaFX**  | Rich Internet applications      | Lightweight UI API                                                  | General backend platform        |
 
 > [!IMPORTANT]
 > **Java SE** is the base platform in this section. **Java EE** is built on top of it, so they are related but not interchangeable.
@@ -57,16 +57,16 @@ Why this matters: a flowchart shows **sequence** and **branching**, so each symb
 
 The **Java environment** is the software needed to run Java programs. Its three core terms are **JDK**, **JRE**, and **JVM**.
 
-| Term | Meaning | Main role | Boundary |
-| --- | --- | --- | --- |
-| **JVM** | **Java Virtual Machine** | Loads, verifies, and executes **bytecode**; provides runtime environment | Executes code but is not the full development kit |
-| **JRE** | **Java Runtime Environment** | Provides JVM plus libraries and runtime files | Runs Java programs but does not include all development tools |
-| **JDK** | **Java Development Kit** | Provides JRE plus compiler, debugger, and development tools | Used to develop, compile, and run Java |
+| Term    | Meaning                      | Main role                                                                | Boundary                                                      |
+| ------- | ---------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------- |
+| **JVM** | **Java Virtual Machine**     | Loads, verifies, and executes **bytecode**; provides runtime environment | Executes code but is not the full development kit             |
+| **JRE** | **Java Runtime Environment** | Provides JVM plus libraries and runtime files                            | Runs Java programs but does not include all development tools |
+| **JDK** | **Java Development Kit**     | Provides JRE plus compiler, debugger, and development tools              | Used to develop, compile, and run Java                        |
 
 Why this works: Java source code is compiled once, then the **JVM** executes the resulting **bytecode**.
 
 > [!WARNING]
-> *Do not confuse **JRE** with **JDK**.* If you only need to run Java, **JRE** is enough; if you need to compile and develop, you need **JDK**.
+> _Do not confuse **JRE** with **JDK**._ If you only need to run Java, **JRE** is enough; if you need to compile and develop, you need **JDK**.
 
 ## Program Structure and Execution Stages
 
@@ -114,7 +114,7 @@ flowchart TD
 **Identifiers** are names used for program elements such as variables, constants, methods, and classes. They can contain letters, digits, `_`, and `$`, must start with a letter, `_`, or `$`, cannot be a reserved keyword, and cannot be **`true`**, **`false`**, or **`null`**.
 
 > [!NOTE]
-> *Identifiers are **case sensitive**.* `x` and `X` are different names, so using the wrong case can create a logic or compilation problem.
+> _Identifiers are **case sensitive**._ `x` and `X` are different names, so using the wrong case can create a logic or compilation problem.
 
 ## Variables and Data Types
 
@@ -130,13 +130,13 @@ int number = 5;
 - **Primitive data types**: `boolean`, `char`, `byte`, `short`, `int`, `long`, `float`, `double`
 - **Non-primitive data types**: **Classes**, **Interfaces**, **String**, **Arrays**
 
-| Type group | Includes | Main boundary |
-| --- | --- | --- |
-| **Primitive** | Fixed built-in types such as `int` and `double` | Not objects like `String` |
+| Type group        | Includes                                          | Main boundary                     |
+| ----------------- | ------------------------------------------------- | --------------------------------- |
+| **Primitive**     | Fixed built-in types such as `int` and `double`   | Not objects like `String`         |
 | **Non-primitive** | Reference-based types such as `String` and arrays | Not the eight built-in primitives |
 
 > [!IMPORTANT]
-> *`float` literals need `f` in examples like `3.8f`; otherwise Java treats decimal literals as `double` by default.*
+> _`float` literals need `f` in examples like `3.8f`; otherwise Java treats decimal literals as `double` by default._
 
 ## Operators and Error Types
 
@@ -153,11 +153,11 @@ i %= 8;  // i = i % 8
 
 **Programming errors** are grouped into three exam-critical categories.
 
-| Error type | When it occurs | Example | Key boundary |
-| --- | --- | --- | --- |
-| **Syntax error** | During compilation | Missing `;` | Program does not compile |
-| **Runtime error** | During execution | Divide by zero | Program starts, then fails |
-| **Logic error** | After successful run | Wrong result | No syntax or runtime failure |
+| Error type        | When it occurs       | Example        | Key boundary                 |
+| ----------------- | -------------------- | -------------- | ---------------------------- |
+| **Syntax error**  | During compilation   | Missing `;`    | Program does not compile     |
+| **Runtime error** | During execution     | Divide by zero | Program starts, then fails   |
+| **Logic error**   | After successful run | Wrong result   | No syntax or runtime failure |
 
 > [!WARNING]
-> *A program with a **logic error** may compile and run normally, which makes it harder to detect than syntax errors.*
+> _A program with a **logic error** may compile and run normally, which makes it harder to detect than syntax errors._

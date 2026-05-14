@@ -51,14 +51,14 @@ while (i <= 3) {
 
 An **infinite `while` loop** uses `while (true)` and never stops unless a `break`, exception, or external termination ends it.
 
-| Loop form | Main boundary | Key behavior |
-| --- | --- | --- |
-| **Simple `while`** | Condition checked before body | May run zero times |
-| **Nested `while`** | Inner loop is inside outer loop | Inner loop restarts each outer pass |
-| **Infinite `while`** | Condition always true | No automatic termination |
+| Loop form            | Main boundary                   | Key behavior                        |
+| -------------------- | ------------------------------- | ----------------------------------- |
+| **Simple `while`**   | Condition checked before body   | May run zero times                  |
+| **Nested `while`**   | Inner loop is inside outer loop | Inner loop restarts each outer pass |
+| **Infinite `while`** | Condition always true           | No automatic termination            |
 
 > [!WARNING]
-> *If the inner loop variable is not updated, the program can get stuck inside the inner loop even if the outer loop is correct.*
+> _If the inner loop variable is not updated, the program can get stuck inside the inner loop even if the outer loop is correct._
 
 ## `do-while` Loop and Exit Control
 
@@ -73,19 +73,19 @@ do {
 } while (i <= 10);
 ```
 
-| Loop type | Condition checked | Minimum executions |
-| --- | --- | --- |
-| **`while`** | Before the body | `0` |
-| **`do-while`** | After the body | `1` |
+| Loop type      | Condition checked | Minimum executions |
+| -------------- | ----------------- | ------------------ |
+| **`while`**    | Before the body   | `0`                |
+| **`do-while`** | After the body    | `1`                |
 
 Why this works: Java enters the `do` block first, then decides whether another iteration is allowed.
 
 > [!NOTE]
-> *`do { ... } while(true);` creates an infinite `do-while` loop.* It still runs forever because the condition never becomes false.
+> _`do { ... } while(true);` creates an infinite `do-while` loop._ It still runs forever because the condition never becomes false.
 
 ## `continue` Statement and Iteration Skipping
 
-**`continue`** skips the remaining code in the **current iteration** and jumps to the next iteration of the loop. Unlike **`break`**, it does **not** terminate the whole loop. This distinction matters because many exam questions compare “skip one pass” with “stop the loop completely.”
+**`continue`** skips the remaining code in the **current iteration** and jumps to the next iteration of the loop. Unlike **`break`**, it does **not** terminate the whole loop. This distinction matters because many exam questions compare "skip one pass" with "stop the loop completely."
 
 ```java
 // Purpose: skip printing the value 5.
@@ -110,7 +110,7 @@ for (int number = 1; number <= 10; number++) {
 ```
 
 > [!IMPORTANT]
-> *Inside nested loops, **`continue`** affects only the current inner loop unless a labelled form is used.*
+> _Inside nested loops, **`continue`** affects only the current inner loop unless a labelled form is used._
 
 ## Loop-Based Problem Patterns
 
@@ -134,7 +134,7 @@ for (int i = 2; i < count; ++i) {
 
 ## Prime Logic and Pattern Output
 
-A **prime number** has exactly two positive divisors: `1` and itself. The section’s algorithm uses a **flag variable** to record whether a divisor was found. This works because once a divisor is detected, the program can stop checking and classify the number as not prime.
+A **prime number** has exactly two positive divisors: `1` and itself. The section's algorithm uses a **flag variable** to record whether a divisor was found. This works because once a divisor is detected, the program can stop checking and classify the number as not prime.
 
 ```java
 // Purpose: check primality with divisibility testing.
@@ -155,6 +155,6 @@ if (n == 0 || n == 1) {
 ```
 
 > [!WARNING]
-> *`0` and `1` are not prime numbers.* If this edge case is skipped, the algorithm gives the wrong result.
+> _`0` and `1` are not prime numbers._ If this edge case is skipped, the algorithm gives the wrong result.
 
 For star patterns, the outer loop controls the row number and the inner loop controls how many spaces or `*` characters are printed on that row. If the spaces loop is wrong, a left triangle becomes misaligned even when the stars count is correct.

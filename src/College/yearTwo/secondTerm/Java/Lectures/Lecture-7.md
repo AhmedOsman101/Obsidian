@@ -15,20 +15,20 @@ title: Lecture 7
 **Methods** are named blocks of code declared inside a **class** and executed only when they are **called**. They support reuse because one definition can run many times.
 
 - A method declaration includes a **return type**, a **method name**, and parentheses `()`.
-- A method is *not executed automatically* just because it is written inside the class.
+- A method is _not executed automatically_ just because it is written inside the class.
 - A method can be written before or after `main()`, as long as it stays inside the same class body.
 
 > [!IMPORTANT]
 > **`main()`** is a special entry-point method that starts the program, but user-defined methods such as **`welcome()`** run only if `main()` or another method calls them.
 
-| Concept | Included | Excluded | Why it matters |
-| --- | --- | --- | --- |
-| **Method** | Named reusable code block | Standalone code outside a class | Java requires methods to belong to a class |
-| **Method call** | Using the method name with `()` | Merely declaring the method | Declaration creates behavior; calling executes it |
+| Concept         | Included                        | Excluded                        | Why it matters                                    |
+| --------------- | ------------------------------- | ------------------------------- | ------------------------------------------------- |
+| **Method**      | Named reusable code block       | Standalone code outside a class | Java requires methods to belong to a class        |
+| **Method call** | Using the method name with `()` | Merely declaring the method     | Declaration creates behavior; calling executes it |
 
 ## Method Declaration Structure
 
-The lecture’s core pattern is **`public static void welcome()`**. **`public`** controls access, **`static`** binds the method to the class, and **`void`** means no value is returned.
+The lecture's core pattern is **`public static void welcome()`**. **`public`** controls access, **`static`** binds the method to the class, and **`void`** means no value is returned.
 
 ```java
 // Purpose: declare a reusable method that prints a message.
@@ -40,7 +40,7 @@ public static void welcome() {
 Why this works: declaration stores the method, but execution waits for a call.
 
 > [!WARNING]
-> *A method with **`void`** can print output, but it cannot return a value with `return someValue;`.* Printing and returning are different operations.
+> _A method with **`void`** can print output, but it cannot return a value with `return someValue;`._ Printing and returning are different operations.
 
 ### Declaration vs. Execution
 
@@ -94,12 +94,12 @@ public static void welcome() {
 ```
 
 > [!NOTE]
-> *`fname` and `lname` are not parameters and not global fields; they are local to `welcome()` only.*
+> _`fname` and `lname` are not parameters and not global fields; they are local to `welcome()` only._
 
-| Concept | Defined where | Accessible where | Main risk |
-| --- | --- | --- | --- |
-| **Parameter** | Method header | Inside that method | Wrong argument order or type |
-| **Local variable** | Method body | Inside that block only | Assuming it is usable in another method |
+| Concept            | Defined where | Accessible where       | Main risk                               |
+| ------------------ | ------------- | ---------------------- | --------------------------------------- |
+| **Parameter**      | Method header | Inside that method     | Wrong argument order or type            |
+| **Local variable** | Method body   | Inside that block only | Assuming it is usable in another method |
 
 ## Parameters and Arguments
 
@@ -136,15 +136,15 @@ public static void main(String[] args) {
 }
 ```
 
-| **`void` method** vs. **value-returning method** | **`void`** | **`int` return type** |
-| --- | --- | --- |
-| Main purpose | Perform an action | Compute and send back data |
-| Can be used inside `System.out.println(...)` as a value | No | Yes |
-| Needs `return value;` | No | Yes |
-| Lecture example | `welcome()` | `calc(int n1, int n2)` |
+| **`void` method** vs. **value-returning method**        | **`void`**        | **`int` return type**      |
+| ------------------------------------------------------- | ----------------- | -------------------------- |
+| Main purpose                                            | Perform an action | Compute and send back data |
+| Can be used inside `System.out.println(...)` as a value | No                | Yes                        |
+| Needs `return value;`                                   | No                | Yes                        |
+| Lecture example                                         | `welcome()`       | `calc(int n1, int n2)`     |
 
 > [!WARNING]
-> *If a method declares a non-`void` return type such as **`int`**, every valid execution path must return a value of that type.*
+> _If a method declares a non-`void` return type such as **`int`**, every valid execution path must return a value of that type._
 
 ## Exam Traps and Recall Rules
 

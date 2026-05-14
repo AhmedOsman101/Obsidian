@@ -14,19 +14,19 @@ title: Section 7
 
 This section continues SQL built-in functions, starting with string tools used to search, measure, and transform text. The key idea is that these functions return derived values without changing the stored data unless they are used inside an `UPDATE` statement.
 
-The **`LOCATE()`** function returns the position of the first occurrence of a substring inside a string. If the substring does not exist, the result is `0`. The lecture also states that `LOCATE()` performs a *case-insensitive* search. The optional third argument sets the starting position for the search.
+The **`LOCATE()`** function returns the position of the first occurrence of a substring inside a string. If the substring does not exist, the result is `0`. The lecture also states that `LOCATE()` performs a _case-insensitive_ search. The optional third argument sets the starting position for the search.
 
 The **`LEN()`** function returns the length of a string. A boundary explicitly mentioned in the slides is that trailing spaces at the end are not counted, while leading spaces at the start are counted. This is an exam trap because students may assume all spaces behave the same.
 
 The **`LOWER()`** and **`UPPER()`** functions convert text to lower-case or upper-case, and **`REVERSE()`** returns the string in reverse order.
 
-| Function | Purpose | Important boundary |
-| -------- | ------- | ------------------ |
-| **`LOCATE(substring, string, start)`** | Find first matching position | Returns `0` if not found |
-| **`LEN(string)`** | Count characters | Trailing spaces are ignored |
-| **`LOWER(text)`** | Convert to lower-case | Changes case only |
-| **`UPPER(text)`** | Convert to upper-case | Useful for normalization |
-| **`REVERSE(string)`** | Reverse character order | Output is mirrored text |
+| Function                               | Purpose                      | Important boundary          |
+| -------------------------------------- | ---------------------------- | --------------------------- |
+| **`LOCATE(substring, string, start)`** | Find first matching position | Returns `0` if not found    |
+| **`LEN(string)`**                      | Count characters             | Trailing spaces are ignored |
+| **`LOWER(text)`**                      | Convert to lower-case        | Changes case only           |
+| **`UPPER(text)`**                      | Convert to upper-case        | Useful for normalization    |
+| **`REVERSE(string)`**                  | Reverse character order      | Output is mirrored text     |
 
 ```sql
 -- Purpose: Search inside text and transform its appearance
@@ -57,12 +57,12 @@ flowchart TD
   B -->|Keep digits and cut the rest| F[TRUNCATE()]
 ```
 
-| Function | Behavior | Example idea |
-| -------- | -------- | ------------ |
-| **`FLOOR()`** | Moves down to the smaller integer | `4.9 -> 4` |
-| **`CEILING()`** | Moves up to the larger integer | `4.1 -> 5` |
-| **`ROUND()`** | Rounds by decimal value | `4.56 -> 4.6` |
-| **`TRUNCATE()`** | Cuts digits without rounding | `4.56 -> 4.5` |
+| Function         | Behavior                          | Example idea  |
+| ---------------- | --------------------------------- | ------------- |
+| **`FLOOR()`**    | Moves down to the smaller integer | `4.9 -> 4`    |
+| **`CEILING()`**  | Moves up to the larger integer    | `4.1 -> 5`    |
+| **`ROUND()`**    | Rounds by decimal value           | `4.56 -> 4.6` |
+| **`TRUNCATE()`** | Cuts digits without rounding      | `4.56 -> 4.5` |
 
 ```sql
 -- Purpose: Compare different numeric adjustments
@@ -81,11 +81,11 @@ The lecture then moves to **date/time functions** that return the current system
 
 **`NOW()`** returns the current **date and time**. **`CURTIME()`** returns the current **time** only. **`CURDATE()`** returns the current **date** only. The boundary is simple but testable: know exactly which parts of the timestamp each function returns.
 
-| Function | Returns | Use case |
-| -------- | ------- | -------- |
-| **`NOW()`** | Current date and time | Full timestamp |
-| **`CURTIME()`** | Current time only | Time-of-day queries |
-| **`CURDATE()`** | Current date only | Date-only comparisons |
+| Function        | Returns               | Use case              |
+| --------------- | --------------------- | --------------------- |
+| **`NOW()`**     | Current date and time | Full timestamp        |
+| **`CURTIME()`** | Current time only     | Time-of-day queries   |
+| **`CURDATE()`** | Current date only     | Date-only comparisons |
 
 ```sql
 -- Purpose: Return current system date/time values
@@ -118,10 +118,10 @@ SELECT DATE_SUB('2024-05-01', INTERVAL 7 DAY);
 
 These contrast pairs summarize the most testable differences from the section:
 
-| Pair | Key difference |
-| ---- | -------------- |
-| **`LOCATE()`** vs. **`LEN()`** | `LOCATE()` finds position; `LEN()` counts characters |
-| **`LOWER()`** vs. **`UPPER()`** | One converts to lower-case; the other to upper-case |
-| **`ROUND()`** vs. **`TRUNCATE()`** | `ROUND()` may change the digit; `TRUNCATE()` only removes digits |
-| **`NOW()`** vs. **`CURDATE()`** | `NOW()` includes time; `CURDATE()` does not |
-| **`DATEADD()`** vs. **`DATE_SUB()`** | One moves forward in time; the other moves backward |
+| Pair                                 | Key difference                                                   |
+| ------------------------------------ | ---------------------------------------------------------------- |
+| **`LOCATE()`** vs. **`LEN()`**       | `LOCATE()` finds position; `LEN()` counts characters             |
+| **`LOWER()`** vs. **`UPPER()`**      | One converts to lower-case; the other to upper-case              |
+| **`ROUND()`** vs. **`TRUNCATE()`**   | `ROUND()` may change the digit; `TRUNCATE()` only removes digits |
+| **`NOW()`** vs. **`CURDATE()`**      | `NOW()` includes time; `CURDATE()` does not                      |
+| **`DATEADD()`** vs. **`DATE_SUB()`** | One moves forward in time; the other moves backward              |

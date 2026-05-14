@@ -19,10 +19,10 @@ title: Lecture 8
 > [!IMPORTANT]
 > **The source file is `Lecture-8.pdf`, so this note follows Lecture 8 even though the slide cover is mislabeled.** The file number is the authoritative lecture number.
 
-| Concept | Definition | Not the same as | Why exam questions confuse them |
-| --- | --- | --- | --- |
-| **Class** | Template that defines attributes and methods | A single created entity | A class describes; it does not represent one specific object |
-| **Object** | Actual instance created from a class | The class definition itself | An object stores concrete values and can use the class methods |
+| Concept    | Definition                                   | Not the same as             | Why exam questions confuse them                                |
+| ---------- | -------------------------------------------- | --------------------------- | -------------------------------------------------------------- |
+| **Class**  | Template that defines attributes and methods | A single created entity     | A class describes; it does not represent one specific object   |
+| **Object** | Actual instance created from a class         | The class definition itself | An object stores concrete values and can use the class methods |
 
 ## Class, Object, Attributes, and Methods
 
@@ -62,7 +62,7 @@ class NewCairo {
 ```
 
 > [!WARNING]
-> *Common exam trap:* **`class NewCairo`** defines a class, but it does not create an object. An object exists only after a statement such as `new NewCairo()` runs.
+> _Common exam trap:_ **`class NewCairo`** defines a class, but it does not create an object. An object exists only after a statement such as `new NewCairo()` runs.
 
 ### Naming Rules
 
@@ -106,17 +106,17 @@ flowchart TD
 5. Call methods with `objectName.method()`.
 
 > [!NOTE]
-> *The PDF example assigns `student.Name3` twice; the intended four-name pattern clearly implies the last assignment should be `student.Name4 = "Nada";`.*
+> _The PDF example assigns `student.Name3` twice; the intended four-name pattern clearly implies the last assignment should be `student.Name4 = "Nada";`._
 
 ## Attributes vs. Methods
 
-**Attributes** store state, while **methods** perform actions. Attributes answer “what data does the object have?” and methods answer “what can the object do?”.
+**Attributes** store state, while **methods** perform actions. Attributes answer "what data does the object have?" and methods answer "what can the object do?".
 
-| Feature | **Attributes** | **Methods** |
-| --- | --- | --- |
-| Purpose | Store object data | Perform actions |
+| Feature              | **Attributes**          | **Methods**               |
+| -------------------- | ----------------------- | ------------------------- |
+| Purpose              | Store object data       | Perform actions           |
 | Example from lecture | `name`, `year`, `Name2` | `empdata()`, `Addition()` |
-| Access form | `student.name` | `emp.empdata()` |
+| Access form          | `student.name`          | `emp.empdata()`           |
 
 ## Methods Inside Classes
 
@@ -167,10 +167,10 @@ public class MethodCalc {
 }
 ```
 
-| Call style | Returns value? | Lecture example | Main use |
-| --- | --- | --- | --- |
-| `emp.empdata()` | No | `void empdata()` | Perform an action |
-| `calcus.Addition(10, 5)` | Yes | `int Addition(int n1, int n2)` | Compute and reuse data |
+| Call style               | Returns value? | Lecture example                | Main use               |
+| ------------------------ | -------------- | ------------------------------ | ---------------------- |
+| `emp.empdata()`          | No             | `void empdata()`               | Perform an action      |
+| `calcus.Addition(10, 5)` | Yes            | `int Addition(int n1, int n2)` | Compute and reuse data |
 
 ## Exam Traps and Recall Rules
 

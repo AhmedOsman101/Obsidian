@@ -25,12 +25,12 @@ NoSQL became necessary because of the explosion of social media platforms, cloud
 
 The lecture also lists features NoSQL historically did not provide in the same way as classic relational systems: **joins**, **GROUP BY**, and full **ACID transactions**. This matters because NoSQL often trades some relational features for scalability and speed.
 
-| Concept | RDBMS | **NoSQL** |
-| ------- | ----- | --------- |
-| Schema | Fixed | **Schema-less or flexible** |
-| Data model | Tables and relations | **Multiple non-relational models** |
-| Scaling style | Vertical | **Horizontal** |
-| Joins | Core feature | **Usually reduced or avoided** |
+| Concept       | RDBMS                | **NoSQL**                          |
+| ------------- | -------------------- | ---------------------------------- |
+| Schema        | Fixed                | **Schema-less or flexible**        |
+| Data model    | Tables and relations | **Multiple non-relational models** |
+| Scaling style | Vertical             | **Horizontal**                     |
+| Joins         | Core feature         | **Usually reduced or avoided**     |
 
 ## NoSQL Characteristics
 
@@ -56,12 +56,12 @@ The lecture gives four main **NoSQL types**, and exam questions often ask you to
 
 A **document-oriented database** stores records as self-contained documents, often with flexible internal fields. This works well when one object may need slightly different attributes from another. A **graph data model** stores data as nodes and relationships, so it is suitable when the connection between records is as important as the records themselves.
 
-| **NoSQL type** | Core idea | Best fit from lecture logic |
-| -------------- | --------- | --------------------------- |
-| **Key-value** | One key maps to one value | Fast lookup by key |
-| **Column-oriented** | Data organized by columns | **Time-series data** |
-| **Document-oriented** | Flexible document records | Varying record structures |
-| **Graph** | Nodes plus relationships | Relationship-heavy data |
+| **NoSQL type**        | Core idea                 | Best fit from lecture logic |
+| --------------------- | ------------------------- | --------------------------- |
+| **Key-value**         | One key maps to one value | Fast lookup by key          |
+| **Column-oriented**   | Data organized by columns | **Time-series data**        |
+| **Document-oriented** | Flexible document records | Varying record structures   |
+| **Graph**             | Nodes plus relationships  | Relationship-heavy data     |
 
 ## SQL vs. NoSQL Comparison Logic
 

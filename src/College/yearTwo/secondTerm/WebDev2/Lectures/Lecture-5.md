@@ -10,119 +10,142 @@ title: Lecture 5
 
 # Web Development II - Lecture 5
 
-## Client-Side Scripting and Execution Model
+## Include Files and Server-Side Reuse
 
-**Client-side scripting** means code runs in the user's **browser** instead of on the **web server**. In this lecture, that language is **JavaScript**, a lightweight scripting language used to make web pages interactive. It works because the browser can execute JavaScript immediately after loading the page, so small interface changes do not require a new server request. This improves **usability** and **efficiency**, especially for actions such as reacting to clicks, validating form input, or changing page content.
+A **PHP include file** is a separate file whose contents are inserted into another PHP file **before** the server executes the script. This works because the PHP engine expands the included file into the current script, so shared page fragments such as menus can be reused without duplicating code.
 
-| Concept | JavaScript | PHP |
-| --- | --- | --- |
-| **Execution place** | Browser | Server |
-| **Main strength** | Fast interface response | Secure data processing |
-| **Typical focus** | Events, page interaction, document changes | HTML output, files, forms, databases |
-| **Visibility of code** | User can inspect source | Server logic stays hidden |
+```php
+<!-- Reuse a shared menu inside the current page -->
+<div class="leftmenu">
+  <?php include("menu.php"); ?>
+</div>
+```
+
+| Construct       | Behavior                              | Boundary         |
+| --------------- | ------------------------------------- | ---------------- |
+| **`include()`** | Generates a warning if file fails     | Script continues |
+| **`require()`** | Generates a fatal error if file fails | Script stops     |
 
 > [!IMPORTANT]
-> **JavaScript** improves speed and interaction, but it does _not_ replace **server-side programming**. If an exam asks which side is more secure, the answer is **server-side code**, because browser code is visible and controllable by the user.
+> Use **`require()`** when the file is essential to correct execution, and **`include()`** when failure should not terminate the script.
 
-## JavaScript Boundaries and Language Identity
+## File Reading, Writing, and Whole-File Operations
 
-**JavaScript** is a web standard, but browsers do not all support it identically. That boundary matters because code that works in one browser may behave differently in another. JavaScript is **not Java**; they share some syntax, but they are different languages with different execution models and design goals. JavaScript is generally **interpreted**, not compiled, uses looser syntax rules, and centers heavily on **functions** rather than **classes**.
+PHP supports direct file operations for reading and writing complete files. **`file()`** returns the file as an **array of lines**, while **`file_get_contents()`** returns the **entire file as one string**. This distinction matters because line-by-line processing and whole-text processing solve different problems.
 
-### JavaScript vs. Java
+```php
+// Read full file, transform it, then overwrite the file
+$text = file_get_contents("poem.txt");
+$text = strrev($text);
+file_put_contents("poem.txt", $text);
+```
 
-| Feature | JavaScript | Java |
-| --- | --- | --- |
-| **Translation model** | Interpreted | Compiled |
-| **Typing style** | Loosely typed | More strict typing |
-| **Core program unit** | **Function** | **Class** |
-| **Web page integration** | Embedded into HTML/CSS pages | Separate application/runtime model |
+**`file_put_contents()`** writes a string to a file and replaces prior contents unless the **`FILE_APPEND`** flag is used.
+
+```php
+// Append a new line instead of replacing the file
+$new_text = "P.S. ILY, GTG TTYL!~";
+file_put_contents("poem.txt", $new_text, FILE_APPEND);
+```
 
 > [!CAUTION]
-> _Do not equate similar syntax with identical behavior._ A common exam trap is assuming **JavaScript** follows Java's stricter type rules or object model.
+> **`file()`** keeps each trailing newline in the returned strings. If that extra `\n` is undesirable, use **`FILE_IGNORE_NEW_LINES`** as the second argument.
 
-## Adding JavaScript and the Event-Driven Model
+## Arrays from Files and String-Array Conversion
 
-A page can load external JavaScript with the **`<script>`** tag. The preferred style is linking a separate `.js` file so content, presentation, and behavior stay separate.
+When a file has a fixed number of lines, PHP can combine **`file()`** with **`list()`**. **`list($a, $b, ...)`** unpacks array elements into variables in order, so the file format must match the expected length exactly.
 
-```html
-<!-- Load external JavaScript from the page head -->
-<script src="filename" type="text/javascript"></script>
+```php
+// Unpack a known 3-line file into named variables
+list($name, $phone, $ssn) = file("personal.txt");
 ```
 
-**Event-driven programming** means code waits for an **event** such as a click, key press, or page load, then runs a function in response. This works differently from the usual "start at `main`" model because the browser dispatches events as the user interacts with the page.
+PHP also converts between strings and arrays with **`explode()`** and **`implode()`**.
 
-```mermaid
-flowchart TD
-  A[Browser loads page] --> B[User triggers event]
-  B --> C[Event handler runs]
-  C --> D[JavaScript changes page state or style]
-```
+| Function                         | Direction       | Why it works                               |
+| -------------------------------- | --------------- | ------------------------------------------ |
+| **`explode(delimiter, string)`** | String -> array | Splits at each delimiter                   |
+| **`implode(delimiter, array)`**  | Array -> string | Joins elements with delimiter between them |
 
-### Button Response Sequence
-
-1. Choose the **control** and the **event**.
-2. Write the **function** that should run.
-3. Attach that function as the **event handler**.
-
-This order matters because an event handler cannot call a function that has not been defined conceptually in the program design.
-
-## Functions, Event Handlers, and DOM Access
-
-A **function** is a named block of JavaScript statements that can be executed later. In web pages, functions are often triggered by events.
-
-```html
-<!-- Attach a click event handler directly in HTML -->
-<button onclick="changeText();">Click me!</button>
-<span id="output">replace me</span>
-<input id="textbox" type="text" />
-```
-
-```js
-// Respond to the click by reading DOM elements and changing presentation
-function changeText() {
-  var span = document.getElementById("output");
-  var textbox = document.getElementById("textbox");
-  span.innerHTML = textbox.value;
-  textbox.style.color = "red";
+```php
+// Split each line into title and author
+foreach (file("books.txt") as $book) {
+  list($title, $author) = explode(",", $book);
 }
 ```
 
-The **Document Object Model (DOM)** is the browser's object representation of the HTML page. It works by exposing each element as an object whose content, state, and style can be read or modified. **`document.getElementById("id")`** returns the DOM object for the element with that exact `id`. Use **`innerHTML`** to change text or markup inside most elements, and **`value`** to read or change form control contents.
-
-> [!IMPORTANT]
-> **`innerHTML`** and **`value`** are not interchangeable. _Use `value` for form controls and `innerHTML` for normal page elements._
-
-## Style Changes and Core Data Types
-
-An element's inline CSS can be changed through **`element.style`**. HTML/CSS property names that use hyphens become **camelCase** in JavaScript, such as **`backgroundColor`** and **`fontSize`**. This works because the `style` object exposes CSS properties as JavaScript fields.
-
-**Variables** are declared with **`var`** in this lecture's syntax. JavaScript is **loosely typed**, so the variable type is not declared explicitly, but values still have types such as **Number**, **Boolean**, **String**, **Array**, **Object**, **Function**, **Null**, and **Undefined**. The language combines integers and real numbers into one **Number** type.
-
-| Concept | Meaning | Exam Trap |
-| --- | --- | --- |
-| **null** | Variable exists but was assigned an empty value | Not the same as undeclared |
-| **undefined** | Variable does not exist or was not assigned | Not the same as `null` |
-| **Number** | One numeric type for integers and decimals | No separate `int`/`double` |
-
-## Operators, Strings, Arrays, and Conversion Rules
-
-JavaScript supports standard comparison and logical operators, but many perform **automatic type conversion**. For example, **`==`** checks value with coercion, while **`===`** checks both value and type. This distinction matters because **`"5.0" == 5`** is true, but **`"5.0" === 5`** is false.
-
 > [!CAUTION]
-> _Use strict equality mentally on exams when type matters._ Loose equality can hide conversions that change the answer.
+> _Do not use `list()` unless the source format is predictable._ Missing or extra pieces shift values into the wrong variables.
 
-**Strings** support methods such as **`substring`**, **`indexOf`**, **`split`**, and **`charAt`**. The **`length`** of a string is a property, not a method. **Arrays** can act like lists, queues, or stacks because methods such as **`push`**, **`pop`**, **`shift`**, and **`unshift`** add or remove elements from either end.
+## Reading Directories and Matching File Patterns
 
-```js
-// Convert and compare values with attention to coercion
-var s = "the quick brown fox";
-var a = s.split(" ");
-a.reverse();
-s = a.join("!");
+PHP can inspect directories with **`scandir()`** and **`glob()`**. **`scandir()`** returns the names of all entries in a directory, while **`glob()`** returns the paths of files that match a pattern. This difference matters because `glob()` filters during retrieval, while `scandir()` returns everything.
 
-var n1 = parseInt("42 is the answer");
-var n2 = parseFloat("booyah");   // NaN
-var strict = ("5.0" === 5);      // false
+```php
+// Process only files whose names match the pattern
+$poems = glob("poetry/poem*.dat");
+foreach ($poems as $poemfile) {
+  $text = file_get_contents($poemfile);
+  file_put_contents($poemfile, strrev($text));
+  print basename($poemfile);
+}
 ```
 
-**`split`** breaks a string into an array using a delimiter, while **`join`** merges an array into one string using a delimiter between elements. **`parseInt`** and **`parseFloat`** convert strings to numbers, but conversion can fail and produce **`NaN`**.
+| Function              | Returns                     | Exam trap             |
+| --------------------- | --------------------------- | --------------------- |
+| **`scandir(folder)`** | File names only             | Includes `.` and `..` |
+| **`glob(pattern)`**   | Matching paths              | Supports `*` wildcard |
+| **`basename(path)`**  | File name without directory | Useful after `glob()` |
+
+> [!NOTE]
+> If `scandir()` output shows **`.`** and **`..`**, those are directory entries, not normal content files.
+
+## Exceptions and Control Flow Interruption
+
+An **exception** is an abnormal condition that changes the normal flow of execution. When an exception is triggered, the current code path stops and control moves to an exception handler. In PHP, an exception is created with **`throw new Exception(...)`** and handled with **`try`** and **`catch`**.
+
+```php
+// Throw an exception when input is invalid
+function checkStr($str) {
+  if (strcmp($str, "correct") != 0) {
+    throw new Exception("String is not correct!");
+  }
+  return true;
+}
+
+try {
+  checkStr("wrong");
+  echo "If you see this, the string is correct";
+} catch (Exception $e) {
+  echo "Message: " . $e->getMessage();
+}
+```
+
+> [!IMPORTANT]
+> Once **`throw`** runs, later statements in the `try` block are skipped until control reaches a matching **`catch`** block.
+
+## Cookies, Sessions, and Stateful Web Data
+
+**HTTP is stateless**, meaning each request is independent unless extra state is stored. A **cookie** is a small piece of information stored on the **client machine** and sent back to the same website on later requests. A **session** combines server-side stored data with a client-side identifier, so the browser sends only a reference and the server loads the full session data.
+
+| Feature                      | **Cookie**         | **Session**                    |
+| ---------------------------- | ------------------ | ------------------------------ |
+| Storage location             | Client             | Server                         |
+| Client access to stored data | Yes                | No direct access               |
+| Size                         | Small              | Can be much larger             |
+| Data sent on requests        | Actual cookie data | Session ID only                |
+| Server cluster friendliness  | Works smoothly     | Needs server-side coordination |
+
+```php
+// Create, read, and store state data
+setcookie("user", "Harry Poter", time() + 3600);
+echo $_COOKIE["user"];
+
+session_start();
+$_SESSION["FirstName"] = "Jim";
+```
+
+**`setcookie(name, value, expire, path, domain)`** creates a cookie. Session work starts with **`session_start()`**, and session values are stored in the **`$_SESSION`** superglobal array.
+
+> [!CAUTION]
+> **Sessions** are more private than **cookies** because the main data lives on the server. The client usually sends only the session identifier, not the stored session contents themselves.

@@ -16,13 +16,13 @@ A **SQL data type** is an attribute that specifies what kind of data a column, v
 
 The boundary is that a data type does not describe the business meaning of a column; it describes the allowed form of the value. If a column is defined with an incompatible type, insertion or later processing becomes incorrect or impossible.
 
-| Category | What it stores | Why it matters |
-| -------- | -------------- | -------------- |
-| **Exact numeric** | Precise numbers | Needed when values must stay exact |
-| **Approximate numeric** | Rounded numeric values | Accepts approximation in exchange for representation flexibility |
-| **Date and time** | Temporal values | Separates dates from plain text |
-| **Character string** | Standard text | Stores names and labels |
-| **Unicode character string** | Multilingual text | Supports wider character sets |
+| Category                     | What it stores         | Why it matters                                                   |
+| ---------------------------- | ---------------------- | ---------------------------------------------------------------- |
+| **Exact numeric**            | Precise numbers        | Needed when values must stay exact                               |
+| **Approximate numeric**      | Rounded numeric values | Accepts approximation in exchange for representation flexibility |
+| **Date and time**            | Temporal values        | Separates dates from plain text                                  |
+| **Character string**         | Standard text          | Stores names and labels                                          |
+| **Unicode character string** | Multilingual text      | Supports wider character sets                                    |
 
 ## CREATE and DROP DATABASE
 
@@ -49,10 +49,10 @@ SHOW DATABASES;
 
 This distinction matters because the backup type changes both time and recovery strategy. A full backup is larger but self-contained. A differential backup is faster because only changed data is copied, but it depends on a previous full backup. The lecture also gives a critical storage rule: back up to a different drive than the original database so a disk crash does not destroy both the working database and its backup file.
 
-| Backup type | What it copies | Main advantage | Main limit |
-| ----------- | -------------- | -------------- | ---------- |
-| **Full backup** | Entire database | Complete recovery base | More time and storage |
-| **Differential backup** | Changes since last full backup | Faster backup | Depends on last full backup |
+| Backup type             | What it copies                 | Main advantage         | Main limit                  |
+| ----------------------- | ------------------------------ | ---------------------- | --------------------------- |
+| **Full backup**         | Entire database                | Complete recovery base | More time and storage       |
+| **Differential backup** | Changes since last full backup | Faster backup          | Depends on last full backup |
 
 ## CREATE TABLE and Table Copy Logic
 
@@ -93,13 +93,13 @@ ALTER TABLE table_name DROP COLUMN column_name;
 
 The lecture lists **`NOT NULL`**, **`UNIQUE`**, **`PRIMARY KEY`**, **`FOREIGN KEY`**, and **`CHECK`**. **`NOT NULL`** means a column cannot contain null values. **`UNIQUE`** means all values in the column must differ. **`PRIMARY KEY`** combines **`NOT NULL`** and **`UNIQUE`**, so it uniquely identifies each row. A table may have many **`UNIQUE`** constraints but only one **`PRIMARY KEY`**. A **`FOREIGN KEY`** preserves links between tables, and **`CHECK`** enforces a condition.
 
-| Constraint | Rule enforced | Boundary |
-| ---------- | ------------- | -------- |
-| **NOT NULL** | No null value allowed | Does not guarantee uniqueness |
-| **UNIQUE** | No duplicate values | Table can have many |
-| **PRIMARY KEY** | Unique and not null | Table can have only one |
-| **FOREIGN KEY** | Protects table relationships | Depends on referenced table |
-| **CHECK** | Value must satisfy a condition | Rejects violating actions |
+| Constraint      | Rule enforced                  | Boundary                      |
+| --------------- | ------------------------------ | ----------------------------- |
+| **NOT NULL**    | No null value allowed          | Does not guarantee uniqueness |
+| **UNIQUE**      | No duplicate values            | Table can have many           |
+| **PRIMARY KEY** | Unique and not null            | Table can have only one       |
+| **FOREIGN KEY** | Protects table relationships   | Depends on referenced table   |
+| **CHECK**       | Value must satisfy a condition | Rejects violating actions     |
 
 > [!IMPORTANT]
 > _Every primary key is unique and not null, but not every unique column is a primary key._

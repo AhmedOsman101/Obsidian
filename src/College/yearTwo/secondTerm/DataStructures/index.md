@@ -29,7 +29,5 @@ lastUpdated: false
   - [Section 5](Sections/Section-5.md)
   - [Section 6](Sections/Section-6.md)
   - [Section 7](Sections/Section-7.md)
-- [Tasks](Tasks/index.md)
 - [Assignments](Assignments/index.md)
   - [Assignment 1](Assignments/Assignment-1.md)
-- [Exams](Exams/index.md)

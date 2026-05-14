@@ -30,4 +30,6 @@ lastUpdated: false
   - [Section 8](Sections/Section-8.md)
   - [Section 9](Sections/Section-9.md)
 - [Tasks](Tasks/index.md)
-- [Exams](Exams/index.md)
+  - [Task One](Tasks/Task-1.md)
+  - [Task Two](Tasks/Task-2.md)
+  - [Task Three](Tasks/Task-3.md)

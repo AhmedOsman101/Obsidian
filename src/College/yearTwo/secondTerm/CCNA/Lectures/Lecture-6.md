@@ -49,7 +49,7 @@ This division matters because routers forward traffic by network portion first, 
 
 ## IPv4, IPv6, and IP Classes
 
-**IPv4** uses a **32-bit** address space, so the total number of addresses is **2^32**, which is more than 4 billion. It became the main production version in **1983**, and the small address space is why later expansion became necessary.
+**IPv4** uses a **32-bit** address space, so the total number of addresses is **$2^{32}$**, which is more than 4 billion. It became the main production version in **1983**, and the small address space is why later expansion became necessary.
 
 **IPv6** uses a **128-bit** address space and provides about **340 undecillion** addresses. It was introduced to solve IPv4 address exhaustion, so the larger bit length directly increases scalability.
 
@@ -60,11 +60,11 @@ This division matters because routers forward traffic by network portion first, 
 
 The lecture also classifies IPv4 addresses by leading range and default mask.
 
-| Class | Range                            | Default mask      | Typical use                     |
+| Class | Range (first bit)                           | Default mask      | Typical use                     |
 | ----- | -------------------------------- | ----------------- | ------------------------------- |
-| **A** | **1.0.0.0 to 126.255.255.255**   | **255.0.0.0**     | Large networks                  |
-| **B** | **128.0.0.0 to 191.255.0.0**     | **255.255.0.0**   | Medium networks                 |
-| **C** | **192.0.0.0 to 223.255.255.255** | **255.255.255.0** | Small networks                  |
+| **A** | **1.x.x.x to 126.x.x.x**   | **255.0.0.0**     | Large networks                  |
+| **B** | **128 to 191**     | **255.255.0.0**   | Medium networks                 |
+| **C** | **192 to 223** | **255.255.255.0** | Small networks                  |
 | **D** | **224 to 239**                   | N/A               | Multitasking in lecture wording |
 | **E** | **240 to 254**                   | N/A               | Research and development        |
 

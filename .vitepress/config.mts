@@ -5,7 +5,7 @@ import type { VitePressSidebarOptions } from "vitepress-sidebar/types";
 
 // https://vitepress.dev/reference/site-config
 
-const vitePressOptions: UserConfig = { 
+const vitePressOptions: UserConfig = {
   title: "Othman Notes",
   description: "A Website for all of my notes and thoughts",
   srcDir: "src",
@@ -82,6 +82,10 @@ const vitePressOptions: UserConfig = {
   mermaid: {
     // refer https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults for options
     theme: "neutral",
+    htmlLabels: false,
+    flowchart: {
+      useMaxWidth: true,
+    },
   },
   mermaidPlugin: {
     // optionally set additional config for plugin itself with MermaidPluginConfig
@@ -89,7 +93,7 @@ const vitePressOptions: UserConfig = {
   vite: {
     build: {
       chunkSizeWarningLimit: 3072,
-      rolldownOptions: { treeshake: true },
+      rollupOptions: { treeshake: true, cache: true },
     },
     server: { host: true },
   },
@@ -116,5 +120,5 @@ const vitePressSidebarOptions: VitePressSidebarOptions = {
 };
 
 export default defineConfig(
-  withSidebar(withMermaid(vitePressOptions), vitePressSidebarOptions)
+  withSidebar(withMermaid(vitePressOptions), vitePressSidebarOptions),
 );

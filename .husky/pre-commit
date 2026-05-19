@@ -1,5 +1,3 @@
 #!/usr/bin/env bash
 
-{
-  pnpm audit --fix update && git add pnpm-{workspace,lock}.yaml package.json
-} &>/dev/null
+pnpm audit --fix update &>/dev/null

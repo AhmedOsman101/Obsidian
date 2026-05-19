@@ -21,7 +21,7 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0(vue@3.5.34(typescript@5.9.3))
       cytoscape:
-        specifier: ^3.33.2
+        specifier: ^3.33.3
         version: 3.33.3
       cytoscape-cose-bilkent:
         specifier: ^4.1.0
@@ -39,14 +39,14 @@ importers:
         specifier: ^7.2.0
         version: 7.2.0
       vue:
-        specifier: ^3.5.32
+        specifier: ^3.5.34
         version: 3.5.34(typescript@5.9.3)
     devDependencies:
       '@markslides/markdown-it-mermaid':
         specifier: ^0.4.6
         version: 0.4.6
       '@types/node':
-        specifier: ^25.6.0
+        specifier: ^25.7.0
         version: 25.7.0
       husky:
         specifier: ^9.1.7
@@ -67,7 +67,7 @@ importers:
         specifier: ^0.1.1
         version: 0.1.1
       vitepress-sidebar:
-        specifier: ^1.33.1
+        specifier: ^1.33.2
         version: 1.33.2
 
 packages:

@@ -81,7 +81,7 @@ struct StackType {
 };
 ```
 
-The lecture’s first style uses `top = -1` to mean the stack is empty. In that model, a full stack has `top == MAX - 1`.
+The lecture's first style uses `top = -1` to mean the stack is empty. In that model, a full stack has `top == MAX - 1`.
 
 ```cpp
 // Initializes the stack to the empty state.
@@ -150,7 +150,7 @@ while (!StackEmpty(stack)) {
 ```
 
 > [!CAUTION]
-> _In a static stack, reversing stops early if the stack becomes full._ Capacity limits are part of the algorithm’s behavior.
+> _In a static stack, reversing stops early if the stack becomes full._ Capacity limits are part of the algorithm's behavior.
 
 ## StackTop and ADT vs. Implementation View
 

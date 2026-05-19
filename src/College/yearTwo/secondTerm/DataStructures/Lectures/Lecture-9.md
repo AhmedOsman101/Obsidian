@@ -9,5 +9,3 @@ next:
 ---
 
 # Data Structures - Lecture 9
-
-

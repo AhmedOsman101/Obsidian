@@ -12,14 +12,14 @@ next:
 
 ## Data, Data Structures, and Scope
 
-**Data** is the basic entity or fact used in calculation or manipulation. A **data structure** is a way of organizing data items by considering their relationships to one another. The exam boundary is: data is *what exists*, while a data structure is *how that data is organized for use*.
+**Data** is the basic entity or fact used in calculation or manipulation. A **data structure** is a way of organizing data items by considering their relationships to one another. The exam boundary is: data is _what exists_, while a data structure is _how that data is organized for use_.
 
 **Why this matters:** organization determines what operations become fast, slow, easy, or memory-expensive, so structure directly affects program behavior rather than merely formatting information.
 
-| Concept | Includes | Excludes | Exam Trap |
-| --- | --- | --- | --- |
-| **Data** | Facts, values, items used in processing | Storage strategy | Treating raw values as a structure |
-| **Data structure** | Organization of related data items | Unrelated implementation details outside storage/relationships | Defining it only as "a variable" |
+| Concept            | Includes                                | Excludes                                                       | Exam Trap                          |
+| ------------------ | --------------------------------------- | -------------------------------------------------------------- | ---------------------------------- |
+| **Data**           | Facts, values, items used in processing | Storage strategy                                               | Treating raw values as a structure |
+| **Data structure** | Organization of related data items      | Unrelated implementation details outside storage/relationships | Defining it only as "a variable"   |
 
 ## Efficiency: Time vs. Space Complexity
 
@@ -61,10 +61,10 @@ int* ptr = new int[10];
 
 **Why this matters:** static allocation is fixed, while dynamic allocation supports flexible sizes.
 
-| Concept | When Decided | Size Flexibility | Typical Form |
-| --- | --- | --- | --- |
-| **Static allocation** | Compile time | Fixed | Normal declarations |
-| **Dynamic allocation** | Run time | Flexible | `new ...` |
+| Concept                | When Decided | Size Flexibility | Typical Form        |
+| ---------------------- | ------------ | ---------------- | ------------------- |
+| **Static allocation**  | Compile time | Fixed            | Normal declarations |
+| **Dynamic allocation** | Run time     | Flexible         | `new ...`           |
 
 > [!IMPORTANT]
 > If memory is allocated dynamically for a structure, the allocated block is **contiguous** and its size depends on the total size of the structure fields.
@@ -99,7 +99,7 @@ The memory size rule is:
 
 To store in `A[3]`, the machine calculates the location using:
 
-**Loc address = A + 3 * sizeof(int)**
+**Loc address = A + 3 \* sizeof(int)**
 
 and then stores the value in that computed location.
 
@@ -143,11 +143,11 @@ flowchart LR
   - Defines how operations are actually carried out
   - May change without forcing user code to change
 
-| **ADT / Interface** vs. **Implementation** | **ADT / Interface** | **Implementation** |
-| --- | --- | --- |
-| Focus | Allowed operations | Internal representation |
-| Seen by user? | Yes | No |
-| Should user code depend on it? | Yes | No |
+| **ADT / Interface** vs. **Implementation** | **ADT / Interface** | **Implementation**      |
+| ------------------------------------------ | ------------------- | ----------------------- |
+| Focus                                      | Allowed operations  | Internal representation |
+| Seen by user?                              | Yes                 | No                      |
+| Should user code depend on it?             | Yes                 | No                      |
 
 Reasons for using ADTs:
 
@@ -156,4 +156,4 @@ Reasons for using ADTs:
 3. The component implementation can change without affecting other components.
 
 > [!CAUTION]
-> *Do not define an **ADT** as only a data container.* The lecture definition requires both the **organized data** and the **operations** on that data.
+> _Do not define an **ADT** as only a data container._ The lecture definition requires both the **organized data** and the **operations** on that data.

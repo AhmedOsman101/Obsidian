@@ -70,11 +70,11 @@ However, in a circular queue, **front** can become one step after **rear** in bo
 | **Full queue**  | `MAX`        | All array positions used |
 
 > [!CAUTION]
-> _Without the **size** field, `front` and `rear` alone cannot always distinguish a full circular queue from an empty one in this lecture’s design._
+> _Without the **size** field, `front` and `rear` alone cannot always distinguish a full circular queue from an empty one in this lecture's design._
 
 ## Circular Queue Representation and Initialization
 
-The lecture’s queue representation stores **front**, **rear**, **size**, and the data array inside one structure.
+The lecture's queue representation stores **front**, **rear**, **size**, and the data array inside one structure.
 
 ```cpp
 // Represents a static circular queue with explicit size tracking.

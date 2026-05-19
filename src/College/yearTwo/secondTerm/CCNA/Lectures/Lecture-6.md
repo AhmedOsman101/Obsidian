@@ -8,7 +8,9 @@ next:
 title: Lecture 6
 ---
 
-## Lecture 6: IP Address Foundations
+# CCNA - Lecture 6
+
+## IP Address Foundations
 
 **IP address** is a numerical label assigned to a device on a network that uses the **Internet Protocol (IP)** for communication. It identifies a device on a specific network and helps create logical communication between source and destination, so it is both an identifier and a delivery reference.
 

@@ -8,7 +8,9 @@ next:
 title: Lecture 5
 ---
 
-# Lecture 5: Physical Layer Fundamentals
+# CCNA - Lecture 5
+
+## Physical Layer Fundamentals
 
 The **Physical Layer (Layer 1)** is responsible for **transmitting raw bits (0s/1s)** over a physical medium. It **does NOT interpret frames or addresses** (that's Data Link Layer).
 

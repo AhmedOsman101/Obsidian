@@ -31,7 +31,7 @@ title: Lecture 1
 
 ### Core Hardware Components
 
-- **Client computers (workstations):** End-user devices (typically desktops with Windows OS) that _access_ network resources.
+- **Client computers (workstations):** End-user devices that _access_ network resources.
 - **Server computers:** Powerful, dedicated machines running a **Network Operating System (NOS)** to _provide_ shared resources (files, apps, databases). _Why?_ Centralizes management and security.
 - **Network Interface Card (NIC):** Hardware enabling a computer to connect to the network. Usually an **Ethernet card**, now often built into the motherboard.
 - **Cable:** Physical medium.
@@ -51,15 +51,15 @@ title: Lecture 1
 
 - Manages servers and network services. Key for building/maintaining networks.
 - **Examples:**
+  - **Linux-based Server:** Debian, Red Hat Enterprise Linux (RHEL), Ubuntu
   - **Windows Server** (2022, 2019, 2016...)
-  - **Linux-based Server** (Debian, Red Hat Enterprise Linux)
   - **Virtualization Platforms** (VMware, KVM)
 
 ## Peer-to-Peer vs. Dedicated Server
 
 | Feature           | Peer-to-Peer (Workgroup)                           | Dedicated Server-Based                                     |
 | :---------------- | :------------------------------------------------- | :--------------------------------------------------------- |
-| **OS Used**       | Desktop Windows (95, XP, 10)                       | Server OS (Windows Server, Linux)                          |
+| **OS Used**       | Desktop Linux or Windows (XP, 7, 10)               | Server OS (Windows Server, Linux)                          |
 | **Server Role**   | Any computer can share resources                   | Computer dedicated _only_ to serving                       |
 | **Efficiency**    | Low for many clients; not designed for heavy loads | High; optimized for concurrent requests                    |
 | **Software Cost** | Built-in, no extra cost                            | Requires server OS license                                 |

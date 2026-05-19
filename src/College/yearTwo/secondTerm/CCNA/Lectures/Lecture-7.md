@@ -8,6 +8,8 @@ next:
 title: Lecture 7
 ---
 
+# CCNA - Lecture 7
+
 ## ARP Purpose and Boundaries
 
 **Address Resolution Protocol (ARP)** maps an **IPv4 address** to a **MAC (Media Access Control) address** on a local network. It exists because **IPv4** is a **32-bit logical address** used at the network layer, while a **MAC address** is a **48-bit physical address** used at the data link layer, so a host needs both before it can deliver a frame on a LAN.

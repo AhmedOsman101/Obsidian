@@ -6,6 +6,8 @@ next: false
 title: Lecture 8
 ---
 
+# CCNA - Lecture 8
+
 ## Switching Fundamentals
 
 **Switching** is the process a **Layer 2 switch** uses to receive a frame on one interface and send it out another interface based on addressing information. It works at frame level, so the switch makes decisions using **MAC addresses**, not IP routing logic.

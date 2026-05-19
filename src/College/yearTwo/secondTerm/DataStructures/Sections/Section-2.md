@@ -95,6 +95,54 @@ A **circular queue** is an extended version of the normal queue where the last e
 
 This helps reuse empty spaces created after dequeue operations in an array-based queue.
 
+The lecture explains why this is needed: in a simple linear array queue, repeated `dequeue` operations leave empty cells at the front. If `rear` reaches the last array index, later `enqueue` operations may fail even though earlier cells are unused.
+
+> [!IMPORTANT]
+> Shifting elements toward the front after each `dequeue` is correct, but the lecture treats it as too costly.
+
+### Lecture-Style Circular Queue Representation
+
+```cpp
+// Purpose: represent a circular queue with explicit size tracking.
+const int MAX = 10;
+using EntryType = char;
+
+struct QueueType {
+  int front;
+  int rear;
+  int size;
+  EntryType entry[MAX];
+};
+
+void CreateQueue(QueueType* q) {
+  q->front = 0;
+  q->rear = MAX - 1;
+  q->size = 0;
+}
+
+bool QueueEmpty(QueueType q) {
+  return q.size == 0;
+}
+
+bool QueueFull(QueueType q) {
+  return q.size == MAX;
+}
+
+void Enqueue(EntryType item, QueueType* q) {
+  q->rear = (q->rear + 1) % MAX;
+  q->entry[q->rear] = item;
+  q->size++;
+}
+
+void Dequeue(EntryType* item, QueueType* q) {
+  *item = q->entry[q->front];
+  q->front = (q->front + 1) % MAX;
+  q->size--;
+}
+```
+
+The lecture uses **size** to separate the full and empty cases because in this circular design `front` and `rear` alone can become ambiguous.
+
 ## Static Queue Implementation from Scratch
 
 A static queue using an array should include these parts:
@@ -280,6 +328,26 @@ public:
 };
 ```
 
+### Traverse Without Destroying the Queue
+
+The lecture includes a user-level traversal function that visits elements without deleting them.
+
+```cpp
+// Purpose: apply a function to each queue element once without changing the queue.
+void TraverseQueue(QueueType* q, void (*f)(EntryType*)) {
+  int i;
+  int siz;
+  for (i = q->front, siz = 0; siz < q->size; siz++) {
+    (*f)(&q->entry[i]);
+    i = (i + 1) % MAX;
+  }
+}
+
+void Print(EntryType* e) {
+  cout << "e is: " << *e << '\n';
+}
+```
+
 ### Dynamic Queue Using Linked List
 
 ```cpp
@@ -345,6 +413,74 @@ public:
   }
 };
 ```
+
+### Lecture-Style Linked Queue Operations
+
+```cpp
+// Purpose: implement a linked queue using explicit front and rear pointers.
+using EntryType = char;
+
+struct Node {
+  EntryType info;
+  Node* next;
+};
+
+struct LinkedQueueType {
+  Node* front;
+  Node* rear;
+};
+
+void CreateQueue(LinkedQueueType* q) {
+  q->front = nullptr;
+  q->rear = nullptr;
+}
+
+int QueueEmpty(LinkedQueueType q) {
+  return q.front == nullptr;
+}
+
+int QueueFull(LinkedQueueType q) {
+  return 0;
+}
+
+void Enqueue(EntryType item, LinkedQueueType* q) {
+  Node* p = new Node;
+  p->info = item;
+  p->next = nullptr;
+
+  if (!q->rear) {
+    q->front = p;
+  } else {
+    q->rear->next = p;
+  }
+
+  q->rear = p;
+}
+
+void Dequeue(EntryType* item, LinkedQueueType* q) {
+  *item = q->front->info;
+  Node* p = q->front;
+  q->front = q->front->next;
+  delete p;
+
+  if (!q->front) {
+    q->rear = nullptr;
+  }
+}
+
+void ClearQueue(LinkedQueueType* q) {
+  Node* p;
+  while (q->front) {
+    p = q->front;
+    q->front = q->front->next;
+    delete p;
+  }
+  q->rear = nullptr;
+}
+```
+
+> [!CAUTION]
+> After deleting the last node in a linked queue, both `front` and `rear` must become `nullptr`.
 
 ## Summary
 

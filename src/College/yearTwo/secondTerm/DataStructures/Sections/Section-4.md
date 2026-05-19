@@ -24,6 +24,8 @@ A **doubly linked list** is a **bi-directional linked list**, so it can be trave
 
 It is used to store data in a way that allows for **fast insertion and deletion** of elements. It is also easy to implement and can be used in a variety of applications.
 
+The lecture use-case material adds a specific form: the **doubly sorted linked list**, where nodes are ordered by a key while still supporting both `next` and `prev` navigation.
+
 ## Operations on Linked List
 
 The source lists these basic linked list operations:
@@ -65,6 +67,72 @@ A **doubly circular linked list** is a mixture of a **doubly linked list** and a
 This type is a **bi-directional list**, so it can be traversed in both directions.
 
 The source states that doubly circular linked lists are often used in applications where data needs to be processed in a **sequential fashion**, such as in a **video or audio player**.
+
+## Doubly Sorted Linked List from the Lecture
+
+The lecture defines a structure whose nodes store an entry with a **key** and associated **data**, plus both `next` and `prev` links.
+
+```cpp
+// Purpose: store entries in sorted order while supporting two-way links.
+struct EntryData {
+  int key;
+  char data;
+};
+
+struct DNode {
+  EntryData info;
+  DNode* next;
+  DNode* prev;
+};
+
+struct DListType {
+  DNode* head;
+};
+
+void CreateDL(DListType* dl) {
+  dl->head = nullptr;
+}
+
+void Insert(DListType* dl, EntryData e) {
+  DNode* p = new DNode;
+  p->info = e;
+
+  DNode* q = dl->head;
+
+  if (dl->head == nullptr) {
+    p->prev = nullptr;
+    p->next = nullptr;
+    dl->head = p;
+  } else {
+    while (q && e.key > q->info.key) {
+      q = q->next;
+    }
+
+    p->next = q;
+    p->prev = q ? q->prev : nullptr;
+
+    if (q && q->prev) {
+      q->prev->next = p;
+    } else {
+      dl->head = p;
+    }
+
+    if (q) {
+      q->prev = p;
+    }
+  }
+}
+```
+
+The insertion pattern is:
+
+1. search for the first node whose key is not smaller than the new key
+2. set the new node's `next` and `prev`
+3. repair the neighboring links
+4. update `head` if insertion happens at the beginning
+
+> [!CAUTION]
+> The lecture requires a deletion-by-key task for the doubly sorted list, but the source shown earlier did not include its implementation. This section keeps only the code that the lecture actually illustrated.
 
 ## Applications of Different Types of Linked Lists
 

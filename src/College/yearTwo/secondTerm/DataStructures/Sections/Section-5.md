@@ -100,6 +100,92 @@ Breadth-first traversal uses a queue.
 
 - **Level-order**
 
+### Lecture-Style Linked Tree Representation
+
+```cpp
+// Purpose: represent a binary tree using linked nodes as in the lecture.
+using EntryType = char;
+
+struct NodeType {
+  EntryType info;
+  NodeType* right;
+  NodeType* left;
+};
+
+using TreeType = NodeType*;
+
+void CreateTree(TreeType* t) {
+  *t = nullptr;
+}
+
+int EmptyTree(TreeType t) {
+  return !t;
+}
+
+int FullTree(TreeType t) {
+  return 0;
+}
+```
+
+### Lecture Traversal Functions
+
+```cpp
+// Purpose: visit tree nodes in recursive preorder, inorder, and postorder.
+void Inorder(TreeType t, void (*pvisit)(EntryType*)) {
+  if (t) {
+    Inorder(t->left, pvisit);
+    (*pvisit)(&(t->info));
+    Inorder(t->right, pvisit);
+  }
+}
+
+void Preorder(TreeType t, void (*pvisit)(EntryType*)) {
+  if (t) {
+    (*pvisit)(&(t->info));
+    Preorder(t->left, pvisit);
+    Preorder(t->right, pvisit);
+  }
+}
+
+void Postorder(TreeType t, void (*pvisit)(EntryType*)) {
+  if (t) {
+    Postorder(t->left, pvisit);
+    Postorder(t->right, pvisit);
+    (*pvisit)(&(t->info));
+  }
+}
+```
+
+### Tree Size, Height, and Clearing
+
+```cpp
+// Purpose: compute recursive properties and release all tree nodes.
+int Size(TreeType t) {
+  if (!t) {
+    return 0;
+  }
+  return 1 + Size(t->left) + Size(t->right);
+}
+
+int Height(TreeType t) {
+  if (!t) {
+    return 0;
+  }
+  int a = Height(t->left);
+  int b = Height(t->right);
+  return (a > b) ? 1 + a : 1 + b;
+}
+
+void ClearTree(TreeType* t) {
+  if (*t) {
+    ClearTree(&(*t)->left);
+    ClearTree(&(*t)->right);
+    delete *t;
+    *t = nullptr;
+  }
+}
+```
+
 ## Binary Search Trees (BST)
 
 A **Binary Search Tree (BST)** is a binary tree that is either empty or satisfies the following properties:
@@ -171,6 +257,50 @@ It can be divided into two stages:
 
 > [!IMPORTANT]
 > BST operations rely on the ordering rule: left values are smaller than the root, and right values are greater than the root. This rule is what makes search, insertion, and deletion possible.
+
+The lecture-specific deletion note is that in the two-child case the replacement can be taken from the **largest value in the left subtree**. That node is the **inorder predecessor**. The lecture also notes that the smallest value in the right subtree could be used instead.
+
+## AVL Trees
+
+An **AVL tree** is a **well-balanced BST**. It keeps search, insertion, and deletion efficient by ensuring that the height difference between the left and right subtrees of every node stays small.
+
+### Balance Factor and Rotation Rules
+
+The lecture defines:
+
+```text
+balance factor = height(right subtree) - height(left subtree)
+```
+
+| Balance factor | Meaning                      | Status     |
+| -------------- | ---------------------------- | ---------- |
+| `-1`           | left subtree taller by 1     | balanced   |
+| `0`            | equal heights                | balanced   |
+| `+1`           | right subtree taller by 1    | balanced   |
+| `-2` or `+2`   | difference exceeds AVL limit | unbalanced |
+
+| Case   | Node balance | Child balance           | Fix              |
+| ------ | ------------ | ----------------------- | ---------------- |
+| **LL** | `-2`         | left child `-1` or `0`  | right rotation   |
+| **RR** | `+2`         | right child `+1` or `0` | left rotation    |
+| **LR** | `-2`         | left child `+1`         | left, then right |
+| **RL** | `+2`         | right child `-1`        | right, then left |
+
+```cpp
+// Purpose: show the lecture's design direction that AVL builds on BST.
+class BST {
+public:
+  // Standard BST operations.
+};
+
+class AVLTree : public BST {
+public:
+  // Rebalancing logic extends BST behavior.
+};
+```
+
+> [!CAUTION]
+> The extracted AVL lecture explicitly covered the four rotation cases and the class-design relationship to BST, but did not provide later implementation slides in the recovered source.
 
 ## C++ Implementation
 

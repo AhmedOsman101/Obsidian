@@ -85,3 +85,82 @@ The best case is **O(1)** for both because the target may be found immediately: 
 
 > [!NOTE]
 > Do not invent extra steps or formulas for **hashing** or **tree-based searching** from outside knowledge if the exam asks "according to this section."
+
+## Hashing Fundamentals
+
+The lecture on hashing makes **hashing** the next major search family after linear and binary search. It is a technique that retrieves a value using an index obtained from a key, without performing an ordinary search through all stored elements.
+
+| Structure idea           | Access logic                   | Typical time in the lecture |
+| ------------------------ | ------------------------------ | --------------------------- |
+| **Balanced search tree** | Follow comparisons down levels | **O(log n)**                |
+| **Hash table**           | Compute index from key         | **O(1)**                    |
+
+### Map, Hash Table, and Hash Function
+
+A **map** stores entries made of a **key** and a **value**. The array that stores entries is the **hash table**, and the rule that maps a key to an index is the **hash function**.
+
+The lecture separates two stages:
+
+1. convert the key into an integer **hash code**
+2. compress that hash code into a valid table index
+
+> [!CAUTION]
+> A **hash code** is not automatically the final array index. It usually must be compressed into the table range.
+
+## Collision Handling
+
+A **collision** occurs when two keys map to the same hash-table index.
+
+### Open Addressing
+
+In **open addressing**, a collided entry is moved to another table cell based on a probe rule.
+
+| Method                | Probe idea                                   | Main effect                   |
+| --------------------- | -------------------------------------------- | ----------------------------- |
+| **Linear probing**    | use consecutive cells                        | simple, but causes clustering |
+| **Quadratic probing** | add `j^2`                                    | reduces clustering            |
+| **Double hashing**    | use a second hash function for the step size | spreads probes better         |
+
+Lecture example:
+
+```text
+h'(k) = 7 - k % 7
+```
+
+### Separate Chaining
+
+In **separate chaining**, collided entries remain at the same hash index inside a **bucket**, where one bucket can hold multiple entries.
+
+| Strategy              | Where collided entries go  |
+| --------------------- | -------------------------- |
+| **Open addressing**   | other cells in the table   |
+| **Separate chaining** | same index inside a bucket |
+
+## Hash-Based Design Direction
+
+The lecture connects hashing to implementing both maps and sets.
+
+```cpp
+// Purpose: show the lecture's class-design relationship for hashing.
+class MyMap {
+public:
+  // Map behavior lives here.
+};
+
+class MyHashMap : public MyMap {
+public:
+  // Hashing-based map implementation lives here.
+};
+
+class MySet {
+public:
+  // Set behavior lives here.
+};
+
+class MyHashSet : public MySet {
+public:
+  // Hashing-based set implementation lives here.
+};
+```
+
+The lecture objectives also name **load factor** and **rehashing** as important ideas, but the extracted lecture pages available here do not provide their full procedures or formulas.

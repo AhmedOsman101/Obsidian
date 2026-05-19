@@ -16,6 +16,17 @@ A **linked list** is a linear data structure that consists of a series of nodes 
 
 Linked lists allow efficient insertion or removal of elements from any position in the list because the nodes are **not stored contiguously in memory**.
 
+The lecture adds the main list boundary: unlike stacks and queues, a general **list** allows insertion and deletion at **user-chosen positions**.
+
+## List Position Rules
+
+For a list with `n` elements:
+
+1. insertion is valid at `0 <= p <= n`
+2. deletion is valid at `0 <= p < n`
+
+In an array-based list, insertion shifts later elements right and deletion shifts later elements left. In a linked list, the same user-selected positions are handled by **relinking pointers** instead of shifting cells.
+
 ## Linked Lists vs Arrays
 
 The source compares linked lists and arrays as follows:
@@ -42,6 +53,8 @@ The following operations are listed for linked lists:
 The section focuses on the **singly linked list**.
 
 In a singly linked list, each node stores data and a pointer to the next node only.
+
+The lecture representation ends with a null pointer, so the final node points to **`NULL`** / **`nullptr`**.
 
 ## Implementation of a Singly Linked List
 
@@ -72,6 +85,103 @@ The source lists the following functions for linked list class implementation:
 - function to check if a specific value is found in the list
 - function to insert a value before a specific item in the list
 - function to delete a node with a specific value
+
+The lecture also defines ADT-style operations named **CreateList**, **EmptyList**, **FullList**, **Insert**, **Retrieve**, and **ClearList**.
+
+> [!IMPORTANT]
+> The lecture's `FullList` returns `0`, meaning a linked list is treated as not having a fixed capacity like an array-based list.
+
+### Lecture-Style Singly Linked List Operations
+
+```cpp
+// Purpose: show the lecture's pointer-based linked-list ADT operations.
+using EntryType = char;
+
+struct Node {
+  EntryType info;
+  Node* next;
+};
+
+using ListType = Node*;
+
+void CreateList(ListType* L) {
+  *L = NULL;
+}
+
+void Insert(ListType* L, EntryType item, int pos) {
+  Node* p = new Node;
+  p->info = item;
+
+  if (pos == 0) {
+    p->next = *L;
+    *L = p;
+  } else {
+    Node* q;
+    int i;
+    for (q = *L, i = 0; i < pos - 1; i++) {
+      q = q->next;
+    }
+    p->next = q->next;
+    q->next = p;
+  }
+}
+
+void ClearList(ListType* L) {
+  Node* q;
+  while (*L) {
+    q = *L;
+    *L = (*L)->next;
+    delete q;
+  }
+}
+```
+
+### The Lecture's "Retrieve" Actually Removes
+
+```cpp
+// Purpose: preserve the lecture's shown behavior, which deletes and returns the item.
+void Retrieve(ListType* L, EntryType* item, int pos) {
+  int i;
+  Node* q;
+  Node* tmp;
+
+  if (pos == 0) {
+    *item = (*L)->info;
+    tmp = *L;
+    *L = (*L)->next;
+    delete tmp;
+  } else {
+    for (q = *L, i = 0; i < pos - 1; i++) {
+      q = q->next;
+    }
+    *item = q->next->info;
+    tmp = q->next;
+    q->next = tmp->next;
+    delete tmp;
+  }
+}
+```
+
+> [!CAUTION]
+> The lecture labels this operation `Retrieve`, but the shown code **changes the list and deletes a node**. It behaves like delete-and-return, not read-only retrieval.
+
+## Linked List Use Cases from the Lecture
+
+### Print All List Elements
+
+```cpp
+// Purpose: traverse from head to tail and print each item.
+void PrintList(ListType L) {
+  Node* p = L;
+
+  while (p) {
+    cout << p->info;
+    p = p->next;
+  }
+}
+```
+
+This forward traversal pattern is the base for many list operations such as search, counting, and display.
 
 ## C++ Implementation
 

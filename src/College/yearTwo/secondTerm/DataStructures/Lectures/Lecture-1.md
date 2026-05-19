@@ -1,125 +1,73 @@
 ---
-title: Lecture 1
+title: Foundations I
 prev:
   text: "Lectures"
   link: "/College/yearTwo/secondTerm/DataStructures/Lectures/index"
 next:
-  text: "Lecture 2"
+  text: "Stacks I"
   link: "/College/yearTwo/secondTerm/DataStructures/Lectures/Lecture-2"
 ---
 
-# Data Structures - Lecture 1
+# Foundations I: Data, Arrays, and ADTs
 
 ## Data, Data Structures, and Scope
 
-**Data** is the basic entity or fact used in calculation or manipulation. A **data structure** is a way of organizing data items by considering their relationships to one another. The exam boundary is: data is _what exists_, while a data structure is _how that data is organized for use_.
+**Data** is the basic entity or fact used in calculation or manipulation. A **data structure** is a way of organizing data items by considering their relationships to one another. The exam boundary is simple: data is _what exists_, while a data structure is _how that data is organized for use_.
 
-**Why this matters:** organization determines what operations become fast, slow, easy, or memory-expensive, so structure directly affects program behavior rather than merely formatting information.
-
-| Concept            | Includes                                | Excludes                                                       | Exam Trap                          |
-| ------------------ | --------------------------------------- | -------------------------------------------------------------- | ---------------------------------- |
-| **Data**           | Facts, values, items used in processing | Storage strategy                                               | Treating raw values as a structure |
-| **Data structure** | Organization of related data items      | Unrelated implementation details outside storage/relationships | Defining it only as "a variable"   |
+| Concept            | Includes                                | Excludes                         | Exam trap                          |
+| ------------------ | --------------------------------------- | -------------------------------- | ---------------------------------- |
+| **Data**           | facts, values, items used in processing | storage strategy                 | treating raw values as a structure |
+| **Data structure** | organization of related data items      | unrelated implementation details | defining it only as a variable     |
 
 ## Efficiency: Time vs. Space Complexity
 
 The quality of a data structure is judged by **space complexity** and **time complexity**. **Space complexity** is the amount of memory required by a solution. **Time complexity** is expressed as a function of the number of **key operations** performed.
 
-**Why this matters:** counting key operations lets you compare solutions independently of machine speed, while memory usage explains whether an approach is practical at all.
-
 If one solution uses more memory but less time, and another uses less memory but more time, a **tradeoff** exists.
 
 ### Space Components
 
-- **Instruction space**: memory for the program instructions themselves.
-- **Data space**: memory for variables and stored data.
-- **Environment stack space**: memory saved during function invocation.
-  - **Return address**
-  - Values of local variables
-  - Values of formal parameters
+- **Instruction space**
+- **Data space**
+- **Environment stack space**
+  - return address
+  - local variables
+  - formal parameters
 
 > [!CAUTION]
-> **Space complexity** is not only the array or structure itself. It also includes execution-related memory such as the **environment stack**.
+> **Space complexity** includes execution-related memory such as the **environment stack**, not only the data structure itself.
 
 ## Memory Allocation: Static vs. Dynamic
 
-**Memory allocation** is reserving memory for data storage. The two types here are **static memory allocation** and **dynamic memory allocation**.
+**Memory allocation** is reserving memory for data storage.
 
-**Static memory allocation** happens at **compile time**. Its size is fixed before execution begins.
+| Concept                | When decided | Size flexibility |
+| ---------------------- | ------------ | ---------------- |
+| **Static allocation**  | compile time | fixed            |
+| **Dynamic allocation** | run time     | flexible         |
 
-```cpp
-// Statically allocates fixed storage before runtime.
-float a[5], f;
-```
-
-**Dynamic memory allocation** happens at **run time**. Memory is requested while the program executes.
-
-```cpp
-// Dynamically allocates space for 10 integers at runtime.
-int* ptr = new int[10];
-```
-
-**Why this matters:** static allocation is fixed, while dynamic allocation supports flexible sizes.
-
-| Concept                | When Decided | Size Flexibility | Typical Form        |
-| ---------------------- | ------------ | ---------------- | ------------------- |
-| **Static allocation**  | Compile time | Fixed            | Normal declarations |
-| **Dynamic allocation** | Run time     | Flexible         | `new ...`           |
-
-> [!IMPORTANT]
-> If memory is allocated dynamically for a structure, the allocated block is **contiguous** and its size depends on the total size of the structure fields.
-
-```cpp
-// Allocates one Employee record as one contiguous block.
-struct Employee {
-  int Emp_Code;
-  char Emp_Name[50];
-  float Emp_Salary;
-};
-
-Employee* str_ptr = new Employee;
-```
-
-In the lecture example, executing this statement allocates a contiguous block of **60 bytes**.
+The lecture stresses that dynamic allocation supports changing size during execution, while static allocation fixes size before execution starts.
 
 ## Arrays as Linear Data Structures
 
 An **array** is a non-primitive **linear data structure**. It is a collection of items of the **same type** stored **contiguously in memory**. If elements are not of one type or not contiguous, the lecture definition is not satisfied.
 
-**Why this matters:** same-type storage and contiguity allow direct address calculation.
+The memory rules emphasized by the lecture are:
 
-For the C++ statement `int A[10];`, two things happen:
+- **memory size = element size x number of elements**
+- location is computed by base address plus indexed offset
 
-1. A contiguous space in memory is reserved.
-2. The starting address is given the name `A`.
-
-The memory size rule is:
-
-**memory size = element size x number of elements**
-
-To store in `A[3]`, the machine calculates the location using:
-
-**Loc address = A + 3 \* sizeof(int)**
-
-and then stores the value in that computed location.
-
-```cpp
-// Stores 27 in the fourth integer slot of the array.
-int A[10];
-A[3] = 27;
-```
+This is why arrays support direct indexed access.
 
 ## Abstraction and Abstract Data Types
 
-**Abstraction** means considering high-level characteristics without getting bogged down in details. **Data abstraction** allows a structure to be used without knowing its internal implementation.
+**Abstraction** means considering high-level characteristics without getting lost in details. **Data abstraction** allows a structure to be used without knowing its internal implementation.
 
-A(n) **Abstract Data Type (ADT)** is an organized data object plus a set of operations for manipulating it.
+An **Abstract Data Type (ADT)** is an organized data object plus a set of operations for manipulating it.
 
 **ADT = Organized data + Operations**
 
-**Why this matters:** an ADT is defined by allowed operations, not by internal code.
-
-An ADT defines the **interface** of objects. The interface acts like a **contract** between the **implementers** and the **users** of the ADT.
+An ADT defines the **interface** of objects. The interface acts like a **contract** between implementers and users.
 
 ```mermaid
 flowchart LR
@@ -130,30 +78,22 @@ flowchart LR
 
 ## Encapsulation, Levels, and Why ADTs Matter
 
-**Encapsulation** or **information hiding** is hiding the data structure implementation inside the ADT. The program that uses the ADT is the **user**, while the program that specifies the ADT is the **implementation**.
-
-**Why this matters:** user-level code depends on the interface, so it should not change when the implementation changes.
+**Encapsulation** or **information hiding** means hiding the data-structure implementation inside the ADT. User code depends on the **interface**, not on the internal representation.
 
 ### User Level vs. Implementation Level
 
 - **User level**
-  - Uses operations provided by the ADT
-  - Does not depend on internal representation
+  - uses ADT operations
+  - should not depend on hidden representation
 - **Implementation level**
-  - Defines how operations are actually carried out
-  - May change without forcing user code to change
-
-| **ADT / Interface** vs. **Implementation** | **ADT / Interface** | **Implementation**      |
-| ------------------------------------------ | ------------------- | ----------------------- |
-| Focus                                      | Allowed operations  | Internal representation |
-| Seen by user?                              | Yes                 | No                      |
-| Should user code depend on it?             | Yes                 | No                      |
+  - defines how the operations are carried out
+  - may change without forcing user code to change
 
 Reasons for using ADTs:
 
-1. The user studies the interface at a higher level instead of detailed implementation.
-2. The ADT can be reused in different programs.
-3. The component implementation can change without affecting other components.
+1. they let the user work at a higher level
+2. they support reuse
+3. implementations can change without breaking clients
 
 > [!CAUTION]
-> _Do not define an **ADT** as only a data container._ The lecture definition requires both the **organized data** and the **operations** on that data.
+> An **ADT** is not only a data container. The lecture definition requires both the **organized data** and the **operations**.

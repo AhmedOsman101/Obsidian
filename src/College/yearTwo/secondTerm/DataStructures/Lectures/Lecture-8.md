@@ -1,24 +1,22 @@
 ---
-title: Lecture 8
+title: Trees II
 prev:
-  text: "Lecture 7"
+  text: "Trees I"
   link: "/College/yearTwo/secondTerm/DataStructures/Lectures/Lecture-7"
 next:
-  text: "Lecture 9"
+  text: "Stacks II"
   link: "/College/yearTwo/secondTerm/DataStructures/Lectures/Lecture-9"
 ---
 
-# Data Structures - Lecture 8
+# Trees II: Binary Search Trees
 
 ## Binary Search Tree Definition
 
-A **binary search tree** or **BST** is a binary tree that satisfies an ordering rule at every node.
+A **binary search tree** or **BST** is a binary tree that satisfies an ordering rule at every node:
 
-The lecture states these conditions:
-
-1. the key of the root is greater than every key in the left subtree
-2. the key of the root is less than every key in the right subtree
-3. the left and right subtrees are also binary search trees
+1. the root key is greater than every key in the left subtree
+2. the root key is less than every key in the right subtree
+3. the left and right subtrees are also BSTs
 
 Each comparison lets you ignore one whole subtree.
 
@@ -29,11 +27,11 @@ Each comparison lets you ignore one whole subtree.
 | **Left subtree**  | Contains only smaller keys than the current node.   |
 | **Right subtree** | Contains only larger keys than the current node.    |
 
-_Important caution:_ a tree may be binary but still not be a BST. The shape alone is not enough; the ordering property must hold at every node.
+_Important caution:_ a tree may be binary but still not be a BST.
 
 ## Searching in a BST
 
-Searching starts at the root and repeats this decision:
+Searching starts at the root and repeats this logic:
 
 - if the target key equals the current key, it is found
 - if the target key is smaller, move left
@@ -59,181 +57,34 @@ flowchart TD
 - the **smallest** value is found by going left as far as possible
 - the **largest** value is found by going right as far as possible
 
-| Goal         | Direction         |
-| ------------ | ----------------- |
-| Find minimum | Keep moving left  |
-| Find maximum | Keep moving right |
-
 These rules are reused during deletion.
 
 ## Inserting a New Key
 
-To insert a key:
+Insertion follows the same directional comparisons as search. The new node is attached when a null child position is found.
 
-1. create a new node
-2. if the tree is empty, make it the root
-3. otherwise search downward exactly as in BST search
-4. stop when the current pointer becomes `nullptr`
-5. attach the new node to the last visited node
-
-```cpp
-// Iterative BST insertion as shown by the lecture idea.
-using EntryType = int;
-
-struct NodeType {
-  EntryType info;
-  NodeType* left;
-  NodeType* right;
-};
-
-using TreeType = NodeType*;
-
-void Insert(TreeType* t, EntryType item) {
-  NodeType* p = new NodeType;
-  p->info = item;
-  p->left = nullptr;
-  p->right = nullptr;
-
-  if (!(*t)) {
-    *t = p;
-  } else {
-    NodeType* pre = nullptr;
-    NodeType* cur = *t;
-
-    while (cur) {
-      pre = cur;
-      if (item < cur->info) {
-        cur = cur->left;
-      } else {
-        cur = cur->right;
-      }
-    }
-
-    if (item < pre->info) {
-      pre->left = p;
-    } else {
-      pre->right = p;
-    }
-  }
-}
-```
-
-_Exam note:_ the lecture shows insertion iteratively.
+_Exam note:_ the lecture showed insertion iteratively.
 
 ## Deleting from a BST
 
-Deletion first locates the node and its parent.
+Deletion first locates the node and its parent, then applies one of three cases:
 
-The lecture summarizes the cases this way:
+- **not present**: do nothing
+- **leaf**: remove it directly
+- **one child**: replace the node with its only child
+- **two children**: replace it with the **largest value in the left subtree**, then remove that moved node
 
-- if the item is not present: do nothing
-- if the item is in a leaf: remove the leaf
-- if the item is in a non-leaf with one child: replace the node with its child
-- if the item is in a non-leaf with two children: replace it with the largest item in the left subtree, then remove that moved node
-
-The slides also note that the smallest item in the right subtree could be used instead.
-
-## Delete Search Phase
-
-The main `Delete` function keeps two pointers:
-
-- `q`: the current node being examined
-- `r`: the parent of `q`
-
-```cpp
-int Delete(TreeType* t, EntryType k) {
-  int found = 0;
-  NodeType* q = *t;
-  NodeType* r = nullptr;
-
-  while (q && !(found = (k == q->info))) {
-    r = q;
-    if (k < q->info) {
-      q = q->left;
-    } else {
-      q = q->right;
-    }
-  }
-
-  if (found) {
-    if (!r) {
-      DeleteNode(t);
-    } else if (k < r->info) {
-      DeleteNode(&r->left);
-    } else {
-      DeleteNode(&r->right);
-    }
-  }
-
-  return found;
-}
-```
-
-### Why the Parent Pointer Matters
-
-If `r == nullptr`, the deleted node is the root.
-
-## DeleteNode Cases
-
-### Case 1: No Left Child
-
-If the node has no left child, replace it with its right child.
-
-### Case 2: No Right Child
-
-If the node has no right child, replace it with its left child.
-
-### Case 3: Two Children
-
-If the node has two children:
-
-1. move to the left subtree
-2. keep moving right to find the largest key there
-3. copy that key into the node being deleted
-4. relink the predecessor's parent
-5. delete the predecessor node
-
-```cpp
-void DeleteNode(TreeType* pt) {
-  NodeType* q = *pt;
-
-  if (!q->left) {
-    *pt = q->right;
-  } else if (!q->right) {
-    *pt = q->left;
-  } else {
-    NodeType* r = nullptr;
-    q = q->left;
-
-    while (q->right) {
-      r = q;
-      q = q->right;
-    }
-
-    (*pt)->info = q->info;
-
-    if (r) {
-      r->right = q->left;
-    } else {
-      (*pt)->left = q->left;
-    }
-  }
-
-  delete q;
-}
-```
+The lecture also notes that the smallest value in the right subtree could be used instead.
 
 _Critical idea:_ in the two-child case, the node value is replaced first, then the predecessor node is deleted.
 
 ## Why the Predecessor Works
 
-The largest item in the left subtree is the **inorder predecessor**. It is safe because:
+The largest item in the left subtree is the **inorder predecessor**. It is safe because it remains:
 
-- it stays smaller than the original right subtree
-- it remains the largest valid value from the left side
-- it preserves BST ordering after replacement
-
-The lecture also allows using the smallest item in the right subtree instead.
+- smaller than the original right subtree
+- the largest valid choice/value from the left side
+- consistent with BST ordering after replacement
 
 ## High-Yield Comparisons
 

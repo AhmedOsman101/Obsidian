@@ -295,8 +295,6 @@ $$
 
 ---
 
-<br>
-
 > [!Note]
 > A square matrix $A$ can be multiplied by itself any number of times, giving the $n^{th}$ power of $A$.
 
@@ -460,7 +458,7 @@ $$
 Next, compute $A^3$:
 
 $$
-\begin{gather}
+\begin{gathered}
 A^3 = A \cdot A^2
 \\\\
 A(pA+qI) \text{ (substitute }A^2 \text{ with pA+qI)}
@@ -479,7 +477,7 @@ A^3 = 297A - 486I
 \\\\
 p = 18, \quad q = -27
 \\\\
-g=297, \quad h = -486
+g = 297, \quad h = -486
 \\
 \end{gathered}
 $$

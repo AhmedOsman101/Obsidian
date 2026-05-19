@@ -8,6 +8,8 @@ next:
   link: "/College/yearTwo/secondTerm/DataStructures/Lectures/Lecture-2"
 ---
 
+# Data Structures - Lecture 1
+
 ## Data, Data Structures, and Scope
 
 **Data** is the basic entity or fact used in calculation or manipulation. A **data structure** is a way of organizing data items by considering their relationships to one another. The exam boundary is: data is *what exists*, while a data structure is *how that data is organized for use*.
@@ -45,16 +47,16 @@ If one solution uses more memory but less time, and another uses less memory but
 
 **Static memory allocation** happens at **compile time**. Its size is fixed before execution begins.
 
-```c
+```cpp
 // Statically allocates fixed storage before runtime.
 float a[5], f;
 ```
 
 **Dynamic memory allocation** happens at **run time**. Memory is requested while the program executes.
 
-```c
+```cpp
 // Dynamically allocates space for 10 integers at runtime.
-ptr = (int *) malloc(10 * sizeof(int));
+int* ptr = new int[10];
 ```
 
 **Why this matters:** static allocation is fixed, while dynamic allocation supports flexible sizes.
@@ -62,12 +64,12 @@ ptr = (int *) malloc(10 * sizeof(int));
 | Concept | When Decided | Size Flexibility | Typical Form |
 | --- | --- | --- | --- |
 | **Static allocation** | Compile time | Fixed | Normal declarations |
-| **Dynamic allocation** | Run time | Flexible | `malloc(...)` |
+| **Dynamic allocation** | Run time | Flexible | `new ...` |
 
 > [!IMPORTANT]
 > If memory is allocated dynamically for a structure, the allocated block is **contiguous** and its size depends on the total size of the structure fields.
 
-```c
+```cpp
 // Allocates one Employee record as one contiguous block.
 struct Employee {
   int Emp_Code;
@@ -75,7 +77,7 @@ struct Employee {
   float Emp_Salary;
 };
 
-struct Employee *str_ptr = (struct Employee *) malloc(sizeof(struct Employee));
+Employee* str_ptr = new Employee;
 ```
 
 In the lecture example, executing this statement allocates a contiguous block of **60 bytes**.
@@ -86,7 +88,7 @@ An **array** is a non-primitive **linear data structure**. It is a collection of
 
 **Why this matters:** same-type storage and contiguity allow direct address calculation.
 
-For the C statement `int A[10];`, two things happen:
+For the C++ statement `int A[10];`, two things happen:
 
 1. A contiguous space in memory is reserved.
 2. The starting address is given the name `A`.
@@ -101,7 +103,7 @@ To store in `A[3]`, the machine calculates the location using:
 
 and then stores the value in that computed location.
 
-```c
+```cpp
 // Stores 27 in the fourth integer slot of the array.
 int A[10];
 A[3] = 27;

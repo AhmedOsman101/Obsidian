@@ -8,6 +8,8 @@ next:
   link: "/College/yearTwo/secondTerm/DataStructures/Lectures/Lecture-11"
 ---
 
+# Data Structures - Lecture 10
+
 ## AVL Tree Motivation and Boundary
 
 An **AVL tree** is a **well-balanced binary search tree**. It is not a perfectly balanced tree like a complete binary tree; the goal is a cheaper compromise that keeps height small enough for fast operations. This matters because **search**, **insertion**, and **deletion** in any binary tree depend on the tree height: in the worst case, height can become **O(n)**, but in an AVL tree the maximum height is **O(log n)**.

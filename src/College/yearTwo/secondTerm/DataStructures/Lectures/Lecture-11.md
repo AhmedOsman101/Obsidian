@@ -6,6 +6,8 @@ prev:
 next: false
 ---
 
+# Data Structures - Lecture 11
+
 ## Hashing and Why It Matters
 
 **Hashing** is a technique that retrieves a value using an index obtained from a key, without performing a search through all elements. The core goal is speed: while a well-balanced search tree gives **O(log n)** lookup, hashing is used to support **search**, **insert**, and **delete** in **O(1)** time on average. This works because the key is transformed directly into a table position.

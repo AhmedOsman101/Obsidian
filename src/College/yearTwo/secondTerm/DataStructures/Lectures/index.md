@@ -13,7 +13,7 @@ lastUpdated: false
 
 - [Lecture 1: Data, Arrays, and ADTs](Lecture-1.md)
 
-## Linear Structures
+## Stacks, Queues, and Lists
 
 - [Lecture 2: Stack ADT](Lecture-2.md)
 - [Lecture 3: Queue ADT](Lecture-3.md)
@@ -22,7 +22,7 @@ lastUpdated: false
 - [Lecture 6: Linked-List Use Cases](Lecture-6.md)
 - [Lecture 9: Stack Applications](Lecture-9.md)
 
-## Trees and Searching
+## Trees and Search Structures
 
 - [Lecture 7: Trees and Traversals](Lecture-7.md)
 - [Lecture 8: Binary Search Trees](Lecture-8.md)

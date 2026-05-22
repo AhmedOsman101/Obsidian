@@ -226,16 +226,6 @@ The source lists the following stack operations:
 | `push(g)`   | Adds element `g` at the top of the stack                      |
 | `pop()`     | Deletes the most recently entered element                     |
 
-The lecture also presents the ADT-style names **CreateStack**, **StackEmpty**, **StackFull**, **Push**, and **Pop**. The key contracts are:
-
-| Operation     | Precondition           | Postcondition           |
-| ------------- | ---------------------- | ----------------------- |
-| `CreateStack` | none                   | stack becomes empty     |
-| `Push`        | initialized, not full  | item added at top       |
-| `Pop`         | initialized, not empty | top item removed        |
-| `StackEmpty`  | initialized            | returns emptiness state |
-| `StackFull`   | initialized            | returns fullness state  |
-
 ## Stack Types
 
 The lab divides stacks into two types:
@@ -284,43 +274,6 @@ The lecture adds two array-stack conventions that must not be mixed:
 | **Current item index** | `top == -1`     | `top == MAX - 1`    | increment then write | read then decrement |
 | **Next free position** | `top == 0`      | `top == STACK_SIZE` | write then increment | decrement then read |
 
-### Lecture-Style Static Stack Representation
-
-```cpp
-// Purpose: represent a stack exactly as the lecture's array ADT does.
-const int MAX = 10;
-using EntryType = char;
-
-struct StackType {
-  int top;
-  EntryType entry[MAX];
-};
-
-void CreateStack(StackType* s) {
-  s->top = -1;
-}
-
-bool StackEmpty(StackType s) {
-  return s.top == -1;
-}
-
-bool StackFull(StackType s) {
-  return s.top == MAX - 1;
-}
-
-void Push(EntryType item, StackType* s) {
-  s->entry[++s->top] = item;
-}
-
-void Pop(EntryType* item, StackType* s) {
-  *item = s->entry[s->top--];
-}
-
-EntryType StackTop(StackType* s) {
-  return s->entry[s->top];
-}
-```
-
 > [!IMPORTANT]
 > In the `top = -1` model, **push** increments before writing and **pop** reads before decrementing. That order is testable.
 
@@ -340,50 +293,85 @@ The lecture adds that a linked implementation is treated as having no fixed-capa
 ### Lecture-Style Linked Stack Operations
 
 ```cpp
-// Purpose: implement stack behavior on top of linked nodes.
-using EntryType = char;
+#include <iostream>
+#include <stdexcept>  // for std::underflow_error
 
-struct Node {
-  EntryType info;
-  Node* next;
+template <typename T>
+class LinkedStack {
+private:
+    // Node structure (private nested type)
+    struct Node {
+        T info;
+        Node* next;
+        Node(const T& data, Node* nxt = nullptr)
+            : info(data), next(nxt) {}
+    };
+
+    Node* topPtr;   // pointer to the top node (nullptr when empty)
+
+public:
+    // Constructor: creates an empty stack
+    LinkedStack() : topPtr(nullptr) {}
+
+    // Destructor: releases all allocated nodes
+    ~LinkedStack() {
+        clear();
+    }
+
+    // Check if stack is empty
+    bool isEmpty() const {
+        return topPtr == nullptr;
+    }
+
+    // Check if stack is full
+    // In a linked implementation, there is no fixed capacity.
+    // Returns false (not full) unless memory allocation fails.
+    // (Memory allocation failure is typically reported via exception,
+    // so this method simply returns false.)
+    bool isFull() const {
+        return false;   // no logical upper bound
+    }
+
+    // Insert an element at the top
+    void push(const T& item) {
+        Node* newNode = new Node(item, topPtr);
+        topPtr = newNode;
+    }
+
+    // Remove the top element and return its value
+    // Assumes stack is not empty (caller should check isEmpty()).
+    T pop() {
+        if (isEmpty()) {
+            throw std::underflow_error("LinkedStack::pop(): empty stack");
+        }
+        // Save the old top node and its info
+        Node* oldTop = topPtr;
+        T item = oldTop->info;
+        // Move top pointer to the next node
+        topPtr = topPtr->next;
+        // Delete the old top node
+        delete oldTop;
+        return item;
+    }
+
+    // Return the top element without removing it
+    // Assumes stack is not empty.
+    T top() const {
+        if (isEmpty()) {
+            throw std::underflow_error("LinkedStack::top(): empty stack");
+        }
+        return topPtr->info;
+    }
+
+    // Remove all elements
+    void clear() {
+        while (topPtr != nullptr) {
+            Node* q = topPtr;
+            topPtr = topPtr->next;
+            delete q;
+        }
+    }
 };
-
-using LinkedStackType = Node*;
-
-void CreateStack(LinkedStackType* s) {
-  *s = nullptr;
-}
-
-int StackEmpty(LinkedStackType s) {
-  return s == nullptr;
-}
-
-int StackFull(LinkedStackType s) {
-  return 0;
-}
-
-void Push(EntryType item, LinkedStackType* s) {
-  Node* p = new Node;
-  p->info = item;
-  p->next = *s;
-  *s = p;
-}
-
-void Pop(EntryType* item, LinkedStackType* s) {
-  *item = (*s)->info;
-  Node* p = *s;
-  *s = (*s)->next;
-  delete p;
-}
-
-void ClearStack(LinkedStackType* s) {
-  Node* q;
-  while (*s) {
-    q = *s;
-    *s = (*s)->next;
-    delete q;
-  }
-}
 ```
 
 > [!CAUTION]
@@ -401,22 +389,21 @@ The lecture applications include:
 - **browser history**
 - **undo sequence**
 
-### Reverse a Line of Text
+### Reversing a Line of Text
 
 ```cpp
-// Purpose: reverse input characters using LIFO behavior.
-StackType stack;
+LinkedStack<char> stack;   // creates an empty stack (no CreateStack needed)
 char item;
-CreateStack(&stack);
 
 item = getchar();
-while (!StackFull(stack) && item != '\n') {
-  Push(item, &stack);
+// StackFull always returns false, so only newline stops the loop
+while (!stack.isFull() && item != '\n') {
+  stack.push(item);
   item = getchar();
 }
 
-while (!StackEmpty(stack)) {
-  Pop(&item, &stack);
+while (!stack.isEmpty()) {
+  item = stack.pop();  // pop returns the item directly
   putchar(item);
 }
 ```
@@ -424,22 +411,21 @@ while (!StackEmpty(stack)) {
 ### Print a Linked List in Reverse Using a Stack
 
 ```cpp
-// Purpose: print a singly linked list from last to first without changing links.
 void PrintReverse(ListType L) {
-  Node* p = L;
-  LinkedStackType s;
-  CreateStack(&s);
+    // Use the generic LinkedStack from earlier, instantiated for int
+    LinkedStack<int> s;
+    Node* p = L;   // ListType is assumed to be Node* (singly linked list of ints)
 
-  while (p) {
-    Push(p->info, &s);
-    p = p->next;
-  }
+    // Push all elements onto the stack
+    while (p != nullptr) {
+        s.push(p->info);
+        p = p->next;
+    }
 
-  EntryType c;
-  while (!StackEmpty(s)) {
-    Pop(&c, &s);
-    cout << c;
-  }
+    // Pop and print in reverse order
+    while (!s.isEmpty()) {
+        std::cout << s.pop();
+    }
 }
 ```
 

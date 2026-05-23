@@ -2,7 +2,9 @@
 prev:
   text: "Lecture 5"
   link: "/College/yearTwo/secondTerm/DBProgramming/Lectures/Lecture-5"
-next: false
+next:
+  text: "Lecture 7"
+  link: "/College/yearTwo/secondTerm/DBProgramming/Lectures/Lecture-7" 
 title: Lecture 6
 ---
 

@@ -73,7 +73,8 @@ public class HelloWorld {
 }
 ```
 
-> [!IMPORTANT] `main()` is the **mandatory entry point**. Without it, the JVM cannot start execution.
+> [!IMPORTANT] 
+> `main()` is the **mandatory entry point**. Without it, the JVM cannot start execution.
 
 ## Native Code File Extensions
 
@@ -106,7 +107,8 @@ Java Project
         └── Class (.java file)
 ```
 
-> [!NOTE] This hierarchy is enforced by the IDE — a **Class** must live inside a **Package**, which must live inside a **Source Folder**.
+> [!NOTE]
+> This hierarchy is enforced by the IDE — a **Class** must live inside a **Package**, which must live inside a **Source Folder**.
 
 ## Environment Variable Configuration
 
@@ -122,7 +124,8 @@ java -version
 # If 'java' is not recognized -> PATH was not set correctly
 ```
 
-> [!CAUTION] If `java` is unrecognized after install, the PATH environment variable was **not updated**. This is the most common post-install error.
+> [!CAUTION]
+> If `java` is unrecognized after install, the PATH environment variable was **not updated**. This is the most common post-install error.
 
 ## Summary: Key Distinctions for Exams
 

@@ -41,7 +41,8 @@ flowchart TD
 
 > [!WARNING] 
 > **JRE != JDK.** JRE is for _end users_ who only run Java programs — it contains no compiler.
-> JDK is for _developers_ — it wraps the JRE and adds `javac` and other tools. > Installing only the JRE means you **cannot compile** code.
+> JDK is for _developers_ — it wraps the JRE and adds `javac` and other tools.
+> Installing only the JRE means you **cannot compile** code.
 
 ## JRE Internal Structure
 

@@ -52,11 +52,11 @@ A **method call** transfers control from the current method to the target method
 
 ```java
 // Purpose: call the method so its code actually runs.
-package methed;
+package methods;
 
-public class welcomemethod {
+public class WelcomeMethod {
   public static void welcome() {
-    System.out.println("hello in NCTU");
+    System.out.println("Welcome to NCTU");
   }
 
   public static void main(String[] args) {

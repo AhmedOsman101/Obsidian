@@ -116,9 +116,9 @@ public class Createnewfile {
       File myfile = new File("/home/othman/Documents/Createfile.txt");
 
       if (myfile.createNewFile()) {
-        System.out.println("The file Created: " + myfile.getName());
+        System.out.println("The file: " + myfile.getName() + " was created successfully.");
       } else {
-        System.out.println("the File aleardy Exists");
+        System.out.println("The file aleardy Exists");
       }
     } catch (Exception d) {
       System.err.println(d.getMessage());
@@ -130,13 +130,13 @@ public class Createnewfile {
 First run:
 
 ```text
-The file Created: Createfile.txt
+The file: Createfile.txt was created successfully
 ```
 
 If the program runs again, the file already exists, so the `else` block executes.
 
 ```text
-the File aleardy Exists
+The file aleardy Exists
 ```
 
 > [!WARNING]

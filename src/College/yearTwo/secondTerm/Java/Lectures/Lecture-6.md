@@ -154,9 +154,9 @@ import java.io.FileWriter;
 public class Write {
   public static void main(String[] args) {
     try {
-      FileWriter writex = new FileWriter("/home/othman/Documents/Createfile.txt");
-      writex.write("hello in NCTU");
-      writex.close();
+      FileWriter writer = new FileWriter("/home/othman/Documents/Createfile.txt");
+      writer.write("hello in NCTU");
+      writer.close();
     } catch (Exception d) {
       System.err.println(d.getMessage());
     }

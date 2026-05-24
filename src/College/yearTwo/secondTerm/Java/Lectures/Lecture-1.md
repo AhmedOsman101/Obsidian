@@ -39,7 +39,9 @@ flowchart TD
 | **javac** | Java Compiler            | Converts `.java` -> `.class` (Bytecode)               |
 | **JIT**   | Just-In-Time Compiler    | Converts Bytecode -> Native Code at runtime for speed |
 
-> [!WARNING] **JRE != JDK.** JRE is for _end users_ who only run Java programs — it contains no compiler. JDK is for _developers_ — it wraps the JRE and adds `javac` and other tools. Installing only the JRE means you **cannot compile** code.
+> [!WARNING] 
+> **JRE != JDK.** JRE is for _end users_ who only run Java programs — it contains no compiler.
+> JDK is for _developers_ — it wraps the JRE and adds `javac` and other tools. > Installing only the JRE means you **cannot compile** code.
 
 ## JRE Internal Structure
 

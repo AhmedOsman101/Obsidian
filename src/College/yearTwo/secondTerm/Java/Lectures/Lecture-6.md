@@ -76,13 +76,13 @@ import java.io.File;
 
 public class Firstgeneral {
   public static void main(String[] args) {
-    File readlect6 = new File("/home/othman/Documents/lec6.txt");
+    File file = new File("/home/othman/Documents/lec6.txt");
 
-    System.out.println("File name: " + readlect6.getName());
-    System.out.println("File Path: " + readlect6.getAbsolutePath());
-    System.out.println("Read File: " + readlect6.canRead());
-    System.out.println("Write File: " + readlect6.canWrite());
-    System.out.println("Size file: " + readlect6.length());
+    System.out.println("File name: " + file.getName());
+    System.out.println("File Path: " + file.getAbsolutePath());
+    System.out.println("Read File: " + file.canRead());
+    System.out.println("Write File: " + file.canWrite());
+    System.out.println("Size file: " + file.length());
   }
 }
 ```
@@ -118,7 +118,7 @@ public class Createnewfile {
       if (myfile.createNewFile()) {
         System.out.println("The file Created: " + myfile.getName());
       } else {
-        System.out.println("the File is aleardy Exists");
+        System.out.println("the File aleardy Exists");
       }
     } catch (Exception d) {
       System.err.println(d.getMessage());
@@ -136,7 +136,7 @@ The file Created: Createfile.txt
 If the program runs again, the file already exists, so the `else` block executes.
 
 ```text
-the File is aleardy Exists
+the File aleardy Exists
 ```
 
 > [!WARNING]

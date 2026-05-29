@@ -36,12 +36,12 @@ graph TD
 | **Export all databases**   | `mysqldump --all-databases` | Full host backup                   |
 | **Import backup**          | `mysql`                     | Restore saved data into a database |
 
-```sql
--- Export one database to a backup file
-mysqldump -u username -p database_name > output_file.sql
+```bash
+# Export one database to a backup file
+mysqldump -u username -p database_name > database_name.sql
 
--- Import a dump file into a target database
-mysql -u username -p new_database_name < dumpfile_path
+# Import a dump file into a target database
+mysql -u username -p new_database_name < database_name.sql
 ```
 
 ## Table Creation and Listing Rules

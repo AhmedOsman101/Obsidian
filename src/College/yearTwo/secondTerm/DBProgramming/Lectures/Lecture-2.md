@@ -66,7 +66,7 @@ A **data type** specifies what kind of value a column can store, which operation
 
 ## Database and Table Commands
 
-**CREATE DATABASE** is a **DDL** statement used to create a new database. After creation, **SHOW DATABASES** checks what exists, and **USE database_name** selects one for later commands. The order matters: create first, verify second, select third. If a database name already exists, `CREATE DATABASE` without **IF NOT EXISTS** causes an error, so the safer pattern is `CREATE DATABASE IF NOT EXISTS ...`. The lecture states there is no easy rename path for databases; if the name is wrong, create a new database and delete the old one with **DROP DATABASE**. Backup and restore are handled with **mysqldump** and `mysql` input redirection.
+`CREATE DATABASE` is a **DDL** statement used to create a new database. After creation, `SHOW DATABASES` checks what exists, and `USE database_name` selects one for later commands. The order matters: create first, verify second, select third. If a database name already exists, `CREATE DATABASE` without `IF NOT EXISTS` causes an error, so the safer pattern is `CREATE DATABASE IF NOT EXISTS ...`. The lecture states there is no easy rename path for databases; if the name is wrong, create a new database and delete the old one with `DROP DATABASE`. Backup and restore are handled with `mysqldump` and `mysql` input redirection.
 
 ```mermaid
 graph TD
@@ -91,7 +91,7 @@ USE mydatabase;
 
 ## Table Creation, Inspection, and Modification
 
-**CREATE TABLE** defines a table and its columns, so each column must be paired with a data type. After creation, **SHOW TABLES** lists tables in the current database, while **SHOW FULL TABLES** also shows table type such as **BASE TABLE**, **VIEW**, or **SYSTEM VIEW**. To inspect column structure, the lecture treats **DESCRIBE**, **DESC**, **SHOW COLUMNS**, and **EXPLAIN** as ways to retrieve table definition information. **TRUNCATE TABLE** removes only table data, but keeps the table structure; **DROP TABLE** removes both data and structure. **TEMPORARY TABLE** stores data only for the current client session and is deleted automatically when the session ends. **ALTER TABLE** changes structure by adding, dropping, modifying, or renaming columns.
+`CREATE TABLE` defines a table and its columns, so each column must be paired with a data type. After creation, `SHOW TABLES` lists tables in the current database, while `SHOW FULL TABLES` also shows table type such as `BASE TABLE`, `VIEW`, or `SYSTEM VIEW`. To inspect column structure, the lecture treats `DESCRIBE`, `DESC`, `SHOW COLUMNS`, and `EXPLAIN` as ways to retrieve table definition information. `TRUNCATE TABLE` removes only table data, but keeps the table structure; `DROP TABLE` removes both data and structure. `TEMPORARY TABLE` stores data only for the current client session and is deleted automatically when the session ends. `ALTER TABLE` changes structure by adding, dropping, modifying, or renaming columns.
 
 | Command                       | Keeps structure? | Main use                  |
 | ----------------------------- | ---------------- | ------------------------- |

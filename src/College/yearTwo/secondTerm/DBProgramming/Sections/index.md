@@ -1,10 +1,10 @@
 ---
+title: Sections
 prev:
   text: "DB Programming"
   link: "/College/yearTwo/secondTerm/DBProgramming/index"
 next: false
 lastUpdated: false
-title: Sections
 ---
 
 # Sections

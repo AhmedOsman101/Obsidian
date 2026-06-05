@@ -20,7 +20,8 @@ System.out.println("hello in first app 2025"); // prints + newline
 System.out.print("hello in first app 2025 $&&@"); // prints, NO newline
 ```
 
-> [!NOTE] `println` = print + `\n` built in. `print` gives you manual control over line breaks using escape codes.
+> [!NOTE]
+> `println` = print + `\n` built in. `print` gives you manual control over line breaks using escape codes.
 
 ## Character Escape Codes
 
@@ -60,7 +61,8 @@ System.out.print("hello in first app \t2025 $&&@");
    multi-line comment             ->  everything between /* and */ is ignored */
 ```
 
-> [!IMPORTANT] Code inside a comment is **never executed**. `//System.out.println("2025");` produces NO output.
+> [!IMPORTANT]
+> Code inside a comment is **never executed**. `//System.out.println("2025");` produces NO output.
 
 ## Variables & Primitive Data Types
 
@@ -89,9 +91,13 @@ boolean myBool = true;
 String myText = "Hello";    // double quotes only
 ```
 
-> [!WARNING] `float` literals **must** end in `f` (e.g., `5.99f`). Without `f`, Java treats the literal as a `double` and will give a type error. `char` uses **single quotes**; `String` uses **double quotes** — swapping them causes a compile error.
+> [!WARNING]
+> `float` literals **must** end in `f` (e.g., `5.99f`).
+> Without `f`, Java treats the literal as a `double` and will give a type error.
+> `char` uses **single quotes**; `String` uses **double quotes** — swapping them causes a compile error.
 
-> [!CAUTION] `String` is **not** a primitive type — it is a class (`java.lang.String`). This distinction matters for comparisons and method availability.
+> [!CAUTION]
+> `String` is **not** a primitive type — it is a class (`java.lang.String`). This distinction matters for comparisons and method availability.
 
 ## String Concatenation & `+` Operator Trap
 
@@ -102,7 +108,8 @@ System.out.println("20" + "25");  // Output: 2025  (String join)
 System.out.println(20 + 25);      // Output: 45    (arithmetic addition)
 ```
 
-> [!IMPORTANT] If **either** operand is a String, `+` acts as concatenation, not addition. `"Total: " + 20 + 5` -> `"Total: 205"`, not `"Total: 25"`.
+> [!IMPORTANT]
+> If **either** operand is a String, `+` acts as concatenation, not addition. `"Total: " + 20 + 5` -> `"Total: 205"`, not `"Total: 25"`.
 
 ## Identifiers & Naming Rules
 
@@ -116,4 +123,5 @@ An **identifier** is the unique name given to a variable, class, or method. Java
 - **Cannot use reserved keywords** (e.g., `int`, `boolean`, `class`)
 - Convention: start with **lowercase letter**; use camelCase for multi-word names
 
-> [!CAUTION] `int`, `boolean`, `class`, `public`, `static` are **reserved keywords** — using them as variable names causes a **compile error**, not a runtime error.
+> [!CAUTION]
+> `int`, `boolean`, `class`, `public`, `static` are **reserved keywords** — using them as variable names causes a **compile error**, not a runtime error.

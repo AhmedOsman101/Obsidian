@@ -8,20 +8,22 @@ next:
   link: "/College/yearTwo/secondTerm/Java/Book/Chapter-4"
 ---
 
+# Java - Chapter 3
+
 ## boolean Data Type and Relational Operators
 
 A **boolean** variable holds only `true` or `false`. Six relational operators compare values and produce a Boolean result:
 
-| Operator | Name | Example (`radius = 5`) | Result |
-|----------|------|----------------------|--------|
-| `<` | Less than | `radius < 0` | `false` |
-| `<=` | Less than or equal to | `radius <= 0` | `false` |
-| `>` | Greater than | `radius > 0` | `true` |
-| `>=` | Greater than or equal to | `radius >= 0` | `true` |
-| `==` | Equal to | `radius == 0` | `false` |
-| `!=` | Not equal to | `radius != 0` | `true` |
+| Operator | Name                     | Example (`radius = 5`) | Result  |
+| -------- | ------------------------ | ---------------------- | ------- |
+| `<`      | Less than                | `radius < 0`           | `false` |
+| `<=`     | Less than or equal to    | `radius <= 0`          | `false` |
+| `>`      | Greater than             | `radius > 0`           | `true`  |
+| `>=`     | Greater than or equal to | `radius >= 0`          | `true`  |
+| `==`     | Equal to                 | `radius == 0`          | `false` |
+| `!=`     | Not equal to             | `radius != 0`          | `true`  |
 
-> [!WARNING] `==` vs. `=`
+> [!WARNING]
 > Equality uses `==` (two equals signs). A single `=` is assignment, not comparison. Using `=` in a condition is a logic error with no compile warning.
 
 `true` and `false` are reserved literals, not keywords.
@@ -106,13 +108,16 @@ Conditions are tested top-down. The first `true` condition wins. A condition is 
    else
      System.out.println("B");
    ```
+
    The `else` matches the **second** `if` (nothing prints here since `i > j` is false). Fix with braces around the inner `if`.
+
 5. **Floating-point equality** — Do not test `double` values with `==`. Use `Math.abs(x - y) < EPSILON` instead, with `EPSILON = 1E-14` for `double`, `1E-7` for `float`.
 
    ```java
    final double EPSILON = 1E-14;
    if (Math.abs(x - 0.5) < EPSILON) { ... }
    ```
+
 6. **Boolean variable assignment** — Simplify `if (count % 10 == 0) newLine = true; else newLine = false;` to `newLine = (count % 10 == 0);`.
 7. **Duplicate code** — Pull duplicated statements (e.g., `System.out.println(...)`) out of both branches instead of repeating them.
 
@@ -120,11 +125,11 @@ Conditions are tested top-down. The first `true` condition wins. A condition is 
 
 `Math.random()` returns a `double` in `[0.0, 1.0)`. Common patterns:
 
-| Expression | Result |
-|-----------|--------|
-| `(int)(Math.random() * 10)` | 0–9 |
-| `(int)(Math.random() * 10) + 10` | 10–19 |
-| `(int)(Math.random() * 41) + 10` | 10–50 |
+| Expression                       | Result |
+| -------------------------------- | ------ |
+| `(int)(Math.random() * 10)`      | 0–9    |
+| `(int)(Math.random() * 10) + 10` | 10–19  |
+| `(int)(Math.random() * 41) + 10` | 10–50  |
 
 `Math.random()` is preferred over `System.currentTimeMillis() % 10` for generating random numbers.
 
@@ -151,22 +156,24 @@ else
 
 ## Logical Operators
 
-| Operator | Name | true when |
-|----------|------|-----------|
-| `!` | NOT | operand is `false` |
-| `&&` | AND | both operands are `true` |
-| `\|\|` | OR | at least one operand is `true` |
-| `^` | XOR | operands differ |
+| Operator | Name | true when                      |
+| -------- | ---- | ------------------------------ |
+| `!`      | NOT  | operand is `false`             |
+| `&&`     | AND  | both operands are `true`       |
+| `\|\|`   | OR   | at least one operand is `true` |
+| `^`      | XOR  | operands differ                |
 
 **Short-circuit evaluation:** For `&&`, if the first operand is `false`, the second is never evaluated. For `||`, if the first operand is `true`, the second is never evaluated.
 
 **De Morgan's laws:**
+
 - `!(condition1 && condition2) = !condition1 || !condition2`
 - `!(condition1 || condition2) = !condition1 && !condition2`
 
 Concrete Java transformations:
-- `!(number % 2 == 0 && number % 3 == 0)` → `number % 2 != 0 || number % 3 != 0`
-- `!(number == 2 || number == 3)` → `number != 2 && number != 3`
+
+- `!(number % 2 == 0 && number % 3 == 0)` -> `number % 2 != 0 || number % 3 != 0`
+- `!(number == 2 || number == 3)` -> `number != 2 && number != 3`
 
 > [!WARNING] Chained comparisons
 > In Java, `28 <= days <= 31` is invalid because `28 <= days` yields a `boolean`, which cannot be compared to `31`. Use `28 <= days && days <= 31`.
@@ -181,7 +188,7 @@ boolean isLeapYear = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
 
 ### Case Study: Lottery
 
-Generates a two-digit lottery number. Compares exact match → all digits → one digit → no match:
+Generates a two-digit lottery number. Compares exact match -> all digits -> one digit -> no match:
 
 ```java
 int lottery = (int)(Math.random() * 100);
@@ -280,21 +287,21 @@ status = (n1 > n2) ? 1 : (n1 == n2 ? 0 : -1);   // nested
 
 ## Operator Precedence and Associativity
 
-| Precedence | Operators |
-|-----------|-----------|
-| 1 (highest) | `var++`, `var--` (postfix) |
-| 2 | `+`, `-` (unary), `++var`, `--var` (prefix) |
-| 3 | `(type)` (casting) |
-| 4 | `!` (NOT) |
-| 5 | `*`, `/`, `%` |
-| 6 | `+`, `-` (binary) |
-| 7 | `<`, `<=`, `>`, `>=` (relational) |
-| 8 | `==`, `!=` (equality) |
-| 9 | `^` (XOR) |
-| 10 | `&&` (AND) |
-| 11 | `\|\|` (OR) |
-| 12 | `?:` (ternary) |
-| 13 (lowest) | `=`, `+=`, `-=`, `*=`, `/=`, `%=` |
+| Precedence  | Operators                                   |
+| ----------- | ------------------------------------------- |
+| 1 (highest) | `var++`, `var--` (postfix)                  |
+| 2           | `+`, `-` (unary), `++var`, `--var` (prefix) |
+| 3           | `(type)` (casting)                          |
+| 4           | `!` (NOT)                                   |
+| 5           | `*`, `/`, `%`                               |
+| 6           | `+`, `-` (binary)                           |
+| 7           | `<`, `<=`, `>`, `>=` (relational)           |
+| 8           | `==`, `!=` (equality)                       |
+| 9           | `^` (XOR)                                   |
+| 10          | `&&` (AND)                                  |
+| 11          | `\|\|` (OR)                                 |
+| 12          | `?:` (ternary)                              |
+| 13 (lowest) | `=`, `+=`, `-=`, `*=`, `/=`, `%=`           |
 
 All binary operators except assignment are left-associative. Assignment operators are right-associative.
 

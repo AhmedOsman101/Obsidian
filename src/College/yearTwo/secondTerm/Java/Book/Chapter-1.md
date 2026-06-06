@@ -8,19 +8,21 @@ next:
   link: "/College/yearTwo/secondTerm/Java/Book/Chapter-2"
 ---
 
+# Java - Chapter 1
+
 ## Programming And Computer Basics
 
 **Programming** means creating **software**, which consists of instructions that tell a computer or computerized device what to do. A **program** solves a problem by giving the computer precise steps. Learning Java matters less than memorizing one language; the transferable skill is learning how to solve problems in a programming style.
 
 **Hardware** includes the physical parts of a computer. **Software** provides the invisible instructions that control that hardware. A computer stores and processes data through these major components:
 
-| Component | Role |
-|---|---|
-| **CPU** | Retrieves instructions from memory and executes them. |
-| **Memory** | Stores programs and working data while the CPU uses them. |
-| **Storage devices** | Store programs and data permanently. |
-| **Input devices** | Send data to the computer, such as keyboard and mouse input. |
-| **Output devices** | Show or print results, such as monitors and printers. |
+| Component                 | Role                                                                     |
+| ------------------------- | ------------------------------------------------------------------------ |
+| **CPU**                   | Retrieves instructions from memory and executes them.                    |
+| **Memory**                | Stores programs and working data while the CPU uses them.                |
+| **Storage devices**       | Store programs and data permanently.                                     |
+| **Input devices**         | Send data to the computer, such as keyboard and mouse input.             |
+| **Output devices**        | Show or print results, such as monitors and printers.                    |
 | **Communication devices** | Connect computers to networks, such as modems, NICs, and Wi-Fi adapters. |
 
 The **bus** connects computer components through the motherboard. Data and power move between components through this shared communication path.
@@ -33,20 +35,20 @@ The **central processing unit (CPU)** acts as the computer's instruction executo
 
 Computers store data with two-state switches. A switch set to on represents `1`; a switch set to off represents `0`.
 
-| Term | Meaning |
-|---|---|
-| **Bit** | One binary digit, either `0` or `1`. |
-| **Byte** | Eight bits. It is the minimum addressable storage unit discussed in the chapter. |
-| **Encoding scheme** | Rules that translate characters and numbers into bit patterns. |
-| **ASCII** | An encoding scheme where the character `C` is represented as `01000011`. |
+| Term                | Meaning                                                                          |
+| ------------------- | -------------------------------------------------------------------------------- |
+| **Bit**             | One binary digit, either `0` or `1`.                                             |
+| **Byte**            | Eight bits. It is the minimum addressable storage unit discussed in the chapter. |
+| **Encoding scheme** | Rules that translate characters and numbers into bit patterns.                   |
+| **ASCII**           | An encoding scheme where the character `C` is represented as `01000011`.         |
 
 Memory capacity uses byte multiples:
 
-| Unit | Approximate Size |
-|---|---:|
-| **KB** | 1,000 bytes |
-| **MB** | 1,000,000 bytes |
-| **GB** | 1,000,000,000 bytes |
+| Unit   |        Approximate Size |
+| ------ | ----------------------: |
+| **KB** |             1,000 bytes |
+| **MB** |         1,000,000 bytes |
+| **GB** |     1,000,000,000 bytes |
 | **TB** | 1,000,000,000,000 bytes |
 
 > A typical one-page Word document takes ~20 KB. 1 MB stores ~50 pages, and 1 GB stores ~50,000 pages. A typical two-hour high-resolution movie takes ~8 GB.
@@ -55,15 +57,15 @@ Memory capacity uses byte multiples:
 
 **Storage devices** preserve programs and data after power turns off. The computer moves stored programs and data into RAM before the CPU can execute or process them.
 
-| Storage Type | Key Point |
-|---|---|
-| **Hard disk** | Stores large amounts of data permanently, often 1 to 4 TB in newer computers. |
-| **CD-ROM** | Prepressed compact disc, read-only. |
-| **CD-R** | Recordable once, readable many times. |
-| **CD-RW** | Rewritable compact disc. |
-| **DVD** | Similar to a CD but holds more data, commonly 4.7 GB. |
-| **USB flash drive** | Portable storage connected through USB. |
-| **Cloud storage** | Stores files on Internet services and allows access from connected devices. |
+| Storage Type        | Key Point                                                                     |
+| ------------------- | ----------------------------------------------------------------------------- |
+| **Hard disk**       | Stores large amounts of data permanently, often 1 to 4 TB in newer computers. |
+| **CD-ROM**          | Prepressed compact disc, read-only.                                           |
+| **CD-R**            | Recordable once, readable many times.                                         |
+| **CD-RW**           | Rewritable compact disc.                                                      |
+| **DVD**             | Similar to a CD but holds more data, commonly 4.7 GB.                         |
+| **USB flash drive** | Portable storage connected through USB.                                       |
+| **Cloud storage**   | Stores files on Internet services and allows access from connected devices.   |
 
 ## Input, Output, And Communication Devices
 
@@ -75,32 +77,32 @@ Memory capacity uses byte multiples:
 
 Communication devices connect computers to networks:
 
-| Device | Function |
-|---|---|
-| **Dial-up modem** | Uses a phone line and can transfer up to 56,000 bps. |
-| **DSL modem** | Uses a phone line and transfers much faster than dial-up. |
-| **Cable modem** | Uses a cable line and is often faster than DSL. |
-| **NIC** | Connects a computer to a local area network. |
-| **Wi-Fi adapter** | Connects devices wirelessly to a network. |
+| Device            | Function                                                  |
+| ----------------- | --------------------------------------------------------- |
+| **Dial-up modem** | Uses a phone line and can transfer up to 56,000 bps.      |
+| **DSL modem**     | Uses a phone line and transfers much faster than dial-up. |
+| **Cable modem**   | Uses a cable line and is often faster than DSL.           |
+| **NIC**           | Connects a computer to a local area network.              |
+| **Wi-Fi adapter** | Connects devices wirelessly to a network.                 |
 
 ## Programming Languages
 
 Computers execute machine instructions, not English. Programming languages let people write programs at different levels of abstraction, then tools translate those programs into code the computer can execute.
 
-| Level | Form | Translator | Boundary |
-|---|---|---|---|
-| **Machine language** | Binary primitive instructions built into a CPU | None | Native to one computer type. |
-| **Assembly language** | Mnemonics such as `add` and `sub` | **Assembler** | Easier than machine language but still machine dependent. |
-| **High-level language** | English-like statements such as `area = 5 * 5 * 3.14159;` | **Compiler** or **interpreter** | Easier to write and often platform independent. |
+| Level                   | Form                                                      | Translator                      | Boundary                                                  |
+| ----------------------- | --------------------------------------------------------- | ------------------------------- | --------------------------------------------------------- |
+| **Machine language**    | Binary primitive instructions built into a CPU            | None                            | Native to one computer type.                              |
+| **Assembly language**   | Mnemonics such as `add` and `sub`                         | **Assembler**                   | Easier than machine language but still machine dependent. |
+| **High-level language** | English-like statements such as `area = 5 * 5 * 3.14159;` | **Compiler** or **interpreter** | Easier to write and often platform independent.           |
 
 A program written in a high-level language is **source code** or a **source program**. A **statement** is an instruction in a high-level language.
 
 **Interpreters** and **compilers** translate source code differently:
 
-| Tool | How It Works | Exam Trap |
-|---|---|---|
-| **Interpreter** | Translates and executes one statement at a time. | Execution happens right after each translated statement. |
-| **Compiler** | Translates the entire source program into a machine-code or bytecode file before execution. | Compilation can succeed before runtime errors appear. |
+| Tool            | How It Works                                                                                | Exam Trap                                                |
+| --------------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| **Interpreter** | Translates and executes one statement at a time.                                            | Execution happens right after each translated statement. |
+| **Compiler**    | Translates the entire source program into a machine-code or bytecode file before execution. | Compilation can succeed before runtime errors appear.    |
 
 ```mermaid
 graph LR
@@ -125,19 +127,19 @@ graph TD
 
 The OS handles three major responsibilities:
 
-| Responsibility | Meaning |
-|---|---|
+| Responsibility             | Meaning                                                                                  |
+| -------------------------- | ---------------------------------------------------------------------------------------- |
 | **Control and monitoring** | Recognizes input, sends output, tracks files, controls devices, and protects the system. |
-| **Resource allocation** | Assigns CPU time, memory, disks, and input/output devices to programs. |
-| **Scheduling** | Orders program activities so system resources get used efficiently. |
+| **Resource allocation**    | Assigns CPU time, memory, disks, and input/output devices to programs.                   |
+| **Scheduling**             | Orders program activities so system resources get used efficiently.                      |
 
 Scheduling concepts often appear together but mean different things:
 
-| Concept | Scope | Meaning |
-|---|---|---|
-| **Multiprogramming** | Multiple programs, one CPU shared | Lets several programs run by using CPU idle time. |
-| **Multithreading** | Multiple tasks inside one program | Lets one program perform tasks concurrently, such as editing and saving. |
-| **Multiprocessing** | Multiple programs, multiple processors | Uses multiple processors to run programs concurrently. |
+| Concept              | Scope                                  | Meaning                                                                  |
+| -------------------- | -------------------------------------- | ------------------------------------------------------------------------ |
+| **Multiprogramming** | Multiple programs, one CPU shared      | Lets several programs run by using CPU idle time.                        |
+| **Multithreading**   | Multiple tasks inside one program      | Lets one program perform tasks concurrently, such as editing and saving. |
+| **Multiprocessing**  | Multiple programs, multiple processors | Uses multiple processors to run programs concurrently.                   |
 
 ## Java And The Web
 
@@ -153,16 +155,16 @@ Java's design characteristics include **simple**, **object oriented**, **distrib
 
 Java standards separate language rules, libraries, and development tools:
 
-| Term | Meaning |
-|---|---|
-| **Java language specification** | Defines Java syntax and semantics. |
-| **Java API** | Defines Java's library of predefined classes and interfaces. |
-| **Java SE** | Java Standard Edition, used for desktop/client-side applications and as the base for other editions. |
-| **Java EE** | Java Enterprise Edition, used for server-side applications such as servlets, JSP, and JSF. |
-| **Java ME** | Java Micro Edition, used for mobile and embedded devices. |
-| **JDK** | Java Development Toolkit; includes command-line tools for compiling, running, and testing Java programs. |
-| **JRE** | Java Runtime Environment; runs Java programs. |
-| **IDE** | Integrated development environment; combines editing, compiling, building, debugging, and help in one GUI. |
+| Term                            | Meaning                                                                                                    |
+| ------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Java language specification** | Defines Java syntax and semantics.                                                                         |
+| **Java API**                    | Defines Java's library of predefined classes and interfaces.                                               |
+| **Java SE**                     | Java Standard Edition, used for desktop/client-side applications and as the base for other editions.       |
+| **Java EE**                     | Java Enterprise Edition, used for server-side applications such as servlets, JSP, and JSF.                 |
+| **Java ME**                     | Java Micro Edition, used for mobile and embedded devices.                                                  |
+| **JDK**                         | Java Development Toolkit; includes command-line tools for compiling, running, and testing Java programs.   |
+| **JRE**                         | Java Runtime Environment; runs Java programs.                                                              |
+| **IDE**                         | Integrated development environment; combines editing, compiling, building, debugging, and help in one GUI. |
 
 NetBeans and Eclipse are **IDEs**, not separate Java languages, dialects, or extensions. They help you write and run Java programs faster, but the program still follows Java syntax and uses Java tools.
 
@@ -181,14 +183,14 @@ public class Welcome {
 
 Key parts:
 
-| Code | Meaning |
-|---|---|
-| `public class Welcome` | Defines a class named `Welcome`. Class names usually start uppercase. |
-| `public static void main(String[] args)` | Defines the entry point where execution begins. |
-| `System.out.println(...)` | Displays output on the **console** and moves to the next line. |
-| `System.out.print(...)` | Displays output without moving to the next line. |
-| `"Welcome to Java!"` | A **string**, which is a sequence of characters in double quotes. |
-| `;` | Statement terminator. Every Java statement ends with one. |
+| Code                                     | Meaning                                                               |
+| ---------------------------------------- | --------------------------------------------------------------------- |
+| `public class Welcome`                   | Defines a class named `Welcome`. Class names usually start uppercase. |
+| `public static void main(String[] args)` | Defines the entry point where execution begins.                       |
+| `System.out.println(...)`                | Displays output on the **console** and moves to the next line.        |
+| `System.out.print(...)`                  | Displays output without moving to the next line.                      |
+| `"Welcome to Java!"`                     | A **string**, which is a sequence of characters in double quotes.     |
+| `;`                                      | Statement terminator. Every Java statement ends with one.             |
 
 > [!WARNING]
 > Java is **case sensitive**. `main` and `Main` are different names. `String` and `string` are different names.
@@ -199,10 +201,10 @@ Key parts:
 
 **Comments** document code for humans. The compiler ignores them.
 
-| Comment Type | Syntax | Use |
-|---|---|---|
-| **Line comment** | `// comment` | Comment from `//` to the end of the line. |
-| **Block comment** | `/* comment */` | Comment one or more lines. |
+| Comment Type        | Syntax           | Use                                                                                                                                       |
+| ------------------- | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| **Line comment**    | `// comment`     | Comment from `//` to the end of the line.                                                                                                 |
+| **Block comment**   | `/* comment */`  | Comment one or more lines.                                                                                                                |
 | **Javadoc comment** | `/** comment */` | Document a class or method so the `javadoc` tool can extract HTML documentation. Must precede the class or method header to be extracted. |
 
 ```java
@@ -213,14 +215,14 @@ Key parts:
 
 A **block** groups program components or statements between braces. A class has a class block. A method has a method block. Blocks can be nested.
 
-| Character | Name | Use |
-|---|---|---|
-| `{}` | Braces | Enclose a block. |
-| `()` | Parentheses | Used with methods. |
-| `[]` | Brackets | Denote an array. |
-| `//` | Double slashes | Start a line comment. |
-| `""` | Quotation marks | Enclose a string. |
-| `;` | Semicolon | Ends a statement. |
+| Character | Name            | Use                   |
+| --------- | --------------- | --------------------- |
+| `{}`      | Braces          | Enclose a block.      |
+| `()`      | Parentheses     | Used with methods.    |
+| `[]`      | Brackets        | Denote an array.      |
+| `//`      | Double slashes  | Start a line comment. |
+| `""`      | Quotation marks | Enclose a string.     |
+| `;`       | Semicolon       | Ends a statement.     |
 
 > [!NOTE]
 > Type the closing brace `}` immediately after typing `{`. This prevents the common missing-brace error.
@@ -241,10 +243,10 @@ graph TD
 
 Java source files and bytecode files follow strict naming rules:
 
-| File | Meaning | Rule |
-|---|---|---|
-| `Welcome.java` | Java source-code file | Must match the public class name exactly. |
-| `Welcome.class` | Java bytecode file | Generated by the compiler. |
+| File            | Meaning               | Rule                                      |
+| --------------- | --------------------- | ----------------------------------------- |
+| `Welcome.java`  | Java source-code file | Must match the public class name exactly. |
+| `Welcome.class` | Java bytecode file    | Generated by the compiler.                |
 
 Compile with `javac`:
 
@@ -286,10 +288,10 @@ The **JVM** interprets bytecode one instruction at a time into the target machin
 
 Common execution errors:
 
-| Error | Likely Cause |
-|---|---|
-| **NoClassDefFoundError** | You tried to run a class file that does not exist or Java cannot find it. |
-| **NoSuchMethodError** | The class has no valid `main` method, or you mistyped it as something like `Main`. |
+| Error                    | Likely Cause                                                                       |
+| ------------------------ | ---------------------------------------------------------------------------------- |
+| **NoClassDefFoundError** | You tried to run a class file that does not exist or Java cannot find it.          |
+| **NoSuchMethodError**    | The class has no valid `main` method, or you mistyped it as something like `Main`. |
 
 ## Programming Style And Documentation
 
@@ -297,14 +299,14 @@ Good style helps humans read, debug, and maintain code. A program can compile ev
 
 Use these guidelines:
 
-| Guideline | Reason |
-|---|---|
-| Put a summary comment near the start of a program. | Readers learn what the program does before reading details. |
-| Use `/** ... */` for class and method documentation. | The `javadoc` tool can extract it. |
-| Use `//` for steps inside a method. | Step comments stay close to the code they explain. |
-| Indent nested code at least two spaces. | Indentation shows block structure. |
-| Put spaces around binary operators. | `3 + 4 * 4` reads better than `3+4*4`. |
-| Use one block style consistently. | Mixed brace styles distract readers and can hide mistakes. |
+| Guideline                                            | Reason                                                      |
+| ---------------------------------------------------- | ----------------------------------------------------------- |
+| Put a summary comment near the start of a program.   | Readers learn what the program does before reading details. |
+| Use `/** ... */` for class and method documentation. | The `javadoc` tool can extract it.                          |
+| Use `//` for steps inside a method.                  | Step comments stay close to the code they explain.          |
+| Indent nested code at least two spaces.              | Indentation shows block structure.                          |
+| Put spaces around binary operators.                  | `3 + 4 * 4` reads better than `3+4*4`.                      |
+| Use one block style consistently.                    | Mixed brace styles distract readers and can hide mistakes.  |
 
 Two common block styles are acceptable:
 
@@ -332,11 +334,11 @@ The book uses **end-of-line style**, where the opening brace stays on the same l
 
 Java beginner errors fall into three major categories:
 
-| Error Type | Detected By | Meaning | Example |
-|---|---|---|---|
-| **Syntax error** or **compile error** | Compiler | Code violates Java grammar. | Missing `void`, semicolon, brace, or quotation mark. |
-| **Runtime error** | Runtime environment | Program starts but terminates during execution. | Integer division by zero, invalid input type. |
-| **Logic error** | Programmer/testing | Program runs but produces the wrong result. | Using `9 / 5` instead of `9.0 / 5` in Fahrenheit conversion. |
+| Error Type                            | Detected By         | Meaning                                         | Example                                                      |
+| ------------------------------------- | ------------------- | ----------------------------------------------- | ------------------------------------------------------------ |
+| **Syntax error** or **compile error** | Compiler            | Code violates Java grammar.                     | Missing `void`, semicolon, brace, or quotation mark.         |
+| **Runtime error**                     | Runtime environment | Program starts but terminates during execution. | Integer division by zero, invalid input type.                |
+| **Logic error**                       | Programmer/testing  | Program runs but produces the wrong result.     | Using `9 / 5` instead of `9.0 / 5` in Fahrenheit conversion. |
 
 Fix syntax errors from the top of the compiler output downward. One early mistake can cause several reported errors later in the file.
 
@@ -345,6 +347,7 @@ Fix syntax errors from the top of the compiler output downward. One early mistak
 The textbook's three canonical programs demonstrate each error type:
 
 **ShowSyntaxErrors.java** — missing `void` before `main`, and a string literal missing its closing `"`:
+
 ```java
 public class ShowSyntaxErrors {
   public static void main(String[] args) {  // Error: missing void
@@ -352,9 +355,11 @@ public class ShowSyntaxErrors {
   }
 }
 ```
+
 The compiler reports four errors, but only two actual problems. Fix from the top down.
 
 **ShowRuntimeErrors.java** — integer division by zero causes `ArithmeticException`:
+
 ```java
 public class ShowRuntimeErrors {
   public static void main(String[] args) {
@@ -364,6 +369,7 @@ public class ShowRuntimeErrors {
 ```
 
 **ShowLogicErrors.java** — integer truncation gives the wrong result:
+
 ```java
 public class ShowLogicErrors {
   public static void main(String[] args) {
@@ -371,6 +377,7 @@ public class ShowLogicErrors {
   }
 }
 ```
+
 `9 / 5` evaluates to `1` (integer division), so `(9 / 5) * 35 + 32` gives `67` instead of the expected `95.0`. Use `9.0 / 5` to keep the fractional part.
 
 > [!WARNING]
@@ -378,12 +385,12 @@ public class ShowLogicErrors {
 
 ### Common Newcomer Errors
 
-| Error | Faulty Pattern | Fix |
-|---|---|---|
-| Missing brace | Open `{` with no matching `}` | Type the closing brace immediately. |
-| Missing semicolon | `System.out.println("Done")` | Add `;` after the statement. |
-| Missing quote | `"Problem Driven` | Close the string with `"`. |
-| Misspelled name | `Main`, `string` | Use exact Java casing: `main`, `String`.
+| Error             | Faulty Pattern                | Fix                                      |
+| ----------------- | ----------------------------- | ---------------------------------------- |
+| Missing brace     | Open `{` with no matching `}` | Type the closing brace immediately.      |
+| Missing semicolon | `System.out.println("Done")`  | Add `;` after the statement.             |
+| Missing quote     | `"Problem Driven`             | Close the string with `"`.               |
+| Misspelled name   | `Main`, `string`              | Use exact Java casing: `main`, `String`. |
 
 ## NetBeans And Eclipse Workflow
 
@@ -420,15 +427,15 @@ System.out.println(5.0 / 4); // 1.25, floating-point division
 
 Common formulas from the exercise set:
 
-| Task | Formula |
-|---|---|
-| Circle perimeter | `2 * radius * PI` |
-| Circle area | `radius * radius * PI` |
-| Rectangle area | `width * height` |
-| Rectangle perimeter | `2 * (width + height)` |
-| Average speed | `distance / time` with units converted first. |
-| Population yearly seconds | `365 * 24 * 60 * 60` |
-| Net population change | births plus immigrants minus deaths. |
+| Task                      | Formula                                       |
+| ------------------------- | --------------------------------------------- |
+| Circle perimeter          | `2 * radius * PI`                             |
+| Circle area               | `radius * radius * PI`                        |
+| Rectangle area            | `width * height`                              |
+| Rectangle perimeter       | `2 * (width + height)`                        |
+| Average speed             | `distance / time` with units converted first. |
+| Population yearly seconds | `365 * 24 * 60 * 60`                          |
+| Net population change     | births plus immigrants minus deaths.          |
 
 Cramer's rule for a 2 by 2 linear system:
 
@@ -456,24 +463,24 @@ The chapter's programming exercises train these habits:
 
 ## Key Terms
 
-| Term | Short Definition |
-|---|---|
-| **API** | Library of predefined Java classes and interfaces. |
-| **Assembler** | Translates assembly language into machine code. |
-| **Bytecode** | Architecture-neutral compiled Java code stored in `.class` files. |
-| **Class loader** | Loads class bytecode into memory for the JVM. |
-| **Compiler** | Translates source code into a compiled file. |
-| **Console** | Text input and output environment. |
-| **IDE** | Tool that integrates editing, compiling, running, debugging, and help. |
-| **Interpreter** | Translates and executes code one statement or instruction at a time. |
-| **JDK** | Toolkit for compiling, running, and testing Java programs. |
-| **JRE** | Runtime environment for running Java programs. |
-| **JVM** | Program that executes Java bytecode. |
-| **Keyword** | Reserved word with compiler-defined meaning. |
-| **Logic error** | Program runs but computes the wrong result. |
-| **Runtime error** | Program terminates abnormally while running. |
-| **Syntax error** | Code violates Java grammar and fails compilation. |
+| Term              | Short Definition                                                       |
+| ----------------- | ---------------------------------------------------------------------- |
+| **API**           | Library of predefined Java classes and interfaces.                     |
+| **Assembler**     | Translates assembly language into machine code.                        |
+| **Bytecode**      | Architecture-neutral compiled Java code stored in `.class` files.      |
+| **Class loader**  | Loads class bytecode into memory for the JVM.                          |
+| **Compiler**      | Translates source code into a compiled file.                           |
+| **Console**       | Text input and output environment.                                     |
+| **IDE**           | Tool that integrates editing, compiling, running, debugging, and help. |
+| **Interpreter**   | Translates and executes code one statement or instruction at a time.   |
+| **JDK**           | Toolkit for compiling, running, and testing Java programs.             |
+| **JRE**           | Runtime environment for running Java programs.                         |
+| **JVM**           | Program that executes Java bytecode.                                   |
+| **Keyword**       | Reserved word with compiler-defined meaning.                           |
+| **Logic error**   | Program runs but computes the wrong result.                            |
+| **Runtime error** | Program terminates abnormally while running.                           |
+| **Syntax error**  | Code violates Java grammar and fails compilation.                      |
 
 ---
 
-*20 min read. Original: 85 min read.*
+_20 min read. Original: 85 min read._

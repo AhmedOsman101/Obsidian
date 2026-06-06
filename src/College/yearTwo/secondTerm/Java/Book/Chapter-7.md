@@ -8,6 +8,8 @@ next:
   link: "/College/yearTwo/secondTerm/Java/Book/Chapter-8"
 ---
 
+# Java - Chapter 7
+
 ## Single-Dimensional Arrays
 
 ### 7.1 Why Arrays?
@@ -17,12 +19,14 @@ An **array** stores a fixed-size sequential collection of elements of the same t
 ### 7.2 Array Basics
 
 **Declaration** (no memory allocated yet):
+
 ```java
 elementType[] arrayRefVar;   // preferred
 elementType arrayRefVar[];   // C-style, allowed but not preferred
 ```
 
 **Creating an array** (allocates memory):
+
 ```java
 arrayRefVar = new elementType[arraySize];
 // Combined:
@@ -42,6 +46,7 @@ myList[9] = 11123;  // last element
 ```
 
 **Array initializer** — combines declaration, creation, and initialization:
+
 ```java
 elementType[] arrayRefVar = {value0, value1, ..., valuek};
 // CANNOT split — this is wrong:
@@ -65,11 +70,13 @@ elementType[] arrayRefVar = {value0, value1, ..., valuek};
 > `char[]` arrays can be printed with a single `System.out.println(city);` — other types must be printed element by element.
 
 **Foreach loop** — traverse array sequentially without index:
+
 ```java
 for (elementType element : arrayRefVar) {
   // Process element
 }
 ```
+
 Cannot modify elements or traverse in different order with foreach.
 
 > [!WARNING]
@@ -89,15 +96,18 @@ int count = 0;
 for (int i = 0; i < n; i++)
   if (numbers[i] > average) count++;
 ```
+
 Two-pass: first pass reads and sums, second pass counts above average.
 
 ### 7.4 Case Study: Deck of Cards
 
 Represent a 52-card deck as `int[] deck = new int[52]` initialized to 0–51. Suit: `cardNumber / 13` (0=Spades,1=Hearts,2=Diamonds,3=Clubs). Rank: `cardNumber % 13` (0=Ace,1=2,...,10=Jack,11=Queen,12=King). Use string arrays for names:
+
 ```java
 String[] suits = {"Spades", "Hearts", "Diamonds", "Clubs"};
 String[] ranks = {"Ace", "2", "3", ..., "Queen", "King"};
 ```
+
 Shuffle by swapping each element with a random element, then display first 4 cards.
 
 ### 7.5 Copying Arrays
@@ -105,6 +115,7 @@ Shuffle by swapping each element with a random element, then display first 4 car
 `list2 = list1;` copies only the **reference** — both variables point to the same array. The old array becomes **garbage** (auto-collected by JVM).
 
 Three correct ways to copy:
+
 1. **Loop** — copy element by element
 2. **`System.arraycopy(source, srcPos, target, tarPos, length)`** — static method, target must already exist
 3. **`clone()`** — covered in Chapter 13
@@ -130,7 +141,8 @@ public static void printArray(int[] array) {
 printArray(new int[]{3, 1, 2, 6, 4, 2});
 ```
 
-> [!NOTE] **Anonymous array**: created with `new elementType[]{value0, value1, ...}` without assigning it to a variable. Used when an array is needed only as an argument to a method. The syntax `new int[]{3, 1, 2}` above is an anonymous array — no variable name, used inline.
+> [!NOTE]
+> **Anonymous array**: created with `new elementType[]{value0, value1, ...}` without assigning it to a variable. Used when an array is needed only as an argument to a method. The syntax `new int[]{3, 1, 2}` above is an anonymous array — no variable name, used inline.
 
 > [!WARNING]
 > `swap(a[0], a[1])` does NOT swap array elements — only copies of values are passed. To swap, pass the array itself and swap `array[0]` with `array[1]`.
@@ -138,6 +150,7 @@ printArray(new int[]{3, 1, 2, 6, 4, 2});
 ### 7.7 Returning an Array from a Method
 
 A method can return an array — the **reference** is returned.
+
 ```java
 public static int[] reverse(int[] list) {
   int[] result = new int[list.length];
@@ -150,16 +163,19 @@ public static int[] reverse(int[] list) {
 ### 7.8 Case Study: Counting Letter Occurrences
 
 Generate 100 random lowercase letters, count each using an array of 26 ints:
+
 ```java
 int[] counts = new int[26];
 for (int i = 0; i < chars.length; i++)
   counts[chars[i] - 'a']++;
 ```
-The expression `chars[i] - 'a'` maps `'a'`→0, `'b'`→1, ..., `'z'`→25.
+
+The expression `chars[i] - 'a'` maps `'a'`->0, `'b'`->1, ..., `'z'`->25.
 
 ### 7.9 Variable-Length Argument Lists
 
 Syntax: `typeName... parameterName` — only one per method, must be the **last** parameter. Java treats it as an array.
+
 ```java
 public static void printMax(double... numbers) {
   if (numbers.length == 0) { ... }
@@ -200,12 +216,15 @@ public static int binarySearch(int[] list, int key) {
 > [!WARNING]
 > `(low + high) / 2` can overflow for very large int values. Fix: `low + (high - low) / 2`.
 
-> [!WARNING] **Binary search edge case: `high >= low` vs `high > low`**
+> [!WARNING]
+> **Binary search edge case: `high >= low` vs `high > low`**
 > Using `high > low` instead of `high >= low` in the while condition causes failure on **single-element arrays** and when the key is at a position where `low == high`. The correct condition is `high >= low`. Without `>=`, the loop exits prematurely and the element is never compared.
 
 Return value `-low - 1`: if key not found, `-k - 1` gives the insertion position. E.g., `-1` means insert at 0, `-6` means insert at 5.
 
-> [!NOTE] **Binary search pre/postcondition**: **Precondition** — the list must be sorted in ascending order. **Postcondition** — returns the index of the matching element if found, or a negative value `-k - 1` where `k` is the insertion point (the position where the key would be inserted to maintain sorted order).
+> [!NOTE]
+> **Binary search pre/postcondition**: **Precondition** — the list must be sorted in ascending order.
+> **Postcondition** — returns the index of the matching element if found, or a negative value `-k - 1` where `k` is the insertion point (the position where the key would be inserted to maintain sorted order).
 
 ### 7.11 Sorting: Selection Sort
 
@@ -230,14 +249,14 @@ for (int i = 0; i < list.length - 1; i++) {
 
 ### 7.12 The `java.util.Arrays` Class
 
-| Method | Description |
-|--------|-------------|
-| `sort(array)` / `sort(array, from, to)` | Sorts whole or partial array (ascending) |
-| `parallelSort(array)` | Same as sort, faster on multi-core |
-| `binarySearch(array, key)` | Binary search (array must be sorted) |
-| `equals(array1, array2)` | Checks if arrays have same elements in same order |
-| `fill(array, value)` / `fill(array, from, to, value)` | Fills array with value |
-| `toString(array)` | Returns string like `[2, 4, 7, 10]` |
+| Method                                                | Description                                       |
+| ----------------------------------------------------- | ------------------------------------------------- |
+| `sort(array)` / `sort(array, from, to)`               | Sorts whole or partial array (ascending)          |
+| `parallelSort(array)`                                 | Same as sort, faster on multi-core                |
+| `binarySearch(array, key)`                            | Binary search (array must be sorted)              |
+| `equals(array1, array2)`                              | Checks if arrays have same elements in same order |
+| `fill(array, value)` / `fill(array, from, to, value)` | Fills array with value                            |
+| `toString(array)`                                     | Returns string like `[2, 4, 7, 10]`               |
 
 All methods overloaded for all primitive types.
 
@@ -249,9 +268,11 @@ All methods overloaded for all primitive types.
 java TestMain arg0 arg1 arg2
 # args[0]="arg0", args[1]="arg1", args[2]="arg2"
 ```
+
 Strings with spaces: enclose in double quotes. Numbers become strings — use `Integer.parseInt(args[0])` to convert.
 
 **Calculator case study** — receives 3 args: `operand1 operator operand2`:
+
 ```java
 if (args.length != 3) {
   System.out.println("Usage: java Calculator operand1 operator operand2");
@@ -271,4 +292,4 @@ switch (args[1].charAt(0)) {
 
 ---
 
-*106 min source → ~15 min read*
+_106 min source -> ~15 min read_

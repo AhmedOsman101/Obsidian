@@ -8,6 +8,8 @@ next:
   link: "/College/yearTwo/secondTerm/Java/Book/Chapter-9"
 ---
 
+# Java - Chapter 8
+
 ## Multidimensional Arrays
 
 ### 8.1 Two-Dimensional Arrays
@@ -15,12 +17,14 @@ next:
 A **two-dimensional array** stores a matrix or table — it's an array of arrays (a **nested array**). Each element is accessed by **row index** and **column index**, both 0-based.
 
 **Declaration**:
+
 ```java
 elementType[][] arrayRefVar;      // preferred
 elementType arrayRefVar[][];      // allowed, not preferred
 ```
 
 **Creating a 2D array**:
+
 ```java
 matrix = new int[5][5];           // 5 rows, 5 columns
 ```
@@ -29,6 +33,7 @@ matrix = new int[5][5];           // 5 rows, 5 columns
 > Use `matrix[2][1]` not `matrix[2, 1]` — each subscript in its own brackets.
 
 **Array initializer**:
+
 ```java
 int[][] array = {
   {1, 2, 3},
@@ -42,6 +47,7 @@ int[][] array = {
 `array.length` = number of rows. `array[row].length` = number of columns in that row.
 
 A **ragged array** has rows of different lengths:
+
 ```java
 int[][] triangleArray = new int[5][];
 triangleArray[0] = new int[5];
@@ -56,15 +62,15 @@ triangleArray[1] = new int[4];
 
 Use nested `for` loops — outer for rows, inner for columns.
 
-| Operation | Pattern |
-|-----------|---------|
-| Initialize with input | `matrix[row][col] = input.nextInt();` |
-| Random values (0–99) | `matrix[row][col] = (int)(Math.random() * 100);` |
-| Print | Inner loop prints, outer loop adds `println()` |
-| Sum all elements | `total += matrix[row][col];` |
-| Sum by column | Outer loop over columns, inner over rows |
-| Largest row sum | Track `maxRow` and `indexOfMaxRow`, compare each row's total |
-| Random shuffle | For each `matrix[i][j]`, swap with random `matrix[i1][j1]` |
+| Operation             | Pattern                                                      |
+| --------------------- | ------------------------------------------------------------ |
+| Initialize with input | `matrix[row][col] = input.nextInt();`                        |
+| Random values (0–99)  | `matrix[row][col] = (int)(Math.random() * 100);`             |
+| Print                 | Inner loop prints, outer loop adds `println()`               |
+| Sum all elements      | `total += matrix[row][col];`                                 |
+| Sum by column         | Outer loop over columns, inner over rows                     |
+| Largest row sum       | Track `maxRow` and `indexOfMaxRow`, compare each row's total |
+| Random shuffle        | For each `matrix[i][j]`, swap with random `matrix[i1][j1]`   |
 
 ### 8.4 Passing 2D Arrays to Methods
 
@@ -106,7 +112,8 @@ double distance = Math.sqrt(
 
 Track the minimum distance and the indices of the closest pair. Complexity: O(n²) — brute force.
 
-> [!NOTE] **Ties**: If multiple pairs have the same minimum distance, only the **first discovered** pair is returned (the one with the smallest `i`, then smallest `j`, since the inner loop starts at `j = i + 1`).
+> [!NOTE]
+> **Ties**: If multiple pairs have the same minimum distance, only the **first discovered** pair is returned (the one with the smallest `i`, then smallest `j`, since the inner loop starts at `j = i + 1`).
 
 > [!TIP]
 > Use input redirection: `java FindNearestPoints < FindNearestPoints.txt`
@@ -118,12 +125,14 @@ $9 \times 9$ grid, must satisfy: every row, column, and $3 \times 3$ box contain
 Check each cell: value must be 1–9 **and** unique in its row, column, and $3 \times 3$ box.
 
 **Finding the 3×3 box start cell**:
+
 ```java
 int boxRowStart = (i / 3) * 3;
 int boxColStart = (j / 3) * 3;
 ```
 
 Validation steps:
+
 ```java
 // Check row
 for (int col = 0; col < 9; col++)
@@ -145,6 +154,7 @@ for (int row = (i / 3) * 3; row < (i / 3) * 3 + 3; row++)
 ### 8.8 Multidimensional Arrays (3+ Dimensions)
 
 A **three-dimensional array** is an array of 2D arrays:
+
 ```java
 double[][][] scores = new double[6][5][2];
 ```
@@ -155,10 +165,11 @@ Index structure: `scores[whichStudent][whichExam][mcOrEssay]`.
 
 **Daily Temperature and Humidity case study** — 3D array `data[day][hour][0or1]` stores 10 days × 24 hours × 2 values (temperature, humidity). Use input redirection from file.
 
-> [!WARNING] **Off-by-one in Weather case study**: Days are numbered **1–10** and hours **1–24** in the input file. When storing in the 0-indexed array, you must subtract 1: `data[day - 1][hour - 1][index]`. Forgetting this 1-based → 0-based translation is the most common mistake — it causes `ArrayIndexOutOfBoundsException` or silently reading/writing the wrong elements.
+> [!WARNING]
+> **Off-by-one in Weather case study**: Days are numbered **1–10** and hours **1–24** in the input file. When storing in the 0-indexed array, you must subtract 1: `data[day - 1][hour - 1][index]`. Forgetting this 1-based -> 0-based translation is the most common mistake — it causes `ArrayIndexOutOfBoundsException` or silently reading/writing the wrong elements.
 
 **Guess Birthday case study** — 5 sets of numbers stored as `int[][][] dates` (5 × 4 × 4). Each set's first number `dates[i][0][0]` is added if the user answers "yes."
 
 ---
 
-*86 min source → ~10 min read*
+_86 min source -> ~10 min read_

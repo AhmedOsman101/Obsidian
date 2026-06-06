@@ -8,6 +8,8 @@ next:
   link: "/College/yearTwo/secondTerm/Java/Book/Chapter-6"
 ---
 
+# Java - Chapter 5
+
 ## Loops
 
 ### The while Loop
@@ -39,6 +41,7 @@ while (count < 100) {
 ```
 
 **Key terms:**
+
 - **Iteration**: one execution of the loop body
 - **Loop-continuation-condition**: the Boolean expression controlling the loop
 - **Counter-controlled loop**: uses a control variable (like `count`) to track iterations
@@ -50,12 +53,14 @@ while (count < 100) {
 
 > [!WARNING] Overflow loop
 > Integer overflow can terminate a loop unexpectedly:
+>
 > ```java
 > int x = 80000000;
 > while (x > 0)
 >   x++;
 > System.out.println("x is " + x); // terminates when overflow wraps x negative
 > ```
+>
 > This loop ends because `x` eventually overflows past `Integer.MAX_VALUE` and becomes negative.
 
 #### RepeatAdditionQuiz (Listing 5.1)
@@ -229,11 +234,11 @@ graph TD
 
 The three components are separated by semicolons:
 
-| Part | Example | Description |
-|------|---------|-------------|
-| `initial-action` | `int i = 0` | Executed once before the loop |
-| `loop-continuation-condition` | `i < 100` | Checked before each iteration |
-| `action-after-each-iteration` | `i++` | Executed after each iteration |
+| Part                          | Example     | Description                   |
+| ----------------------------- | ----------- | ----------------------------- |
+| `initial-action`              | `int i = 0` | Executed once before the loop |
+| `loop-continuation-condition` | `i < 100`   | Checked before each iteration |
+| `action-after-each-iteration` | `i++`       | Executed after each iteration |
 
 ```java
 for (int i = 0; i < 100; i++) {
@@ -247,30 +252,31 @@ for (int i = 0; i < 100; i++) {
 // Multiple initializations and updates (comma-separated)
 for (int i = 0, j = 0; i + j < 10; i++, j++) { ... }
 
-// Omitted condition → infinite loop (assumes true)
+// Omitted condition -> infinite loop (assumes true)
 for ( ; ; ) { ... }   // same as while (true)
 
-// Variable declared INSIDE for → not accessible after the loop
+// Variable declared INSIDE for -> not accessible after the loop
 for (int i = 0; i < 10; i++) { ... }
 // i is out of scope here — compile error
 ```
 
 > [!WARNING]
 > A semicolon after the `for` parentheses creates an **empty loop body**:
+>
 > ```java
-> for (int i = 0; i < 10; i++);  // ← semicolon! Loop does nothing
->   System.out.println(i);        // ← not in the loop, compile error for 'i'
+> for (int i = 0; i < 10; i++);  // <- semicolon! Loop does nothing
+>   System.out.println(i);        // <- not in the loop, compile error for 'i'
 > ```
 
 ---
 
 ### Which Loop to Use
 
-| Loop | Type | When to Use |
-|------|------|-------------|
-| `while` | Pretest | Number of repetitions **not fixed** (sentinel-controlled) |
-| `for` | Pretest | Number of repetitions **known in advance** (counter-controlled) |
-| `do-while` | Posttest | Body must execute **at least once** |
+| Loop       | Type     | When to Use                                                     |
+| ---------- | -------- | --------------------------------------------------------------- |
+| `while`    | Pretest  | Number of repetitions **not fixed** (sentinel-controlled)       |
+| `for`      | Pretest  | Number of repetitions **known in advance** (counter-controlled) |
+| `do-while` | Posttest | Body must execute **at least once**                             |
 
 All three are **expressively equivalent** — any loop can be written using any of the three forms.
 
@@ -291,7 +297,7 @@ for (int i = 1; i <= 9; i++) {      // outer loop (rows)
 ```
 
 > [!WARNING]
-> Nested loops multiply iteration counts. A 3-level nested loop with 10,000 iterations each → 1 trillion iterations. At 1μs per iteration, that's 277+ hours.
+> Nested loops multiply iteration counts. A 3-level nested loop with 10,000 iterations each -> 1 trillion iterations. At 1μs per iteration, that's 277+ hours.
 
 ---
 
@@ -317,7 +323,7 @@ for (int count = 0; count < 100; count++) {
 
 **Rule**: Add numbers from **smallest to biggest** to minimize error. Adding a very small number to a very large number can have no effect due to finite precision (e.g., `100000000.0 + 0.000000001 == 100000000.0`).
 
-Concrete example: summing 0.01 to 1.0 → smallest-to-largest gives `50.50000000000003`, largest-to-smallest gives `50.49999999999995` (the true sum is 50.50).
+Concrete example: summing 0.01 to 1.0 -> smallest-to-largest gives `50.50000000000003`, largest-to-smallest gives `50.49999999999995` (the true sum is 50.50).
 
 ---
 
@@ -376,9 +382,9 @@ while (decimal != 0) {
 
 ### break and continue
 
-| Keyword | Effect |
-|---------|--------|
-| `break` | Immediately **terminates** the enclosing loop |
+| Keyword    | Effect                                                        |
+| ---------- | ------------------------------------------------------------- |
+| `break`    | Immediately **terminates** the enclosing loop                 |
 | `continue` | **Skips** the rest of the current iteration, proceeds to next |
 
 ```java
@@ -411,7 +417,7 @@ while (number < 20) {
 > [!NOTE]
 > In a `while`/`do-while` loop, `continue` jumps to the **condition check**. In a `for` loop, `continue` jumps to the **action-after-each-iteration**, then the condition check. This can cause infinite loops in `while` if the control variable update comes after `continue`.
 
-**`for` → `while` conversion with `continue`**: The naive conversion fails because the increment is placed after `continue` and gets skipped:
+**`for` -> `while` conversion with `continue`**: The naive conversion fails because the increment is placed after `continue` and gets skipped:
 
 ```java
 // for loop — works fine
@@ -423,13 +429,13 @@ for (int i = 0; i < 4; i++) {
 // Naive while conversion — WRONG (infinite loop when i % 3 == 0)
 int i = 0;
 while (i < 4) {
-  if (i % 3 == 0) continue; // i never increments → infinite loop
+  if (i % 3 == 0) continue; // i never increments -> infinite loop
   sum += i;
   i++;
 }
 ```
 
-Fix by placing the increment *before* the `continue` or by using a `for` loop.
+Fix by placing the increment _before_ the `continue` or by using a `for` loop.
 
 ---
 
@@ -498,10 +504,10 @@ while (count < NUMBER_OF_PRIMES) {
 2. **Infinite loop** — forgetting to update the control variable
 3. **Semicolon after `for`/`while`** — creates an empty loop body
 4. **Floating-point loop control** — approximations cause unexpected termination
-5. **break/continue misuse** — `continue` in `while` after the control variable update skips the increment → infinite loop
+5. **break/continue misuse** — `continue` in `while` after the control variable update skips the increment -> infinite loop
 6. **Nested loop performance** — deeply nested loops with large bounds can take hours
 7. **Comparing strings with `==`** — always use `.equals()`
 
 ---
 
-> _Chapter 5 source: 117 min read → Summary: ~13 min read. Covers while, do-while, for loops, sentinel control, nested loops, break/continue, and case studies (GuessNumber, GCD, FutureTuition, Dec2Hex, Palindrome, PrimeNumber)._
+> _Chapter 5 source: 117 min read -> Summary: ~13 min read. Covers while, do-while, for loops, sentinel control, nested loops, break/continue, and case studies (GuessNumber, GCD, FutureTuition, Dec2Hex, Palindrome, PrimeNumber)._

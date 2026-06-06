@@ -8,6 +8,8 @@ next:
   link: "/College/yearTwo/secondTerm/Java/Book/Chapter-3"
 ---
 
+# Java - Chapter 2
+
 ## Writing A Simple Program
 
 A program starts with an **algorithm** — a sequence of steps that solves a problem. **Pseudocode** describes the algorithm in natural language mixed with code. Every Java program must have a class and a `main` method where execution begins.
@@ -41,10 +43,10 @@ double radius = input.nextDouble();
 
 A **prompt** tells the user what to enter. The `print` method displays text without advancing to the next line; `println` does advance.
 
-| Import Type | Syntax | Notes |
-|---|---|---|
-| **Specific import** | `import java.util.Scanner;` | Imports one class. Preferred. |
-| **Wildcard import** | `import java.util.*;` | Imports all classes in the package. No performance difference. |
+| Import Type         | Syntax                      | Notes                                                          |
+| ------------------- | --------------------------- | -------------------------------------------------------------- |
+| **Specific import** | `import java.util.Scanner;` | Imports one class. Preferred.                                  |
+| **Wildcard import** | `import java.util.*;`       | Imports all classes in the package. No performance difference. |
 
 The program follows **IPO** — input, process, output. Create only **one** `Scanner` object per program. Multiple `Scanner` objects on `System.in` cause subtle errors.
 
@@ -75,6 +77,7 @@ Input can be space-separated on one line or each number on its own line — `Sca
 ## Identifiers
 
 **Identifiers** name variables, methods, classes, and packages. Rules:
+
 - Sequence of letters, digits, `_`, and `$`
 - Must start with a letter, `_`, or `$` — cannot start with a digit
 - Cannot be a reserved word (keyword)
@@ -121,11 +124,11 @@ By convention, constant names are all uppercase with underscores. Benefits: avoi
 
 ## Naming Conventions
 
-| Element | Convention | Example |
-|---|---|---|
+| Element               | Convention                                                        | Example                     |
+| --------------------- | ----------------------------------------------------------------- | --------------------------- |
 | Variables and methods | **camelCase** — lowercase first word, capitalize subsequent words | `numberOfStudents`, `print` |
-| Classes | Capitalize first letter of each word | `ComputeArea`, `System` |
-| Constants | All uppercase, underscores between words | `PI`, `MAX_VALUE` |
+| Classes               | Capitalize first letter of each word                              | `ComputeArea`, `System`     |
+| Constants             | All uppercase, underscores between words                          | `PI`, `MAX_VALUE`           |
 
 Do not choose class names already used in the Java library (e.g., avoid `System`).
 
@@ -133,13 +136,13 @@ Do not choose class names already used in the Java library (e.g., avoid `System`
 
 Java has six numeric types:
 
-| Type | Size | Range | Precision |
-|---|---|---|---|
-| `byte` | 8-bit | -128 to 127 | Integer |
-| `short` | 16-bit | -32,768 to 32,767 | Integer |
-| `int` | 32-bit | -2³¹ to 2³¹-1 | Integer |
-| `long` | 64-bit | -2⁶³ to 2⁶³-1 | Integer |
-| `float` | 32-bit IEEE 754 | ±1.4E-45 to ±3.4E+38 | 6-9 significant digits |
+| Type     | Size            | Range                  | Precision                |
+| -------- | --------------- | ---------------------- | ------------------------ |
+| `byte`   | 8-bit           | -128 to 127            | Integer                  |
+| `short`  | 16-bit          | -32,768 to 32,767      | Integer                  |
+| `int`    | 32-bit          | -2³¹ to 2³¹-1          | Integer                  |
+| `long`   | 64-bit          | -2⁶³ to 2⁶³-1          | Integer                  |
+| `float`  | 32-bit IEEE 754 | ±1.4E-45 to ±3.4E+38   | 6-9 significant digits   |
 | `double` | 64-bit IEEE 754 | ±4.9E-324 to ±1.7E+308 | 15-17 significant digits |
 
 Use `int` for integers and `double` for floating-point by default.
@@ -150,13 +153,13 @@ Use `int` for integers and `double` for floating-point by default.
 
 **Numeric operators:**
 
-| Op | Meaning | Example | Result |
-|---|---|---|---|
-| `+` | Addition | `34 + 1` | `35` |
-| `-` | Subtraction | `34.0 - 0.1` | `33.9` |
-| `*` | Multiplication | `300 * 30` | `9000` |
-| `/` | Division | `1.0 / 2.0` | `0.5` |
-| `%` | Remainder | `20 % 3` | `2` |
+| Op  | Meaning        | Example      | Result |
+| --- | -------------- | ------------ | ------ |
+| `+` | Addition       | `34 + 1`     | `35`   |
+| `-` | Subtraction    | `34.0 - 0.1` | `33.9` |
+| `*` | Multiplication | `300 * 30`   | `9000` |
+| `/` | Division       | `1.0 / 2.0`  | `0.5`  |
+| `%` | Remainder      | `20 % 3`     | `2`    |
 
 > **Integer division** truncates the fractional part: `5 / 2` is `2`, not `2.5`. Use `5.0 / 2` for floating-point division.
 >
@@ -218,10 +221,10 @@ System.out.println("Fahrenheit " + fahrenheit + " is " +
   celsius + " in Celsius");
 ```
 
-| Line | fahrenheit | celsius |
-|------|-----------|---------|
-| `input.nextDouble()` | 100 | |
-| `(5.0 / 9) * (100 - 32)` | 100 | 37.777... |
+| Line                     | fahrenheit | celsius   |
+| ------------------------ | ---------- | --------- |
+| `input.nextDouble()`     | 100        |           |
+| `(5.0 / 9) * (100 - 32)` | 100        | 37.777... |
 
 > **Exam-critical**: Use `5.0 / 9`, NOT `5 / 9`. Writing `5 / 9` gives `0` (integer division), and the entire expression becomes `0 * (fahrenheit - 32) = 0`.
 
@@ -241,11 +244,11 @@ System.out.println(seconds + " seconds is " + minutes +
   " minutes and " + remainingSeconds + " seconds");
 ```
 
-| Line | seconds | minutes | remainingSeconds |
-|------|---------|---------|-----------------|
-| `input.nextInt()` | 500 | | |
-| `seconds / 60` | 500 | 8 | |
-| `seconds % 60` | 500 | 8 | 20 |
+| Line              | seconds | minutes | remainingSeconds |
+| ----------------- | ------- | ------- | ---------------- |
+| `input.nextInt()` | 500     |         |                  |
+| `seconds / 60`    | 500     | 8       |                  |
+| `seconds % 60`    | 500     | 8       | 20               |
 
 This `/` and `%` pattern (divide to get units, remainder to get leftovers) is used throughout the chapter for time, currency, and digit extraction.
 
@@ -267,24 +270,24 @@ All variables should be `long` type because the millisecond value exceeds `int` 
 
 ## Augmented Assignment Operators
 
-| Operator | Example | Equivalent |
-|---|---|---|
-| `+=` | `i += 8` | `i = i + 8` |
-| `-=` | `i -= 8` | `i = i - 8` |
-| `*=` | `i *= 8` | `i = i * 8` |
-| `/=` | `i /= 8` | `i = i / 8` |
-| `%=` | `i %= 8` | `i = i % 8` |
+| Operator | Example  | Equivalent  |
+| -------- | -------- | ----------- |
+| `+=`     | `i += 8` | `i = i + 8` |
+| `-=`     | `i -= 8` | `i = i - 8` |
+| `*=`     | `i *= 8` | `i = i * 8` |
+| `/=`     | `i /= 8` | `i = i / 8` |
+| `%=`     | `i %= 8` | `i = i % 8` |
 
 The augmented operator is performed last. No spaces inside operator names (`+ =` is wrong). Augmented assignments include implicit casting: `sum += 4.5` with `int sum` equals `sum = (int)(sum + 4.5)`.
 
 ## Increment And Decrement Operators
 
-| Operator | Name | Effect |
-|---|---|---|
-| `++var` | Preincrement | Increment first, then use new value |
-| `var++` | Postincrement | Use original value, then increment |
-| `--var` | Predecrement | Decrement first, then use new value |
-| `var--` | Postdecrement | Use original value, then decrement |
+| Operator | Name          | Effect                              |
+| -------- | ------------- | ----------------------------------- |
+| `++var`  | Preincrement  | Increment first, then use new value |
+| `var++`  | Postincrement | Use original value, then increment  |
+| `--var`  | Predecrement  | Decrement first, then use new value |
+| `var--`  | Postdecrement | Use original value, then decrement  |
 
 ```java
 int i = 10;
@@ -369,16 +372,17 @@ int numberOfPennies = remainingAmount;
 
 ## Common Errors And Pitfalls
 
-| Error | Cause | Fix |
-|---|---|---|
-| **Undeclared variable** | Variable name is misspelled or not declared | Match the exact declared name |
-| **Uninitialized variable** | Variable declared but not assigned | Assign a value before use |
-| **Integer overflow** | Value exceeds type range | Use a larger type or check bounds |
-| **Integer division** | Both operands are `int` | Make one operand a `double` |
-| **Round-off error** | Floating-point approximation | Use integers for precise calculations |
-| **Redundant input objects** | Multiple `Scanner` on `System.in` | Use one `Scanner` object |
+| Error                       | Cause                                       | Fix                                   |
+| --------------------------- | ------------------------------------------- | ------------------------------------- |
+| **Undeclared variable**     | Variable name is misspelled or not declared | Match the exact declared name         |
+| **Uninitialized variable**  | Variable declared but not assigned          | Assign a value before use             |
+| **Integer overflow**        | Value exceeds type range                    | Use a larger type or check bounds     |
+| **Integer division**        | Both operands are `int`                     | Make one operand a `double`           |
+| **Round-off error**         | Floating-point approximation                | Use integers for precise calculations |
+| **Redundant input objects** | Multiple `Scanner` on `System.in`           | Use one `Scanner` object              |
 
 Round-off error exact outputs:
+
 ```
 1.0 - 0.1 - 0.1 - 0.1 - 0.1 - 0.1 = 0.5000000000000001  (not 0.5)
 1.0 - 0.9 = 0.09999999999999998                          (not 0.1)
@@ -422,6 +426,7 @@ double area = Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
 ```
 
 Common patterns to practice:
+
 1. Declare and initialize a `Scanner` object
 2. Prompt, read, compute, display
 3. Use `Math.pow()` for exponentiation
@@ -430,4 +435,4 @@ Common patterns to practice:
 
 ---
 
-*13 min read. Original: 115 min read.*
+_13 min read. Original: 115 min read._

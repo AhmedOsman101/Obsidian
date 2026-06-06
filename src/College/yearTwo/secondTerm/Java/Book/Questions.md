@@ -4,7 +4,6 @@ prev:
   text: "Book"
   link: "/College/yearTwo/secondTerm/Java/Book/index"
 next: false
-lastUpdated: false
 ---
 
 # Chapters 1–9: Questions, Quizzes & Programming Exercises
@@ -1002,10 +1001,10 @@ What are the naming conventions for class names, method names, constants, and va
 
 #### Answer
 
-- **Class names**: Capitalize first letter of each word (PascalCase) → `Test` (class)
-- **Method names**: Lowercase first word, camelCase → `read`, `readDouble` (methods)
-- **Variables**: Lowercase first word, camelCase → `read`, `readDouble` (variables also possible)
-- **Constants**: All uppercase with underscores → `MAX_VALUE` (constant)
+- **Class names**: Capitalize first letter of each word (PascalCase) -> `Test` (class)
+- **Method names**: Lowercase first word, camelCase -> `read`, `readDouble` (methods)
+- **Variables**: Lowercase first word, camelCase -> `read`, `readDouble` (variables also possible)
+- **Constants**: All uppercase with underscores -> `MAX_VALUE` (constant)
 
 ---
 
@@ -2116,11 +2115,11 @@ Assuming x is 1, show the result of the following Boolean expressions:
 #### Answer
 
 ```
-(x > 0)   → true
-(x < 0)   → false
-(x != 0)  → true
-(x >= 0)  → true
-(x != 1)  → false
+(x > 0)   -> true
+(x < 0)   -> false
+(x != 0)  -> true
+(x >= 0)  -> true
+(x != 1)  -> false
 ```
 
 ---
@@ -2474,12 +2473,12 @@ Assuming that `x` is `1`, show the result of the following Boolean expressions:
 #### Answer
 
 ```java
-(true) && (3 > 4)        → false  (true && false = false)
-!(x > 0) && (x > 0)     → false  (false && true = false)
-(x > 0) || (x < 0)      → true   (true || false = true)
-(x != 0) || (x == 0)    → true   (true || false = true)
-(x >= 0) || (x < 0)     → true   (true || false = true)
-(x != 1) == !(x == 1)   → true   (false == true → wait: x != 1 is false, !(x == 1) is !(true) = false, so false == false = true)
+(true) && (3 > 4)        -> false  (true && false = false)
+!(x > 0) && (x > 0)     -> false  (false && true = false)
+(x > 0) || (x < 0)      -> true   (true || false = true)
+(x != 0) || (x == 0)    -> true   (true || false = true)
+(x >= 0) || (x < 0)     -> true   (true || false = true)
+(x != 1) == !(x == 1)   -> true   (false == true -> wait: x != 1 is false, !(x == 1) is !(true) = false, so false == false = true)
 ```
 
 ---
@@ -2587,7 +2586,7 @@ Input: x=2, y=3, z=6
 (x < y && y < z) is true    (2 < 3 && 3 < 6 = true && true = true)
 (x < y || y < z) is true    (true || true = true)
 !(x < y) is false           (!true = false)
-(x + y < z) is false        (5 < 6 = false → actually 2+3=5, 5<6=true. Wait: 5 < 6 is true!)
+(x + y < z) is false        (5 < 6 = false -> actually 2+3=5, 5<6=true. Wait: 5 < 6 is true!)
 (x + y > z) is true         (5 > 6 is false)
 ```
 
@@ -2910,8 +2909,8 @@ true && true || false
 Precedence order: `!` (highest), then `^`, then `&&`, then `||` (lowest).
 
 ```
-true || true && false  → true || false → true
-true && true || false  → true || false → true
+true || true && false  -> true || false -> true
+true && true || false  -> true || false -> true
 ```
 
 ---
@@ -2939,12 +2938,12 @@ Evaluate the following expressions:
 
 ```
 2 * 2 - 3 > 2 && 4 - 2 > 5
-→ 4 - 3 > 2 && 2 > 5
-→ 1 > 2 && 2 > 5
-→ false && false → false
+-> 4 - 3 > 2 && 2 > 5
+-> 1 > 2 && 2 > 5
+-> false && false -> false
 
 2 * 2 - 3 > 2 || 4 - 2 > 5
-→ false || false → false
+-> false || false -> false
 ```
 
 ---
@@ -4035,41 +4034,41 @@ public class Exercise3_35 {
 
 #### 4.2.1 Evaluate the following method calls:
 
-(a) `Math.sqrt(4)` → `2.0`
+(a) `Math.sqrt(4)` -> `2.0`
 
-(b) `Math.sin(2 * Math.PI)` → `0.0` (approximately, due to floating-point precision)
+(b) `Math.sin(2 * Math.PI)` -> `0.0` (approximately, due to floating-point precision)
 
-(c) `Math.cos(2 * Math.PI)` → `1.0`
+(c) `Math.cos(2 * Math.PI)` -> `1.0`
 
-(d) `Math.pow(2, 2)` → `4.0`
+(d) `Math.pow(2, 2)` -> `4.0`
 
-(e) `Math.log(Math.E)` → `1.0`
+(e) `Math.log(Math.E)` -> `1.0`
 
-(f) `Math.exp(1)` → `2.718281828459045`
+(f) `Math.exp(1)` -> `2.718281828459045`
 
-(g) `Math.max(2, Math.min(3, 4))` → `Math.max(2, 3)` → `3`
+(g) `Math.max(2, Math.min(3, 4))` -> `Math.max(2, 3)` -> `3`
 
-(h) `Math.rint(-2.5)` → `-2.0` (rounds to nearest even integer)
+(h) `Math.rint(-2.5)` -> `-2.0` (rounds to nearest even integer)
 
-(i) `Math.ceil(-2.5)` → `-2.0`
+(i) `Math.ceil(-2.5)` -> `-2.0`
 
-(j) `Math.floor(-2.5)` → `-3.0`
+(j) `Math.floor(-2.5)` -> `-3.0`
 
-(k) `Math.round(-2.5f)` → `-2` (returns int)
+(k) `Math.round(-2.5f)` -> `-2` (returns int)
 
-(l) `Math.round(-2.5)` → `-2` (returns long)
+(l) `Math.round(-2.5)` -> `-2` (returns long)
 
-(m) `Math.rint(2.5)` → `2.0` (rounds to nearest even integer)
+(m) `Math.rint(2.5)` -> `2.0` (rounds to nearest even integer)
 
-(n) `Math.ceil(2.5)` → `3.0`
+(n) `Math.ceil(2.5)` -> `3.0`
 
-(o) `Math.floor(2.5)` → `2.0`
+(o) `Math.floor(2.5)` -> `2.0`
 
-(p) `Math.round(2.5f)` → `3` (returns int)
+(p) `Math.round(2.5f)` -> `3` (returns int)
 
-(q) `Math.round(2.5)` → `3` (returns long)
+(q) `Math.round(2.5)` -> `3` (returns long)
 
-(r) `Math.round(Math.abs(-2.5))` → `Math.round(2.5)` → `3`
+(r) `Math.round(Math.abs(-2.5))` -> `Math.round(2.5)` -> `3`
 
 ---
 
@@ -4119,10 +4118,10 @@ Because `Math` is in the `java.lang` package, which is implicitly imported in ev
 #### 4.2.7 What are the results?
 
 ```java
-Math.log(Math.exp(5.5))  →  5.5
-Math.exp(Math.log(5.5))  →  5.5
-Math.asin(Math.sin(Math.PI / 6))  →  0.5235987755982988  (approximately π/6)
-Math.sin(Math.asin(Math.PI / 6))  →  0.5235987755982988  (approximately π/6)
+Math.log(Math.exp(5.5))  ->  5.5
+Math.exp(Math.log(5.5))  ->  5.5
+Math.asin(Math.sin(Math.PI / 6))  ->  0.5235987755982988  (approximately π/6)
+Math.sin(Math.asin(Math.PI / 6))  ->  0.5235987755982988  (approximately π/6)
 ```
 
 ---
@@ -4265,9 +4264,9 @@ System.out.println('a' != 'b');  // true
 |                           |                                       | Let me recalculate: 'W'(87) > 'P'(80), so positive.             |
 |                           |                                       | Actually compareTo compares character by character.             |
 |                           |                                       | s1="Welcome to Java", s2="Programming is fun"                   |
-|                           |                                       | First char: 'W'(87) vs 'P'(80) → 87-80 = 7                      |
+|                           |                                       | First char: 'W'(87) vs 'P'(80) -> 87-80 = 7                     |
 |                           |                                       | So result is 7                                                  |
-| `s2.compareTo(s3)`        | Negative                              | 'P'(80) vs 'W'(87) → 80-87 = -7                                 |
+| `s2.compareTo(s3)`        | Negative                              | 'P'(80) vs 'W'(87) -> 80-87 = -7                                |
 | `s2.compareTo(s2)`        | `0`                                   | Same string                                                     |
 | `s1.charAt(0)`            | `'W'`                                 |                                                                 |
 | `s1.indexOf('j')`         | `-1`                                  | 'j' not found (case-sensitive, string has 'J')                  |
@@ -4305,10 +4304,10 @@ char c = s1.charAt(s1.length());             // Incorrect — index out of bound
 #### 4.4.3 Show the output:
 
 ```java
-System.out.println("1" + 1);         // "11"    (string + int → concatenation)
-System.out.println('1' + 1);         // 50      (char + int → 49 + 1 = 50)
-System.out.println("1" + 1 + 1);     // "111"   (string + int → "11" + 1 → "111")
-System.out.println("1" + (1 + 1));   // "12"    (string + 2 → "12")
+System.out.println("1" + 1);         // "11"    (string + int -> concatenation)
+System.out.println('1' + 1);         // 50      (char + int -> 49 + 1 = 50)
+System.out.println("1" + 1 + 1);     // "111"   (string + int -> "11" + 1 -> "111")
+System.out.println("1" + (1 + 1));   // "12"    (string + 2 -> "12")
 System.out.println('1' + 1 + 1);     // 51      (49 + 1 + 1 = 51)
 ```
 
@@ -5489,7 +5488,7 @@ while (i < 10)
     System.out.println(i++);
 ```
 
-`i` is only incremented inside the `if` body. Initially `i = 1`, `1 % 2 != 0`, so the `if` body never executes. `i` never changes → **infinite loop**.
+`i` is only incremented inside the `if` body. Initially `i = 1`, `1 % 2 != 0`, so the `if` body never executes. `i` never changes -> **infinite loop**.
 
 **(c)**
 
@@ -5577,9 +5576,9 @@ public class Test {
 **Trace:**
 
 - Read 2: `number = 2`, `max = 2`
-- Iter 1: Read 3, `3 > 2` → `max = 3`
-- Iter 2: Read 4, `4 > 3` → `max = 4`
-- Iter 3: Read 5, `5 > 4` → `max = 5`
+- Iter 1: Read 3, `3 > 2` -> `max = 3`
+- Iter 2: Read 4, `4 > 3` -> `max = 4`
+- Iter 3: Read 5, `5 > 4` -> `max = 5`
 - Iter 4: Read 0, `0 > 5` false, loop exits (number = 0)
 
 **Output:**
@@ -5799,10 +5798,10 @@ for (int i = 1; sum < 10000; i++) {
 #### 5.8.3 Identify and fix errors:
 
 ```java
-// Line 2: missing `static` → public static void main
-// Line 3: semicolon after for → for (int i = 0; i < 10; i++)
+// Line 2: missing `static` -> public static void main
+// Line 3: semicolon after for -> for (int i = 0; i < 10; i++)
 // Line 4: sum not declared, i out of scope
-// Line 6: semicolon after if condition → if (i < j)
+// Line 6: semicolon after if condition -> if (i < j)
 // Line 7: missing semicolon after println
 // Line 11: semicolon after while condition
 // Line 18: missing semicolon after } while (j < 10);
@@ -5949,7 +5948,7 @@ No. The GCD algorithm assumes positive integers. Use `Math.abs()` for negative i
 - **`break`**: Immediately terminates the innermost loop/switch
 - **`continue`**: Skips the rest of the current iteration, proceeds to next
 
-**(a)** Terminates? Yes. `balance = 10 → 1 → 1 < 9 → break`. Output: `Balance is 1`
+**(a)** Terminates? Yes. `balance = 10 -> 1 -> 1 < 9 -> break`. Output: `Balance is 1`
 **(b)** Terminates? **No** — infinite loop. When `balance = 1`, `continue` skips the decrement.
 
 ---
@@ -6230,7 +6229,7 @@ public class FindFactors {
 }
 ```
 
-**Sample:** 120 → `2 2 2 3 5`
+**Sample:** 120 -> `2 2 2 3 5`
 
 ---
 
@@ -6566,9 +6565,9 @@ Right after `max` returns — stack only has `main(max=0)`
 
 ```java
 gcd(4, 6):
-  gcd(6, 4 % 6 = 4) → gcd(6, 4)
-    gcd(4, 6 % 4 = 2) → gcd(4, 2)
-      gcd(2, 4 % 2 = 0) → return 2
+  gcd(6, 4 % 6 = 4) -> gcd(6, 4)
+    gcd(4, 6 % 4 = 2) -> gcd(4, 2)
+      gcd(2, 4 % 2 = 0) -> return 2
 ```
 
 **Return value:** 2
@@ -6580,10 +6579,10 @@ gcd(4, 6):
 ```java
 isPrime(25):
   for (int i = 2; i <= 25/2 = 12; i++)
-    i=2: 25 % 2 = 1 → not divisible
-    i=3: 25 % 3 = 1 → not divisible
+    i=2: 25 % 2 = 1 -> not divisible
+    i=3: 25 % 3 = 1 -> not divisible
     ...
-    i=5: 25 % 5 = 0 → return false
+    i=5: 25 % 5 = 0 -> return false
 ```
 
 **Return value:** `false`
@@ -6592,9 +6591,9 @@ isPrime(25):
 
 #### 6.7.1 What are the results?
 
-- `hexCharToDecimal('B')` → `10 + 'B' - 'A'` = `10 + 1` = **11**
-- `hexCharToDecimal('7')` → `'7' - '0'` = **7**
-- `hexToDecimal("A9")` → `(10 * 16 + 9)` = **169**
+- `hexCharToDecimal('B')` -> `10 + 'B' - 'A'` = `10 + 1` = **11**
+- `hexCharToDecimal('7')` -> `'7' - '0'` = **7**
+- `hexToDecimal("A9")` -> `(10 * 16 + 9)` = **169**
 
 ---
 
@@ -6629,16 +6628,16 @@ public static double m(double x, double y)
 public static double m(int x, double y)
 ```
 
-a. `m(4, 5)` → `m(int, double)` (4 is int, 5 is int but best match is `int, double` since no `int, int` version exists)
+a. `m(4, 5)` -> `m(int, double)` (4 is int, 5 is int but best match is `int, double` since no `int, int` version exists)
 Actually, let me reconsider. `m(4, 5)` has `int` and `int`. Neither signature is a perfect match.
 
-- `m(int, double)` — first param matches (int→int), second needs widening (int→double)
+- `m(int, double)` — first param matches (int->int), second needs widening (int->double)
 - `m(double, double)` — both need widening
 
 The most specific is `m(int, double)` since the first parameter is an exact match.
 
-b. `m(4, 5.4)` → `m(int, double)` (exact match)
-c. `m(4.5, 5.4)` → `m(double, double)` (exact match)
+b. `m(4, 5.4)` -> `m(int, double)` (exact match)
+c. `m(4.5, 5.4)` -> `m(double, double)` (exact match)
 
 ---
 
@@ -7511,7 +7510,7 @@ System.out.println("x is " + x + ", y[0] is " + y[0]);
 
 **Q:** Command-line arguments?
 
-**A:** `main(String[] args)` — run as `java Test 1 2 3` → `args[0]="1"`, etc.
+**A:** `main(String[] args)` — run as `java Test 1 2 3` -> `args[0]="1"`, etc.
 
 ### 7.13.1–7.13.2
 
@@ -9140,7 +9139,7 @@ for (int i = 0; i < 10; i++) circles[i] = new Circle();
 
 **Q:** What is the order of visibility modifiers (most to least accessible)?
 
-**A:** `public` → `protected` → package-private (default) → `private`
+**A:** `public` -> `protected` -> package-private (default) -> `private`
 
 ---
 

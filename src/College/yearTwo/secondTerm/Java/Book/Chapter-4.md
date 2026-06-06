@@ -8,6 +8,8 @@ next:
   link: "/College/yearTwo/secondTerm/Java/Book/Chapter-5"
 ---
 
+# Java - Chapter 4
+
 ## Mathematical Functions, Characters, and Strings
 
 ### The Math Class
@@ -16,21 +18,21 @@ next:
 
 #### Trigonometric Methods
 
-| Method | Description | Returns |
-|--------|-------------|---------|
-| `Math.sin(double rad)` | Sine of angle in radians | `double` |
-| `Math.cos(double rad)` | Cosine | `double` |
-| `Math.tan(double rad)` | Tangent | `double` |
-| `Math.asin(double rad)` | Arc sine (returns angle in radians, range `-π/2` to `π/2`) | `double` |
-| `Math.acos(double rad)` | Arc cosine (returns angle in radians, range `0` to `π`) | `double` |
-| `Math.atan(double rad)` | Arc tangent (returns angle in radians, range `-π/2` to `π/2`) | `double` |
-| `Math.toRadians(double deg)` | Converts degrees to radians | `double` |
-| `Math.toDegrees(double rad)` | Converts radians to degrees | `double` |
+| Method                       | Description                                                   | Returns  |
+| ---------------------------- | ------------------------------------------------------------- | -------- |
+| `Math.sin(double rad)`       | Sine of angle in radians                                      | `double` |
+| `Math.cos(double rad)`       | Cosine                                                        | `double` |
+| `Math.tan(double rad)`       | Tangent                                                       | `double` |
+| `Math.asin(double rad)`      | Arc sine (returns angle in radians, range `-π/2` to `π/2`)    | `double` |
+| `Math.acos(double rad)`      | Arc cosine (returns angle in radians, range `0` to `π`)       | `double` |
+| `Math.atan(double rad)`      | Arc tangent (returns angle in radians, range `-π/2` to `π/2`) | `double` |
+| `Math.toRadians(double deg)` | Converts degrees to radians                                   | `double` |
+| `Math.toDegrees(double rad)` | Converts radians to degrees                                   | `double` |
 
 ```java
 // Converting degrees to radians for trig methods
-Math.sin(Math.toRadians(90));  // → 1.0
-Math.cos(Math.toRadians(0));   // → 1.0
+Math.sin(Math.toRadians(90));  // -> 1.0
+Math.cos(Math.toRadians(0));   // -> 1.0
 ```
 
 > [!WARNING]
@@ -38,37 +40,37 @@ Math.cos(Math.toRadians(0));   // → 1.0
 
 #### Exponent Methods
 
-| Method | Description |
-|--------|-------------|
-| `Math.exp(double x)` | Returns *e*ˣ |
-| `Math.log(double x)` | Returns *ln*(*x*) (natural log, *e* base) |
-| `Math.log10(double x)` | Returns log₁₀(*x*) |
+| Method                         | Description                                    |
+| ------------------------------ | ---------------------------------------------- |
+| `Math.exp(double x)`           | Returns *e*ˣ                                   |
+| `Math.log(double x)`           | Returns _ln_(_x_) (natural log, _e_ base)      |
+| `Math.log10(double x)`         | Returns log₁₀(_x_)                             |
 | `Math.pow(double a, double b)` | Returns *a*ᵇ (very slow for integer exponents) |
-| `Math.sqrt(double x)` | Returns √*x* (alias: `Math.pow(x, 0.5)`) |
+| `Math.sqrt(double x)`          | Returns √*x* (alias: `Math.pow(x, 0.5)`)       |
 
 > [!WARNING]
 > For `sqrt`, the argument must be ≥ 0. Passing negative returns `NaN`.
 
 #### Rounding Methods
 
-| Method | Description | Behavior |
-|--------|-------------|----------|
-| `Math.ceil(double x)` | Rounds **up** to nearest integer | `Math.ceil(2.1)` → `3.0` |
-| `Math.floor(double x)` | Rounds **down** to nearest integer | `Math.floor(2.9)` → `2.0` |
-| `Math.rint(double x)` | Rounds to nearest **even** integer (banker's rounding) | `Math.rint(2.5)` → `2.0`, `Math.rint(3.5)` → `4.0` |
-| `Math.round(double x)` | Standard rounding (adds 0.5 then floor) | `Math.round(2.5)` → `3`, `Math.round(2.4)` → `2` |
-| `Math.round(float x)` | Same, returns `int` | `Math.round(2.5f)` → `3` |
+| Method                 | Description                                            | Behavior                                             |
+| ---------------------- | ------------------------------------------------------ | ---------------------------------------------------- |
+| `Math.ceil(double x)`  | Rounds **up** to nearest integer                       | `Math.ceil(2.1)` -> `3.0`                            |
+| `Math.floor(double x)` | Rounds **down** to nearest integer                     | `Math.floor(2.9)` -> `2.0`                           |
+| `Math.rint(double x)`  | Rounds to nearest **even** integer (banker's rounding) | `Math.rint(2.5)` -> `2.0`, `Math.rint(3.5)` -> `4.0` |
+| `Math.round(double x)` | Standard rounding (adds 0.5 then floor)                | `Math.round(2.5)` -> `3`, `Math.round(2.4)` -> `2`   |
+| `Math.round(float x)`  | Same, returns `int`                                    | `Math.round(2.5f)` -> `3`                            |
 
 > [!WARNING]
 > `Math.rint(2.5)` returns `2.0`, not `3.0` — it rounds to the nearest **even** integer. `Math.round(2.5)` returns `3` (standard arithmetic rounding).
 
 #### min, max, and abs Methods
 
-| Method | Overloads |
-|--------|-----------|
+| Method           | Overloads                        |
+| ---------------- | -------------------------------- |
 | `Math.min(a, b)` | `int`, `long`, `float`, `double` |
 | `Math.max(a, b)` | `int`, `long`, `float`, `double` |
-| `Math.abs(a)` | `int`, `long`, `float`, `double` |
+| `Math.abs(a)`    | `int`, `long`, `float`, `double` |
 
 > [!WARNING]
 > `Math.abs(Integer.MIN_VALUE)` returns `Integer.MIN_VALUE` (negative) due to overflow — the positive counterpart doesn't exist in 32-bit range.
@@ -106,7 +108,7 @@ double a = Math.sqrt((x2 - x3) * (x2 - x3) + (y2 - y3) * (y2 - y3));
 double b = Math.sqrt((x1 - x3) * (x1 - x3) + (y1 - y3) * (y1 - y3));
 double c = Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
 
-// Compute angles using law of cosines, convert radians → degrees
+// Compute angles using law of cosines, convert radians -> degrees
 double A = Math.toDegrees(Math.acos((a * a - b * b - c * c) / (-2 * b * c)));
 double B = Math.toDegrees(Math.acos((b * b - a * a - c * c) / (-2 * a * c)));
 double C = Math.toDegrees(Math.acos((c * c - b * b - a * a) / (-2 * a * b)));
@@ -153,16 +155,16 @@ char lower = (char)(upper + 32);  // 'a'
 
 Escape sequences start with backslash `\` inside a character or string literal:
 
-| Escape | Unicode | Description |
-|--------|---------|-------------|
-| `\b` | `\u0008` | Backspace |
-| `\t` | `\u0009` | Tab |
-| `\n` | `\u000A` | Line feed (newline) |
-| `\f` | `\u000C` | Form feed |
-| `\r` | `\u000D` | Carriage return |
-| `\\` | `\u005C` | Backslash |
-| `\"` | `\u0022` | Double quote (inside string) |
-| `\'` | `\u0027` | Single quote (inside char) |
+| Escape | Unicode  | Description                  |
+| ------ | -------- | ---------------------------- |
+| `\b`   | `\u0008` | Backspace                    |
+| `\t`   | `\u0009` | Tab                          |
+| `\n`   | `\u000A` | Line feed (newline)          |
+| `\f`   | `\u000C` | Form feed                    |
+| `\r`   | `\u000D` | Carriage return              |
+| `\\`   | `\u005C` | Backslash                    |
+| `\"`   | `\u0022` | Double quote (inside string) |
+| `\'`   | `\u0027` | Single quote (inside char)   |
 
 > [!WARNING]
 > A backslash in a string that doesn't start a valid escape sequence is a **compile error**. Use `\\` for a literal backslash.
@@ -209,17 +211,17 @@ Characters are compared by their numeric (Unicode) values:
 
 The `Character` class provides **static methods** for char testing/conversion:
 
-| Method | Description | Example |
-|--------|-------------|---------|
-| `Character.isLetter(char)` | Checks if letter (A–Z, a–z, or Unicode letter) | `isLetter('A')` → `true` |
-| `Character.isDigit(char)` | Checks if digit (0–9) | `isDigit('5')` → `true` |
-| `Character.isLetterOrDigit(char)` | Letter or digit | `isLetterOrDigit('#')` → `false` |
-| `Character.isLowerCase(char)` | Lowercase letter | `isLowerCase('a')` → `true` |
-| `Character.isUpperCase(char)` | Uppercase letter | `isUpperCase('A')` → `true` |
-| `Character.toLowerCase(char)` | Converts to lowercase | `toLowerCase('A')` → `a` |
-| `Character.toUpperCase(char)` | Converts to uppercase | `toUpperCase('b')` → `B` |
-| `Character.isWhitespace(char)` | Whitespace (space, tab, newline) | `isWhitespace(' ')` → `true` |
-| `Character.isAlphabetic(int codePoint)` | Broader than `isLetter` (includes some non-letter alphabetic chars) | — |
+| Method                                  | Description                                                         | Example                           |
+| --------------------------------------- | ------------------------------------------------------------------- | --------------------------------- |
+| `Character.isLetter(char)`              | Checks if letter (A–Z, a–z, or Unicode letter)                      | `isLetter('A')` -> `true`         |
+| `Character.isDigit(char)`               | Checks if digit (0–9)                                               | `isDigit('5')` -> `true`          |
+| `Character.isLetterOrDigit(char)`       | Letter or digit                                                     | `isLetterOrDigit('#')` -> `false` |
+| `Character.isLowerCase(char)`           | Lowercase letter                                                    | `isLowerCase('a')` -> `true`      |
+| `Character.isUpperCase(char)`           | Uppercase letter                                                    | `isUpperCase('A')` -> `true`      |
+| `Character.toLowerCase(char)`           | Converts to lowercase                                               | `toLowerCase('A')` -> `a`         |
+| `Character.toUpperCase(char)`           | Converts to uppercase                                               | `toUpperCase('b')` -> `B`         |
+| `Character.isWhitespace(char)`          | Whitespace (space, tab, newline)                                    | `isWhitespace(' ')` -> `true`     |
+| `Character.isAlphabetic(int codePoint)` | Broader than `isLetter` (includes some non-letter alphabetic chars) | —                                 |
 
 > [!WARNING]
 > `Character.isAlphabetic()` accepts more than `isLetter()` — e.g., some Roman numerals, or certain modifier letters. Use `isLetter()` when strictly checking A–Z/a–z.
@@ -237,7 +239,7 @@ String nullStr = null;      // no object assigned — different from ""
 ```
 
 > [!WARNING]
-> `null` ≠ `""`. A `null` string has **no object**; calling methods on it throws `NullPointerException`. An empty string `""` is a valid object with length 0.
+> `null` != `""`. A `null` string has **no object**; calling methods on it throws `NullPointerException`. An empty string `""` is a valid object with length 0.
 
 #### Immutable Strings
 
@@ -260,14 +262,14 @@ String s2 = s.toUpperCase(); // assign result to capture change
 
 ### Simple String Methods
 
-| Method | Description | Example |
-|--------|-------------|---------|
-| `s.length()` | Returns number of characters | `"Java".length()` → `4` |
-| `s.charAt(index)` | Returns char at index (0-based) | `"Java".charAt(0)` → `'J'` |
-| `s.concat(t)` | Returns s + t (same as `+` operator) | `"Ja".concat("va")` → `"Java"` |
-| `s.toUpperCase()` | Returns uppercase version | `"Java".toUpperCase()` → `"JAVA"` |
-| `s.toLowerCase()` | Returns lowercase version | `"Java".toLowerCase()` → `"java"` |
-| `s.trim()` | Removes leading/trailing whitespace | `" Java ".trim()` → `"Java"` |
+| Method            | Description                          | Example                            |
+| ----------------- | ------------------------------------ | ---------------------------------- |
+| `s.length()`      | Returns number of characters         | `"Java".length()` -> `4`           |
+| `s.charAt(index)` | Returns char at index (0-based)      | `"Java".charAt(0)` -> `'J'`        |
+| `s.concat(t)`     | Returns s + t (same as `+` operator) | `"Ja".concat("va")` -> `"Java"`    |
+| `s.toUpperCase()` | Returns uppercase version            | `"Java".toUpperCase()` -> `"JAVA"` |
+| `s.toLowerCase()` | Returns lowercase version            | `"Java".toLowerCase()` -> `"java"` |
+| `s.trim()`        | Removes leading/trailing whitespace  | `" Java ".trim()` -> `"Java"`      |
 
 > [!WARNING]
 > Strings are indexed from **0** to `length() - 1`. Accessing `charAt(s.length())` throws `StringIndexOutOfBoundsException`.
@@ -286,13 +288,13 @@ The `+` operator concatenates strings. If either operand is a `String`, the othe
 
 ```java
 String s = "Hello " + "World";     // "Hello World"
-String s2 = "Number: " + 42;       // "Number: 42" (int → String)
+String s2 = "Number: " + 42;       // "Number: 42" (int -> String)
 String s3 = 1 + 2 + " = 3";        // "3 = 3" (1+2 evaluated first as int addition)
 String s4 = "1 + 2 = " + 1 + 2;    // "1 + 2 = 12" (left-to-right, subsequent ints converted to string)
 ```
 
 > [!WARNING]
-> `1 + 2 + " = 3"` evaluates `1+2` first (int addition = 3), then concatenates → `"3 = 3"`. **Order matters** — left-to-right evaluation means numeric addition happens before string concatenation when numbers appear first.
+> `1 + 2 + " = 3"` evaluates `1+2` first (int addition = 3), then concatenates -> `"3 = 3"`. **Order matters** — left-to-right evaluation means numeric addition happens before string concatenation when numbers appear first.
 
 #### Reading Strings from Console
 
@@ -306,6 +308,7 @@ String line = input.nextLine();       // reads entire line (including spaces) un
 
 > [!WARNING]
 > After `nextInt()` or `nextDouble()`, the newline (`\n`) is left in the buffer. A following `nextLine()` **immediately consumes that leftover newline** and returns an empty string. Always consume the leftover newline first:
+>
 > ```java
 > int age = input.nextInt();
 > input.nextLine();          // consume leftover \n
@@ -338,15 +341,15 @@ s1 == s3               // false — s3 is a different object in heap
 s1.equals(s3)          // true — compares content
 ```
 
-| Method | Description |
-|--------|-------------|
-| `s1.equals(s2)` | Returns `true` if strings are character-by-character identical |
-| `s1.equalsIgnoreCase(s2)` | Case-insensitive comparison |
-| `s1.compareTo(s2)` | Lexicographic comparison: negative if s1 < s2, 0 if equal, positive if s1 > s2 |
-| `s1.compareToIgnoreCase(s2)` | Case-insensitive compareTo |
-| `s1.startsWith(prefix)` | Returns `true` if s1 starts with `prefix` |
-| `s1.endsWith(suffix)` | Returns `true` if s1 ends with `suffix` |
-| `s1.contains(s2)` | Returns `true` if s2 is a substring of s1 |
+| Method                       | Description                                                                    |
+| ---------------------------- | ------------------------------------------------------------------------------ |
+| `s1.equals(s2)`              | Returns `true` if strings are character-by-character identical                 |
+| `s1.equalsIgnoreCase(s2)`    | Case-insensitive comparison                                                    |
+| `s1.compareTo(s2)`           | Lexicographic comparison: negative if s1 < s2, 0 if equal, positive if s1 > s2 |
+| `s1.compareToIgnoreCase(s2)` | Case-insensitive compareTo                                                     |
+| `s1.startsWith(prefix)`      | Returns `true` if s1 starts with `prefix`                                      |
+| `s1.endsWith(suffix)`        | Returns `true` if s1 ends with `suffix`                                        |
+| `s1.contains(s2)`            | Returns `true` if s2 is a substring of s1                                      |
 
 ```java
 "abc".compareTo("abd")   // negative (c < d)
@@ -361,10 +364,10 @@ s1.equals(s3)          // true — compares content
 
 ### Getting Substrings
 
-| Method | Description | Example |
-|--------|-------------|---------|
-| `s.substring(beginIndex)` | From `beginIndex` to end | `"Hello".substring(2)` → `"llo"` |
-| `s.substring(begin, end)` | From `begin` to `end-1` | `"Hello".substring(1, 4)` → `"ell"` |
+| Method                    | Description              | Example                              |
+| ------------------------- | ------------------------ | ------------------------------------ |
+| `s.substring(beginIndex)` | From `beginIndex` to end | `"Hello".substring(2)` -> `"llo"`    |
+| `s.substring(begin, end)` | From `begin` to `end-1`  | `"Hello".substring(1, 4)` -> `"ell"` |
 
 > [!WARNING]
 > `substring(begin, end)` — the **end index is exclusive**. `"Hello".substring(1, 4)` returns characters at indices 1, 2, 3 (not 4). `end` must be ≤ `length()`, or `StringIndexOutOfBoundsException` is thrown.
@@ -381,14 +384,14 @@ s.substring(0, s.length())  // "Welcome to Java" (whole string)
 
 ### Finding Characters and Substrings
 
-| Method | Description |
-|--------|-------------|
-| `s.indexOf(char)` | Returns index of first occurrence, or **-1** if not found |
-| `s.indexOf(char, fromIndex)` | Search starting at `fromIndex` |
-| `s.indexOf(String)` | Returns index of first occurrence of substring |
-| `s.indexOf(String, fromIndex)` | Search starting at `fromIndex` |
-| `s.lastIndexOf(char)` | Returns index of last occurrence |
-| `s.lastIndexOf(String)` | Returns index of last occurrence of substring |
+| Method                         | Description                                               |
+| ------------------------------ | --------------------------------------------------------- |
+| `s.indexOf(char)`              | Returns index of first occurrence, or **-1** if not found |
+| `s.indexOf(char, fromIndex)`   | Search starting at `fromIndex`                            |
+| `s.indexOf(String)`            | Returns index of first occurrence of substring            |
+| `s.indexOf(String, fromIndex)` | Search starting at `fromIndex`                            |
+| `s.lastIndexOf(char)`          | Returns index of last occurrence                          |
+| `s.lastIndexOf(String)`        | Returns index of last occurrence of substring             |
 
 ```java
 "Welcome".indexOf('e');           // 1 (first 'e')
@@ -409,12 +412,12 @@ s.substring(0, s.length())  // "Welcome to Java" (whole string)
 
 ### Conversion Between Strings and Numbers
 
-| Method | Description |
-|--------|-------------|
-| `Integer.parseInt(String)` | Converts string → `int` |
-| `Double.parseDouble(String)` | Converts string → `double` |
+| Method                            | Description                        |
+| --------------------------------- | ---------------------------------- |
+| `Integer.parseInt(String)`        | Converts string -> `int`           |
+| `Double.parseDouble(String)`      | Converts string -> `double`        |
 | `Integer.parseInt(String, radix)` | Parse in given base (2, 8, 10, 16) |
-| `String.valueOf(number)` | Converts number → string |
+| `String.valueOf(number)`          | Converts number -> string          |
 
 ```java
 int num = Integer.parseInt("42");       // 42
@@ -442,15 +445,15 @@ System.out.printf("%6d%8.2f", 42, 3.14159);
 // Output: "    42    3.14" (right-aligned by default)
 ```
 
-| Conversion Code | Purpose | Example |
-|-----------------|---------|---------|
-| `%d` | Integer (byte, short, int, long) | `%4d` → width 4 |
-| `%f` | Floating-point (float, double) | `%6.2f` → width 6, 2 decimal places |
-| `%e` | Scientific notation | `%10.2e` |
-| `%s` | String | `%10s` |
-| `%c` | Character | `%4c` |
-| `%b` | Boolean | `%6b` |
-| `%n` | Newline (platform-independent) | `%n` |
+| Conversion Code | Purpose                          | Example                              |
+| --------------- | -------------------------------- | ------------------------------------ |
+| `%d`            | Integer (byte, short, int, long) | `%4d` -> width 4                     |
+| `%f`            | Floating-point (float, double)   | `%6.2f` -> width 6, 2 decimal places |
+| `%e`            | Scientific notation              | `%10.2e`                             |
+| `%s`            | String                           | `%10s`                               |
+| `%c`            | Character                        | `%4c`                                |
+| `%b`            | Boolean                          | `%6b`                                |
+| `%n`            | Newline (platform-independent)   | `%n`                                 |
 
 ```java
 int count = 5;
@@ -461,15 +464,15 @@ System.out.printf("Count is %d, amount is $%5.2f%n", count, amount);
 
 #### Format Specifier Rules
 
-| Component | Values | Meaning |
-|-----------|--------|---------|
-| Flag | `-` | Left-justify (default is right-justify) |
-| Flag | `+` | Always show +/− sign |
-| Flag | `(` | Enclose negative in parentheses |
-| Flag | `,` | Use grouping separator (e.g., `1,000`) |
-| Flag | `0` | Pad with leading zeros |
-| Width | Integer ≥ 0 | Minimum characters to output |
-| Precision | `.N` | Decimal places for `%f`; max chars for `%s` |
+| Component | Values      | Meaning                                     |
+| --------- | ----------- | ------------------------------------------- |
+| Flag      | `-`         | Left-justify (default is right-justify)     |
+| Flag      | `+`         | Always show +/− sign                        |
+| Flag      | `(`         | Enclose negative in parentheses             |
+| Flag      | `,`         | Use grouping separator (e.g., `1,000`)      |
+| Flag      | `0`         | Pad with leading zeros                      |
+| Width     | Integer ≥ 0 | Minimum characters to output                |
+| Precision | `.N`        | Decimal places for `%f`; max chars for `%s` |
 
 ```java
 System.out.printf("%-10s %5d %+6.1f%n", "Total", 42, -3.14);
@@ -529,11 +532,13 @@ Implementation trick: Each set's first number follows a binary pattern (Set1 sta
 ### HexDigit2Dec.java
 
 Converts a hex character to decimal:
+
 - If char is `'0'`–`'9'`, value = `ch - '0'`
 - If char is `'A'`–`'F'`, value = `ch - 'A' + 10`
 - If char is `'a'`–`'f'`, value = `ch - 'a' + 10`
 
 [!WARNING]
+
 > Java chars are numeric types. Subtracting `'0'` from a digit char gives its integer value (`'9' - '0' = 57 - 48 = 9`). This works because digit chars are stored in consecutive Unicode positions.
 
 ### LotteryUsingStrings.java
@@ -549,11 +554,11 @@ Same as Chapter 3's lottery but uses string comparison instead of integer compar
 3. **`charAt(index)` out of bounds** — index must be 0 to `length()-1`.
 4. **`index == -1` assumption** — `indexOf` returns -1 for not found; don't use result unchecked.
 5. **String immutability** — methods return new strings; the original is unchanged. Always assign the result.
-6. **`+` precedence with strings** — left-to-right evaluation means `1 + 2 + " = 3"` → `"3 = 3"`, not `"12 = 3"`.
+6. **`+` precedence with strings** — left-to-right evaluation means `1 + 2 + " = 3"` -> `"3 = 3"`, not `"12 = 3"`.
 7. **`null` pointer** — calling methods on `null` string throws `NullPointerException`. Always check with `if (s != null)`.
 8. **`NumberFormatException`** — whitespace in string passed to `parseInt`/`parseDouble`. Call `.trim()` first.
 9. **`printf` type mismatch** — wrong format specifier for argument type crashes at runtime.
 
 ---
 
-> _Chapter 4 source: 94 min read → Summary: ~15 min read. Covers Math class, character operations, String methods, comparison, substring, parsing, and printf formatting._
+> _Chapter 4 source: 94 min read -> Summary: ~15 min read. Covers Math class, character operations, String methods, comparison, substring, parsing, and printf formatting._

@@ -3,10 +3,12 @@ title: Chapter 9
 prev:
   text: "Chapter 8"
   link: "/College/yearTwo/secondTerm/Java/Book/Chapter-8"
-next: false
+next:
+  text: "Questions"
+  link: "/College/yearTwo/secondTerm/Java/Book/Questions"
 ---
 
-# Programming Essentials in Java — Chapter 9
+# Java - Chapter 9
 
 ## Objects and Classes
 
@@ -29,14 +31,14 @@ graph LR
 
 ### UML Class Diagram Notation
 
-| Element | Notation |
-|---------|----------|
-| Data field | `dataFieldName: dataFieldType` |
-| Constructor | `ClassName(parameterName: parameterType)` |
-| Method | `methodName(parameterName: parameterType): returnType` |
-| Static members | Underlined |
-| `+` | public |
-| `-` | private |
+| Element        | Notation                                               |
+| -------------- | ------------------------------------------------------ |
+| Data field     | `dataFieldName: dataFieldType`                         |
+| Constructor    | `ClassName(parameterName: parameterType)`              |
+| Method         | `methodName(parameterName: parameterType): returnType` |
+| Static members | Underlined                                             |
+| `+`            | public                                                 |
+| `-`            | private                                                |
 
 ```java
 class Circle {
@@ -80,7 +82,7 @@ class Circle { ... }             // package-private (default)
 
 ### Accessing Private Members from Within the Same Class
 
-If code that accesses private members is inside the same class definition, it **is allowed** — even through another object reference of the same type. Private only blocks access from *other* classes, not code inside the class itself.
+If code that accesses private members is inside the same class definition, it **is allowed** — even through another object reference of the same type. Private only blocks access from _other_ classes, not code inside the class itself.
 
 ```java
 public class Circle {
@@ -104,26 +106,28 @@ public class Circle {
 > [!WARNING] NullPointerException
 > A **null** reference variable holds no object. Invoking a method on a null reference causes `NullPointerException`. Reference-type data fields default to `null`.
 
-> [!NOTE] `null` is a **reserved word**, not a keyword. It is a literal for reference types, just like `true` and `false` are literals for boolean. The Java language specification treats `null` as a reserved literal, not a keyword.
+> [!NOTE]
+> `null` is a **reserved word**, not a keyword. It is a literal for reference types, just like `true` and `false` are literals for boolean. The Java language specification treats `null` as a reserved literal, not a keyword.
 
 ### Default Values for Data Fields
 
-| Type | Default |
-|------|---------|
-| Reference (`String`, etc.) | `null` |
-| Numeric (`int`, `double`) | `0` / `0.0` |
-| `boolean` | `false` |
-| `char` | `'\u0000'` |
+| Type                       | Default     |
+| -------------------------- | ----------- |
+| Reference (`String`, etc.) | `null`      |
+| Numeric (`int`, `double`)  | `0` / `0.0` |
+| `boolean`                  | `false`     |
+| `char`                     | `'\u0000'`  |
 
-> [!WARNING] Local variables have NO default value — must be explicitly initialized before use.
+> [!WARNING]
+> Local variables have NO default value — must be explicitly initialized before use.
 
 ### Primitive vs Reference Types
 
-| Aspect | Primitive | Reference |
-|--------|-----------|-----------|
-| Value stored | Actual value | Reference (memory address) |
-| Assignment `a = b` | Copies value | Copies reference — both point to same object |
-| After `c1 = c2` | Independent | Both refer to same object; old `c1` object becomes **garbage** |
+| Aspect             | Primitive    | Reference                                                      |
+| ------------------ | ------------ | -------------------------------------------------------------- |
+| Value stored       | Actual value | Reference (memory address)                                     |
+| Assignment `a = b` | Copies value | Copies reference — both point to same object                   |
+| After `c1 = c2`    | Independent  | Both refer to same object; old `c1` object becomes **garbage** |
 
 **Garbage collection**: JVM automatically reclaims memory of unreferenced objects. You can help by assigning `null` to references no longer needed.
 
@@ -142,27 +146,27 @@ graph LR
 
 #### `java.util.Date`
 
-| Constructor/Method | Description |
-|--------------------|-------------|
-| `Date()` | Current date/time |
+| Constructor/Method       | Description                        |
+| ------------------------ | ---------------------------------- |
+| `Date()`                 | Current date/time                  |
 | `Date(long elapsedTime)` | Date from ms since Jan 1, 1970 GMT |
-| `getTime(): long` | Returns ms since epoch |
-| `toString(): String` | String representation |
-| `setTime(long): void` | Sets elapsed time |
+| `getTime(): long`        | Returns ms since epoch             |
+| `toString(): String`     | String representation              |
+| `setTime(long): void`    | Sets elapsed time                  |
 
 #### `java.util.Random`
 
-| Method | Returns |
-|--------|---------|
-| `nextInt()` | Random `int` |
-| `nextInt(n)` | Random `int` in [0, n) |
-| `nextDouble()` | `double` in [0.0, 1.0) |
-| `nextBoolean()` | Random `boolean` |
+| Method          | Returns                |
+| --------------- | ---------------------- |
+| `nextInt()`     | Random `int`           |
+| `nextInt(n)`    | Random `int` in [0, n) |
+| `nextDouble()`  | `double` in [0.0, 1.0) |
+| `nextBoolean()` | Random `boolean`       |
 
 Same seed = same sequence. Useful for testing reproducibility.
 
-> [!NOTE] SecureRandom
-> For non-deterministic, cryptographically secure random numbers, use `java.security.SecureRandom`.
+> [!NOTE]
+> For non-deterministic, cryptographically secure random numbers, use `java.security.SecureRandom()`.
 
 #### `javafx.geometry.Point2D`
 
@@ -172,16 +176,17 @@ p1.distance(p2);      // Euclidean distance
 p1.midpoint(p2);      // Midpoint point
 ```
 
-> [!WARNING] Point2D requires JavaFX install to run.
+> [!WARNING]
+> Point2D requires JavaFX install to run.
 
 ### Static vs Instance Members
 
-| | Instance | Static |
-|--|----------|--------|
-| **Belongs to** | Each object (separate copy) | The class (shared) |
-| **Access** | `objectRef.member` | `ClassName.member` |
-| **Can access from static method** | ❌ Cannot access instance fields/methods | ✅ Can access static fields/methods |
-| **Can access from instance method** | ✅ Can access instance fields/methods | ✅ Can access static fields/methods |
+|                                     | Instance                                 | Static                              |
+| ----------------------------------- | ---------------------------------------- | ----------------------------------- |
+| **Belongs to**                      | Each object (separate copy)              | The class (shared)                  |
+| **Access**                          | `objectRef.member`                       | `ClassName.member`                  |
+| **Can access from static method**   | ❌ Cannot access instance fields/methods | ✅ Can access static fields/methods |
+| **Can access from instance method** | ✅ Can access instance fields/methods    | ✅ Can access static fields/methods |
 
 ```java
 class Circle {
@@ -200,13 +205,14 @@ class Circle {
 
 ### Visibility Modifiers
 
-| Modifier | Visibility |
-|----------|------------|
-| `public` | Any class |
+| Modifier  | Visibility                          |
+| --------- | ----------------------------------- |
+| `public`  | Any class                           |
 | (default) | Same package only (package-private) |
-| `private` | Same class only |
+| `private` | Same class only                     |
 
-> [!WARNING] `private` modifier cannot be applied to local variables inside a method — only to class members.
+> [!WARNING]
+> `private` modifier cannot be applied to local variables inside a method — only to class members.
 
 **Private constructor**: prevents creating instances of a class (e.g., `Math` class).
 
@@ -229,12 +235,14 @@ public class Circle {
 ```
 
 **Getter naming convention:**
+
 - Non-boolean: `public returnType getPropertyName()`
 - Boolean: `public boolean isPropertyName()`
 
 **Setter naming convention:** `public void setPropertyName(dataType value)`
 
-> [!NOTE] From now on, all data fields should be `private`, all constructors/methods `public` unless specified otherwise.
+> [!NOTE]
+> From now on, all data fields should be `private`, all constructors/methods `public` unless specified otherwise.
 
 ### Passing Objects to Methods
 
@@ -244,7 +252,8 @@ Java uses **pass-by-value** for everything. For objects, the value passed is the
 - **Object argument**: changes to the object's properties DO affect the caller's object (same reference)
 - **Reassigning the parameter** (e.g., `c = new Circle()`) does NOT affect the caller's reference
 
-> [!WARNING] swap() doesn't work on object references — swapping the parameters inside the method swaps local copies of the references, not the original variables. But swapping the objects' data fields DOES work.
+> [!WARNING]
+> swap() doesn't work on object references — swapping the parameters inside the method swaps local copies of the references, not the original variables. But swapping the objects' data fields DOES work.
 
 ### Array of Objects
 
@@ -273,6 +282,7 @@ public void setVolume(int newVolumeLevel) {
 ```
 
 **Key patterns:**
+
 - All operations check `on` first — no-op when TV is off
 - Channel validated to `1–120`, volume to `1–7`
 - Channel up/down and volume up/down also check bounds before incrementing/decrementing
@@ -282,11 +292,13 @@ public void setVolume(int newVolumeLevel) {
 An object whose contents cannot change after creation.
 
 **Requirements for an immutable class:**
+
 1. All data fields must be `private`
 2. No setter (mutator) methods
 3. No accessor can **return a reference** to a mutable data field
 
-> [!WARNING] Having only private fields and no setters is NOT sufficient. If a getter returns a reference to a mutable object (e.g., `Date`), the caller can modify that object directly, breaking immutability.
+> [!WARNING]
+> Having only private fields and no setters is NOT sufficient. If a getter returns a reference to a mutable object (e.g., `Date`), the caller can modify that object directly, breaking immutability.
 
 ### Scope of Variables
 
@@ -294,7 +306,8 @@ An object whose contents cannot change after creation.
 - **Local variable**: scope = from declaration to end of enclosing block
 - **Variable hiding**: if a local variable has the same name as a class field, the local variable takes precedence inside its scope
 
-> [!WARNING] Do not reuse class variable names as local variable names — it creates confusion and bugs.
+> [!WARNING]
+> Do not reuse class variable names as local variable names — it creates confusion and bugs.
 
 ### The `this` Keyword
 
@@ -316,9 +329,11 @@ public class Circle {
 }
 ```
 
-> [!WARNING] `this(arg-list)` must appear FIRST in the constructor, before any other executable statement.
+> [!WARNING]
+> `this(arg-list)` must appear FIRST in the constructor, before any other executable statement.
 
-> [!NOTE] **`this` vs ClassName for static fields**: When a parameter shadows a static field, use `ClassName.staticField = value` (e.g., `F.k = k`) instead of `this.k`, since `this` is an instance reference and **cannot** reference static members. `this.i = i` works for instance fields, but static fields must be qualified with the class name.
+> [!NOTE]
+> **`this` vs ClassName for static fields**: When a parameter shadows a static field, use `ClassName.staticField = value` (e.g., `F.k = k`) instead of `this.k`, since `this` is an instance reference and **cannot** reference static members. `this.i = i` works for instance fields, but static fields must be qualified with the class name.
 
 ---
 

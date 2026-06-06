@@ -8,6 +8,8 @@ next:
   link: "/College/yearTwo/secondTerm/Java/Book/Chapter-7"
 ---
 
+# Java - Chapter 6
+
 # Chapter 6 - Methods (Liang)
 
 ## Defining a Method
@@ -21,6 +23,7 @@ modifier returnValueType methodName(list of parameters) {
 ```
 
 **Method components:**
+
 - **Method header**: modifiers, return value type, method name, parameters
 - **Modifier**: `static` is used for all methods in this chapter (explained in Ch. 9)
 - **Return value type**: data type of returned value, or `void` if none
@@ -30,9 +33,11 @@ modifier returnValueType methodName(list of parameters) {
 - **Method signature**: method name + parameter list (distinguishes methods)
 - **Method body**: statements that implement the method
 
-> [!CAUTION] In the method header, declare each parameter separately. `max(int num1, int num2)` is correct; `max(int num1, num2)` is wrong.
+> [!CAUTION]
+> In the method header, declare each parameter separately. `max(int num1, int num2)` is correct; `max(int num1, num2)` is wrong.
 
-> [!NOTE] A value-returning method is called a _function_ in some languages; a void method is called a _procedure_. In Java, both are called methods.
+> [!NOTE]
+> A value-returning method is called a _function_ in some languages; a void method is called a _procedure_. In Java, both are called methods.
 
 ## Calling a Method
 
@@ -41,7 +46,8 @@ The caller invokes the method. Two ways to call:
 - **Value-returning method**: the call is treated as a value (e.g., `int larger = max(3, 4);` or `System.out.println(max(3, 4));`
 - **Void method**: the call must be a statement (e.g., `printGrade(78.5);`)
 
-> [!NOTE] A value-returning method can also be invoked as a statement in Java — the caller simply ignores the return value.
+> [!NOTE]
+> A value-returning method can also be invoked as a statement in Java — the caller simply ignores the return value.
 
 When a method is called, program control transfers to the called method. Control returns when a `return` statement executes or the method-ending closing brace is reached.
 
@@ -56,9 +62,11 @@ flowchart LR
   A --> C["Stack empty"]
 ```
 
-> [!WARNING] A `return` statement is required for a value-returning method. The compiler must see a path that guarantees a return. An `if-else if` without a final `else` may cause a compile error even if logically complete.
+> [!WARNING]
+> A `return` statement is required for a value-returning method. The compiler must see a path that guarantees a return. An `if-else if` without a final `else` may cause a compile error even if logically complete.
 
 **`sign(int n)` compile-error pattern** — a method that looks logically complete can still fail to compile:
+
 ```java
 // WRONG — compiler thinks method "might not return a value"
 public static int sign(int n) {
@@ -73,16 +81,17 @@ public static int sign(int n) {
   else return -1;
 }
 ```
+
 The compiler must see a `return` that is **unconditionally reachable**. A trailing `else if` with a condition does not guarantee this — only a plain `else` or a `return` outside the `if` structure satisfies the compiler.
 
 ## void vs. Value-Returning Methods
 
-| Feature | void method | Value-returning method |
-|---|---|---|
-| Return type | `void` | Specific data type (e.g., `int`, `double`, `char`) |
-| `return` statement | Optional (can use `return;` to exit early) | Required (must return a value: `return value;`) |
-| Invocation | Must be a statement | Can be used in expressions or as a statement |
-| Example | `printGrade(78.5);` | `char grade = getGrade(78.5);` |
+| Feature            | void method                                | Value-returning method                             |
+| ------------------ | ------------------------------------------ | -------------------------------------------------- |
+| Return type        | `void`                                     | Specific data type (e.g., `int`, `double`, `char`) |
+| `return` statement | Optional (can use `return;` to exit early) | Required (must return a value: `return value;`)    |
+| Invocation         | Must be a statement                        | Can be used in expressions or as a statement       |
+| Example            | `printGrade(78.5);`                        | `char grade = getGrade(78.5);`                     |
 
 A `return` statement in a `void` method is useful for early termination (e.g., when input is invalid):
 
@@ -186,6 +195,7 @@ public static double max(double num1, double num2, double num3) { ... }
 ```
 
 **Rules:**
+
 - Overloaded methods **must** have different parameter lists
 - Cannot overload based on different modifiers or return types only
 - When an `int` and `double` are passed, `max(double, double)` is invoked (automatic type promotion)
@@ -204,6 +214,7 @@ public static double max(double num1, int num2) { ... }
 A **local variable** is defined inside a method. Its scope starts at its declaration and continues to the end of the enclosing block.
 
 **Rules:**
+
 - A local variable must be declared and assigned before use
 - A method parameter's scope covers the entire method
 - A variable declared in a `for` loop header has scope in the entire loop
@@ -211,7 +222,8 @@ A **local variable** is defined inside a method. Its scope starts at its declara
 - A variable can be declared with the same name in **non-nested blocks** (e.g., separate `for` loops)
 - A variable **cannot** be declared twice in the same block or in **nested blocks**
 
-> [!CAUTION] Accessing a loop variable outside the loop causes a syntax error. `i` in `for (int i = 0; i < 10; i++)` is not accessible after the loop.
+> [!CAUTION]
+> Accessing a loop variable outside the loop causes a syntax error. `i` in `for (int i = 0; i < 10; i++)` is not accessible after the loop.
 
 ## Generating Random Characters
 
@@ -239,14 +251,16 @@ public static char getRandomUpperCaseLetter() {
 public static char getRandomDigitCharacter() {
   return getRandomCharacter('0', '9');
 }
-
-> [!NOTE] The no-parameter overload `getRandomCharacter()` returns a random character from the **entire Unicode range** (`'\u0000'` to `'\uFFFF'`), unlike the parameterized versions which restrict to a specific subset.
-
-```java
-public static char getRandomCharacter() {
-  return getRandomCharacter('\u0000', '\uFFFF');
-}
 ```
+
+> [!NOTE]
+> The no-parameter overload `getRandomCharacter()` returns a random character from the **entire Unicode range** (`'\u0000'` to `'\uFFFF'`), unlike the parameterized versions which restrict to a specific subset.
+>
+> ```java
+> public static char getRandomCharacter() {
+>   return getRandomCharacter('\u0000', '\uFFFF');
+> }
+> ```
 
 ## Method Abstraction and Stepwise Refinement
 
@@ -271,6 +285,7 @@ flowchart TD
 ```
 
 **Key methods:**
+
 - `isLeapYear(year)`: `year % 400 == 0 \|\| (year % 4 == 0 && year % 100 != 0)`
 - `getNumberOfDaysInMonth(year, month)`: 31 for Jan/Mar/May/Jul/Aug/Oct/Dec, 30 for Apr/Jun/Sep/Nov, 28 or 29 for Feb
 - `getTotalNumberOfDays(year, month)`: sums days from 1800 to the target month
@@ -278,10 +293,10 @@ flowchart TD
 
 ### Implementation Approaches
 
-| Approach | Description | Tool |
-|---|---|---|
-| **Top-down** | Implement methods from top of structure chart downward. Use **stubs** (incomplete method versions returning dummy values) for unimplemented methods to build the framework early | Stubs help test the program skeleton incrementally |
-| **Bottom-up** | Implement methods from bottom upward. Write a **driver** (test program) for each method as it's completed | Drivers isolate and verify each method individually |
+| Approach      | Description                                                                                                                                                                      | Tool                                                |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| **Top-down**  | Implement methods from top of structure chart downward. Use **stubs** (incomplete method versions returning dummy values) for unimplemented methods to build the framework early | Stubs help test the program skeleton incrementally  |
+| **Bottom-up** | Implement methods from bottom upward. Write a **driver** (test program) for each method as it's completed                                                                        | Drivers isolate and verify each method individually |
 
 ### Benefits of Stepwise Refinement
 
@@ -292,8 +307,10 @@ flowchart TD
 
 ---
 
-> [!WARNING] Common exam error: implementing a method's required specification incorrectly even when the main program output looks right. Always check that methods meet the stated requirements (return type, parameters, behavior).
+> [!WARNING] Common exam error
+> implementing a method's required specification incorrectly even when the main program output looks right. Always check that methods meet the stated requirements (return type, parameters, behavior).
 
-> [!WARNING] The `swap` method does NOT work in Java for primitive types — pass-by-value copies the values, leaving originals unchanged.
+> [!WARNING]
+> The `swap` method does NOT work in Java for primitive types — pass-by-value copies the values, leaving originals unchanged.
 
-<sup>Compressed from 103 min read (source: Liang, *Intro to Java*, Ch. 6)</sup>
+<sup>Compressed from 103 min read (source: Liang, _Intro to Java_, Ch. 6)</sup>

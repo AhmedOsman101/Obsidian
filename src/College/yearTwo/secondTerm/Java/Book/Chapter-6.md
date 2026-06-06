@@ -2,10 +2,10 @@
 title: Chapter 6
 prev:
   text: "Chapter 5"
-  link: "/College/yearTwo/secondTerm/Java/Chapter-5"
+  link: "/College/yearTwo/secondTerm/Java/Book/Chapter-5"
 next:
   text: "Chapter 7"
-  link: "/College/yearTwo/secondTerm/Java/Chapter-7"
+  link: "/College/yearTwo/secondTerm/Java/Book/Chapter-7"
 ---
 
 # Chapter 6 - Methods (Liang)
@@ -57,6 +57,23 @@ flowchart LR
 ```
 
 > [!WARNING] A `return` statement is required for a value-returning method. The compiler must see a path that guarantees a return. An `if-else if` without a final `else` may cause a compile error even if logically complete.
+
+**`sign(int n)` compile-error pattern** — a method that looks logically complete can still fail to compile:
+```java
+// WRONG — compiler thinks method "might not return a value"
+public static int sign(int n) {
+  if (n > 0) return 1;
+  else if (n == 0) return 0;
+  else if (n < 0) return -1; // compiler sees this as conditional!
+}
+// CORRECT — replace the last else if with else
+public static int sign(int n) {
+  if (n > 0) return 1;
+  else if (n == 0) return 0;
+  else return -1;
+}
+```
+The compiler must see a `return` that is **unconditionally reachable**. A trailing `else if` with a condition does not guarantee this — only a plain `else` or a `return` outside the `if` structure satisfies the compiler.
 
 ## void vs. Value-Returning Methods
 

@@ -5,7 +5,7 @@ prev:
   link: "/College/yearTwo/secondTerm/Java/Book/index"
 next:
   text: "Chapter 2"
-  link: "/College/yearTwo/secondTerm/Java/Chapter-2"
+  link: "/College/yearTwo/secondTerm/Java/Book/Chapter-2"
 ---
 
 ## Programming And Computer Basics
@@ -49,7 +49,9 @@ Memory capacity uses byte multiples:
 | **GB** | 1,000,000,000 bytes |
 | **TB** | 1,000,000,000,000 bytes |
 
-**Memory**, or **RAM**, stores programs and data that the CPU currently uses. RAM is **random access** because the computer can access bytes in any order through their addresses. RAM is **volatile** because it loses data when power turns off. A memory byte is never empty, but its initial content may contain meaningless data for your program. Writing new data into a byte replaces the old content.
+> A typical one-page Word document takes ~20 KB. 1 MB stores ~50 pages, and 1 GB stores ~50,000 pages. A typical two-hour high-resolution movie takes ~8 GB.
+
+**Memory**, or **RAM**, stores programs and data that the CPU currently uses. RAM is **random access** because the computer can access bytes in any order through their addresses. RAM is **volatile** because it loses data when power turns off. A memory byte is never empty, but its initial content may contain meaningless data for your program. Writing new data into a byte replaces the old content. When new information is placed in a memory byte, its current content is lost — there is no way to recover the overwritten data.
 
 **Storage devices** preserve programs and data after power turns off. The computer moves stored programs and data into RAM before the CPU can execute or process them.
 
@@ -338,17 +340,50 @@ Java beginner errors fall into three major categories:
 
 Fix syntax errors from the top of the compiler output downward. One early mistake can cause several reported errors later in the file.
 
-Common newcomer errors:
+### Canonical Error Examples
+
+The textbook's three canonical programs demonstrate each error type:
+
+**ShowSyntaxErrors.java** — missing `void` before `main`, and a string literal missing its closing `"`:
+```java
+public class ShowSyntaxErrors {
+  public static void main(String[] args) {  // Error: missing void
+    System.out.println("Welcome to Java);    // Error: missing closing "
+  }
+}
+```
+The compiler reports four errors, but only two actual problems. Fix from the top down.
+
+**ShowRuntimeErrors.java** — integer division by zero causes `ArithmeticException`:
+```java
+public class ShowRuntimeErrors {
+  public static void main(String[] args) {
+    System.out.println(1 / 0);  // Runtime error: ArithmeticException
+  }
+}
+```
+
+**ShowLogicErrors.java** — integer truncation gives the wrong result:
+```java
+public class ShowLogicErrors {
+  public static void main(String[] args) {
+    System.out.println((9 / 5) * 35 + 32);  // 67, not 95.0
+  }
+}
+```
+`9 / 5` evaluates to `1` (integer division), so `(9 / 5) * 35 + 32` gives `67` instead of the expected `95.0`. Use `9.0 / 5` to keep the fractional part.
+
+> [!WARNING]
+> In integer division, Java drops the fractional part. `9 / 5` evaluates to `1`, so `(9 / 5) * 35 + 32` gives `67`, not `95.0`. Use `9.0 / 5` when the calculation needs a decimal result.
+
+### Common Newcomer Errors
 
 | Error | Faulty Pattern | Fix |
 |---|---|---|
 | Missing brace | Open `{` with no matching `}` | Type the closing brace immediately. |
 | Missing semicolon | `System.out.println("Done")` | Add `;` after the statement. |
 | Missing quote | `"Problem Driven` | Close the string with `"`. |
-| Misspelled name | `Main`, `string` | Use exact Java casing: `main`, `String`. |
-
-> [!WARNING]
-> In integer division, Java drops the fractional part. `9 / 5` evaluates to `1`, so `(9 / 5) * 35 + 32` gives `67`, not `95.0`. Use `9.0 / 5` when the calculation needs a decimal result.
+| Misspelled name | `Main`, `string` | Use exact Java casing: `main`, `String`.
 
 ## NetBeans And Eclipse Workflow
 
@@ -380,6 +415,8 @@ Use decimal literals when division must keep the fractional part:
 System.out.println(5 / 4);   // 1, integer division truncates
 System.out.println(5.0 / 4); // 1.25, floating-point division
 ```
+
+> **Integer division formal rule**: When both operands of a division are integers, the result of the division is the quotient and the fractional part is truncated. `5 / 2` yields `2`, not `2.5`. `-5 / 2` yields `-2`, not `-2.5`. To perform floating-point division, at least one operand must be a floating-point number.
 
 Common formulas from the exercise set:
 

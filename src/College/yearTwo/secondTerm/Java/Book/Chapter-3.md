@@ -2,10 +2,10 @@
 title: Chapter 3
 prev:
   text: "Chapter 2"
-  link: "/College/yearTwo/secondTerm/Java/Chapter-2"
+  link: "/College/yearTwo/secondTerm/Java/Book/Chapter-2"
 next:
   text: "Chapter 4"
-  link: "/College/yearTwo/secondTerm/Java/Chapter-4"
+  link: "/College/yearTwo/secondTerm/Java/Book/Chapter-4"
 ---
 
 ## boolean Data Type and Relational Operators
@@ -97,7 +97,22 @@ Conditions are tested top-down. The first `true` condition wins. A condition is 
 2. **Wrong semicolon** — A semicolon after `if (condition);` creates an empty block; the intended body always executes. Use end-of-line block style to avoid this.
 3. **Redundant boolean testing** — Write `if (even)` not `if (even == true)`. The latter can become `if (even = true)` which always evaluates to `true` (an assignment, not comparison).
 4. **Dangling else** — An `else` always matches the nearest unmatched `if` in the same block. Use braces to force a different match.
+
+   ```java
+   int i = 1, j = 2, k = 3;
+   if (i > j)
+     if (i > k)
+       System.out.println("A");
+   else
+     System.out.println("B");
+   ```
+   The `else` matches the **second** `if` (nothing prints here since `i > j` is false). Fix with braces around the inner `if`.
 5. **Floating-point equality** — Do not test `double` values with `==`. Use `Math.abs(x - y) < EPSILON` instead, with `EPSILON = 1E-14` for `double`, `1E-7` for `float`.
+
+   ```java
+   final double EPSILON = 1E-14;
+   if (Math.abs(x - 0.5) < EPSILON) { ... }
+   ```
 6. **Boolean variable assignment** — Simplify `if (count % 10 == 0) newLine = true; else newLine = false;` to `newLine = (count % 10 == 0);`.
 7. **Duplicate code** — Pull duplicated statements (e.g., `System.out.println(...)`) out of both branches instead of repeating them.
 
@@ -148,6 +163,10 @@ else
 **De Morgan's laws:**
 - `!(condition1 && condition2) = !condition1 || !condition2`
 - `!(condition1 || condition2) = !condition1 && !condition2`
+
+Concrete Java transformations:
+- `!(number % 2 == 0 && number % 3 == 0)` → `number % 2 != 0 || number % 3 != 0`
+- `!(number == 2 || number == 3)` → `number != 2 && number != 3`
 
 > [!WARNING] Chained comparisons
 > In Java, `28 <= days <= 31` is invalid because `28 <= days` yields a `boolean`, which cannot be compared to `31`. Use `28 <= days && days <= 31`.

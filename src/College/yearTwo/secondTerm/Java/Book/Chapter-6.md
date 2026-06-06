@@ -1,3 +1,13 @@
+---
+title: Chapter 6
+prev:
+  text: "Chapter 5"
+  link: "/College/yearTwo/secondTerm/Java/Chapter-5"
+next:
+  text: "Chapter 7"
+  link: "/College/yearTwo/secondTerm/Java/Chapter-7"
+---
+
 # Chapter 6 - Methods (Liang)
 
 ## Defining a Method

@@ -1,3 +1,13 @@
+---
+title: Chapter 8
+prev:
+  text: "Chapter 7"
+  link: "/College/yearTwo/secondTerm/Java/Chapter-7"
+next:
+  text: "Chapter 9"
+  link: "/College/yearTwo/secondTerm/Java/Chapter-9"
+---
+
 ## Multidimensional Arrays
 
 ### 8.1 Two-Dimensional Arrays

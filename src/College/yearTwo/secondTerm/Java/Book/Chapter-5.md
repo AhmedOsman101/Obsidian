@@ -1,3 +1,13 @@
+---
+title: Chapter 5
+prev:
+  text: "Chapter 4"
+  link: "/College/yearTwo/secondTerm/Java/Chapter-4"
+next:
+  text: "Chapter 6"
+  link: "/College/yearTwo/secondTerm/Java/Chapter-6"
+---
+
 ## Loops
 
 ### The while Loop

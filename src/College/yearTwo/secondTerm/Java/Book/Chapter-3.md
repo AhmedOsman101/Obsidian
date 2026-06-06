@@ -1,3 +1,13 @@
+---
+title: Chapter 3
+prev:
+  text: "Chapter 2"
+  link: "/College/yearTwo/secondTerm/Java/Chapter-2"
+next:
+  text: "Chapter 4"
+  link: "/College/yearTwo/secondTerm/Java/Chapter-4"
+---
+
 ## boolean Data Type and Relational Operators
 
 A **boolean** variable holds only `true` or `false`. Six relational operators compare values and produce a Boolean result:

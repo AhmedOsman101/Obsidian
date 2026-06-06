@@ -1,3 +1,13 @@
+---
+title: Chapter 1
+prev:
+  text: "Book"
+  link: "/College/yearTwo/secondTerm/Java/Book/index"
+next:
+  text: "Chapter 2"
+  link: "/College/yearTwo/secondTerm/Java/Chapter-2"
+---
+
 ## Programming And Computer Basics
 
 **Programming** means creating **software**, which consists of instructions that tell a computer or computerized device what to do. A **program** solves a problem by giving the computer precise steps. Learning Java matters less than memorizing one language; the transferable skill is learning how to solve problems in a programming style.

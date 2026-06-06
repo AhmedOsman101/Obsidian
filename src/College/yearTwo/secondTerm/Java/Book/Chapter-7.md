@@ -1,3 +1,13 @@
+---
+title: Chapter 7
+prev:
+  text: "Chapter 6"
+  link: "/College/yearTwo/secondTerm/Java/Chapter-6"
+next:
+  text: "Chapter 8"
+  link: "/College/yearTwo/secondTerm/Java/Chapter-8"
+---
+
 ## Single-Dimensional Arrays
 
 ### 7.1 Why Arrays?

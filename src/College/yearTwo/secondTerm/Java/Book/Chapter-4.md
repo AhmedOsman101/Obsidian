@@ -92,6 +92,31 @@ Math.cos(Math.toRadians(0));   // → 1.0
 > [!WARNING]
 > If `lowerBound` > `upperBound`, the formula still "works" numerically but produces unexpected ranges — always verify bounds are correct before using.
 
+#### `Math.E` Constant
+
+`Math.E` (the base of natural logarithms, ≈ 2.71828) is the second constant in `Math` alongside `PI`.
+
+#### Case Study: ComputeAngles
+
+Computes triangle angles from three point coordinates using `Math.sqrt`, `Math.acos`, `Math.toDegrees`:
+
+```java
+// Compute three sides using distance formula
+double a = Math.sqrt((x2 - x3) * (x2 - x3) + (y2 - y3) * (y2 - y3));
+double b = Math.sqrt((x1 - x3) * (x1 - x3) + (y1 - y3) * (y1 - y3));
+double c = Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
+
+// Compute angles using law of cosines, convert radians → degrees
+double A = Math.toDegrees(Math.acos((a * a - b * b - c * c) / (-2 * b * c)));
+double B = Math.toDegrees(Math.acos((b * b - a * a - c * c) / (-2 * a * c)));
+double C = Math.toDegrees(Math.acos((c * c - b * b - a * a) / (-2 * a * b)));
+
+// Round to 2 decimal places
+System.out.println(Math.round(A * 100) / 100.0);
+```
+
+> `Math` is in `java.lang` — no import needed. Side formula: `a = sqrt((x2-x3)² + (y2-y3)²)`. Angle formula: `A = acos((a² - b² - c²) / (-2bc))`.
+
 ---
 
 ### Character Data Type and Operations
@@ -156,6 +181,17 @@ int result = 'A' + 1;   // 66, not 'B' — no cast needed
 
 > [!WARNING]
 > When performing arithmetic on `char` values, the result is promoted to `int`. Store in an `int` variable or **cast back** to `char`.
+
+#### Increment/Decrement on `char`
+
+Increment/decrement operators work on `char` variables:
+
+```java
+char ch = 'a';
+System.out.println(++ch); // displays 'b'
+char ch2 = 'z';
+System.out.println(--ch2); // displays 'y'
+```
 
 #### Comparing Characters
 
@@ -355,11 +391,15 @@ s.substring(0, s.length())  // "Welcome to Java" (whole string)
 | `s.lastIndexOf(String)` | Returns index of last occurrence of substring |
 
 ```java
-"Welcome".indexOf('e');       // 1 (first 'e')
-"Welcome".indexOf('e', 2);    // 6 (second 'e')
-"Welcome".lastIndexOf('e');   // 6
-"Welcome".indexOf("come");    // 3
-"Welcome".indexOf("abc");     // -1 (not found)
+"Welcome".indexOf('e');           // 1 (first 'e')
+"Welcome".indexOf('e', 2);        // 6 (search from index 2 onward)
+"Welcome".lastIndexOf('e');       // 6
+"Welcome".lastIndexOf('e', 5);    // 1 (search backward from index 5)
+"Welcome".indexOf("come");        // 3
+"Welcome".indexOf("Java", 5);     // 11 (search from index 5 onward)
+"Welcome".lastIndexOf("Java");    // 11
+"Welcome".lastIndexOf("Java", 5); // -1 (search backward from index 5)
+"Welcome".indexOf("abc");         // -1 (not found)
 ```
 
 > [!WARNING]
@@ -381,6 +421,7 @@ int num = Integer.parseInt("42");       // 42
 double d = Double.parseDouble("3.14");  // 3.14
 int hex = Integer.parseInt("FF", 16);   // 255
 String s = String.valueOf(123);         // "123"
+String s2 = 123 + "";                   // "123" (quick conversion)
 ```
 
 > [!WARNING]
@@ -439,9 +480,45 @@ System.out.printf("%-10s %5d %+6.1f%n", "Total", 42, -3.14);
 > [!WARNING]
 > Mismatched format specifiers and argument types cause `RuntimeException` (e.g., `%d` with a `String` argument). The number of specifiers must **exactly match** the number of items.
 
+> [!WARNING] `int` cannot match `%f`
+> The value for `%f` or `%e` must be a **floating-point** type. Using an `int` variable causes a runtime error. Use `40.0` not `40` with `%f`.
+
+> [!WARNING] `%08s` is invalid
+> The `0` flag is only valid for numeric conversions (`d`, `f`). `System.out.printf("%08s", "Java")` causes an error.
+
+> [!TIP] `%%` for literal percent sign
+> `System.out.printf("%.2f%%\n", 75.234)` displays `75.23%`.
+
+### Case Study: FormatDemo (Trig Table)
+
+Uses `printf` with `%-10s`, `%-10d`, `%-10.4f` to format a table of trigonometric values:
+
+```java
+System.out.printf("%-10s%-10s%-10s%-10s%-10s\n",
+  "Degrees", "Radians", "Sine", "Cosine", "Tangent");
+System.out.printf("%-10d%-10.4f%-10.4f%-10.4f%-10.4f\n",
+  degrees, radians, Math.sin(radians),
+  Math.cos(radians), Math.tan(radians));
+```
+
+Output: left-aligned columns with degrees as integer, trig values with 4 decimal places.
+
 ---
 
 ## Case Studies
+
+### OrderTwoCities.java (Alphabetical Ordering)
+
+Uses `compareTo()` to display two city names alphabetically. Uses `nextLine()` (not `next()`) because city names contain spaces:
+
+```java
+String city1 = input.nextLine();  // reads "New York" correctly
+String city2 = input.nextLine();
+if (city1.compareTo(city2) < 0)
+  System.out.println(city1 + " " + city2);
+else
+  System.out.println(city2 + " " + city1);
+```
 
 ### GuessBirthday.java (Calendar Magic)
 

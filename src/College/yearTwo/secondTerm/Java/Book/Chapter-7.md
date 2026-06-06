@@ -130,6 +130,8 @@ public static void printArray(int[] array) {
 printArray(new int[]{3, 1, 2, 6, 4, 2});
 ```
 
+> [!NOTE] **Anonymous array**: created with `new elementType[]{value0, value1, ...}` without assigning it to a variable. Used when an array is needed only as an argument to a method. The syntax `new int[]{3, 1, 2}` above is an anonymous array — no variable name, used inline.
+
 > [!WARNING]
 > `swap(a[0], a[1])` does NOT swap array elements — only copies of values are passed. To swap, pass the array itself and swap `array[0]` with `array[1]`.
 
@@ -198,7 +200,12 @@ public static int binarySearch(int[] list, int key) {
 > [!WARNING]
 > `(low + high) / 2` can overflow for very large int values. Fix: `low + (high - low) / 2`.
 
+> [!WARNING] **Binary search edge case: `high >= low` vs `high > low`**
+> Using `high > low` instead of `high >= low` in the while condition causes failure on **single-element arrays** and when the key is at a position where `low == high`. The correct condition is `high >= low`. Without `>=`, the loop exits prematurely and the element is never compared.
+
 Return value `-low - 1`: if key not found, `-k - 1` gives the insertion position. E.g., `-1` means insert at 0, `-6` means insert at 5.
+
+> [!NOTE] **Binary search pre/postcondition**: **Precondition** — the list must be sorted in ascending order. **Postcondition** — returns the index of the matching element if found, or a negative value `-k - 1` where `k` is the insertion point (the position where the key would be inserted to maintain sorted order).
 
 ### 7.11 Sorting: Selection Sort
 

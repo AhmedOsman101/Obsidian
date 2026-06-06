@@ -239,6 +239,13 @@ public static char getRandomUpperCaseLetter() {
 public static char getRandomDigitCharacter() {
   return getRandomCharacter('0', '9');
 }
+
+> [!NOTE] The no-parameter overload `getRandomCharacter()` returns a random character from the **entire Unicode range** (`'\u0000'` to `'\uFFFF'`), unlike the parameterized versions which restrict to a specific subset.
+
+```java
+public static char getRandomCharacter() {
+  return getRandomCharacter('\u0000', '\uFFFF');
+}
 ```
 
 ## Method Abstraction and Stepwise Refinement

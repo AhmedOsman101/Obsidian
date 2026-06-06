@@ -43,10 +43,20 @@ while (count < 100) {
 - **Loop-continuation-condition**: the Boolean expression controlling the loop
 - **Counter-controlled loop**: uses a control variable (like `count`) to track iterations
 - **Infinite loop**: the condition never becomes `false` — press `Ctrl+C` to kill
-- **Off-by-one error**: loop runs one too many or too few times (e.g., using `<=` instead of `<`)
+- **Off-by-one error**: loop runs one too many or too few times (e.g., `while (count <= 100)` prints **101** times, not 100)
 
 > [!WARNING]
 > Never use `==` or `!=` with floating-point values in a loop condition. Floating-point approximations can cause the condition to never become false, resulting in an infinite loop.
+
+> [!WARNING] Overflow loop
+> Integer overflow can terminate a loop unexpectedly:
+> ```java
+> int x = 80000000;
+> while (x > 0)
+>   x++;
+> System.out.println("x is " + x); // terminates when overflow wraps x negative
+> ```
+> This loop ends because `x` eventually overflows past `Integer.MAX_VALUE` and becomes negative.
 
 #### RepeatAdditionQuiz (Listing 5.1)
 
@@ -151,7 +161,15 @@ java ClassName > output.txt
 java SentinelValue < input.txt > output.txt
 ```
 
-**`input.hasNext()`**: returns `false` when no more input is available (with file redirection or `Ctrl+Z` + Enter in terminal).
+**`input.hasNext()`**: returns `false` when no more input is available (with file redirection or `Ctrl+Z` + Enter in terminal). Full pattern:
+
+```java
+while (input.hasNext()) {
+  sum += input.nextInt();
+}
+```
+
+With file redirection: `java SentinelValue < input.txt` feeds all numbers from a file as input. `hasNext()` returns `false` when the file is exhausted.
 
 ---
 
@@ -299,6 +317,8 @@ for (int count = 0; count < 100; count++) {
 
 **Rule**: Add numbers from **smallest to biggest** to minimize error. Adding a very small number to a very large number can have no effect due to finite precision (e.g., `100000000.0 + 0.000000001 == 100000000.0`).
 
+Concrete example: summing 0.01 to 1.0 → smallest-to-largest gives `50.50000000000003`, largest-to-smallest gives `50.49999999999995` (the true sum is 50.50).
+
 ---
 
 ### Case Studies
@@ -316,6 +336,9 @@ while (k <= n1 && k <= n2) {
 ```
 
 Checks all possible divisors from 2 up to the smaller of n1 and n2.
+
+> [!WARNING] GCD optimization pitfall
+> Using `k <= n1 / 2 && k <= n2 / 2` **breaks** the algorithm — a common divisor could be `n1` or `n2` itself (e.g., when one number divides the other, like 4 and 2, where gcd = 2 equals the smaller number).
 
 #### FutureTuition — Listing 5.10
 
@@ -346,6 +369,9 @@ while (decimal != 0) {
 }
 ```
 
+> [!WARNING] Edge case: input 0
+> When input is 0, the `while` loop never runs and `hex` stays `""`. Must handle `decimal == 0` separately before the loop, e.g., `if (decimal == 0) hex = "0";`.
+
 ---
 
 ### break and continue
@@ -364,6 +390,15 @@ while (number < 20) {
     break;      // loop exits immediately
 }
 
+// Smallest factor with break — idiomatic pattern
+int factor = 2;
+while (factor <= n) {
+  if (n % factor == 0)
+    break;      // found smallest factor
+  factor++;
+}
+System.out.println("Smallest factor is " + factor);
+
 // continue — skips 10 and 11
 while (number < 20) {
   number++;
@@ -375,6 +410,26 @@ while (number < 20) {
 
 > [!NOTE]
 > In a `while`/`do-while` loop, `continue` jumps to the **condition check**. In a `for` loop, `continue` jumps to the **action-after-each-iteration**, then the condition check. This can cause infinite loops in `while` if the control variable update comes after `continue`.
+
+**`for` → `while` conversion with `continue`**: The naive conversion fails because the increment is placed after `continue` and gets skipped:
+
+```java
+// for loop — works fine
+for (int i = 0; i < 4; i++) {
+  if (i % 3 == 0) continue;
+  sum += i;
+}
+
+// Naive while conversion — WRONG (infinite loop when i % 3 == 0)
+int i = 0;
+while (i < 4) {
+  if (i % 3 == 0) continue; // i never increments → infinite loop
+  sum += i;
+  i++;
+}
+```
+
+Fix by placing the increment *before* the `continue` or by using a `for` loop.
 
 ---
 

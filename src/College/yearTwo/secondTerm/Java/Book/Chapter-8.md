@@ -106,6 +106,8 @@ double distance = Math.sqrt(
 
 Track the minimum distance and the indices of the closest pair. Complexity: O(n²) — brute force.
 
+> [!NOTE] **Ties**: If multiple pairs have the same minimum distance, only the **first discovered** pair is returned (the one with the smallest `i`, then smallest `j`, since the inner loop starts at `j = i + 1`).
+
 > [!TIP]
 > Use input redirection: `java FindNearestPoints < FindNearestPoints.txt`
 
@@ -152,6 +154,8 @@ Index structure: `scores[whichStudent][whichExam][mcOrEssay]`.
 `x.length` = first dimension size. `x[0].length` = second dimension size. `x[0][0].length` = third dimension size.
 
 **Daily Temperature and Humidity case study** — 3D array `data[day][hour][0or1]` stores 10 days × 24 hours × 2 values (temperature, humidity). Use input redirection from file.
+
+> [!WARNING] **Off-by-one in Weather case study**: Days are numbered **1–10** and hours **1–24** in the input file. When storing in the 0-indexed array, you must subtract 1: `data[day - 1][hour - 1][index]`. Forgetting this 1-based → 0-based translation is the most common mistake — it causes `ArrayIndexOutOfBoundsException` or silently reading/writing the wrong elements.
 
 **Guess Birthday case study** — 5 sets of numbers stored as `int[][][] dates` (5 × 4 × 4). Each set's first number `dates[i][0][0]` is added if the user answers "yes."
 

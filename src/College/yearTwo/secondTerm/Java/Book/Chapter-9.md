@@ -104,6 +104,8 @@ public class Circle {
 > [!WARNING] NullPointerException
 > A **null** reference variable holds no object. Invoking a method on a null reference causes `NullPointerException`. Reference-type data fields default to `null`.
 
+> [!NOTE] `null` is a **reserved word**, not a keyword. It is a literal for reference types, just like `true` and `false` are literals for boolean. The Java language specification treats `null` as a reserved literal, not a keyword.
+
 ### Default Values for Data Fields
 
 | Type | Default |
@@ -254,6 +256,27 @@ for (int i = 0; i < circleArray.length; i++)
 
 An array of objects is an **array of reference variables** — each element defaults to `null` until explicitly assigned.
 
+### TV Class — Guard Conditions and Boundary Checking
+
+The `TV` class demonstrates boundary checking with guard conditions:
+
+```java
+public void setChannel(int newChannel) {
+  if (on && newChannel >= 1 && newChannel <= 120)
+    channel = newChannel;
+}
+
+public void setVolume(int newVolumeLevel) {
+  if (on && newVolumeLevel >= 1 && newVolumeLevel <= 7)
+    volumeLevel = newVolumeLevel;
+}
+```
+
+**Key patterns:**
+- All operations check `on` first — no-op when TV is off
+- Channel validated to `1–120`, volume to `1–7`
+- Channel up/down and volume up/down also check bounds before incrementing/decrementing
+
 ### Immutable Objects and Classes
 
 An object whose contents cannot change after creation.
@@ -294,6 +317,8 @@ public class Circle {
 ```
 
 > [!WARNING] `this(arg-list)` must appear FIRST in the constructor, before any other executable statement.
+
+> [!NOTE] **`this` vs ClassName for static fields**: When a parameter shadows a static field, use `ClassName.staticField = value` (e.g., `F.k = k`) instead of `this.k`, since `this` is an instance reference and **cannot** reference static members. `this.i = i` works for instance fields, but static fields must be qualified with the class name.
 
 ---
 

@@ -203,7 +203,7 @@ Key parts:
 |---|---|---|
 | **Line comment** | `// comment` | Comment from `//` to the end of the line. |
 | **Block comment** | `/* comment */` | Comment one or more lines. |
-| **Javadoc comment** | `/** comment */` | Document a class or method so the `javadoc` tool can extract HTML documentation. |
+| **Javadoc comment** | `/** comment */` | Document a class or method so the `javadoc` tool can extract HTML documentation. Must precede the class or method header to be extracted. |
 
 ```java
 // Line comment

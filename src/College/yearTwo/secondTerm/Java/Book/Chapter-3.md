@@ -237,6 +237,37 @@ graph TD
   Brk4 --> End
 ```
 
+### Case Study: ComputeTax
+
+`System.exit(status)` terminates the program — status `0` = normal, non-zero = abnormal. Tax variable must be initialized to `0` before the `if` blocks, otherwise "variable might not have been initialized" compile error.
+
+> [!IMPORTANT] Testing strategy
+> Test all 4 statuses × 6 brackets = **24 cases** to cover every code path.
+
+### Case Study: Chinese Zodiac
+
+Uses `switch` with `year % 12` to map years to animals:
+
+```java
+switch (year % 12) {
+  case 0:  animal = "monkey";  break;
+  case 1:  animal = "rooster"; break;
+  case 2:  animal = "dog";     break;
+  case 3:  animal = "pig";     break;
+  case 4:  animal = "rat";     break;
+  case 5:  animal = "ox";      break;
+  case 6:  animal = "tiger";   break;
+  case 7:  animal = "rabbit";  break;
+  case 8:  animal = "dragon";  break;
+  case 9:  animal = "snake";   break;
+  case 10: animal = "horse";   break;
+  case 11: animal = "sheep";   break;
+}
+```
+
+> [!WARNING] Switch case values
+> Case values must be **compile-time constants** — they cannot contain variables (e.g., `case x + 1` is invalid).
+
 ## Conditional (Ternary) Operator
 
 The only ternary operator in Java: `boolean-expression ? expression1 : expression2`

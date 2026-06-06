@@ -48,6 +48,30 @@ A **prompt** tells the user what to enter. The `print` method displays text with
 
 The program follows **IPO** — input, process, output. Create only **one** `Scanner` object per program. Multiple `Scanner` objects on `System.in` cause subtle errors.
 
+### ComputeAverage — Reading Multiple Numbers
+
+Three numbers read with one `Scanner`, entered on one line (space-separated) or multiple lines:
+
+```java
+import java.util.Scanner;
+
+Scanner input = new Scanner(System.in);
+System.out.print("Enter three numbers: ");
+double number1 = input.nextDouble();
+double number2 = input.nextDouble();
+double number3 = input.nextDouble();
+double average = (number1 + number2 + number3) / 3;
+System.out.println("The average of " + number1 + " " + number2
+  + " " + number3 + " is " + average);
+```
+
+```
+Enter three numbers: 1 2 3
+The average of 1.0 2.0 3.0 is 2.0
+```
+
+Input can be space-separated on one line or each number on its own line — `Scanner` handles both.
+
 ## Identifiers
 
 **Identifiers** name variables, methods, classes, and packages. Rules:
@@ -57,6 +81,8 @@ The program follows **IPO** — input, process, output. Create only **one** `Sca
 - Any length
 
 Java is **case sensitive** — `area`, `Area`, and `AREA` are different.
+
+> The `$` character should only be used in mechanically generated source code, not in handwritten identifiers. Avoid naming identifiers with `$`.
 
 ## Variables
 
@@ -134,13 +160,15 @@ Use `int` for integers and `double` for floating-point by default.
 
 > **Integer division** truncates the fractional part: `5 / 2` is `2`, not `2.5`. Use `5.0 / 2` for floating-point division.
 >
-> Remainder is negative only if the dividend is negative. `-7 % 3` is `-1`.
+> Remainder is negative only if the dividend is negative. Examples: `-7 % 3` is `-1`, `-12 % 4` is `0`, `-26 % -8` is `-2`, `20 % -13` is `7`.
 
 **Exponent operations:** `Math.pow(a, b)` returns `a^b` as a `double`. Example: `Math.pow(2, 3)` returns `8.0`. The `Math` class is in `java.lang`, which is implicitly imported.
 
 ## Numeric Literals
 
 **Integer literals:** default type is `int`. Append `L` for `long`. Use prefix `0b`/`0B` for binary, `0` for octal, `0x`/`0X` for hexadecimal.
+
+Output values: `0B1111` = 15, `07777` = 4095, `0xFFFF` = 65535.
 
 **Floating-point literals:** default type is `double`. Append `f`/`F` for `float`, `d`/`D` for `double`. Underscores between digits improve readability (e.g., `23_454_519`).
 
@@ -162,7 +190,64 @@ Expressions evaluate using standard arithmetic rules:
 (3 + 4 * x) / 5 - 10 * (y - 5) * (a + b + c) / x + 9 * (4 / x + (9 + x) / y)
 ```
 
+Worked example — evaluating `3 + 4 * 4 + 5 * (4 + 3) - 1` = 53:
+
+```
+3 + 4 * 4 + 5 * (4 + 3) - 1      (1) parentheses first: 4 + 3 = 7
+3 + 4 * 4 + 5 * 7 - 1            (2) multiplication: 4 * 4 = 16
+3 + 16 + 5 * 7 - 1               (3) multiplication: 5 * 7 = 35
+3 + 16 + 35 - 1                  (4) addition: 3 + 16 = 19
+19 + 35 - 1                      (5) addition: 19 + 35 = 54
+54 - 1 = 53                      (6) subtraction
+```
+
 > Always use `5.0 / 9` not `5 / 9` when the decimal result matters. `5 / 9` yields `0` in Java.
+
+## FahrenheitToCelsius Case Study
+
+The textbook's conversion program demonstrates why floating-point literals matter in division:
+
+```java
+import java.util.Scanner;
+
+Scanner input = new Scanner(System.in);
+System.out.print("Enter a degree in Fahrenheit: ");
+double fahrenheit = input.nextDouble();
+double celsius = (5.0 / 9) * (fahrenheit - 32);
+System.out.println("Fahrenheit " + fahrenheit + " is " +
+  celsius + " in Celsius");
+```
+
+| Line | fahrenheit | celsius |
+|------|-----------|---------|
+| `input.nextDouble()` | 100 | |
+| `(5.0 / 9) * (100 - 32)` | 100 | 37.777... |
+
+> **Exam-critical**: Use `5.0 / 9`, NOT `5 / 9`. Writing `5 / 9` gives `0` (integer division), and the entire expression becomes `0 * (fahrenheit - 32) = 0`.
+
+## DisplayTime Case Study — Seconds To Minutes
+
+A simple pattern converts total seconds into minutes and remaining seconds:
+
+```java
+import java.util.Scanner;
+
+Scanner input = new Scanner(System.in);
+System.out.print("Enter an integer for seconds: ");
+int seconds = input.nextInt();
+int minutes = seconds / 60;          // Integer division gives full minutes
+int remainingSeconds = seconds % 60; // Remainder gives leftover seconds
+System.out.println(seconds + " seconds is " + minutes +
+  " minutes and " + remainingSeconds + " seconds");
+```
+
+| Line | seconds | minutes | remainingSeconds |
+|------|---------|---------|-----------------|
+| `input.nextInt()` | 500 | | |
+| `seconds / 60` | 500 | 8 | |
+| `seconds % 60` | 500 | 8 | 20 |
+
+This `/` and `%` pattern (divide to get units, remainder to get leftovers) is used throughout the chapter for time, currency, and digit extraction.
 
 ## Displaying The Current Time
 
@@ -207,6 +292,15 @@ int a = 10 * i++;   // a = 100, i becomes 11
 int b = 10 * (++i); // i becomes 11 first, then b = 110
 ```
 
+Complex example with mixed pre/post:
+
+```java
+double x = 1.0;
+double y = 5.0;
+double z = x-- + (++y);
+// y becomes 6.0, z becomes 7.0, x becomes 0.0
+```
+
 Left-hand operand of a binary operator evaluates before any part of the right-hand operand.
 
 ## Numeric Type Conversions
@@ -221,6 +315,8 @@ int i = (int)d;        // i = 4, d is still 4.5
 System.out.println((double)1 / 2); // 0.5
 System.out.println(1 / 2);         // 0
 ```
+
+> **Byte/short literal assignment**: An integer literal within the target type's range can be assigned to `byte` or `short` without explicit casting. `byte b = 100` is fine because 100 fits in `byte` range. However, assigning an `int` **variable** (not a literal) to `byte`/`short` requires explicit casting even if the value is in range: `int i = 100; byte b = (byte)i;` is required.
 
 Round to nearest integer: `(int)(x + 0.5)`. Round to 2 decimal places: `(int)(tax * 100 + 0.5) / 100.0`.
 
@@ -269,7 +365,7 @@ int numberOfPennies = remainingAmount;
 ```
 
 > [!WARNING]
-> Casting `double` to `int` can lose precision. `10.03 * 100` produces `1002.9999999999999`, not `1003`. Fix by accepting input as integer cents.
+> Casting `double` to `int` can lose precision. `10.03 * 100` produces `1002.9999999999999`, not `1003`. Entering `10.03` as input would result in the program incorrectly displaying 10 dollars and 2 pennies (instead of 3 pennies). Fix by accepting input as integer cents (e.g., `1003` for $10.03).
 
 ## Common Errors And Pitfalls
 
@@ -282,7 +378,15 @@ int numberOfPennies = remainingAmount;
 | **Round-off error** | Floating-point approximation | Use integers for precise calculations |
 | **Redundant input objects** | Multiple `Scanner` on `System.in` | Use one `Scanner` object |
 
+Round-off error exact outputs:
+```
+1.0 - 0.1 - 0.1 - 0.1 - 0.1 - 0.1 = 0.5000000000000001  (not 0.5)
+1.0 - 0.9 = 0.09999999999999998                          (not 0.1)
+```
+
 Overflow wraps around silently: `int value = 2147483647 + 1` produces `-2147483648`. Java does not report overflow errors.
+
+**Underflow** occurs when a floating-point number is too close to zero to be stored. Java approximates it to zero, so you normally do not need to worry about underflow.
 
 ## Exercise-Level Review Points
 

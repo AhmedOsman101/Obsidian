@@ -7,5 +7,3 @@ next: false
 ---
 
 # Data Structures - Lecture 11
-
-

@@ -29,14 +29,17 @@ next:
 Stack items stored in an array; `top` tracks the current top position.
 
 ```cpp
+const int MAX = 10;
+
 class Stack {
 private:
-  static constexpr int MAX = 10;
   char entry[MAX];
   int top;
 
 public:
-  Stack() : top(-1) {}
+  Stack() {
+    top = -1;
+  }
 
   bool isEmpty() const {
     return top == -1;

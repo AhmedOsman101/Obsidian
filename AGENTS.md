@@ -291,6 +291,8 @@ Husky is configured to run `mdfmt` on markdown files before each commit.
 
 ## General Rules
 
+Always check for a .opencode/memories directory (project-wide or in the current directory) and use memory tools to load relevant memories.
+
 ### Source Material Rules
 
 1. **Use source material only** - Do not invent lecture, task, or assignment content when no source file is available.

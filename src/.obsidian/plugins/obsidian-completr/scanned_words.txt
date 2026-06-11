@@ -1269,6 +1269,7 @@ Per
 Population
 PER
 PascalCase
+Preconditions
 IHDR
 IDATx
 IO
@@ -4065,6 +4066,8 @@ palindrome
 payRate
 perim
 previousClosingPrice
+pays
+preprocessing
 sbf
 sPv
 sC
@@ -5655,6 +5658,9 @@ setN
 setSide
 setX
 setY
+stresses
+showed
+shrinking
 ff
 fP
 fj
@@ -6888,6 +6894,7 @@ flip
 fedTaxRate
 fedWithholding
 findLargestBlock
+forgetting
 yq
 yh
 yS
@@ -10708,6 +10715,7 @@ Bachelor
 Belongs
 Bureau
 BMI
+BSTs
 MC
 Ml
 MW
@@ -14563,6 +14571,9 @@ animal
 ages
 arraycopy
 amt
+adjacently
+ambiguous
+authoritative
 Te
 Tn
 TA
@@ -20109,6 +20120,10 @@ rabbit
 remainingAmount
 rmb
 returnType
+relocates
+resizing
+reorganization
+reaching
 eiO
 es
 ee
@@ -21421,6 +21436,8 @@ enclosing
 equilateral
 equalsIgnoreCase
 endTime
+exams
+elimination
 GO
 GQ
 Gk
@@ -26424,6 +26441,8 @@ intersect
 isFieldName
 isOn
 isSolvable
+inserting
+invent
 tWA
 tW
 tM
@@ -27662,6 +27681,8 @@ tuition
 triArea
 toString
 tan
+think
+tighter
 nm
 nv
 nhuK
@@ -28690,6 +28711,7 @@ nickels
 nickel
 nTotal
 nextLine
+narrows
 Fc
 Fe
 Fo
@@ -29902,6 +29924,7 @@ Frameworks
 Financial
 Friday
 FAST
+Fails
 xi
 xpF
 xwG
@@ -31606,6 +31629,7 @@ jumps
 judged
 javadoc
 jointly
+justifies
 bo
 bi
 bn
@@ -32756,6 +32780,7 @@ builds
 bilingual
 bal
 banks
+baseless
 Nb
 NJu
 Nbsa
@@ -34909,6 +34934,7 @@ lottery
 lotteryDigit
 locateLargest
 linearEquation
+locating
 Rc
 Rt
 RO
@@ -40357,6 +40383,7 @@ occupied
 othman
 overloaded
 obj
+outputting
 mipte
 mRT
 mX
@@ -43126,6 +43153,8 @@ Capitalize
 ChineseZodiacIfElse
 Col
 Capital
+Convention
+Conquer
 vb
 vO
 vvF
@@ -44115,6 +44144,7 @@ vertex
 visit
 violation
 violated
+visiting
 ck
 cr
 ce
@@ -45775,6 +45805,8 @@ cnt
 clone
 charAt
 currentPrice
+contrasts
+conquer
 Hu
 Hg
 HiL
@@ -48052,6 +48084,8 @@ highlights
 hertz
 heightM
 hypot
+heights
+halving
 Xi
 XZ
 Xn
@@ -56415,6 +56449,7 @@ Allocating
 August
 Alabama
 Alaska
+Actually
 Jw
 Jg
 JT

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearTwo/secondTerm/Java/Book/Questions.md",
+                "file": "College/yearTwo/secondTerm/DataStructures/Sections/Section-7.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Questions"
+              "title": "Section-7"
             }
           }
         ]
@@ -187,11 +187,12 @@
   },
   "active": "abeae770fed764c0",
   "lastOpenFiles": [
-    "College/yearTwo/secondTerm/Java/Book/Chapter-1.html",
-    "College/yearTwo/secondTerm/Java/Book/Chapter-9.md",
-    "College/yearTwo/secondTerm/Java/Book/Questions.md",
-    "draft.md",
     "College/yearTwo/secondTerm/DataStructures/Sections/Section-6.md",
+    "College/yearTwo/secondTerm/DataStructures/Sections/Section-5.md",
+    "College/yearTwo/secondTerm/DataStructures/Sections/Section-4.md",
+    "College/yearTwo/secondTerm/DataStructures/Sections/Section-3.md",
+    "College/yearTwo/secondTerm/DataStructures/Sections/Section-2.md",
+    "College/yearTwo/secondTerm/DataStructures/Sections/Section-1.md",
     "College/yearTwo/secondTerm/DataStructures/Lectures/Lecture-11.md",
     "College/yearTwo/secondTerm/DataStructures/Lectures/Lecture-10.md",
     "College/yearTwo/secondTerm/DataStructures/Lectures/Lecture-9.md",
@@ -203,16 +204,16 @@
     "College/yearTwo/secondTerm/DataStructures/Lectures/Lecture-3.md",
     "College/yearTwo/secondTerm/DataStructures/Lectures/Lecture-2.md",
     "College/yearTwo/secondTerm/DataStructures/Lectures/Lecture-1.md",
+    "College/yearTwo/secondTerm/Java/Book/Questions.md",
+    "College/yearTwo/secondTerm/Java/Book/Chapter-1.html",
+    "College/yearTwo/secondTerm/Java/Book/Chapter-9.md",
+    "draft.md",
     "College/yearTwo/secondTerm/DBProgramming/Lectures/Lecture-7.md",
     "College/yearTwo/secondTerm/DBProgramming/Sections/Section-9.md",
     "College/yearTwo/secondTerm/DBProgramming/Sections/Section-8.md",
     "College/yearTwo/secondTerm/DBProgramming/Sections/Section-7.md",
     "College/yearTwo/secondTerm/Java/Sections/Section-6.md",
     "College/yearTwo/secondTerm/DBProgramming/Sections/Section-6.md",
-    "College/yearTwo/secondTerm/Java/Sections/Section-5.md",
-    "College/yearTwo/secondTerm/DBProgramming/Sections/Section-5.md",
-    "College/yearTwo/secondTerm/Java/Sections/Section-4.md",
-    "College/yearTwo/secondTerm/DBProgramming/Sections/Section-4.md",
     "College/yearTwo/secondTerm/DataStructures/index.mdGgyS4n.bck",
     "College/yearTwo/secondTerm/WebDev2/Lectures/sedFQuRhI",
     "College/yearTwo/secondTerm/WebDev2/Lectures/sedkHQ29s",
@@ -231,7 +232,6 @@
     "College/yearTwo/firstTerm/C++/tasks/figure.png",
     "College/yearTwo/firstTerm/C++/tasks/figure-4.png",
     "College/yearTwo/firstTerm/C++/tasks/figure-3.png",
-    "College/yearTwo/secondTerm/CCNA/models.json",
-    "College/yearTwo/secondTerm/DataStructures/Assignments/Assignment-1.mdcF7xXW.bck"
+    "College/yearTwo/secondTerm/CCNA/models.json"
   ]
 }

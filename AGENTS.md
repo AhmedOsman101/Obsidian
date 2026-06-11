@@ -34,12 +34,12 @@ CourseName/
 
 ```markdown
 ---
+title: CourseName
 prev:
   text: "Parent Category"
   link: "/path/to/parent"
 next: false
 lastUpdated: false
-title: CourseName
 ---
 
 # CourseName
@@ -69,12 +69,12 @@ title: CourseName
 
 ```markdown
 ---
+title: Lectures
 prev:
   text: "CourseName"
   link: "/path/to/course/index"
 next: false
 lastUpdated: false
-title: Lectures
 ---
 
 # Lectures
@@ -92,27 +92,27 @@ Standard lectures use `prev` and `next` links for sequential navigation:
 
 ```markdown
 ---
+title: Lecture 7
 prev:
   text: "Lecture 6"
   link: "/College/yearOne/firstTerm/Python/Lectures/Lecture-6"
 next:
   text: "Lecture 8"
   link: "/College/yearOne/firstTerm/Python/Lectures/Lecture-8"
-title: Lecture 7
 ---
 
-# Programming Essentials in Python Lecture 7
+# Programming Essentials in Python - Lecture 7
 ```
 
 **Last lecture in a term:**
 
 ```markdown
 ---
+title: Lecture 8
 prev:
   text: "Lecture 7"
   link: "/College/yearOne/firstTerm/Python/Lectures/Lecture-7"
 next: false
-title: Lecture 8
 ---
 ```
 
@@ -148,11 +148,11 @@ next:
 
 ```markdown
 ---
+title: Lecture 8
 prev:
-  text: "Lecture Seven"
+  text: "Lecture 7"
   link: "/College/yearOne/firstTerm/Python/Lectures/Lecture-7"
 next: false
-title: Lecture 8
 ---
 ```
 
@@ -162,10 +162,10 @@ title: Lecture 8
 ---
 title: Lecture 7~8
 prev:
-  text: "Lecture Six"
+  text: "Lecture 7"
   link: "/College/yearOne/secondTerm/C-Essentials/Lectures/Lecture-6"
 next:
-  text: "Lecture Nine"
+  text: "Lecture 9"
   link: "/College/yearOne/secondTerm/C-Essentials/Lectures/Lecture-9"
 ---
 ```
@@ -176,10 +176,10 @@ Or using `&`:
 ---
 title: Lecture 6
 prev:
-  text: "Lecture Five"
+  text: "Lecture 5"
   link: "/College/yearOne/secondTerm/C-Essentials/Lectures/Lecture-5"
 next:
-  text: "Lecture Seven & Eight"
+  text: "Lecture 7~8"
   link: "/College/yearOne/secondTerm/C-Essentials/Lectures/Lecture-7-8"
 ---
 ```
@@ -210,9 +210,9 @@ Lecture titles follow these patterns:
 **Content title format:**
 
 ```markdown
-# Course Name Lecture 7
+# Course Name - Lecture 7
 
-# Course Name Lecture 7~8
+# Course Name - Lecture 7~8
 
 # Course Name - Lectures 7-8
 ```
@@ -297,14 +297,6 @@ Husky is configured to run `mdfmt` on markdown files before each commit.
 2. **If source material is missing, ask the user** - Request the PDF, Markdown, image, or pasted text instead of guessing.
 3. **Prefer `pdftotext file.pdf -` for PDF extraction** when shell extraction is needed, because it produced cleaner text than direct PDF parsing for some lecture/task sheets.
 4. **Treat the file number as authoritative** - If a PDF slide title says the wrong lecture number, follow the file name (`Lecture-7.pdf`, etc.), not the mismatched slide title.
-
-### Readability and Length Validation
-
-1. **Target**: approximately `750-800` words for a quick lecture review when possible.
-2. **Hard ceiling**: an `8 min read` result from `readtime`.
-3. **Validation method**: always validate using raw stdin with `readtime < file.md`.
-4. **`readtime` is on PATH** - prefer `readtime < file.md`; no absolute script path is needed.
-5. **Do not manually strip code blocks before `readtime`** - pass the raw Markdown file content.
 
 ### Code and Syntax Formatting
 

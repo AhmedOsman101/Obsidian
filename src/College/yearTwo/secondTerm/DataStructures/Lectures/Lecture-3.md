@@ -50,36 +50,36 @@ private:
 
 public:
   Queue() {
-    front = 0;
-    rear = MAX - 1;
-    size = 0;
+    this->front = 0;
+    this->rear = MAX - 1;
+    this->size = 0;
   }
 
   bool isEmpty() const {
-    return size == 0;
+    return this->size == 0;
   }
 
   bool isFull() const {
-    return size == MAX;
+    return this->size == MAX;
   }
 
   void enqueue(char item) {
-    rear = (rear + 1) % MAX;
-    entry[rear] = item;
-    size++;
+    this->rear = (this->rear + 1) % MAX;
+    this->entry[this->rear] = item;
+    this->size++;
   }
 
   char dequeue() {
-    char item = entry[front];
-    front = (front + 1) % MAX;
-    size--;
+    char item = this->entry[this->front];
+    this->front = (this->front + 1) % MAX;
+    this->size--;
     return item;
   }
 
   void traverse(void (*func)(char*)) {
-    int i = front;
-    for (int s = 0; s < size; s++) {
-      func(&entry[i]);
+    int i = this->front;
+    for (int s = 0; s < this->size; s++) {
+      func(&this->entry[i]);
       i = (i + 1) % MAX;
     }
   }

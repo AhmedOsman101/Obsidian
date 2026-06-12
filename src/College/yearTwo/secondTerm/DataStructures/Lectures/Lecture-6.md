@@ -78,7 +78,7 @@ public:
 
 ```cpp
 DoublySortedList::DoublySortedList() {
-  head = nullptr;
+  this->head = nullptr;
 }
 ```
 
@@ -93,10 +93,10 @@ void DoublySortedList::insert(Entry e) {
   p->next = nullptr;
   p->prev = nullptr;
 
-  if (!head) {
-    head = p;
+  if (!this->head) {
+    this->head = p;
   } else {
-    Node* q = head;
+    Node* q = this->head;
     while (q && e.key > q->info.key)
       q = q->next;
     p->next = q;
@@ -104,7 +104,7 @@ void DoublySortedList::insert(Entry e) {
     if (q->prev)
       q->prev->next = p;
     else
-      head = p;
+      this->head = p;
     q->prev = p;
   }
 }
@@ -119,14 +119,14 @@ Searches for the node with the matching key, unlinks it from both sides, and dea
 
 ```cpp
 Entry DoublySortedList::remove(int key) {
-  Node* q = head;
+  Node* q = this->head;
   while (q && q->info.key != key)
     q = q->next;
   Entry item = q->info;
   if (q->prev)
     q->prev->next = q->next;
   else
-    head = q->next;
+    this->head = q->next;
   if (q->next)
     q->next->prev = q->prev;
   delete q;
@@ -142,7 +142,7 @@ Implement `print()` as a method on `DoublySortedList`. It traverses from head, p
 
 ```cpp
 void DoublySortedList::print() const {
-  Node* p = head;
+  Node* p = this->head;
   while (p) {
     std::cout << p->info.data << " ";
     p = p->next;
@@ -159,7 +159,7 @@ Implement `printReverse()` as a method using a stack to reverse the order.
 ```cpp
 void DoublySortedList::printReverse() const {
   LinkedStack s;
-  Node* p = head;
+  Node* p = this->head;
   while (p) {
     s.push(p->info.data);
     p = p->next;

@@ -39,7 +39,7 @@ public:
 
 ```cpp
 LinkedStack::LinkedStack() {
-  top = nullptr;
+  this->top = nullptr;
 }
 ```
 
@@ -47,7 +47,7 @@ LinkedStack::LinkedStack() {
 
 ```cpp
 bool LinkedStack::isEmpty() const {
-  return top == nullptr;
+  return this->top == nullptr;
 }
 ```
 
@@ -59,8 +59,8 @@ Allocates a new node, stores the item, and links it before the current top.
 void LinkedStack::push(char item) {
   Node* p = new Node;
   p->info = item;
-  p->next = top;
-  top = p;
+  p->next = this->top;
+  this->top = p;
 }
 ```
 
@@ -70,9 +70,9 @@ Saves the top node's data, advances the top pointer, and deletes the old node.
 
 ```cpp
 char LinkedStack::pop() {
-  char item = top->info;
-  Node* p = top;
-  top = top->next;
+  char item = this->top->info;
+  Node* p = this->top;
+  this->top = this->top->next;
   delete p;
   return item;
 }
@@ -84,9 +84,9 @@ Traverses and deallocates all nodes, resetting top to NULL.
 
 ```cpp
 void LinkedStack::clear() {
-  while (top) {
-    Node* q = top;
-    top = top->next;
+  while (this->top) {
+    Node* q = this->top;
+    this->top = this->top->next;
     delete q;
   }
 }
@@ -125,12 +125,12 @@ public:
 
 ```cpp
 LinkedQueue::LinkedQueue() {
-  front = nullptr;
-  rear = nullptr;
+  this->front = nullptr;
+  this->rear = nullptr;
 }
 
 bool LinkedQueue::isEmpty() const {
-  return front == nullptr;
+  return this->front == nullptr;
 }
 ```
 
@@ -143,11 +143,11 @@ void LinkedQueue::enqueue(char item) {
   Node* p = new Node;
   p->info = item;
   p->next = nullptr;
-  if (!rear)
-    front = p;
+  if (!this->rear)
+    this->front = p;
   else
-    rear->next = p;
-  rear = p;
+    this->rear->next = p;
+  this->rear = p;
 }
 ```
 
@@ -157,12 +157,12 @@ Removes and returns the front node. If the queue becomes empty, rear is also set
 
 ```cpp
 char LinkedQueue::dequeue() {
-  char item = front->info;
-  Node* p = front;
-  front = front->next;
+  char item = this->front->info;
+  Node* p = this->front;
+  this->front = this->front->next;
   delete p;
-  if (!front)
-    rear = nullptr;
+  if (!this->front)
+    this->rear = nullptr;
   return item;
 }
 ```
@@ -176,12 +176,12 @@ Traverses from front, deallocating each node, then resets rear to NULL.
 
 ```cpp
 void LinkedQueue::clear() {
-  while (front) {
-    Node* p = front;
-    front = front->next;
+  while (this->front) {
+    Node* p = this->front;
+    this->front = this->front->next;
     delete p;
   }
-  rear = nullptr;
+  this->rear = nullptr;
 }
 ```
 

@@ -57,11 +57,11 @@ public:
 
 ```cpp
 LinkedList::LinkedList() {
-  head = nullptr;
+  this->head = nullptr;
 }
 
 bool LinkedList::isEmpty() const {
-  return head == nullptr;
+  return this->head == nullptr;
 }
 
 bool LinkedList::isFull() const {
@@ -82,10 +82,10 @@ void LinkedList::insert(char item, int pos) {
   p->info = item;
 
   if (pos == 0) {
-    p->next = head;
-    head = p;
+    p->next = this->head;
+    this->head = p;
   } else {
-    Node* q = head;
+    Node* q = this->head;
     for (int i = 0; i < pos - 1; i++)
       q = q->next;
     p->next = q->next;
@@ -110,12 +110,12 @@ char LinkedList::retrieve(int pos) {
   Node* tmp;
 
   if (pos == 0) {
-    item = head->info;
-    tmp = head;
-    head = head->next;
+    item = this->head->info;
+    tmp = this->head;
+    this->head = this->head->next;
     delete tmp;
   } else {
-    Node* q = head;
+    Node* q = this->head;
     for (int i = 0; i < pos - 1; i++)
       q = q->next;
     tmp = q->next;
@@ -133,9 +133,9 @@ Deallocates all nodes and resets head to NULL.
 
 ```cpp
 void LinkedList::clear() {
-  while (head) {
-    Node* q = head;
-    head = head->next;
+  while (this->head) {
+    Node* q = this->head;
+    this->head = this->head->next;
     delete q;
   }
 }

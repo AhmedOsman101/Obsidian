@@ -38,41 +38,45 @@ private:
 
 public:
   Stack() {
-    top = -1;
+    this->top = -1;
   }
 
   bool isEmpty() const {
-    return top == -1;
+    return this->top == -1;
   }
 
   bool isFull() const {
-    return top == MAX - 1;
+    return this->top == MAX - 1;
   }
 
   // Specification 1: assumes precondition (not full)
   void push(char item) {
-    entry[++top] = item;
+    this->entry[++this->top] = item;
   }
 
   // Specification 2: checks overflow (safer)
   void pushChecked(char item) {
-    if (top == MAX - 1) {
+    if (this->top == MAX - 1) {
       throw std::overflow_error("Stack overflow");
     }
-    entry[++top] = item;
+    this->entry[++this->top] = item;
   }
 
   // Specification 1: assumes precondition (not empty)
   void pop(char& item) {
-    item = entry[top--];
+    item = this->entry[this->top--];
   }
 
   // Specification 2: checks underflow
   void popChecked(char& item) {
-    if (top == -1) {
+    if (this->top == -1) {
       throw std::underflow_error("Stack underflow");
     }
-    item = entry[top--];
+    item = this->entry[this->top--];
+  }
+
+  char getTop() const {
+    return this->entry[this->top];
   }
 };
 ```
@@ -81,27 +85,17 @@ Specification 2 (with overflow/underflow checks) is better in practice — it pr
 
 ## User View vs Implementation View
 
-- **User view**: interacts through the public interface (push, pop, isEmpty, isFull)
+- **User view**: interacts through the public interface (push, pop, isEmpty, isFull, getTop)
 - **Implementation view**: knows the internal array and `top` index
 
-As a **user** of the class, `stackTop` must use only public methods:
+As a **user** of the class, use only public methods:
 
 ```cpp
-char stackTop(Stack& s) {
-  char item;
-  s.pop(item);
-  s.push(item);
-  return item;
-}
+// getTop() directly returns the top element without removing it
+char item = s.getTop();
 ```
 
-As an **implementer** (inside the class), direct access is allowed:
-
-```cpp
-char stackTop() const {
-  return entry[top];
-}
-```
+As an **implementer** (inside the class), direct access to `this->entry[this->top]` is allowed — the user never sees it.
 
 ## Stack Types
 

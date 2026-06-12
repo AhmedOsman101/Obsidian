@@ -205,4 +205,4 @@ Click the following [link](https://liveexample.pearsoncmg.com/dsanimation/AVLTre
 
 ---
 
-_5 min read (source: 7 min)_
+_6 min read (source: 7 min)_

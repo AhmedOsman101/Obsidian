@@ -13,10 +13,10 @@ next:
 Traverse from head to NULL, visiting each node. Print the data at each step.
 
 ```cpp
-void printList(Node* head) {
+void DoublySortedList::print() const {
   Node* p = head;
   while (p) {
-    std::cout << p->info << " ";
+    std::cout << p->info.data << " ";
     p = p->next;
   }
 }
@@ -27,11 +27,11 @@ void printList(Node* head) {
 A **stack** reverses order because of **LIFO** — last pushed element is first popped. Push all elements while traversing forward, then pop to print in reverse.
 
 ```cpp
-void printReverse(Node* head) {
+void DoublySortedList::printReverse() const {
   LinkedStack s;
   Node* p = head;
   while (p) {
-    s.push(p->info);
+    s.push(p->info.data);
     p = p->next;
   }
   while (!s.isEmpty()) {
@@ -67,6 +67,8 @@ private:
 
 public:
   DoublySortedList();
+  void print() const;
+  void printReverse() const;
   void insert(Entry e);
   Entry remove(int key);
 };
@@ -136,13 +138,13 @@ Entry DoublySortedList::remove(int key) {
 
 ### Exercise 1: Print All Elements
 
-Given the linked list declaration, write a function to print all elements.
+Implement `print()` as a method on `DoublySortedList`. It traverses from head, printing each node's data.
 
 ```cpp
-void printList(Node* head) {
+void DoublySortedList::print() const {
   Node* p = head;
   while (p) {
-    std::cout << p->info << " ";
+    std::cout << p->info.data << " ";
     p = p->next;
   }
 }
@@ -152,14 +154,14 @@ void printList(Node* head) {
 
 ### Exercise 2: Print in Reverse
 
-Write a function to print all elements in reverse order using a stack.
+Implement `printReverse()` as a method using a stack to reverse the order.
 
 ```cpp
-void printReverse(Node* head) {
+void DoublySortedList::printReverse() const {
   LinkedStack s;
   Node* p = head;
   while (p) {
-    s.push(p->info);
+    s.push(p->info.data);
     p = p->next;
   }
   while (!s.isEmpty()) {

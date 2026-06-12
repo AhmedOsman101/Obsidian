@@ -32,10 +32,10 @@ A **graph** G = (V, E) consists of a finite set of **vertices** V and a set of *
 
 ### Complete Graph Edge Count
 
-| Type                   | Max Edges |
-| ---------------------- | --------- |
-| Undirected, n vertices | n(n-1)/2  |
-| Directed, n vertices   | n(n-1)    |
+| Type                   | Max Edges  |
+| ---------------------- | ---------- |
+| Undirected, n vertices | $n(n-1)/2$ |
+| Directed, n vertices   | $n(n-1)$   |
 
 ## Graph Properties
 
@@ -46,7 +46,7 @@ A **graph** G = (V, E) consists of a finite set of **vertices** V and a set of *
 
 ### Subgraph
 
-A graph G' is a **subgraph** of G if V(G') ⊆ V(G) and E(G') ⊆ E(G).
+A graph G' is a **subgraph** of G if $V(G') \subseteq V(G)$ and $E(G') \subseteq E(G)$.
 
 ### Paths & Cycles
 
@@ -83,7 +83,7 @@ An n×n 2D array where `matrix[i][j] = 1` if edge exists between i and j.
 
 - Undirected graph: matrix is **symmetric**
 - Directed graph: matrix is **not symmetric**
-- **Storage**: O(|V|²)
+- **Storage**: $O (\space \vert V \vert ^2 \space)$
 - **Drawback**: difficult to insert/delete nodes
 
 ### Adjacency List
@@ -92,15 +92,15 @@ Array of linked lists. Each vertex has a list of adjacent vertices.
 
 - **Node list**: stores vertices
 - **Edge list**: stores connections per vertex
-- **Space**: O(V + E)
+- **Space**: $O(\space V + E \space)$
 - Preferred for **sparse** graphs
 
 ### Dense vs Sparse
 
-| Type       | Condition |
-| ---------- | --------- | --- | --- | --- | --- |
-| **Dense**  |           | E   | ≈   | V   | ²   |
-| **Sparse** |           | E   | ≈   | V   |     |
+| Type       | Condition                    |
+| ---------- | ---------------------------- |
+| **Dense**  | $E \approx \vert V \vert ^2$ |
+| **Sparse** | $E \approx \vert V \vert$    |
 
 ---
 

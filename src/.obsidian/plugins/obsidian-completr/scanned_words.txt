@@ -1270,6 +1270,7 @@ Population
 PER
 PascalCase
 Preconditions
+Polish
 IHDR
 IDATx
 IO
@@ -2615,6 +2616,8 @@ Invoking
 Indigo
 ISBN
 Interest
+Imbalance
+Incidence
 pHYs
 pt
 pu
@@ -4068,6 +4071,11 @@ perim
 previousClosingPrice
 pays
 preprocessing
+puzzles
+pushes
+pos
+possessing
+pathfinding
 sbf
 sPv
 sC
@@ -5661,6 +5669,12 @@ setY
 stresses
 showed
 shrinking
+supermarket
+spooling
+splice
+splices
+stacked
+shrinks
 ff
 fP
 fj
@@ -10716,6 +10730,7 @@ Belongs
 Bureau
 BMI
 BSTs
+Behaviors
 MC
 Ml
 MW
@@ -12002,6 +12017,9 @@ Mon
 Montgomery
 Monthly
 MEDIUM
+MyHashMap
+MyHashSet
+Maximal
 Lj
 Lf
 LvVa
@@ -13190,6 +13208,8 @@ Loc
 Longest
 Livewire
 LinearEquation
+LinkedList
+Landis
 al
 aj
 ar
@@ -14574,6 +14594,7 @@ amt
 adjacently
 ambiguous
 authoritative
+ahead
 Te
 Tn
 TA
@@ -15750,6 +15771,8 @@ Tailwind
 Toolkit
 Tuesday
 Thursday
+Track
+Traverses
 uj
 uq
 uXm
@@ -16791,6 +16814,10 @@ usual
 unbalanced
 unreferenced
 util
+unusable
+unlink
+unlinks
+uniformly
 OB
 Ox
 ONynT
@@ -20124,6 +20151,8 @@ relocates
 resizing
 reorganization
 reaching
+resetting
+rehashed
 eiO
 es
 ee
@@ -21438,6 +21467,7 @@ equalsIgnoreCase
 endTime
 exams
 elimination
+empties
 GO
 GQ
 Gk
@@ -25145,6 +25175,10 @@ Sat
 Shipping
 StopWatch
 SLOW
+Scan
+Spreads
+STL
+Skewed
 iH
 ic
 iP
@@ -26443,6 +26477,10 @@ isOn
 isSolvable
 inserting
 invent
+ingredients
+isEmpty
+isFull
+implementer
 tWA
 tW
 tM
@@ -27683,6 +27721,8 @@ toString
 tan
 think
 tighter
+thinks
+toll
 nm
 nv
 nhuK
@@ -28712,6 +28752,7 @@ nickel
 nTotal
 nextLine
 narrows
+nonlinear
 Fc
 Fe
 Fo
@@ -36217,6 +36258,11 @@ Rewrite
 RMB
 RegularPolygon
 Roots
+Reusable
+Resizing
+Reallocation
+RPN
+Rotations
 Zt
 ZB
 Zb
@@ -39377,6 +39423,8 @@ Diploma
 DOES
 Descriptive
 December
+Deallocates
+Digraph
 ohQ
 oL
 ob
@@ -43155,6 +43203,7 @@ Col
 Capital
 Convention
 Conquer
+Concrete
 vb
 vO
 vvF
@@ -45807,6 +45856,8 @@ charAt
 currentPrice
 contrasts
 conquer
+checkout
+callback
 Hu
 Hg
 HiL
@@ -48086,6 +48137,7 @@ heightM
 hypot
 heights
 halving
+huge
 Xi
 XZ
 Xn
@@ -50069,6 +50121,8 @@ getRoot
 getD
 getE
 getF
+geography
+getTop
 KUYX
 KX
 KK
@@ -53551,6 +53605,8 @@ Vitest
 Volunteer
 Vite
 Violet
+Velsky
+Visits
 dk
 dR
 dV
@@ -54917,6 +54973,11 @@ diag
 dataType
 dateCreated
 deposit
+dequeues
+deallocated
+deallocating
+dereferences
+delegate
 AK
 AQ
 Aya
@@ -56450,6 +56511,7 @@ August
 Alabama
 Alaska
 Actually
+Adelson
 Jw
 Jg
 JT

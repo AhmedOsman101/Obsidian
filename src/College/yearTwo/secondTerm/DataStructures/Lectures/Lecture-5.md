@@ -64,6 +64,14 @@ void LinkedStack::push(char item) {
 }
 ```
 
+```mermaid
+flowchart TD
+    A["push(item)"] --> B["new node p"]
+    B --> C["p->data = item"]
+    C --> D["p->next = top"]
+    D --> E["top = p"]
+```
+
 ### pop
 
 Saves the top node's data, advances the top pointer, and deletes the old node.
@@ -76,6 +84,15 @@ char LinkedStack::pop() {
   delete p;
   return item;
 }
+```
+
+```mermaid
+flowchart TD
+    A["pop()"] --> B["Save top->data"]
+    B --> C["p = top"]
+    C --> D["top = top->next"]
+    D --> E["delete p"]
+    E --> F["Return saved data"]
 ```
 
 ### clear
@@ -151,6 +168,17 @@ void LinkedQueue::enqueue(char item) {
 }
 ```
 
+```mermaid
+flowchart TD
+    A["enqueue(item)"] --> B["new node p"]
+    B --> C["p->data = item, p->next = null"]
+    C --> D{"rear == null?"}
+    D -->|Yes: empty queue| E["front = p"]
+    D -->|No| F["rear->next = p"]
+    E --> G["rear = p"]
+    F --> G
+```
+
 ### dequeue
 
 Removes and returns the front node. If the queue becomes empty, rear is also set to NULL.
@@ -170,6 +198,18 @@ char LinkedQueue::dequeue() {
 
 > [!WARNING]
 > Setting `rear = nullptr` when the queue empties is critical — without it, rear would point to freed memory (dangling pointer).
+
+```mermaid
+flowchart TD
+    A["dequeue()"] --> B["Save front->data"]
+    B --> C["p = front"]
+    C --> D["front = front->next"]
+    D --> E["delete p"]
+    E --> F{"front == null?"}
+    F -->|Yes: queue empty| G["rear = null"]
+    F -->|No| H["Return saved data"]
+    G --> H
+```
 
 ### clear
 
@@ -198,4 +238,4 @@ void LinkedQueue::clear() {
 
 ---
 
-_4 min read (source: 4 min)_
+_5 min read (source: 5 min)_

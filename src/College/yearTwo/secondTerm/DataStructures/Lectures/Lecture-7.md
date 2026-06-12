@@ -67,7 +67,15 @@ A **binary tree** is a tree in which no node can have more than **two children**
 
 ### Traversal Example
 
-For a tree with root 17, left subtree (41, 6, 9), right subtree (81):
+```mermaid
+graph TD
+    17["17"] --> 41["41"]
+    17 --> 81["81"]
+    41 --> 6["6"]
+    41 --> 9["9"]
+```
+
+For this tree:
 
 - **Pre-order (VLR):** 17, 41, 6, 9, 81
 - **In-order (LVR):** 6, 41, 9, 17, 81

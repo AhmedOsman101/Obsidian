@@ -86,6 +86,22 @@ public:
 };
 ```
 
+```mermaid
+flowchart LR
+    subgraph Circular Queue (MAX=6)
+        direction TB
+        S["Slot: 0 1 2 3 4 5"]
+        F["front=4"] --> S
+        R["rear=1"] --> S
+    end
+    A["Enqueue 'X'"] --> B["rear = (1+1)%6 = 2"]
+    B --> C["entry[2] = 'X'"]
+    C --> D["size++"]
+    E["Dequeue"] --> F2["item = entry[4]"]
+    F2 --> G["front = (4+1)%6 = 5"]
+    G --> H["size--"]
+```
+
 ### Key Implementation Details
 
 - **Circular indexing:** `(rear + 1) % MAX` wraps around to reuse the beginning of the array.

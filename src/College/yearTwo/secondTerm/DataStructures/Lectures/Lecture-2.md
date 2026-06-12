@@ -137,6 +137,23 @@ void Q(int i) {
 
 Each recursive call pushes a new stack frame. When the base case (`i <= 1`) is reached, frames pop off one by one.
 
+```mermaid
+flowchart TD
+    A["Q(3) called"] --> B["Push frame: i=3, ret addr"]
+    B --> C{"i > 1?"}
+    C -->|Yes| D["Q(2) called"]
+    D --> E["Push frame: i=2, ret addr"]
+    E --> F{"i > 1?"}
+    F -->|Yes| G["Q(1) called"]
+    G --> H["Push frame: i=1, ret addr"]
+    H --> I{"i > 1?"}
+    I -->|No| J["Base case: return"]
+    J --> K["Pop frame i=1"]
+    K --> L["Pop frame i=2"]
+    L --> M["Pop frame i=3"]
+    M --> N["All frames popped, Q(3) returns"]
+```
+
 ---
 
 _4 min read (source: 12 min)_

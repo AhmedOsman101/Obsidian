@@ -114,6 +114,20 @@ void DoublySortedList::insert(Entry e) {
 > [!WARNING]
 > The insertion traverses until it finds a node with a greater key or reaches the end. When `q` is NULL (insert at tail), `p->next = NULL` and `q->prev = p` — but since `q` is NULL, this dereferences NULL. The loop condition should be `while (q && e.key > q->data.key)` and the final `q->prev = p` only runs when `q` exists.
 
+```mermaid
+flowchart TD
+    A["insert(entry e)"] --> B{"head == null?"}
+    B -->|Yes| C["head = new node"]
+    B -->|No| D["Traverse: q = head while q and e.key > q->key"]
+    D --> E["Splice new node before q"]
+    E --> F{"q->prev exists?"}
+    F -->|Yes| G["q->prev->next = new node"]
+    F -->|No: inserting at head| H["head = new node"]
+    G --> I["new node->prev = q->prev"]
+    I --> J["q->prev = new node"]
+    H --> J
+```
+
 ### remove (by Key)
 
 Searches for the node with the matching key, unlinks it from both sides, and deallocates.
@@ -132,6 +146,21 @@ Entry DoublySortedList::remove(int key) {
   delete q;
   return item;
 }
+```
+
+```mermaid
+flowchart TD
+    A["remove(key)"] --> B["Traverse: q = head while q and q->key != key"]
+    B --> C["Save q->data"]
+    C --> D{"q->prev exists?"}
+    D -->|Yes| E["q->prev->next = q->next"]
+    D -->|No: removing head| F["head = q->next"]
+    E --> G{"q->next exists?"}
+    F --> G
+    G -->|Yes| H["q->next->prev = q->prev"]
+    G -->|No| I["delete q"]
+    H --> I
+    I --> J["Return saved data"]
 ```
 
 ## Exercises
@@ -178,4 +207,4 @@ Implement a doubly sorted linked list with create, insert (sorted by key), and d
 
 ---
 
-_4 min read (source: 3 min)_
+_5 min read (source: 5 min)_

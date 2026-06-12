@@ -5,3 +5,4 @@ ts=2026-06-12T12:39:58.211Z type=preference scope=opencode content="Use `nullptr
 ts=2026-06-12T12:39:59.624Z type=preference scope=dsa-lectures content="Use `nullptr` (not NULL) and `this->` in all OOP C++ lecture code." tags=cpp,nullptr,this,style
 ts=2026-06-12T12:57:10.211Z type=preference scope=summarize-material content="Don't remove the `# Course Name - [Lecture|Section|Task|Assignment] N` header from the summary." tags=header,format,summarize
 ts=2026-06-12T13:05:46.928Z type=preference scope=dsa-lectures content="Node struct property naming: use `data` (not `info`) for the data member in all node/struct definitions across lectures." tags=naming,node,data
+ts=2026-06-12T13:18:15.317Z type=preference scope=summarize-material content="When explaining concepts, use Mermaid flowcharts (Mermaid code blocks do not count toward read time). Only include a flowchart if it adds value; otherwise, skip it." tags=mermaid,flowcharts,format

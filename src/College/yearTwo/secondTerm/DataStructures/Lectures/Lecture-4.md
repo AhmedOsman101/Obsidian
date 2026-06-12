@@ -100,6 +100,16 @@ void LinkedList::insert(char item, int pos) {
 > [!WARNING]
 > No bounds checking is performed. Inserting at a position beyond the list size will cause undefined behavior (dereferencing NULL through `q->next`).
 
+```mermaid
+flowchart TD
+    A["insert(item, pos)"] --> B{"pos == 0?"}
+    B -->|Yes| C["new node -> next = head"]
+    C --> D["head = new node"]
+    B -->|No| E["Traverse to node at pos-1"]
+    E --> F["new node -> next = q -> next"]
+    F --> G["q -> next = new node"]
+```
+
 ## retrieve
 
 Removes and returns the node at position `pos`. Two cases:
@@ -130,6 +140,22 @@ char LinkedList::retrieve(int pos) {
   }
   return item;
 }
+```
+
+```mermaid
+flowchart TD
+    A["retrieve(pos)"] --> B{"pos == 0?"}
+    B -->|Yes| C["Save head data"]
+    C --> D["tmp = head"]
+    D --> E["head = head->next"]
+    E --> F["delete tmp"]
+    B -->|No| G["Traverse to pos-1"]
+    G --> H["tmp = q->next"]
+    H --> I["Save tmp->data"]
+    I --> J["q->next = tmp->next"]
+    J --> K["delete tmp"]
+    F --> L["Return item"]
+    K --> L
 ```
 
 ## clear
@@ -163,4 +189,4 @@ void LinkedList::clear() {
 
 ---
 
-_4 min read (source: 5 min)_
+_5 min read (source: 5 min)_

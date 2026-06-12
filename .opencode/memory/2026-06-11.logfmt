@@ -1,0 +1,5 @@
+ts=2026-06-11T22:06:53.738Z type=context scope=user content="Lectures summaries are at CourseName/Lectures/Lecture-*.md while Sections are at CourseName/Sections/Section-*.md" tags=auto
+ts=2026-06-11T22:07:54.823Z type=context scope=user content="All source materials are at ~/Documents/backup/College/year[Two|Three|Four]/[first|second]Term/CourseName/[Lectures|Sections|Tasks|Assignments]/" tags=auto
+ts=2026-06-11T22:09:26.122Z type=context scope=user content="`lastupdated: false` frontmatter should only appear in index files (index.md), not in individual lecture or section markdown files." tags=auto
+ts=2026-06-11T22:19:12.125Z type=context scope=user content="When extracting text from a PDF: first run `pdfx file.pdf`, then run `pdftotext file.pdf -` to catch any text pdfx may have missed. Use both tools sequentially." tags=pdf,extraction,workflow
+ts=2026-06-11T22:35:45.734Z type=context scope=user content="Update the footer after summarizing the material." tags=auto

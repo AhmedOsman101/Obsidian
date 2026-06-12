@@ -8,6 +8,8 @@ next:
   link: "/College/yearTwo/secondTerm/DataStructures/Lectures/Lecture-7"
 ---
 
+# Data Structures - Lecture 6
+
 ## Printing a Linked List
 
 Traverse from head to NULL, visiting each node. Print the data at each step.
@@ -16,7 +18,7 @@ Traverse from head to NULL, visiting each node. Print the data at each step.
 void DoublySortedList::print() const {
   Node* p = head;
   while (p) {
-    std::cout << p->info.data << " ";
+    std::cout << p->data.value << " ";
     p = p->next;
   }
 }
@@ -31,7 +33,7 @@ void DoublySortedList::printReverse() const {
   LinkedStack s;
   Node* p = head;
   while (p) {
-    s.push(p->info.data);
+    s.push(p->data.value);
     p = p->next;
   }
   while (!s.isEmpty()) {
@@ -52,11 +54,11 @@ A **doubly sorted linked list** is a linked structure where each node has two po
 ```cpp
 struct Entry {
   int key;
-  char data;
+  char value;
 };
 
 struct Node {
-  Entry info;
+  Entry data;
   Node* next;
   Node* prev;
 };
@@ -89,29 +91,28 @@ Traverses to find the correct position by key, then splices the new node in. Mai
 ```cpp
 void DoublySortedList::insert(Entry e) {
   Node* p = new Node;
-  p->info = e;
+  p->data = e;
   p->next = nullptr;
   p->prev = nullptr;
 
-  if (!this->head) {
-    this->head = p;
-  } else {
+  if (!this->head) this->head = p;
+  else {
     Node* q = this->head;
-    while (q && e.key > q->info.key)
-      q = q->next;
+    while (q && e.key > q->data.key) q = q->next;
+
     p->next = q;
     p->prev = q->prev;
-    if (q->prev)
-      q->prev->next = p;
-    else
-      this->head = p;
+
+    if (q->prev) q->prev->next = p;
+    else this->head = p;
+
     q->prev = p;
   }
 }
 ```
 
 > [!WARNING]
-> The insertion traverses until it finds a node with a greater key or reaches the end. When `q` is NULL (insert at tail), `p->next = NULL` and `q->prev = p` — but since `q` is NULL, this dereferences NULL. The loop condition should be `while (q && e.key > q->info.key)` and the final `q->prev = p` only runs when `q` exists.
+> The insertion traverses until it finds a node with a greater key or reaches the end. When `q` is NULL (insert at tail), `p->next = NULL` and `q->prev = p` — but since `q` is NULL, this dereferences NULL. The loop condition should be `while (q && e.key > q->data.key)` and the final `q->prev = p` only runs when `q` exists.
 
 ### remove (by Key)
 
@@ -120,15 +121,14 @@ Searches for the node with the matching key, unlinks it from both sides, and dea
 ```cpp
 Entry DoublySortedList::remove(int key) {
   Node* q = this->head;
-  while (q && q->info.key != key)
-    q = q->next;
-  Entry item = q->info;
-  if (q->prev)
-    q->prev->next = q->next;
-  else
-    this->head = q->next;
-  if (q->next)
-    q->next->prev = q->prev;
+  while (q && q->data.key != key) q = q->next;
+  Entry item = q->data;
+
+  if (q->prev) q->prev->next = q->next;
+  else this->head = q->next;
+
+  if (q->next) q->next->prev = q->prev;
+
   delete q;
   return item;
 }
@@ -144,7 +144,7 @@ Implement `print()` as a method on `DoublySortedList`. It traverses from head, p
 void DoublySortedList::print() const {
   Node* p = this->head;
   while (p) {
-    std::cout << p->info.data << " ";
+    std::cout << p->data.value << " ";
     p = p->next;
   }
 }
@@ -161,7 +161,7 @@ void DoublySortedList::printReverse() const {
   LinkedStack s;
   Node* p = this->head;
   while (p) {
-    s.push(p->info.data);
+    s.push(p->data.value);
     p = p->next;
   }
   while (!s.isEmpty()) {
@@ -178,4 +178,4 @@ Implement a doubly sorted linked list with create, insert (sorted by key), and d
 
 ---
 
-_3 min read (source: 3 min)_
+_4 min read (source: 3 min)_

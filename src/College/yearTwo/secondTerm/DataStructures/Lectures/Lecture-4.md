@@ -35,7 +35,7 @@ A **head** pointer references the first node. The last node's next pointer is NU
 
 ```cpp
 struct Node {
-  char info;
+  char data;
   Node* next;
 };
 
@@ -65,7 +65,8 @@ bool LinkedList::isEmpty() const {
 }
 
 bool LinkedList::isFull() const {
-  return false;  // linked lists allocate dynamically; real impl checks allocation failure
+  // linked lists allocate dynamically; real impl checks allocation failure
+  return false;
 }
 ```
 
@@ -79,15 +80,17 @@ Adds a node at position `pos` (0-indexed). Two cases:
 ```cpp
 void LinkedList::insert(char item, int pos) {
   Node* p = new Node;
-  p->info = item;
+  p->data = item;
 
   if (pos == 0) {
     p->next = this->head;
     this->head = p;
   } else {
     Node* q = this->head;
-    for (int i = 0; i < pos - 1; i++)
+    for (int i = 0; i < pos - 1; i++) {
       q = q->next;
+    }
+
     p->next = q->next;
     q->next = p;
   }
@@ -110,16 +113,18 @@ char LinkedList::retrieve(int pos) {
   Node* tmp;
 
   if (pos == 0) {
-    item = this->head->info;
+    item = this->head->data;
     tmp = this->head;
     this->head = this->head->next;
     delete tmp;
   } else {
     Node* q = this->head;
-    for (int i = 0; i < pos - 1; i++)
+    for (int i = 0; i < pos - 1; i++){
       q = q->next;
+    }
+
     tmp = q->next;
-    item = tmp->info;
+    item = tmp->data;
     q->next = tmp->next;
     delete tmp;
   }

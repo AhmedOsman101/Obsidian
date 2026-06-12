@@ -18,7 +18,7 @@ A **linked stack** uses a singly linked list where all insertions and deletions 
 
 ```cpp
 struct Node {
-  char info;
+  char data;
   Node* next;
 };
 
@@ -58,7 +58,7 @@ Allocates a new node, stores the item, and links it before the current top.
 ```cpp
 void LinkedStack::push(char item) {
   Node* p = new Node;
-  p->info = item;
+  p->data = item;
   p->next = this->top;
   this->top = p;
 }
@@ -70,7 +70,7 @@ Saves the top node's data, advances the top pointer, and deletes the old node.
 
 ```cpp
 char LinkedStack::pop() {
-  char item = this->top->info;
+  char item = this->top->data;
   Node* p = this->top;
   this->top = this->top->next;
   delete p;
@@ -103,7 +103,7 @@ A **linked queue** maintains two pointers: **front** (head) for dequeue and **re
 
 ```cpp
 struct Node {
-  char info;
+  char data;
   Node* next;
 };
 
@@ -141,12 +141,12 @@ Allocates a new node. If the queue is empty, the new node becomes both front and
 ```cpp
 void LinkedQueue::enqueue(char item) {
   Node* p = new Node;
-  p->info = item;
+  p->data = item;
   p->next = nullptr;
-  if (!this->rear)
-    this->front = p;
-  else
-    this->rear->next = p;
+
+  if (!this->rear) this->front = p;
+  else this->rear->next = p;
+
   this->rear = p;
 }
 ```
@@ -157,12 +157,13 @@ Removes and returns the front node. If the queue becomes empty, rear is also set
 
 ```cpp
 char LinkedQueue::dequeue() {
-  char item = this->front->info;
+  char item = this->front->data;
+
   Node* p = this->front;
   this->front = this->front->next;
   delete p;
-  if (!this->front)
-    this->rear = nullptr;
+
+  if (!this->front) this->rear = nullptr;
   return item;
 }
 ```

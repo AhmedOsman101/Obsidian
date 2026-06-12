@@ -8,7 +8,7 @@ next:
   link: "/College/yearTwo/secondTerm/DataStructures/Lectures/Lecture-3"
 ---
 
-# Data Structures - Lecture 2: Stack
+# Data Structures - Lecture 2
 
 ## Stack Definition
 

@@ -8,6 +8,8 @@ next:
   link: "/College/yearTwo/secondTerm/DataStructures/Lectures/Lecture-4"
 ---
 
+# Data Structures - Lecture 3
+
 ## Queue Definition
 
 **Queue** is a **linear, non-primitive, homogeneous** data structure where elements are added at one end (**rear/tail**) and removed from the other end (**front/head**). It follows **First-In-First-Out (FIFO)** ordering.
@@ -111,4 +113,4 @@ The traversal loop increments the index with modular arithmetic `(i + 1) % MAX` 
 
 ---
 
-_3 min read_
+_3 min read (source: 5 min)_

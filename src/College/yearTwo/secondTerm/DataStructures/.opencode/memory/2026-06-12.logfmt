@@ -1,0 +1,3 @@
+ts=2026-06-12T11:27:15.392Z type=preference scope=summarize-material content="Footer format for summarized lectures: `_X min read (source: Y min)_` where X is summary read time and Y is original source read time." tags=footer,format,summarize
+ts=2026-06-12T11:27:16.607Z type=preference scope=opencode content="When user says \"remember\", use memory tools (memory_remember) to store the information rather than just acknowledging it." tags=workflow,memory
+ts=2026-06-12T12:19:43.961Z type=preference scope=summarize-material content="It's okay to have summary equal in readtime to the source. Only trim if it's greater than it." tags=readtime,trimming,summarize

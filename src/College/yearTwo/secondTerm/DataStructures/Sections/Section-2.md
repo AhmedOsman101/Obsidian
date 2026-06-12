@@ -9,4 +9,3 @@ next:
 ---
 
 # Data Structures - Section 2
- 

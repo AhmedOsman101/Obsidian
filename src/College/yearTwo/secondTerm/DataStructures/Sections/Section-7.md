@@ -7,4 +7,3 @@ next: false
 ---
 
 # Data Structures - Section 7
-

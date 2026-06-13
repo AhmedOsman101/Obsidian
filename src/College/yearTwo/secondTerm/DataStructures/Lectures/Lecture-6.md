@@ -24,6 +24,8 @@ void DoublySortedList::print() const {
 }
 ```
 
+**Time complexity:** O(n) — single traversal.
+
 ## Printing in Reverse Using a Stack
 
 A **stack** reverses order because of **LIFO** — last pushed element is first popped. Push all elements while traversing forward, then pop to print in reverse.
@@ -119,87 +121,38 @@ void DoublySortedList::insert(Entry entry) {
 }
 ```
 
-> [!WARNING]
-> The insertion traverses until it finds a node with a greater key or reaches the end.
-> When `current` is `NULL` (insert at tail), `newNode->next = NULL` and then `current->prev = newNode` — but since `current` is `NULL`, this dereferences `NULL`.
-> The loop condition should be `while (current && entry.key > current->data.key)` and the final `current->prev = newNode` only runs when `current` exists.
-
 ### remove (by Key)
 
 Searches for the node with the matching key, unlinks it from both sides, and deallocates.
 
 ```cpp
 Entry DoublySortedList::remove(int key) {
-  Node* q = this->head;
-  while (q && q->data.key != key) q = q->next;
-  Entry item = q->data;
+  Node* current = this->head;
+  while (current && current->data.key != key) {
+    current = current->next;
+  }
 
-  if (q->prev) q->prev->next = q->next;
-  else this->head = q->next;
+  if (!current) {
+    throw std::out_of_range("Key not found in list");
+  }
 
-  if (q->next) q->next->prev = q->prev;
+  Entry item = current->data;
 
-  delete q;
+  // Unlink current from the list
+  if (current->prev) {
+    current->prev->next = current->next;
+  } else {
+    this->head = current->next;  // removing the head
+  }
+
+  if (current->next) {
+    current->next->prev = current->prev;
+  }
+
+  delete current;
   return item;
 }
 ```
-
-```mermaid
-flowchart TD
-    A["remove(key)"] --> B["Traverse: q = head while q and q->key != key"]
-    B --> C["Save q->data"]
-    C --> D{"q->prev exists?"}
-    D -->|Yes| E["q->prev->next = q->next"]
-    D -->|No: removing head| F["head = q->next"]
-    E --> G{"q->next exists?"}
-    F --> G
-    G -->|Yes| H["q->next->prev = q->prev"]
-    G -->|No| I["delete q"]
-    H --> I
-    I --> J["Return saved data"]
-```
-
-## Exercises
-
-### Exercise 1: Print All Elements
-
-Implement `print()` as a method on `DoublySortedList`. It traverses from head, printing each node's data.
-
-```cpp
-void DoublySortedList::print() const {
-  Node* p = this->head;
-  while (p) {
-    std::cout << p->data.value << " ";
-    p = p->next;
-  }
-}
-```
-
-**Time complexity:** O(n) — single traversal.
-
-### Exercise 2: Print in Reverse
-
-Implement `printReverse()` as a method using a stack to reverse the order.
-
-```cpp
-void DoublySortedList::printReverse() const {
-  LinkedStack s;
-  Node* p = this->head;
-  while (p) {
-    s.push(p->data.value);
-    p = p->next;
-  }
-  while (!s.isEmpty()) {
-    std::cout << s.pop() << " ";
-  }
-}
-```
-
-**Why it works:** Stack reverses order via LIFO — first element pushed is last popped.
-
-### Exercise 3: Doubly Sorted Linked List
-
-Implement a doubly sorted linked list with create, insert (sorted by key), and delete (by key) operations. See the class definition and methods above.
 
 ---
 

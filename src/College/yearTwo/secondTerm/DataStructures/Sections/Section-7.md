@@ -41,18 +41,17 @@ Checks each element one by one from index 0 onward.
 
 ### Implementation
 
+
 ```cpp
+#include <iostream>
+using namespace std;
+
 int linearSearch(int arr[], int length, int target) {
   for (int i = 0; i < length; i++) {
     if (arr[i] == target) return i;
   }
   return -1;
 }
-```
-
-```cpp
-#include <iostream>
-using namespace std;
 
 int main() {
   int arr[] = {10, 20, 30, 40, 50};
@@ -87,7 +86,11 @@ Faster search using divide-and-conquer. **Requires a sorted array**. Checks the 
 
 ### Implementation
 
+
 ```cpp
+#include <iostream>
+using namespace std;
+
 int binarySearch(int arr[], int length, int target) {
   int low = 0, high = length - 1;
   while (low <= high) {
@@ -98,11 +101,6 @@ int binarySearch(int arr[], int length, int target) {
   }
   return -1; // -1 means not found
 }
-```
-
-```cpp
-#include <iostream>
-using namespace std;
 
 int main() {
   int arr[] = {10, 20, 30, 40, 50};

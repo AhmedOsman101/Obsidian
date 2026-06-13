@@ -64,17 +64,20 @@ public:
   }
 
   void enqueue(char item) {
+    if (isFull()) throw std::overflow_error("Queue overflow");
     this->rear = (this->rear + 1) % MAX;
     this->items[this->rear] = item;
     this->size++;
   }
 
   char dequeue() {
+    if (isEmpty()) throw std::underflow_error("Queue underflow");
     char item = this->items[this->front];
     this->front = (this->front + 1) % MAX;
     this->size--;
     return item;
   }
+
 
   void traverse(void (*func)(char*)) {
     int i = this->front;

@@ -16,10 +16,10 @@ Traverse from head to NULL, visiting each node. Print the data at each step.
 
 ```cpp
 void DoublySortedList::print() const {
-  Node* p = head;
-  while (p) {
-    std::cout << p->data.value << " ";
-    p = p->next;
+  Node* current = head;
+  while (current != nullptr) {
+    std::cout << current->data.value << " ";
+    current = current->next;
   }
 }
 ```
@@ -30,14 +30,14 @@ A **stack** reverses order because of **LIFO** — last pushed element is first 
 
 ```cpp
 void DoublySortedList::printReverse() const {
-  LinkedStack s;
-  Node* p = head;
-  while (p) {
-    s.push(p->data.value);
-    p = p->next;
+  LinkedStack stack;
+  Node* current = head;
+  while (current != nullptr) {
+    stack.push(current->data.value);
+    current = current->next;
   }
-  while (!s.isEmpty()) {
-    std::cout << s.pop() << " ";
+  while (!stack.isEmpty()) {
+    std::cout << stack.pop() << " ";
   }
 }
 ```

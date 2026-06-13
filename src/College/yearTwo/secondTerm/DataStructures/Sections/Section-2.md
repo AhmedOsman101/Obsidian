@@ -67,7 +67,7 @@ private:
   int front;
   int rear;
   int count;
-  int item[QSIZE];
+  int items[QSIZE];
 
 public:
   Queue() {
@@ -84,13 +84,13 @@ public:
     return this->count == QSIZE;
   }
 
-  void enqueue(int element) {
+  void enqueue(int item) {
     if (this->isFull()) {
       cout << "Queue is full" << endl;
     } else {
       if (this->front == -1) this->front = 0;
       this->rear = (this->rear + 1) % QSIZE;
-      this->item[this->rear] = element;
+      this->items[this->rear] = item;
       this->count++;
     }
   }
@@ -108,7 +108,7 @@ public:
     if (this->isEmpty()) {
       cout << "Queue is empty" << endl;
     } else {
-      cout << this->item[this->front] << endl;
+      cout << this->items[this->front] << endl;
     }
   }
 
@@ -116,9 +116,9 @@ public:
     if (this->isEmpty()) {
       cout << "Queue is empty" << endl;
     } else {
-      cout << "[";
+      cout << "[ ";
       for (int i = this->front; i <= this->rear; i++) {
-        cout << this->item[i] << " ";
+        cout << this->items[i] << " ";
       }
       cout << "]" << endl;
     }
@@ -126,19 +126,6 @@ public:
 };
 ```
 
-## STL Queue
-
-Include `<queue>` for the STL container adapter:
-
-| Function  | Description                      |
-| --------- | -------------------------------- |
-| `push(x)` | Inserts `x` at the back          |
-| `pop()`   | Removes the front element        |
-| `front()` | Returns the first element        |
-| `back()`  | Returns the last element         |
-| `size()`  | Returns the number of elements   |
-| `empty()` | Returns `true` if queue is empty |
-
 ---
 
-_4 min read (source: 3 min)_
+_3 min read (source: 3 min)_

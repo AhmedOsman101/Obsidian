@@ -91,7 +91,7 @@ public:
 
 ```mermaid
 flowchart LR
-    subgraph Circular Queue (MAX=6)
+    subgraph "Circular Queue (MAX=6)"
         direction TB
         S["Slot: 0 1 2 3 4 5"]
         F["front=4"] --> S

@@ -71,7 +71,7 @@ public:
   DoublySortedList();
   void print() const;
   void printReverse() const;
-  void insert(Entry e);
+  void insert(Entry entry);
   Entry remove(int key);
 };
 ```
@@ -89,44 +89,40 @@ DoublySortedList::DoublySortedList() {
 Traverses to find the correct position by key, then splices the new node in. Maintains sorted order.
 
 ```cpp
-void DoublySortedList::insert(Entry e) {
-  Node* p = new Node;
-  p->data = e;
-  p->next = nullptr;
-  p->prev = nullptr;
+void DoublySortedList::insert(Entry entry) {
+  Node* newNode = new Node;
+  newNode->data = entry;
+  newNode->next = nullptr;
+  newNode->prev = nullptr;
 
-  if (!this->head) this->head = p;
-  else {
-    Node* q = this->head;
-    while (q && e.key > q->data.key) q = q->next;
+  if (!this->head) {
+    this->head = newNode;
+  } else {
+    Node* current = this->head;
+    // Find the position where entry.key should be inserted
+    while (current && entry.key > current->data.key) {
+      current = current->next;
+    }
 
-    p->next = q;
-    p->prev = q->prev;
+    // Insert newNode before 'current'
+    newNode->next = current;
+    newNode->prev = current->prev;
 
-    if (q->prev) q->prev->next = p;
-    else this->head = p;
+    if (current->prev) {
+      current->prev->next = newNode;
+    } else {
+      this->head = newNode;  // new smallest key
+    }
 
-    q->prev = p;
+    current->prev = newNode;
   }
 }
 ```
 
 > [!WARNING]
-> The insertion traverses until it finds a node with a greater key or reaches the end. When `q` is NULL (insert at tail), `p->next = NULL` and `q->prev = p` — but since `q` is NULL, this dereferences NULL. The loop condition should be `while (q && e.key > q->data.key)` and the final `q->prev = p` only runs when `q` exists.
-
-```mermaid
-flowchart TD
-    A["insert(entry e)"] --> B{"head == null?"}
-    B -->|Yes| C["head = new node"]
-    B -->|No| D["Traverse: q = head while q and e.key > q->key"]
-    D --> E["Splice new node before q"]
-    E --> F{"q->prev exists?"}
-    F -->|Yes| G["q->prev->next = new node"]
-    F -->|No: inserting at head| H["head = new node"]
-    G --> I["new node->prev = q->prev"]
-    I --> J["q->prev = new node"]
-    H --> J
-```
+> The insertion traverses until it finds a node with a greater key or reaches the end.
+> When `current` is `NULL` (insert at tail), `newNode->next = NULL` and then `current->prev = newNode` — but since `current` is `NULL`, this dereferences `NULL`.
+> The loop condition should be `while (current && entry.key > current->data.key)` and the final `current->prev = newNode` only runs when `current` exists.
 
 ### remove (by Key)
 

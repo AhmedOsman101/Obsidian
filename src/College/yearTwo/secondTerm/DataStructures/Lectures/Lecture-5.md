@@ -78,6 +78,9 @@ Saves the top node's data, advances the top pointer, and deletes the old node.
 
 ```cpp
 char LinkedStack::pop() {
+  if (isEmpty()) {
+    throw std::underflow_error("Stack underflow");
+  }
   char item = this->top->data;
   Node* p = this->top;
   this->top = this->top->next;

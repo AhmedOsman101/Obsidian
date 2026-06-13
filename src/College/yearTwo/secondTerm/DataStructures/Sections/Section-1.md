@@ -92,24 +92,26 @@ const int MAX_SIZE = 100;
 class Stack {
 private:
   int top;
-  int item[MAX_SIZE];
+  int items[MAX_SIZE];
 
 public:
-  Stack() : top(-1) {}
+  Stack() {
+    this->top = -1;
+  }
 
   bool isEmpty() {
-    return top < 0;
+    return this->top < 0;
   }
 
   bool isFull() {
-    return top == MAX_SIZE - 1;
+    return this->top == MAX_SIZE - 1;
   }
 
-  void push(int Element) {
+  void push(int item) {
     if (this->isFull()) {
       cout << "Stack is full on push" << endl;
     } else {
-      this->item[++this->top] = Element;
+      this->items[++this->top] = item;
     }
   }
 
@@ -125,14 +127,14 @@ public:
     if (this->isEmpty()) {
       cout << "Stack is empty on getTop" << endl;
     } else {
-      cout << this->item[this->top] << endl;
+      cout << this->items[this->top] << endl;
     }
   }
 
   void display() {
-    cout << "[";
+    cout << "[ ";
     for (int i = this->top; i >= 0; i--) {
-      cout << this->item[i] << " ";
+      cout << this->items[i] << " ";
     }
     cout << "]" << endl;
   }

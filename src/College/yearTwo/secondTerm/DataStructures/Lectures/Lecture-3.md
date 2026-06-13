@@ -46,7 +46,7 @@ private:
   int front;
   int rear;
   int size;
-  char entry[MAX];
+  char items[MAX];
 
 public:
   Queue() {
@@ -65,12 +65,12 @@ public:
 
   void enqueue(char item) {
     this->rear = (this->rear + 1) % MAX;
-    this->entry[this->rear] = item;
+    this->items[this->rear] = item;
     this->size++;
   }
 
   char dequeue() {
-    char item = this->entry[this->front];
+    char item = this->items[this->front];
     this->front = (this->front + 1) % MAX;
     this->size--;
     return item;
@@ -79,7 +79,7 @@ public:
   void traverse(void (*func)(char*)) {
     int i = this->front;
     for (int s = 0; s < this->size; s++) {
-      func(&this->entry[i]);
+      func(&this->items[i]);
       i = (i + 1) % MAX;
     }
   }
@@ -95,9 +95,9 @@ flowchart LR
         R["rear=1"] --> S
     end
     A["Enqueue 'X'"] --> B["rear = (1+1)%6 = 2"]
-    B --> C["entry[2] = 'X'"]
+    B --> C["items[2] = 'X'"]
     C --> D["size++"]
-    E["Dequeue"] --> F2["item = entry[4]"]
+    E["Dequeue"] --> F2["item = items[4]"]
     F2 --> G["front = (4+1)%6 = 5"]
     G --> H["size--"]
 ```

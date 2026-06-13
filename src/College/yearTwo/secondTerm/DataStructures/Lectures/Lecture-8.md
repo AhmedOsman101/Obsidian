@@ -12,7 +12,13 @@ next:
 
 ## Binary Search Tree Definition
 
-A **binary search tree (BST)** is a binary tree where every node has a **key** and satisfies: (1) all keys in the left subtree are less than the root's key, (2) all keys in the right subtree are greater, (3) left and right subtrees are themselves BSTs. This ordering property enables efficient search by eliminating half the remaining nodes at each comparison.
+A **binary search tree (BST)** is a binary tree where every node has a **key** and satisfies: 
+
+1. all keys in the left subtree are less than the root's key.
+2. all keys in the right subtree are greater.
+3. left and right subtrees are themselves BSTs.
+
+This ordering property enables efficient search by eliminating half the remaining nodes at each comparison.
 
 ## BST Search
 

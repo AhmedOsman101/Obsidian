@@ -10,43 +10,6 @@ next:
 
 # Data Structures - Lecture 6
 
-## Printing a Linked List
-
-Traverse from head to NULL, visiting each node. Print the data at each step.
-
-```cpp
-void DoublySortedList::print() const {
-  Node* current = head;
-  while (current != nullptr) {
-    std::cout << current->data.value << " ";
-    current = current->next;
-  }
-}
-```
-
-**Time complexity:** O(n) — single traversal.
-
-## Printing in Reverse Using a Stack
-
-A **stack** reverses order because of **LIFO** — last pushed element is first popped. Push all elements while traversing forward, then pop to print in reverse.
-
-```cpp
-void DoublySortedList::printReverse() const {
-  LinkedStack stack;
-  Node* current = head;
-  while (current != nullptr) {
-    stack.push(current->data.value);
-    current = current->next;
-  }
-  while (!stack.isEmpty()) {
-    std::cout << stack.pop() << " ";
-  }
-}
-```
-
-> [!NOTE]
-> This uses the `LinkedStack` class from Lecture 5. The algorithm is **O(n)** time and **O(n)** space for the stack.
-
 ## Doubly Sorted Linked List
 
 A **doubly sorted linked list** is a linked structure where each node has two pointers (`prev` and `next`) and data is kept **sorted by a key field** at all times.
@@ -153,6 +116,43 @@ Entry DoublySortedList::remove(int key) {
   return item;
 }
 ```
+
+## Printing a Linked List
+
+Traverse from head to NULL, visiting each node. Print the data at each step.
+
+```cpp
+void DoublySortedList::print() const {
+  Node* current = head;
+  while (current != nullptr) {
+    std::cout << current->data.value << " ";
+    current = current->next;
+  }
+}
+```
+
+**Time complexity:** O(n) — single traversal.
+
+## Printing in Reverse Using a Stack
+
+A **stack** reverses order because of **LIFO** — last pushed element is first popped. Push all elements while traversing forward, then pop to print in reverse.
+
+```cpp
+void DoublySortedList::printReverse() const {
+  LinkedStack stack;
+  Node* current = head;
+  while (current != nullptr) {
+    stack.push(current->data.value);
+    current = current->next;
+  }
+  while (!stack.isEmpty()) {
+    std::cout << stack.pop() << " ";
+  }
+}
+```
+
+> [!NOTE]
+> This uses the `LinkedStack` class from Lecture 5. The algorithm is **O(n)** time and **O(n)** space for the stack
 
 ---
 

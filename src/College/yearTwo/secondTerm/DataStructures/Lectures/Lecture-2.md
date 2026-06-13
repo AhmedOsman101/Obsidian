@@ -33,7 +33,7 @@ const int MAX = 10;
 
 class Stack {
 private:
-  char entry[MAX];
+  char items[MAX];
   int top;
 
 public:
@@ -51,32 +51,32 @@ public:
 
   // Specification 1: assumes precondition (not full)
   void push(char item) {
-    this->entry[++this->top] = item;
+    this->items[++this->top] = item;
   }
 
   // Specification 2: checks overflow (safer)
   void pushChecked(char item) {
-    if (this->top == MAX - 1) {
+    if (this->isFull()) {
       throw std::overflow_error("Stack overflow");
     }
-    this->entry[++this->top] = item;
+    this->items[++this->top] = item;
   }
 
   // Specification 1: assumes precondition (not empty)
   void pop(char& item) {
-    item = this->entry[this->top--];
+    item = this->items[this->top--];
   }
 
   // Specification 2: checks underflow
   void popChecked(char& item) {
-    if (this->top == -1) {
+    if (this->isEmpty()) {
       throw std::underflow_error("Stack underflow");
     }
-    item = this->entry[this->top--];
+    item = this->items[this->top--];
   }
 
   char getTop() const {
-    return this->entry[this->top];
+    return this->items[this->top];
   }
 };
 ```
@@ -95,7 +95,7 @@ As a **user** of the class, use only public methods:
 char item = s.getTop();
 ```
 
-As an **implementer** (inside the class), direct access to `this->entry[this->top]` is allowed — the user never sees it.
+As an **implementer** (inside the class), direct access to `this->items[this->top]` is allowed — the user never sees it.
 
 ## Stack Types
 

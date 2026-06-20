@@ -16,3 +16,4 @@ title: Lectures
 - [Lecture 5](Lecture-5.md)
 - [Lecture 6](Lecture-6.md)
 - [Lecture 7](Lecture-7.md)
+- [Lecture 8](Lecture-8.md)

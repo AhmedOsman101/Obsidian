@@ -1,9 +1,11 @@
 ---
+title: Lecture 7
 prev:
   text: "Lecture 6"
   link: "/College/yearTwo/secondTerm/WebDev2/Lectures/Lecture-6"
-next: false
-title: Lecture 7
+next:
+  text: "Lecture 8"
+  link: "/College/yearTwo/secondTerm/WebDev2/Lectures/Lecture-8"
 ---
 
 # Web Development II - Lecture 7

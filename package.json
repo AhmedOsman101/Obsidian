@@ -10,27 +10,27 @@
   },
   "devDependencies": {
     "@markslides/markdown-it-mermaid": "^0.4.6",
-    "@types/node": "^25.7.0",
+    "@types/node": "^26.0.0",
     "husky": "^9.1.7",
-    "markdown-it-mathjax3": "^4.3.2",
+    "markdown-it-mathjax3": "^5.2.0",
     "mermaid": "^11.15.0",
     "vitepress": "2.0.0-alpha.17",
     "vitepress-plugin-mermaid": "^2.0.17",
     "vitepress-plugin-nprogress": "^0.1.1",
-    "vitepress-sidebar": "^1.33.2"
+    "vitepress-sidebar": "^1.36.1"
   },
   "dependencies": {
     "@braintree/sanitize-url": "^7.1.2",
     "@catppuccin/vitepress": "^0.1.2",
-    "@shikijs/types": "^4.0.2",
+    "@shikijs/types": "^4.2.0",
     "@vercel/speed-insights": "^2.0.0",
-    "cytoscape": "^3.33.3",
+    "cytoscape": "^3.34.0",
     "cytoscape-cose-bilkent": "^4.1.0",
-    "dayjs": "^1.11.20",
+    "dayjs": "^1.11.21",
     "debug": "^4.4.3",
-    "katex": "^0.16.45",
+    "katex": "^0.17.0",
     "minisearch": "^7.2.0",
-    "vue": "^3.5.34"
+    "vue": "^3.5.38"
   },
   "packageManager": "pnpm@11.1.3"
 }

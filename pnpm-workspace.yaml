@@ -3,3 +3,4 @@ allowBuilds:
 minimumReleaseAgeExclude:
   - esbuild@0.28.1
   - js-yaml@4.1.2
+  - js-yaml@3.15.0

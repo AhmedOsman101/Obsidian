@@ -138,7 +138,7 @@ public static void main(String[] args) {
 
 ### `void` Method vs. Value-Returning Method
 
-| **Aspect**        | **`void`**        | **`int` return type**      |
+| **Aspect**                                              | **`void`**        | **`int` return type**      |
 | ------------------------------------------------------- | ----------------- | -------------------------- |
 | Main purpose                                            | Perform an action | Compute and send back data |
 | Can be used inside `System.out.println(...)` as a value | No                | Yes                        |

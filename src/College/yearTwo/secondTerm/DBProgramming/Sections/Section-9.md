@@ -87,11 +87,11 @@ A collection of **pre-compiled SQL statements** stored inside the database. Cont
 
 ### Parameter Types
 
-| Type | Description |
-|------|-------------|
-| `IN` | Input parameter (default) |
-| `OUT` | Output parameter — returns a value to the caller |
-| `INOUT` | Both input and output |
+| Type    | Description                                      |
+| ------- | ------------------------------------------------ |
+| `IN`    | Input parameter (default)                        |
+| `OUT`   | Output parameter — returns a value to the caller |
+| `INOUT` | Both input and output                            |
 
 ```sql
 DELIMITER //
@@ -107,4 +107,4 @@ SELECT @name;
 
 ---
 
-*2 min read (source: 4 min)*
+_2 min read (source: 4 min)_

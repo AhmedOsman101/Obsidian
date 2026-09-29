@@ -18,13 +18,13 @@ next:
 
 ## SQL System Components
 
-| Component | Description |
-|-----------|-------------|
-| **Table** | Basic element; rows & columns; related tables linked via keys (e.g., Product → Color via Color ID) |
-| **Field / Attribute** | A column maintaining specific information about every record |
-| **Record / Row** | Individual entry in a table |
-| **Column** | Vertical entity containing all data for a specific field |
-| **NULL** | A blank field with **no value** — distinct from zero or spaces |
+| Component             | Description                                                                                         |
+| --------------------- | --------------------------------------------------------------------------------------------------- |
+| **Table**             | Basic element; rows & columns; related tables linked via keys (e.g., Product -> Color via Color ID) |
+| **Field / Attribute** | A column maintaining specific information about every record                                        |
+| **Record / Row**      | Individual entry in a table                                                                         |
+| **Column**            | Vertical entity containing all data for a specific field                                            |
+| **NULL**              | A blank field with **no value** — distinct from zero or spaces                                      |
 
 ## SQL Constraints
 
@@ -52,17 +52,18 @@ VALUES('A', '499');
 
 ## SQL Command Categories
 
-| Category | Purpose | Examples |
-|----------|---------|---------|
-| **DDL** (Data Definition Language) | Design DB structure | CREATE, ALTER, DROP |
-| **DQL** (Data Query Language) | Retrieve data | SELECT |
-| **DML** (Data Manipulation Language) | Write/modify records | INSERT, UPDATE, DELETE, TRUNCATE |
-| **DCL** (Data Control Language) | Manage user access | GRANT, REVOKE |
-| **TCL** (Transaction Control Language) | Automatic DB changes | COMMIT, ROLLBACK, SAVEPOINT |
+| Category                               | Purpose              | Examples                         |
+| -------------------------------------- | -------------------- | -------------------------------- |
+| **DDL** (Data Definition Language)     | Design DB structure  | CREATE, ALTER, DROP              |
+| **DQL** (Data Query Language)          | Retrieve data        | SELECT                           |
+| **DML** (Data Manipulation Language)   | Write/modify records | INSERT, UPDATE, DELETE, TRUNCATE |
+| **DCL** (Data Control Language)        | Manage user access   | GRANT, REVOKE                    |
+| **TCL** (Transaction Control Language) | Automatic DB changes | COMMIT, ROLLBACK, SAVEPOINT      |
 
 ## Database Normalization
 
 Process of efficiently organizing data to:
+
 - **Eliminate redundant data** (same data in multiple tables)
 - **Ensure data dependencies make sense** (only related data in one table)
 
@@ -76,12 +77,12 @@ Cyberattack inserting SQL queries into input fields to retrieve, modify, or corr
 
 ## SQL vs. MySQL vs. NoSQL
 
-| | SQL | MySQL | NoSQL |
-|---|---|---|---|
-| **Definition** | Standard query language | Open-source RDBMS using SQL | Non-relational databases |
-| **Storage** | Tabular | Tabular | Graphs, documents, columns, key-values |
-| **Use case** | Transactional & analytical | Transactional & analytical | Responsive, heavy-usage apps |
+|                | SQL                        | MySQL                       | NoSQL                                  |
+| -------------- | -------------------------- | --------------------------- | -------------------------------------- |
+| **Definition** | Standard query language    | Open-source RDBMS using SQL | Non-relational databases               |
+| **Storage**    | Tabular                    | Tabular                     | Graphs, documents, columns, key-values |
+| **Use case**   | Transactional & analytical | Transactional & analytical  | Responsive, heavy-usage apps           |
 
 ---
 
-*4 min read (source: 10 min)*
+_4 min read (source: 10 min)_

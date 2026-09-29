@@ -114,4 +114,4 @@ SELECT * FROM Products;
 
 ---
 
-*2 min read (source: 6 min)*
+_2 min read (source: 6 min)_

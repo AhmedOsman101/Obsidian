@@ -97,10 +97,10 @@ WHERE OrderDate BETWEEN '1996-07-01' AND '1996-07-31';
 
 Pattern matching in WHERE clause using wildcards.
 
-| Wildcard | Matches |
-|----------|---------|
-| `%` | Zero, one, or multiple characters |
-| `_` | Exactly one character |
+| Wildcard | Matches                           |
+| -------- | --------------------------------- |
+| `%`      | Zero, one, or multiple characters |
+| `_`      | Exactly one character             |
 
 ```sql
 -- Starts with "a"
@@ -121,4 +121,4 @@ SELECT * FROM Customers WHERE CustomerName NOT LIKE 'a%';
 
 ---
 
-*2 min read (source: 6 min)*
+_2 min read (source: 6 min)_

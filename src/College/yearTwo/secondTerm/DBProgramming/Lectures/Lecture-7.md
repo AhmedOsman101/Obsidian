@@ -14,10 +14,10 @@ next:
 
 Rules that allow/restrict values to ensure **data accuracy** and **integrity**. Defined on `CREATE TABLE` or added via `ALTER TABLE`.
 
-| Level | Scope |
-|-------|-------|
+| Level            | Scope         |
+| ---------------- | ------------- |
 | **Column-level** | Single column |
-| **Table-level** | Entire table |
+| **Table-level**  | Entire table  |
 
 ### NOT NULL
 
@@ -113,13 +113,13 @@ ALTER TABLE t AUTO_INCREMENT = 100;
 
 Combine rows from two or more tables based on a related column.
 
-| Join | Returns |
-|------|---------|
-| **INNER JOIN** | Only rows with matching values in **both** tables |
-| **LEFT JOIN** | All rows from left table + matched rows from right (NULLs for non-matches) |
-| **RIGHT JOIN** | All rows from right table + matched rows from left (NULLs for non-matches) |
-| **FULL OUTER JOIN** | All rows from both tables (NULLs where no match) |
-| **CROSS JOIN** | Cartesian product — every row of table A × every row of table B |
+| Join                | Returns                                                                    |
+| ------------------- | -------------------------------------------------------------------------- |
+| **INNER JOIN**      | Only rows with matching values in **both** tables                          |
+| **LEFT JOIN**       | All rows from left table + matched rows from right (NULLs for non-matches) |
+| **RIGHT JOIN**      | All rows from right table + matched rows from left (NULLs for non-matches) |
+| **FULL OUTER JOIN** | All rows from both tables (NULLs where no match)                           |
+| **CROSS JOIN**      | Cartesian product — every row of table A × every row of table B            |
 
 ```sql
 SELECT * FROM A INNER JOIN B ON A.id = B.id;
@@ -145,15 +145,15 @@ Hostname is optional — omitting it allows connection from any host.
 
 Assigns privileges to user accounts.
 
-| Privilege | Allows |
-|-----------|--------|
-| `ALL PRIVILEGES` | Everything |
-| `CREATE` | Create DBs and tables |
-| `DROP` | Drop DBs and tables |
-| `DELETE` | Delete rows |
-| `INSERT` | Insert rows |
-| `SELECT` | Read data |
-| `UPDATE` | Update rows |
+| Privilege        | Allows                |
+| ---------------- | --------------------- |
+| `ALL PRIVILEGES` | Everything            |
+| `CREATE`         | Create DBs and tables |
+| `DROP`           | Drop DBs and tables   |
+| `DELETE`         | Delete rows           |
+| `INSERT`         | Insert rows           |
+| `SELECT`         | Read data             |
+| `UPDATE`         | Update rows           |
 
 ```sql
 GRANT ALL PRIVILEGES ON db.* TO 'user'@'host';
@@ -221,4 +221,4 @@ ALTER USER 'peter'@'localhost' IDENTIFIED BY 'newpass';
 
 ---
 
-*5 min read (source: 18 min)*
+_5 min read (source: 18 min)_

@@ -20,13 +20,13 @@ SELECT AVG(Price) FROM Products;          -- ignores NULL
 SELECT SUM(Quantity) FROM OrderDetails;   -- ignores NULL
 ```
 
-| Function | Returns | NULL handling |
-|----------|---------|---------------|
-| `MIN(col)` | Smallest value | Ignores NULL |
-| `MAX(col)` | Largest value | Ignores NULL |
+| Function     | Returns                           | NULL handling       |
+| ------------ | --------------------------------- | ------------------- |
+| `MIN(col)`   | Smallest value                    | Ignores NULL        |
+| `MAX(col)`   | Largest value                     | Ignores NULL        |
 | `COUNT(col)` | Number of rows matching criterion | Does not count NULL |
-| `AVG(col)` | Average of numeric column | Ignores NULL |
-| `SUM(col)` | Total sum of numeric column | Ignores NULL |
+| `AVG(col)`   | Average of numeric column         | Ignores NULL        |
+| `SUM(col)`   | Total sum of numeric column       | Ignores NULL        |
 
 ## Control Flow Functions
 
@@ -68,25 +68,25 @@ END;
 
 ## String Functions
 
-| Function | Syntax | Description |
-|----------|--------|-------------|
-| `CONCAT` | `CONCAT(s1, s2, ...)` | Adds strings together |
-| `+` | `s1 + s2` | Alternative concatenation |
-| `REPLACE` | `REPLACE(string, old, new)` | Replaces all occurrences (case-insensitive search) |
-| `INSERT` | `INSERT(string, pos, num, s2)` | Inserts `s2` at `pos` for `num` characters |
-| `LEFT` | `LEFT(string, n)` | Extracts `n` chars from left |
-| `RIGHT` | `RIGHT(string, n)` | Extracts `n` chars from right |
-| `MID` | `MID(string, start, len)` | Extracts substring starting at any position |
-| `SUBSTRING` | `SUBSTRING(string, start, len)` | Same as MID — extracts characters |
-| `LOCATE` | — | Finds position of substring |
-| `LEN` | — | Returns length of string |
-| `LOWER` / `LCASE` | — | Converts to lowercase |
-| `UPPER` / `UCASE` | — | Converts to uppercase |
-| `REVERSE` | — | Reverses the string |
+| Function          | Syntax                          | Description                                        |
+| ----------------- | ------------------------------- | -------------------------------------------------- |
+| `CONCAT`          | `CONCAT(s1, s2, ...)`           | Adds strings together                              |
+| `+`               | `s1 + s2`                       | Alternative concatenation                          |
+| `REPLACE`         | `REPLACE(string, old, new)`     | Replaces all occurrences (case-insensitive search) |
+| `INSERT`          | `INSERT(string, pos, num, s2)`  | Inserts `s2` at `pos` for `num` characters         |
+| `LEFT`            | `LEFT(string, n)`               | Extracts `n` chars from left                       |
+| `RIGHT`           | `RIGHT(string, n)`              | Extracts `n` chars from right                      |
+| `MID`             | `MID(string, start, len)`       | Extracts substring starting at any position        |
+| `SUBSTRING`       | `SUBSTRING(string, start, len)` | Same as MID — extracts characters                  |
+| `LOCATE`          | —                               | Finds position of substring                        |
+| `LEN`             | —                               | Returns length of string                           |
+| `LOWER` / `LCASE` | —                               | Converts to lowercase                              |
+| `UPPER` / `UCASE` | —                               | Converts to uppercase                              |
+| `REVERSE`         | —                               | Reverses the string                                |
 
 > [!NOTE]
 > `INSERT()` here is the string function (different from `INSERT INTO`). If `position` is outside the string length, it returns the original string. If `number` is higher than the remaining string length, it replaces from position to end.
 
 ---
 
-*2 min read (source: 7 min)*
+_2 min read (source: 7 min)_

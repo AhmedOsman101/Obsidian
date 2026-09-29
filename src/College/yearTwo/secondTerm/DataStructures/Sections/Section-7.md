@@ -41,7 +41,6 @@ Checks each element one by one from index 0 onward.
 
 ### Implementation
 
-
 ```cpp
 #include <iostream>
 using namespace std;
@@ -85,7 +84,6 @@ Faster search using divide-and-conquer. **Requires a sorted array**. Checks the 
 | Worst | O(log n) |
 
 ### Implementation
-
 
 ```cpp
 #include <iostream>

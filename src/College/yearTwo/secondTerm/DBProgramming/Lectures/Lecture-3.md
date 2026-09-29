@@ -12,14 +12,14 @@ next:
 
 ## Database Operations
 
-| Command | Syntax | Notes |
-|---------|--------|-------|
-| **CREATE DATABASE** | `CREATE DATABASE [IF NOT EXISTS] db_name;` | DDL statement |
-| **SHOW DATABASES** | `SHOW DATABASES;` | Lists all databases |
-| **USE** | `USE db_name;` | Semicolon optional |
-| **DROP DATABASE** | `DROP DATABASE [IF EXISTS] db_name;` | Irreversible; no rename command exists |
-| **Export** | `mysqldump -u user -p db > file.sql` | Can export specific tables or all databases (`--all-databases`) |
-| **Import** | `mysql -u user -p new_db < dumpfile.sql` | Restores from backup file |
+| Command             | Syntax                                     | Notes                                                           |
+| ------------------- | ------------------------------------------ | --------------------------------------------------------------- |
+| **CREATE DATABASE** | `CREATE DATABASE [IF NOT EXISTS] db_name;` | DDL statement                                                   |
+| **SHOW DATABASES**  | `SHOW DATABASES;`                          | Lists all databases                                             |
+| **USE**             | `USE db_name;`                             | Semicolon optional                                              |
+| **DROP DATABASE**   | `DROP DATABASE [IF EXISTS] db_name;`       | Irreversible; no rename command exists                          |
+| **Export**          | `mysqldump -u user -p db > file.sql`       | Can export specific tables or all databases (`--all-databases`) |
+| **Import**          | `mysql -u user -p new_db < dumpfile.sql`   | Restores from backup file                                       |
 
 `USE` and `QUIT` do not require semicolons.
 
@@ -47,13 +47,13 @@ CREATE TABLE users (
 
 ### SHOW & DESCRIBE
 
-| Command | Purpose |
-|---------|---------|
-| `SHOW TABLES;` | List tables in current database |
-| `SHOW FULL TABLES;` | Includes type column (BASE TABLE, VIEW, SYSTEM VIEW) |
-| `SHOW TABLES IN db_name;` or `FROM db_name` | List tables in another database |
-| `SHOW COLUMNS FROM table_name;` | Column info for a table |
-| `DESCRIBE table_name;` / `DESC table_name;` / `EXPLAIN table_name;` | Table structure (columns, types, constraints) |
+| Command                                                             | Purpose                                              |
+| ------------------------------------------------------------------- | ---------------------------------------------------- |
+| `SHOW TABLES;`                                                      | List tables in current database                      |
+| `SHOW FULL TABLES;`                                                 | Includes type column (BASE TABLE, VIEW, SYSTEM VIEW) |
+| `SHOW TABLES IN db_name;` or `FROM db_name`                         | List tables in another database                      |
+| `SHOW COLUMNS FROM table_name;`                                     | Column info for a table                              |
+| `DESCRIBE table_name;` / `DESC table_name;` / `EXPLAIN table_name;` | Table structure (columns, types, constraints)        |
 
 `DESC` is shorthand for `DESCRIBE`. `EXPLAIN` is a synonym. All three produce identical output.
 
@@ -96,24 +96,24 @@ DROP TEMPORARY TABLE table_name;
 
 Modifies table structure. Supports these operations:
 
-| Operation | Syntax Example |
-|-----------|---------------|
-| **ADD column** | `ALTER TABLE t ADD age INT;` |
-| **Reposition column** | `ALTER TABLE t ADD id INT FIRST;` / `ALTER TABLE t ADD id INT AFTER name;` |
-| **MODIFY column** (change datatype) | `ALTER TABLE t MODIFY age TINYINT;` |
-| **CHANGE column** (rename + redefine) | `ALTER TABLE t CHANGE age student_age INT;` |
-| **DROP column** | `ALTER TABLE t DROP age;` — fails if it is the last column |
-| **ADD PRIMARY KEY** | `ALTER TABLE t ADD PRIMARY KEY(id);` |
-| **DROP PRIMARY KEY** | `ALTER TABLE t DROP PRIMARY KEY;` |
-| **ADD FOREIGN KEY** | `ALTER TABLE t ADD CONSTRAINT fk_name FOREIGN KEY(col) REFERENCES other(col);` |
-| **ADD UNIQUE** | `ALTER TABLE t ADD UNIQUE(email);` |
-| **SET DEFAULT** | `ALTER TABLE t ALTER col SET DEFAULT val;` |
-| **DROP DEFAULT** | `ALTER TABLE t ALTER col DROP DEFAULT;` |
-| **RENAME TO** | `ALTER TABLE t RENAME TO new_name;` |
+| Operation                             | Syntax Example                                                                 |
+| ------------------------------------- | ------------------------------------------------------------------------------ |
+| **ADD column**                        | `ALTER TABLE t ADD age INT;`                                                   |
+| **Reposition column**                 | `ALTER TABLE t ADD id INT FIRST;` / `ALTER TABLE t ADD id INT AFTER name;`     |
+| **MODIFY column** (change datatype)   | `ALTER TABLE t MODIFY age TINYINT;`                                            |
+| **CHANGE column** (rename + redefine) | `ALTER TABLE t CHANGE age student_age INT;`                                    |
+| **DROP column**                       | `ALTER TABLE t DROP age;` — fails if it is the last column                     |
+| **ADD PRIMARY KEY**                   | `ALTER TABLE t ADD PRIMARY KEY(id);`                                           |
+| **DROP PRIMARY KEY**                  | `ALTER TABLE t DROP PRIMARY KEY;`                                              |
+| **ADD FOREIGN KEY**                   | `ALTER TABLE t ADD CONSTRAINT fk_name FOREIGN KEY(col) REFERENCES other(col);` |
+| **ADD UNIQUE**                        | `ALTER TABLE t ADD UNIQUE(email);`                                             |
+| **SET DEFAULT**                       | `ALTER TABLE t ALTER col SET DEFAULT val;`                                     |
+| **DROP DEFAULT**                      | `ALTER TABLE t ALTER col DROP DEFAULT;`                                        |
+| **RENAME TO**                         | `ALTER TABLE t RENAME TO new_name;`                                            |
 
 > [!NOTE]
 > `MODIFY` changes only the datatype/definition. `CHANGE` renames the column and can also change its definition — the old column name must be provided, then the new name and definition.
 
 ---
 
-*4 min read (source: 12 min)*
+_4 min read (source: 12 min)_

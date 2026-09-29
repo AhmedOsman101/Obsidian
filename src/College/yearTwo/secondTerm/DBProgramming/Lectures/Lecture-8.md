@@ -28,14 +28,14 @@ Called explicitly: `CALL procedure_name(args);`
 
 ### Parameter Modes
 
-| Mode | Direction | Description |
-|------|-----------|-------------|
-| **IN** (default) | → procedure | Passes a value into the procedure (like a function argument) |
-| **OUT** | procedure → | Returns a value to the caller via session variable (`@var`) |
-| **INOUT** | ↔ | Passes value in and returns a modified value out |
+| Mode             | Direction    | Description                                                  |
+| ---------------- | ------------ | ------------------------------------------------------------ |
+| **IN** (default) | -> procedure | Passes a value into the procedure (like a function argument) |
+| **OUT**          | procedure -> | Returns a value to the caller via session variable (`@var`)  |
+| **INOUT**        | <->          | Passes value in and returns a modified value out             |
 
 ```sql
-CALL get_count_by_age(25, @total);  -- OUT param → @total
+CALL get_count_by_age(25, @total);  -- OUT param -> @total
 SELECT @total;
 ```
 
@@ -141,4 +141,4 @@ DROP INDEX idx_name ON table;
 
 ---
 
-*4 min read (source: 12 min)*
+_4 min read (source: 12 min)_

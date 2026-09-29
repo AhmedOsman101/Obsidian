@@ -85,4 +85,4 @@ INSERT INTO Persons (FirstName) VALUES ('Lars');
 
 ---
 
-*2 min read (source: 5 min)*
+_2 min read (source: 5 min)_

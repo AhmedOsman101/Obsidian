@@ -12,13 +12,13 @@ next:
 
 ## String Functions (Continued)
 
-| Function | Syntax | Description |
-|----------|--------|-------------|
-| `LOCATE` | `LOCATE(substring, string, start)` | Returns position of first occurrence (case-insensitive); returns 0 if not found |
-| `LEN` | `LEN(string)` | Returns string length; trailing spaces excluded, leading spaces included |
-| `LOWER` | `LOWER(text)` | Converts to lowercase |
-| `UPPER` | `UPPER(text)` | Converts to uppercase |
-| `REVERSE` | `REVERSE(string)` | Reverses the string |
+| Function  | Syntax                             | Description                                                                     |
+| --------- | ---------------------------------- | ------------------------------------------------------------------------------- |
+| `LOCATE`  | `LOCATE(substring, string, start)` | Returns position of first occurrence (case-insensitive); returns 0 if not found |
+| `LEN`     | `LEN(string)`                      | Returns string length; trailing spaces excluded, leading spaces included        |
+| `LOWER`   | `LOWER(text)`                      | Converts to lowercase                                                           |
+| `UPPER`   | `UPPER(text)`                      | Converts to uppercase                                                           |
+| `REVERSE` | `REVERSE(string)`                  | Reverses the string                                                             |
 
 ```sql
 SELECT LOCATE('world', 'Hello world');  -- 7
@@ -29,11 +29,11 @@ SELECT REVERSE('abc');                  -- cba
 
 ## Numeric Functions
 
-| Function | Syntax | Description |
-|----------|--------|-------------|
-| `FLOOR` | `FLOOR(number)` | Rounds down to the nearest integer |
-| `CEILING` | `CEILING(number)` | Rounds up to the nearest integer |
-| `ROUND` | `ROUND(number, decimals)` | Rounds to specified decimal places |
+| Function   | Syntax                       | Description                                      |
+| ---------- | ---------------------------- | ------------------------------------------------ |
+| `FLOOR`    | `FLOOR(number)`              | Rounds down to the nearest integer               |
+| `CEILING`  | `CEILING(number)`            | Rounds up to the nearest integer                 |
+| `ROUND`    | `ROUND(number, decimals)`    | Rounds to specified decimal places               |
 | `TRUNCATE` | `TRUNCATE(number, decimals)` | Truncates (cuts off) to specified decimal places |
 
 ```sql
@@ -45,12 +45,12 @@ SELECT TRUNCATE(3.14159, 2);  -- 3.14
 
 ## Date and Time Functions
 
-| Function | Returns |
-|----------|---------|
-| `NOW()` | Current date and time |
-| `CURDATE()` | Current date |
-| `CURTIME()` | Current time |
-| `DATE_ADD(date, INTERVAL value unit)` | Adds an interval to a date |
+| Function                              | Returns                           |
+| ------------------------------------- | --------------------------------- |
+| `NOW()`                               | Current date and time             |
+| `CURDATE()`                           | Current date                      |
+| `CURTIME()`                           | Current time                      |
+| `DATE_ADD(date, INTERVAL value unit)` | Adds an interval to a date        |
 | `DATE_SUB(date, INTERVAL value unit)` | Subtracts an interval from a date |
 
 > [!NOTE]
@@ -66,4 +66,4 @@ SELECT DATE_SUB('2026-06-04', INTERVAL 1 MONTH);  -- 2026-05-04
 
 ---
 
-*2 min read (source: 3 min)*
+_2 min read (source: 3 min)_

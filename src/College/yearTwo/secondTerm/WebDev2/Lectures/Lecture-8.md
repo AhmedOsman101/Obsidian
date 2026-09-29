@@ -118,7 +118,7 @@ if (isset($_SESSION["count"])) {
 
 ## MySQL with PHP
 
-**MySQL** is an open-source database. The basic flow: connect → select database → query → fetch results.
+**MySQL** is an open-source database. The basic flow: connect -> select database -> query -> fetch results.
 
 ```php
 $db = mysql_connect("localhost", "user", "password");
@@ -157,9 +157,9 @@ $pass = mysql_real_escape_string($_POST["password"]);
 
 Share database connection code across pages using `require()`: put `mysql_connect` and `mysql_select_db` in `db.php` and include it where needed.
 
-Login flow: look up password by username → compare with submitted password → set session variable on match.
+Login flow: look up password by username -> compare with submitted password -> set session variable on match.
 
-Register flow: sanitize input → `INSERT INTO users VALUES (...)` → confirm success.
+Register flow: sanitize input -> `INSERT INTO users VALUES (...)` -> confirm success.
 
 ```php
 // db.php — shared resource

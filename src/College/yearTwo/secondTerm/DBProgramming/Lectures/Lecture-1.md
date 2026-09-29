@@ -16,13 +16,13 @@ A **database** organizes, stores, retrieves, and communicates related informatio
 
 ## Database Types
 
-| Type | Characteristics | Examples |
-|------|----------------|----------|
-| **Centralized** | Stores data at one system; multi-location access via apps with authentication | Central Library system |
-| **Distributed** | Data spread across multiple systems connected via communication links | Apache Cassandra, HBase, Ignite |
-| **Relational** | Based on relational model; data in rows (tuples) and columns (attributes) forming tables (relations); uses SQL | MySQL, MS SQL Server, Oracle |
-| **NoSQL** | No fixed schema; designed for scalability with unstructured/semi-structured data | MongoDB, Firebase, Cassandra |
-| **Cloud** | Data stored virtually on cloud platforms; offers SaaS, PaaS, IaaS | AWS, Azure, Google Cloud SQL |
+| Type            | Characteristics                                                                                                | Examples                        |
+| --------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------- |
+| **Centralized** | Stores data at one system; multi-location access via apps with authentication                                  | Central Library system          |
+| **Distributed** | Data spread across multiple systems connected via communication links                                          | Apache Cassandra, HBase, Ignite |
+| **Relational**  | Based on relational model; data in rows (tuples) and columns (attributes) forming tables (relations); uses SQL | MySQL, MS SQL Server, Oracle    |
+| **NoSQL**       | No fixed schema; designed for scalability with unstructured/semi-structured data                               | MongoDB, Firebase, Cassandra    |
+| **Cloud**       | Data stored virtually on cloud platforms; offers SaaS, PaaS, IaaS                                              | AWS, Azure, Google Cloud SQL    |
 
 ## Creating a Database
 
@@ -40,13 +40,13 @@ A **database** organizes, stores, retrieves, and communicates related informatio
 
 A **DBMS key** is an attribute or set of attributes that uniquely identifies a row in a relation.
 
-| Key Type | Definition |
-|----------|-----------|
-| **Candidate Key** | Super key with no redundant attributes; as strong as the primary key |
-| **Primary Key** | Chosen candidate key; value must be unique, non-NULL, and present in every row |
-| **Alternate Key** | Candidate keys not selected as the primary key |
-| **Foreign Key** | Attribute(s) in one relation that match the primary key of another relation; links tables |
-| **Composite Key** | Primary key consisting of more than one attribute |
+| Key Type          | Definition                                                                                |
+| ----------------- | ----------------------------------------------------------------------------------------- |
+| **Candidate Key** | Super key with no redundant attributes; as strong as the primary key                      |
+| **Primary Key**   | Chosen candidate key; value must be unique, non-NULL, and present in every row            |
+| **Alternate Key** | Candidate keys not selected as the primary key                                            |
+| **Foreign Key**   | Attribute(s) in one relation that match the primary key of another relation; links tables |
+| **Composite Key** | Primary key consisting of more than one attribute                                         |
 
 > [!WARNING]
 > A foreign key value must match an existing primary key value in the referenced table. Foreign keys can be NULL, but primary keys cannot.
@@ -55,11 +55,11 @@ A **DBMS key** is an attribute or set of attributes that uniquely identifies a r
 
 A **relationship** is a logical connection between tables, established by linking fields (same name, data type, size).
 
-| Type | Table A → Table B | Table B → Table A |
-|------|-------------------|-------------------|
-| **One-to-One** | 1 record | 1 record |
-| **One-to-Many** | 1 or more records | 1 record |
-| **Many-to-Many** | 1 or more records | 1 or more records |
+| Type             | Table A -> Table B | Table B -> Table A |
+| ---------------- | ------------------ | ------------------ |
+| **One-to-One**   | 1 record           | 1 record           |
+| **One-to-Many**  | 1 or more records  | 1 record           |
+| **Many-to-Many** | 1 or more records  | 1 or more records  |
 
 ## Database Management Systems (DBMS)
 
@@ -71,13 +71,13 @@ A **DBMS** is software that helps create and maintain databases. It handles secu
 
 ### SQL Statement Types
 
-| Type | Purpose |
-|------|---------|
-| **DQL (Data Query Language)** | Query the database for stored information |
-| **DDL (Data Definition Language)** | Define database schemas |
-| **DCL (Data Control Language)** | Control access, user and permissions management |
-| **DML (Data Manipulation Language)** | Insert, update, delete data |
-| **TCL (Transaction Control Language)** | Manage transactions |
+| Type                                   | Purpose                                         |
+| -------------------------------------- | ----------------------------------------------- |
+| **DQL (Data Query Language)**          | Query the database for stored information       |
+| **DDL (Data Definition Language)**     | Define database schemas                         |
+| **DCL (Data Control Language)**        | Control access, user and permissions management |
+| **DML (Data Manipulation Language)**   | Insert, update, delete data                     |
+| **TCL (Transaction Control Language)** | Manage transactions                             |
 
 ## MySQL
 
@@ -91,4 +91,4 @@ Installation: download the MySQL installer from `https://dev.mysql.com/downloads
 
 ---
 
-*5 min read (source: 16 min)*
+_5 min read (source: 16 min)_

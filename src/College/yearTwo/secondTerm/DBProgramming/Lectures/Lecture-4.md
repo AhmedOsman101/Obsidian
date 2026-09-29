@@ -73,44 +73,44 @@ Can reference multiple tables using JOIN.
 
 ### Comparison
 
-| Operator | Meaning |
-|----------|---------|
-| `=` | Equal |
-| `<>` or `!=` | Not equal |
-| `>` / `<` | Greater / less |
-| `>=` / `<=` | Greater or equal / less or equal |
-| `!<` / `!>` | Not less / not greater |
+| Operator     | Meaning                          |
+| ------------ | -------------------------------- |
+| `=`          | Equal                            |
+| `<>` or `!=` | Not equal                        |
+| `>` / `<`    | Greater / less                   |
+| `>=` / `<=`  | Greater or equal / less or equal |
+| `!<` / `!>`  | Not less / not greater           |
 
 ### Logical
 
-| Operator | Behavior |
-|----------|----------|
-| **ALL** | True if comparison is true for every value in a subquery |
-| **AND (`&&`)** | True if all conditions are true |
-| **ANY** | True if comparison is true for any value in a subquery |
-| **BETWEEN** | True if value is within a range (inclusive) |
-| **EXISTS** | True if a subquery returns at least one row |
-| **IN** | True if value matches any item in a list |
-| **LIKE** | Pattern matching with wildcards |
-| **NOT (`!`)** | Reverses a logical condition |
-| **OR (`\|\|`)** | True if at least one condition is true |
-| **IS NULL** | True if value is NULL |
-| **UNIQUE** | True if every row in a subquery is unique (no duplicates) |
+| Operator        | Behavior                                                  |
+| --------------- | --------------------------------------------------------- |
+| **ALL**         | True if comparison is true for every value in a subquery  |
+| **AND (`&&`)**  | True if all conditions are true                           |
+| **ANY**         | True if comparison is true for any value in a subquery    |
+| **BETWEEN**     | True if value is within a range (inclusive)               |
+| **EXISTS**      | True if a subquery returns at least one row               |
+| **IN**          | True if value matches any item in a list                  |
+| **LIKE**        | Pattern matching with wildcards                           |
+| **NOT (`!`)**   | Reverses a logical condition                              |
+| **OR (`\|\|`)** | True if at least one condition is true                    |
+| **IS NULL**     | True if value is NULL                                     |
+| **UNIQUE**      | True if every row in a subquery is unique (no duplicates) |
 
 ### LIKE Wildcards
 
-| Pattern | Matches |
-|---------|---------|
-| `'200%'` | Starts with "200" |
-| `'%200%'` | Contains "200" |
-| `'_00%'` | "00" in positions 2–3 |
-| `'2_%_%'` | Starts with "2", at least 3 chars |
-| `'%2'` | Ends with "2" |
-| `'_2%3'` | "2" in position 2, ends with "3" |
+| Pattern   | Matches                                       |
+| --------- | --------------------------------------------- |
+| `'200%'`  | Starts with "200"                             |
+| `'%200%'` | Contains "200"                                |
+| `'_00%'`  | "00" in positions 2–3                         |
+| `'2_%_%'` | Starts with "2", at least 3 chars             |
+| `'%2'`    | Ends with "2"                                 |
+| `'_2%3'`  | "2" in position 2, ends with "3"              |
 | `'2___3'` | 5-digit number starting with 2, ending with 3 |
 
 `%` matches any sequence of characters. `_` matches exactly one character.
 
 ---
 
-*4 min read (source: 9 min)*
+_4 min read (source: 9 min)_

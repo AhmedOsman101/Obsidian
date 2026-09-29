@@ -62,13 +62,13 @@ This division matters because routers forward traffic by network portion first, 
 
 The lecture also classifies IPv4 addresses by leading range and default mask.
 
-| Class | Range (first bit)                           | Default mask      | Typical use                     |
-| ----- | -------------------------------- | ----------------- | ------------------------------- |
-| **A** | **1.x.x.x to 126.x.x.x**   | **255.0.0.0**     | Large networks                  |
-| **B** | **128 to 191**     | **255.255.0.0**   | Medium networks                 |
-| **C** | **192 to 223** | **255.255.255.0** | Small networks                  |
-| **D** | **224 to 239**                   | N/A               | Multitasking in lecture wording |
-| **E** | **240 to 254**                   | N/A               | Research and development        |
+| Class | Range (first bit)        | Default mask      | Typical use                     |
+| ----- | ------------------------ | ----------------- | ------------------------------- |
+| **A** | **1.x.x.x to 126.x.x.x** | **255.0.0.0**     | Large networks                  |
+| **B** | **128 to 191**           | **255.255.0.0**   | Medium networks                 |
+| **C** | **192 to 223**           | **255.255.255.0** | Small networks                  |
+| **D** | **224 to 239**           | N/A               | Multitasking in lecture wording |
+| **E** | **240 to 254**           | N/A               | Research and development        |
 
 > [!CAUTION]
 > **127.x.x.x** is _not_ a normal assignable network start in this lecture because **127** is reserved for **loopback** functions.

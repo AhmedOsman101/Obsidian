@@ -14,13 +14,13 @@ next:
 
 Six categories:
 
-| Category | Examples |
-|----------|----------|
-| Exact Numeric | `INT`, `SMALLINT`, `DECIMAL`, `NUMERIC`, `BIT` |
-| Approximate Numeric | `FLOAT`, `REAL` |
-| Date and Time | `DATE`, `DATETIME`, `TIMESTAMP`, `YEAR` |
-| Character Strings | `CHAR`, `VARCHAR`, `TEXT` |
-| Unicode Character Strings | `NCHAR`, `NVARCHAR`, `NTEXT` |
+| Category                  | Examples                                       |
+| ------------------------- | ---------------------------------------------- |
+| Exact Numeric             | `INT`, `SMALLINT`, `DECIMAL`, `NUMERIC`, `BIT` |
+| Approximate Numeric       | `FLOAT`, `REAL`                                |
+| Date and Time             | `DATE`, `DATETIME`, `TIMESTAMP`, `YEAR`        |
+| Character Strings         | `CHAR`, `VARCHAR`, `TEXT`                      |
+| Unicode Character Strings | `NCHAR`, `NVARCHAR`, `NTEXT`                   |
 
 ## Database Operations
 
@@ -83,13 +83,13 @@ ALTER TABLE table_name DROP COLUMN column_name;
 
 Rules enforced on data columns. Can be **column-level** (one column) or **table-level** (entire table). If violated, the action is aborted.
 
-| Constraint | Description |
-|------------|-------------|
-| **NOT NULL** | Column cannot have a NULL value |
-| **UNIQUE** | All values in a column are different; can have many per table |
+| Constraint      | Description                                                    |
+| --------------- | -------------------------------------------------------------- |
+| **NOT NULL**    | Column cannot have a NULL value                                |
+| **UNIQUE**      | All values in a column are different; can have many per table  |
 | **PRIMARY KEY** | NOT NULL + UNIQUE; uniquely identifies each row; one per table |
-| **FOREIGN KEY** | Prevents actions that would destroy links between tables |
-| **CHECK** | Ensures values satisfy a specific condition |
+| **FOREIGN KEY** | Prevents actions that would destroy links between tables       |
+| **CHECK**       | Ensures values satisfy a specific condition                    |
 
 Specified at CREATE TABLE or added later with ALTER TABLE.
 
@@ -134,4 +134,4 @@ ALTER TABLE Persons DROP INDEX UC_Person;
 
 ---
 
-*3 min read (source: 10 min)*
+_3 min read (source: 10 min)_

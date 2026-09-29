@@ -19,13 +19,13 @@ A function accepts input parameters, performs actions, and returns a single valu
 
 ## Aggregate Functions
 
-| Function | Returns |
-|----------|---------|
+| Function        | Returns                                                    |
+| --------------- | ---------------------------------------------------------- |
 | **COUNT(expr)** | Number of rows with non-NULL values in the specified field |
-| **SUM(expr)** | Total sum of a numeric column (non-NULL values) |
-| **AVG(expr)** | Average of non-NULL values in a numeric column |
-| **MIN(expr)** | Smallest value in the selected column |
-| **MAX(expr)** | Largest value in the selected column |
+| **SUM(expr)**   | Total sum of a numeric column (non-NULL values)            |
+| **AVG(expr)**   | Average of non-NULL values in a numeric column             |
+| **MIN(expr)**   | Smallest value in the selected column                      |
+| **MAX(expr)**   | Largest value in the selected column                       |
 
 All five ignore NULL values. `COUNT(DISTINCT expr)` counts unique non-NULL rows.
 
@@ -41,12 +41,12 @@ SELECT MIN(salary), MAX(salary) FROM employees;
 
 Return values based on conditions — decision-making inside SQL statements.
 
-| Function | Behavior |
-|----------|----------|
-| **IF(condition, val_true, val_false)** | Returns `val_true` if condition is true, `val_false` otherwise |
-| **IFNULL(expr, alt)** | Returns `alt` if `expr` is NULL, otherwise returns `expr` |
-| **NULLIF(expr1, expr2)** | Returns NULL if `expr1 = expr2`, otherwise returns `expr1` |
-| **CASE** | Multi-condition branching; supports `WHEN ... THEN ... ELSE ... END` |
+| Function                               | Behavior                                                             |
+| -------------------------------------- | -------------------------------------------------------------------- |
+| **IF(condition, val_true, val_false)** | Returns `val_true` if condition is true, `val_false` otherwise       |
+| **IFNULL(expr, alt)**                  | Returns `alt` if `expr` is NULL, otherwise returns `expr`            |
+| **NULLIF(expr1, expr2)**               | Returns NULL if `expr1 = expr2`, otherwise returns `expr1`           |
+| **CASE**                               | Multi-condition branching; supports `WHEN ... THEN ... ELSE ... END` |
 
 ```sql
 SELECT IF(age >= 18, 'Adult', 'Minor') FROM users;
@@ -66,4 +66,4 @@ FROM students;
 
 ---
 
-*2 min read (source: 5 min)*
+_2 min read (source: 5 min)_

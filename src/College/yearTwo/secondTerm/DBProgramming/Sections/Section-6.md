@@ -122,4 +122,4 @@ DELETE FROM Customers;
 
 ---
 
-*3 min read (source: 9 min)*
+_3 min read (source: 9 min)_

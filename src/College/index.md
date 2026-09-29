@@ -13,3 +13,5 @@ lastUpdated: false
 - [Year Two](yearTwo/index.md)
   - [First Term](yearTwo/firstTerm/index.md)
   - [Second Term](yearTwo/secondTerm/index.md)
+- [Year Three](yearThree/index.md)
+  - [First Term](yearThree/firstTerm/index.md)

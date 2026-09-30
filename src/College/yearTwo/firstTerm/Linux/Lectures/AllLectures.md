@@ -1,6 +1,8 @@
-# Lecture 1: Introduction to Linux
+# Linux - All Lectures
 
-## What is an Operating System?
+## Lecture 1: Introduction to Linux
+
+### What is an Operating System?
 
 - The **Operating System (OS)** is the software that starts when the computer boots and manages all system operations.
 - It acts as a **manager**, controlling resources such as the CPU, memory, and storage.
@@ -11,20 +13,20 @@
 2. **Run Applications:** Executes application software (e.g., browsers, editors, games).
 3. **Manage Data and Files:** Handles operations like copying, moving, deleting, and renaming data.
 
-## Before Linux
+### Before Linux
 
 - **1980s:** Microsoft DOS dominated personal computers.
 - **Apple MAC:** Superior but expensive.
 - **UNIX:** Advanced but highly costly.
 - Users wanted a **UNIX-like, affordable system** that could run on PCs.
 
-## Linux Overview
+### Linux Overview
 
 - A **UNIX-like**, **free**, and **open-source** OS.
 - Based on **UNIX**, designed initially for PCs but later used in **servers**, **mainframes**, and **supercomputers**.
 - Runs on diverse hardware: PCs, phones, mainframes, and embedded devices.
 
-## Linux vs Unix vs Windows
+### Linux vs Unix vs Windows
 
 | Parameter      | Linux                | Unix           | Windows       |
 | -------------- | -------------------- | -------------- | ------------- |
@@ -37,7 +39,7 @@
 | Language       | C, Assembly          | C, Assembly    | C++, Assembly |
 | License        | GPL (open)           | Closed         | Proprietary   |
 
-## History of Linux
+### History of Linux
 
 **Linux** was first released by **Linus Torvalds** on **September 17, 1991**.
 
@@ -46,54 +48,54 @@
 - **Motivation:** He created it for his computer because he could't afford a licensed operating system.
 - **GPL (General Public License):** Ensures that Linux source code remains free to use, modify, and redistribute.
 
-## Linux Operating System
+### Linux Operating System
 
 - Based on the **Linux Kernel**, which handles communication between hardware and software.
 - A **distribution** combines the kernel with utilities and applications, forming a complete OS.
 - Various **Linux distributions** cater to different users and needs.
 
-## Features of Linux OS
+### Features of Linux OS
 
-### Open Source and Free
+#### Open Source and Free
 
 - Source code available to everyone.
 - Users can modify and redistribute freely.
 
-### Multi-User & Multiprogramming
+#### Multi-User & Multiprogramming
 
 - Supports multiple users and simultaneous programs.
 
-### Security
+#### Security
 
 - Resistant to most viruses; supports authentication, authorization, and encryption.
 - No antivirus required.
 
-### Lightweight
+#### Lightweight
 
 - Requires minimal resources (4–8GB storage, low RAM usage).
 - Supports numerous file formats.
 
-### Graphical User Interface
+#### Graphical User Interface
 
 - CLI by default, but can include GUI environments (GNOME, KDE, etc.).
 
-### Stability & Performance
+#### Stability & Performance
 
 - Rarely crashes; supports many concurrent users efficiently.
 
-### Portability & Compatibility
+#### Portability & Compatibility
 
 - Runs on a wide range of hardware and supports extensive applications.
 
-### Community Support
+#### Community Support
 
 - Backed by a large and active user/developer community.
 
-## Why Linux?
+### Why Linux?
 
 - Open-source flexibility, stability, and reliability make it ideal for developers, servers, and end users alike.
 
-## Linux Architecture
+### Linux Architecture
 
 1. **Kernel:** Core component managing hardware and virtual resources.
 2. **System Libraries:** Provide reusable functionality for developers.
@@ -101,7 +103,7 @@
 4. **Hardware Layer:** Physical components (CPU, RAM, I/O devices).
 5. **System Utilities:** Tools for managing system configurations, software, users, and performance.
 
-## Linux Distributions
+### Linux Distributions
 
 Main componentes of a distribution:
 
@@ -117,18 +119,18 @@ Main componentes of a distribution:
 
 - Summary: A **Linux distribution** = Kernel + Libraries + Tools + GUI + Applications.
 
-## Linux Distribution Families
+### Linux Distribution Families
 
 ![](figure-2.png)
 
-### Check Distribution
+#### Check Distribution
 
 ```bash
 cat /etc/issue      # Distribution name
 uname -a            # Kernel version
 ```
 
-## Choosing the Right Distribution
+### Choosing the Right Distribution
 
 - **Hardware Compatibility:** Ensure support for system architecture and devices.
 - **Application Requirements:** Verify package availability.
@@ -137,13 +139,13 @@ uname -a            # Kernel version
 - **Customizability:** Consider distros like Gentoo or Yocto for flexibility.
 - **User Experience:** Evaluate desktop environments and usability.
 
-## Linux Licensing
+### Linux Licensing
 
 - Licensed under **GNU GPL v2**, ensuring source code openness.
 - **GPL:** Promotes free modification and distribution.
 - Linus Torvalds declined GPL v3 for the kernel due to added restrictions.
 
-## Linux Commands
+### Linux Commands
 
 - **Commands** are instructions executed in the terminal.
 - **Case-sensitive.**
@@ -160,7 +162,7 @@ uname -a            # Kernel version
 command [ -options ] [ arguments ]
 ```
 
-## Shell
+### Shell
 
 - Interface between user and kernel.
 - Executes user commands and manages processes.
@@ -172,7 +174,7 @@ command [ -options ] [ arguments ]
 echo $SHELL
 ```
 
-## Bash (Bourne-Again Shell)
+### Bash (Bourne-Again Shell)
 
 - Developed by **Brian Fox** for the **GNU Project**.
 - Default shell for most Linux distributions.
@@ -180,7 +182,7 @@ echo $SHELL
 - Supports variables, conditionals, loops, and functions.
 - Reads scripts directly from files.
 
-## Shell Scripts
+### Shell Scripts
 
 - A **script** is a series of commands saved in a file.
 - Executed by a shell interpreter.
@@ -206,16 +208,16 @@ chmod u+x script.sh
 - Run via shell: `bash script.sh`
 - Source in current shell: `source script.sh` (any variables defined by the script remain in the current shell)
 
-## Example Script
+### Example Script
 
 ```bash
-#!/bin/bash
+##!/bin/bash
 
 rm *.txt # remove all text files
 ls -l
 ```
 
-## Man Command
+### Man Command
 
 - Access command manuals using:
 
@@ -226,7 +228,7 @@ man <command>
 - Contains sections: **NAME**, **SYNOPSIS**, **DESCRIPTION**, **OPTIONS**, **EXAMPLES**.
 - Exit manual: press **q**.
 
-## Manual Sections
+### Manual Sections
 
 1. General commands: Command used in the terminal.
 2. System calls: Functions provided by the kernel.
@@ -239,7 +241,7 @@ man <command>
 9. Games
 10. Miscellaneous
 
-## Examples
+### Examples
 
 ```bash
 man -aw     # View all sections of a topic
@@ -253,20 +255,20 @@ whereis -m  # Find man page location
 
 ---
 
-# Lecture 2: Linux Directories
+## Lecture 2: Linux Directories
 
-## Directory
+### Directory
 
-### What is a Directory?
+#### What is a Directory?
 
 A **directory** is a container for system and data files — essentially a folder used to organize files within the filesystem.
 
-### Linux vs. Windows Directory Structure
+#### Linux vs. Windows Directory Structure
 
 - **Windows:** Each drive (e.g., `C:\`, `D:\`) has its own root.
 - **Linux:** A **single root (`/`)** exists for the entire system; all files and directories branch from it.
 
-## Linux Directory Structure
+### Linux Directory Structure
 
 ![](figure-3.png)
 
@@ -281,20 +283,20 @@ A **directory** is a container for system and data files — essentially a folde
 |  `/mnt`   | Mount Directory.     | `/media`  | Removable Devices.     |
 |  `/srv`   | Service Data.        |  `/run`   | Volatile runtime data. |
 
-## Difference Between `/` and `/root`
+### Difference Between `/` and `/root`
 
 | Directory | Description                                                                                        |
 | --------- | -------------------------------------------------------------------------------------------------- |
 | `/`       | The **root directory**, top of the Linux file hierarchy. Every directory is a subdirectory of `/`. |
 | `/root`   | The **home directory** of the system administrator (root user).                                    |
 
-## The `/boot` Directory
+### The `/boot` Directory
 
 - Contains essential boot files, including the **Linux kernel** and **bootloader** (e.g. GRUB).
 - Required for system startup; losing this directory prevents the OS from booting.
 - Static and unshareable directory used **before user-mode processes** start.
 
-## Linux Directory Commands
+### Linux Directory Commands
 
 | Command | Description                                |
 | ------- | ------------------------------------------ |
@@ -304,15 +306,15 @@ A **directory** is a container for system and data files — essentially a folde
 | `mkdir` | Creates a new directory.                   |
 | `rmdir` | Removes an empty directory.                |
 
-## `pwd` Command
+### `pwd` Command
 
-### Description
+#### Description
 
 - **pwd** stands for _Print Working Directory_.
 - Displays the absolute path of the current directory.
 - Exists as both a **shell built-in** and a **binary** (`/bin/pwd`).
 
-### Syntax
+#### Syntax
 
 ```bash
 pwd    # Print the full filename of the current working directory.
@@ -322,33 +324,33 @@ pwd -P # Resolve all symlinks
 
 ![](figure-4.png)
 
-### `$PWD` Environment Variable
+#### `$PWD` Environment Variable
 
 - Stores the path of the current working directory.
 - `echo $PWD` gives the same output of `pwd -L`.
 
-### Options
+#### Options
 
 - `--help`: Displays help for the command.
 - `--version`: Displays version information.
 
 ![](figure-5.png)
 
-## `cd` Command
+### `cd` Command
 
-### Description
+#### Description
 
 - **cd** stands for _Change Directory_.
 - Used to move between directories.
 - Available as a shell built-in.
 
-### Syntax
+#### Syntax
 
 ```bash
 cd [directory]
 ```
 
-### Examples
+#### Examples
 
 ```bash
 cd /         # Move to the root directory
@@ -358,28 +360,28 @@ cd Documents # Move to a subdirectory
 cd ..        # Move to parent directory
 ```
 
-### Absolute vs Relative Paths
+#### Absolute vs Relative Paths
 
 - **Absolute Path:** Starts from `/` (root). Example: `/home/user/Documents`
 - **Relative Path:** Starts from the current directory. Example: `../Downloads`
 
-### Path Completion
+#### Path Completion
 
 - Press `Tab` to auto-complete filenames and directories.
 
-## `ls` Command
+### `ls` Command
 
-### Description
+#### Description
 
 Lists the files and directories within a directory (by default the current working directory).
 
-### Syntax
+#### Syntax
 
 ```bash
 ls [options] [directory]
 ```
 
-### Common Options
+#### Common Options
 
 | Option                 | Description                                      |
 | ---------------------- | ------------------------------------------------ |
@@ -395,7 +397,7 @@ ls [options] [directory]
 | `-S`                   | Sort by file size, largest first                 |
 | `-t`                   | Sort by modification time, newest first.         |
 
-### `ls -l` Format Fields
+#### `ls -l` Format Fields
 
 1. **Permissions:** e.g., `-rwxr-xr--` (user/group/others).
 2. **Links:** Number of hard links.
@@ -422,7 +424,7 @@ ls -l --block-size=M  # Display sizes in megabytes
 
 ![](figure-7.png)
 
-### Hidden Files and Directories
+#### Hidden Files and Directories
 
 - Hidden files start with a dot (`.`), e.g., `.bashrc`.
 - `ls -a`: Lists all files including `.` (current directory) and `..` (parent directory).
@@ -434,7 +436,7 @@ ls -l --block-size=M  # Display sizes in megabytes
 - Hides backups or configuration files.
 - Prevents accidental deletion.
 
-### Other Examples
+#### Other Examples
 
 - `ls ~` -> Lists home directory contents.
 - `ls ../` -> Lists parent directory contents.
@@ -447,19 +449,19 @@ ls -l --block-size=M  # Display sizes in megabytes
 
   ![](figure-9.png)
 
-## `mkdir` Command
+### `mkdir` Command
 
-### Description
+#### Description
 
 Creates directories in the filesystem.
 
-### Syntax
+#### Syntax
 
 ```bash
 mkdir [options] directory_name
 ```
 
-### Options
+#### Options
 
 | Option             | Description                                 |
 | ------------------ | ------------------------------------------- |
@@ -469,7 +471,7 @@ mkdir [options] directory_name
 | `--help`           | Display help information.                   |
 | `--version`        | Show version info.                          |
 
-### Examples
+#### Examples
 
 ```bash
 mkdir new_folder
@@ -477,25 +479,25 @@ mkdir -p dir1/dir2/dir3
 mkdir -m 755 secure_dir # Create a new directory with rwx-rw-rw- permissions
 ```
 
-## `rmdir` Command
+### `rmdir` Command
 
-### Description
+#### Description
 
 Removes **empty** directories only.
 
-### Syntax
+#### Syntax
 
 ```bash
 rmdir [options] directory_name
 ```
 
-### Example
+#### Example
 
 ```bash
 rmdir temp_folder
 ```
 
-### Recursive Deletion
+#### Recursive Deletion
 
 ```bash
 rmdir -p parent/child
@@ -503,19 +505,19 @@ rmdir -p parent/child
 
 Deletes a directory and its empty parent directories.
 
-## Renaming Directories
+### Renaming Directories
 
 Linux uses the `mv` command to move or rename directories (and files).
 
 There is no dedicated rename command.
 
-### Syntax
+#### Syntax
 
 ```bash
 mv [options] old_name new_name
 ```
 
-### Options
+#### Options
 
 |   Option   | Description                            |
 | :--------: | -------------------------------------- |
@@ -524,35 +526,35 @@ mv [options] old_name new_name
 |    `-i`    | Asks before overwriting.               |
 |    `-v`    | Verbose output showing operations.     |
 
-## `rename` Command
+### `rename` Command
 
-### Description
+#### Description
 
 Used for batch renaming of multiple files or directories.
 May need to be installed depending on the distribution.
 
-### Example
+#### Example
 
 ![](figure-10.png)
 
-### Installation
+#### Installation
 
 ```bash
-# Arch Linux (btw)
+## Arch Linux (btw)
 sudo pacman -S rename
 
-# Debian / Ubuntu
+## Debian / Ubuntu
 sudo apt install rename
 
-# Fedora
+## Fedora
 sudo yum install prename
 ```
 
 ---
 
-# Lecture 3: User Management in Linux
+## Lecture 3: User Management in Linux
 
-## Linux User
+### Linux User
 
 - A **user** is an individual who interacts with the Linux system.
 - Each user has a **unique username** and **user ID (UID)**.
@@ -564,7 +566,7 @@ sudo yum install prename
   - `1000+`: local users
 - Linux can support up to **60,000 user accounts** per system.
 
-## Types of User Accounts
+### Types of User Accounts
 
 1. **Root**
    - The **superuser** with complete system control.
@@ -579,7 +581,7 @@ sudo yum install prename
    - Regular accounts for everyday users.
    - Have limited privileges to ensure system security.
 
-## The Superuser
+### The Superuser
 
 - Account with **UID 0**, **GID 0**, and full control over the system.
 - Known as **root**.
@@ -588,7 +590,7 @@ sudo yum install prename
 - Must have a **strong password**.
 - Can access all files and perform any system action.
 
-## The `sudo` Command
+### The `sudo` Command
 
 - Allows users to execute commands as another user (typically root).
 
@@ -601,13 +603,13 @@ sudo [options] [-u user] command
 - If no user is specified, root is assumed.
 - A new shell is temporarily opened with elevated privileges.
 
-### Benefits of Using `sudo`
+#### Benefits of Using `sudo`
 
 - Prevents constant root access, reducing mistakes.
 - Removes need to share the root password.
 - Restricts users from executing unauthorized commands.
 
-## The `sudoers` File
+### The `sudoers` File
 
 - Defines which users can run commands as other users.
 - Configuration stored in: `/etc/sudoers`
@@ -620,12 +622,12 @@ visudo
 
 - Permissions can be granted per-user or per-group, with or without password prompts.
 
-## The `su` Command
+### The `su` Command
 
 - Stands for **substitute user** or **switch user**.
 - Used to switch to another user account (root by default).
 
-### Syntax
+#### Syntax
 
 ```bash
 su [options] [username]
@@ -635,7 +637,7 @@ su [options] [username]
 - Opens a new shell with that user's privileges.
 - Use `exit` to return to the previous shell.
 
-## Alternate Permission Models
+### Alternate Permission Models
 
 - Some distros (e.g., **Ubuntu**) disable direct root login.
 - Root password is unknown to the end user; must use `sudo` or GUI equivalents.
@@ -649,9 +651,9 @@ sudo su - user2  # Switch to user2
 
 Prompts for the user's password, not root's.
 
-## Permissions
+### Permissions
 
-### Access Rights
+#### Access Rights
 
 | Type  | Description                  |
 | ----- | ---------------------------- |
@@ -659,7 +661,7 @@ Prompts for the user's password, not root's.
 | **w** | Write (modify, move, delete) |
 | **x** | Execute                      |
 
-### Access Levels
+#### Access Levels
 
 | Level | Description    |
 | ----- | -------------- |
@@ -667,7 +669,7 @@ Prompts for the user's password, not root's.
 | **g** | Group          |
 | **o** | Others (world) |
 
-### Permissions Reference Table
+#### Permissions Reference Table
 
 | **Permission**      | **Octal** | **Binary** | **Symbolic** | **Description**                                  |
 | ------------------- | --------- | ---------- | ------------ | ------------------------------------------------ |
@@ -680,7 +682,7 @@ Prompts for the user's password, not root's.
 | **Read + Write**    | 6         | 110        | `rw-`        | Read and write (typical for data files)          |
 | **Full**            | 7         | 111        | `rwx`        | All permissions granted                          |
 
-### Changing Permissions
+#### Changing Permissions
 
 Use the `chmod` command:
 
@@ -699,24 +701,24 @@ Modes:
 Example: Assume `file.sh` has the following permissions: `-r--r--r--`
 
 ```bash
-# Grant the user write permission
+## Grant the user write permission
 chmod u+w file.sh  #=> -rw-r--r--
 
-# Grant execute permission to all
+## Grant execute permission to all
 chmod +x file.sh   #=> -rwxr-xr-x
 
-# Remove execute permission for group and others
+## Remove execute permission for group and others
 chmod go-x file.sh #=> -rwxr--r--
 ```
 
-## Linux Groups
+### Linux Groups
 
 - A **group** is a collection of users sharing common permissions.
 - Each group has a unique **Group ID (GID)**.
 - Files inherit the **group ownership** of the user who creates them.
 - Simplifies access control and permission management.
 
-## Linux Administration Files
+### Linux Administration Files
 
 | File           | Purpose                           |
 | -------------- | --------------------------------- |
@@ -725,7 +727,7 @@ chmod go-x file.sh #=> -rwxr--r--
 | `/etc/group`   | Contains group information.       |
 | `/etc/gshadow` | Secure group account information. |
 
-## Useful User Information Commands
+### Useful User Information Commands
 
 | Command  | Description                                 |
 | -------- | ------------------------------------------- |
@@ -733,7 +735,7 @@ chmod go-x file.sh #=> -rwxr--r--
 | `w`      | Lists logged-in users and their activities. |
 | `id`     | Shows UID, GID, and group memberships.      |
 
-### `id` Command Options
+#### `id` Command Options
 
 | Option         | Description                   |
 | -------------- | ----------------------------- |
@@ -745,7 +747,7 @@ chmod go-x file.sh #=> -rwxr--r--
 | `--help`       | Show help message.            |
 | `--version`    | Show version info.            |
 
-## Managing User Accounts
+### Managing User Accounts
 
 | Command    | Description                   |
 | ---------- | ----------------------------- |
@@ -756,7 +758,7 @@ chmod go-x file.sh #=> -rwxr--r--
 | `groupmod` | Modify existing group.        |
 | `groupdel` | Delete a group.               |
 
-## The `useradd` Command
+### The `useradd` Command
 
 - Adds new users to the system.
 - `adduser` is a symbolic link to `useradd`.
@@ -768,7 +770,7 @@ chmod go-x file.sh #=> -rwxr--r--
 
 - Creates a home directory for the new user in `/home`.
 
-### Common Usages
+#### Common Usages
 
 - Create user with custom home:
 
@@ -806,11 +808,11 @@ sudo useradd user3 -c "Developer" -s /bin/bash
 sudo useradd user4 -p strong_password
 ```
 
-## The `usermod` Command
+### The `usermod` Command
 
 - Modifies properties of an existing user.
 
-### Examples
+#### Examples
 
 The `usermod` command has similar options to the `useradd` command.
 
@@ -845,11 +847,11 @@ sudo usermod -U user1   # unlock
 sudo usermod -u 1100 user1
 ```
 
-## The `userdel` Command
+### The `userdel` Command
 
 - Deletes a user account.
 
-### Syntax
+#### Syntax
 
 ```bash
 userdel [options] username
@@ -862,7 +864,7 @@ userdel [options] username
 sudo userdel -r user1 # Removes the user's home directory
 ```
 
-### Options
+#### Options
 
 | Option         | Description                                                         |
 | -------------- | ------------------------------------------------------------------- |
@@ -871,14 +873,14 @@ sudo userdel -r user1 # Removes the user's home directory
 | `-R, --root`   | Apply within a chroot environment.                                  |
 | `-Z`           | Remove SELinux user mapping, applicable in SELinux-enabled systems. |
 
-## Managing Passwords
+### Managing Passwords
 
 Users can manage passwords in two ways:
 
 1. `passwd` command
 2. `openssl passwd` command
 
-### `passwd` Command
+#### `passwd` Command
 
 - Change password interactively.
 - Requires entering current password before new one.
@@ -887,7 +889,7 @@ Users can manage passwords in two ways:
 Authorized users in the `/etc/sudoers` file (e.g., the `admin` or `wheel` group) can use `sudo passwd root` to set or change the root password.
 This is essential for distributions where the root account is locked or has no password set by default.
 
-### Examples
+#### Examples
 
 - Change another user's password:
 
@@ -914,11 +916,11 @@ sudo passwd -u user1   # unlock
 sudo passwd -x 30 user1
 ```
 
-## Group Management
+### Group Management
 
 All groups are listed in the `/etc/group` file.
 
-### Creating Groups
+#### Creating Groups
 
 ```bash
 groupadd groupname
@@ -926,19 +928,19 @@ groupadd groupname
 
 Each new group gets a **GID**.
 
-### Checking User Groups
+#### Checking User Groups
 
 ```bash
 groups
 ```
 
-### Modifying Groups
+#### Modifying Groups
 
 ```bash
 groupmod oldname -n newname
 ```
 
-### Setting Group Passwords
+#### Setting Group Passwords
 
 ```bash
 gpasswd groupname
@@ -946,13 +948,13 @@ gpasswd groupname
 
 - Group passwords are stored in `/etc/gshadow`.
 
-### Adding Users to Groups
+#### Adding Users to Groups
 
 ```bash
 usermod username -aG groupname
 ```
 
-### Deleting Groups
+#### Deleting Groups
 
 ```bash
 groupdel groupname
@@ -960,9 +962,9 @@ groupdel groupname
 
 ---
 
-# Vi Text Editor
+## Vi Text Editor
 
-## Introduction to the Vi Editor
+### Introduction to the Vi Editor
 
 - Before **vi**, UNIX used a **line editor** that allowed editing one line at a time.
 - **vi** (Visual Editor) was created by **Bill Joy in 1976**.
@@ -971,14 +973,14 @@ groupdel groupname
 - Used for creating, editing, or viewing text files.
 - Not a text formatter (unlike MS Word); no margins or formatting controls.
 
-## Characteristics of Vi
+### Characteristics of Vi
 
 - Powerful and universally available on UNIX systems.
 - Harder to learn for new users, especially Windows users.
 - Allows movement and modification anywhere in a file.
 - Case-sensitive commands.
 
-## Starting Vi
+### Starting Vi
 
 ```bash
 vi filename
@@ -987,7 +989,7 @@ vi filename
 - Creates `filename` if it doesn't exist, otherwise opens it.
 - Opens in **Command Mode** by default.
 
-## Modes of Operation
+### Modes of Operation
 
 Vi has **three modes**:
 
@@ -995,20 +997,20 @@ Vi has **three modes**:
 2. **Insert Mode** – Used to type and edit text.
 3. **Last Line Mode (Escape Mode)** – Used to save, quit, or execute commands.
 
-## Command Mode
+### Command Mode
 
 - Activated by pressing **Esc**.
 - Keystrokes are interpreted as commands (not shown on screen).
 - Used for navigation, deletion, copying, and pasting text.
 - Pressing **Esc** again makes vi beep or flash if already in command mode.
 
-## Insert Mode
+### Insert Mode
 
 - Entered from Command Mode by pressing **i**.
 - Allows text input and editing.
 - Exit by pressing **Esc** to return to Command Mode.
 
-### Example
+#### Example
 
 ```bash
 vi vifile
@@ -1017,12 +1019,12 @@ This file is being created using the vi editor.
 <Esc>
 ```
 
-## Last Line Mode (Escape Mode)
+### Last Line Mode (Escape Mode)
 
 - Invoked by typing a colon `:` in Command Mode.
 - Cursor moves to the bottom for entering commands.
 
-### Common Commands
+#### Common Commands
 
 | Command       | Action                  |
 | ------------- | ----------------------- |
@@ -1034,7 +1036,7 @@ This file is being created using the vi editor.
 | `:wq` or `:x` | Save and quit           |
 | `ZZ`          | Save and quit           |
 
-## Input Mode Shortcuts
+### Input Mode Shortcuts
 
 | Command | Action                  |
 | ------- | ----------------------- |
@@ -1047,9 +1049,9 @@ This file is being created using the vi editor.
 | `r`     | Replace one character   |
 | `R`     | Overwrite text          |
 
-## Navigation and Cursor Movement
+### Navigation and Cursor Movement
 
-### Basic Movement
+#### Basic Movement
 
 | Command | Action     |
 | ------- | ---------- |
@@ -1058,7 +1060,7 @@ This file is being created using the vi editor.
 | `k`     | Move up    |
 | `l`     | Move right |
 
-### Word Navigation
+#### Word Navigation
 
 | Command | Action                |
 | ------- | --------------------- |
@@ -1070,7 +1072,7 @@ This file is being created using the vi editor.
 | `yw`    | Copy one word         |
 | `n dw`  | Delete n words        |
 
-### Line Navigation
+#### Line Navigation
 
 | Command           | Action                |
 | ----------------- | --------------------- |
@@ -1078,7 +1080,7 @@ This file is being created using the vi editor.
 | `$`               | Move to end of line   |
 | `30 \|`           | Move to column 30     |
 
-## Scrolling
+### Scrolling
 
 | Command     | Action                    |
 | ----------- | ------------------------- |
@@ -1088,7 +1090,7 @@ This file is being created using the vi editor.
 | `Ctrl+u`    | Scroll half page backward |
 | `10 Ctrl+f` | Scroll 10 pages forward   |
 
-## Absolute Movement
+### Absolute Movement
 
 | Command      | Action                     |
 | ------------ | -------------------------- |
@@ -1097,9 +1099,9 @@ This file is being created using the vi editor.
 | `1G` or `gg` | Go to first line           |
 | `nG`         | Go to line n (e.g., `40G`) |
 
-## Cut, Copy, and Paste
+### Cut, Copy, and Paste
 
-### Commands
+#### Commands
 
 | Command | Action                    |
 | ------- | ------------------------- |
@@ -1110,7 +1112,7 @@ This file is being created using the vi editor.
 | `n dd`  | Delete n lines            |
 | `n yy`  | Copy n lines              |
 
-## Deleting Text
+### Deleting Text
 
 | Command     | Action                    |
 | ----------- | ------------------------- |
@@ -1124,7 +1126,7 @@ This file is being created using the vi editor.
 | `:20,40d`   | Delete lines 20 to 40     |
 | `dG`        | Delete to end of file     |
 
-## Editing and Joining Lines
+### Editing and Joining Lines
 
 | Command | Action                     |
 | ------- | -------------------------- |
@@ -1133,7 +1135,7 @@ This file is being created using the vi editor.
 | `yyp`   | Duplicate current line     |
 | `ddp`   | Swap two lines             |
 
-## Undo and Repeat
+### Undo and Repeat
 
 | Command  | Action                           |
 | -------- | -------------------------------- |
@@ -1142,9 +1144,9 @@ This file is being created using the vi editor.
 | `U`      | Undo all changes on current line |
 | `.`      | Repeat last command              |
 
-## Searching for a Pattern
+### Searching for a Pattern
 
-### Search Commands
+#### Search Commands
 
 | Command      | Action                                    |
 | ------------ | ----------------------------------------- |
@@ -1157,7 +1159,7 @@ This file is being created using the vi editor.
 | `/\<word\>`  | Match exact word                          |
 | `/pl[abc]ce` | Match patterns like place, plbce, plcce   |
 
-## Replace Text
+### Replace Text
 
 | Command            | Action                                         |
 | ------------------ | ---------------------------------------------- |
@@ -1165,14 +1167,14 @@ This file is being created using the vi editor.
 | `:3,6 s/old/new/g` | Replace all matches in lines 3–6               |
 | `g` (modifier)     | Makes the substitution **global** on each line |
 
-## Text Buffers
+### Text Buffers
 
 | Command | Action                  |
 | ------- | ----------------------- |
 | `"add`  | Delete line to buffer a |
 | `"ap`   | Paste from buffer a     |
 
-## Set Commands
+### Set Commands
 
 | Command     | Description                           |
 | ----------- | ------------------------------------- |
@@ -1187,16 +1189,16 @@ This file is being created using the vi editor.
 | `:set term` | Display terminal type                 |
 | `:set bf`   | Discard control characters            |
 
-## Summary
+### Summary
 
 The **vi editor** is a powerful, universal text editor in UNIX/Linux.
 It operates in **three modes**, supports efficient navigation, editing, and text manipulation, and offers customization through **set commands**. Mastering vi enhances productivity and command-line efficiency.
 
 ---
 
-# Shell Scripts
+## Shell Scripts
 
-## Introduction to Shell Scripts
+### Introduction to Shell Scripts
 
 - **Shell** is the interface between a user and the operating system.
 - It converts human-readable commands into system-understandable instructions.
@@ -1204,7 +1206,7 @@ It operates in **three modes**, supports efficient navigation, editing, and text
 - The **Shell** is the outer layer that interacts with users.
 - The terminal runs a shell that provides a **command prompt** (usually `$`), where user commands are executed.
 
-## What is a Shell Script?
+### What is a Shell Script?
 
 - A **shell script** is a text file containing UNIX commands.
 - It usually starts with the **shebang (`#!`)** followed by the shell path (e.g., `#!/bin/sh`).
@@ -1212,22 +1214,22 @@ It operates in **three modes**, supports efficient navigation, editing, and text
 - Commands execute sequentially or based on control structures.
 - Commonly written for the **Bourne shell (sh)**.
 
-### Example
+#### Example
 
 ```bash
-#!/bin/sh
+##!/bin/sh
 
 echo "Hello World"
 ```
 
-## Why Use Shell Scripts?
+### Why Use Shell Scripts?
 
 - **Automate repetitive tasks** — replace a sequence of commands with one script.
 - **Simplify complex operations** — avoid remembering long command sequences.
 
-## Unix Shell Types
+### Unix Shell Types
 
-### Bourne Shell Family
+#### Bourne Shell Family
 
 - **Default prompt**: `$` character
 - **Subcategories**:
@@ -1236,14 +1238,14 @@ echo "Hello World"
   - Korn shell (ksh)
   - POSIX shell (sh)
 
-### C Shell Family
+#### C Shell Family
 
 - **Default prompt**: `%` character
 - **Variants**:
   - C shell (csh)
   - TENEX/TOPS C shell (tcsh)
 
-## Steps to Write and Execute a Shell Script
+### Steps to Write and Execute a Shell Script
 
 1. Open the terminal and navigate to a directory.
 2. Create a file with `.sh` extension.
@@ -1260,19 +1262,19 @@ chmod +x filename.sh
 ./filename.sh
 ```
 
-## Comments in Shell Script
+### Comments in Shell Script
 
 - Lines starting with `#` are **comments**.
 - Comments are ignored during execution.
 
-### Example
+#### Example
 
 ```bash
-# This is a comment
+## This is a comment
 echo "Script running..."
 ```
 
-## Determining Your Shell
+### Determining Your Shell
 
 To find the current shell:
 
@@ -1280,41 +1282,41 @@ To find the current shell:
 echo $SHELL
 ```
 
-## The Shebang (`#!`)
+### The Shebang (`#!`)
 
 - Defines which shell interpreter will execute the script.
 - Example:
 
 ```bash
-#!/usr/bin/env bash
+##!/usr/bin/env bash
 ```
 
 - The file must be made executable before running.
 
-## Shell Variables
+### Shell Variables
 
 - A variable stores data like numbers, text, or filenames.
 - Variable names can include letters, digits, and underscores.
 - Access variable values using `$`.
 
-### Example
+#### Example
 
 ```bash
 name="Othman"
 echo "Hello $name"
 ```
 
-### Read-Only Variables
+#### Read-Only Variables
 
 Once declared as read-only, a variable cannot be changed:
 
 ```bash
 readonly var1="constant"
-# Or
+## Or
 declare -r var2="constant"
 ```
 
-### Reading Variables from Input
+#### Reading Variables from Input
 
 ```bash
 echo "Enter your name:"
@@ -1322,7 +1324,7 @@ read name
 echo "Hello $name"
 ```
 
-### Unsetting Variables
+#### Unsetting Variables
 
 Deletes a variable from memory:
 
@@ -1330,7 +1332,7 @@ Deletes a variable from memory:
 unset var
 ```
 
-## Special Variables
+### Special Variables
 
 | Variable | Description                       |
 | -------- | --------------------------------- |
@@ -1343,10 +1345,10 @@ unset var
 | `$$`     | Process ID of current shell       |
 | `$!`     | PID of last background command    |
 
-### Example Script with Output
+#### Example Script with Output
 
 ```bash
-#!/usr/bin/env bash
+##!/usr/bin/env bash
 
 echo "Script name: $0"
 echo "All arguments: $*"
@@ -1367,7 +1369,7 @@ Second argument: banana
 Exit status: 0
 ```
 
-## Exit Status
+### Exit Status
 
 Any number other than `0` indicates a failure.
 
@@ -1375,7 +1377,7 @@ Any number other than `0` indicates a failure.
 - `0` = Success.
 - `1` = Failure.
 
-## Shell Arrays
+### Shell Arrays
 
 - Arrays hold multiple values in one variable (bash only).
 
@@ -1385,7 +1387,7 @@ echo ${arr[1]}   # Outputs banana
 echo ${arr[@]}   # Outputs all elements
 ```
 
-## Storing Command Output
+### Storing Command Output
 
 Use backticks or `$()`:
 
@@ -1397,28 +1399,28 @@ year=`date +%Y` # Old syntax
 echo "Year is $year"
 ```
 
-## Arithmetic Operations Using `expr` Command
+### Arithmetic Operations Using `expr` Command
 
 - The complete expression should be enclosed between backticks (\`)
 - There must be spaces between operators and expressions
 - **Example:**
 
 ```bash
-# Correct:
+## Correct:
 val=`expr 2 + 2`
 
-# Incorrect (no spaces):
+## Incorrect (no spaces):
 val=`expr 2+2`
 ```
 
-### Modern Arithmetic Features
+#### Modern Arithmetic Features
 
 > [!NOTE]
 > Arithmetic expansion `$(())` and arithmetic evaluation `(( ))` were introduced in Bash 2.0 (1996) as modern alternatives to `expr`.
 
-## Shell Operators
+### Shell Operators
 
-### Integer Comparison
+#### Integer Comparison
 
 | Operator | Meaning               |
 | -------- | --------------------- |
@@ -1429,7 +1431,7 @@ val=`expr 2+2`
 | `-lt`    | Less than             |
 | `-le`    | Less than or equal    |
 
-### Boolean Operators
+#### Boolean Operators
 
 | Operator | Meaning | Example                       |
 | -------- | ------- | ----------------------------- |
@@ -1437,9 +1439,9 @@ val=`expr 2+2`
 | `-o`     | OR      | `[ $a -lt 10 -o $b -gt 100 ]` |
 | `-a`     | AND     | `[ $a -lt 10 -a $b -gt 5 ]`   |
 
-## Conditional Statements
+### Conditional Statements
 
-### If Statement
+#### If Statement
 
 ```bash
 if [ condition ]; then
@@ -1447,7 +1449,7 @@ if [ condition ]; then
 fi
 ```
 
-### If-Else Statement
+#### If-Else Statement
 
 ```bash
 if [ condition ]; then
@@ -1457,7 +1459,7 @@ else
 fi
 ```
 
-### Case Statement
+#### Case Statement
 
 Used for multi-condition checks:
 
@@ -1470,9 +1472,9 @@ case $var in
 esac
 ```
 
-## Loops
+### Loops
 
-### While Loop
+#### While Loop
 
 Executes while a condition is true:
 
@@ -1482,7 +1484,7 @@ while [ condition ]; do
 done
 ```
 
-### For Loop
+#### For Loop
 
 Iterates over a list:
 
@@ -1492,7 +1494,7 @@ for item in 1 2 3; do
 done
 ```
 
-### Until Loop
+#### Until Loop
 
 Executes until a condition becomes true:
 
@@ -1502,7 +1504,7 @@ until [ condition ]; do
 done
 ```
 
-### Select Loop
+#### Select Loop
 
 Displays a numbered menu for user input:
 
@@ -1530,9 +1532,9 @@ select number in {1..10} none; do
 done
 ```
 
-## Loop Control Statements
+### Loop Control Statements
 
-### Break Statement
+#### Break Statement
 
 Terminates the loop early:
 
@@ -1544,7 +1546,7 @@ for i in 1 2 3; do
 done
 ```
 
-### Continue Statement
+#### Continue Statement
 
 Skips to next iteration:
 
@@ -1557,12 +1559,12 @@ for i in 1 2 3; do
 done
 ```
 
-## Shell Functions
+### Shell Functions
 
 - Functions divide scripts into reusable blocks.
 - Parameters are accessed as `$1`, `$2`, etc.
 
-### Example
+#### Example
 
 ```bash
 myfunc() {
@@ -1571,10 +1573,10 @@ myfunc() {
 myfunc "Othman"
 ```
 
-## Example Script: Factorial
+### Example Script: Factorial
 
 ```bash
-#!/usr/bin/env bash
+##!/usr/bin/env bash
 
 echo -n "Enter a number: "
 read -r a
@@ -1588,9 +1590,9 @@ echo "Factorial: $fact"
 
 ---
 
-# Lecture 6: Linux Files
+## Lecture 6: Linux Files
 
-## 1. Core Concepts
+### 1. Core Concepts
 
 The foundational principle of the Linux file system is that in the Linux system, everything is a file. If it is not a file, it is a process.
 
@@ -1598,7 +1600,7 @@ The term "file" in Linux has a broad scope. It encompasses not only standard dat
 
 Filenames in Linux are always case-sensitive. Consequently, `demo.txt` and `Demo.txt` are recognized as two distinct and separate files.
 
-## 2. Linux File Types
+### 2. Linux File Types
 
 Linux classifies files into several distinct types, each identified by a specific character in detailed directory listings.
 
@@ -1622,7 +1624,7 @@ Linux classifies files into several distinct types, each identified by a specifi
 > The file types identified by `b`, `c`, `p`, `l`, and `s` are classified as Special files.
 > The type of any given file can be determined using the `file` command.
 
-## 3. File Management Commands
+### 3. File Management Commands
 
 The following commands are essential for basic file management operations.
 
@@ -1635,9 +1637,9 @@ The following commands are essential for basic file management operations.
 | `mv`     | To rename or to move a file. |
 | `rename` | To rename multiple files.    |
 
-## 4. Copy & Move Commands
+### 4. Copy & Move Commands
 
-### `cp` Command
+#### `cp` Command
 
 Copies files and directories.
 
@@ -1650,7 +1652,7 @@ Copies files and directories.
 - `cp -p` : Preserve file properties.
 - `cp -u -v` : Copy only when source is newer or dest is missing (verbose).
 
-## 5. File Creation Methods
+### 5. File Creation Methods
 
 Linux offers multiple methods for creating new files, ranging from command-line utilities to full-featured text editors.
 
@@ -1662,12 +1664,12 @@ Linux offers multiple methods for creating new files, ranging from command-line 
 
 ---
 
-### 5.1 `touch` Command
+#### 5.1 `touch` Command
 
 The `touch` command serves two primary functions: creating a new, empty file or updating the access and modification timestamps of an existing file. It is particularly useful when you need to create a file placeholder before the data is ready to be stored.
 
 ```bash
-# Create an empty file
+## Create an empty file
 touch new.txt
 ```
 
@@ -1675,7 +1677,7 @@ The key difference between `touch` and `cat` for file creation is that `touch` c
 
 ---
 
-### 5.2 `cat` Command for Creation
+#### 5.2 `cat` Command for Creation
 
 The `cat` command can be combined with the `>` redirection operator to create a new file and immediately add content to it.
 
@@ -1687,7 +1689,7 @@ After executing the command, you can type the desired content directly into the 
 
 ---
 
-### 5.3 Redirect `>` Symbol
+#### 5.3 Redirect `>` Symbol
 
 The redirection operator `>` can be used without a preceding command to create an empty file.
 
@@ -1698,10 +1700,10 @@ The redirection operator `>` can be used without a preceding command to create a
 It can be also used with a preceding command to redirect the output into the file.
 
 ```bash
-# Redirect output of ls command into output.txt file overwriting its content.
+## Redirect output of ls command into output.txt file overwriting its content.
 ls -l > output.txt
 
-# Redirect the output of the commands into new.txt appending into the end of the file.
+## Redirect the output of the commands into new.txt appending into the end of the file.
 pwd >> new.txt
 which bash >> new.txt
 ```
@@ -1711,7 +1713,7 @@ It is important to distinguish between the two redirection operators:
 - `>` **(overwrite):** Redirects output to a file. If the file exists, its contents are overwritten. If it does not exist, it is created.
 - `>>` **(append):** Appends output to the end of a file. If the file does not exist, it is created.
 
-### 5.4 `echo` and `printf` Commands
+#### 5.4 `echo` and `printf` Commands
 
 The `echo` and `printf` commands are used to create a file with content specified directly on the command line.
 
@@ -1721,7 +1723,7 @@ echo "File content" > test6.txt
 
 ---
 
-### 5.5 Text Editors
+#### 5.5 Text Editors
 
 Standard Linux text editors provide a more interactive way to create and edit files. Common editors include `vim`, `nano`, and `vi`.
 
@@ -1731,32 +1733,32 @@ To save and exit the `nano` editor, follow these steps:
 2. Press `y` to confirm that you want to save the changes.
 3. Press `Enter` to save the file with the current name.
 
-## 6. File Content Viewing and Manipulation
+### 6. File Content Viewing and Manipulation
 
-### 6.1 `cat` Command
+#### 6.1 `cat` Command
 
 Beyond file creation, the `cat` command is a versatile tool for viewing and manipulating file content.
 
 ```bash
-# View single file: Displays the entire content of a single file to the terminal.
+## View single file: Displays the entire content of a single file to the terminal.
 cat file.txt
 
-# View multiple files: Displays the content of multiple files sequentially, one after the other.
+## View multiple files: Displays the content of multiple files sequentially, one after the other.
 cat file-1.txt file-2.txt file-3.txt
 
-# Show line numbers
+## Show line numbers
 cat -n file.txt
 
-# Copy contents: Redirects the content of one file into another, overwriting the destination file.
+## Copy contents: Redirects the content of one file into another, overwriting the destination file.
 cat old.txt > new.txt
 
-# Concatenate/Merge files: The `>>` operator appends the content of one or more files to a destination file.
+## Concatenate/Merge files: The `>>` operator appends the content of one or more files to a destination file.
 cat file-1.txt file-2.txt >> file-3.txt
 
-# Using wildcards -> merge all .txt files into all.txt
+## Using wildcards -> merge all .txt files into all.txt
 cat *.txt >> all.txt
 
-# Highlight end of lines: displays a $ character at the end of each line, making trailing whitespace visible.
+## Highlight end of lines: displays a $ character at the end of each line, making trailing whitespace visible.
 cat -e file.txt
 ```
 
@@ -1770,7 +1772,7 @@ cat -e file.txt
 
 ---
 
-### 6.2 `tac` Command
+#### 6.2 `tac` Command
 
 The `tac` command (named as the reverse of `cat`) displays the contents of a file in reverse order, printing the last line first.
 
@@ -1778,9 +1780,9 @@ The `tac` command (named as the reverse of `cat`) displays the contents of a fil
 tac <file name>
 ```
 
-## 7. File Deletion and Type Determination
+### 7. File Deletion and Type Determination
 
-### 7.1 `rm` Command Options
+#### 7.1 `rm` Command Options
 
 The `rm` (remove) command is used to delete files and directories.
 
@@ -1797,7 +1799,7 @@ The `rm` (remove) command is used to delete files and directories.
 
 ---
 
-### 7.2 `file` Command Options
+#### 7.2 `file` Command Options
 
 The `file` command determines a file's type.
 
@@ -1808,9 +1810,9 @@ The `file` command determines a file's type.
 
 ![](figure-14.png)
 
-## 8. Search Commands
+### 8. Search Commands
 
-### 8.1 `find` Command
+#### 8.1 `find` Command
 
 Searches for files in the filesystem based on conditions.
 
@@ -1824,7 +1826,7 @@ Searches for files in the filesystem based on conditions.
 
 ---
 
-### 8.2 `locate` Command
+#### 8.2 `locate` Command
 
 Searches for files using a pre-built database (faster than `find`).
 
@@ -1838,7 +1840,7 @@ Searches for files using a pre-built database (faster than `find`).
 
 ---
 
-### 8.3 `which` Command
+#### 8.3 `which` Command
 
 Locates the path of an executable or command.
 
@@ -1846,9 +1848,9 @@ Locates the path of an executable or command.
 - `which -a <program_name>`: Print all matches in PATH, not just the first
 - `which node cat ls`
 
-## 9. Viewing Commands
+### 9. Viewing Commands
 
-### 9.1 `head` Command
+#### 9.1 `head` Command
 
 Displays the first part (default: 10 lines) of a file.
 
@@ -1861,7 +1863,7 @@ Displays the first part (default: 10 lines) of a file.
 
 ---
 
-### 9.2 `tail` Command
+#### 9.2 `tail` Command
 
 Displays the last part (default: 10 lines) of a file. Used to monitor logs. Can display multiple files.
 
@@ -1870,7 +1872,7 @@ Displays the last part (default: 10 lines) of a file. Used to monitor logs. Can 
 
 ---
 
-### 9.3 `more` Command
+#### 9.3 `more` Command
 
 Displays file content one screen at a time (for large files). Cannot display binary files.
 
@@ -1884,7 +1886,7 @@ Displays file content one screen at a time (for large files). Cannot display bin
 
 ---
 
-### 9.4 `less` Command
+#### 9.4 `less` Command
 
 An advanced version of `more` with additional features (adjusts to window size, supports search).
 
@@ -1900,9 +1902,9 @@ The `less` command have navigation keys similar to the `vim` editor.
 
 ---
 
-# Lecture 7: Networking Commands
+## Lecture 7: Networking Commands
 
-## 1. Command Overview
+### 1. Command Overview
 
 The following table lists key networking commands and their core functions. Familiarity with this set is crucial for any system or network administrator preparing for certification.
 
@@ -1927,9 +1929,9 @@ The following table lists key networking commands and their core functions. Fami
 | `whois`         | Retrieve domain registration (WHOIS) information.                                               |
 | `ifplugstatus`  | Indicate whether a network cable is connected.                                                  |
 
-## 2. Connectivity Testing Commands
+### 2. Connectivity Testing Commands
 
-### `ping` (Packet Internet Groper)
+#### `ping` (Packet Internet Groper)
 
 As a network administrator, `ping` is the first and most essential tool for verifying basic network connectivity. Short for **Packet Internet Groper**, it works by sending Internet Control Message Protocol (ICMP) Echo Request packets to a target host and waiting for a response.
 
@@ -1962,9 +1964,9 @@ Where `<destination>` is a DNS name or an IP address.
 
 ![](figure-16.png)
 
-## 3. Network Interface & Configuration Commands
+### 3. Network Interface & Configuration Commands
 
-### `ifconfig` (Interface Configurator)
+#### `ifconfig` (Interface Configurator)
 
 The `ifconfig` command, short for **Interface Configurator**, is used to display network addresses and configure network interfaces.
 It allows administrators to view interface details, activate or deactivate interfaces, and assign IP addresses.
@@ -2019,7 +2021,7 @@ ifconfig eth0 192.168.1.102 netmask 255.255.255.0 broadcast 192.168.1.255
 
 ---
 
-### `ip` Command
+#### `ip` Command
 
 The `ip` command is the modern replacement for `ifconfig`, `route`, and `arp`.
 It provides a unified interface for managing network configuration.
@@ -2036,7 +2038,7 @@ ip addr show
 
 ---
 
-### `hostname`
+#### `hostname`
 
 The `hostname` command displays the system's current hostname.
 
@@ -2046,7 +2048,7 @@ To permanently change the hostname across reboots, use `hostnamectl`.
 
 ---
 
-### `route`
+#### `route`
 
 - **Purpose:** Display or manipulate the IP routing table
 - **Syntax:** `route`
@@ -2056,9 +2058,9 @@ To permanently change the hostname across reboots, use `hostnamectl`.
 route add -net 192.168.90.0/24 gw 10.0.0.1
 ```
 
-## 4. Route and Path Tracing Commands
+### 4. Route and Path Tracing Commands
 
-### `traceroute`
+#### `traceroute`
 
 The `traceroute` command displays the path packets take to reach a destination by listing each router (hop) along the way.
 It is commonly used to diagnose slow or failing connections when `ping` results are abnormal.
@@ -2067,7 +2069,7 @@ It is commonly used to diagnose slow or failing connections when `ping` results 
 
 ---
 
-### `tracepath`
+#### `tracepath`
 
 The `tracepath` command provides similar functionality to `traceroute` but does not require root privileges.
 
@@ -2077,11 +2079,11 @@ The `tracepath` command provides similar functionality to `traceroute` but does 
 - Trace packet paths
 - Display intermediate devices
 
-## 5. DNS Query Commands
+### 5. DNS Query Commands
 
 DNS resolution is a core networking concept. These tools allow administrators to troubleshoot and inspect DNS records directly from the command line.
 
-### `host`
+#### `host`
 
 Performs DNS lookups to resolve domain names to IP addresses and supports reverse lookups.
 
@@ -2089,7 +2091,7 @@ Performs DNS lookups to resolve domain names to IP addresses and supports revers
 
 ---
 
-### `nslookup` (Name Server Lookup)
+#### `nslookup` (Name Server Lookup)
 
 Queries DNS servers to resolve domain names and IP addresses.
 
@@ -2101,7 +2103,7 @@ Queries DNS servers to resolve domain names and IP addresses.
 
 ![](figure-23.png)
 
-#### Querying Specific DNS Records
+##### Querying Specific DNS Records
 
 - **NS record:** Identify authoritative name servers
 
@@ -2117,15 +2119,15 @@ nslookup -type=mx outlook.com
 
 ---
 
-### `dig` (Domain Information Groper)
+#### `dig` (Domain Information Groper)
 
 A powerful and flexible DNS query tool commonly used for troubleshooting. It provides detailed DNS response data.
 
 ![](figure-24.png)
 
-## 6. Connection & Port Information Commands
+### 6. Connection & Port Information Commands
 
-### `netstat` (Network Statistics)
+#### `netstat` (Network Statistics)
 
 Displays network statistics including open sockets, routing tables, and active connections.
 Although deprecated in favor of `ss`, it remains relevant for legacy systems.
@@ -2165,7 +2167,7 @@ netstat -s
 
 ---
 
-### `ss` (Socket Statistics)
+#### `ss` (Socket Statistics)
 
 - **Purpose:** Faster and more detailed replacement for `netstat`
 - **Syntax:**
@@ -2176,7 +2178,7 @@ ss
 
 ---
 
-### `arp` (Address Resolution Protocol)
+#### `arp` (Address Resolution Protocol)
 
 Displays and modifies the ARP cache, which maps IP addresses to MAC addresses.
 
@@ -2187,28 +2189,28 @@ arp -e # display (all) hosts in default (Linux) style
 
 ---
 
-# Lecture 8: Process Management
+## Lecture 8: Process Management
 
-## Core Definitions
+### Core Definitions
 
 - **Program**: Series of instructions telling the computer what to do.
 - **Process**: A **program in execution**. A running instance of a program loaded into memory.
 - **Process Management**: Tuning or controlling a process.
 - **Job**: A process started from the shell.
 
-## Process Types / States
+### Process Types / States
 
-### Based on Execution Mode
+#### Based on Execution Mode
 
 Processes in Linux can run in one of two modes, which determines their interaction with the user terminal.
 
-#### Foreground Process
+##### Foreground Process
 
 By default, all processes run in the foreground.
 Runs on the terminal, receives input from keyboard (`stdin`) and sends output to screen (`stdout`).
 Blocks the terminal until finished/killed.
 
-#### Background Process
+##### Background Process
 
 Runs independently without requiring keyboard input.
 Allows other commands to run in the foreground simultaneously.
@@ -2218,7 +2220,7 @@ To run a command as a background process, append an ampersand (`&`) to the end o
 sleep 30 &
 ```
 
-### Based on Relationships & Status
+#### Based on Relationships & Status
 
 1.  **Parent process**
     Any process that creates another process.
@@ -2237,9 +2239,9 @@ sleep 30 &
     Daemons are usually detached from any controlling TTY, their TTY field often appears as `?` in process listings.
     Examples include `sshd`, `cron`, and `systemd` services.
 
-## Key Commands
+### Key Commands
 
-### Job Control Commands
+#### Job Control Commands
 
 The following commands and keystrokes are used to manage jobs:
 
@@ -2254,11 +2256,11 @@ The following commands and keystrokes are used to manage jobs:
 | `bg %N`             | Resumes the suspended job number N and runs it in the background.      |
 | `Ctrl+C`            | Terminates the current foreground job.                                 |
 
-### Monitoring & Listing Processes
+#### Monitoring & Listing Processes
 
 There are two primary commands available in Linux to track running processes: `top` and `ps`.
 
-#### The `top` Command
+##### The `top` Command
 
 The `top` command provides a real-time, dynamic view of the processes running on the system.
 
@@ -2266,7 +2268,7 @@ The `top` command provides a real-time, dynamic view of the processes running on
 - Kill: Highlight process, press `k`.
 - Quit: Press `q`.
 
-#### The `ps` Command
+##### The `ps` Command
 
 The `ps` (process status) command is used to view currently running processes.
 
@@ -2334,9 +2336,9 @@ The `--ppid` option is used to list all child processes that share the same Pare
 
 ![](figure-33.png)
 
-## Terminating and Prioritizing Processes
+### Terminating and Prioritizing Processes
 
-### Terminating Processes
+#### Terminating Processes
 
 There are three primary methods for ending a process:
 
@@ -2350,7 +2352,7 @@ There are three primary methods for ending a process:
    If a process ignores the interrupt signal, you can force its termination using `kill -9 <PID>`.
    This sends a forceful kill signal (SIGKILL).
 
-### Prioritizing Processes (Niceness)
+#### Prioritizing Processes (Niceness)
 
 In Linux, process priority can be influenced by its 'Niceness' value.
 
@@ -2360,9 +2362,9 @@ In Linux, process priority can be influenced by its 'Niceness' value.
 
 ---
 
-# Lecture 9: Linux Filters & Commands
+## Lecture 9: Linux Filters & Commands
 
-## Filters
+### Filters
 
 A Linux filter is a program that takes plain text as standard input, transforms it into a meaningful format, and returns the result as standard output.
 
@@ -2373,7 +2375,7 @@ A Linux filter is a program that takes plain text as standard input, transforms 
 - **Purpose:** Transform plain-text data.
 - **Design Principle:** Filters are typically small, specialized programs, building blocks for more complex operations.
 
-## Pipe
+### Pipe
 
 The pipe (`|`) is a mechanism that passes the output of one command as the input for another command.
 
@@ -2393,13 +2395,13 @@ ps | head -5
 
 ![](figure-34.png)
 
-## Redirection
+### Redirection
 
 In Linux, standard devices are treated as files.
 The keyboard is considered standard input (file descriptor 0), while the terminal screen is used for both standard output (1) and standard error (2).
 Redirection allows you to change where input comes from and where output goes.
 
-### Output Redirection
+#### Output Redirection
 
 The greater-than symbol (`>`) is used to redirect output, sending the results of a command to a file instead of the terminal screen.
 
@@ -2409,7 +2411,7 @@ ls > list.txt
 
 This example writes the output of the `ls` command into a file named `list.txt`.
 
-### Input Redirection
+#### Input Redirection
 
 The less-than symbol (`<`) is used to redirect input, telling a command to read from a file instead of the keyboard.
 
@@ -2420,16 +2422,16 @@ cat < file.txt
 The `<` symbol redirects the content of `file.txt` to the standard input of the `cat` command.
 `cat` then processes this input and writes it to its standard output (the terminal screen).
 
-### Combined Example
+#### Combined Example
 
 ![](figure-35.png)
 
 Here we redirected the output of the `banner` script to the file `file.txt`.
 Then, we redirected the file `file.txt` to the input of the `cat` command, which prints it to the screen.
 
-## Filter Commands
+### Filter Commands
 
-### `cat`
+#### `cat`
 
 Concatenate files and display them on the standard output, line by line.
 
@@ -2439,7 +2441,7 @@ Concatenate files and display them on the standard output, line by line.
 
 ---
 
-### `sort`
+#### `sort`
 
 Sort lines of text files.
 By default, it sorts lines alphabetically, but numerous options are available to modify the sorting mechanism.
@@ -2450,7 +2452,7 @@ By default, it sorts lines alphabetically, but numerous options are available to
 
 ---
 
-### `uniq`
+#### `uniq`
 
 The `uniq` command removes duplicate lines from a file's content. A critical limitation is that it can only remove _adjacent_ (continuous) duplicate lines.
 
@@ -2460,7 +2462,7 @@ The `uniq` command removes duplicate lines from a file's content. A critical lim
 
 ---
 
-### `wc`
+#### `wc`
 
 The `wc` (word count) command counts the number of lines, words, and characters in its input.
 
@@ -2470,7 +2472,7 @@ The `wc` (word count) command counts the number of lines, words, and characters 
 
 ---
 
-### `grep`
+#### `grep`
 
 The `grep` (global regular expression print) command is used to search for a specific pattern within the content of a file.
 
@@ -2480,7 +2482,7 @@ The `grep` (global regular expression print) command is used to search for a spe
 
 ---
 
-### `sed`
+#### `sed`
 
 The `sed` (stream editor) command performs search and replace operations on data.
 
@@ -2492,7 +2494,7 @@ The `sed` (stream editor) command performs search and replace operations on data
 
 ---
 
-### `nl`
+#### `nl`
 
 The `nl` command is used to add line numbers to text data. Similar output to `cat -n` command.
 
@@ -2502,7 +2504,7 @@ The `nl` command is used to add line numbers to text data. Similar output to `ca
 
 ---
 
-### `comm`
+#### `comm`
 
 The `comm` command compares two sorted files line by line.
 
@@ -2518,7 +2520,7 @@ The `comm` command compares two sorted files line by line.
 
 ---
 
-### `tee`
+#### `tee`
 
 The `tee` command reads content from standard input and simultaneously writes that content to both standard output and one or more specified files.
 
@@ -2528,7 +2530,7 @@ The `tee` command reads content from standard input and simultaneously writes th
 
 ---
 
-### `awk`
+#### `awk`
 
 `awk` is a powerful scripting language used for advanced text processing. It is particularly useful for tasks where simpler tools like `sed` have limitations.
 
@@ -2548,7 +2550,7 @@ Prints the second field (separated with spaces by default) from each line.
 
 ---
 
-### `gzip` / `gunzip`
+#### `gzip` / `gunzip`
 
 - **Purpose:** The `gzip` command is used to compress files, while the `gunzip` command is used to decompress them.
 - **File Extension:** Files compressed with `gzip` are given a `.gz` extension.

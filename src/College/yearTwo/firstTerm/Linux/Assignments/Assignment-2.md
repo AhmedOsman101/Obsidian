@@ -1,4 +1,6 @@
-# Student Details
+# Linux Essentials Assignment 2
+
+## Student Details
 
 | Field   | Value                    |
 | :------ | :----------------------- |
@@ -6,8 +8,6 @@
 | Code    | 20240592                 |
 | Section | 1                        |
 | Number  | 15                       |
-
-# Linux Essentials Assignment 2
 
 ## Task No.01
 

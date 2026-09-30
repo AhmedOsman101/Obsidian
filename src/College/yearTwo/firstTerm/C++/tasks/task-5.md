@@ -1,8 +1,8 @@
 # Ahmad Ali Ahmad Othman - Section 1 - Sheet 6
 
-# Question (1)
+## Question (1)
 
-## Question (1-a)
+### Question (1-a)
 
 **Write a program to print the value of the address of the pointer to a variable whose value is input from user.**
 
@@ -23,7 +23,7 @@ int main() {
 }
 ```
 
-## Question (1-b)
+### Question (1-b)
 
 **Write a program to print a number which is entered from keyboard using pointer.**
 
@@ -44,7 +44,7 @@ int main() {
 }
 ```
 
-## Question (1-c)
+### Question (1-c)
 
 **Write a function which will take pointer and display the number on screen. Take number from user and print it on screen using that function.**
 
@@ -65,7 +65,7 @@ int main() {
 }
 ```
 
-## Question (1-d)
+### Question (1-d)
 
 Write a program that asks the user to enter integers as inputs to be stored in the variables `a` and `b` respectively.
 There are also two integer pointers named `ptrA` and `ptrB`.
@@ -96,9 +96,9 @@ int main() {
 
 ---
 
-# Question (2)
+## Question (2)
 
-## Question (2-a)
+### Question (2-a)
 
 Given the string "A string." Print on one line the letter on the index 0, the pointer position and the letter t. undate the pointer to pointer +2. Then, in another line print the pointer and the letters r and g of the string (using the pointer).
 
@@ -117,7 +117,7 @@ int main() {
 }
 ```
 
-## Question (2-b)
+### Question (2-b)
 
 **Find max element in array using pointer**
 
@@ -149,7 +149,7 @@ int main() {
 }
 ```
 
-## Question (2-c)
+### Question (2-c)
 
 **Print size of different data types using pointers**
 
@@ -172,7 +172,7 @@ int main() {
 }
 ```
 
-## Question (2-d)
+### Question (2-d)
 
 **Print and sum array elements using pointers**
 
@@ -204,9 +204,9 @@ int main() {
 }
 ```
 
-## Question (2) : Find the output of the following program:
+### Question (2) : Find the output of the following program:
 
-### A)
+#### A)
 
 ![](figure-5.png)
 
@@ -214,7 +214,7 @@ int main() {
 129, a
 ```
 
-### B)
+#### B)
 
 ![](figure-6.png)
 
@@ -227,7 +227,7 @@ file.cpp:9:4: error: increment of read-only location '*(const int*)ptr'
       |   ~^~~~~
 ```
 
-### C)
+#### C)
 
 ![](figure-7.png)
 
@@ -235,7 +235,7 @@ file.cpp:9:4: error: increment of read-only location '*(const int*)ptr'
 14
 ```
 
-### D)
+#### D)
 
 ![](figure-7.png)
 
@@ -243,7 +243,7 @@ file.cpp:9:4: error: increment of read-only location '*(const int*)ptr'
 14
 ```
 
-### E)
+#### E)
 
 ![](figure-8.png)
 
@@ -256,7 +256,7 @@ file.cpp:6:21: error: 'ra' declared as reference but not initialized
       |                     ^~
 ```
 
-### F)
+#### F)
 
 ![](figure-9.png)
 

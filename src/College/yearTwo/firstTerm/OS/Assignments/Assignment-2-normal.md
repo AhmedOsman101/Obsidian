@@ -1,4 +1,6 @@
-# Student Details
+# Operating System Assignment 2
+
+## Student Details
 
 | Field   | Value                    |
 | :------ | :----------------------- |
@@ -6,8 +8,6 @@
 | Code    | 20240592                 |
 | Section | 1                        |
 | Number  | 15                       |
-
-# Operating System Assignment 2
 
 ## Task 1
 

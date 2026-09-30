@@ -8,9 +8,7 @@ next:
   link: "/College/yearTwo/secondTerm/Java/Book/Chapter-7"
 ---
 
-# Java - Chapter 6
-
-# Chapter 6 - Methods (Liang)
+# Java - Chapter 6 - Methods
 
 ## Defining a Method
 

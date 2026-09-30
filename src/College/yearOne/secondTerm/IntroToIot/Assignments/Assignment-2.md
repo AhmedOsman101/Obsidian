@@ -269,7 +269,7 @@ HDFS is a distributed file system that stores data across multiple machines, pro
 
 Press open a Terminal then type the following command it will update the packages and it will ask the password type the user password which you used while login if you did not set a login password then just hit enter.
 
-```shell
+```bash
 sudo pacman -Sy
 ```
 
@@ -277,13 +277,13 @@ sudo pacman -Sy
 
 The command `sudo pacman -S jdk8-openjdk` is necessary for Hadoop because it installs the OpenJDK 8 Development Kit, which is a prerequisite for running Hadoop. Hadoop is a Java-based framework, and it requires a compatible Java Development Kit (JDK) to execute its processes and applications
 
-```shell
+```bash
 sudo pacman -S jdk8-openjdk
 ```
 
 Verify it after installation by the following command
 
-```shell
+```bash
 java -version; javac -version
 ```
 
@@ -293,7 +293,7 @@ java -version; javac -version
 
 This command is necessary for Hadoop as it installs the SSH server and client packages. These packages enable secure communication between Hadoop nodes in a distributed cluster, ensuring efficient data transfer and coordination
 
-```shell
+```bash
 sudo pacman -S openssh
 ```
 
@@ -305,13 +305,13 @@ This step is not necessary but it is perferable to add a new user for the hadoop
 
 Name username to `hdoop`.
 
-```shell
+```bash
 sudo useradd -m -s $(which bash) hdoop
 ```
 
 Then add password after that hit enter.
 
-```shell
+```bash
 sudo passwd hdoop
 ```
 
@@ -319,7 +319,7 @@ sudo passwd hdoop
 
 This step is necessary as it allows your new user to edit the changes without any errors.
 
-```shell
+```bash
 sudo usermod -aG wheel hdoop
 ```
 
@@ -327,7 +327,7 @@ sudo usermod -aG wheel hdoop
 
 Now we will switch to the new user so we can download the hadoop and setup it in that user just type the following command it will ask for the password which you set it will creating the new user in **4th Step.**
 
-```shell
+```bash
 su - hdoop
 ```
 
@@ -337,7 +337,7 @@ As you can see we switch it to our hdoop user
 
 Copy the following commands in sequence it will genrate the SSH key
 
-```shell
+```bash
 ssh-keygen -t rsa -P '' -f ~/.ssh/id\_rsa
 
 cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
@@ -364,7 +364,7 @@ Now copy the below link of the version you selected
 
 Copy this link and then go to terminal and type `wget <copied-link>` like this
 
-```shell
+```bash
 wget https://dlcdn.apache.org/hadoop/common/hadoop-3.3.6/hadoop-3.3.6.tar.gz
 ```
 
@@ -372,7 +372,7 @@ wget https://dlcdn.apache.org/hadoop/common/hadoop-3.3.6/hadoop-3.3.6.tar.gz
 
 Now unzip the packages make sure to edit the following command if you have downloaded different version you can type _ls_ if you are not sure for the file name
 
-```shell
+```bash
 tar xzf hadoop-3.3.6.tar.gz
 ```
 
@@ -386,13 +386,13 @@ Firstly edit bashrc file this is very important if you installed different versi
 
 Open Bashrc file give password if ask
 
-```shell
+```bash
 vim .bashrc
 ```
 
 Now go the bottom of the file and copy the following code and paste it there. Note : if you have installed different version change the version in the following code accordingly
 
-```shell
+```bash
 #Hadoop Related Options
 export HADOOP_HOME=/home/hdoop/hadoop-3.2.4
 export HADOOP_INSTALL=$HADOOP_HOME
@@ -410,7 +410,7 @@ Type `i` for insert mode, make your edits, hit `esc` then type `:wq` to save and
 
 Type the following code to save it.
 
-```shell
+```bash
 source ~/.bashrc
 ```
 
@@ -418,13 +418,13 @@ source ~/.bashrc
 
 Edit the hadoop-env.sh file
 
-```shell
+```bash
 vim $HADOOP_HOME/etc/hadoop/hadoop-env.sh
 ```
 
 Add this line in the end of the file
 
-```shell
+```bash
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk
 ```
 
@@ -432,7 +432,7 @@ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk
 
 Type following command in terminal to open new file
 
-```shell
+```bash
 vim $HADOOP_HOME/etc/hadoop/core-site.xml
 ```
 
@@ -455,7 +455,7 @@ Add below lines in this file(between `<configuration>` and `</configuration>`)
 
 open the 4th file by following command
 
-```shell
+```bash
 vim $HADOOP_HOME/etc/hadoop/hdfs-site.xml
 ```
 
@@ -480,7 +480,7 @@ Add below lines in this file(between `<configuration>` and `</configuration>`)
 
 Open the 4th file by following command on Terminal
 
-```shell
+```bash
 vim $HADOOP_HOME/etc/hadoop/mapred-site.xml
 ```
 
@@ -497,7 +497,7 @@ Add below lines in this file(between `<configuration>` and `</configuration>`)
 
 Open the 6th file by following command on Terminal
 
-```shell
+```bash
 vim $HADOOP_HOME/etc/hadoop/yarn-site.xml
 ```
 
@@ -530,7 +530,7 @@ Add below lines in this file(between `<configuration>` and `</configuration>`)
 
 Add following command and wait for few second
 
-```shell
+```bash
 hdfs namenode -format
 ```
 
@@ -542,7 +542,7 @@ hdfs namenode -format
 
 Type this command to start hadoop for all service wait for 10 second it will start the hadoop
 
-```shell
+```bash
 start-all.sh
 ```
 

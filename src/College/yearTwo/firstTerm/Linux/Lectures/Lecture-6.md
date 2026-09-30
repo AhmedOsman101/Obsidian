@@ -86,7 +86,7 @@ Linux offers multiple methods for creating new files, ranging from command-line 
 
 The `touch` command serves two primary functions: creating a new, empty file or updating the access and modification timestamps of an existing file. It is particularly useful when you need to create a file placeholder before the data is ready to be stored.
 
-```sh
+```bash
 # Create an empty file
 touch new.txt
 ```
@@ -99,7 +99,7 @@ The key difference between `touch` and `cat` for file creation is that `touch` c
 
 The `cat` command can be combined with the `>` redirection operator to create a new file and immediately add content to it.
 
-```sh
+```bash
 cat > test.txt
 ```
 
@@ -157,7 +157,7 @@ To save and exit the `nano` editor, follow these steps:
 
 Beyond file creation, the `cat` command is a versatile tool for viewing and manipulating file content.
 
-```sh
+```bash
 # View single file: Displays the entire content of a single file to the terminal.
 cat file.txt
 

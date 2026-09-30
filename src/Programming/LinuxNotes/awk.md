@@ -4,7 +4,7 @@
 
 By default columns are separated by the whitespace character
 
-```shell
+```bash
 ps | awk '{print $1}'  # prints the first column of text
 ps | awk '{print $NF}' # prints the last column of text
 ps | awk '{print $0}'  # prints everything
@@ -13,7 +13,7 @@ ps | awk '{print}'     # prints everything
 
 ## Working with field separators
 
-```shell
+```bash
 # separates the columns by the colon `:` character, the prints the first column
 cat /etc/passwd | awk -F ":" '{print $1}'
 
@@ -28,7 +28,7 @@ awk 'BEGIN{FS=":"; OFS="\t"} {print $1, $NF}' /etc/passwd
 
 ## Filtering lines with regex
 
-```shell
+```bash
 # Sets the field separator as `/` finds each line starting with a `/` and prints the last column
 awk -F "/" '/^\// {print $NF}' /etc/shells
 ```

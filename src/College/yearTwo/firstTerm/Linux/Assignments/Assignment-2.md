@@ -30,7 +30,7 @@
 
 To display **all currently running processes in full format**, use:
 
-```shell
+```bash
 ps -ef
 ```
 
@@ -39,7 +39,7 @@ ps -ef
 
 Alternatively, a more detailed output can be obtained with:
 
-```shell
+```bash
 ps aux
 ```
 
@@ -64,7 +64,7 @@ The `cat` (concatenate) command is a basic utility used to read, combine, and wr
 
 **Examples:**
 
-```shell
+```bash
 # Show contents of file.txt
 cat file.txt
 
@@ -97,7 +97,7 @@ The `file` command determines a file's type by examining its contents rather tha
 
 **Examples:**
 
-```shell
+```bash
 # Identify the type of a file
 file myfile
 
@@ -123,7 +123,7 @@ The `route` command displays or modifies the system's IP routing table.
 
 **Examples:**
 
-```shell
+```bash
 # Display routing table
 route -n
 
@@ -145,7 +145,7 @@ The `nice` command is used to start a process with a specific scheduling priorit
 
 **Examples:**
 
-```shell
+```bash
 # Run a command with lower priority
 nice -n 10 myscript.sh
 
@@ -167,7 +167,7 @@ The `grep` command searches for patterns in text using regular expressions.
 
 **Examples:**
 
-```shell
+```bash
 # Search for a word in a file
 grep "error" log.txt
 
@@ -189,7 +189,7 @@ The `gunzip` command decompresses files compressed with `gzip`.
 
 **Examples:**
 
-```shell
+```bash
 # Decompress file.gz
 gunzip file.gz
 
@@ -208,7 +208,7 @@ The `netstat` command displays network connections, routing tables, and interfac
 
 **Examples:**
 
-```shell
+```bash
 # Show all listening ports
 netstat -tuln
 
@@ -228,7 +228,7 @@ The `sed` (stream editor) command performs text transformations on input streams
 
 **Examples:**
 
-```shell
+```bash
 # Replace 'foo' with 'bar'
 sed 's/foo/bar/' file.txt
 
@@ -251,7 +251,7 @@ The `top` command provides a real-time view of system processes and resource usa
 
 **Examples:**
 
-```shell
+```bash
 # Start process monitor
 top
 ```
@@ -273,7 +273,7 @@ The `bg` command resumes a stopped job in the background.
 
 **Examples:**
 
-```shell
+```bash
 # Suspend a running process
 Ctrl+Z
 
@@ -302,13 +302,13 @@ Shows the first 10 lines of `big.txt`.
 
 #### Determine the path along which a packet travels
 
-```shell
+```bash
 traceroute <destination>
 ```
 
 #### Display IP Address, Hardware and MAC address. It is also used configure network interfaces
 
-```shell
+```bash
 ip addr
 ```
 
@@ -316,13 +316,13 @@ ip addr
 
 #### Stop a process
 
-```shell
+```bash
 kill <PID>
 ```
 
 #### Search for all .conf files under /etc
 
-```shell
+```bash
 sudo find /etc -name '*.conf'
 ```
 
@@ -330,13 +330,13 @@ sudo find /etc -name '*.conf'
 
 #### Display CPU and memory usage of a process
 
-```shell
+```bash
 top
 ```
 
 Alternatively, for a specific process:
 
-```shell
+```bash
 top -p <PID>
 # Or
 ps -p <PID> -o %cpu,%mem,cmd
@@ -346,7 +346,7 @@ ps -p <PID> -o %cpu,%mem,cmd
 
 #### Display routing table
 
-```shell
+```bash
 route -n
 # or
 ip route
@@ -356,7 +356,7 @@ ip route
 
 #### Trace the path to `www.google.com`
 
-```shell
+```bash
 traceroute www.google.com
 ```
 
@@ -364,7 +364,7 @@ traceroute www.google.com
 
 #### Redirect the output of `ls` to a file `files.txt`
 
-```shell
+```bash
 ls > files.txt
 ```
 
@@ -374,61 +374,61 @@ ls > files.txt
 
 #### Copy multiple files and directories
 
-```shell
+```bash
 cp file1 file2 /destination/
 ```
 
 Copy directories recursively:
 
-```shell
+```bash
 cp -r dir1 dir2 /destination/
 ```
 
 #### Take a backup for an existing file
 
-```shell
+```bash
 cp file.txt file.txt.bak
 ```
 
 #### Remove duplicate lines of a file
 
-```shell
+```bash
 sort file.txt | uniq
 ```
 
 Overwrite file with unique lines:
 
-```shell
+```bash
 sort file.txt | uniq > clean.txt
 ```
 
 #### View only active connections
 
-```shell
+```bash
 netstat -an | grep ESTABLISHED
 ```
 
 #### Search for a particular information inside a text file
 
-```shell
+```bash
 grep "keyword" filename.txt
 ```
 
 #### Compress a directory into a `.tar.gz` backup
 
-```shell
+```bash
 tar -czvf backup.tar.gz directory/
 ```
 
 #### Show last 50 lines
 
-```shell
+```bash
 tail -n 50 filename.txt
 ```
 
 #### Show kernel version
 
-```shell
+```bash
 uname -r
 ```
 
@@ -442,72 +442,72 @@ uname -r
 
 #### Display the first 30 lines of a file named `logs.txt`
 
-```shell
+```bash
 head -n 30 logs.txt
 ```
 
 #### Start a program with lower priority (nice value = 10)
 
-```shell
+```bash
 nice -n 10 script.sh
 ```
 
 #### Display all processes running under the user `root`
 
-```shell
+```bash
 ps -u root
 ```
 
 Full format:
 
-```shell
+```bash
 ps -u root -f
 ```
 
 #### Count how many words are inside the file `report.txt`
 
-```shell
+```bash
 wc -w report.txt
 ```
 
 #### List all processes that are running in the background for the current user
 
-```shell
+```bash
 jobs
 ```
 
 #### Display the file content in reverse order
 
-```shell
+```bash
 tac filename.txt
 ```
 
 #### Query DNS to fetch the IP address or domain name from DNS records
 
-```shell
+```bash
 nslookup domain.com
 ```
 
 Alternative:
 
-```shell
+```bash
 dig domain.com
 ```
 
 #### Change the hostname of the server
 
-```shell
+```bash
 hostnamectl set-hostname new-hostname
 ```
 
 #### Show the parent process ID (PPID) of a process with PID 2000
 
-```shell
+```bash
 ps -o ppid= -p 2000
 ```
 
 #### Remove duplicates and save into a new file
 
-```shell
+```bash
 sort file.txt | uniq > unique.txt
 ```

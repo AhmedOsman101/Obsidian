@@ -133,7 +133,7 @@ Raspberry Pi OS (Linux based) comes with a GUI but relies heavily on terminal co
 
 ### Updating Raspberry Pi OS:
 
-```sh
+```bash
 # Update package repositories
 sudo apt update
 
@@ -148,7 +148,7 @@ Unlike other devices, the Raspberry Pi has no **off** switch.
 - **Do not** unplug it directly.
 - Use the terminal to shut it down safely:
 
-```sh
+```bash
 sudo shutdown # or sudo poweroff
 ```
 

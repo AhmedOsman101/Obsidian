@@ -18,7 +18,7 @@ const vitePressOptions: UserConfig = {
     },
     breaks: true,
     image: {
-      lazyLoading: true,
+      lazyLoad: true,
     },
     linkify: true,
     toc: {
@@ -91,9 +91,18 @@ const vitePressOptions: UserConfig = {
     // optionally set additional config for plugin itself with MermaidPluginConfig
   },
   vite: {
+    // Vite 8 (rolldown) no longer pre-bundles this CJS dep by default, so
+    // mermaid's deep import of 'fastdom/extensions/fastdom-promised.js'
+    // reached the browser as raw CommonJS and threw
+    // "doesn't provide an export named: 'default'".
+    // Naming the CJS packages here forces Vite to optimize them so the
+    // browser always gets real ESM. See commit 6944502 (rollup -> rolldown).
+    optimizeDeps: {
+      include: ["mermaid", "fastdom", "fastdom/extensions/fastdom-promised.js"],
+    },
     build: {
       chunkSizeWarningLimit: 3072,
-      rollupOptions: { treeshake: true, cache: true },
+      rolldownOptions: { treeshake: true },
     },
     server: { host: true },
   },
@@ -120,5 +129,5 @@ const vitePressSidebarOptions: VitePressSidebarOptions = {
 };
 
 export default defineConfig(
-  withSidebar(withMermaid(vitePressOptions), vitePressSidebarOptions),
+  withSidebar(withMermaid(vitePressOptions), vitePressSidebarOptions)
 );

@@ -673,7 +673,7 @@ $$
 
 <br><br><br><br><br><br>
 
-# 12. Convert these decimal values to hex.
+## 12. Convert these decimal values to hex.
 
 ### A. $75_{10}$
 

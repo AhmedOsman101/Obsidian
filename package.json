@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@markslides/markdown-it-mermaid": "^0.4.6",
-    "@types/node": "^26.6.3",
+    "@types/node": "^26.6.4",
     "husky": "^9.1.7",
     "markdown-it-mathjax3": "^5.2.0",
     "mermaid": "^11.17.2",
@@ -22,7 +22,7 @@
   "dependencies": {
     "@braintree/sanitize-url": "^7.1.2",
     "@catppuccin/vitepress": "^0.1.4",
-    "@shikijs/types": "^4.4.3",
+    "@shikijs/types": "^4.5.0",
     "@vercel/speed-insights": "^2.0.0",
     "cytoscape": "^3.34.3",
     "cytoscape-cose-bilkent": "^4.1.0",

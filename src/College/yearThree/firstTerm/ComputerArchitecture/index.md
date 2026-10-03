@@ -1,5 +1,5 @@
 ---
-title: ComputerArchitecture
+title: Computer Architecture
 prev:
   text: "First Term"
   link: "/College/yearThree/firstTerm/index"

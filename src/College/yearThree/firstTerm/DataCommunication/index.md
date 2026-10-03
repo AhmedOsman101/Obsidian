@@ -1,5 +1,5 @@
 ---
-title: DataCommunication
+title: Data Communication
 prev:
   text: "First Term"
   link: "/College/yearThree/firstTerm/index"

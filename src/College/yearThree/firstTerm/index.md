@@ -10,3 +10,4 @@ lastUpdated: false
 # Year Three - First Term
 
 - [Data Communication](DataCommunication/index.md)
+- [Computer Architecture](ComputerArchitecture/index.md)

@@ -13,3 +13,4 @@ lastUpdated: false
 - [Computer Architecture](ComputerArchitecture/index.md)
 - [Java II](Java/index.md)
 - [Computer Graphics](ComputerGraphics/index.md)
+- [Advanced C](C/index.md)

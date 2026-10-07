@@ -16,16 +16,16 @@ $$\text{Vector} = \text{Magnitude} + \text{Direction}$$
 
 In 3D graphics a vector has three **components**: $V = (V_x, V_y, V_z)$
 
-| Component | Represents        |
-| --------- | ----------------- |
-| $V_x$     | X — left / right  |
-| $V_y$     | Y — up / down     |
+| Component | Represents             |
+| --------- | ---------------------- |
+| $V_x$     | X — left / right       |
+| $V_y$     | Y — up / down          |
 | $V_z$     | Z — forward / backward |
 
 A 2D vector drops $V_z$: $V = (V_x, V_y)$, where $V_x$ is the horizontal component and $V_y$ the vertical.
 
 > [!NOTE] Simple example
-> For a 3D object with **Point A → Point B**, the vector between them is **Direction + Magnitude** — it tells us where the vector points and how long it is.
+> For a 3D object with **Point A -> Point B**, the vector between them is **Direction + Magnitude** — it tells us where the vector points and how long it is.
 
 ## Why Do We Need Vectors?
 
@@ -115,13 +115,13 @@ A **scalar** is a **single number** used to multiply a vector.
 
 $$kV = (kV_x, \; kV_y)$$
 
-**Example:** $V = (2, 3)$ multiplied by 2 → $2V = (2 \times 2, \; 2 \times 3) = (4, 6)$
+**Example:** $V = (2, 3)$ multiplied by 2 -> $2V = (2 \times 2, \; 2 \times 3) = (4, 6)$
 
-| Scalar  | Effect on the vector        |
-| ------- | --------------------------- |
-| $k > 1$ | Vector becomes **longer**   |
+| Scalar      | Effect on the vector       |
+| ----------- | -------------------------- |
+| $k > 1$     | Vector becomes **longer**  |
 | $0 < k < 1$ | Vector becomes **shorter** |
-| $k < 0$ | **Direction reverses**      |
+| $k < 0$     | **Direction reverses**     |
 
 **Why:** scale the magnitude of a vector · control the amount of movement · change the size of a direction vector.
 
@@ -152,19 +152,19 @@ $$C = A \times B$$
 
 $$A \times B = \left(A_yB_z - A_zB_y, \; A_zB_x - A_xB_z, \; A_xB_y - A_yB_x\right)$$
 
-**Example:** $A = (1, 0, 0)$, $B = (0, 1, 0)$ → $A \times B = (0, 0, 1)$ — perpendicular to both.
+**Example:** $A = (1, 0, 0)$, $B = (0, 1, 0)$ -> $A \times B = (0, 0, 1)$ — perpendicular to both.
 
 **Why:** calculate **surface normals** · find a perpendicular direction · determine surface orientation · important in 3D geometry and lighting.
 
 ### Comparison
 
-| Operation               | Input           | Output  | Main Purpose                     |
-| ----------------------- | --------------- | ------- | -------------------------------- |
-| **Addition**            | Vector + Vector | Vector  | Combine movements / effects      |
-| **Subtraction**         | Vector − Vector | Vector  | Find difference / direction      |
+| Operation                 | Input           | Output | Main Purpose                     |
+| ------------------------- | --------------- | ------ | -------------------------------- |
+| **Addition**              | Vector + Vector | Vector | Combine movements / effects      |
+| **Subtraction**           | Vector − Vector | Vector | Find difference / direction      |
 | **Scalar Multiplication** | Number × Vector | Vector | Change magnitude                 |
-| **Dot Product**         | Vector · Vector | Scalar  | Relationship / angle / lighting  |
-| **Cross Product**       | Vector × Vector | Vector  | Perpendicular direction / normal |
+| **Dot Product**           | Vector · Vector | Scalar | Relationship / angle / lighting  |
+| **Cross Product**         | Vector × Vector | Vector | Perpendicular direction / normal |
 
 > [!WARNING] Exam Note
 > The **dot product is the only operation that returns a scalar**. Every other one returns a vector — that single distinction answers several comparison questions.
@@ -179,7 +179,7 @@ Given $P = (x, y)$ and translation $T = (T_x, T_y)$:
 
 $$P' = (x + T_x, \; y + T_y)$$
 
-**Example:** $P = (2, 3)$, $T = (4, 2)$ → $P' = (2 + 4, \; 3 + 2) = (6, 5)$
+**Example:** $P = (2, 3)$, $T = (4, 2)$ -> $P' = (2 + 4, \; 3 + 2) = (6, 5)$
 
 **Why:** move an object on the screen · change its position · move characters, shapes, or objects in a scene · implement object movement.
 
@@ -191,12 +191,12 @@ Given $P = (x, y)$ and factors $S = (S_x, S_y)$:
 
 $$P' = (S_x x, \; S_y y)$$
 
-**Example:** $P = (2, 3)$, $S = (2, 2)$ → $P' = (2 \times 2, \; 3 \times 2) = (4, 6)$
+**Example:** $P = (2, 3)$, $S = (2, 2)$ -> $P' = (2 \times 2, \; 3 \times 2) = (4, 6)$
 
-| Type                 | Condition | Effect                          |
-| -------------------- | --------- | ------------------------------- |
-| **Uniform**          | $S_x = S_y$ | Same proportion in both directions |
-| **Non-uniform**      | $S_x \neq S_y$ | **Different scaling** in X and Y |
+| Type            | Condition      | Effect                             |
+| --------------- | -------------- | ---------------------------------- |
+| **Uniform**     | $S_x = S_y$    | Same proportion in both directions |
+| **Non-uniform** | $S_x \neq S_y$ | **Different scaling** in X and Y   |
 
 **Why:** enlarge an object · reduce an object · resize shapes and images · create zooming effects.
 
@@ -225,8 +225,8 @@ So the point moved from the **positive X-axis** to the **positive Y-axis**, givi
 
 **Reflection** creates a **mirror image** of an object with respect to an **axis or a line**.
 
-| Reflection     | Rule             | Example        | Result     |
-| -------------- | ---------------- | -------------- | ---------- |
+| Reflection       | Rule                 | Example      | Result         |
+| ---------------- | -------------------- | ------------ | -------------- |
 | **About X-axis** | $(x, y) \to (x, -y)$ | $P = (3, 4)$ | $P' = (3, -4)$ |
 | **About Y-axis** | $(x, y) \to (-x, y)$ | $P = (3, 4)$ | $P' = (-3, 4)$ |
 
@@ -237,12 +237,12 @@ So the point moved from the **positive X-axis** to the **positive Y-axis**, givi
 
 ### Transformation Comparison
 
-| Transformation | What it changes        | Formula                     | Preserves size/shape      |
-| -------------- | ---------------------- | --------------------------- | ------------------------- |
+| Transformation  | What it changes        | Formula                     | Preserves size/shape      |
+| --------------- | ---------------------- | --------------------------- | ------------------------- |
 | **Translation** | Position               | $P' = P + T$                | Both                      |
-| **Scaling**    | Size                   | $P' = S \cdot P$            | Shape only if $S_x = S_y$ |
-| **Rotation**   | Orientation            | $P' = R(\theta) \cdot P$    | Both                      |
-| **Reflection** | Orientation (mirrored) | $(x, y) \to (\pm x, \pm y)$ | Both                      |
+| **Scaling**     | Size                   | $P' = S \cdot P$            | Shape only if $S_x = S_y$ |
+| **Rotation**    | Orientation            | $P' = R(\theta) \cdot P$    | Both                      |
+| **Reflection**  | Orientation (mirrored) | $(x, y) \to (\pm x, \pm y)$ | Both                      |
 
 ## Bresenham's Line Algorithm
 
@@ -260,15 +260,15 @@ $$\Delta X = X_n - X_0, \qquad \Delta Y = Y_n - Y_0$$
 
 $$P_0 = 2\Delta Y - \Delta X$$
 
-- $P_K < 0$ → pixel in **East (E)** direction
-- $P_K \geq 0$ → pixel in **North-East (NE)** direction
+- $P_K < 0$ -> pixel in **East (E)** direction
+- $P_K \geq 0$ -> pixel in **North-East (NE)** direction
 
 **Step 3** — Given current point $(X_k, Y_k)$ and next point $(X_{k+1}, Y_{k+1})$, follow the two cases:
 
-| Case                | Condition | $X_{k+1}$     | $Y_{k+1}$     | $P_{k+1}$             |
-| ------------------- | --------- | ------------- | ------------- | --------------------- |
-| **Case 1 (E)**      | $P_k < 0$   | $X_k + 1$     | $Y_k$         | $P_k + 2\Delta Y$        |
-| **Case 2 (NE)**     | $P_k \geq 0$ | $X_k + 1$     | $Y_k + 1$     | $P_k + 2\Delta Y - 2\Delta X$ |
+| Case            | Condition    | $X_{k+1}$ | $Y_{k+1}$ | $P_{k+1}$                     |
+| --------------- | ------------ | --------- | --------- | ----------------------------- |
+| **Case 1 (E)**  | $P_k < 0$    | $X_k + 1$ | $Y_k$     | $P_k + 2\Delta Y$             |
+| **Case 2 (NE)** | $P_k \geq 0$ | $X_k + 1$ | $Y_k + 1$ | $P_k + 2\Delta Y - 2\Delta X$ |
 
 For the case $0 < m < 1$ (slope less than 1), these are the only two choices:
 
@@ -304,16 +304,16 @@ Plot the initial point $(x_0, y_0) = (20, 10)$ and determine successive pixel po
 
 | $k$ | Current Point | $P_k$ | Decision | Next Point |
 | --- | ------------- | ----- | -------- | ---------- |
-| 0 | (20,10) | 6  | NE       | (21,11)    |
-| 1 | (21,11) | 2  | NE       | (22,12)    |
-| 2 | (22,12) | -2 | E        | (23,12)    |
-| 3 | (23,12) | 14 | NE       | (24,13)    |
-| 4 | (24,13) | 10 | NE       | (25,14)    |
-| 5 | (25,14) | 6  | NE       | (26,15)    |
-| 6 | (26,15) | 2  | NE       | (27,16)    |
-| 7 | (27,16) | -2 | E        | (28,16)    |
-| 8 | (28,16) | 14 | NE       | (29,17)    |
-| 9 | (29,17) | 10 | NE       | (30,18)    |
+| 0   | (20,10)       | 6     | NE       | (21,11)    |
+| 1   | (21,11)       | 2     | NE       | (22,12)    |
+| 2   | (22,12)       | -2    | E        | (23,12)    |
+| 3   | (23,12)       | 14    | NE       | (24,13)    |
+| 4   | (24,13)       | 10    | NE       | (25,14)    |
+| 5   | (25,14)       | 6     | NE       | (26,15)    |
+| 6   | (26,15)       | 2     | NE       | (27,16)    |
+| 7   | (27,16)       | -2    | E        | (28,16)    |
+| 8   | (28,16)       | 14    | NE       | (29,17)    |
+| 9   | (29,17)       | 10    | NE       | (30,18)    |
 
 **Resulting pixels:**
 

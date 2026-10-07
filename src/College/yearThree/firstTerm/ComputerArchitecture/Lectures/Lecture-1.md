@@ -12,13 +12,13 @@ next: false
 
 **Architecture** is the programmer-visible contract; **organization** is the hardware that implements it. Same design, two questions: _what can the programmer see_ vs. _how the silicon does it._
 
-| Computer Architecture          | Computer Organization       |
-| ------------------------------ | --------------------------- |
-| Programmer-visible features   | Hardware implementation     |
+| Computer Architecture            | Computer Organization         |
+| -------------------------------- | ----------------------------- |
+| Programmer-visible features      | Hardware implementation       |
 | **Instruction-set architecture** | **Datapath and control unit** |
-| Registers and data types      | ALU and register file       |
-| Addressing modes              | Pipeline and cache design   |
-| Memory and I/O model          | Buses and memory technology |
+| Registers and data types         | ALU and register file         |
+| Addressing modes                 | Pipeline and cache design     |
+| Memory and I/O model             | Buses and memory technology   |
 
 > [!NOTE] Test the boundary
 > `add x5, x6, x7` is **architecture** — the instruction exists and its operands are named. The **ALU** and the **control signals** that carry it out are **organization**. _Why it matters:_ changing the ALU costs nothing in the programmer-visible contract, so the two evolve independently.
@@ -61,13 +61,13 @@ flowchart LR
 
 ## Instruction-Execution Cycle
 
-| Stage          | What happens                                            |
-| -------------- | ------------------------------------------------------- |
-| **Fetch**      | Read the instruction using the program counter          |
-| **Decode**     | Identify the operation, operands, and control signals   |
-| **Execute**    | Perform an ALU operation or calculate an address        |
-| **Memory access** | Read or write data when required                     |
-| **Write back** | Store the result in the destination register            |
+| Stage             | What happens                                          |
+| ----------------- | ----------------------------------------------------- |
+| **Fetch**         | Read the instruction using the program counter        |
+| **Decode**        | Identify the operation, operands, and control signals |
+| **Execute**       | Perform an ALU operation or calculate an address      |
+| **Memory access** | Read or write data when required                      |
+| **Write back**    | Store the result in the destination register          |
 
 > [!NOTE] Why the order is fixed
 > Each stage consumes the previous stage's output — the address from Execute is what Memory access uses — so the five stages repeat once per instruction.
@@ -91,13 +91,13 @@ CPU Execution Time = (Instruction Count × CPI) / Clock Rate
 
 The historical "**50% improvement every year**" is _not_ explained by clock speed alone.
 
-| Series                                     | Trend                          |
-| ------------------------------------------ | ------------------------------ |
-| **Transistors** (thousands)                | ~$10^7$ — relentless growth    |
+| Series                                       | Trend                                              |
+| -------------------------------------------- | -------------------------------------------------- |
+| **Transistors** (thousands)                  | ~$10^7$ — relentless growth                        |
 | **Single-thread performance** (SpecINT ×10³) | ~$10^5$ — tracks transistors, flattens after ~2010 |
-| **Frequency** (MHz)                        | ~$10^3$ — plateaus after ~2005 |
-| **Typical power** (watts)                  | ~$10^2$ — roughly flat         |
-| **Number of logical cores**                 | ~1 until ~2004, then grows     |
+| **Frequency** (MHz)                          | ~$10^3$ — plateaus after ~2005                     |
+| **Typical power** (watts)                    | ~$10^2$ — roughly flat                             |
+| **Number of logical cores**                  | ~1 until ~2004, then grows                         |
 
 > [!NOTE] The takeaway
 > Transistor count kept climbing, yet frequency and power did not — so post-2010 speedups came from **more cores** and better **microarchitecture**, not from raising the clock.
@@ -111,10 +111,10 @@ Dynamic power ∝ activity × capacitance × voltage² × frequency
 - Voltage and frequency are now roughly constant, while **capacitance per transistor decreases** and **transistor count (activity) increases**.
 - **Leakage power** is also rising — a function of transistor count and voltage.
 
-| Era            | Event                                          | Consequence                                |
-| -------------- | ---------------------------------------------- | ------------------------------------------ |
-| Early 2000s    | Frequency increases raise power                | **Power wall**; frequency stagnates after |
-| Early 2010s    | **Dennard scaling** (voltage scaling) ends      | **Dark silicon** (unusable cores) and **dim silicon** (occasional turbo) |
+| Era         | Event                                      | Consequence                                                              |
+| ----------- | ------------------------------------------ | ------------------------------------------------------------------------ |
+| Early 2000s | Frequency increases raise power            | **Power wall**; frequency stagnates after                                |
+| Early 2010s | **Dennard scaling** (voltage scaling) ends | **Dark silicon** (unusable cores) and **dim silicon** (occasional turbo) |
 
 ## Home Work 1
 

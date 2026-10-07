@@ -12,18 +12,18 @@ next:
 
 ## Course Information
 
-Textbook: Liang, *Introduction to Java Programming and Data Structures* (2022) — Chapters 2, 4, 5, 6, 7.
+Textbook: Liang, _Introduction to Java Programming and Data Structures_ (2022) — Chapters 2, 4, 5, 6, 7.
 
 ### Term Project
 
 A drawing application built with the techniques from Chapters 2 and 12.
 
-| Requirement                    | Implementation                                                      |
-| ------------------------------ | ------------------------------------------------------------------- |
-| Select shape, color, fill      | A separate child window holding all GUI components                  |
-| Store the shapes                | An **array of `MyShape` objects**; `MyShape` is the hierarchy's **superclass** |
-| Multiple separate drawings      | **`JDesktopPane`** + **`JInternalFrame`** child windows              |
-| Draw the shape                  | The user clicks inside any `JInternalFrame`                         |
+| Requirement                | Implementation                                                                 |
+| -------------------------- | ------------------------------------------------------------------------------ |
+| Select shape, color, fill  | A separate child window holding all GUI components                             |
+| Store the shapes           | An **array of `MyShape` objects**; `MyShape` is the hierarchy's **superclass** |
+| Multiple separate drawings | **`JDesktopPane`** + **`JInternalFrame`** child windows                        |
+| Draw the shape             | The user clicks inside any `JInternalFrame`                                    |
 
 ## Why Java
 
@@ -43,13 +43,13 @@ flowchart LR
 
 **Write once, compile anywhere.** The compiler produces bytecode once; the JVM adapts it to the host OS at run time.
 
-| Element          | Role                                 |
-| ---------------- | ------------------------------------ |
-| `class` keyword  | Declares a class                     |
-| `//`             | Starts a comment                      |
-| `{ }`            | Delimit the class body                |
-| Java             | **Case sensitive** — `Class` ≠ `class` |
-| `main`           | Entry point                           |
+| Element         | Role                                    |
+| --------------- | --------------------------------------- |
+| `class` keyword | Declares a class                        |
+| `//`            | Starts a comment                        |
+| `{ }`           | Delimit the class body                  |
+| Java            | **Case sensitive** — `Class` != `class` |
+| `main`          | Entry point                             |
 
 ## Text Output
 
@@ -67,11 +67,11 @@ public class TestIO {
 }
 ```
 
-| Method     | Adds a newline | Takes a format string |
-| ---------- | -------------- | --------------------- |
-| `print`    | No             | No                    |
-| `println`  | Yes            | No                    |
-| `printf`   | No             | Yes                   |
+| Method    | Adds a newline | Takes a format string |
+| --------- | -------------- | --------------------- |
+| `print`   | No             | No                    |
+| `println` | Yes            | No                    |
+| `printf`  | No             | Yes                   |
 
 **Escape sequences:** `\n` newline · `\t` tab · `\\` backslash · `\"` quote · `\r` carriage return
 
@@ -95,11 +95,11 @@ int num1 = input.nextInt();             // read values
 System.out.printf("the square is : %d\n", num1 * num1);
 ```
 
-| Method         | Reads                              |
-| -------------- | ---------------------------------- |
-| `nextInt()`    | `int`                              |
-| `nextDouble()` | `double`                           |
-| `nextLine()`   | whole line, including spaces       |
+| Method         | Reads                        |
+| -------------- | ---------------------------- |
+| `nextInt()`    | `int`                        |
+| `nextDouble()` | `double`                     |
+| `nextLine()`   | whole line, including spaces |
 
 ## Variables and Constants
 
@@ -119,19 +119,19 @@ final double PI = 3.14159265;
 Why constants: they name otherwise unclear literals, they let you change a value in one place, and they stop inadvertent errors.
 
 > [!WARNING]
-> `final` blocks reassignment; it does not freeze a value. A `final` *reference* to a mutable object still lets you change the object's contents. Lecture 2 covers `final` fields in depth.
+> `final` blocks reassignment; it does not freeze a value. A `final` _reference_ to a mutable object still lets you change the object's contents. Lecture 2 covers `final` fields in depth.
 
 ## Expressions and Operators
 
 An **expression** combines operators and operands. An arithmetic expression works like a method applied to numerical data, producing a numeric result.
 
-| Operator      | Meaning        | Operator               | Meaning            |
-| ------------- | -------------- | ---------------------- | ------------------ |
-| `+`           | Addition       | `++`                   | Increment           |
-| `-`           | Subtraction    | `--`                   | Decrement           |
-| `*`           | Multiplication | `+=` `-=` `*=` `/=`   | Assignment          |
-| `/`           | Division       |                        |                     |
-| `%`           | Remainder      |                        |                     |
+| Operator | Meaning        | Operator            | Meaning    |
+| -------- | -------------- | ------------------- | ---------- |
+| `+`      | Addition       | `++`                | Increment  |
+| `-`      | Subtraction    | `--`                | Decrement  |
+| `*`      | Multiplication | `+=` `-=` `*=` `/=` | Assignment |
+| `/`      | Division       |                     |            |
+| `%`      | Remainder      |                     |            |
 
 ```java
 count = count + 1;   // same effect as the next two
@@ -144,21 +144,21 @@ count -= 10;
 
 ### Operator Precedence
 
-| Expression                | Evaluation order                                             |
-| ------------------------- | ------------------------------------------------------------ |
-| `a + b + c + d + e`       | 1, 2, 3, 4 — equal precedence runs left to right             |
-| `a + b * c - d / e`       | 3, 1, 4, 2 — `*` `/` bind tighter than `+` `-`               |
-| `a / (b + c) - d % e`     | 2, 1, 4, 3 — parentheses force the inner evaluation first     |
-| `a / (b * (c + (d - e)))` | 4, 3, 2, 1 — innermost nesting first                          |
+| Expression                | Evaluation order                                          |
+| ------------------------- | --------------------------------------------------------- |
+| `a + b + c + d + e`       | 1, 2, 3, 4 — equal precedence runs left to right          |
+| `a + b * c - d / e`       | 3, 1, 4, 2 — `*` `/` bind tighter than `+` `-`            |
+| `a / (b + c) - d % e`     | 2, 1, 4, 3 — parentheses force the inner evaluation first |
+| `a / (b * (c + (d - e)))` | 4, 3, 2, 1 — innermost nesting first                      |
 
 `(` `)` beat `*` `/` `%`, which beat `+` `-`.
 
 ## Data Conversions
 
-| Type         | Trigger                        | Rule                                                        |
-| ------------ | ------------------------------ | ----------------------------------------------------------- |
-| **Implicit** | Automatic, no cast written     | **Widening** only — promotion to a larger, lossless type      |
-| **Explicit** | You write a **cast**           | Widening **and** narrowing                                    |
+| Type         | Trigger                    | Rule                                                     |
+| ------------ | -------------------------- | -------------------------------------------------------- |
+| **Implicit** | Automatic, no cast written | **Widening** only — promotion to a larger, lossless type |
+| **Explicit** | You write a **cast**       | Widening **and** narrowing                               |
 
 ```java
 double MyResult;
@@ -198,11 +198,11 @@ public class Quadratic {
 
 A conditional statement chooses which statement runs next.
 
-| Statement            | Purpose                                        |
-| -------------------- | ---------------------------------------------- |
-| `if` / `if-else`     | Two-way branch                                 |
-| Conditional operator | Shorthand if-else inside an expression         |
-| `switch`             | Multiple selection                             |
+| Statement            | Purpose                                |
+| -------------------- | -------------------------------------- |
+| `if` / `if-else`     | Two-way branch                         |
+| Conditional operator | Shorthand if-else inside an expression |
+| `switch`             | Multiple selection                     |
 
 ### `if` and `if-else`
 
@@ -215,11 +215,11 @@ else
 
 The condition **must be a boolean expression** — a boolean variable, `a == b`, `a <= b` — evaluating to `true` or `false`. Group several statements into a **block statement** delimited by braces `{ ... }`.
 
-| Relational       | Meaning                | Logical | Meaning |
-| ---------------- | ---------------------- | ------- | ------- |
-| `<` `>` `<=` `>=`| less / greater than    | `&&`    | and     |
-| `==` `!=`        | equal / not equal      | `\|\|`  | or      |
-|                  |                        | `!`     | not     |
+| Relational        | Meaning             | Logical | Meaning |
+| ----------------- | ------------------- | ------- | ------- |
+| `<` `>` `<=` `>=` | less / greater than | `&&`    | and     |
+| `==` `!=`         | equal / not equal   | `\|\|`  | or      |
+|                   |                     | `!`     | not     |
 
 ```mermaid
 flowchart TD
@@ -246,11 +246,11 @@ max = (n1 > n2) ? n1 : n2;
 
 Multiple selection over a **constant integral expression** of type `byte`, `short`, `int`, or `char`.
 
-| Part          | Role                                                  |
-| ------------- | ----------------------------------------------------- |
-| `case` labels | The constant values being selected                    |
+| Part          | Role                                                               |
+| ------------- | ------------------------------------------------------------------ |
+| `case` labels | The constant values being selected                                 |
 | `break`       | Optional — **without it execution falls through** to the next case |
-| `default`     | Optional — the branch taken when no label matches     |
+| `default`     | Optional — the branch taken when no label matches                  |
 
 ## Loops and Iterations
 
@@ -297,19 +297,19 @@ for (int counter = 1; counter <= max; counter++)
 System.out.println(sum);
 ```
 
-| Part                 | Role                                       |
-| -------------------- | ------------------------------------------ |
-| `int counter = 1`    | Initializes the control variable           |
-| `counter <= max`     | Continuation test — false ends the loop    |
-| `sum += counter`     | Loop body — may hold multiple statements   |
-| `counter++`          | Increments the control variable            |
+| Part              | Role                                     |
+| ----------------- | ---------------------------------------- |
+| `int counter = 1` | Initializes the control variable         |
+| `counter <= max`  | Continuation test — false ends the loop  |
+| `sum += counter`  | Loop body — may hold multiple statements |
+| `counter++`       | Increments the control variable          |
 
 ### `break` and `continue`
 
-| Statement   | Effect                                                                            |
-| ----------- | --------------------------------------------------------------------------------- |
+| Statement   | Effect                                                                                           |
+| ----------- | ------------------------------------------------------------------------------------------------ |
 | `break;`    | Exits the loop immediately; execution resumes at the first statement after the control statement |
-| `continue;` | Skips the rest of the loop body                                                   |
+| `continue;` | Skips the rest of the loop body                                                                  |
 
 Where the continuation test runs differs:
 
@@ -329,12 +329,12 @@ public class MyClass {
 }
 ```
 
-| Header part              | Role                                                |
-| ------------------------ | --------------------------------------------------- |
-| `static`                 | Method properties — static or instance              |
-| `int`                    | Return type                                         |
-| `min`                    | Method name                                          |
-| `(int num1, int num2)`   | Parameter list — type and name of each parameter    |
+| Header part            | Role                                             |
+| ---------------------- | ------------------------------------------------ |
+| `static`               | Method properties — static or instance           |
+| `int`                  | Return type                                      |
+| `min`                  | Method name                                      |
+| `(int num1, int num2)` | Parameter list — type and name of each parameter |
 
 Parameter names in a declaration are **formal arguments**; the values passed at the call site are **actual arguments**, and they are assigned to the formal arguments on every call.
 
@@ -359,13 +359,13 @@ flowchart TD
 
 An **array** is a data structure grouping related elements of the same type.
 
-| Property        | Detail                                                                                    |
-| --------------- | ----------------------------------------------------------------------------------------- |
-| Element type    | All elements share one type; elements may be **primitive** or **reference** (e.g. `String`) |
-| Length          | **Fixed** once created                                                                     |
-| Index           | Referenced by index or subscript; must be a **nonnegative integer**. An expression may serve as an index |
-| Identity        | Arrays are **objects**, so they are **reference types**                                     |
-| Length storage  | Every array stores its length in a `length` **instance variable**                            |
+| Property       | Detail                                                                                                   |
+| -------------- | -------------------------------------------------------------------------------------------------------- |
+| Element type   | All elements share one type; elements may be **primitive** or **reference** (e.g. `String`)              |
+| Length         | **Fixed** once created                                                                                   |
+| Index          | Referenced by index or subscript; must be a **nonnegative integer**. An expression may serve as an index |
+| Identity       | Arrays are **objects**, so they are **reference types**                                                  |
+| Length storage | Every array stores its length in a `length` **instance variable**                                        |
 
 ```java
 int[] a;            // declare
@@ -381,22 +381,22 @@ for (int i = 0; i < 5; i++)
 
 ## Common Mistakes to Avoid
 
-| Mistake                                   | Why it is wrong                                          |
-| ----------------------------------------- | -------------------------------------------------------- |
+| Mistake                                   | Why it is wrong                                            |
+| ----------------------------------------- | ---------------------------------------------------------- |
 | `4 / 8` expecting `0.5`                   | Both operands are `int`; integer division truncates to `0` |
-| `(int) MyResult` expecting rounding       | Casting truncates toward zero — use `Math.round`         |
-| Naming an identifier `Class` or `String`  | Reserved words, and Java is case sensitive               |
-| Testing an uninitialized local in `while` | Locals have no default value; `do…while` assigns first   |
-| Omitting `break` in `switch`              | Execution falls through to the next case                 |
-| Assigning to an array's `length`          | It is `final` — the length cannot change                 |
-| Declaring data outside a class            | Java has no global functions and no global data          |
+| `(int) MyResult` expecting rounding       | Casting truncates toward zero — use `Math.round`           |
+| Naming an identifier `Class` or `String`  | Reserved words, and Java is case sensitive                 |
+| Testing an uninitialized local in `while` | Locals have no default value; `do…while` assigns first     |
+| Omitting `break` in `switch`              | Execution falls through to the next case                   |
+| Assigning to an array's `length`          | It is `final` — the length cannot change                   |
+| Declaring data outside a class            | Java has no global functions and no global data            |
 
 ## Exit Questions
 
-1. What is `4 + 5 / 9 + 1.0 + 5 / 9 / 10.0`? Show each step. *(Analyze)*
-2. Rewrite the month-validation loop with `do…while`; why is no initial value needed? *(Apply)*
-3. Name the four parts of a `for` header and what each controls. *(Understand)*
-4. A colleague writes `double total = 10 / 3;` and gets `3.3333` on one machine, `3.0` on another. Explain the difference. *(Evaluate)*
-5. Explain why `System.out.print("a"); System.out.println("b");` and `System.out.println("ab");` print the same thing, while swapping either for `printf` changes the result. *(Understand)*
+1. What is `4 + 5 / 9 + 1.0 + 5 / 9 / 10.0`? Show each step. _(Analyze)_
+2. Rewrite the month-validation loop with `do…while`; why is no initial value needed? _(Apply)_
+3. Name the four parts of a `for` header and what each controls. _(Understand)_
+4. A colleague writes `double total = 10 / 3;` and gets `3.3333` on one machine, `3.0` on another. Explain the difference. _(Evaluate)_
+5. Explain why `System.out.print("a"); System.out.println("b");` and `System.out.println("ab");` print the same thing, while swapping either for `printf` changes the result. _(Understand)_
 
 _13 min read (source: 13 min)_

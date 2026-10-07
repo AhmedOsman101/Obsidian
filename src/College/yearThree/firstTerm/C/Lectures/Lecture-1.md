@@ -3,12 +3,14 @@ title: Lecture 1
 prev:
   text: "Advanced C"
   link: "/College/yearThree/firstTerm/C/index"
-next: false
+next:
+  text: "Lecture 2"
+  link: "/College/yearThree/firstTerm/C/Lectures/Lecture-2"
 ---
 
 # Advanced C - Lecture 1: Functions
 
-Course roadmap for the term: **Functions → Arrays → Structures & Unions → Pointers → Dynamic Memory Allocation → Strings → File Handling → Pre-processor → Error Handling → Threading**.
+Course roadmap for the term: **Functions -> Arrays -> Structures & Unions -> Pointers -> Dynamic Memory Allocation -> Strings -> File Handling -> Pre-processor -> Error Handling -> Threading**.
 
 ## What a Function Is
 
@@ -52,15 +54,13 @@ Skipping the declaration is not an error in itself — the compiler assumes the 
 ```c
 #include <stdio.h>
 
-int main()
-{
+int main() {
   char c = fun();   // no declaration: compiler assumes fun() returns int
   printf("character is: %c\n", c);
   return 0;
 }
 
-char fun()           // actual return type is char
-{
+char fun() {         // actual return type is char
   return 'a';
 }
 ```
@@ -76,8 +76,7 @@ If `fun()` is _defined before_ `main`, the same code compiles and prints `charac
 ### Definition
 
 ```c
-return_type function_name (para1_type para1_name, para2_type para2_name)
-{
+return_type function_name(para1_type para1_name, para2_type para2_name) {
   // body of the function
 }
 ```
@@ -100,15 +99,13 @@ The call is what brings program control to the definition. An uncalled function'
 ```c
 #include <stdio.h>
 
-int sum (int a, int b)      // function definition
-{
+int sum(int a, int b) {     // function definition
   return a + b;
 }
 
-int main()
-{
-  int add = sum (10, 30);   // function call
-  printf ("Sum is : %d", add);
+int main() {
+  int add = sum(10, 30);    // function call
+  printf("Sum is : %d", add);
   return 0;
 }
 ```
@@ -190,15 +187,13 @@ display();
 ```c
 #include <stdio.h>
 
-int sum (int a, int b)        /* a, b are FORMAL parameters */
-{
+int sum(int a, int b) {       /* a, b are FORMAL parameters */
   return a + b;
 }
 
-int main ()
-{
-  int add = sum (10, 30);     /* 10, 30 are ACTUAL parameters */
-  printf ("Sum is : %d", add);
+int main() {
+  int add = sum(10, 30);      /* 10, 30 are ACTUAL parameters */
+  printf("Sum is : %d", add);
   return 0;
 }
 ```
@@ -233,24 +228,23 @@ The actual and formal parameters refer to the **same memory location**. Instead 
 ### Traced example: value vs. reference side by side
 
 ```c
-void f1 (int a, int b)          /* call by VALUE */
-{
-  int c;
-  c = a; a = b; b = c;          /* swaps f1's own copies only */
+void f1(int a, int b) {         /* call by VALUE */
+  int temp = a;
+  a = b;
+  b = temp;          /* swaps f1's own copies only */
 }
 
-void f2 (int *a, int *b)        /* call by REFERENCE */
-{
-  int c;
-  c = *a; *a = *b; *b = c;      /* swaps the caller's actual cells */
+void f2(int *a, int *b) {       /* call by REFERENCE */
+  int temp = *a;
+  *a = *b;
+  *b = temp;      /* swaps the caller's actual cells */
 }
 
-int main ()
-{
+int main() {
   int a = 4, b = 5, c = 6;
-  f1 (a, b);
-  f2 (&b, &c);
-  printf ("%d", c - a - b);
+  f1(a, b);
+  f2(&b, &c);
+  printf("%d", c - a - b);
   return 0;
 }
 ```
@@ -273,7 +267,9 @@ Verified output: `-5`.
 > Arrays are the exception to "C has no pass by reference". An array parameter decays to a pointer to its first element, so array contents _are_ modified in place:
 
 ```c
-void arr_param(int a[]) { a[0] = 100; }
+void arr_param(int a[]) {
+  a[0] = 100;
+}
 // caller: arr[0] == 100 afterwards
 ```
 
@@ -285,19 +281,19 @@ void arr_param(int a[]) { a[0] = 100; }
 #include <stdio.h>
 void checkEvenOdd();
 
-int main () {
+int main() {
   int num;
 
-  printf ("Enter The Number To Check Even or Odd\n");
-  scanf ("%d", &num);
-  checkEvenOdd (num);
+  printf("Enter The Number To Check Even or Odd\n");
+  scanf("%d", &num);
+  checkEvenOdd(num);
 }
 
-void checkEvenOdd (int num) {
+void checkEvenOdd(int num) {
   if (num % 2 == 0) {
-    printf ("It is Even\n");
+    printf("It is Even\n");
   } else {
-    printf ("It is odd\n");
+    printf("It is odd\n");
   }
 }
 ```
@@ -312,32 +308,28 @@ void checkEvenOdd (int num) {
 
 ```c
 #include <stdio.h>
-int check_prime (int);
+int check_prime(int);
 
-int main ()
-{
+int main() {
   int n, result;
 
-  printf ("Enter an integer to check whether it is prime or not.\n");
-  scanf ("%d", &n);
+  printf("Enter an integer to check whether it is prime or not.\n");
+  scanf("%d", &n);
 
-  result = check_prime (n);
+  result = check_prime(n);
 
-  if (result == 1)
-    printf ("%d is prime.\n", n);
-  else
-    printf ("%d is not prime.\n", n);
+  if (result == 1) printf("%d is prime.\n", n);
+  else printf("%d is not prime.\n", n);
 
   return 0;
 }
 
-int check_prime (int a)
-{
+int check_prime(int a) {
   int c;
 
-  for (c = 2; c <= a - 1; c++)
-    if (a % c == 0)
-      return 0;
+  for (c = 2; c <= a - 1; c++) {
+    if (a % c == 0) return 0;
+  }
 
   return 1;
 }
@@ -355,18 +347,17 @@ int check_prime (int a)
 > Add an explicit guard and stop at the square root (`c * c <= n`), which also cuts the work roughly in half:
 
 ```c
-int is_prime (int n)
-{
+int is_prime(int n) {
   if (n < 2) return 0;              // 0 and 1 are NOT prime
-  for (int c = 2; c * c <= n; c++)
+  for (int c = 2; c * c <= n; c++) {
     if (n % c == 0) return 0;
-  return 1;
+  } return 1;
 }
 ```
 
 ### Palindrome number
 
-A number is a **palindrome** if its reverse equals itself: `5225 → 5225` (palindrome), `123 → 321` (not).
+A number is a **palindrome** if its reverse equals itself: `5225 -> 5225` (palindrome), `123 -> 321` (not).
 
 1. Take a number.
 2. Find its reverse.
@@ -375,13 +366,11 @@ A number is a **palindrome** if its reverse equals itself: `5225 → 5225` (pali
 
 ```c
 #include <stdio.h>
-int checkPalindrome (int number)
-{
+int checkPalindrome(int number) {
   int temp, remainder, rev = 0;
   temp = number;
 
-  while (number != 0)
-  {
+  while (number != 0) {
     remainder = number % 10;       /* peel off last digit */
     rev = rev * 10 + remainder;    /* append it to the reverse */
     number /= 10;                  /* drop last digit    */
@@ -391,18 +380,17 @@ int checkPalindrome (int number)
   else return 1;
 }
 
-int main ()
-{
+int main() {
   int number;
 
-  printf ("Enter the number: ");
-  scanf ("%d", &number);
+  printf("Enter the number: ");
+  scanf("%d", &number);
 
-  if (checkPalindrome (number) == 0)
-    printf ("%d is a palindrome number.\n", number);
-  else
-    printf ("%d is not a palindrome number.\n", number);
-
+  if (checkPalindrome(number) == 0) {
+    printf("%d is a palindrome number.\n", number);
+  } else {
+    printf("%d is not a palindrome number.\n", number);
+  }
   return 0;
 }
 ```
@@ -476,9 +464,13 @@ flowchart TD
 **Indirect recursion**: a function calls another function, which eventually calls the first one (or another in the chain), forming a cycle.
 
 ```c
-void f (int n);
-void g (int n) { if (n > 0) f (n - 1); }   // g -> f
-void f (int n) { if (n > 0) g (n - 1); }   // f -> g  (cycle)
+void f(int n);
+void g(int n) {
+  if (n > 0) f(n - 1);  // g -> f
+}
+void f(int n) {
+  if (n > 0) g(n - 1);  // f -> g  (cycle)
+}
 ```
 
 Verified trace for `f(3)`:
@@ -519,21 +511,17 @@ flowchart LR
 
 ```c
 #include <stdio.h>
-int factorialTail (int n)
-{
+int factorialTail(int n) {
   // Base case
-  if (n == 1 || n == 0)
-    return 1;
-  else
-    // Tail recursive call
-    return n * factorialTail (n - 1);
+  if (n == 1 || n == 0) return 1;
+  // Tail recursive call
+  return n * factorialTail(n - 1);
 }
 
-int main ()
-{
+int main() {
   int n = 5;
-  int fact1 = factorialTail (n);
-  printf ("Resursive Factorial of %d: %d\n", n, fact1);
+  int fact1 = factorialTail(n);
+  printf("Resursive Factorial of %d: %d\n", n, fact1);
   return 0;
 }
 ```
@@ -545,4 +533,4 @@ Verified output: `Resursive Factorial of 5: 120`.
 
 ---
 
-_9 min read (source: 13 min)_
+_17 min read (source: 13 min)_

@@ -10,12 +10,12 @@ next: false
 
 ## Classes and Objects
 
-| Term         | Definition                                                                    | Boundary                                                    |
-| ------------ | ----------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| **Class**    | Template/blueprint that defines an object's data fields and methods (Liang §9.2) | A class is _not_ a running thing — it holds no values itself |
-| **Object**   | An instance of a class; creating one is called **instantiation**               | Each object has its own **state**, all share the same methods |
-| **State**    | The values currently held by an object's data fields                           | Changes per object, never shared                              |
-| **Behavior** | The operations the class exposes as methods                                    | Shared by every instance of the class                        |
+| Term         | Definition                                                                       | Boundary                                                      |
+| ------------ | -------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| **Class**    | Template/blueprint that defines an object's data fields and methods (Liang §9.2) | A class is _not_ a running thing — it holds no values itself  |
+| **Object**   | An instance of a class; creating one is called **instantiation**                 | Each object has its own **state**, all share the same methods |
+| **State**    | The values currently held by an object's data fields                             | Changes per object, never shared                              |
+| **Behavior** | The operations the class exposes as methods                                      | Shared by every instance of the class                         |
 
 > [!NOTE] Concept check
 > `Car` = class. "The red car down there in the car park" = object.
@@ -39,10 +39,10 @@ Every **data type** pairs a set of allowed values with a set of allowed operatio
 
 A class is drawn as a rectangle with **three stacked compartments**:
 
-| Compartment | Contents                              | Example             |
-| ----------- | ------------------------------------- | ------------------- |
-| Top         | Class name                            | `Student`           |
-| Middle      | Attributes: `name: Type`              | `- name : String`   |
+| Compartment | Contents                              | Example                |
+| ----------- | ------------------------------------- | ---------------------- |
+| Top         | Class name                            | `Student`              |
+| Middle      | Attributes: `name: Type`              | `- name : String`      |
 | Bottom      | Operations: `op(p: Type): ReturnType` | `+ getName() : String` |
 
 **Visibility marks:** `-` private · `+` public · `#` protected · `~` package
@@ -142,17 +142,17 @@ flowchart LR
 
 ## Access Modifiers
 
-| Modifier              | Accessible from                                          | Used for                          |
-| --------------------- | ------------------------------------------------------- | --------------------------------- |
-| `public`              | Everywhere                                              | Methods that form the client API  |
-| `private`             | Inside the declaring class only (**data hiding**)        | Data fields, by default           |
-| `protected`           | Same package + subclasses                                | Extensibility                    |
-| Package (no modifier) | Same package                                             | Package-private helpers           |
+| Modifier              | Accessible from                                   | Used for                         |
+| --------------------- | ------------------------------------------------- | -------------------------------- |
+| `public`              | Everywhere                                        | Methods that form the client API |
+| `private`             | Inside the declaring class only (**data hiding**) | Data fields, by default          |
+| `protected`           | Same package + subclasses                         | Extensibility                    |
+| Package (no modifier) | Same package                                      | Package-private helpers          |
 
 Public members are the client's view of the services the class provides. Outside the class definition you cannot access or change private data.
 
 > [!NOTE] Subtlety
-> `private` members remain usable inside their own class, even when reached through a *different* object of that same class.
+> `private` members remain usable inside their own class, even when reached through a _different_ object of that same class.
 
 ### Find the Error: private members
 
@@ -179,11 +179,11 @@ Lines 4 and 5: `name has private access in Student`. `StudentTest` is a differen
 
 An object needs access to its own data, so it provides accessor methods.
 
-| Method kind     | Alias            | Purpose                                         |
-| --------------- | ---------------- | ----------------------------------------------- |
-| **Accessor**    | get method       | Read data — simple retrieval of a field         |
-| **Mutator**     | set method       | Change data — manipulation driven by application |
-| **Boolean test**| `isX()`          | For fields that are boolean                     |
+| Method kind      | Alias      | Purpose                                          |
+| ---------------- | ---------- | ------------------------------------------------ |
+| **Accessor**     | get method | Read data — simple retrieval of a field          |
+| **Mutator**      | set method | Change data — manipulation driven by application |
+| **Boolean test** | `isX()`    | For fields that are boolean                      |
 
 ```java
 public class Student {
@@ -229,13 +229,13 @@ Why private + get/set: it blocks direct tampering with data, it makes the class 
 
 ## Default Values
 
-| Location                              | Default value                          |
-| ------------------------------------- | -------------------------------------- |
-| Instance variable, primitive numeric  | `0` (`byte char short int long float double`) |
-| Instance variable, `boolean`          | `false`                                |
-| Instance variable, `char`             | `'\u0000'`                             |
-| Instance variable, reference type     | `null` (`String`, arrays, objects)     |
-| **Local variable**                    | _none_ — must be assigned before use   |
+| Location                             | Default value                                 |
+| ------------------------------------ | --------------------------------------------- |
+| Instance variable, primitive numeric | `0` (`byte char short int long float double`) |
+| Instance variable, `boolean`         | `false`                                       |
+| Instance variable, `char`            | `'\u0000'`                                    |
+| Instance variable, reference type    | `null` (`String`, arrays, objects)            |
+| **Local variable**                   | _none_ — must be assigned before use          |
 
 ```java
 // A — data fields: compiles
@@ -267,15 +267,15 @@ flowchart TD
         i1["i = 1"] -->|"value 2 copied"| i2["i = 2"]
     end
     subgraph Ref["Reference assignment"]
-        c1["c1 : ref → Ali"] -->|"reference copied"| c2["c1 and c2 → Mona"]
-        c1 -.->|"unreferenced object"| Garbage["✗ garbage → reclaimed"]
+        c1["c1 : ref -> Ali"] -->|"reference copied"| c2["c1 and c2 -> Mona"]
+        c1 -.->|"unreferenced object"| Garbage["✗ garbage -> reclaimed"]
     end
 ```
 
-| Assignment                    | Result                                                    |
-| ----------------------------- | --------------------------------------------------------- |
-| `int i = j;`                  | The **value** is copied into `i`                           |
-| `c1 = c2;` (objects)          | The **reference** is copied — both names point to one object |
+| Assignment           | Result                                                       |
+| -------------------- | ------------------------------------------------------------ |
+| `int i = j;`         | The **value** is copied into `i`                             |
+| `c1 = c2;` (objects) | The **reference** is copied — both names point to one object |
 
 Assigning one reference variable to another copies the reference, not the object. An object no variable references is **garbage**; the Java runtime detects garbage and reclaims its space automatically (**garbage collection**, Liang §9.5).
 
@@ -302,6 +302,7 @@ public class Student {
 
 > [!WARNING] Common mistake: `public void Student()`
 > A return type turns it into an ordinary method. `new Student()` then uses the compiler's default constructor and the method is never called.
+>
 > ```java
 > public class Student {
 >   private String name = "Unknown";
@@ -383,13 +384,13 @@ Each short constructor chains to the fullest one with `this(...)`, so the initia
 
 ```java
 public Student(String name) {
-  name = name;        // parameter ← parameter: the field is untouched
+  name = name;        // parameter <- parameter: the field is untouched
 }
 ```
 
-| Wrong               | Correct                  |
-| ------------------- | ------------------------ |
-| `name = name;`      | `this.name = name;`      |
+| Wrong          | Correct             |
+| -------------- | ------------------- |
+| `name = name;` | `this.name = name;` |
 
 When a parameter shares a field's name, the field is **hidden**. Naming the parameter after the field is good practice, provided you write `this.`.
 
@@ -425,13 +426,13 @@ Line 6 fails: `call to this must be first statement in constructor`. Move the `t
 
 `Time2` represents time of day in **universal-time format** (24-hour clock).
 
-| Member              | Role                                            |
-| ------------------- | ----------------------------------------------- |
-| `hour`, `minute`, `second` | Instance variables                       |
-| `setTime`           | Validation entry point                          |
-| `toUniversalString()` | `hh:mm:ss` (24-hour)                          |
-| `toString()`        | `hh:mm:ss AM/PM`                                 |
-| 5 constructors     | Overloaded                                       |
+| Member                     | Role                   |
+| -------------------------- | ---------------------- |
+| `hour`, `minute`, `second` | Instance variables     |
+| `setTime`                  | Validation entry point |
+| `toUniversalString()`      | `hh:mm:ss` (24-hour)   |
+| `toString()`               | `hh:mm:ss AM/PM`       |
+| 5 constructors             | Overloaded             |
 
 ```mermaid
 flowchart TD
@@ -459,12 +460,12 @@ Resource leaks are common in C and C++. The JVM collects garbage automatically.
 
 **`finalize()`** — called by the garbage collector for termination housekeeping on an object just before its memory is reclaimed.
 
-| Property                       | Detail                                                   |
-| ------------------------------ | -------------------------------------------------------- |
-| Signature                      | No parameters, return type `void`                         |
-| Timing                         | **Not guaranteed** — unclear if or when it runs           |
-| Course guidance                | Avoid it                                                 |
-| Modern status                  | **Deprecated since Java 9** — never use in new code      |
+| Property        | Detail                                              |
+| --------------- | --------------------------------------------------- |
+| Signature       | No parameters, return type `void`                   |
+| Timing          | **Not guaranteed** — unclear if or when it runs     |
+| Course guidance | Avoid it                                            |
+| Modern status   | **Deprecated since Java 9** — never use in new code |
 
 ## Static Class Members
 
@@ -479,12 +480,12 @@ flowchart TD
     E2 -->|"read/write"| C
 ```
 
-| Feature            | Instance variable                  | Static (class) variable            |
-| ------------------ | ---------------------------------- | ---------------------------------- |
-| Copies             | One per object                     | **One per class**                 |
-| Exists before any object is created | No          | Yes                                |
-| Visibility change  | Seen by that object only           | If one object changes it, **all objects see the change** |
-| Accessed via       | `obj.field`                        | `ClassName.field` — easy to spot  |
+| Feature                             | Instance variable        | Static (class) variable                                  |
+| ----------------------------------- | ------------------------ | -------------------------------------------------------- |
+| Copies                              | One per object           | **One per class**                                        |
+| Exists before any object is created | No                       | Yes                                                      |
+| Visibility change                   | Seen by that object only | If one object changes it, **all objects see the change** |
+| Accessed via                        | `obj.field`              | `ClassName.field` — easy to spot                         |
 
 Accessing a static member when no objects exist:
 
@@ -520,10 +521,10 @@ Line 7: `non-static variable id cannot be referenced from a static context`. `sh
 
 Enables access to a class's static members by their **unqualified** names, dropping the class name and dot.
 
-| Form                        | Effect                                    |
-| --------------------------- | ----------------------------------------- |
-| Single static import        | Imports one particular static member      |
-| Static import on demand     | Imports all static members of a class     |
+| Form                    | Effect                                |
+| ----------------------- | ------------------------------------- |
+| Single static import    | Imports one particular static member  |
+| Static import on demand | Imports all static members of a class |
 
 Useful for calling `Math` functions by their simple names.
 
@@ -550,10 +551,10 @@ public class Account {
 
 Line 9 fails: `cannot assign a value to final variable ACCOUNT_NUMBER`. Line 6 is legal — a final field may be assigned once, in its declaration or in each constructor.
 
-| Kind              | Declaration                       | Meaning                                          |
-| ----------------- | --------------------------------- | ------------------------------------------------ |
-| Per-object final  | `private final int ACCOUNT_NUMBER;` | Each object has its own value, fixed after construction |
-| Class-wide constant | `public static final int MAX_COURSES = 7;` | One value for all objects (`Math.PI` pattern) |
+| Kind                | Declaration                                | Meaning                                                 |
+| ------------------- | ------------------------------------------ | ------------------------------------------------------- |
+| Per-object final    | `private final int ACCOUNT_NUMBER;`        | Each object has its own value, fixed after construction |
+| Class-wide constant | `public static final int MAX_COURSES = 7;` | One value for all objects (`Math.PI` pattern)           |
 
 > [!NOTE]
 > Naming convention: constants use **UPPER_CASE with underscores**.
@@ -619,12 +620,12 @@ Mona has 7 courses
 
 A class can hold references to objects of other classes as members. This is **composition**, a **has-a** relationship.
 
-| Owner          | Owned part      |
-| -------------- | --------------- |
-| AlarmClock     | two `Time` objects — current time and alarm time |
-| Robot          | MechanicalArm   |
-| Car            | Wheel           |
-| Student        | BirthDate       |
+| Owner      | Owned part                                       |
+| ---------- | ------------------------------------------------ |
+| AlarmClock | two `Time` objects — current time and alarm time |
+| Robot      | MechanicalArm                                    |
+| Car        | Wheel                                            |
+| Student    | BirthDate                                        |
 
 ```text
 Student ──────1──── Date
@@ -635,7 +636,7 @@ Student ──────1──── Date
 - **Aggregation** models a has-a relationship: an object contains (owns) others as data fields (Liang §10.4.2).
 - **Composition** is the case where the owned object depends on the owner and cannot exist alone. UML draws a **filled diamond** at the owner.
 - An **empty diamond** shows plain aggregation, e.g. an `Address` several students may share.
-- `has-a` (composition) ≠ `is-a` (inheritance, next lecture). A Student **has a** Date; a Student **is a** Person.
+- `has-a` (composition) != `is-a` (inheritance, next lecture). A Student **has a** Date; a Student **is a** Person.
 
 ```java
 public class Student {
@@ -676,17 +677,17 @@ Mona Born: 3/12/1990 Admitted: 8/21/2013
 
 ## Common Mistakes to Avoid
 
-| Mistake                                              | Why it is wrong / what to do                                    |
-| ---------------------------------------------------- | ----------------------------------------------------------------- |
-| `public void Student()`                              | A return type makes it a method, not a constructor               |
-| `new Student()` after writing `Student(String, int)` | The default constructor is no longer provided                   |
-| `name = name;` in a constructor                      | Assigns the parameter to itself; write `this.name = name;`        |
-| `s1.name` from another class when `name` is private  | Compile error; use get/set methods                               |
-| Using a local variable before assigning it           | Local variables have no default value                            |
-| Calling a method on a `null` reference               | `NullPointerException` at run time                               |
-| Using an instance variable inside a static method     | No object exists in a static context                             |
-| Assigning a final field outside its declaration/constructor | A final variable can be assigned only once                |
-| `c1 = c2` to "copy" an object                        | Copies the reference; both names share one object                |
+| Mistake                                                     | Why it is wrong / what to do                               |
+| ----------------------------------------------------------- | ---------------------------------------------------------- |
+| `public void Student()`                                     | A return type makes it a method, not a constructor         |
+| `new Student()` after writing `Student(String, int)`        | The default constructor is no longer provided              |
+| `name = name;` in a constructor                             | Assigns the parameter to itself; write `this.name = name;` |
+| `s1.name` from another class when `name` is private         | Compile error; use get/set methods                         |
+| Using a local variable before assigning it                  | Local variables have no default value                      |
+| Calling a method on a `null` reference                      | `NullPointerException` at run time                         |
+| Using an instance variable inside a static method           | No object exists in a static context                       |
+| Assigning a final field outside its declaration/constructor | A final variable can be assigned only once                 |
+| `c1 = c2` to "copy" an object                               | Copies the reference; both names share one object          |
 
 ## Key Syntax Reference
 
@@ -720,8 +721,8 @@ int c = Student.getCount();             // ClassName.staticMember
 
 ## Exit Questions
 
-1. State two differences between a constructor and an ordinary method. *(Understand)*
-2. What does this print? Explain each value. *(Analyze)*
+1. State two differences between a constructor and an ordinary method. _(Understand)_
+2. What does this print? Explain each value. _(Analyze)_
 
    ```java
    public class Box {
@@ -737,8 +738,8 @@ int c = Student.getCount();             // ClassName.staticMember
    }
    ```
 
-3. A class declares only `Student(String name)`. Why does `new Student()` fail, and how do you fix it? *(Analyze)*
-4. Find and fix the bug. What is printed after the fix? *(Analyze)*
+3. A class declares only `Student(String name)`. Why does `new Student()` fail, and how do you fix it? _(Analyze)_
+4. Find and fix the bug. What is printed after the fix? _(Analyze)_
 
    ```java
    public class Account {
@@ -749,14 +750,14 @@ int c = Student.getCount();             // ClassName.staticMember
    // main: System.out.println(new Account(500).getBalance());
    ```
 
-5. Write a class `Rectangle` with private fields `width` and `height`, a constructor that uses `this`, a `getArea()` method, and a static counter of created rectangles. *(Apply / Create)*
-6. A colleague makes all data fields public "to save time". Give two reasons why private fields with get/set methods are a better design. *(Evaluate)*
+5. Write a class `Rectangle` with private fields `width` and `height`, a constructor that uses `this`, a `getArea()` method, and a static counter of created rectangles. _(Apply / Create)_
+6. A colleague makes all data fields public "to save time". Give two reasons why private fields with get/set methods are a better design. _(Evaluate)_
 
 > [!NOTE]
 > Answer 2: `5 5 2` — `b = a` copies the reference, so both names reach the same Box; `made` counts both constructions. Answer 4: write `this.balance = balance;`, then the output is `500.0`.
 
 ## Textbooks
 
-Liang, *Introduction to Java Programming and Data Structures* (2022) — Ch. 9 (§9.1–9.14) and §10.4. Code figures: Deitel, Ch. 8.
+Liang, _Introduction to Java Programming and Data Structures_ (2022) — Ch. 9 (§9.1–9.14) and §10.4. Code figures: Deitel, Ch. 8.
 
 _25 min read (source: 38 min)_

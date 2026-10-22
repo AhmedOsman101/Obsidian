@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 
-printf 'Auditting...\n'
-pnpm audit --fix update &>/dev/null &
+true

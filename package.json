@@ -24,13 +24,13 @@
     "@catppuccin/vitepress": "^0.1.4",
     "@shikijs/types": "^4.5.0",
     "@vercel/speed-insights": "^2.0.0",
-    "cytoscape": "^3.34.3",
+    "cytoscape": "^3.34.4",
     "cytoscape-cose-bilkent": "^4.1.0",
     "dayjs": "^1.11.23",
     "debug": "^4.4.3",
     "katex": "^0.18.10",
     "minisearch": "^7.2.0",
-    "vue": "^3.5.43"
+    "vue": "^3.5.44"
   },
-  "packageManager": "pnpm@12.6.0"
+  "packageManager": "pnpm@12.14.0"
 }

@@ -13,12 +13,12 @@ title: Lecture 7
 The lecture begins by explaining how databases evolved to meet changing application needs:
 
 - **1970s–2000s**:  
-   Relational Database Management Systems (RDBMS) dominated. They emphasized:
+  Relational Database Management Systems (RDBMS) dominated. They emphasized:
   - Structured data
   - SQL standards
   - Strong data integrity (ACID)
 - **2010s onward**:  
-   NoSQL databases emerged to support:
+  NoSQL databases emerged to support:
   - Massive data volumes
   - Web and mobile applications
   - Distributed systems

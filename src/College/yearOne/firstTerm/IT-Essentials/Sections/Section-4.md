@@ -152,6 +152,7 @@ BCD is useful for applications where decimal representation is important, such a
 - Binary: $45 \to 101101$
 - Octal: $45 \to 55$
 - Hexadecimal: $45 \to 2D$
+
 </details>
 
 ### 2. Binary Addition
@@ -225,6 +226,7 @@ Decimal equivalent: $5 × 3 = 15$
 <b>Solution:</b>
 
 - ASCII code `97` corresponds to the character `a`.
+
 </details>
 
 ### 6. Binary-Coded Decimal (BCD)
@@ -234,6 +236,7 @@ Decimal equivalent: $5 × 3 = 15$
 <b>Solution:</b>
 
 - Decimal `59` in BCD: $0101 \space 1001$
+
 </details>
 
 ### 7. BCD to Decimal
@@ -243,4 +246,5 @@ Decimal equivalent: $5 × 3 = 15$
 <b>Solution:</b>
 
 - BCD $0110 \space 0101$ corresponds to decimal $65$.
+
 </details>

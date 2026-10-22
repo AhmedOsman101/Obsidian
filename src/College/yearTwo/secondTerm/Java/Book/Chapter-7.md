@@ -55,16 +55,17 @@ elementType[] arrayRefVar = {value0, value1, ..., valuek};
 ```
 
 **Processing arrays** — common operations:
-| Operation | Code Pattern |
-|-----------|-------------|
-| Initialize with input | `myList[i] = input.nextDouble();` |
-| Initialize with random | `myList[i] = Math.random() * 100;` |
-| Display | `System.out.print(myList[i] + " ");` |
-| Sum | `total += myList[i];` |
-| Find max | `if (myList[i] > max) max = myList[i];` |
-| Find max index | Separate `indexOfMax` variable, update on `>` |
-| Random shuffle | Generate random `j`, swap `myList[i]` with `myList[j]` |
-| Shift left | `myList[i-1] = myList[i];` in loop from 1 |
+
+| Operation              | Code Pattern                                           |
+| ---------------------- | ------------------------------------------------------ |
+| Initialize with input  | `myList[i] = input.nextDouble();`                      |
+| Initialize with random | `myList[i] = Math.random() * 100;`                     |
+| Display                | `System.out.print(myList[i] + " ");`                   |
+| Sum                    | `total += myList[i];`                                  |
+| Find max               | `if (myList[i] > max) max = myList[i];`                |
+| Find max index         | Separate `indexOfMax` variable, update on `>`          |
+| Random shuffle         | Generate random `j`, swap `myList[i]` with `myList[j]` |
+| Shift left             | `myList[i-1] = myList[i];` in loop from 1              |
 
 > [!NOTE]
 > `char[]` arrays can be printed with a single `System.out.println(city);` — other types must be printed element by element.

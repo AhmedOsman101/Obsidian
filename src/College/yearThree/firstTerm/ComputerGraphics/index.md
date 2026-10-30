@@ -7,7 +7,7 @@ next: false
 lastUpdated: false
 ---
 
-# ComputerGraphics
+# Computer Graphics
 
 - [Lectures](Lectures/index.md)
   - [Lecture 1](Lectures/Lecture-1.md)

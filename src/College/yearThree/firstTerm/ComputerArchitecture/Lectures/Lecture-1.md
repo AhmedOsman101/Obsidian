@@ -3,7 +3,9 @@ title: Lecture 1
 prev:
   text: "Computer Architecture"
   link: "/College/yearThree/firstTerm/ComputerArchitecture/index"
-next: false
+next:
+  text: "Lecture 2"
+  link: "/College/yearThree/firstTerm/ComputerArchitecture/Lectures/Lecture-2"
 ---
 
 # Computer Architecture - Lecture 1
@@ -116,38 +118,4 @@ Dynamic power ∝ activity × capacitance × voltage² × frequency
 | Early 2000s | Frequency increases raise power            | **Power wall**; frequency stagnates after                                |
 | Early 2010s | **Dennard scaling** (voltage scaling) ends | **Dark silicon** (unusable cores) and **dim silicon** (occasional turbo) |
 
-## Home Work 1
-
-**Computer System Abstraction and Von Neumann Architecture** — a 2–3-page report, due **Week 2**, submitted as a **PDF**.
-
-1. Define computer architecture and computer organization.
-2. Draw and label a Von Neumann architecture diagram.
-3. Differentiate between RISC and CISC architecture.
-4. Explain the stored-program concept and instruction cycle.
-5. Discuss the **Von Neumann bottleneck**.
-
-## References
-
-- Patterson, D. A., & Hennessy, J. L. (2018). _Computer Organization and Design: The Hardware/Software Interface, RISC-V Edition_. Morgan Kaufmann, Elsevier.
-- **RISC-V International** — RISC-V ISA resources and specifications.
-- **RARS** — RISC-V Assembler and Runtime Simulator.
-- Course notes and laboratory manual.
-
-> [!WARNING] Exam Note
-> Use one approved textbook edition consistently in the official course specification.
-
-## Lecture Objectives
-
-1. Define **computer architecture** and **computer organization**.
-2. Identify the main components of a computer system.
-3. Explain the **stored-program concept** and **Von Neumann architecture**.
-4. Distinguish between **hardware**, **software**, and **firmware**.
-5. Explain the basic **instruction-execution cycle**.
-6. Introduce **RISC-V** as the instruction-set architecture used in this course.
-
-> [!NOTE] Not covered in the slides
-> Objectives 4 and 6 are stated but the deck never defines hardware/software/firmware or introduces RISC-V — only the textbook and RARS references. Expect them in the homework and exam.
-
-**Next lecture:** data representation and RISC-V instruction basics.
-
-_7 min read (source: 5 min)_
+_5 min read (source: 5 min)_

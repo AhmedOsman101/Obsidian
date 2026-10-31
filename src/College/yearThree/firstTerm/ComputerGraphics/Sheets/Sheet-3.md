@@ -1,10 +1,20 @@
+---
+title: Sheet 3
+prev:
+  text: "Sheet 2"
+  link: "/College/yearThree/firstTerm/ComputerGraphics/Sheets/Sheet-2"
+next:
+  text: "Sheet 4"
+  link: "/College/yearThree/firstTerm/ComputerGraphics/Sheets/Sheet-4"
+---
+
 | Data    | Details                  |
 | :------ | :----------------------- |
 | Name    | ‎أحمد علي أحمد علي عثمان |
 | Code    | 20241807                 |
 | Section | 1                        |
 
-# Sheet 3 solutions: video display devices
+# Computer Graphics - Sheet 3: Video Display Devices
 
 ## Multiple choice (1 to 20)
 

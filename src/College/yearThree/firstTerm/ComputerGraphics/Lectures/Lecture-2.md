@@ -3,7 +3,9 @@ title: Lecture 2
 prev:
   text: "Lecture 1"
   link: "/College/yearThree/firstTerm/ComputerGraphics/Lectures/Lecture-1"
-next: false
+next:
+  text: "Lecture 3"
+  link: "/College/yearThree/firstTerm/ComputerGraphics/Lectures/Lecture-3"
 ---
 
 # Computer Graphics - Lecture 2
@@ -324,18 +326,5 @@ Plot the initial point $(x_0, y_0) = (20, 10)$ and determine successive pixel po
 
 > [!NOTE] The $P_k$ cycle
 > $P_k$ repeats every **two** steps (6, 2, −2, 14, 10, 6, 2, −2, 14, 10 …) because the NE and E updates differ by $2\Delta X = 20$. Verifying this cycle is the fastest way to check a hand-computed table.
-
-## Quick Review Questions
-
-1. What is a vector and what are its two defining properties?
-2. How do you compute the magnitude of a 2D and a 3D vector?
-3. How is the direction of a 3D vector described?
-4. What does the dot product return, and what is it used for in lighting?
-5. What does the cross product return, and how is it used to find surface normals?
-6. Which vector operation returns a scalar instead of a vector?
-7. State the transformation formulas for translation, scaling, rotation, and reflection.
-8. How does uniform scaling differ from non-uniform scaling?
-9. What does the decision parameter $P_k$ control in Bresenham's algorithm?
-10. What are the updates to $P_{k+1}$ for the NE and E cases?
 
 _15 min read (source: 12 min)_

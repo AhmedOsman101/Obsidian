@@ -10,10 +10,6 @@ next:
 
 # Computer Graphics - Lecture 1
 
-## Lecture Objectives
-
-Define **Computer Graphics**, **RGB**, **pixel**, **resolution**, **bit depth**, **tone**, **quantization**, and **quantization error**; identify major **applications**; distinguish **2D vs. 3D** and **raster graphics**.
-
 ## What Is Computer Graphics?
 
 **Computer Graphics** is the field of computer science concerned with **creating, manipulating, storing, and displaying images using computers**. It spans six areas:
@@ -211,20 +207,5 @@ Original -> Quantization + Dithering -> Smoother appearance
 
 > [!NOTE] The pair
 > **Quantization reduces the number of levels**, while **dithering hides the resulting banding**. Neither one alone produces a smooth result at low level counts.
-
-## Quick Review Questions
-
-1. What is Computer Graphics?
-2. What is the difference between 2D and 3D Graphics?
-3. What is a Pixel?
-4. What does Raster Graphics mean?
-5. What is Image Resolution?
-6. What does RGB stand for?
-7. What is the difference between Black and White in RGB?
-8. How many levels can 8 bits represent?
-9. What is Bit Depth?
-10. What is Quantization?
-11. What is Quantization Error?
-12. What is Posterization?
 
 _9 min read (source: 10 min)_

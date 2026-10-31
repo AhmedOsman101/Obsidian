@@ -1,10 +1,18 @@
+---
+title: Sheet 4
+prev:
+  text: "Sheet 3"
+  link: "/College/yearThree/firstTerm/ComputerGraphics/Sheets/Sheet-3"
+next: false
+---
+
 | Data    | Details                  |
 | :------ | :----------------------- |
 | Name    | ‎أحمد علي أحمد علي عثمان |
 | Code    | 20241807                 |
 | Section | 1                        |
 
-# Sheet 4 solutions: polygon filling
+# Computer Graphics - Sheet 4: Polygon Filling
 
 ## Part 1: multiple choice
 

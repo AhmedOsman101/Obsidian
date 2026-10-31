@@ -1,10 +1,20 @@
+---
+title: Sheet 1
+prev:
+  text: "Sheets"
+  link: "/College/yearThree/firstTerm/ComputerGraphics/Sheets/index"
+next:
+  text: "Sheet 2"
+  link: "/College/yearThree/firstTerm/ComputerGraphics/Sheets/Sheet-2"
+---
+
 | Data    | Details                  |
 | :------ | :----------------------- |
 | Name    | ‎أحمد علي أحمد علي عثمان |
 | Code    | 20241807                 |
 | Section | 1                        |
 
-# Sheet 1 solutions: introduction to Computer Graphics
+# Computer Graphics - Sheet 1: Introduction to Computer Graphics
 
 ## Part A: multiple choice
 

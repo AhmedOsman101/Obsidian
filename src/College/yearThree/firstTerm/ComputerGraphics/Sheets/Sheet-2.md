@@ -1,10 +1,20 @@
+---
+title: Sheet 2
+prev:
+  text: "Sheet 1"
+  link: "/College/yearThree/firstTerm/ComputerGraphics/Sheets/Sheet-1"
+next:
+  text: "Sheet 3"
+  link: "/College/yearThree/firstTerm/ComputerGraphics/Sheets/Sheet-3"
+---
+
 | Data    | Details                  |
 | :------ | :----------------------- |
 | Name    | ‎أحمد علي أحمد علي عثمان |
 | Code    | 20241807                 |
 | Section | 1                        |
 
-# Sheet 2 solutions: vectors, transformations, and Bresenham's line algorithm
+# Computer Graphics - Sheet 2: Vectors, Transformations and Bresenham's Line Algorithm
 
 ## Part A: multiple choice
 

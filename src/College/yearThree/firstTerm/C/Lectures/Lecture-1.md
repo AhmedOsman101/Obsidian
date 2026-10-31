@@ -66,9 +66,16 @@ char fun() {         // actual return type is char
 ```
 
 ```
-error: call to undeclared function 'fun'; ISO C99 and later do not support implicit function declarations
-error: conflicting types for 'fun'
-note: previous implicit declaration is here
+file.c:4:12: error: call to undeclared function 'fun'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+    4 |   char c = fun();   // no declaration: compiler assumes fun() returns int
+      |            ^
+file.c:9:6: error: conflicting types for 'fun'
+    9 | char fun() {         // actual return type is char
+      |      ^
+file.c:4:12: note: previous implicit declaration is here
+    4 |   char c = fun();   // no declaration: compiler assumes fun() returns int
+      |            ^
+2 errors generated.
 ```
 
 If `fun()` is _defined before_ `main`, the same code compiles and prints `character is: a` — the declaration is embedded in the definition.
@@ -511,6 +518,7 @@ flowchart LR
 
 ```c
 #include <stdio.h>
+
 int factorialTail(int n) {
   // Base case
   if (n == 1 || n == 0) return 1;

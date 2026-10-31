@@ -1276,6 +1276,8 @@ Pure
 Phosphor
 Polygon
 Pipelining
+Placing
+Packing
 IHDR
 IDATx
 IO
@@ -2625,6 +2627,10 @@ Imbalance
 Incidence
 Imaging
 Interlacing
+Indirection
+Initializers
+Indirect
+Iterative
 pHYs
 pt
 pu
@@ -4092,6 +4098,13 @@ portions
 paints
 pipeline
 preserving
+prototype
+packing
+prototyped
+param
+peel
+pragmas
+preview
 sbf
 sPv
 sC
@@ -5704,6 +5717,8 @@ sweeps
 sharp
 street
 shade
+scarce
+subroutine
 ff
 fP
 fj
@@ -6944,6 +6959,9 @@ fades
 flickers
 feels
 flight
+freeing
+factorialTail
+fatal
 yq
 yh
 yS
@@ -9557,6 +9575,10 @@ weightKg
 win
 withdraw
 whatever
+wordy
+walking
+walk
+wherever
 BU
 Bh
 BC
@@ -10772,6 +10794,7 @@ BSTs
 Behaviors
 Bresenham
 Bottleneck
+Benefit
 MC
 Ml
 MW
@@ -12062,6 +12085,8 @@ MyHashMap
 MyHashSet
 Maximal
 MIPS
+Modularity
+Macro
 Lj
 Lf
 LvVa
@@ -13256,6 +13281,8 @@ Lighting
 Lambert
 Lowermost
 Limits
+Locale
+Lives
 al
 aj
 ar
@@ -14648,6 +14675,8 @@ aided
 arranges
 angles
 axes
+alias
+afterwards
 Te
 Tn
 TA
@@ -15826,6 +15855,10 @@ Tuesday
 Thursday
 Track
 Traverses
+Trio
+Traced
+Tail
+Turbo
 uj
 uq
 uXm
@@ -16871,6 +16904,11 @@ unusable
 unlink
 unlinks
 uniformly
+unaligned
+unions
+uninitialized
+uncalled
+untouched
 OB
 Ox
 ONynT
@@ -18891,6 +18929,9 @@ Underflow
 Unbalanced
 Underlined
 Underweight
+Uninitialized
+Unions
+Undefines
 ra
 rO
 rV
@@ -20210,6 +20251,9 @@ raster
 radiation
 rewiring
 roughly
+roadmap
+resemble
+redefinition
 eiO
 es
 ee
@@ -21531,6 +21575,7 @@ emissive
 electrons
 excites
 extent
+elegant
 GO
 GQ
 Gk
@@ -23785,6 +23830,7 @@ Elementary
 Emissive
 ENIAC
 EDVAC
+Expands
 Sal
 SQ
 SB
@@ -25248,6 +25294,9 @@ Skewed
 Screens
 Surface
 Stage
+Skipping
+Splicing
+Stringize
 iH
 ic
 iP
@@ -26557,6 +26606,7 @@ intersected
 intersection
 intersects
 intersections
+inlined
 tWA
 tW
 tM
@@ -27803,6 +27853,9 @@ tricks
 tones
 tour
 trades
+typedef
+truncated
+textually
 nm
 nv
 nhuK
@@ -28834,6 +28887,8 @@ nextLine
 narrows
 nonlinear
 normals
+nest
+nonsense
 Fc
 Fe
 Fo
@@ -32913,6 +32968,10 @@ beam
 backlight
 beams
 blends
+biggest
+behaviour
+binds
+blob
 Nb
 NJu
 Nbsa
@@ -34023,6 +34082,7 @@ November
 Net
 Normalizing
 Neumann
+Newly
 lqQvz
 ln
 lN
@@ -35072,6 +35132,8 @@ locating
 lighter
 lands
 lowermost
+localized
+locals
 Rc
 Rt
 RO
@@ -36361,6 +36423,12 @@ RPN
 Rotations
 Raster
 Refreshing
+Reach
+Returning
+Reusability
+Risky
+Resursive
+Reassignment
 Zt
 ZB
 Zb
@@ -39526,6 +39594,9 @@ Digraph
 Dithering
 Dead
 Decode
+Dangling
+Diagnostics
+Directives
 ohQ
 oL
 ob
@@ -41776,6 +41847,11 @@ mixtures
 magenta
 microprogrammed
 misprediction
+mutually
+meaningfully
+modifiable
+macro
+macros
 Ck
 CS
 Cm
@@ -43320,6 +43396,9 @@ Consequences
 Caches
 CPI
 ComputerGraphics
+Contents
+Callee
+Chains
 vb
 vO
 vvF
@@ -45985,6 +46064,12 @@ corner
 counterclockwise
 consequence
 competes
+casts
+callee
+checkEvenOdd
+checkPalindrome
+continuation
+conformant
 Hu
 Hg
 HiL
@@ -48269,6 +48354,7 @@ huge
 hits
 hardwired
 hide
+harmless
 Xi
 XZ
 Xn
@@ -50259,6 +50345,7 @@ gun
 glows
 guides
 guns
+governs
 KUYX
 KX
 KK
@@ -53745,6 +53832,7 @@ Velsky
 Visits
 Von
 VAX
+Verified
 dk
 dR
 dV
@@ -55119,6 +55207,10 @@ delegate
 draws
 deflection
 datapath
+datatypes
+deref
+defect
+decays
 AK
 AQ
 Aya
@@ -56654,6 +56746,8 @@ Alaska
 Actually
 Adelson
 Additive
+Aliases
+Aspects
 Jw
 Jg
 JT

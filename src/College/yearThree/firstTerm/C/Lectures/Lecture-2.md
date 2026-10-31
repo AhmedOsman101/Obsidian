@@ -228,7 +228,7 @@ A **pointer to a pointer** stores the address of another pointer: the first poin
 
 ```mermaid
 flowchart LR
-  V["val = 5"] <--"|ptr stores &val"| P["ptr"] <--"|d_ptr stores &ptr"| D["d_ptr"]
+  D["d_ptr"] -->|stores &ptr| P["ptr"] -->|stores &val| V["val = 5"]
 ```
 
 ```c
@@ -243,6 +243,7 @@ Full chain, verified:
 
 ```c
 #include <stdio.h>
+
 int main() {
   int var = 789;
   int *ptr2;     // pointer for var
@@ -279,6 +280,7 @@ A **void pointer** has no associated data type. It can point to any type but mus
 
 ```c
 #include <stdio.h>
+
 int main() {
   int n = 10;
   void *ptr = &n;
@@ -317,6 +319,7 @@ When you have no address to assign yet, initialize the pointer to **NULL** at de
 
 ```c
 #include <stdio.h>
+
 int main() {
   int *ptr = NULL;
   printf("The value of ptr is : %x\n", ptr);   // 0
@@ -382,6 +385,7 @@ for (int i = 0; i < 4; i++) {
 
 ```c
 #include <stdio.h>
+
 int main() {
   int x[5] = {1, 2, 3, 4, 5};
   int *ptr;
@@ -431,6 +435,7 @@ Verified: values 200, 100, 10 in that order.
 
 ```c
 #include <stdio.h>
+
 void minMax(int arr[], int len, int *min, int *max) {
   *min = *max = arr[0];
   int i;

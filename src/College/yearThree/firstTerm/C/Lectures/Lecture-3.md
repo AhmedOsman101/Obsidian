@@ -3,7 +3,9 @@ title: Lecture 3
 prev:
   text: "Lecture 2"
   link: "/College/yearThree/firstTerm/C/Lectures/Lecture-2"
-next: false
+next:
+  text: "Lecture 4"
+  link: "/College/yearThree/firstTerm/C/Lectures/Lecture-4"
 ---
 
 # Advanced C - Lecture 3: Structure and Union

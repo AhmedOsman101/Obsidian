@@ -77,7 +77,7 @@ Master and slave each hold a register. On every clock, one bit goes out on MOSI 
 
 | Clock | MOSI | MISO | Master reg | Slave reg  |
 | ----- | ---- | ---- | ---------- | ---------- |
-| start | —    | —    | `10110010` | `01001101` |
+| start | -    | -    | `10110010` | `01001101` |
 | 1     | 1    | 0    | `01100100` | `10011011` |
 | 2     | 0    | 1    | `11001001` | `00110110` |
 | 3     | 1    | 0    | `10010010` | `01101101` |

@@ -3,7 +3,9 @@ title: Lecture 2
 prev:
   text: "Lecture 1"
   link: "/College/yearThree/firstTerm/DataCommunication/Lectures/Lecture-1"
-next: false
+next:
+  text: "Lecture 3"
+  link: "/College/yearThree/firstTerm/DataCommunication/Lectures/Lecture-3"
 ---
 
 # Data Communication - Lecture 2

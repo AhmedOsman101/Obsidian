@@ -3,7 +3,9 @@ title: Section 2
 prev:
   text: "Section 1"
   link: "/College/yearThree/firstTerm/DataCommunication/Sections/Section-1"
-next: false
+next:
+  text: "Section 3"
+  link: "/College/yearThree/firstTerm/DataCommunication/Sections/Section-3"
 ---
 
 # Data Communication - Section 2: Signals, Impairments, and Capacity

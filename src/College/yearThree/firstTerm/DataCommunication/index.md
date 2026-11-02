@@ -18,6 +18,7 @@ lastUpdated: false
 - [Sections](Sections/index.md)
   - [Section 1](Sections/Section-1.md)
   - [Section 2](Sections/Section-2.md)
+  - [Section 3](Sections/Section-3.md)
 
 - [Tasks](Tasks/index.md)
   - [Task 1](Tasks/Task-1.md)

@@ -250,9 +250,8 @@ circle(480, 240, 80);
 
 ## setfillstyle() and floodfill()
 
-void setfillstyle(int pattern, int color)
-
 ```cpp
+void setfillstyle(int pattern, int color)
 void floodfill(int x, int y, int border_color)
 ```
 

@@ -64,9 +64,6 @@ In a chart, `setcolor` controls the axes and the text, while `setfillstyle` cont
 
 ```cpp
 void setfillstyle(int pattern, int color)
-```
-
-```cpp
 void floodfill(int x, int y, int border_color)
 ```
 
@@ -97,9 +94,6 @@ floodfill(200, 175, WHITE);
 
 ```cpp
 void outtextxy(int x, int y, char *string)
-```
-
-```cpp
 void settextstyle(int font, int direction, int font_size)
 ```
 

@@ -11,8 +11,9 @@
   "devDependencies": {
     "@markslides/markdown-it-mermaid": "^0.4.6",
     "@types/node": "^26.6.6",
+    "fastdom": "1.0.12",
     "husky": "^9.1.7",
-    "markdown-it-mathjax3": "^5.2.0",
+    "markdown-it-mathjax3": "4.3.2",
     "mermaid": "^12.3.0",
     "vitepress": "2.0.0-alpha.20",
     "vitepress-plugin-mermaid": "^2.0.17",

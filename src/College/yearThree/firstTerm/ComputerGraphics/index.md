@@ -31,3 +31,6 @@ lastUpdated: false
 - [Tasks](Tasks/index.md)
   - [Task 1](Tasks/Task-1.md)
   - [Task 2](Tasks/Task-2.md)
+
+- [Assignments](Assignments/index.md)
+  - [Assignment 1](Assignments/Assignment-1.md)

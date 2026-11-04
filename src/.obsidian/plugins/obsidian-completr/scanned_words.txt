@@ -1298,6 +1298,9 @@ Paint
 Photos
 Pie
 Police
+Polygonal
+Plane
+Projecting
 IHDR
 IDATx
 IO
@@ -4163,6 +4166,9 @@ posterization
 poster
 planes
 pulse
+planar
+painted
+polarising
 sbf
 sPv
 sC
@@ -5824,6 +5830,10 @@ spectrum
 sag
 sight
 satellite
+slid
+stayed
+somewhere
+scanline
 ff
 fP
 fj
@@ -7082,6 +7092,8 @@ floodfill
 fifteen
 flatten
 fibre
+fig
+freehand
 yq
 yh
 yS
@@ -12255,6 +12267,7 @@ Monotonic
 MAGENTA
 Meaningful
 Mbit
+Meets
 Lj
 Lf
 LvVa
@@ -16067,6 +16080,10 @@ TFEL
 Thin
 Trackball
 Than
+Transforming
+Translated
+Turning
+Traces
 uj
 uq
 uXm
@@ -18123,6 +18140,7 @@ Obtain
 OnlineGDB
 OpenCV
 Oxygen
+Outward
 Uc
 Ue
 UXk
@@ -20503,6 +20521,7 @@ roof
 ridge
 repairs
 radiates
+ruin
 eiO
 es
 ee
@@ -21836,6 +21855,8 @@ enlarge
 excite
 elevator
 elliptical
+escapes
+emitting
 GO
 GQ
 Gk
@@ -22883,6 +22904,7 @@ Grayscale
 Gamma
 GREEN
 Guided
+Gives
 Ex
 EZR
 EG
@@ -25614,6 +25636,10 @@ Shannon
 Spectrum
 Susceptibility
 SNR
+Seed
+Spread
+Seeding
+Shading
 iH
 ic
 iP
@@ -26940,6 +26966,7 @@ inset
 intersymbol
 imperceptible
 interferes
+interpolated
 tWA
 tW
 tM
@@ -28223,6 +28250,11 @@ tolerates
 talkie
 twelfth
 traps
+twelve
+touched
+tilt
+tiled
+tip
 nm
 nv
 nhuK
@@ -29266,6 +29298,7 @@ nearer
 notice
 noiseless
 noticeably
+neighbourhoods
 Fc
 Fe
 Fo
@@ -30493,6 +30526,7 @@ Flood
 Fastest
 Filled
 Far
+Faces
 xi
 xpF
 xwG
@@ -33378,6 +33412,10 @@ bars
 bordered
 baseline
 boosts
+bulky
+burn
+bleed
+brightly
 Nb
 NJu
 Nbsa
@@ -34497,6 +34535,7 @@ Notices
 Nyquist
 Noiseless
 Numerical
+Normals
 lqQvz
 ln
 lN
@@ -36863,6 +36902,7 @@ Rounding
 RED
 Receiver
 Regeneration
+Rotated
 Zt
 ZB
 Zb
@@ -40060,6 +40100,7 @@ Door
 DataCommunication
 Destructive
 Differ
+Directions
 ohQ
 oL
 ob
@@ -41082,6 +41123,8 @@ observe
 observations
 olive
 overlaps
+oblique
+outwards
 mipte
 mRT
 mX
@@ -42343,6 +42386,7 @@ monochrome
 monotonically
 monotonic
 measurable
+motions
 Ck
 CS
 Cm
@@ -43908,6 +43952,9 @@ Charts
 Correction
 Confinement
 Conversation
+Corner
+Centre
+Calculations
 vb
 vO
 vvF
@@ -44900,6 +44947,8 @@ violated
 visiting
 von
 vanish
+vacuum
+valve
 ck
 cr
 ce
@@ -46614,6 +46663,11 @@ conversation
 crackle
 compounds
 clipped
+convex
+centres
+colour
+coils
+confirms
 Hu
 Hg
 HiL
@@ -55833,6 +55887,11 @@ downlink
 decisive
 decibels
 decibel
+drags
+dragging
+deflected
+diode
+daylight
 AK
 AQ
 Aya
@@ -57384,6 +57443,7 @@ Angles
 Aluminium
 Agrees
 Amplifies
+ABCD
 Jw
 Jg
 JT

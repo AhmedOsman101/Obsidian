@@ -1,0 +1,82 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 740 420' width='100%' role='img'>
+<rect width='740' height='420' fill='none'/>
+<rect x='64' y='56' width='44' height='44' fill='#cfe3ff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='108' y='56' width='44' height='44' fill='#cfe3ff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='152' y='56' width='44' height='44' fill='#cfe3ff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='196' y='56' width='44' height='44' fill='#cfe3ff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='240' y='56' width='44' height='44' fill='#cfe3ff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='284' y='56' width='44' height='44' fill='#333333' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='64' y='100' width='44' height='44' fill='#cfe3ff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='108' y='100' width='44' height='44' fill='#cfe3ff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='152' y='100' width='44' height='44' fill='#cfe3ff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='196' y='100' width='44' height='44' fill='#cfe3ff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='240' y='100' width='44' height='44' fill='#333333' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='284' y='100' width='44' height='44' fill='#ffffff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='64' y='144' width='44' height='44' fill='#cfe3ff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='108' y='144' width='44' height='44' fill='#cfe3ff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='152' y='144' width='44' height='44' fill='#cfe3ff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='196' y='144' width='44' height='44' fill='#333333' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='240' y='144' width='44' height='44' fill='#ffffff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='284' y='144' width='44' height='44' fill='#ffffff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='64' y='188' width='44' height='44' fill='#cfe3ff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='108' y='188' width='44' height='44' fill='#cfe3ff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='152' y='188' width='44' height='44' fill='#333333' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='196' y='188' width='44' height='44' fill='#ffffff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='240' y='188' width='44' height='44' fill='#ffffff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='284' y='188' width='44' height='44' fill='#ffffff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='64' y='232' width='44' height='44' fill='#cfe3ff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='108' y='232' width='44' height='44' fill='#333333' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='152' y='232' width='44' height='44' fill='#ffffff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='196' y='232' width='44' height='44' fill='#ffffff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='240' y='232' width='44' height='44' fill='#ffffff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='284' y='232' width='44' height='44' fill='#ffffff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='64' y='276' width='44' height='44' fill='#333333' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='108' y='276' width='44' height='44' fill='#ffffff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='152' y='276' width='44' height='44' fill='#ffffff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='196' y='276' width='44' height='44' fill='#ffffff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='240' y='276' width='44' height='44' fill='#ffffff' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='284' y='276' width='44' height='44' fill='#ffffff' stroke='#9a9a9a' stroke-width='1'/>
+<circle cx='86.0' cy='78.0' r='10' fill='none' stroke='#c0392b' stroke-width='3'/>
+<text x='196.0' y='38' fill='#333333' font-size='14' font-weight='600' text-anchor='middle' font-family='ui-sans-serif,system-ui,sans-serif'>4-connected fill</text>
+<text x='196.0' y='344' fill='#6b6b6b' font-size='12' text-anchor='middle' font-family='ui-sans-serif,system-ui,sans-serif'>15 pixels filled, the boundary holds</text>
+<rect x='404' y='56' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='448' y='56' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='492' y='56' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='536' y='56' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='580' y='56' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='624' y='56' width='44' height='44' fill='#333333' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='404' y='100' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='448' y='100' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='492' y='100' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='536' y='100' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='580' y='100' width='44' height='44' fill='#333333' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='624' y='100' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='404' y='144' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='448' y='144' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='492' y='144' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='536' y='144' width='44' height='44' fill='#333333' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='580' y='144' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='624' y='144' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='404' y='188' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='448' y='188' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='492' y='188' width='44' height='44' fill='#333333' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='536' y='188' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='580' y='188' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='624' y='188' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='404' y='232' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='448' y='232' width='44' height='44' fill='#333333' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='492' y='232' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='536' y='232' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='580' y='232' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='624' y='232' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='404' y='276' width='44' height='44' fill='#333333' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='448' y='276' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='492' y='276' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='536' y='276' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='580' y='276' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<rect x='624' y='276' width='44' height='44' fill='#ffddc2' stroke='#9a9a9a' stroke-width='1'/>
+<circle cx='426.0' cy='78.0' r='10' fill='none' stroke='#c0392b' stroke-width='3'/>
+<text x='536.0' y='38' fill='#333333' font-size='14' font-weight='600' text-anchor='middle' font-family='ui-sans-serif,system-ui,sans-serif'>8-connected fill</text>
+<text x='536.0' y='344' fill='#6b6b6b' font-size='12' text-anchor='middle' font-family='ui-sans-serif,system-ui,sans-serif'>30 pixels filled, the fill leaks through the corner</text>
+<text x='370.0' y='386' fill='#6b6b6b' font-size='12' text-anchor='middle' font-family='ui-sans-serif,system-ui,sans-serif'>black cells are boundary pixels, the red ring is the seed pixel</text>
+</svg>

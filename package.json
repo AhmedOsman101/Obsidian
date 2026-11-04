@@ -10,25 +10,25 @@
   },
   "devDependencies": {
     "@markslides/markdown-it-mermaid": "^0.4.6",
-    "@types/node": "^26.6.5",
+    "@types/node": "^26.6.6",
     "husky": "^9.1.7",
     "markdown-it-mathjax3": "^5.2.0",
-    "mermaid": "^11.17.2",
+    "mermaid": "^12.3.0",
     "vitepress": "2.0.0-alpha.20",
     "vitepress-plugin-mermaid": "^2.0.17",
     "vitepress-plugin-nprogress": "^0.1.1",
-    "vitepress-sidebar": "^1.40.0"
+    "vitepress-sidebar": "^1.41.0"
   },
   "dependencies": {
     "@braintree/sanitize-url": "^7.1.2",
     "@catppuccin/vitepress": "^0.1.4",
-    "@shikijs/types": "^4.5.0",
+    "@shikijs/types": "^4.6.0",
     "@vercel/speed-insights": "^2.0.0",
     "cytoscape": "^3.34.4",
     "cytoscape-cose-bilkent": "^4.1.0",
     "dayjs": "^1.11.23",
     "debug": "^4.4.3",
-    "katex": "^0.18.10",
+    "katex": "^0.19.1",
     "minisearch": "^7.2.0",
     "vue": "^3.5.44"
   },

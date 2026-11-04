@@ -8,220 +8,163 @@ next: false
 
 # Data Communication - Task 1: Worksheet 1
 
-The sheet has four questions groups and fifteen questions in total: four definitions, five short answers, three comparisons, and three analytical problems. Every question is answered below, with full working for the numerical parts.
+| Data    | Details                  |
+| :------ | :----------------------- |
+| Name    | ‎أحمد علي أحمد علي عثمان |
+| Code    | 20241807                 |
+| Section | 1                        |
 
 ## Question I: Definitions
 
-### 1. Define Data and Information, and Explain the Distinction
+### 1. Define Data and Information, and Clearly Explain the Distinction Between Them
 
-**Data** is the raw representation of facts: numbers, characters, or symbols, before anyone interprets them. It carries no meaning on its own.
+**Data** is the collection of facts, numbers and symbols that a device handles, without any meaning attached to them. The values `25`, `6` and `2026` sitting in memory are data.
 
-**Information** is data that has been organized and interpreted so that it means something to a receiver.
+**Information** is what the same data becomes once it has been processed and read with a purpose. If `25`, `6` and `2026` are read as a day, a month and a year, the result is the information "25 June 2026".
 
-**Example.** The bytes `25, 6, 2026` are data. Read as a date, the same bytes give the information **25 June 2026**. Nothing about the bytes changed; only the interpretation did.
+The two therefore differ in the stage they are in. Data has not been interpreted yet; information has. Nothing has to change in the numbers for the second to appear, only the way they are read. Loosely, data is what is stored and information is what is understood.
 
-| Aspect         | Data                   | Information                      |
-| -------------- | ---------------------- | -------------------------------- |
-| **State**      | Raw, unprocessed       | Processed, interpreted           |
-| **Meaning**    | None until interpreted | Meaningful to a receiver         |
-| **Dependence** | Independent of context | Depends on agreed interpretation |
+### 2. What Is a Signal, and Why Is It Necessary to Convert Data into a Signal?
 
-### 2. What Is a Signal, and Why Must Data Be Converted Into One?
+A **signal** is the physical representation of data, the quantity a transmitter puts on a medium so that a receiver can detect it. In wired links it is normally an electric voltage or current, and in a wireless link it is an electromagnetic wave.
 
-A **signal** is the physical, measurable quantity, usually voltage, current, or an electromagnetic wave, that carries data from a transmitter through a medium to a receiver.
+Data cannot be sent in its own form, because a number stored in a register has no physical existence on the wire. The transmitter therefore has to turn it into something that can propagate, and the receiver has to turn it back. That is the whole job of the encoder and decoder in the communication model: the encoder maps each bit onto a measurable level, such as a voltage, and on the receiving side the decoder decides which level was sent and recovers the bit. A voice, for instance, becomes a varying voltage at the microphone, and it is that voltage, not the sound, which travels along the cable.
 
-Conversion is necessary because **data cannot travel through a wire or the air as it is**. Numbers and characters are abstract. A transmitter's encoder maps each piece of data onto a physical quantity, such as a voltage level, a frequency, or a light intensity, and the receiver's decoder reverses that mapping.
+### 3. Define Spectral Bandwidth and Explain What Happens to a Square Wave on a Bandwidth-Limited Channel
 
-**Example.** A microphone converts a voice, which is a sound wave, into a varying electrical voltage. That voltage is the signal that travels down the line.
+The **spectral bandwidth** of a signal is the range of frequencies it occupies. If a signal contains components at $f$ and $3f$, its spectrum lies between them and its bandwidth is $3f - f = 2f$. It is measured in hertz and it says how wide a band the channel has to pass in order to carry the signal undistorted.
 
-### 3. Define Spectral Bandwidth and Explain the Effect of a Bandwidth-Limited Channel on a Square Wave
+A square wave is not a single frequency. It is made up of a fundamental and a series of odd harmonics, $f$, $3f$, $5f$ and so on, with falling amplitudes, and that series does not end, which means a perfect square wave has an infinite bandwidth.
 
-**Spectral bandwidth** is the width of the range of frequencies contained in a signal. If a signal contains components at $f$ and $3f$, its spectrum spans those frequencies and its absolute bandwidth is $3f - f = 2f$.
-
-A **square wave** is built from a fundamental plus odd harmonics at decreasing amplitude:
-
-$$s(t) = \frac{4}{\pi}\left[\sin(2\pi f t) + \tfrac{1}{3}\sin(2\pi(3f)t) + \tfrac{1}{5}\sin(2\pi(5f)t) + \cdots\right]$$
-
-Because the series never ends, a perfect square wave has **infinite bandwidth**. A real channel passes only a limited band, so it removes the higher harmonics.
-
-**Result.** The edges are rounded and the flat tops sag. The waveform becomes a distorted approximation of a square wave, closer to a smoothed pulse. Removing more harmonics makes the distortion worse, and because the sharp edges carry the timing information, a bandwidth-limited channel also makes **bit boundaries harder to detect**, which is the first step toward intersymbol interference.
+A channel can only pass a limited band, so the harmonics above its limit are removed. What arrives at the receiver is then only the fundamental with the first few harmonics, and the wave loses its sharp edges: the rising and falling edges become rounded and the flat top droops a little. The shape is no longer a square but a smoothed version of it. The practical consequence is that the edges, which carry the timing of the bits, become less distinct, so a receiver finds it harder to tell exactly where one bit ends and the next begins.
 
 ### 4. Define Attenuation and State How It Varies With Frequency
 
-**Attenuation** is the loss of signal strength as it travels over a medium. It is measured as a reduction in power or voltage with distance.
+**Attenuation** is the reduction in the strength of a signal as it travels along a medium, so that what arrives at the receiver is weaker than what was sent. It is the reason long cables need amplifiers or repeaters.
 
-Over a guided medium, attenuation **increases with frequency**: higher-frequency components lose more energy per unit length than lower-frequency ones. This frequency dependence is what makes a long cable act as a low-pass filter, rounding off fast edges.
+Over a guided medium it does not act equally on every part of the signal: **it increases as the frequency increases**. The high-frequency components lose more energy per metre than the low-frequency ones.
 
-Engineers compensate with **repeaters or amplifiers**, and must amplify higher frequencies more than lower ones to flatten the response. Otherwise the received signal arrives weak and unequal across its spectrum.
+Because of this a long cable behaves like a filter that passes the low frequencies and weakens the high ones, and the sharp edges of a fast signal are exactly the high-frequency parts. In practice the loss is compensated with repeaters, or with amplifiers that boost the higher frequencies more than the lower ones, so that the received signal stays clear of the noise level and strong enough to be detected.
 
 ## Question II: Short-Answer Questions
 
-### 1. The Five Core Components of the Data Communication Model
+### 1. List the Five Core Components of the General Data Communication Model
 
-| #   | Component               | Role                                                             |
-| --- | ----------------------- | ---------------------------------------------------------------- |
-| 1   | **Source**              | Generates the data to be transmitted                             |
-| 2   | **Transmitter**         | Converts and encodes the data into a signal suited to the medium |
-| 3   | **Transmission system** | The path the signal travels, from one cable to an entire network |
-| 4   | **Receiver**            | Accepts the signal and decodes it back into usable data          |
-| 5   | **Destination**         | Takes the incoming data and uses it                              |
+The model is made of five parts:
 
-A **protocol**, the agreed set of rules both ends follow, is what allows the five components to cooperate.
+1. **Source system**: produces the data that is to be sent.
+2. **Transmitter**: converts the data into a signal suitable for the transmission system.
+3. **Transmission system**: the medium and everything between the two ends that the signal passes through.
+4. **Receiver**: takes the incoming signal and converts it back into a form the destination can use.
+5. **Destination system**: receives the data and uses it.
 
-### 2. Any Three Primary Communications Tasks
+The five only work together because both ends follow the same set of rules, the protocol.
 
-| Task                               | What it does                                                      | Example                                 |
-| ---------------------------------- | ----------------------------------------------------------------- | --------------------------------------- |
-| **Synchronization**                | Sender and receiver agree on timing so each bit is read correctly | Both ends configured for 9600 bit/s     |
-| **Flow control**                   | Prevents a fast sender from overwhelming a slow receiver          | Receiver signals the sender to pause    |
-| **Error detection and correction** | Notices, and sometimes fixes, bits that arrive wrong              | A parity bit flags a single flipped bit |
-| **Exchange management**            | Agrees when to start, pause, and end a conversation               | Turn-taking on a half-duplex link       |
-| **Interfacing**                    | Physically connects the device to the medium                      | An RS-485 terminal block                |
-| **Signal generation**              | Produces a signal the medium can actually carry                   | Voltage levels representing 1s and 0s   |
+### 2. Identify and Briefly Describe Any Three Primary Communications Tasks
 
-### 3. Three Fundamental Physical Topologies and the Star's Single Point of Failure
+Three of the tasks a network system has to perform are the following.
 
-The three fundamental physical topologies are **bus**, **ring**, and **star**.
+**Synchronization.** The transmitter and the receiver have to agree on when one bit ends and the next begins. Without this they would drift apart and the receiver would sample the wrong bits. In practice the two ends are configured with the same bit rate, for example 9600 bit/s, and in asynchronous transmission the start bit re-syncs them for every character.
 
-- **Bus**: one shared cable connects every node, with no connectivity devices.
-- **Ring**: each node connects to its two nearest neighbours, forming a circle, often with token passing.
-- **Star**: every node connects through a central device.
+**Flow control.** A fast sender can fill the buffer of a slow receiver faster than it can empty it. Flow control stops that happening: the receiver tells the sender to pause, and the sender resumes when it is told to. The RTS and CTS lines of RS-232 are a hardware version of the same idea.
 
-In a **star** topology the **central hub or switch is the single point of failure**. If it fails, every node loses connectivity at once, even though no cable is damaged. By contrast, a single cable fault in a star affects at most two nodes.
+**Error detection and correction.** Bits can be flipped on the way, so the system has to be able to notice. A parity bit is the simplest form: if the count of ones comes out wrong, the receiver knows that something was corrupted, even though it cannot say which bit. Stronger methods come later in the course, with checksums and CRC.
 
-### 4. Why Impulse Noise Is Far More Destructive to Digital Data Than to Analog Voice
+### 3. Name the Three Fundamental Physical Topologies and State the Main Single Point of Failure in a Star
 
-**Impulse noise** consists of short-duration, high-amplitude spikes from external electromagnetic interference: motors switching, lightning, arcing contacts.
+The three fundamental physical topologies are **bus**, **ring** and **star**.
 
-- **Analog voice** is continuous and highly redundant. The ear tolerates a brief click or crackle, and a 10 ms spike removes an imperceptible slice of a waveform that the listener reconstructs from context. The information degrades gracefully.
-- **Digital data** is discrete. A spike that lasts one bit time does not blur a value, it **inverts it**. Every bit in that window is lost, and there is no redundancy in the raw stream to recover it.
+In a **star** topology every node is wired to a central device, a hub or a switch, and that central device is the single point of failure. If it stops working the whole network is down, even though none of the cables has been damaged. A cable fault in a star only disconnects the one node at its end, which is better than a bus, where a break in the shared cable takes out the whole segment.
 
-**Quantified.** A 0.01 s spike at 56 kbit/s wipes out
+### 4. Explain Why Impulse Noise Is Far More Destructive to Digital Data Than to Analog Voice
+
+Impulse noise is a short burst of interference of high amplitude, produced by things like a motor switching on and off or a spark. It lasts only a few milliseconds but it is very large compared with the signal.
+
+An analog voice signal is continuous and a listener tolerates a brief click without noticing it, because the ear reconstructs the word from what comes before and after. The information is lost for a few milliseconds and then carries on.
+
+Digital data has no such margin. Bits are discrete, so a spike that coincides with a bit does not blur its value, it changes it, and the bit is simply wrong. The size of the problem follows from the data rate: at 56 kbit/s a spike of 0.01 s covers
 
 $$0.01 \times 56{,}000 = 560 \text{ bits}$$
 
-A listener would never notice a 10 ms click, but 560 bits is a large block of a data message, and a single wrong bit can invalidate an entire packet through a checksum failure.
+That is a large block of a message destroyed, and one wrong bit is enough to make a whole packet fail its check. A 10 ms click in a phone call, on the other hand, is barely heard.
 
-### 5. How Nyquist and Shannon Differ in Their Assumptions About Noise
+### 5. How Do Nyquist's Formula and Shannon's Capacity Formula Differ in Their Assumptions Regarding Channel Noise?
 
-|                      | Nyquist                         | Shannon                                           |
-| -------------------- | ------------------------------- | ------------------------------------------------- |
-| **Assumption**       | The channel is **noiseless**    | The channel has noise, with a given signal power  |
-| **What limits rate** | Bandwidth alone                 | Bandwidth **and** the signal-to-noise ratio       |
-| **Formula**          | $C = 2B\log_2 M$                | $C = B\log_2(1+\mathrm{SNR})$                     |
-| **Role of $M$**      | The designer chooses the levels | Noise caps how many levels remain distinguishable |
+Nyquist's formula
 
-Nyquist answers "how fast can this bandwidth carry symbols if nothing interferes?" Shannon answers "how fast can it carry information given the noise floor?" Nyquist's result is a ceiling that Shannon lowers to what the noise actually permits.
+$$C = 2B\log_2 M$$
+
+belongs to an ideal channel in which there is **no noise at all**. It says that a band of width $B$ hertz can carry $2B$ symbols a second, and that with $M$ different levels each symbol carries $\log_2 M$ bits. The only thing limiting the rate is the bandwidth.
+
+Shannon's formula
+
+$$C = B\log_2(1 + \mathrm{SNR})$$
+
+is for a channel that does have noise. Here the capacity is limited by the bandwidth and by the ratio of the signal power to the noise power, and as the noise rises the maximum rate falls. It is the reason a real modem cannot use as many levels as Nyquist alone would suggest: the closer two levels are together, the more likely noise is to push one onto the other.
 
 ## Question III: Comparisons
 
-### 1. Guided Media vs Unguided Media
+### 1. Compare Guided Media and Unguided Media, with Two Real-World Examples of Each
 
-| Aspect            | Guided media                               | Unguided media                                  |
-| ----------------- | ------------------------------------------ | ----------------------------------------------- |
-| **Path**          | Signal confined to a physical path         | Signal radiates freely through space            |
-| **Confinement**   | High; little interference between cables   | Low; anything in range can receive or interfere |
-| **Typical range** | Depends on cable; long with repeaters      | Line of sight or coverage area                  |
-| **Cost**          | Cable and installation labour              | Spectrum licensing and antennas                 |
-| **Examples**      | Twisted pair, coaxial cable, optical fibre | Radio and Wi-Fi, microwave and satellite links  |
+Guided media carry the signal along a physical path, so the wave is contained and much of the interference is kept out. Unguided media have no such path and the electromagnetic wave spreads into space, which makes them easier to install but harder to protect.
 
-Two specific guided examples: **twisted pair** in Ethernet cabling, and **optical fibre** in a broadband backbone. Two specific unguided examples: **Wi-Fi** at 2.4 GHz, and a **satellite downlink**.
+On the guided side, **twisted pair** is what most Ethernet cabling is made of, and **optical fibre** carries the long-distance trunks between exchanges and between cities. On the unguided side, **Wi-Fi** is the common example, working at 2.4 GHz through the air, and a **satellite link** is the other, where the signal travels up to a satellite and back down. The medium decides how far a signal can travel, how fast data can be sent on it, and what the link costs, which is why the choice is made before any equipment is bought.
 
-The choice affects how far signals travel, how fast data can be sent, and how much the link costs.
+### 2. Compare Analog and Digital Signals in Noise and Regeneration
 
-### 2. Analog vs Digital Signals: Noise and Regeneration
+With analog signals the noise is added to the wave itself and it stays there. Every amplifier on the path increases the signal and the noise together, so the quality only gets worse with distance and can never be recovered.
 
-**(a) Susceptibility and accumulation of noise**
+Digital signals are affected by noise in a different way. The receiver does not try to reproduce the incoming wave, it only has to decide whether the level it sees represents a 1 or a 0, so a small amount of noise has no effect at all. And when a repeater is used it does not amplify the wave, it regenerates it: it decides which bits were sent and produces a clean copy, so noise does not build up along the link.
 
-| Signal      | Behaviour under noise                                                                                                                                         |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Analog**  | Noise adds directly to the waveform and **accumulates permanently**. Each amplifier boosts signal and noise together, so quality can only fall along the path |
-| **Digital** | Noise adds to the levels too, but the receiver only decides "above or below threshold". Small noise is discarded at every stage                               |
+That difference is the main reason digital transmission replaced analog. It does not mean digital signals are free of errors, they are not, but an error can be detected and corrected, whereas analog distortion cannot be taken back out.
 
-**(b) Regeneration across long distances**
+### 3. Compare Simplex, Half-Duplex and Full-Duplex, with One Real-World Example of Each
 
-| Signal      | Repeater action                                      | Consequence                                      |
-| ----------- | ---------------------------------------------------- | ------------------------------------------------ |
-| **Analog**  | **Amplifies** the incoming waveform                  | Signal and noise both grow; distortion compounds |
-| **Digital** | **Regenerates**: decides the bit, emits a clean copy | Noise does not accumulate; each hop starts fresh |
+Simplex allows transmission in one direction only, as in cable television, where the station sends and the viewer never sends anything back. Half-duplex allows both stations to transmit but not at the same time, as in a police radio or a walkie-talkie, where the speakers take turns and one has to wait for the other to finish. Full-duplex allows both to transmit at the same time, as in a telephone call, where both people can speak and nobody is cut off.
 
-Regeneration is the decisive difference. It only works while the noise is small enough that the repeater decides correctly, and it does not make digital error-free, but it removes cumulative degradation, which is why the telephone network, broadcasting, and computer networks all moved to digital.
-
-### 3. Simplex, Half-Duplex, and Full-Duplex
-
-| Mode            | Rule                                      | Direction | Real-world example          | Why                                           |
-| --------------- | ----------------------------------------- | --------- | --------------------------- | --------------------------------------------- |
-| **Simplex**     | Transmission in one direction only        | A to B    | Cable television            | The viewer never transmits                    |
-| **Half-duplex** | Both may transmit, but only one at a time | A or B    | Police radio, walkie-talkie | Both sides talk, but turn-taking is natural   |
-| **Full-duplex** | Both may transmit simultaneously          | A and B   | Telephone                   | Conversation overlaps and must not be clipped |
-
-Half-duplex needs a turn-taking rule, which is an **exchange management** task. Full-duplex needs either two physical channels or a way to separate the directions, which is why RS-232 uses two independent data channels.
+The difference is also a matter of wiring. Full-duplex needs two paths or a way of separating the two directions, which is why RS-232 has a separate transmit and receive line.
 
 ## Question IV: Analytical Problems
 
-### 1. Transmission Time for a 50-Character Message
+### 1. Transmission Time of a 50-Character Message
 
-**Given.** 50 characters, 8 bits per character, link rate 4800 bit/s.
-
-**Step 1, total bits:**
+The message is 50 characters long and each character is coded in 8 bits, so the total number of bits to be sent is
 
 $$50 \times 8 = 400 \text{ bits}$$
 
-**Step 2, transmission time:**
+The link rate is 4800 bit/s, so the time needed is the number of bits divided by the rate:
 
-$$t = \frac{400}{4800} = 0.08333 \text{ s}$$
+$$t = \frac{400}{4800} = 0.0833 \text{ s} = 83.3 \text{ ms}$$
 
-**Answer:** $0.08333$ s $= \mathbf{83.3 \text{ ms}}$.
+### 2. Nyquist Capacity of a Noiseless 4 kHz Channel Using 16 Levels
 
-Check: at 4800 bit/s, one second carries 4800 bits, and 400 is about one-twelfth of that, so roughly 83 ms is consistent.
+With $M = 16$ levels each symbol carries
 
-### 2. Nyquist Capacity for a Noiseless 4 kHz Channel With 16 Levels
+$$\log_2 16 = 4 \text{ bits}$$
 
-**Given.** $B = 4000$ Hz, $M = 16$ levels, noiseless channel.
-
-$$\log_2 16 = 4 \text{ bits per symbol}$$
+The bandwidth is $B = 4000$ Hz, so Nyquist's formula gives
 
 $$C = 2B\log_2 M = 2 \times 4000 \times 4 = 32{,}000 \text{ bit/s}$$
 
-**Answer:** $\mathbf{32{,}000 \text{ bit/s}}$, that is **32 kbit/s**.
+The channel could therefore carry at most 32 kbit/s. The same answer comes from counting symbols: $2B = 8000$ symbols a second at 4 bits each.
 
-The check: 16 levels carry 4 bits each, and the channel supports $2B = 8000$ symbols per second, so $8000 \times 4 = 32{,}000$ bit/s.
+### 3. Shannon Capacity of a 2 MHz Channel with SNR of 30 dB
 
-> [!WARNING] Do not mix the formulas
-> $M$ is the number of levels, not the number of bits. Using $M = 16$ as if it were $L = 16$ would give 128,000 bit/s, which is wrong.
-
-### 3. Shannon Capacity for a 2 MHz Channel at 30 dB
-
-**Given.** $B = 2$ MHz $= 2 \times 10^6$ Hz, $\mathrm{SNR_{dB}} = 30$ dB.
-
-**(a) Convert SNR from decibels to a linear ratio.**
+**a) Converting the SNR to a linear ratio.**
 
 $$\mathrm{SNR_{dB}} = 10\log_{10}(\mathrm{SNR})$$
 
-$$30 = 10\log_{10}(\mathrm{SNR}) \;\Rightarrow\; \log_{10}(\mathrm{SNR}) = 3 \;\Rightarrow\; \mathrm{SNR} = 10^3 = \mathbf{1000}$$
+$$30 = 10\log_{10}(\mathrm{SNR}) \;\Rightarrow\; \log_{10}(\mathrm{SNR}) = 3 \;\Rightarrow\; \mathrm{SNR} = 10^3 = 1000$$
 
-So the signal power is 1000 times the noise power.
+The signal power is therefore one thousand times the noise power.
 
-**(b) Shannon capacity.**
+**b) The channel capacity.**
 
-$$C = B\log_2(1+\mathrm{SNR}) = 2 \times 10^6 \times \log_2(1001)$$
+$$C = B\log_2(1 + \mathrm{SNR}) = 2 \times 10^6 \times \log_2(1001)$$
 
 $$\log_2(1001) = \frac{\ln 1001}{\ln 2} = \frac{6.9088}{0.6931} \approx 9.967$$
 
-$$C \approx 2 \times 10^6 \times 9.967 = 19.93 \times 10^6 \text{ bit/s}$$
+$$C \approx 2 \times 10^6 \times 9.967 = 19.93 \times 10^6 \text{ bit/s} \approx 19.93 \text{ Mbit/s}$$
 
-**Answer:** $C \approx \mathbf{19.93 \text{ Mbit/s}}$, usually rounded to **about 20 Mbit/s** in textbook answers.
+So the theoretical maximum for this channel is about 19.93 Mbit/s, which is why it is usually quoted as roughly 20 Mbit/s. In practice a real system would work below that figure, since Shannon's formula is an upper bound rather than a promise.
 
-> [!NOTE] Two traps in this question
-> First, the **linear SNR** goes into Shannon, never the decibel value. Substituting 30 would give $2 \times 10^6 \times \log_2 31 \approx 9.9$ Mbit/s, roughly half the correct answer. Second, this is a **theoretical maximum**; a real modem on this channel would achieve noticeably less.
-
-## Summary of Numerical Answers
-
-| Question | Result       |
-| -------- | ------------ |
-| IV-1     | 83.3 ms      |
-| IV-2     | 32,000 bit/s |
-| IV-3a    | SNR = 1000   |
-| IV-3b    | 19.93 Mbit/s |
-
-_13 min read (source: 3 min)_

@@ -3,7 +3,9 @@ title: Section 3
 prev:
   text: "Section 2"
   link: "/College/yearThree/firstTerm/DataCommunication/Sections/Section-2"
-next: false
+next:
+  text: "Section 4"
+  link: "/College/yearThree/firstTerm/DataCommunication/Sections/Section-4"
 ---
 
 # Data Communication - Section 3: Serial Interfaces Lab

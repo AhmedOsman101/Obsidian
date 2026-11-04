@@ -1297,6 +1297,7 @@ Programiz
 Paint
 Photos
 Pie
+Police
 IHDR
 IDATx
 IO
@@ -2660,6 +2661,9 @@ Importing
 Intersections
 ImageJ
 Iron
+Into
+Interfacing
+Impulse
 pHYs
 pt
 pu
@@ -4158,6 +4162,7 @@ plot
 posterization
 poster
 planes
+pulse
 sbf
 sPv
 sC
@@ -5815,6 +5820,10 @@ smoothed
 soft
 survives
 smoothness
+spectrum
+sag
+sight
+satellite
 ff
 fP
 fj
@@ -7070,6 +7079,9 @@ flood
 fillellipse
 fillpoly
 floodfill
+fifteen
+flatten
+fibre
 yq
 yh
 yS
@@ -9701,6 +9713,10 @@ watertight
 widest
 walls
 wedge
+wave
+waveform
+wipes
+walkie
 BU
 Bh
 BC
@@ -12237,6 +12253,8 @@ Midtone
 Menus
 Monotonic
 MAGENTA
+Meaningful
+Mbit
 Lj
 Lf
 LvVa
@@ -14849,6 +14867,11 @@ advertisement
 artist
 arc
 accumulates
+answered
+amplitude
+amplifiers
+arcing
+accumulation
 Te
 Tn
 TA
@@ -16043,6 +16066,7 @@ Tubes
 TFEL
 Thin
 Trackball
+Than
 uj
 uq
 uXm
@@ -17097,6 +17121,8 @@ unloading
 unbounded
 unfilled
 undithered
+unequal
+unguided
 OB
 Ox
 ONynT
@@ -19127,6 +19153,7 @@ Undefines
 Upward
 Unsigned
 Upper
+Unguided
 ra
 rO
 rV
@@ -20475,6 +20502,7 @@ reappears
 roof
 ridge
 repairs
+radiates
 eiO
 es
 ee
@@ -22854,6 +22882,7 @@ GDTR
 Grayscale
 Gamma
 GREEN
+Guided
 Ex
 EZR
 EG
@@ -25579,6 +25608,12 @@ Span
 Slowest
 SDL
 Silicon
+Spectral
+Sender
+Shannon
+Spectrum
+Susceptibility
+SNR
 iH
 ic
 iP
@@ -26902,6 +26937,9 @@ imagined
 illuminated
 incremental
 inset
+intersymbol
+imperceptible
+interferes
 tWA
 tW
 tM
@@ -28180,6 +28218,11 @@ triples
 tallest
 topflag
 tonal
+tops
+tolerates
+talkie
+twelfth
+traps
 nm
 nv
 nhuK
@@ -29220,6 +29263,9 @@ neighbouring
 neighbour
 nine
 nearer
+notice
+noiseless
+noticeably
 Fc
 Fe
 Fo
@@ -33331,6 +33377,7 @@ bitmap
 bars
 bordered
 baseline
+boosts
 Nb
 NJu
 Nbsa
@@ -34446,6 +34493,10 @@ Neither
 Negate
 NetBurst
 Neighbours
+Notices
+Nyquist
+Noiseless
+Numerical
 lqQvz
 ln
 lN
@@ -35504,6 +35555,8 @@ landmarks
 ladder
 laptop
 leaky
+listener
+labour
 Rc
 Rt
 RO
@@ -36808,6 +36861,8 @@ Rodrigues
 Rounded
 Rounding
 RED
+Receiver
+Regeneration
 Zt
 ZB
 Zb
@@ -38611,6 +38666,7 @@ knowing
 kilometer
 karlrupp
 kiosks
+kbit
 Dp
 DI
 Db
@@ -40001,6 +40057,9 @@ DARKGRAY
 DIR
 Doing
 Door
+DataCommunication
+Destructive
+Differ
 ohQ
 oL
 ob
@@ -42283,6 +42342,7 @@ midtones
 monochrome
 monotonically
 monotonic
+measurable
 Ck
 CS
 Cm
@@ -43846,6 +43906,8 @@ Concentric
 CYAN
 Charts
 Correction
+Confinement
+Conversation
 vb
 vO
 vvF
@@ -46547,6 +46609,11 @@ centre
 concentrated
 conclusion
 crust
+compensate
+conversation
+crackle
+compounds
+clipped
 Hu
 Hg
 HiL
@@ -48844,6 +48911,7 @@ homework
 hence
 hue
 hatch
+harmonics
 Xi
 XZ
 Xn
@@ -50854,6 +50922,7 @@ gave
 getch
 gradient
 gable
+guided
 KUYX
 KX
 KK
@@ -55756,6 +55825,14 @@ drawpoly
 depended
 dithered
 dither
+distorted
+distortion
+dependence
+distinguishable
+downlink
+decisive
+decibels
+decibel
 AK
 AQ
 Aya
@@ -57305,6 +57382,8 @@ Aliasing
 Axis
 Angles
 Aluminium
+Agrees
+Amplifies
 Jw
 Jg
 JT
@@ -59255,6 +59334,7 @@ Quantization
 Queuing
 Quantized
 Quarter
+Quantified
 WliB
 WWO
 WRY
@@ -60206,6 +60286,7 @@ Worn
 Walk
 Waits
 WHITE
+Worksheet
 Ötl
 ÖC
 Öm

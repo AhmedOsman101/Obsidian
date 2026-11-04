@@ -162,6 +162,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  glob@>=9.0.0 <=14.0.1: ^14.0.2
+  katex@>=0.11.0 <0.18.2: ^0.18.2
+  minimatch@<11.0.1: ^11.0.1
+
 importers:
 
   .:
@@ -299,6 +304,9 @@ packages:
 
   '@iconify/utils@3.1.7':
     resolution: {integrity: sha512-JZHlwdID+dy+lTgbYC8NEC4zeugqeYsc6jewvzb4c58kHauJn+X7rNwQjxz5p2qSjqaEeQoLkCIQ9v/H4PK0/w==}
+
+  '@isaacs/nonrecursive-glob-match@1.0.3':
+    resolution: {integrity: sha512-SI7kyKHq4XXDRozw+r9GlRZkia1ZkFrpLW98r2IC2Bpr8YkFGE3fvjzmxCG0x78A++69HmDNrDvSMYBZmHGpKA==}
 
   '@jridgewell/sourcemap-codec@1.6.0':
     resolution: {integrity: sha512-T7jf+5zgsZHwNJ4lvQ7/aezbyk0nNX+zJVWpmHA7VYsEx7a7qr5Rg5IbtJFqkgze5Y2sruq1RUY8Q837Od7iFw==}
@@ -890,10 +898,6 @@ packages:
     resolution: {integrity: sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==}
     engines: {node: '>= 10'}
 
-  commander@8.3.0:
-    resolution: {integrity: sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==}
-    engines: {node: '>= 12'}
-
   cose-base@1.0.3:
     resolution: {integrity: sha512-s9whTXInMSgAp/NVXVNuVxVKzGH2qck3aQlVHxDCdAEPgtMKwc4Wq6/QKhgdEdgbLSi9rBTAcPoRa6JpiG4ksg==}
 
@@ -1165,8 +1169,8 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
-  glob@13.0.6:
-    resolution: {integrity: sha512-Wjlyrolmm8uDpm/ogGyXZXb1Z+Ca2B8NbJwqBVg0axK9GbBeoS7yGV6vjXnYdGm6X53iehEuxxbyiKp8QmN4Vw==}
+  glob@14.0.3:
+    resolution: {integrity: sha512-A1vjIwC3qpdCso45Iw127gnp7sPhqgY8lUQhDrArIs+GbmfaaVPFuoyy7WyLT9EPZCRZ7j7aLdwUhQmHWesEow==}
     engines: {node: 18 || 20 || >=22}
 
   gray-matter@4.0.3:
@@ -1224,10 +1228,6 @@ packages:
   juice@8.1.0:
     resolution: {integrity: sha512-FLzurJrx5Iv1e7CfBSZH68dC04EEvXvvVvPYB7Vx1WAuhCp1ZPIMtqxc+WTWxVkpTIC2Ach/GAv0rQbtGf6YMA==}
     engines: {node: '>=10.0.0'}
-    hasBin: true
-
-  katex@0.16.47:
-    resolution: {integrity: sha512-Eeo8Ys1doU1z+x8AZsPpQu+p/QcZBI5PeOo7QGQdy2x2m0MU/hYagBbGOmXwr5KVbEfVuWv9LpnQWeehogurjg==}
     hasBin: true
 
   katex@0.18.10:
@@ -1385,9 +1385,9 @@ packages:
     engines: {node: '>=4.0.0'}
     hasBin: true
 
-  minimatch@10.2.6:
-    resolution: {integrity: sha512-vpLQEs+VLCr1nU0BXS07maYoFwlDAH0gngQuuttxIwutDFEMHq2blX+8vpgxDdK3J1PwjCJiep77OitTZ4Ll1A==}
-    engines: {node: 18 || 20 || >=22}
+  minimatch@11.0.4:
+    resolution: {integrity: sha512-/UJ1dEoVQTjPNDh6SGlUo+ueLMmoHTas4q+8yaAR/5t6nLAIiBDJtoYUh20IYleix7ehiQkgczb84PE3uzHkxg==}
+    engines: {node: 20 || >=22}
 
   minipass@7.1.3:
     resolution: {integrity: sha512-tEBHqDnIoM/1rXME1zgka9g6Q2lcoCkxHLuc7ODJ5BxbP5d4c2Z5cGgtXAku59200Cx7diuHTOYfSBD8n6mm8A==}
@@ -1443,8 +1443,8 @@ packages:
   path-data-parser@0.1.0:
     resolution: {integrity: sha512-NOnmBpt5Y2RWbuv0LMzsayp3lVylAHLPUTut412ZA3l+C4uw4ZVkQbjShYCQ8TCpUMdPapr4YjUqLYD6v68j+w==}
 
-  path-scurry@2.0.2:
-    resolution: {integrity: sha512-3O/iVVsJAPsOnpwWIeD+d6z/7PmqApyQePUtCndjatj/9I5LylHvt5qluFaBT3I5h3r1ejfR056c+FCv+NnNXg==}
+  path-scurry@3.0.0:
+    resolution: {integrity: sha512-1pTbQqH1wIwMi/eleQ5leFTTCkzFsPcgXNjwOA8YGGW/W4/kHT3dssE7Z6NH+zuqNLOzOB0uaD61yl7cAcVhgg==}
     engines: {node: 18 || 20 || >=22}
 
   perfect-debounce@2.1.0:
@@ -1754,6 +1754,8 @@ snapshots:
       '@antfu/install-pkg': 2.1.0
       '@iconify/types': 2.0.0
       import-meta-resolve: 4.2.0
+
+  '@isaacs/nonrecursive-glob-match@1.0.3': {}
 
   '@jridgewell/sourcemap-codec@1.6.0': {}
 
@@ -2247,8 +2249,6 @@ snapshots:
 
   commander@7.2.0: {}
 
-  commander@8.3.0: {}
-
   cose-base@1.0.3:
     dependencies:
       layout-base: 1.0.2
@@ -2533,11 +2533,11 @@ snapshots:
   fsevents@2.3.3:
     optional: true
 
-  glob@13.0.6:
+  glob@14.0.3:
     dependencies:
-      minimatch: 10.2.6
+      minimatch: 11.0.4
       minipass: 7.1.3
-      path-scurry: 2.0.2
+      path-scurry: 3.0.0
 
   gray-matter@4.0.3:
     dependencies:
@@ -2612,10 +2612,6 @@ snapshots:
       web-resource-inliner: 6.0.1
     transitivePeerDependencies:
       - encoding
-
-  katex@0.16.47:
-    dependencies:
-      commander: 8.3.0
 
   katex@0.18.10:
     dependencies:
@@ -2739,7 +2735,7 @@ snapshots:
       dompurify: 3.4.17
       es-toolkit: 1.53.1
       fastdom: 1.0.12
-      katex: 0.16.47
+      katex: 0.18.10
       khroma: 2.1.0
       marked: 16.4.2
       roughjs: 4.6.6
@@ -2793,8 +2789,9 @@ snapshots:
 
   mime@2.6.0: {}
 
-  minimatch@10.2.6:
+  minimatch@11.0.4:
     dependencies:
+      '@isaacs/nonrecursive-glob-match': 1.0.3
       brace-expansion: 5.0.12
 
   minipass@7.1.3: {}
@@ -2838,7 +2835,7 @@ snapshots:
 
   path-data-parser@0.1.0: {}
 
-  path-scurry@2.0.2:
+  path-scurry@3.0.0:
     dependencies:
       lru-cache: 11.5.3
       minipass: 7.1.3
@@ -3054,7 +3051,7 @@ snapshots:
 
   vitepress-sidebar@1.41.0:
     dependencies:
-      glob: 13.0.6
+      glob: 14.0.3
       gray-matter: 4.0.3
       qsu: 1.100.0
 

@@ -3,7 +3,9 @@ title: Task 1
 prev:
   text: "Tasks"
   link: "/College/yearThree/firstTerm/ComputerArchitecture/Tasks/index"
-next: false
+next:
+  text: "Task 3"
+  link: "/College/yearThree/firstTerm/ComputerArchitecture/Tasks/Task-3"
 ---
 
 | Data    | Details                  |
@@ -142,3 +144,5 @@ Memory speed makes it worse. A 3 GHz CPU has a cycle of about 0.33 ns. A DRAM ac
 
 > [!NOTE] Closing Point
 > Caches and pipelines **hide** the bottleneck and do not remove it. A cache miss or a branch misprediction sends the CPU back to slow memory. This is why the lecture lists cache misses, branches, and memory latency next to instruction count, CPI, and clock rate as factors in execution time.
+
+_7 min read_

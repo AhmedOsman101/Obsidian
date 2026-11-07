@@ -188,3 +188,5 @@ The voltage term is **squared**, which is why voltage scaling was the most power
 | **Code density**              | Lower (more instructions per task)                                     | **High** (compact binaries, originally to save memory)                    |
 
 The relation to architecture is direct: **RISC and CISC are organization choices about how much work one instruction does**, and Lecture 2 showed the trade is instruction count against CPI. CISC wins on instruction count, RISC wins on CPI and decode simplicity, and only the product $IC \times CPI \times \text{cycle time}$ decides which is faster for a given program.
+
+_13 min read (source: 17 min)_

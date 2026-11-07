@@ -167,4 +167,3 @@ $$\log_2(1001) = \frac{\ln 1001}{\ln 2} = \frac{6.9088}{0.6931} \approx 9.967$$
 $$C \approx 2 \times 10^6 \times 9.967 = 19.93 \times 10^6 \text{ bit/s} \approx 19.93 \text{ Mbit/s}$$
 
 So the theoretical maximum for this channel is about 19.93 Mbit/s, which is why it is usually quoted as roughly 20 Mbit/s. In practice a real system would work below that figure, since Shannon's formula is an upper bound rather than a promise.
-

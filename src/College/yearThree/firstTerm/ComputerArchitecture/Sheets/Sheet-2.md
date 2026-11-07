@@ -203,5 +203,3 @@ Speedup = 1 / ((1 - 0.40) + 0.40/4)
 ```
 
 The program becomes about **1.43× faster**, not 4× faster, because **60% of the original time is untouched**. The ceiling here is $1/0.60 = 1.67\times$: even an infinitely fast floating-point unit would only reach 1.67×.
-
-_12 min read (source: 18 min)_

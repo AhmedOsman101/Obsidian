@@ -352,5 +352,3 @@ offset          = ABC
 ```
 
 Each program has its **own page table**, so the same linear address maps to different physical frames in different processes. The **Virtual Memory Manager** loads and evicts pages, storing nonresident ones on disk, and the CPU raises a **page fault** when the needed page is absent. Two table lookups per access is expensive, which is why processors cache recent translations in a **TLB**.
-
-_21 min read (source: 28 min)_

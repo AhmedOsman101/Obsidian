@@ -57,7 +57,9 @@ Final register values: **AX = 4000h**, **BX = 1500h**.
 
 Screenshot after execution:
 
-![Emulator output after execution, AX = 0x4000](task3-output.png)
+![Emulator output after execution](task3-output.png)
+
+_Executed in an online 8086 emulator, which requires `0x` hex literals and a `start` label; the instructions and the result are identical._
 
 ## Optional Task
 
@@ -68,5 +70,3 @@ ADD AX, 2500H
 ```
 
 `3B00h + 2500h = 6000h`, so the final value is **AX = 6000h**.
-
-_2 min read_

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/yearThree/firstTerm/ComputerGraphics/Assignments/Assignment-1.md",
+                "file": "College/yearThree/firstTerm/ComputerArchitecture/Tasks/Task-3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Assignment-1"
+              "title": "Task-3"
             }
           }
         ]
@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 302.5,
+    "collapsed": true
   },
   "right": {
     "id": "f35096d70d8deb78",
@@ -188,6 +189,9 @@
   },
   "active": "114d95be04fa4a43",
   "lastOpenFiles": [
+    "College/yearThree/firstTerm/ComputerArchitecture/Tasks/Task-3.mdujFueV.bck",
+    "College/yearThree/firstTerm/ComputerArchitecture/Tasks/Task-3.md89RcPB.bck",
+    "College/yearThree/firstTerm/ComputerGraphics/Assignments/Assignment-1.md",
     "College/yearThree/firstTerm/ComputerGraphics/Assignments/Assignment-1.md0bFpg1.bck",
     "College/yearThree/firstTerm/ComputerGraphics/Assignments/Assignment-1.mdaCDVhp.bck",
     "College/yearThree/firstTerm/DataCommunication/Tasks/Task-1.md",
@@ -198,10 +202,7 @@
     "College/yearThree/firstTerm/ComputerGraphics/Assignments/Assignment-1.mdODJdgR.bck",
     "College/yearThree/firstTerm/ComputerGraphics/Assignments/Assignment-1.mdi3Jsj3.bck",
     "College/yearThree/firstTerm/ComputerGraphics/Assignments/Assignment-1.mdApqZbO.bck",
-    "College/yearThree/firstTerm/ComputerGraphics/Assignments/Assignment-1.mdJCtlZd.bck",
-    "College/yearThree/firstTerm/ComputerGraphics/Assignments/Assignment-1.mdsXTRvf.bck",
     "College/yearThree/firstTerm/ComputerGraphics/Assignments/index.md",
-    "College/yearThree/firstTerm/ComputerGraphics/Assignments/Assignment-1.md",
     "College/yearThree/firstTerm/ComputerGraphics/Assignments/imgs/fig-7-vectors.svg",
     "College/yearThree/firstTerm/ComputerGraphics/Assignments/imgs/fig-6-connectivity.svg",
     "College/yearThree/firstTerm/ComputerGraphics/Assignments/imgs/fig-5-scanline.svg",

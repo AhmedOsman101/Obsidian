@@ -14,6 +14,13 @@ lastUpdated: false
   - [Lecture Three](Lectures/Lecture-3.md)
   - [Lecture Four](Lectures/Lecture-4.md)
 
+- [Book](Book/index.md)
+  - [Chapter 1](Book/Chapter-1.md)
+  - [Chapter 2](Book/Chapter-2.md)
+  - [Chapter 3](Book/Chapter-3.md)
+  - [Chapter 4](Book/Chapter-4.md)
+  - [Chapter 5](Book/Chapter-5.md)
+
 - [Assignments](Assignments/index.md)
   - [Assignment Two](Assignments/Assignment-2.md)
   - [Assignment Two Normal](Assignments/Assignment-2-normal.md)

@@ -25,5 +25,61 @@ h3:not(.text),
 h4:not(.text),
 h5:not(.text),
 h6:not(.text) {
-  color: #9ac4f8 !important;
+  color: #89b4fa !important;
+}
+
+@media print {
+  .VPNav,
+  .VPNavBar,
+  .VPNavScreen,
+  .VPLocalNav,
+  .VPDocFooter,
+  .VPSidebar,
+  .VPBackdrop,
+  .VPDocAside,
+  .VPDocAsideOutline,
+  .aside,
+  .aside-container,
+  .VPOutline,
+  .outline,
+  .outline-title,
+  .VPNavBarAppearance,
+  .appearance,
+  .nprogress-container,
+  .nprogress,
+  .pager,
+  .page-nav,
+  .prev-next,
+  .VPFooter,
+  .footer,
+  .VPSkipLink,
+  .VPFlyout,
+  .VPNavBarTitle .title,
+  .VPNavBarSearch,
+  .VPNavBarExtra,
+  .VPNavBarHamburger,
+  .VPNavBarMenu,
+  .VPNavBarSocialLinks,
+  .edit-link,
+  .edit-info,
+  .last-updated,
+  .VPLastUpdated,
+  .prev-next,
+  .pager-link,
+  .copyright,
+  .header-anchor {
+    display: none !important;
+  }
+
+  .VPContent,
+  .VPDoc {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .container,
+  .content {
+    max-width: 100% !important;
+  }
 }

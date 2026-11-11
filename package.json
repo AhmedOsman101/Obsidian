@@ -24,14 +24,14 @@
     "@braintree/sanitize-url": "^7.1.2",
     "@catppuccin/vitepress": "^0.1.4",
     "@shikijs/types": "^4.6.0",
-    "@vercel/speed-insights": "^2.0.0",
+    "@vercel/speed-insights": "^2.1.0",
     "cytoscape": "^3.34.4",
     "cytoscape-cose-bilkent": "^4.1.0",
     "dayjs": "^1.11.23",
     "debug": "^4.4.3",
     "katex": "^0.19.1",
     "minisearch": "^7.2.0",
-    "vue": "^3.5.44"
+    "vue": "^3.5.45"
   },
   "packageManager": "pnpm@12.14.0"
 }

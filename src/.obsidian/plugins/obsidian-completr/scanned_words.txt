@@ -1301,6 +1301,8 @@ Police
 Polygonal
 Plane
 Projecting
+PLCs
+Preamble
 IHDR
 IDATx
 IO
@@ -4169,6 +4171,8 @@ pulse
 planar
 painted
 polarising
+polled
+postamble
 sbf
 sPv
 sC
@@ -5834,6 +5838,8 @@ slid
 stayed
 somewhere
 scanline
+synchronous
+slaves
 ff
 fP
 fj
@@ -7094,6 +7100,7 @@ flatten
 fibre
 fig
 freehand
+framing
 yq
 yh
 yS
@@ -12268,6 +12275,9 @@ MAGENTA
 Meaningful
 Mbit
 Meets
+Multidrop
+MOSI
+MISO
 Lj
 Lf
 LvVa
@@ -14885,6 +14895,7 @@ amplitude
 amplifiers
 arcing
 accumulation
+async
 Te
 Tn
 TA
@@ -16084,6 +16095,7 @@ Transforming
 Translated
 Turning
 Traces
+Twelve
 uj
 uq
 uXm
@@ -19172,6 +19184,8 @@ Upward
 Unsigned
 Upper
 Unguided
+UART
+USART
 ra
 rO
 rV
@@ -20522,6 +20536,7 @@ ridge
 repairs
 radiates
 ruin
+rails
 eiO
 es
 ee
@@ -21857,6 +21872,8 @@ elevator
 elliptical
 escapes
 emitting
+emulator
+equally
 GO
 GQ
 Gk
@@ -24139,6 +24156,7 @@ East
 Endpoints
 Ellipse
 Earth
+Either
 Sal
 SQ
 SB
@@ -25641,6 +25659,9 @@ Spread
 Seeding
 Shading
 Screenshot
+SCI
+SCLK
+Sync
 iH
 ic
 iP
@@ -26968,6 +26989,9 @@ intersymbol
 imperceptible
 interferes
 interpolated
+instrument
+inductor
+identically
 tWA
 tW
 tM
@@ -28256,6 +28280,7 @@ touched
 tilt
 tiled
 tip
+transceiver
 nm
 nv
 nhuK
@@ -29300,6 +29325,7 @@ notice
 noiseless
 noticeably
 neighbourhoods
+noisy
 Fc
 Fe
 Fo
@@ -30528,6 +30554,7 @@ Fastest
 Filled
 Far
 Faces
+Factory
 xi
 xpF
 xwG
@@ -33417,6 +33444,7 @@ bulky
 burn
 bleed
 brightly
+baud
 Nb
 NJu
 Nbsa
@@ -35597,6 +35625,7 @@ laptop
 leaky
 listener
 labour
+loggers
 Rc
 Rt
 RO
@@ -40102,6 +40131,8 @@ DataCommunication
 Destructive
 Differ
 Directions
+DTE
+DCE
 ohQ
 oL
 ob
@@ -41126,6 +41157,7 @@ olive
 overlaps
 oblique
 outwards
+overrun
 mipte
 mRT
 mX
@@ -42388,6 +42420,7 @@ monotonically
 monotonic
 measurable
 motions
+multidrop
 Ck
 CS
 Cm
@@ -46669,6 +46702,7 @@ centres
 colour
 coils
 confirms
+capacitor
 Hu
 Hg
 HiL
@@ -55893,6 +55927,7 @@ dragging
 deflected
 diode
 daylight
+drift
 AK
 AQ
 Aya

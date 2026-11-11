@@ -3,7 +3,9 @@ title: Task 1
 prev:
   text: "Tasks"
   link: "/College/yearThree/firstTerm/DataCommunication/Tasks/index"
-next: false
+next:
+  text: "Task 2"
+  link: "/College/yearThree/firstTerm/DataCommunication/Tasks/Task-2"
 ---
 
 # Data Communication - Task 1: Worksheet 1

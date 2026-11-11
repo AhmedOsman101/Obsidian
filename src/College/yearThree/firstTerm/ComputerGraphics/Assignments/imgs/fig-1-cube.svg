@@ -1,45 +1,60 @@
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 430' width='100%' role='img'>
-<rect width='520' height='430' fill='none'/>
-<line x1='64.0' y1='274.6' x2='199.2' y2='274.6' stroke='#9a9a9a' stroke-width='1.2'/>
-<polygon points='199.2,274.6 189.2,279.1 189.2,270.1' fill='#9a9a9a'/>
-<text x='208.2' y='279.6' fill='#9a9a9a' font-size='13' font-style='italic' font-family='ui-sans-serif,system-ui,sans-serif'>X</text>
-<line x1='64.0' y1='274.6' x2='64.0' y2='139.4' stroke='#9a9a9a' stroke-width='1.2'/>
-<polygon points='64.0,139.4 68.5,149.4 59.5,149.4' fill='#9a9a9a'/>
-<text x='73.0' y='144.4' fill='#9a9a9a' font-size='13' font-style='italic' font-family='ui-sans-serif,system-ui,sans-serif'>Y</text>
-<line x1='64.0' y1='274.6' x2='131.6' y2='227.3' stroke='#9a9a9a' stroke-width='1.2'/>
-<polygon points='131.6,227.3 126.0,236.7 120.8,229.3' fill='#9a9a9a'/>
-<text x='140.6' y='232.3' fill='#9a9a9a' font-size='13' font-style='italic' font-family='ui-sans-serif,system-ui,sans-serif'>Z</text>
-<circle cx='64.0' cy='274.6' r='2.6' fill='#9a9a9a'/>
-<text x='49.0' y='290.6' fill='#9a9a9a' font-size='12' font-family='ui-sans-serif,system-ui,sans-serif'>O</text>
-<line x1='142.0' y1='204.4' x2='246.0' y2='204.4' stroke='#2f5fa8' stroke-width='2.0' stroke-linejoin='round' opacity='1.0'/>
-<line x1='246.0' y1='204.4' x2='246.0' y2='100.4' stroke='#2f5fa8' stroke-width='2.0' stroke-linejoin='round' opacity='1.0'/>
-<line x1='246.0' y1='100.4' x2='142.0' y2='100.4' stroke='#2f5fa8' stroke-width='2.0' stroke-linejoin='round' opacity='1.0'/>
-<line x1='142.0' y1='100.4' x2='142.0' y2='204.4' stroke='#2f5fa8' stroke-width='2.0' stroke-linejoin='round' opacity='1.0'/>
-<line x1='194.0' y1='168.0' x2='298.0' y2='168.0' stroke='#b8b8b8' stroke-width='2.0' stroke-dasharray='5 4' stroke-linejoin='round' opacity='1.0'/>
-<line x1='298.0' y1='168.0' x2='298.0' y2='64.0' stroke='#2f5fa8' stroke-width='2.0' stroke-linejoin='round' opacity='1.0'/>
-<line x1='298.0' y1='64.0' x2='194.0' y2='64.0' stroke='#2f5fa8' stroke-width='2.0' stroke-linejoin='round' opacity='1.0'/>
-<line x1='194.0' y1='64.0' x2='194.0' y2='168.0' stroke='#b8b8b8' stroke-width='2.0' stroke-dasharray='5 4' stroke-linejoin='round' opacity='1.0'/>
-<line x1='142.0' y1='204.4' x2='194.0' y2='168.0' stroke='#b8b8b8' stroke-width='2.0' stroke-dasharray='5 4' stroke-linejoin='round' opacity='1.0'/>
-<line x1='246.0' y1='204.4' x2='298.0' y2='168.0' stroke='#2f5fa8' stroke-width='2.0' stroke-linejoin='round' opacity='1.0'/>
-<line x1='246.0' y1='100.4' x2='298.0' y2='64.0' stroke='#2f5fa8' stroke-width='2.0' stroke-linejoin='round' opacity='1.0'/>
-<line x1='142.0' y1='100.4' x2='194.0' y2='64.0' stroke='#2f5fa8' stroke-width='2.0' stroke-linejoin='round' opacity='1.0'/>
-<circle cx='142.0' cy='204.4' r='2.8' fill='#2f5fa8'/>
-<text x='132.0' y='220.4' fill='#2f5fa8' font-size='13' font-weight='600' text-anchor='end' font-family='ui-sans-serif,system-ui,sans-serif'>A</text>
-<circle cx='246.0' cy='204.4' r='2.8' fill='#2f5fa8'/>
-<text x='256.0' y='220.4' fill='#2f5fa8' font-size='13' font-weight='600' text-anchor='start' font-family='ui-sans-serif,system-ui,sans-serif'>B</text>
-<circle cx='246.0' cy='100.4' r='2.8' fill='#2f5fa8'/>
-<text x='257.0' y='105.4' fill='#2f5fa8' font-size='13' font-weight='600' text-anchor='start' font-family='ui-sans-serif,system-ui,sans-serif'>C</text>
-<circle cx='142.0' cy='100.4' r='2.8' fill='#2f5fa8'/>
-<text x='132.0' y='92.4' fill='#2f5fa8' font-size='13' font-weight='600' text-anchor='end' font-family='ui-sans-serif,system-ui,sans-serif'>D</text>
-<circle cx='194.0' cy='168.0' r='2.8' fill='#2f5fa8'/>
-<text x='184.0' y='173.0' fill='#2f5fa8' font-size='13' font-weight='600' text-anchor='end' font-family='ui-sans-serif,system-ui,sans-serif'>E</text>
-<circle cx='298.0' cy='168.0' r='2.8' fill='#2f5fa8'/>
-<text x='308.0' y='184.0' fill='#2f5fa8' font-size='13' font-weight='600' text-anchor='start' font-family='ui-sans-serif,system-ui,sans-serif'>F</text>
-<circle cx='298.0' cy='64.0' r='2.8' fill='#2f5fa8'/>
-<text x='308.0' y='57.0' fill='#2f5fa8' font-size='13' font-weight='600' text-anchor='start' font-family='ui-sans-serif,system-ui,sans-serif'>G</text>
-<circle cx='194.0' cy='64.0' r='2.8' fill='#2f5fa8'/>
-<text x='184.0' y='57.0' fill='#2f5fa8' font-size='13' font-weight='600' text-anchor='end' font-family='ui-sans-serif,system-ui,sans-serif'>H</text>
-<g transform='translate(24,410)'>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 560 420' width='100%' role='img'>
+<rect width='560' height='420' fill='none'/>
+<line x1='280.8' y1='200.0' x2='173.0' y2='310.9' stroke='#4a4a4a' stroke-width='2.0'/>
+<polygon points='173.0,310.9 176.3,301.5 182.3,307.4' fill='#4a4a4a'/>
+<text x='183.0' y='316.9' fill='#5a5a5a' font-size='14' font-style='italic' font-weight='600' font-family='ui-sans-serif,system-ui,sans-serif'>X</text>
+<line x1='245.8' y1='236.0' x2='242.3' y2='239.6' stroke='#7a7a7a' stroke-width='1.5'/>
+<line x1='207.3' y1='275.6' x2='203.8' y2='279.2' stroke='#7a7a7a' stroke-width='1.5'/>
+<line x1='280.8' y1='200.0' x2='280.8' y2='46.0' stroke='#4a4a4a' stroke-width='2.0'/>
+<polygon points='280.8,46.0 285.0,55.0 276.6,55.0' fill='#4a4a4a'/>
+<text x='290.8' y='52.0' fill='#5a5a5a' font-size='14' font-style='italic' font-weight='600' font-family='ui-sans-serif,system-ui,sans-serif'>Y</text>
+<line x1='280.8' y1='149.9' x2='280.8' y2='145.0' stroke='#7a7a7a' stroke-width='1.5'/>
+<line x1='280.8' y1='95.0' x2='280.8' y2='90.0' stroke='#7a7a7a' stroke-width='1.5'/>
+<line x1='280.8' y1='200.0' x2='431.7' y2='200.0' stroke='#4a4a4a' stroke-width='2.0'/>
+<polygon points='431.7,200.0 422.7,204.2 422.7,195.8' fill='#4a4a4a'/>
+<text x='441.7' y='206.0' fill='#5a5a5a' font-size='14' font-style='italic' font-weight='600' font-family='ui-sans-serif,system-ui,sans-serif'>Z</text>
+<line x1='329.8' y1='200.0' x2='334.7' y2='200.0' stroke='#7a7a7a' stroke-width='1.5'/>
+<line x1='383.7' y1='200.0' x2='388.6' y2='200.0' stroke='#7a7a7a' stroke-width='1.5'/>
+<circle cx='280.8' cy='200.0' r='3.2' fill='#4a4a4a'/>
+<text x='270.8' y='219.0' fill='#4a4a4a' font-size='12' text-anchor='end' font-family='ui-sans-serif,system-ui,sans-serif'>O</text>
+<line x1='296.2' y1='184.6' x2='219.2' y2='263.8' stroke='#bcbcbc' stroke-width='1.9' stroke-dasharray='4 4' stroke-linejoin='round' opacity='1.0'/>
+<line x1='219.2' y1='263.8' x2='219.2' y2='153.8' stroke='#2f5fa8' stroke-width='1.9' stroke-linejoin='round' opacity='1.0'/>
+<line x1='219.2' y1='153.8' x2='296.2' y2='74.6' stroke='#2f5fa8' stroke-width='1.9' stroke-linejoin='round' opacity='1.0'/>
+<line x1='296.2' y1='74.6' x2='296.2' y2='184.6' stroke='#bcbcbc' stroke-width='1.9' stroke-dasharray='4 4' stroke-linejoin='round' opacity='1.0'/>
+<line x1='404.0' y1='184.6' x2='327.0' y2='263.8' stroke='#2f5fa8' stroke-width='1.9' stroke-linejoin='round' opacity='1.0'/>
+<line x1='327.0' y1='263.8' x2='327.0' y2='153.8' stroke='#2f5fa8' stroke-width='1.9' stroke-linejoin='round' opacity='1.0'/>
+<line x1='327.0' y1='153.8' x2='404.0' y2='74.6' stroke='#2f5fa8' stroke-width='1.9' stroke-linejoin='round' opacity='1.0'/>
+<line x1='404.0' y1='74.6' x2='404.0' y2='184.6' stroke='#2f5fa8' stroke-width='1.9' stroke-linejoin='round' opacity='1.0'/>
+<line x1='296.2' y1='184.6' x2='404.0' y2='184.6' stroke='#bcbcbc' stroke-width='1.9' stroke-dasharray='4 4' stroke-linejoin='round' opacity='1.0'/>
+<line x1='219.2' y1='263.8' x2='327.0' y2='263.8' stroke='#2f5fa8' stroke-width='1.9' stroke-linejoin='round' opacity='1.0'/>
+<line x1='219.2' y1='153.8' x2='327.0' y2='153.8' stroke='#2f5fa8' stroke-width='1.9' stroke-linejoin='round' opacity='1.0'/>
+<line x1='296.2' y1='74.6' x2='404.0' y2='74.6' stroke='#2f5fa8' stroke-width='1.9' stroke-linejoin='round' opacity='1.0'/>
+<circle cx='296.2' cy='184.6' r='2.6' fill='#2f5fa8'/>
+<text x='305.2' y='175.6' fill='#2f5fa8' font-size='12' font-weight='600' text-anchor='start' font-family='ui-sans-serif,system-ui,sans-serif'>A</text>
+<circle cx='219.2' cy='263.8' r='2.6' fill='#2f5fa8'/>
+<text x='207.2' y='278.8' fill='#2f5fa8' font-size='12' font-weight='600' text-anchor='end' font-family='ui-sans-serif,system-ui,sans-serif'>B</text>
+<circle cx='219.2' cy='153.8' r='2.6' fill='#2f5fa8'/>
+<text x='207.2' y='149.8' fill='#2f5fa8' font-size='12' font-weight='600' text-anchor='end' font-family='ui-sans-serif,system-ui,sans-serif'>C</text>
+<circle cx='296.2' cy='74.6' r='2.6' fill='#2f5fa8'/>
+<text x='284.2' y='70.6' fill='#2f5fa8' font-size='12' font-weight='600' text-anchor='end' font-family='ui-sans-serif,system-ui,sans-serif'>D</text>
+<circle cx='404.0' cy='184.6' r='2.6' fill='#2f5fa8'/>
+<text x='416.0' y='199.6' fill='#2f5fa8' font-size='12' font-weight='600' text-anchor='start' font-family='ui-sans-serif,system-ui,sans-serif'>E</text>
+<circle cx='327.0' cy='263.8' r='2.6' fill='#2f5fa8'/>
+<text x='339.0' y='278.8' fill='#2f5fa8' font-size='12' font-weight='600' text-anchor='start' font-family='ui-sans-serif,system-ui,sans-serif'>F</text>
+<circle cx='327.0' cy='153.8' r='2.6' fill='#2f5fa8'/>
+<text x='339.0' y='149.8' fill='#2f5fa8' font-size='12' font-weight='600' text-anchor='start' font-family='ui-sans-serif,system-ui,sans-serif'>G</text>
+<circle cx='404.0' cy='74.6' r='2.6' fill='#2f5fa8'/>
+<text x='416.0' y='70.6' fill='#2f5fa8' font-size='12' font-weight='600' text-anchor='start' font-family='ui-sans-serif,system-ui,sans-serif'>H</text>
+<rect x='14.0' y='21.5' width='114.0' height='168.0' rx='6' fill='#ffffff' fill-opacity='0.82' stroke='#d5d5d5' stroke-width='1'/>
+<text x='22.0' y='40.0' fill='#333333' font-size='12.5' font-family='ui-monospace,SFMono-Regular,Menlo,monospace'>A (1,1,1)</text>
+<text x='22.0' y='58.5' fill='#333333' font-size='12.5' font-family='ui-monospace,SFMono-Regular,Menlo,monospace'>B (3,1,1)</text>
+<text x='22.0' y='77.0' fill='#333333' font-size='12.5' font-family='ui-monospace,SFMono-Regular,Menlo,monospace'>C (3,3,1)</text>
+<text x='22.0' y='95.5' fill='#333333' font-size='12.5' font-family='ui-monospace,SFMono-Regular,Menlo,monospace'>D (1,3,1)</text>
+<text x='22.0' y='114.0' fill='#333333' font-size='12.5' font-family='ui-monospace,SFMono-Regular,Menlo,monospace'>E (1,1,3)</text>
+<text x='22.0' y='132.5' fill='#333333' font-size='12.5' font-family='ui-monospace,SFMono-Regular,Menlo,monospace'>F (3,1,3)</text>
+<text x='22.0' y='151.0' fill='#333333' font-size='12.5' font-family='ui-monospace,SFMono-Regular,Menlo,monospace'>G (3,3,3)</text>
+<text x='22.0' y='169.5' fill='#333333' font-size='12.5' font-family='ui-monospace,SFMono-Regular,Menlo,monospace'>H (1,3,3)</text>
+<g transform='translate(24,402)'>
 <line x1='0' y1='-4' x2='26' y2='-4' stroke='#2f5fa8' stroke-width='2'/>
 <text x='32' y='0' fill='#6b6b6b' font-size='12' font-family='ui-sans-serif,system-ui,sans-serif'>original cube, side 2</text>
 </g>

@@ -12,11 +12,11 @@ next: false
 
 ### 1. The Original Cube
 
-The sheet gives four vertices:
+The sheet gives the eight vertices of the cube:
 
-$$A(1,1,1),\quad B(3,1,1),\quad C(3,3,1),\quad D(1,3,1)$$
+$$A(1,1,1),\; B(3,1,1),\; C(3,3,1),\; D(1,3,1),\; E(1,1,3),\; F(3,1,3),\; G(3,3,3),\; H(1,3,3)$$
 
-All four lie in the plane $z = 1$, and the distance between $A$ and $B$ is $3 - 1 = 2$ on the $x$ axis, so **ABCD is a square of side 2** and it is the **bottom face** of the cube. The cube therefore has side 2, which puts the other four vertices straight above $A$, $B$, $C$ and $D$ at $z = 1 + 2 = 3$. I use that for the rest of the assignment:
+The four vertices $A, B, C, D$ all lie in the plane $z = 1$ and form a square of side $3 - 1 = 2$, so they are the **bottom face**. The four vertices $E, F, G, H$ lie in the plane $z = 3$ and form the **top face**, which gives the cube a height of $3 - 1 = 2$, the same as its side.
 
 | Vertex | Coordinates | Position on the cube |
 | ------ | ----------- | -------------------- |
@@ -33,7 +33,7 @@ The twelve edges are $AB, BC, CD, DA$ on the bottom, $EF, FG, GH, HE$ on the top
 
 ![](imgs/fig-1-cube.svg)
 
-_The cube drawn in an oblique projection. The vertex E sits behind the front face, so the three edges that meet at E are drawn as light dashed lines._
+_The cube drawn in an oblique projection. The corner A is the one furthest from the viewer, so the three edges that meet at A are drawn as light dashed lines._
 
 ### 2. Translation By $\mathbf{T} = (2,1,3)$
 
@@ -66,7 +66,7 @@ The new cube is still a cube of side 2, still with its faces parallel to the coo
 
 ![](imgs/fig-2-translation.svg)
 
-_The original cube in grey and the translated cube in orange. Every vertex moved by exactly the same vector._
+_The translated cube in its own axes. Every vertex moved by the same vector $(2,1,3)$, so the cube kept its size and its orientation and only changed place._
 
 ### 3. Rotation Of 90° About The Z Axis
 
@@ -97,7 +97,7 @@ $$A'(3,2,4) \Rightarrow x' = -2,\; y' = 3,\; z' = 4 \Rightarrow A''(-2,3,4)$$
 
 ![](imgs/fig-3-rotation.svg)
 
-_The cube before the rotation in grey and after it in green. Notice that the letter A has moved from the bottom right of the front face to the bottom left, which is what a quarter turn does to the square._
+_The cube in its final position. Every $x$ is now negative, so the negative half of each axis is drawn as well: the arrow for $-x$ points up to the right, which is the side the cube has moved to. The three edges that meet at D are dashed because D is the corner furthest from the viewer._
 
 #### The Two Transformations As One Matrix
 

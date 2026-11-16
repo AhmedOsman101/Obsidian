@@ -3,7 +3,9 @@ title: Lecture 2
 prev:
   text: "Lecture 1"
   link: "/College/yearThree/firstTerm/Java/Lectures/Lecture-1"
-next: false
+next:
+  text: "Lecture 3"
+  link: "/College/yearThree/firstTerm/Java/Lectures/Lecture-3"
 ---
 
 # Java II - Lecture 2
@@ -759,5 +761,10 @@ int c = Student.getCount();             // ClassName.staticMember
 ## Textbooks
 
 Liang, _Introduction to Java Programming and Data Structures_ (2022) — Ch. 9 (§9.1–9.14) and §10.4. Code figures: Deitel, Ch. 8.
+
+## See Also (Java I)
+
+- [Java I — Lecture 8](/College/yearTwo/secondTerm/Java/Lectures/Lecture-8) — OOP basics: class/object, attributes, methods, rules for class creation
+- [Java I — Book Chapter 9](/College/yearTwo/secondTerm/Java/Book/Chapter-9) — Objects and Classes (Liang) — deeper treatment of classes, methods, object creation
 
 _25 min read (source: 38 min)_

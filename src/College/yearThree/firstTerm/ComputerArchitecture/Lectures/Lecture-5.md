@@ -10,6 +10,10 @@ next:
 
 # Computer Architecture - Lecture 5: Instruction Execution Cycle and IA-32 Memory Management
 
+<script setup>
+import PipelineViz from '@viz/PipelineViz.vue'
+</script>
+
 ## Instruction Execution Cycle
 
 The cycle is an **infinite loop** of five stages, each with one defined job:
@@ -40,6 +44,8 @@ flowchart TD
 Instruction execution divides into **stages**, and **pipelining** starts an instruction before the previous one finishes: while I-1 executes, I-2 decodes and I-3 is fetched. For $k$ stages and $n$ instructions:
 
 $$\text{cycles} = k + n - 1$$
+
+<PipelineViz :initial-n="10" title="Pipeline scheduler — pick a slow stage and see the bubbles" />
 
 Ten instructions through five stages take $5 + 10 - 1 = 14$ cycles instead of 50. As $n$ grows, throughput approaches **one instruction per cycle** while the latency of a single instruction stays at $k$ cycles.
 

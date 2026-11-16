@@ -399,4 +399,18 @@ for (int i = 0; i < 5; i++)
 4. A colleague writes `double total = 10 / 3;` and gets `3.3333` on one machine, `3.0` on another. Explain the difference. _(Evaluate)_
 5. Explain why `System.out.print("a"); System.out.println("b");` and `System.out.println("ab");` print the same thing, while swapping either for `printf` changes the result. _(Understand)_
 
+## See Also (Java I)
+
+- [Java I — Lecture 1](/College/yearTwo/secondTerm/Java/Lectures/Lecture-1) — what Java is, the compilation pipeline, JRE/JVM architecture
+- [Java I — Lecture 2](/College/yearTwo/secondTerm/Java/Lectures/Lecture-2) — `print` vs `println`, escape codes, variables, operator basics
+- [Java I — Lecture 3](/College/yearTwo/secondTerm/Java/Lectures/Lecture-3) — Scanner input, comparison and logical operators, conditional statements
+- [Java I — Lecture 4](/College/yearTwo/secondTerm/Java/Lectures/Lecture-4) — loops and iteration
+- [Java I — Lecture 5](/College/yearTwo/secondTerm/Java/Lectures/Lecture-5) — arrays and exception handling
+- [Java I — Lecture 7](/College/yearTwo/secondTerm/Java/Lectures/Lecture-7) — methods in depth
+- [Java I — Book Chapter 2](/College/yearTwo/secondTerm/Java/Book/Chapter-2) — reading input, variables, constants, numeric conversions, operator precedence
+- [Java I — Book Chapter 3](/College/yearTwo/secondTerm/Java/Book/Chapter-3) — `if` nests, logical operators, `switch`, ternary operator
+- [Java I — Book Chapter 5](/College/yearTwo/secondTerm/Java/Book/Chapter-5) — loops
+- [Java I — Book Chapter 6](/College/yearTwo/secondTerm/Java/Book/Chapter-6) — methods
+- [Java I — Book Chapter 7](/College/yearTwo/secondTerm/Java/Book/Chapter-7) — arrays
+
 _13 min read (source: 13 min)_

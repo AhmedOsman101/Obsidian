@@ -8,6 +8,35 @@ next: false
 
 # Data Communication - Section 4: UART, RS-232, and RS-485
 
+<script setup>
+import Stepper from '@viz/Stepper.vue'
+
+const handshakeSteps = [
+  {
+    title: "DTR and DSR go high",
+    detail: "Each side shows it is powered on and ready: DTE raises DTR (pin 4), the DCE raises DSR (pin 6). No data can flow yet — this is just 'I'm alive' on both ends.",
+    note: "Modem control, not flow control.",
+  },
+  {
+    title: "DTE raises RTS",
+    detail: "Request To Send (pin 7): 'may I send?' — the PC asks the DCE if it is allowed to transmit.",
+  },
+  {
+    title: "DCE answers CTS",
+    detail: "Clear To Send (pin 8): 'go' — the DCE's buffer has room, so the DTE may transmit.",
+  },
+  {
+    title: "Data flows TXD -> RXD",
+    detail: "With CTS asserted, bytes move from the sender's transmit line (pin 3 on DB-9) to the receiver's receive line (pin 2).",
+  },
+  {
+    title: "CTS drops to pause the sender",
+    detail: "Receiver buffer filling up -> CTS is deasserted -> the sender must stop. When buffer space frees, CTS rises and transmission resumes.",
+    note: "XON (DC1, 11h) / XOFF (DC3, 13h) do the same thing over the data line itself — no extra wires, at the cost of a few bytes of bandwidth.",
+  },
+]
+</script>
+
 This deck is the second half of the Lecture 3 lab: the chips that frame data, then the two wired standards that carry it. It also carries a corrections table at the end listing the slips found in the lecture slides, so the correct values are on record in one place.
 
 ## UART and USART: Parallel-to-Serial Converters
@@ -188,6 +217,8 @@ Standard baud rates: 75, 110, 300, 1200, 2400, 4800, **9600**, 14400, 19200, 288
 ### Handshaking, Data Format, and Flow Control
 
 **Hardware handshake (RTS/CTS, DTR/DSR).**
+
+<Stepper :steps="handshakeSteps" label="RS-232 hardware handshake" />
 
 1. DTR and DSR: each side shows it is powered on and ready.
 2. Sender raises RTS: "may I send?"

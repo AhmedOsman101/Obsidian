@@ -333,3 +333,25 @@ The site uses:
 - Gzip compression
 
 See `.vitepress/config.mts` for full configuration.
+
+## Interactive Visualizers
+
+Some concepts benefit from interactive diagrams (pipeline grids, handshake walkthroughs). VitePress compiles each `.md` file into a Vue SFC, so Vue components work directly in notes.
+
+- Shared SSR-safe viz components live in `.vitepress/theme/components/viz/`.
+- Import with the `@viz` alias (configured in `.vitepress/config.mts`), never with relative paths — notes move around.
+
+Example:
+
+```md
+<script setup>
+import Stepper from '@viz/Stepper.vue'
+</script>
+
+<Stepper :steps="[{ title: 'DTE raises RTS', detail: '...' }]" label="RS-232 handshake" />
+```
+
+- `<script setup>` goes after frontmatter, before content. Inline the data as literals in the `:steps` binding, or declare a const in the `<script setup>` block.
+- Components must stay SSR-safe: no `window`/`document` at setup scope, no top-level side effects. Compute in `computed`, mutate in handlers.
+- Use existing `@viz/` components when one fits; otherwise write a new SSR-safe component in `.vitepress/theme/components/viz/`. Add as many visualizers as the subject needs — no per-note cap — but every one must add value, and the note carries only the wiring (`<script setup>` import + tag), never component code.
+- In Obsidian, component tags render as raw text — keep prose self-sufficient and treat visualizers as enhancements, not as the only explanation.

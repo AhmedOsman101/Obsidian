@@ -1,3 +1,4 @@
+import { fileURLToPath, URL } from "node:url";
 import { defineConfig } from "vitepress";
 import { type UserConfig, withMermaid } from "vitepress-plugin-mermaid";
 import { withSidebar } from "vitepress-sidebar";
@@ -9,6 +10,7 @@ const vitePressOptions: UserConfig = {
   title: "Othman Notes",
   description: "A Website for all of my notes and thoughts",
   srcDir: "src",
+  srcExclude: ["**/draft*", "**/.obsidian/**", "**/templates/**"],
   lastUpdated: true,
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   markdown: {
@@ -67,10 +69,6 @@ const vitePressOptions: UserConfig = {
       pattern: "https://github.com/AhmedOsman101/Obsidian/edit/main/src/:path",
       text: "Edit this page",
     },
-    // docFooter: {
-    //   prev: "Previous page",
-    //   next: "Next page",
-    // },
     darkModeSwitchLabel: "Appearance",
     lightModeSwitchTitle: "Switch to light theme",
     darkModeSwitchTitle: "Switch to dark theme",
@@ -91,6 +89,16 @@ const vitePressOptions: UserConfig = {
     // optionally set additional config for plugin itself with MermaidPluginConfig
   },
   vite: {
+    // Alias for Markdown files to import shared visualizer components, e.g.
+    // `import Stepper from '@viz/Stepper.vue'` — keeps the import
+    // location-independent inside src/ so notes can be moved freely.
+    resolve: {
+      alias: {
+        "@viz": fileURLToPath(
+          new URL("./theme/components/viz", import.meta.url),
+        ),
+      },
+    },
     // Vite 8 (rolldown) no longer pre-bundles this CJS dep by default, so
     // mermaid's deep import of 'fastdom/extensions/fastdom-promised.js'
     // reached the browser as raw CommonJS and threw
@@ -114,7 +122,7 @@ const vitePressSidebarOptions: VitePressSidebarOptions = {
   capitalizeFirst: true,
   includeDotFiles: false,
   includeEmptyFolder: false,
-  excludePattern: ["*draft*"],
+  excludeByGlobPattern: ["*draft*"],
   hyphenToSpace: true,
   underscoreToSpace: true,
   includeRootIndexFile: false,
@@ -129,5 +137,5 @@ const vitePressSidebarOptions: VitePressSidebarOptions = {
 };
 
 export default defineConfig(
-  withSidebar(withMermaid(vitePressOptions), vitePressSidebarOptions)
+  withSidebar(withMermaid(vitePressOptions), vitePressSidebarOptions),
 );

@@ -1,0 +1,58 @@
+/* Layout overrides: wider doc column, collapsible sidebar at all widths. */
+
+/* sidebar scroll is keyboard/wheel driven; the overlay scrollbar would
+   paint above the navbar, so hide it like the outline aside does */
+.VPSidebar {
+  scrollbar-width: none;
+}
+.VPSidebar::-webkit-scrollbar {
+  display: none;
+}
+
+/* default: the navbar title takes only the space its logo and title need;
+   the sidebar column is reserved by the layout itself. */
+.VPNavBar.has-sidebar .title {
+  min-width: auto !important;
+  max-width: none !important;
+}
+
+.VPNavBar.has-sidebar .divider {
+  padding-inline-start: 0 !important;
+}
+
+.VPNavBar.has-sidebar .divider::before {
+  display: none;
+}
+
+/* default: wider doc body, still capped (scoped styles beat plain rules) */
+.VPDoc.has-aside .content-container {
+  max-width: 52rem !important;
+}
+
+/* opt-out: full available width (sidebar still shown, outline aside kept) */
+html.full-width .VPDoc.has-aside .content-container {
+  max-width: none !important;
+}
+
+html.full-width .VPDoc:not(.has-sidebar) .content,
+html.full-width .VPDoc:not(.has-sidebar) .container {
+  max-width: none !important;
+}
+
+/* collapsed sidebar, all screens */
+html.sidebar-hidden .VPSidebar {
+  display: none;
+}
+
+html.sidebar-hidden .VPContent.has-sidebar {
+  padding-inline-start: 0 !important;
+  padding-inline-end: 0 !important;
+}
+
+html.sidebar-hidden .VPLocalNav.has-sidebar {
+  padding-inline-start: 0 !important;
+}
+
+html.sidebar-hidden .VPNavBar.has-sidebar {
+  --vp-nav-col-offset: 0px !important;
+}

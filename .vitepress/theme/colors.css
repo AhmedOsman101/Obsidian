@@ -1,4 +1,7 @@
 .dark {
+  /* Match the sidebar (darker) instead of the page body */
+  --vp-nav-bg-color: var(--vp-c-bg-alt);
+  --vp-local-nav-bg-color: var(--vp-c-bg-alt);
   /* Fix button text color */
   --vp-button-brand-text: var(--ctp-mocha-crust) !important;
   --vp-button-brand-hover-text: var(--ctp-mocha-crust) !important;

@@ -8,6 +8,10 @@ next:
   link: "/College/yearThree/firstTerm/ComputerGraphics/Lectures/Lecture-5"
 ---
 
+<script setup>
+import PointPlotter3D from '@viz/PointPlotter3D.vue'
+</script>
+
 # Computer Graphics - Lecture 4: 3D Transformations and Polygon Filling
 
 ## 3D Transformations in One Sentence
@@ -194,6 +198,12 @@ Adding $A$ gives the same answer, so the five-step result is correct.
 
 > [!NOTE] Missing slide content
 > The solution slide after this example (page 22) is an empty image in the PDF, so the worked steps above are computed from the printed question rather than copied from the deck.
+
+## Interactive 3D Plotter
+
+An interactive plotter for the transformations in this lecture. It plots points in 3D, rotates them about any coordinate axis and translates them by any vector, using the same formulas as the worked examples above. Drag a point to move it in Y and Z; hold Shift and drag to move it along X. Drag the background to pan, use the mouse wheel to zoom, and press Fit to view if the plot drifts off screen. On the published page this is a live SVG; in a plain text editor it is just this marker, so nothing in the notes depends on it.
+
+<PointPlotter3D />
 
 ## Polygon Filling
 

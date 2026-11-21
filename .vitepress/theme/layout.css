@@ -1,5 +1,12 @@
 /* Layout overrides: wider doc column, collapsible sidebar at all widths. */
 
+/* Make navbar scroll away on desktop instead of staying fixed */
+@media (min-width: 60rem) {
+  .VPNav {
+    position: relative !important;
+  }
+}
+
 /* sidebar scroll is keyboard/wheel driven; the overlay scrollbar would
    paint above the navbar, so hide it like the outline aside does */
 .VPSidebar {

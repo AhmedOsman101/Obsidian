@@ -1,9 +1,16 @@
 /* Layout overrides: wider doc column, collapsible sidebar at all widths. */
 
-/* Make navbar scroll away on desktop instead of staying fixed */
+/* Make navbar and local nav scroll away on desktop instead of staying fixed */
 @media (min-width: 60rem) {
   .VPNav {
     position: relative !important;
+  }
+  .VPLocalNav {
+    position: relative !important;
+    top: auto !important;
+  }
+  .VPLocalNav::before {
+    top: 0 !important;
   }
 }
 

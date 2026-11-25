@@ -28,7 +28,7 @@
     "debug": "^4.4.3",
     "katex": "^0.19.1",
     "minisearch": "^7.2.0",
-    "vue": "^3.5.45"
+    "vue": "^3.5.46"
   },
   "packageManager": "pnpm@12.21.0"
 }
